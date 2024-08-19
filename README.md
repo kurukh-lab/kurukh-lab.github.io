@@ -1,0 +1,2 @@
+# kurukh-dictionary
+ 
