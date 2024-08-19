@@ -1,2 +1,2 @@
-# kurukh-dictionary
+# kurukh-dictionary.github.io
  
