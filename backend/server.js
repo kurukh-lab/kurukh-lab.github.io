@@ -1,5 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
+const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
@@ -8,6 +9,7 @@ const app = express();
 connectDB();
 
 // Init Middleware
+app.use(cors()); // Add CORS support
 app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => res.send('API Running'));

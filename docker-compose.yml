@@ -1,11 +1,20 @@
-version: '3.8'
 services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - '80:80'
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - kurukh-net
+
   frontend:
     build:
       context: ./frontend # Build context is the root kurukh-dictionary/frontend directory
       dockerfile: Dockerfile.frontend
-    ports:
-      - '3000:3000'
     volumes:
       - ./frontend/src:/app/src # Mount src for hot reloading
       - ./frontend/public:/app/public # Mount public for hot reloading
