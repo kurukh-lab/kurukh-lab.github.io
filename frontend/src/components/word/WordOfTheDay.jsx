@@ -12,15 +12,12 @@ export const WordOfTheDay = () => {
       try {
         // In a real implementation, there would be a specific API endpoint
         // for word of the day. For now, we'll just fetch a random approved word
-        const response = await fetch('/api/words');
+        const response = await fetch('/api/words?status=approved');
         if (!response.ok) {
           throw new Error('Failed to fetch words');
         }
         
-        const words = await response.json();
-        
-        // Filter for approved words
-        const approvedWords = words.filter(word => word.status === 'approved');
+        const approvedWords = await response.json();
         
         if (approvedWords.length === 0) {
           setError('No approved words found');

@@ -21,7 +21,7 @@ export const Home = () => {
       setLoading(true);
       try {
         // Fetch all words (which will give us the total count)
-        const response = await fetch('/api/words');
+        const response = await fetch('/api/words?status=approved');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -58,7 +58,7 @@ export const Home = () => {
     }
     
     try {
-      const response = await fetch(`/api/words?search=${encodeURIComponent(term)}`);
+      const response = await fetch(`/api/words?search=${encodeURIComponent(term)}&status=approved`);
       if (!response.ok) {
         throw new Error('Search request failed');
       }

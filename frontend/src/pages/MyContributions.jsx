@@ -21,7 +21,7 @@ export const MyContributions = () => {
     const fetchContributions = async () => {
       setLoading(true);
       try {
-        // Get user's contributions - backend should filter by the authenticated user's ID
+        // Get user's contributions - backend now handles filtering by authenticated user
         const response = await fetch('/api/words', {
           headers: {
             'x-auth-token': token
@@ -38,13 +38,8 @@ export const MyContributions = () => {
           throw new Error('Failed to fetch your contributions');
         }
 
-        const allWords = await response.json();
-        
-        // We need to filter contributions on the frontend since the backend returns all approved words
-        // In a production app, there would be a dedicated endpoint for user contributions
-        const userContributions = allWords.filter(word => word.contributor_id === user?.id);
-        
-        setContributions(userContributions);
+        const contributions = await response.json();
+        setContributions(contributions);
         setError(null);
       } catch (err) {
         console.error('Error fetching contributions:', err);

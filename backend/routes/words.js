@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { check, validationResult } = require('express-validator');
+const jwt = require('jsonwebtoken');
 const auth = require('../middleware/authMiddleware');
 
 const Word = require('../models/Word');
@@ -52,20 +53,45 @@ router.post(
 // @access  Public
 router.get('/', async (req, res) => {
   try {
-    const { search } = req.query;
+    const { search, status, contributor_id } = req.query;
+    let filter = {};
+    
+    // Add status filter if provided
+    if (status) {
+      filter.status = status;
+    }
+    
+    // Add contributor filter if provided
+    if (contributor_id) {
+      filter.contributor_id = contributor_id;
+    }
+    
+    // If authenticated, check if user is requesting their own contributions
+    if (req.headers['x-auth-token'] && !contributor_id) {
+      try {
+        const decoded = jwt.verify(req.headers['x-auth-token'], process.env.JWT_SECRET);
+        if (decoded.user && decoded.user.id) {
+          // If user is authenticated, add contributor_id filter to show their words
+          filter.contributor_id = decoded.user.id;
+        }
+      } catch (err) {
+        // Invalid token, just ignore and proceed with other filters
+        console.error('Token verification failed:', err.message);
+      }
+    }
+    
     let words;
     if (search) {
       // Basic search: looks for the search term in kurukh_word or in any definition
-      // For more advanced search, consider using MongoDB text indexes or more complex queries
       words = await Word.find({
         $or: [
           { kurukh_word: { $regex: search, $options: 'i' } }, // Case-insensitive search for Kurukh word
           { 'meanings.definition': { $regex: search, $options: 'i' } } // Case-insensitive search in definitions
         ],
-        status: 'approved', // Only show approved words
+        ...filter
       }).populate('contributor_id', ['username']); // Populate contributor username
     } else {
-      words = await Word.find({ status: 'approved' }).populate('contributor_id', ['username']);
+      words = await Word.find(filter).populate('contributor_id', ['username']);
     }
     res.json(words);
   } catch (err) {
@@ -82,10 +108,8 @@ router.get('/:id', async (req, res) => {
     const word = await Word.findById(req.params.id)
       .populate('contributor_id', ['username']);
 
-    if (!word || word.status !== 'approved') {
-      // If word not found or not approved, and user is not the contributor or an admin (future)
-      // For now, just check if approved
-      return res.status(404).json({ msg: 'Word not found or not approved' });
+    if (!word) {
+      return res.status(404).json({ msg: 'Word not found' });
     }
     res.json(word);
   } catch (err) {
