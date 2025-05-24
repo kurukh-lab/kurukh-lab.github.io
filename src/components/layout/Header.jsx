@@ -22,20 +22,21 @@ const Header = () => {
   };
 
   return (
-    <nav className="navbar bg-base-100 shadow-md sticky top-0 z-50">
+    <nav className="navbar bg-base-100 top-0 z-50">
       <div className="navbar-start">
-        
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+      </div>
+      <div className="navbar-end">
+        <div>
+          <ul className="menu menu-horizontal px-1">
           <li><NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>
           <li><NavLink to="/contribute" className={({ isActive }) => isActive ? "active" : ""}>Contribute</NavLink></li>
           {currentUser && currentUser.isAdmin && (
             <li><NavLink to="/admin" className={({ isActive }) => isActive ? "active" : ""}>Admin</NavLink></li>
           )}
         </ul>
-      </div>
-      <div className="navbar-end">
+        </div>
         {currentUser ? (
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar" onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}>
