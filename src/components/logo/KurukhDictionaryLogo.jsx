@@ -1,15 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const KurukhDictionaryLogo = ({ size = 'md' }) => {
+const KurukhDictionaryLogo = ({ size = 'md', link = true }) => {
   // Size variants
   const sizeClasses = {
     sm: 'h-8',
     md: 'h-12',
     lg: 'h-16',
-    xl: 'h-20',
+    xl: 'h-24',
   };
 
-  return (
+  const logoContent = (
     <div className={`flex items-center ${sizeClasses[size] || sizeClasses.md}`}>
       <div className="mr-2">
         <svg
@@ -38,12 +39,31 @@ const KurukhDictionaryLogo = ({ size = 'md' }) => {
           />
         </svg>
       </div>
-      <div className="font-bold tracking-tight text-amber-800 leading-none">
-        <div className={size === 'sm' ? 'text-lg' : 'text-2xl'}>Kurukh</div>
-        <div className={size === 'sm' ? 'text-md' : 'text-xl'}>Dictionary</div>
+      <div className="font-bold tracking-tight leading-none">
+        <div className={`${size === 'sm' ? 'text-lg' : (size === 'xl' ? 'text-4xl' : 'text-2xl')}`}>
+          <span className="text-primary">K</span>
+          <span className="text-secondary">u</span>
+          <span className="text-accent">r</span>
+          <span className="text-primary">u</span>
+          <span className="text-secondary">k</span>
+          <span className="text-accent">h</span>
+        </div>
+        <div className={`${size === 'sm' ? 'text-md' : (size === 'xl' ? 'text-2xl' : 'text-xl')} text-neutral-content`}>
+          Dictionary
+        </div>
       </div>
     </div>
   );
+
+  if (link) {
+    return (
+      <Link to="/" className="hover:opacity-85 transition-opacity duration-200">
+        {logoContent}
+      </Link>
+    );
+  }
+
+  return logoContent;
 };
 
 export default KurukhDictionaryLogo;

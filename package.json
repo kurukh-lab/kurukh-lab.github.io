@@ -21,6 +21,7 @@
     "firebase": "^11.8.1",
     "postcss": "^8.5.3",
     "react": "^19.1.0",
+    "react-daisyui": "^5.0.5",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0",
     "tailwindcss": "^4.1.7"

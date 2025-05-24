@@ -4,9 +4,12 @@ import SearchBar from '../components/common/SearchBar';
 import WordList from '../components/dictionary/WordList';
 import WordCard from '../components/dictionary/WordCard';
 import DictionaryStats from '../components/dictionary/DictionaryStats';
+import SearchShortcutHint from '../components/common/SearchShortcutHint';
 import { getRecentWords } from '../services/dictionaryService';
 import { getWordOfTheDay } from '../utils/wordUtils';
 import useSearch from '../hooks/useSearch';
+// Import required components from react-daisyui
+import { Hero, Card, Divider, Alert, Loading } from 'react-daisyui';
 
 const Home = () => {
   const [recentWords, setRecentWords] = useState([]);
@@ -42,85 +45,100 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center min-h-[80vh] gap-8 pt-6 pb-12">
-      {/* Logo Section */}
-      <div className="mb-4">
-        <KurukhDictionaryLogo size="lg" />
+    <Hero className="min-h-screen bg-base-100">
+      <div className="flex flex-col items-center w-full max-w-5xl px-4">
+        {/* Search engine style center-aligned content for initial view */}
+        <div className={`flex flex-col items-center justify-center transition-all duration-300 ${searchResults.length > 0 ? 'pt-8' : 'pt-32'}`}>
+          {/* Logo Section - Larger when no search results */}
+          <div className={`mb-8 transition-all ${searchResults.length > 0 ? 'scale-75' : 'scale-100'}`}>
+            <KurukhDictionaryLogo size={searchResults.length > 0 ? "md" : "xl"} />
+          </div>
+          
+          {/* Search Section */}
+          <div className={`w-full max-w-2xl transition-all ${searchResults.length > 0 ? 'max-w-xl' : 'max-w-2xl'}`}>
+            <SearchBar onSearchComplete={handleSearch} />
+            {/* Add keyboard shortcut hint when no search results */}
+            {searchResults.length === 0 && !loading && <SearchShortcutHint />}
+          </div>
+        </div>
+        
+        {/* Loading State */}
+        {loading && (
+          <div className="flex justify-center py-12">
+            <Loading variant="spinner" size="lg" />
+          </div>
+        )}
+
+        {/* Error Message */}
+        {error && !loading && (
+          <Alert status="error" className="w-full max-w-3xl mt-6">
+            <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>{error}</span>
+          </Alert>
+        )}
+
+        {/* Results Section - Full width and scrollable like search engines */}
+        {searchResults.length > 0 && (
+          <div className="w-full mt-8">
+            <Divider className="mb-4">Results</Divider>
+            <Card className="bg-base-100 shadow-md">
+              <Card.Body className="p-4">
+                <WordList 
+                  words={searchResults} 
+                  title={`Search Results (${searchResults.length})`} 
+                />
+              </Card.Body>
+            </Card>
+          </div>
+        )}
+
+        {/* Content when no search is performed - More visually appealing layout */}
+        {!loading && !error && searchResults.length === 0 && (
+          <div className="mt-12 w-full grid gap-8 grid-cols-1 md:grid-cols-2">
+            {/* Left side: Word of the Day */}
+            <Card className="bg-base-100 shadow-lg">
+              <Card.Body>
+                <Card.Title>
+                  <Divider className="mb-2">Word of the Day</Divider>
+                </Card.Title>
+                {wordOfTheDay && <WordCard word={wordOfTheDay} />}
+              </Card.Body>
+            </Card>
+            
+            {/* Right side: Dictionary Stats and Recent Words */}
+            <div className="flex flex-col gap-8">
+              {/* Dictionary Stats */}
+              <Card className="bg-base-100 shadow-lg">
+                <Card.Body>
+                  <Card.Title>
+                    <Divider className="mb-2">Dictionary Statistics</Divider>
+                  </Card.Title>
+                  <DictionaryStats />
+                </Card.Body>
+              </Card>
+
+              {/* Recent Words */}
+              {recentWords.length > 0 && (
+                <Card className="bg-base-100 shadow-lg">
+                  <Card.Body>
+                    <Card.Title>
+                      <Divider className="mb-2">Recently Added Words</Divider>
+                    </Card.Title>
+                    <WordList 
+                      words={recentWords} 
+                      title="" 
+                      compact={true} 
+                    />
+                  </Card.Body>
+                </Card>
+              )}
+            </div>
+          </div>
+        )}
       </div>
-      
-      {/* Search Section */}
-      <div className="w-full max-w-2xl">
-        <SearchBar onSearchComplete={handleSearch} />
-      </div>
-
-      {/* Loading State */}
-      {loading && (
-        <div className="flex justify-center py-12">
-          <span className="loading loading-spinner loading-lg text-primary"></span>
-        </div>
-      )}
-
-      {/* Error Message */}
-      {error && !loading && (
-        <div className="alert alert-error w-full max-w-2xl">
-          <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <span>{error}</span>
-        </div>
-      )}
-
-      {/* Results Section */}
-      {searchResults.length > 0 && (
-        <div className="w-full max-w-2xl">
-          <WordList 
-            words={searchResults} 
-            title="Search Results 0" 
-          />
-        </div>
-      )}
-
-<div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-</div>
-
-      {/* Word of the Day Section */}
-      {!loading && !error && searchResults.length === 0 && wordOfTheDay && (
-        <div className="w-full max-w-2xl mb-8">
-          <h2 className="text-xl font-bold mb-4">Word of the Day</h2>
-          <WordCard word={wordOfTheDay} />
-        </div>
-      )}
-      
-      {/* Dictionary Stats Section */}
-      {!loading && !error && searchResults.length === 0 && (
-        <div className="w-full max-w-2xl mt-6">
-          <DictionaryStats />
-        </div>
-      )}
-
-      {/* Recent Words Section */}
-      {!loading && !error && searchResults.length === 0 && recentWords.length > 0 && (
-        <div className="w-full max-w-2xl mt-8">
-          <WordList 
-            words={recentWords} 
-            title="Recently Added Words" 
-            compact={true} 
-          />
-        </div>
-      )}
-    </div>
+    </Hero>
   );
 };
 
