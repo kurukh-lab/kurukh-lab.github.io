@@ -38,11 +38,11 @@ The Kurukh Dictionary is a web application designed to be a crowd-sourced reposi
 
 ### 4. Technology Stack
 
-*   **Frontend:** React (using Create React App as a base - current setup)
+*   **Frontend:** React (using Vite as a build tool - modern and faster setup)
     *   Styling: Tailwind CSS with DaisyUI (current setup)
     *   State Management: React Context API or a library like Zustand/Redux (to be decided based on complexity)
     *   Routing: React Router
-*   **Backend:** Node.js with Express.js
+*   **Backend:** Node.js with Express.js (to be deployed as Firebase Functions)
     *   API Endpoints for:
         *   User authentication (register, login, logout)
         *   Word search
@@ -53,8 +53,7 @@ The Kurukh Dictionary is a web application designed to be a crowd-sourced reposi
         *   `words`: Stores Kurukh words, meanings, examples, contributor ID, timestamps, etc.
     *   Firebase Authentication: Handles user registration, login, and authentication.
 *   **Deployment & Development Environment:**
-    *   Docker: To containerize the frontend and backend for easy local development and consistent environments.
-    *   Docker Compose: To manage multi-container Docker applications.
+    *   Firebase Emulator Suite: For local development of frontend, backend, and database.
     *   Firebase Hosting: For deployment and hosting of the production application.
 
 ### 5. Data Models (Firebase)
@@ -96,23 +95,29 @@ The Kurukh Dictionary is a web application designed to be a crowd-sourced reposi
 
 ### 6. Development & Deployment Setup
 
-#### Local Development (Docker)
-*   A `docker-compose.yml` file will define two services:
-    1.  `frontend`: Builds from the React app's Dockerfile.
-    2.  `backend`: Builds from the Node.js/Express app's Dockerfile.
-*   Dockerfiles for frontend and backend will be created.
-*   Environment variables will be used for configuration (e.g., Firebase config, API ports).
+#### Local Development (Firebase Emulator)
+*   Firebase Emulator Suite will be used for local development:
+    1.  Frontend: Vite development server with hot module replacement (HMR) enabled.
+    2.  Backend: Firebase Functions Emulator to run the Express app locally.
+    3.  Database: Firestore Emulator for local data storage.
+    4.  Auth: Firebase Authentication Emulator for local user management.
+*   The Express app will be structured to work as Firebase Functions.
+*   `firebase.json` will define the configuration for the emulators.
+*   Environment variables will be used for configuration (e.g., Firebase config, API endpoints).
+*   Vite-specific configurations will be added to connect to the Firebase emulators during development.
 
 #### Production Deployment (Firebase)
 *   **Firebase Hosting:** Will serve the React frontend application.
     *   Configure with `firebase.json` for hosting settings, redirects, and rewrites.
     *   Setup single-page application (SPA) routing support.
-*   **Firebase Functions:** Optional, can be used to host the Express.js API as serverless functions.
-    *   Alternative to a traditional backend server deployment.
+    *   Specify `dist` as the Vite build output directory in `firebase.json`.
+*   **Firebase Functions:** Will be used to host the Express.js API as serverless functions.
+    *   The Express app will be wrapped in Firebase Functions using the `functions.https.onRequest()` method.
     *   Enables seamless integration with other Firebase services.
+    *   Provides automatic scaling based on demand.
 *   **Deployment Process:** 
-    *   Frontend build artifacts will be deployed to Firebase Hosting.
-    *   Environment-specific configuration will be managed through Firebase project settings.
+    *   Frontend build artifacts (from Vite's `dist` directory) will be deployed to Firebase Hosting.
+    *   Environment-specific configuration will be managed through Firebase project settings and Vite's `.env` files.
 
 ### 7. Project Milestones (High-Level)
 
@@ -121,13 +126,17 @@ The Kurukh Dictionary is a web application designed to be a crowd-sourced reposi
     *   [ ] Configure Firebase project and setup Firestore collections.
     *   [ ] Implement Firebase Authentication integration.
     *   [ ] Implement basic Firebase CRUD operations for Words.
-    *   [ ] Setup Docker environment for backend.
+    *   [ ] Setup Express app for Firebase Functions deployment.
+    *   [ ] Create Firebase Functions configuration.
+    *   [ ] Setup Firebase Emulator Suite for local development environment.
 2.  **Phase 2: Frontend - Basic Structure & Home Page**
+    *   [ ] Set up Vite project with React template.
+    *   [ ] Configure Vite for optimal development experience (aliases, environment variables, plugins).
     *   [ ] Integrate React Router.
     *   [ ] Develop Home Page UI ([`src/App.jsx`](src/App.jsx) can be adapted).
     *   [ ] Implement search functionality, fetching data from the backend API.
     *   [ ] Display search results.
-    *   [ ] Setup Docker environment for frontend.
+    *   [ ] Configure Vite to connect with Firebase Emulator Suite for local development.
 3.  **Phase 3: Frontend - Contribution & Authentication Flow**
     *   [ ] Develop Login and Registration pages using Firebase Auth UI components.
     *   [ ] Implement frontend authentication logic with Firebase Auth (user sessions, protecting routes).
@@ -137,7 +146,7 @@ The Kurukh Dictionary is a web application designed to be a crowd-sourced reposi
     *   [ ] Implement word review/approval system (if needed).
     *   [ ] Add "Word of the Day" or similar features.
     *   [ ] Improve UI/UX based on feedback.
-    *   [ ] Write unit and integration tests.
+    *   [ ] Write unit and integration tests using Firebase Emulator for test environment.
     *   [ ] Configure Firebase Hosting:
         *   [ ] Setup `firebase.json` configuration file.
         *   [ ] Configure caching and security headers.
