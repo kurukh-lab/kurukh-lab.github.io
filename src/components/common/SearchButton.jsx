@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-daisyui';
+import { FaSearch } from 'react-icons/fa'; // Assuming you use react-icons
 
 /**
  * A custom search button component with search engine styling
@@ -10,39 +10,18 @@ import { Button } from 'react-daisyui';
  */
 const SearchButton = ({ loading, disabled, onClick, children, ...rest }) => {
   return (
-    <Button
-      type="submit"
-      className="btn-primary rounded-full px-6 shadow-md transition-all hover:shadow-lg"
-      disabled={disabled || loading}
-      onClick={onClick}
-      {...rest}
+    <button 
+      type="button"
+      onClick={onClick} 
+      disabled={disabled || loading} 
+      className="btn btn-primary join-item" // Assuming you have Tailwind CSS classes for styling
     >
       {loading ? (
-        <span className="loading loading-spinner loading-sm"></span>
+        <span className="loading loading-spinner"></span> // Example loading spinner
       ) : (
-        <>
-          {children || (
-            <>
-              <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                className="h-5 w-5 mr-1" 
-                fill="none" 
-                viewBox="0 0 24 24" 
-                stroke="currentColor"
-              >
-                <path 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" 
-                  strokeWidth={2} 
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" 
-                />
-              </svg>
-              Search
-            </>
-          )}
-        </>
+        <FaSearch />
       )}
-    </Button>
+    </button>
   );
 };
 

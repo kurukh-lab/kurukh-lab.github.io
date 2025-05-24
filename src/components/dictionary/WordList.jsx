@@ -1,6 +1,5 @@
 import React from 'react';
 import WordCard from './WordCard';
-import { Divider } from 'react-daisyui';
 
 /**
  * Component to display a list of dictionary words styled like search engine results
@@ -28,52 +27,14 @@ const WordList = ({
   }
 
   return (
-    <div className="w-full">
-      {title && (
-        <div className="flex items-center gap-2 mb-4">
-          <span className="text-lg font-semibold">{title}</span>
-          {words.length > 0 && (
-            <span className="text-sm text-neutral-content">
-              {words.length === 1 ? '1 result' : `${words.length} results`}
-            </span>
-          )}
-        </div>
-      )}
-      
-      {compact ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-          {words.map((word) => (
-            <WordCard 
-              key={word.id} 
-              word={word} 
-              compact={true} 
-            />
-          ))}
-        </div>
-      ) : (
-        // Search results style - stacked vertically
-        <div>
-          {words.map((word, index) => (
-            <React.Fragment key={word.id}>
-              <WordCard word={word} compact={false} />
-              {index < words.length - 1 && <div className="my-1" />}
-            </React.Fragment>
-          ))}
-          
-          {/* Pagination-like element at bottom similar to search engines */}
-          {words.length > 8 && (
-            <div className="flex justify-center mt-8">
-              <div className="join">
-                <button className="join-item btn btn-sm btn-active">1</button>
-                <button className="join-item btn btn-sm btn-ghost">2</button>
-                <button className="join-item btn btn-sm btn-ghost">3</button>
-                <button className="join-item btn btn-sm btn-ghost">...</button>
-                <button className="join-item btn btn-sm btn-ghost">Next</button>
-              </div>
-            </div>
-          )}
-        </div>
-      )}
+    <div className={`word-list-container ${compact ? 'compact' : ''}`}>
+      {title && <h2 className="text-2xl font-bold mb-4 text-center">{title}</h2>}
+      {title && <hr className="my-4 border-base-300" />} {/* Replaced Divider */}
+      <div className={`grid gap-4 ${compact ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'}`}>
+        {words.map((word, index) => (
+          <WordCard key={word.id || index} word={word} compact={compact} />
+        ))}
+      </div>
     </div>
   );
 };

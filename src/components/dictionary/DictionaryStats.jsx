@@ -1,112 +1,62 @@
 import React, { useState, useEffect } from 'react';
-import { collection, query, where, orderBy, getDocs, getCountFromServer } from 'firebase/firestore';
-import { db } from '../../config/firebase';
-import { Stats, Loading } from 'react-daisyui';
+import { getDictionaryStats } from '../../services/dictionaryService';
+import { FaBook, FaUsers, FaPlusCircle } from 'react-icons/fa';
 
 const DictionaryStats = () => {
-  const [stats, setStats] = useState({
-    totalWords: 0,
-    recentlyAdded: 0,
-    pendingReview: 0,
-    loading: true
-  });
+  const [stats, setStats] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchStats = async () => {
+      setLoading(true);
       try {
-        // Get total approved words count
-        const approvedWordsQuery = query(
-          collection(db, 'words'),
-          where('status', '==', 'approved')
-        );
-        const approvedSnapshot = await getCountFromServer(approvedWordsQuery);
-        
-        // Get recently added words count (last 30 days)
-        const thirtyDaysAgo = new Date();
-        thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-        
-        const recentWordsQuery = query(
-          collection(db, 'words'),
-          where('status', '==', 'approved'),
-          where('createdAt', '>=', thirtyDaysAgo)
-        );
-        const recentSnapshot = await getCountFromServer(recentWordsQuery);
-        
-        // Get pending review count
-        const pendingQuery = query(
-          collection(db, 'words'),
-          where('status', '==', 'pending_review')
-        );
-        const pendingSnapshot = await getCountFromServer(pendingQuery);
-        
-        setStats({
-          totalWords: approvedSnapshot.data().count,
-          recentlyAdded: recentSnapshot.data().count,
-          pendingReview: pendingSnapshot.data().count,
-          loading: false
-        });
+        const data = await getDictionaryStats();
+        setStats(data);
       } catch (error) {
         console.error('Error fetching dictionary stats:', error);
-        setStats(prev => ({ ...prev, loading: false }));
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchStats();
   }, []);
 
-  if (stats.loading) {
+  if (loading) {
     return (
-      <div className="flex justify-center py-4">
-        <Loading variant="spinner" size="sm" />
+      <div className="flex justify-center items-center h-32">
+        <div>Loading stats...</div>
       </div>
     );
   }
 
   return (
-    <div className="stats stats-vertical lg:stats-horizontal shadow-md bg-base-100 rounded-lg">
-      <div className="stat bg-base-100 border-b lg:border-b-0 lg:border-r border-base-200">
+    <div className="stats shadow w-full bg-base-200">
+      <div className="stat">
         <div className="stat-figure text-primary">
-          <div className="avatar placeholder">
-            <div className="bg-primary/10 text-primary rounded-full w-12">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-              </svg>
-            </div>
-          </div>
+          <FaBook className="inline-block w-8 h-8 stroke-current"/>
         </div>
-        <div className="stat-title font-medium text-base-content/70">Dictionary Words</div>
-        <div className="stat-value text-primary text-4xl">{stats.totalWords.toLocaleString()}</div>
-        <div className="stat-desc text-base-content/60">Total indexed entries</div>
+        <div className="stat-title">Total Words</div>
+        <div className="stat-value text-primary">{stats.totalWords}</div>
+        <div className="stat-desc">Across all languages</div>
       </div>
-
-      <div className="stat bg-base-100 border-b lg:border-b-0 lg:border-r border-base-200">
+      
+      <div className="stat">
         <div className="stat-figure text-secondary">
-          <div className="avatar placeholder">
-            <div className="bg-secondary/10 text-secondary rounded-full w-12">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
-              </svg>
-            </div>
-          </div>
+          <FaUsers className="inline-block w-8 h-8 stroke-current"/>
         </div>
-        <div className="stat-title font-medium text-base-content/70">Recent Additions</div>
-        <div className="stat-value text-secondary text-4xl">{stats.recentlyAdded.toLocaleString()}</div>
-        <div className="stat-desc text-base-content/60">Added in the last 30 days</div>
+        <div className="stat-title">Contributors</div>
+        <div className="stat-value text-secondary">{stats.totalContributors}</div>
+        <div className="stat-desc">Helping grow the dictionary</div>
       </div>
-
-      <div className="stat bg-base-100">
+      
+      <div className="stat">
         <div className="stat-figure text-accent">
-          <div className="avatar placeholder">
-            <div className="bg-accent/10 text-accent rounded-full w-12">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-            </div>
-          </div>
+          <FaPlusCircle className="inline-block w-8 h-8 stroke-current"/>
         </div>
-        <div className="stat-title font-medium text-base-content/70">Pending Review</div>
-        <div className="stat-value text-accent text-4xl">{stats.pendingReview.toLocaleString()}</div>
-        <div className="stat-desc text-base-content/60">Words awaiting approval</div>
+        <div className="stat-title">New Words (Last 7 Days)</div>
+        <div className="stat-value text-accent">{stats.newWordsLastWeek}</div>
+        <div className="stat-desc">Actively expanding</div>
       </div>
     </div>
   );

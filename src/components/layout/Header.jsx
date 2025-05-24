@@ -1,61 +1,68 @@
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import KurukhDictionaryLogo from '../logo/KurukhDictionaryLogo';
+import React, { useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
+import KurukhDictionaryLogo from '../logo/KurukhDictionaryLogo';
 
 const Header = () => {
-  const { currentUser, userRoles, logout } = useAuth();
-  const navigate = useNavigate();
+  const { currentUser, logout } = useAuth();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
+  const closeUserMenu = () => {
+    setIsUserMenuOpen(false);
+  };
+
+  const handleLogoutAndCloseMenu = () => {
+    logout();
+    closeUserMenu();
+  };
 
   return (
-    <header className="bg-white shadow-md">
-      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <Link to="/" className="flex items-center">
-          <KurukhDictionaryLogo size="sm" />
-        </Link>
-
-        <nav className="flex items-center gap-4">
-          <Link to="/" className="hover:text-amber-600">Home</Link>
-          <Link to="/contribute" className="hover:text-amber-600">Contribute</Link>
-          {userRoles?.includes('admin') && (
-            <Link to="/admin" className="hover:text-amber-600 text-amber-700 font-medium">Admin</Link>
-          )}
-          
-          {currentUser ? (
-            <div className="flex items-center gap-3">
-              <div className="dropdown dropdown-end">
-                <div tabIndex={0} role="button" className="text-sm font-medium text-gray-600 hover:text-amber-600 cursor-pointer flex items-center gap-1">
-                  {currentUser.username || currentUser.email}
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                  </svg>
-                </div>
-                <ul tabIndex={0} className="dropdown-content z-10 menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li>
-                    <Link to="/profile">My Profile</Link>
-                  </li>
-                  <li>
-                    <button 
-                      onClick={async () => {
-                        await logout();
-                        navigate('/');
-                      }}
-                    >
-                      Logout
-                    </button>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          ) : (
-            <div className="flex gap-2">
-              <Link to="/login" className="btn btn-sm btn-outline btn-primary">Login</Link>
-              <Link to="/register" className="btn btn-sm btn-primary">Register</Link>
-            </div>
-          )}
-        </nav>
+    <nav className="navbar bg-base-100 shadow-md sticky top-0 z-50">
+      <div className="navbar-start">
+        
       </div>
-    </header>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">
+          <li><NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>
+          <li><NavLink to="/contribute" className={({ isActive }) => isActive ? "active" : ""}>Contribute</NavLink></li>
+          {currentUser && currentUser.isAdmin && (
+            <li><NavLink to="/admin" className={({ isActive }) => isActive ? "active" : ""}>Admin</NavLink></li>
+          )}
+        </ul>
+      </div>
+      <div className="navbar-end">
+        {currentUser ? (
+          <div className="dropdown dropdown-end">
+            <label tabIndex={0} className="btn btn-ghost btn-circle avatar" onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}>
+              <div className="w-10 rounded-full">
+                {/* Placeholder for user avatar - replace with actual image if available */}
+                <img src={currentUser.photoURL || `https://ui-avatars.com/api/?name=${currentUser.displayName || currentUser.email}&background=random`} alt="User avatar" />
+              </div>
+            </label>
+            {isUserMenuOpen && (
+              <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                <li>
+                  <Link to="/profile" className="justify-between" onClick={closeUserMenu}>
+                    Profile
+                    <span className="badge">New</span>
+                  </Link>
+                </li>
+                <li><button onClick={handleLogoutAndCloseMenu}>Logout</button></li>
+              </ul>
+            )}
+          </div>
+        ) : (
+          <Link to="/login">
+            <button className="btn btn-primary">Login</button>
+          </Link>
+        )}
+      </div>
+    </nav>
   );
 };
 

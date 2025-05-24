@@ -1,8 +1,8 @@
 import React from 'react';
+import PronunciationButton from './PronunciationButton';
+import ShareWordButtons from './ShareWordButtons';
 import { Link } from 'react-router-dom';
 import { formatDate } from '../../utils/wordUtils';
-import PronunciationButton from './PronunciationButton';
-import { Card } from 'react-daisyui';
 
 /**
  * Component for displaying a dictionary word entry styled like search results
@@ -29,10 +29,9 @@ const WordCard = ({ word, compact = false }) => {
     );
   }
 
-  // For search result style on the main result
   return (
-    <Card className="bg-base-100 border-l-4 border-primary hover:shadow-md transition-all mb-4">
-      <Card.Body className="p-4">
+    <div className={`card bg-base-100 shadow-xl ${compact ? 'card-compact' : ''}`}> {/* Replaced Card */}
+      <div className="card-body">
         <div className="flex justify-between items-start">
           <div>
             <div className="flex items-center gap-2">
@@ -84,8 +83,8 @@ const WordCard = ({ word, compact = false }) => {
             )}
           </div>
         )}
-      </Card.Body>
-    </Card>
+      </div>
+    </div>
   );
 };
 
