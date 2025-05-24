@@ -15,6 +15,7 @@
     "init-db": "node scripts/initializeDatabase.js"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.7",
     "autoprefixer": "^10.4.21",
     "daisyui": "^5.0.37",
     "firebase": "^11.8.1",
