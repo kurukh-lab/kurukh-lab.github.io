@@ -26,14 +26,19 @@ const reportsCollection = collection(db, 'reports');
  */
 export const searchWords = async (term, options = {}) => {
   try {
+    // Process the search term
+    const processedTerm = term.toLowerCase().trim();
+    console.log('Searching for processedTerm:', processedTerm); // <-- ADD THIS
+
     // Start with base query conditions
     const conditions = [
-      where('kurukh_word', '>=', term),
-      where('kurukh_word', '<=', term + '\uf8ff'),
+      where('kurukh_word', '>=', processedTerm),
+      where('kurukh_word', '<=', processedTerm + '\\uf8ff'),
       orderBy('kurukh_word'),
       // Only get words with 'approved' status
       where('status', '==', 'approved')
     ];
+    console.log('Query conditions:', JSON.stringify(conditions)); // <-- ADD THIS
     
     // Create a query against the collection
     const q = query(wordsCollection, ...conditions);

@@ -8,9 +8,10 @@
     "emulators": "firebase emulators:start --only auth,functions,firestore,storage,hosting",
     "dev:firebase": "concurrently \"npm run emulators\" \"npm run dev\"",
     "build": "vite build",
+    "build:clean": "rimraf dist && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "npm run build && firebase deploy",
+    "deploy": "npm run build:clean && firebase deploy",
     "deploy:functions": "firebase deploy --only functions",
     "init-db": "node scripts/initializeDatabase.js"
   },

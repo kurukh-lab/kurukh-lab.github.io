@@ -50,7 +50,7 @@ const Home = () => {
         <div className={`py-16 bg-base-200 transition-all duration-300 ${searchResults.length > 0 ? 'py-8' : 'py-32'}`}>
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h1 className="text-5xl font-bold mb-8">Kurukh Dictionary</h1>
+              <h1 className="text-5xl font-bold mb-8 averia-serif-libre-bold">Kurukh Dictionary</h1>
               <div className="w-full max-w-xl mx-auto">
                 <SearchBar onSearchComplete={handleSearch} />
                 {searchResults.length === 0 && !loading && <SearchShortcutHint />}
