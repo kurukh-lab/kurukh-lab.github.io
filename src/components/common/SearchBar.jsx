@@ -10,19 +10,39 @@ import useKeyboardShortcut from '../../hooks/useKeyboardShortcut';
  * @param {object} props Component props
  * @param {function} [props.onSearchComplete] Callback function when search is complete
  * @param {string} [props.initialSearchTerm] Initial search term
+ * @param {string} [props.searchTerm] Controlled search term
+ * @param {function} [props.onSearchTermChange] Callback for search term changes
+ * @param {function} [props.onSearch] Search handler function
+ * @param {boolean} [props.loading] Loading state
  */
-const SearchBar = ({ onSearchComplete, initialSearchTerm = '' }) => {
+const SearchBar = ({ 
+  onSearchComplete, 
+  initialSearchTerm = '', 
+  searchTerm: controlledSearchTerm,
+  onSearchTermChange,
+  onSearch,
+  loading: externalLoading
+}) => {
   const [showFilters, setShowFilters] = useState(false);
+  const [localSearchTerm, setLocalSearchTerm] = useState(initialSearchTerm);
   const searchInputRef = useRef(null);
+  
+  // Use external search functionality if provided, otherwise use internal useSearch
   const {
-    searchTerm,
-    setSearchTerm,
-    loading,
+    searchTerm: hookSearchTerm,
+    setSearchTerm: hookSetSearchTerm,
+    loading: hookLoading,
     error,
     filters,
     updateFilters,
-    handleSearch
+    handleSearch: hookHandleSearch
   } = useSearch();
+
+  // Determine which search term and handlers to use
+  const searchTerm = controlledSearchTerm !== undefined ? controlledSearchTerm : (hookSearchTerm || localSearchTerm);
+  const setSearchTerm = onSearchTermChange || hookSetSearchTerm || setLocalSearchTerm;
+  const handleSearch = onSearch || hookHandleSearch;
+  const loading = externalLoading !== undefined ? externalLoading : hookLoading;
 
   // Set initial search term if provided
   useEffect(() => {
@@ -91,14 +111,14 @@ const SearchBar = ({ onSearchComplete, initialSearchTerm = '' }) => {
         </button>
       </form>
 
-      {showFilters && (
+      {showFilters && filters && updateFilters && (
         <div className="mt-2 p-4 bg-base-200 rounded-md shadow">
           <div className="form-control">
             <label className="label">
               <span className="label-text">Search In:</span>
             </label>
             <select 
-              value={filters.language} 
+              value={filters.language || ''} 
               onChange={(e) => updateFilters({ language: e.target.value })}
               className="select select-bordered w-full"
             >
@@ -113,7 +133,7 @@ const SearchBar = ({ onSearchComplete, initialSearchTerm = '' }) => {
               <span className="label-text">Part of Speech:</span>
             </label>
             <select
-              value={filters.partOfSpeech}
+              value={filters.partOfSpeech || ''}
               onChange={(e) => updateFilters({ partOfSpeech: e.target.value })}
               className="select select-bordered w-full"
             >

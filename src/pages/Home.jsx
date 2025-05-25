@@ -13,7 +13,14 @@ const Home = () => {
   const [wordOfTheDay, setWordOfTheDay] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const { searchResults, handleSearch } = useSearch();
+  const { searchResults, searchTerm, setSearchTerm, handleSearch, loading: searchLoading } = useSearch();
+
+  // Handle search completion from SearchBar
+  const handleSearchComplete = async (term) => {
+    console.log('🔍 Home: Search completed for term:', term);
+    // The search results will be available through the useSearch hook
+    // No need to do anything else here since SearchBar already called handleSearch
+  };
 
   // Fetch data when component mounts
   useEffect(() => {
@@ -52,8 +59,14 @@ const Home = () => {
             <div className="max-w-md">
               <h1 className="text-5xl font-bold mb-8 averia-serif-libre-bold">Kurukh Dictionary</h1>
               <div className="w-full max-w-xl mx-auto">
-                <SearchBar onSearchComplete={handleSearch} />
-                {searchResults.length === 0 && !loading && <SearchShortcutHint />}
+                <SearchBar 
+                  searchTerm={searchTerm}
+                  onSearchTermChange={setSearchTerm}
+                  onSearch={handleSearch}
+                  loading={searchLoading}
+                  onSearchComplete={handleSearchComplete} 
+                />
+                {searchResults.length === 0 && !loading && !searchLoading && <SearchShortcutHint />}
               </div>
             </div>
           </div>

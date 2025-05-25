@@ -28,33 +28,53 @@ export const searchWords = async (term, options = {}) => {
   try {
     // Process the search term
     const processedTerm = term.toLowerCase().trim();
-    console.log('Searching for processedTerm:', processedTerm); // <-- ADD THIS
+    console.log('🔍 Searching for term:', processedTerm);
 
-    // Start with base query conditions
-    const conditions = [
-      where('kurukh_word', '>=', processedTerm),
-      where('kurukh_word', '<=', processedTerm + '\\uf8ff'),
-      orderBy('kurukh_word'),
-      // Only get words with 'approved' status
+    // Create base query for approved words only
+    const baseQuery = query(
+      wordsCollection,
       where('status', '==', 'approved')
-    ];
-    console.log('Query conditions:', JSON.stringify(conditions)); // <-- ADD THIS
+    );
     
-    // Create a query against the collection
-    const q = query(wordsCollection, ...conditions);
-    
-    const querySnapshot = await getDocs(q);
+    console.log('📋 Executing base query for approved words...');
+    const querySnapshot = await getDocs(baseQuery);
     let words = [];
     
+    console.log(`📊 Found ${querySnapshot.size} approved words total`);
+    
+    // Get all approved words and filter client-side
     querySnapshot.forEach((doc) => {
-      words.push({
+      const wordData = {
         id: doc.id,
         ...doc.data()
-      });
+      };
+      
+      // Client-side search filtering
+      const kurukhWord = wordData.kurukh_word?.toLowerCase() || '';
+      
+      // Check if the word starts with or contains the search term
+      if (kurukhWord.includes(processedTerm)) {
+        words.push(wordData);
+      }
+    });
+    
+    console.log(`🎯 Found ${words.length} words matching "${processedTerm}"`);
+    
+    // Sort results by relevance (exact matches first, then contains)
+    words.sort((a, b) => {
+      const aWord = a.kurukh_word?.toLowerCase() || '';
+      const bWord = b.kurukh_word?.toLowerCase() || '';
+      
+      const aStartsWith = aWord.startsWith(processedTerm);
+      const bStartsWith = bWord.startsWith(processedTerm);
+      
+      if (aStartsWith && !bStartsWith) return -1;
+      if (!aStartsWith && bStartsWith) return 1;
+      
+      return aWord.localeCompare(bWord);
     });
     
     // Apply client-side filtering for language and part of speech if specified
-    // Note: Firebase doesn't support array filtering in queries, so we do it client-side
     if (options.language) {
       words = words.filter(word => 
         word.meanings && word.meanings.some(meaning => meaning.language === options.language)
@@ -65,9 +85,10 @@ export const searchWords = async (term, options = {}) => {
       words = words.filter(word => word.part_of_speech === options.partOfSpeech);
     }
     
+    console.log(`✅ Final results after filtering: ${words.length} words`);
     return words;
   } catch (error) {
-    console.error("Error searching words:", error);
+    console.error("❌ Error searching words:", error);
     throw error;
   }
 };
