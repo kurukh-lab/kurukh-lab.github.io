@@ -100,12 +100,46 @@ const Admin = () => {
   // Fetch word reports
   useEffect(() => {
     const fetchWordReports = async () => {
-      if (!isAdmin || activeTab !== 'reports') return;
+      console.log('🔍 fetchWordReports called', { 
+        isAdmin, 
+        currentUser: currentUser?.uid,
+        userRoles,
+        rolesLoading,
+        activeTab,
+        hasCurrentUser: !!currentUser,
+        rolesLoaded: !rolesLoading
+      });
+      
+      // If user is not logged in, skip
+      if (!currentUser) {
+        console.log('❌ No current user, skipping fetch');
+        return;
+      }
+      
+      // If user roles are still loading, skip (avoid race condition)
+      if (rolesLoading) {
+        console.log('⏳ User roles still loading, skipping fetch');
+        return;
+      }
+      
+      // If user is not admin after roles are loaded, skip
+      if (!isAdmin) {
+        console.log('❌ Not admin after roles loaded, skipping fetch');
+        setReportsLoading(false);
+        return;
+      }
+      
+      // Only fetch when on reports tab
+      if (activeTab !== 'reports') {
+        console.log('❌ Not on reports tab, skipping fetch');
+        return;
+      }
       
       setReportsLoading(true);
       setReportsError(null);
       
       try {
+        console.log('🔍 Admin fetching word reports...', { isAdmin, activeTab });
         const reportsQuery = query(
           collection(db, 'reports'),
           where('status', '==', 'open'),
@@ -113,13 +147,17 @@ const Admin = () => {
         );
         
         const querySnapshot = await getDocs(reportsQuery);
+        console.log('📄 Reports query snapshot size:', querySnapshot.size);
+        
         const reports = [];
         
-        for (const doc of querySnapshot.docs) {
+        for (const docSnapshot of querySnapshot.docs) {
           const reportData = {
-            id: doc.id,
-            ...doc.data()
+            id: docSnapshot.id,
+            ...docSnapshot.data()
           };
+          
+          console.log('📝 Found report:', reportData.id, 'for word:', reportData.word_id);
           
           // Get word details for each report
           try {
@@ -129,14 +167,18 @@ const Admin = () => {
                 id: wordDoc.id,
                 ...wordDoc.data()
               };
+              console.log('📝 Word details loaded:', reportData.word.kurukh_word);
+            } else {
+              console.log('❌ Word not found for report:', reportData.word_id);
             }
           } catch (wordErr) {
-            console.error('Error fetching word for report:', wordErr);
+            console.error('❌ Error fetching word for report:', wordErr);
           }
           
           reports.push(reportData);
         }
         
+        console.log('📋 Total reports loaded:', reports.length);
         setWordReports(reports);
       } catch (err) {
         console.error('Error fetching word reports:', err);
@@ -147,7 +189,7 @@ const Admin = () => {
     };
     
     fetchWordReports();
-  }, [isAdmin, activeTab]);
+  }, [isAdmin, activeTab, currentUser, userRoles, rolesLoading]);
   
   // Handle word approval
   const handleApproveWord = async (wordId) => {
@@ -398,6 +440,13 @@ const Admin = () => {
                       <p className="font-medium">Reason:</p>
                       <p>{report.reason}</p>
                     </div>
+                    
+                    {report.details && (
+                      <div className="mb-4">
+                        <p className="font-medium">Details:</p>
+                        <p className="text-gray-700">{report.details}</p>
+                      </div>
+                    )}
                     
                     <div className="flex gap-3 justify-end">
                       <button 
