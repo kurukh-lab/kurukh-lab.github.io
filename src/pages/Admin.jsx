@@ -6,7 +6,7 @@ import { db } from '../config/firebase';
 import { formatDate } from '../utils/wordUtils';
 
 const Admin = () => {
-  const { currentUser, isAdmin } = useAuth();
+  const { currentUser, isAdmin, userRoles, rolesLoading } = useAuth();
   const navigate = useNavigate();
   const [pendingWords, setPendingWords] = useState([]);
   const [wordReports, setWordReports] = useState([]);
@@ -18,31 +18,73 @@ const Admin = () => {
   const [successMessage, setSuccessMessage] = useState(null);
   const [activeTab, setActiveTab] = useState('pending-words');
 
+  // Debug logging
+  console.log('🔍 Admin component render', { 
+    currentUser: currentUser?.uid, 
+    isAdmin, 
+    userRoles,
+    rolesLoading,
+    pendingWordsCount: pendingWords.length,
+    loading 
+  });
+
   // Fetch pending words
   useEffect(() => {
     const fetchPendingWords = async () => {
-      if (!isAdmin) return;
+      console.log('🔍 fetchPendingWords called', { 
+        isAdmin, 
+        currentUser: currentUser?.uid,
+        userRoles,
+        rolesLoading,
+        hasCurrentUser: !!currentUser,
+        rolesLoaded: !rolesLoading
+      });
+      
+      // If user is not logged in, skip
+      if (!currentUser) {
+        console.log('❌ No current user, skipping fetch');
+        return;
+      }
+      
+      // If user roles are still loading, skip (avoid race condition)
+      if (rolesLoading) {
+        console.log('⏳ User roles still loading, skipping fetch');
+        return;
+      }
+      
+      // If user is not admin after roles are loaded, skip
+      if (!isAdmin) {
+        console.log('❌ Not admin after roles loaded, skipping fetch');
+        setLoading(false);
+        return;
+      }
 
       setLoading(true);
       setError(null);
 
       try {
+        console.log('🔍 Admin fetching pending words...', { isAdmin });
         const q = query(
           collection(db, 'words'),
           where('status', '==', 'pending_review'),
-          orderBy('createdAt', 'asc')
+          orderBy('createdAt', 'desc')
         );
         
         const querySnapshot = await getDocs(q);
         const words = [];
         
+        console.log('📄 Query snapshot size:', querySnapshot.size);
+        
         querySnapshot.forEach((doc) => {
-          words.push({
+          const wordData = {
             id: doc.id,
             ...doc.data()
-          });
+          };
+          console.log('📝 Found pending word:', wordData.kurukh_word, wordData.status);
+          words.push(wordData);
         });
         
+        console.log('📋 Total pending words:', words.length);
         setPendingWords(words);
       } catch (err) {
         console.error("Error fetching pending words:", err);
@@ -53,7 +95,7 @@ const Admin = () => {
     };
     
     fetchPendingWords();
-  }, [isAdmin]);
+  }, [isAdmin, currentUser, userRoles, rolesLoading]);
 
   // Fetch word reports
   useEffect(() => {

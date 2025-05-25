@@ -105,14 +105,18 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   // Get user roles from Firestore
-  const [userRoles, setUserRoles] = useState([]);
+  const [userRoles, setUserRoles] = useState(null); // Start with null to indicate not loaded
+  const [rolesLoading, setRolesLoading] = useState(false);
   
   useEffect(() => {
     const fetchUserRoles = async () => {
       if (!currentUser) {
         setUserRoles([]);
+        setRolesLoading(false);
         return;
       }
+      
+      setRolesLoading(true);
       
       try {
         console.log("🔍 Fetching user roles for UID:", currentUser.uid);
@@ -131,6 +135,8 @@ export const AuthProvider = ({ children }) => {
       } catch (error) {
         console.error("❌ Error fetching user roles:", error);
         setUserRoles([]);
+      } finally {
+        setRolesLoading(false);
       }
     };
     
@@ -140,6 +146,7 @@ export const AuthProvider = ({ children }) => {
   const value = {
     currentUser,
     userRoles,
+    rolesLoading,
     isAdmin: userRoles?.includes('admin') || false,
     register,
     login,
