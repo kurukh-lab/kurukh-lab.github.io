@@ -14,6 +14,7 @@ function App() {
   const WordDetails = React.lazy(() => import('./pages/WordDetails'));
   const Admin = React.lazy(() => import('./pages/Admin'));
   const UserProfile = React.lazy(() => import('./pages/UserProfile'));
+  const FirebaseTest = React.lazy(() => import('./pages/FirebaseTest'));
   
   return (
     <Router>
@@ -43,6 +44,13 @@ function App() {
             } />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            {import.meta.env.DEV && (
+              <Route path="/firebase-test" element={
+                <React.Suspense fallback={<div className="flex justify-center p-10"><span className="loading loading-spinner loading-lg"></span></div>}>
+                  <FirebaseTest />
+                </React.Suspense>
+              } />
+            )}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>

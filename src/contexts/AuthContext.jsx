@@ -7,6 +7,7 @@ import {
 } from 'firebase/auth';
 import { auth, db } from '../config/firebase';
 import { doc, setDoc, getDoc } from 'firebase/firestore';
+import { testFirebaseConnection, getUserDocument } from '../utils/firebaseTest';
 
 // Create the context
 export const AuthContext = createContext(null);
@@ -66,19 +67,26 @@ export const AuthProvider = ({ children }) => {
   // Get user data from Firestore
   const getUserData = async (uid) => {
     try {
-      const userDoc = await getDoc(doc(db, "users", uid));
-      if (userDoc.exists()) {
-        return userDoc.data();
-      }
-      return null;
+      console.log("🔍 getUserData called for UID:", uid);
+      
+      // Use the enhanced debugging function
+      const userData = await getUserDocument(uid);
+      return userData;
     } catch (error) {
-      console.error("Error getting user data:", error);
+      console.error("❌ Error in getUserData:", error);
       return null;
     }
   };
 
   // Listen for auth state changes
   useEffect(() => {
+    // Test Firebase connection when app starts
+    if (import.meta.env.DEV) {
+      testFirebaseConnection().then(result => {
+        console.log('🧪 Firebase connection test result:', result);
+      });
+    }
+
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
       if (user) {
         // User is signed in - get additional data from Firestore
@@ -106,15 +114,21 @@ export const AuthProvider = ({ children }) => {
       }
       
       try {
-        const userDoc = await getDoc(doc(db, "users", currentUser.uid));
+        console.log("🔍 Fetching user roles for UID:", currentUser.uid);
+        const userDocRef = doc(db, "users", currentUser.uid);
+        const userDoc = await getDoc(userDocRef);
+        console.log("📄 User roles document exists:", userDoc.exists());
+        
         if (userDoc.exists()) {
           const data = userDoc.data();
+          console.log("📄 User roles document data:", data);
           setUserRoles(data.roles || []);
         } else {
+          console.log("📄 No user roles document found");
           setUserRoles([]);
         }
       } catch (error) {
-        console.error("Error fetching user roles:", error);
+        console.error("❌ Error fetching user roles:", error);
         setUserRoles([]);
       }
     };

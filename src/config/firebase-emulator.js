@@ -7,23 +7,35 @@ import { connectStorageEmulator } from "firebase/storage";
 import { connectFunctionsEmulator } from "firebase/functions";
 import { auth, db, storage, functions } from "./firebase";
 
+// Track if emulators are already connected
+let emulatorsConnected = false;
+
 // Check if we're in development mode
-if (import.meta.env.DEV) {
+if (import.meta.env.DEV && !emulatorsConnected) {
   console.log("Development mode detected! Connecting to Firebase emulators...");
   
-  // Connect to Authentication emulator
-  connectAuthEmulator(auth, "http://localhost:9098", { disableWarnings: true });
-  
-  // Connect to Firestore emulator
-  connectFirestoreEmulator(db, "localhost", 8081);
-  
-  // Connect to Storage emulator
-  connectStorageEmulator(storage, "localhost", 9198);
-  
-  // Connect to Functions emulator
-  connectFunctionsEmulator(functions, "localhost", 5011);
-  
-  console.log("Connected to Firebase emulators!");
+  try {
+    // Connect to Authentication emulator
+    connectAuthEmulator(auth, "http://127.0.0.1:9098", { disableWarnings: true });
+    console.log("Connected to Auth emulator");
+    
+    // Connect to Firestore emulator
+    connectFirestoreEmulator(db, "127.0.0.1", 8081);
+    console.log("Connected to Firestore emulator");
+    
+    // Connect to Storage emulator
+    connectStorageEmulator(storage, "127.0.0.1", 9198);
+    console.log("Connected to Storage emulator");
+    
+    // Connect to Functions emulator
+    connectFunctionsEmulator(functions, "127.0.0.1", 5011);
+    console.log("Connected to Functions emulator");
+    
+    emulatorsConnected = true;
+    console.log("All Firebase emulators connected successfully!");
+  } catch (error) {
+    console.warn("Firebase emulators may already be connected:", error.message);
+  }
 }
 
 export default {};
