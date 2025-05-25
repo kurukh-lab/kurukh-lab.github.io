@@ -1,0 +1,32 @@
+## Contributing
+
+Contributions to the Kurukh Dictionary project are welcome! Here's how you can contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please ensure your code follows the existing style and includes appropriate tests.
+
+## Future Roadmap
+
+- **PWA Implementation:** Enable offline access and installation as a progressive web app
+- **Audio Pronunciation:** Allow users to upload audio pronunciations for words
+- **Mobile App:** Develop mobile applications using React Native
+- **Expanded Language Support:** Add support for more languages beyond English and Hindi
+- **Enhanced Search:** Implement fuzzy search and phonetic matching
+- **Community Features:** Add discussion forums and comments on word entries
+- **Gamification:** Add badges, points, and leaderboards for contributors
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Kurukh language community
+- Firebase team for their excellent documentation
+- React and Vite communities for their tools and resources
+- All contributors who help build and maintain this project

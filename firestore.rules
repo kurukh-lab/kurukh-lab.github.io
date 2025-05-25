@@ -1,0 +1,30 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to check if user is admin
+    function isAdmin() {
+      return request.auth != null && 
+             exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.roles.hasAny(['admin']);
+    }
+    
+    // Allow public read access to approved words, admin access to all words
+    match /words/{wordId} {
+      allow read: if resource.data.status == 'approved' || isAdmin();
+      allow write: if request.auth != null;
+    }
+    
+    // Allow admin access to all reports, users can only read their own reports
+    match /reports/{reportId} {
+      allow read: if isAdmin() || (request.auth != null && resource.data.user_id == request.auth.uid);
+      allow write: if request.auth != null;
+    }
+    
+    // Restrict user data access to authenticated users and admins
+    match /users/{userId} {
+      allow read: if request.auth != null && (request.auth.uid == userId || isAdmin());
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
