@@ -34,6 +34,7 @@ export const AuthProvider = ({ children }) => {
         uid: user.uid,
         username,
         email,
+        roles: ['user'], // Default role for new users
         createdAt: new Date(),
         updatedAt: new Date()
       });
@@ -139,6 +140,7 @@ export const AuthProvider = ({ children }) => {
   const value = {
     currentUser,
     userRoles,
+    isAdmin: userRoles?.includes('admin') || false,
     register,
     login,
     logout,

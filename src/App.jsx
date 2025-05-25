@@ -8,6 +8,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import NotFound from './pages/NotFound';
 import ProtectedRoute from './components/auth/ProtectedRoute';
+import AdminRoute from './components/auth/AdminRoute';
 import './App.css';
 
 function App() {
@@ -36,11 +37,11 @@ function App() {
               </ProtectedRoute>
             } />
             <Route path="/admin" element={
-              <ProtectedRoute>
+              <AdminRoute>
                 <React.Suspense fallback={<div className="flex justify-center p-10"><span className="loading loading-spinner loading-lg"></span></div>}>
                   <Admin />
                 </React.Suspense>
-              </ProtectedRoute>
+              </AdminRoute>
             } />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />

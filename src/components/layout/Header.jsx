@@ -4,7 +4,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import KurukhDictionaryLogo from '../logo/KurukhDictionaryLogo';
 
 const Header = () => {
-  const { currentUser, logout } = useAuth();
+  const { currentUser, isAdmin, logout } = useAuth();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
 
@@ -32,7 +32,7 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1">
           <li><NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>
           <li><NavLink to="/contribute" className={({ isActive }) => isActive ? "active" : ""}>Contribute</NavLink></li>
-          {currentUser && currentUser.isAdmin && (
+          {currentUser && isAdmin && (
             <li><NavLink to="/admin" className={({ isActive }) => isActive ? "active" : ""}>Admin</NavLink></li>
           )}
         </ul>

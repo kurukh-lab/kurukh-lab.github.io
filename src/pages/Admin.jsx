@@ -6,7 +6,7 @@ import { db } from '../config/firebase';
 import { formatDate } from '../utils/wordUtils';
 
 const Admin = () => {
-  const { currentUser, userRoles } = useAuth();
+  const { currentUser, isAdmin } = useAuth();
   const navigate = useNavigate();
   const [pendingWords, setPendingWords] = useState([]);
   const [wordReports, setWordReports] = useState([]);
@@ -17,9 +17,6 @@ const Admin = () => {
   const [actionInProgress, setActionInProgress] = useState(false);
   const [successMessage, setSuccessMessage] = useState(null);
   const [activeTab, setActiveTab] = useState('pending-words');
-
-  // Check if user is admin
-  const isAdmin = userRoles?.includes('admin');
 
   // Fetch pending words
   useEffect(() => {
