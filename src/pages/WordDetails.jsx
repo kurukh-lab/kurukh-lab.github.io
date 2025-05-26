@@ -41,7 +41,7 @@ const WordDetails = () => {
   if (loading) {
     return (
       <div className="max-w-3xl mx-auto py-10 px-4 flex justify-center">
-        <span className="loading loading-spinner loading-lg text-primary"></span>
+        <span data-testid="loading-spinner" className="loading loading-spinner loading-lg text-primary"></span>
       </div>
     );
   }
