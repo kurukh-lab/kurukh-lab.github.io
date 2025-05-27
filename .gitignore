@@ -40,3 +40,4 @@ ui-debug.log*
 emulator-data/
 .env.example
 .vite/
+coverage/

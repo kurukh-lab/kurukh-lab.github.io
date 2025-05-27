@@ -4,16 +4,20 @@ import { useAuth } from '../contexts/AuthContext';
 import { collection, query, where, getDocs, doc, updateDoc, orderBy, getDoc } from 'firebase/firestore';
 import { db } from '../config/firebase';
 import { formatDate } from '../utils/wordUtils';
+import { getCorrectionsForReview, voteOnCorrection, applyCorrection } from '../services/dictionaryService';
 
 const Admin = () => {
   const { currentUser, isAdmin, userRoles, rolesLoading } = useAuth();
   const navigate = useNavigate();
   const [pendingWords, setPendingWords] = useState([]);
   const [wordReports, setWordReports] = useState([]);
+  const [corrections, setCorrections] = useState([]);
   const [loading, setLoading] = useState(true);
   const [reportsLoading, setReportsLoading] = useState(true);
+  const [correctionsLoading, setCorrectionsLoading] = useState(true);
   const [error, setError] = useState(null);
   const [reportsError, setReportsError] = useState(null);
+  const [correctionsError, setCorrectionsError] = useState(null);
   const [actionInProgress, setActionInProgress] = useState(false);
   const [successMessage, setSuccessMessage] = useState(null);
   const [activeTab, setActiveTab] = useState('pending-words');
@@ -190,6 +194,101 @@ const Admin = () => {
     
     fetchWordReports();
   }, [isAdmin, activeTab, currentUser, userRoles, rolesLoading]);
+
+  // Fetch corrections for admin review
+  useEffect(() => {
+    const fetchCorrections = async () => {
+      console.log('🔍 fetchCorrections called', { 
+        isAdmin, 
+        currentUser: currentUser?.uid,
+        userRoles,
+        rolesLoading,
+        activeTab,
+        hasCurrentUser: !!currentUser,
+        rolesLoaded: !rolesLoading
+      });
+      
+      // If user is not logged in, skip
+      if (!currentUser) {
+        console.log('❌ No current user, skipping fetch');
+        return;
+      }
+      
+      // If user roles are still loading, skip (avoid race condition)
+      if (rolesLoading) {
+        console.log('⏳ User roles still loading, skipping fetch');
+        return;
+      }
+      
+      // If user is not admin after roles are loaded, skip
+      if (!isAdmin) {
+        console.log('❌ Not admin after roles loaded, skipping fetch');
+        setCorrectionsLoading(false);
+        return;
+      }
+      
+      // Only fetch when on corrections tab
+      if (activeTab !== 'corrections') {
+        console.log('❌ Not on corrections tab, skipping fetch');
+        return;
+      }
+      
+      setCorrectionsLoading(true);
+      setCorrectionsError(null);
+      
+      try {
+        console.log('🔍 Admin fetching corrections...', { isAdmin, activeTab });
+        // Get all corrections that need admin review (approved by community or need admin decision)
+        const correctionsQuery = query(
+          collection(db, 'corrections'),
+          where('status', 'in', ['approved', 'shallow_review']),
+          orderBy('createdAt', 'desc')
+        );
+        
+        const querySnapshot = await getDocs(correctionsQuery);
+        console.log('📄 Corrections query snapshot size:', querySnapshot.size);
+        
+        const correctionsData = [];
+        
+        for (const docSnapshot of querySnapshot.docs) {
+          const correctionData = {
+            id: docSnapshot.id,
+            ...docSnapshot.data()
+          };
+          
+          console.log('📝 Found correction:', correctionData.id, 'for word:', correctionData.word_id);
+          
+          // Get word details for each correction
+          try {
+            const wordDoc = await getDoc(doc(db, 'words', correctionData.word_id));
+            if (wordDoc.exists()) {
+              correctionData.word = {
+                id: wordDoc.id,
+                ...wordDoc.data()
+              };
+              console.log('📝 Word details loaded:', correctionData.word.kurukh_word);
+            } else {
+              console.log('❌ Word not found for correction:', correctionData.word_id);
+            }
+          } catch (wordErr) {
+            console.error('❌ Error fetching word for correction:', wordErr);
+          }
+          
+          correctionsData.push(correctionData);
+        }
+        
+        console.log('📋 Total corrections loaded:', correctionsData.length);
+        setCorrections(correctionsData);
+      } catch (err) {
+        console.error('Error fetching corrections:', err);
+        setCorrectionsError('Failed to load corrections. Please try again.');
+      } finally {
+        setCorrectionsLoading(false);
+      }
+    };
+    
+    fetchCorrections();
+  }, [isAdmin, activeTab, currentUser, userRoles, rolesLoading]);
   
   // Handle word approval
   const handleApproveWord = async (wordId) => {
@@ -288,6 +387,101 @@ const Admin = () => {
     }
   };
 
+  // Handle correction approval (apply the correction)
+  const handleApproveCorrection = async (correctionId) => {
+    if (actionInProgress) return;
+    setActionInProgress(true);
+    
+    try {
+      const correction = corrections.find(c => c.id === correctionId);
+      if (!correction) {
+        throw new Error('Correction not found');
+      }
+      
+      // Update the correction status to approved
+      const correctionRef = doc(db, 'corrections', correctionId);
+      await updateDoc(correctionRef, {
+        status: 'admin_approved',
+        admin_approved_by: currentUser.uid,
+        admin_approved_at: new Date(),
+        updatedAt: new Date()
+      });
+      
+      // Apply the correction to the actual word
+      const applyResult = await applyCorrection(correctionId);
+      
+      if (!applyResult.success) {
+        throw new Error(applyResult.error);
+      }
+      
+      // Remove the correction from the list
+      setCorrections(corrections.filter(c => c.id !== correctionId));
+      setSuccessMessage('Correction approved and applied successfully!');
+      
+      // Clear success message after 3 seconds
+      setTimeout(() => {
+        setSuccessMessage(null);
+      }, 3000);
+    } catch (err) {
+      console.error('Error approving correction:', err);
+      setCorrectionsError('Failed to approve correction. Please try again.');
+      
+      setTimeout(() => {
+        setCorrectionsError(null);
+      }, 3000);
+    } finally {
+      setActionInProgress(false);
+    }
+  };
+
+  // Handle correction rejection
+  const handleRejectCorrection = async (correctionId) => {
+    if (actionInProgress) return;
+    setActionInProgress(true);
+    
+    try {
+      const correctionRef = doc(db, 'corrections', correctionId);
+      await updateDoc(correctionRef, {
+        status: 'admin_rejected',
+        admin_rejected_by: currentUser.uid,
+        admin_rejected_at: new Date(),
+        updatedAt: new Date()
+      });
+      
+      // Remove the correction from the list
+      setCorrections(corrections.filter(c => c.id !== correctionId));
+      setSuccessMessage('Correction rejected successfully!');
+      
+      // Clear success message after 3 seconds
+      setTimeout(() => {
+        setSuccessMessage(null);
+      }, 3000);
+    } catch (err) {
+      console.error('Error rejecting correction:', err);
+      setCorrectionsError('Failed to reject correction. Please try again.');
+      
+      setTimeout(() => {
+        setCorrectionsError(null);
+      }, 3000);
+    } finally {
+      setActionInProgress(false);
+    }
+  };
+
+  // Helper function to get correction type display label
+  const getCorrectionTypeLabel = (type) => {
+    const labels = {
+      word_spelling: 'Word Spelling',
+      definition: 'Definition/Meaning',
+      part_of_speech: 'Part of Speech',
+      example_sentence: 'Example Sentence',
+      example_translation: 'Example Translation',
+      pronunciation: 'Pronunciation',
+      other: 'Other'
+    };
+    return labels[type] || type;
+  };
+
   // Redirect non-admin users
   if (!currentUser || !isAdmin) {
     return (
@@ -341,6 +535,12 @@ const Admin = () => {
             className={`flex-1 p-4 text-center font-medium transition-all ${activeTab === 'reports' ? 'bg-gray-100 text-gray-900' : 'text-gray-500 hover:bg-gray-50'}`}
           >
             Word Reports
+          </button>
+          <button 
+            onClick={() => setActiveTab('corrections')}
+            className={`flex-1 p-4 text-center font-medium transition-all ${activeTab === 'corrections' ? 'bg-gray-100 text-gray-900' : 'text-gray-500 hover:bg-gray-50'}`}
+          >
+            Corrections
           </button>
         </div>
         
@@ -455,6 +655,99 @@ const Admin = () => {
                         disabled={actionInProgress}
                       >
                         Mark as Resolved
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {activeTab === 'corrections' && (
+          <div>
+            <h2 className="p-4 bg-gray-100 font-bold text-xl border-b">Word Corrections</h2>
+            
+            {correctionsLoading ? (
+              <div className="flex justify-center items-center py-10">
+                <span className="loading loading-spinner loading-lg"></span>
+              </div>
+            ) : corrections.length === 0 ? (
+              <div className="p-8 text-center text-gray-500">
+                <p>No corrections to review.</p>
+              </div>
+            ) : (
+              <div className="divide-y">
+                {corrections.map((correction) => (
+                  <div key={correction.id} className="p-6 hover:bg-gray-50">
+                    <div className="mb-4">
+                      <h3 className="text-xl font-bold mb-1">{correction.word?.kurukh_word || 'Unknown Word'}</h3>
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="badge badge-primary">{getCorrectionTypeLabel(correction.correction_type)}</div>
+                        {correction.status === 'approved' && (
+                          <div className="badge badge-success">Community Approved</div>
+                        )}
+                        {correction.status === 'shallow_review' && (
+                          <div className="badge badge-warning">Needs Review</div>
+                        )}
+                      </div>
+                      <p className="text-sm text-gray-500">
+                        Submitted {correction.createdAt && formatDate(correction.createdAt)}
+                      </p>
+                    </div>
+                    
+                    <div className="grid md:grid-cols-2 gap-4 mb-4">
+                      <div className="space-y-2">
+                        <h4 className="font-semibold text-sm text-gray-600">Current Value:</h4>
+                        <div className="p-3 bg-red-50 border border-red-200 rounded">
+                          <span className="text-red-800">{correction.current_value || 'No current value'}</span>
+                        </div>
+                      </div>
+                      <div className="space-y-2">
+                        <h4 className="font-semibold text-sm text-gray-600">Proposed Change:</h4>
+                        <div className="p-3 bg-green-50 border border-green-200 rounded">
+                          <span className="text-green-800">{correction.proposed_change}</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {correction.explanation && (
+                      <div className="mb-4">
+                        <p className="font-medium text-sm text-gray-600 mb-2">Explanation:</p>
+                        <p className="text-sm text-gray-700 italic">{correction.explanation}</p>
+                      </div>
+                    )}
+
+                    {correction.status === 'approved' && (
+                      <div className="mb-4">
+                        <div className="flex items-center gap-4 text-sm text-gray-600">
+                          <span>👍 {correction.votes_for || 0} approvals</span>
+                          <span>👎 {correction.votes_against || 0} rejections</span>
+                          <span>Reviews: {correction.reviewed_by?.length || 0}</span>
+                        </div>
+                      </div>
+                    )}
+
+                    {correctionsError && (
+                      <div className="alert alert-error mb-4">
+                        <span>{correctionsError}</span>
+                      </div>
+                    )}
+                    
+                    <div className="flex gap-3 justify-end">
+                      <button 
+                        onClick={() => handleRejectCorrection(correction.id)}
+                        className="btn btn-outline btn-error"
+                        disabled={actionInProgress}
+                      >
+                        Reject
+                      </button>
+                      <button 
+                        onClick={() => handleApproveCorrection(correction.id)}
+                        className="btn btn-success"
+                        disabled={actionInProgress}
+                      >
+                        Apply Correction
                       </button>
                     </div>
                   </div>

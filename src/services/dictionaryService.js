@@ -8,7 +8,8 @@ import {
   doc,
   getDoc,
   serverTimestamp,
-  limit
+  limit,
+  updateDoc
 } from 'firebase/firestore';
 import { db } from '../config/firebase';
 
@@ -365,5 +366,281 @@ export const resolveReport = async (reportId, resolution, actionTaken) => {
   } catch (error) {
     console.error("Error resolving report:", error);
     return { success: false, error: error.message };
+  }
+};
+
+/**
+ * Submit a word correction for community review
+ * @param {string} wordId - ID of the word being corrected
+ * @param {string} userId - ID of the user submitting the correction
+ * @param {Object} correctionData - Correction details
+ * @param {string} correctionData.type - Type of correction (word_spelling, definition, etc.)
+ * @param {string} correctionData.proposedChange - Proposed correction
+ * @param {string} correctionData.explanation - Optional explanation for the correction
+ * @param {string} correctionData.currentValue - Current value being corrected
+ * @returns {Promise<Object>} Result of the operation
+ */
+export const submitCorrection = async (wordId, userId, correctionData) => {
+  try {
+    const correctionRecord = {
+      word_id: wordId,
+      user_id: userId,
+      correction_type: correctionData.type,
+      current_value: correctionData.currentValue,
+      proposed_change: correctionData.proposedChange,
+      explanation: correctionData.explanation || '',
+      status: 'shallow_review', // Marks for community review
+      review_level: 'community', // Can be reviewed by both admins and users
+      votes_for: 0,
+      votes_against: 0,
+      reviewed_by: [],
+      createdAt: serverTimestamp(),
+      updatedAt: serverTimestamp()
+    };
+    
+    const docRef = await addDoc(collection(db, 'corrections'), correctionRecord);
+    
+    return {
+      success: true,
+      id: docRef.id
+    };
+  } catch (error) {
+    console.error('Error submitting correction:', error);
+    return {
+      success: false,
+      error: error.message
+    };
+  }
+};
+
+/**
+ * Get corrections awaiting community review
+ * @param {number} limit - Maximum number of corrections to return
+ * @returns {Promise<Array>} Array of corrections for review
+ */
+export const getCorrectionsForReview = async (limit = 20) => {
+  try {
+    const q = query(
+      collection(db, 'corrections'),
+      where('status', '==', 'shallow_review'),
+      orderBy('createdAt', 'desc'),
+      limit ? limit(limit) : undefined
+    );
+    
+    const querySnapshot = await getDocs(q);
+    const corrections = [];
+    
+    // Get word details for each correction
+    for (const docSnapshot of querySnapshot.docs) {
+      const correctionData = {
+        id: docSnapshot.id,
+        ...docSnapshot.data()
+      };
+      
+      // Fetch the word being corrected
+      try {
+        const wordDoc = await getDoc(doc(db, 'words', correctionData.word_id));
+        if (wordDoc.exists()) {
+          correctionData.word = {
+            id: wordDoc.id,
+            ...wordDoc.data()
+          };
+        }
+      } catch (wordErr) {
+        console.error('Error fetching word for correction:', wordErr);
+      }
+      
+      corrections.push(correctionData);
+    }
+    
+    return corrections;
+  } catch (error) {
+    console.error('Error getting corrections for review:', error);
+    return [];
+  }
+};
+
+/**
+ * Vote on a correction (approve or reject)
+ * @param {string} correctionId - ID of the correction
+ * @param {string} userId - ID of the user voting
+ * @param {string} vote - 'approve' or 'reject'
+ * @param {string} comment - Optional comment explaining the vote
+ * @returns {Promise<Object>} Result of the operation
+ */
+export const voteOnCorrection = async (correctionId, userId, vote, comment = '') => {
+  try {
+    const correctionRef = doc(db, 'corrections', correctionId);
+    const correctionDoc = await getDoc(correctionRef);
+    
+    if (!correctionDoc.exists()) {
+      throw new Error('Correction not found');
+    }
+    
+    const correctionData = correctionDoc.data();
+    const reviewedBy = correctionData.reviewed_by || [];
+    
+    // Check if user has already voted
+    if (reviewedBy.some(review => review.user_id === userId)) {
+      throw new Error('You have already voted on this correction');
+    }
+    
+    // Add vote to the correction
+    const newReview = {
+      user_id: userId,
+      vote: vote, // 'approve' or 'reject'
+      comment: comment,
+      timestamp: serverTimestamp()
+    };
+    
+    const updatedReviewedBy = [...reviewedBy, newReview];
+    const votesFor = vote === 'approve' ? (correctionData.votes_for || 0) + 1 : (correctionData.votes_for || 0);
+    const votesAgainst = vote === 'reject' ? (correctionData.votes_against || 0) + 1 : (correctionData.votes_against || 0);
+    
+    // Check if correction should be auto-approved (3+ approve votes) or rejected (3+ reject votes)
+    let newStatus = correctionData.status;
+    if (votesFor >= 3) {
+      newStatus = 'approved';
+    } else if (votesAgainst >= 3) {
+      newStatus = 'rejected';
+    }
+    
+    await updateDoc(correctionRef, {
+      reviewed_by: updatedReviewedBy,
+      votes_for: votesFor,
+      votes_against: votesAgainst,
+      status: newStatus,
+      updatedAt: serverTimestamp()
+    });
+    
+    return {
+      success: true,
+      message: newStatus === 'approved' ? 'Correction approved!' : 
+               newStatus === 'rejected' ? 'Correction rejected!' : 
+               'Vote recorded successfully!'
+    };
+  } catch (error) {
+    console.error('Error voting on correction:', error);
+    return {
+      success: false,
+      error: error.message
+    };
+  }
+};
+
+/**
+ * Apply an approved correction to a word
+ * @param {string} correctionId - ID of the correction to apply
+ * @returns {Promise<Object>} Result of the operation
+ */
+export const applyCorrection = async (correctionId) => {
+  try {
+    // Get the correction details
+    const correctionRef = doc(db, 'corrections', correctionId);
+    const correctionDoc = await getDoc(correctionRef);
+    
+    if (!correctionDoc.exists()) {
+      throw new Error('Correction not found');
+    }
+    
+    const correction = correctionDoc.data();
+    
+    // Get the word to be updated
+    const wordRef = doc(db, 'words', correction.word_id);
+    const wordDoc = await getDoc(wordRef);
+    
+    if (!wordDoc.exists()) {
+      throw new Error('Word not found');
+    }
+    
+    const wordData = wordDoc.data();
+    const updateData = {};
+    
+    // Apply the correction based on type
+    switch (correction.correction_type) {
+      case 'word_spelling':
+        updateData.kurukh_word = correction.proposed_change;
+        break;
+        
+      case 'definition':
+        // Find and update the specific meaning
+        if (wordData.meanings) {
+          const updatedMeanings = wordData.meanings.map(meaning => {
+            if (meaning.definition === correction.current_value) {
+              return { ...meaning, definition: correction.proposed_change };
+            }
+            return meaning;
+          });
+          updateData.meanings = updatedMeanings;
+        }
+        break;
+        
+      case 'part_of_speech':
+        updateData.part_of_speech = correction.proposed_change;
+        break;
+        
+      case 'example_sentence':
+        // Update example sentence in meanings
+        if (wordData.meanings) {
+          const updatedMeanings = wordData.meanings.map(meaning => {
+            if (meaning.example_sentence_kurukh === correction.current_value) {
+              return { ...meaning, example_sentence_kurukh: correction.proposed_change };
+            }
+            return meaning;
+          });
+          updateData.meanings = updatedMeanings;
+        }
+        break;
+        
+      case 'example_translation':
+        // Update example translation in meanings
+        if (wordData.meanings) {
+          const updatedMeanings = wordData.meanings.map(meaning => {
+            if (meaning.example_sentence_translation === correction.current_value) {
+              return { ...meaning, example_sentence_translation: correction.proposed_change };
+            }
+            return meaning;
+          });
+          updateData.meanings = updatedMeanings;
+        }
+        break;
+        
+      case 'pronunciation':
+        updateData.pronunciation_guide = correction.proposed_change;
+        break;
+        
+      default:
+        throw new Error('Unknown correction type: ' + correction.correction_type);
+    }
+    
+    // Add metadata
+    updateData.updatedAt = serverTimestamp();
+    updateData.last_correction_applied = {
+      correction_id: correctionId,
+      applied_at: serverTimestamp(),
+      correction_type: correction.correction_type
+    };
+    
+    // Update the word
+    await updateDoc(wordRef, updateData);
+    
+    // Mark the correction as applied
+    await updateDoc(correctionRef, {
+      status: 'applied',
+      applied_at: serverTimestamp(),
+      applied_to_word: true,
+      updatedAt: serverTimestamp()
+    });
+    
+    return {
+      success: true,
+      message: 'Correction applied successfully to the word'
+    };
+  } catch (error) {
+    console.error('Error applying correction:', error);
+    return {
+      success: false,
+      error: error.message
+    };
   }
 };
