@@ -15,6 +15,7 @@ function App() {
   const WordDetails = React.lazy(() => import('./pages/WordDetails'));
   const Admin = React.lazy(() => import('./pages/Admin'));
   const UserProfile = React.lazy(() => import('./pages/UserProfile'));
+  const CommunityReview = React.lazy(() => import('./pages/CommunityReview'));
   const FirebaseTest = React.lazy(() => import('./pages/FirebaseTest'));
   const AdminDebug = React.lazy(() => import('./pages/AdminDebug'));
   
@@ -30,6 +31,13 @@ function App() {
               </React.Suspense>
             } />
             <Route path="/contribute" element={<Contribute />} />
+            <Route path="/review" element={
+              <ProtectedRoute>
+                <React.Suspense fallback={<div className="flex justify-center p-10"><span className="loading loading-spinner loading-lg"></span></div>}>
+                  <CommunityReview />
+                </React.Suspense>
+              </ProtectedRoute>
+            } />
             <Route path="/profile" element={
               <ProtectedRoute>
                 <React.Suspense fallback={<div className="flex justify-center p-10"><span className="loading loading-spinner loading-lg"></span></div>}>

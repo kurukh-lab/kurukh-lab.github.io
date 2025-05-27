@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { getWordById } from '../services/dictionaryService';
 import { formatDate } from '../utils/wordUtils';
 import ReportWordModal from '../components/dictionary/ReportWordModal';
+import SuggestCorrectionModal from '../components/dictionary/SuggestCorrectionModal';
 import PronunciationButton from '../components/dictionary/PronunciationButton';
 import ShareWordButtons from '../components/dictionary/ShareWordButtons';
 
@@ -12,6 +13,7 @@ const WordDetails = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [showReportModal, setShowReportModal] = useState(false);
+  const [showCorrectionModal, setShowCorrectionModal] = useState(false);
 
   useEffect(() => {
     const fetchWordDetails = async () => {
@@ -131,6 +133,16 @@ const WordDetails = () => {
               />
               
               <button 
+                className="btn btn-ghost btn-xs text-primary"
+                onClick={() => setShowCorrectionModal(true)}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                </svg>
+                Suggest Correction
+              </button>
+              
+              <button 
                 className="btn btn-ghost btn-xs text-red-500"
                 onClick={() => setShowReportModal(true)}
               >
@@ -147,6 +159,15 @@ const WordDetails = () => {
         onClose={() => setShowReportModal(false)}
         wordId={word?.id}
         wordText={word?.kurukh_word}
+      />
+      
+      {/* Suggest Correction Modal */}
+      <SuggestCorrectionModal 
+        isOpen={showCorrectionModal}
+        onClose={() => setShowCorrectionModal(false)}
+        wordId={word?.id}
+        wordText={word?.kurukh_word}
+        currentWord={word}
       />
     </div>
   );
