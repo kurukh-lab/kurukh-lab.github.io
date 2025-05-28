@@ -17,6 +17,121 @@ import { db } from '../config/firebase';
 const wordsCollection = collection(db, 'words');
 const reportsCollection = collection(db, 'reports');
 
+// Helper function to generate anonymous user ID for likes
+const getAnonymousUserId = () => {
+  let anonymousId = localStorage.getItem('kurukh_anonymous_id');
+  if (!anonymousId) {
+    anonymousId = 'anon_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    localStorage.setItem('kurukh_anonymous_id', anonymousId);
+  }
+  return anonymousId;
+};
+
+/**
+ * Like or unlike a word (supports anonymous likes)
+ * @param {string} wordId - ID of the word to like/unlike
+ * @param {string|null} userId - Authenticated user ID (null for anonymous)
+ * @returns {Promise<Object>} Result of the operation
+ */
+export const toggleWordLike = async (wordId, userId = null) => {
+  try {
+    // Use anonymous ID if no authenticated user
+    const effectiveUserId = userId || getAnonymousUserId();
+    const wordRef = doc(db, 'words', wordId);
+    
+    // Get current word data
+    const wordDoc = await getDoc(wordRef);
+    if (!wordDoc.exists()) {
+      throw new Error('Word not found');
+    }
+    
+    const wordData = wordDoc.data();
+    const currentLikes = wordData.likedBy || [];
+    const currentLikesCount = wordData.likesCount || 0;
+    
+    // Check if user has already liked the word
+    const hasLiked = currentLikes.includes(effectiveUserId);
+    
+    let updatedLikes;
+    let updatedCount;
+    
+    if (hasLiked) {
+      // Unlike: remove user from likedBy array
+      updatedLikes = currentLikes.filter(id => id !== effectiveUserId);
+      updatedCount = Math.max(0, currentLikesCount - 1);
+    } else {
+      // Like: add user to likedBy array
+      updatedLikes = [...currentLikes, effectiveUserId];
+      updatedCount = currentLikesCount + 1;
+    }
+    
+    // Update the word document
+    await updateDoc(wordRef, {
+      likedBy: updatedLikes,
+      likesCount: updatedCount,
+      updatedAt: serverTimestamp()
+    });
+    
+    return {
+      success: true,
+      liked: !hasLiked,
+      newCount: updatedCount
+    };
+  } catch (error) {
+    console.error('Error toggling word like:', error);
+    return {
+      success: false,
+      error: error.message
+    };
+  }
+};
+
+/**
+ * Check if current user has liked a word
+ * @param {string} wordId - ID of the word
+ * @param {string|null} userId - Authenticated user ID (null for anonymous)
+ * @returns {Promise<boolean>} Whether the user has liked the word
+ */
+export const hasUserLikedWord = async (wordId, userId = null) => {
+  try {
+    const effectiveUserId = userId || getAnonymousUserId();
+    const wordDoc = await getDoc(doc(db, 'words', wordId));
+    
+    if (!wordDoc.exists()) {
+      return false;
+    }
+    
+    const wordData = wordDoc.data();
+    const likedBy = wordData.likedBy || [];
+    
+    return likedBy.includes(effectiveUserId);
+  } catch (error) {
+    console.error('Error checking like status:', error);
+    return false;
+  }
+};
+
+/**
+ * Get like count for a word
+ * @param {string} wordId - ID of the word
+ * @returns {Promise<number>} Number of likes
+ */
+export const getWordLikeCount = async (wordId) => {
+  try {
+    const wordDoc = await getDoc(doc(db, 'words', wordId));
+    
+    if (!wordDoc.exists()) {
+      return 0;
+    }
+    
+    const wordData = wordDoc.data();
+    return wordData.likesCount || 0;
+  } catch (error) {
+    console.error('Error getting like count:', error);
+    return 0;
+  }
+};
+
 /**
  * Search for words with enhanced filtering options
  * @param {string} term - The search term

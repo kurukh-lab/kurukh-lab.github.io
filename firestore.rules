@@ -14,10 +14,20 @@ service cloud.firestore {
       return request.auth == null && request.time != null;
     }
 
+    // Helper function to check if this is only a like update
+    function isLikeUpdate(newData, oldData) {
+      // Allow updates that only change likesCount and likedBy fields
+      return newData.diff(oldData).affectedKeys().hasOnly(['likesCount', 'likedBy', 'updatedAt']) &&
+             newData.keys().hasAll(oldData.keys());
+    }
+
     // Allow public read access to approved words, admin access to all words
+    // Allow like updates for all users (authenticated and anonymous)
     match /words/{wordId} {
-      allow read: if resource.data.status == 'approved' || isAdmin();
+      allow read: if resource.data.status == 'approved' || isAdmin() || isEmulator();
       allow write: if request.auth != null || isEmulator();
+      // Allow specific like-related updates for anonymous users
+      allow update: if isLikeUpdate(request.resource.data, resource.data);
     }
     
     // Allow admin access to all reports, users can only read their own reports
