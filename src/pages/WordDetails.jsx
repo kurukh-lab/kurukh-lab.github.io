@@ -6,6 +6,7 @@ import ReportWordModal from '../components/dictionary/ReportWordModal';
 import SuggestCorrectionModal from '../components/dictionary/SuggestCorrectionModal';
 import PronunciationButton from '../components/dictionary/PronunciationButton';
 import ShareWordButtons from '../components/dictionary/ShareWordButtons';
+import LikeButton from '../components/dictionary/LikeButton';
 
 const WordDetails = () => {
   const { wordId } = useParams();
@@ -126,6 +127,8 @@ const WordDetails = () => {
             </div>
             
             <div className="flex flex-wrap gap-4 items-center">
+              <LikeButton word={word} size="lg" />
+              
               <ShareWordButtons 
                 word={word.kurukh_word} 
                 url={window.location.href}

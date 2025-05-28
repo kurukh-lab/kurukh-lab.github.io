@@ -1,6 +1,7 @@
 import React from 'react';
 import PronunciationButton from './PronunciationButton';
 import ShareWordButtons from './ShareWordButtons';
+import LikeButton from './LikeButton';
 import { Link } from 'react-router-dom';
 import { formatDate } from '../../utils/wordUtils';
 
@@ -19,12 +20,19 @@ const WordCard = ({ word, compact = false }) => {
         to={`/word/${word.id}`} 
         className="block p-3 rounded-lg hover:bg-base-200 transition-all border-l-4 border-transparent hover:border-primary"
       >
-        <h3 className="text-lg font-semibold text-primary">{word.kurukh_word}</h3>
-        {word.meanings && word.meanings.length > 0 && (
-          <p className="text-neutral-content text-sm mt-1 line-clamp-1">
-            {word.meanings[0].definition}
-          </p>
-        )}
+        <div className="flex justify-between items-start">
+          <div className="flex-1">
+            <h3 className="text-lg font-semibold text-primary">{word.kurukh_word}</h3>
+            {word.meanings && word.meanings.length > 0 && (
+              <p className="text-neutral-content text-sm mt-1 line-clamp-1">
+                {word.meanings[0].definition}
+              </p>
+            )}
+          </div>
+          <div className="ml-2" onClick={(e) => e.preventDefault()}>
+            <LikeButton word={word} size="sm" />
+          </div>
+        </div>
       </Link>
     );
   }
@@ -83,6 +91,16 @@ const WordCard = ({ word, compact = false }) => {
             )}
           </div>
         )}
+        
+        {/* Actions row with share and like buttons */}
+        <div className="flex justify-between items-center mt-4 pt-2 border-t border-base-300">
+          <ShareWordButtons 
+            word={word.kurukh_word} 
+            url={`${window.location.origin}/word/${word.id}`}
+            description={word.meanings?.[0]?.definition} 
+          />
+          <LikeButton word={word} size="md" />
+        </div>
       </div>
     </div>
   );
