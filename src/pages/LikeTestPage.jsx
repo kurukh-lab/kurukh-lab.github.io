@@ -15,7 +15,7 @@ const LikeTestPage = () => {
           where('status', '==', 'approved')
         );
         const snapshot = await getDocs(wordsQuery);
-        
+
         const words = [];
         snapshot.forEach((doc) => {
           words.push({
@@ -23,7 +23,7 @@ const LikeTestPage = () => {
             ...doc.data()
           });
         });
-        
+
         setTestWords(words.slice(0, 3)); // Show first 3 words for testing
       } catch (error) {
         console.error('Error fetching test words:', error);
@@ -77,7 +77,7 @@ const LikeTestPage = () => {
                     Word ID: {word.id}
                   </p>
                 </div>
-                
+
                 <div className="flex flex-col gap-2">
                   <LikeButton word={word} size="sm" />
                   <LikeButton word={word} size="md" />
@@ -94,7 +94,7 @@ const LikeTestPage = () => {
         <p className="text-sm text-gray-600">
           Anonymous User ID: {localStorage.getItem('kurukh_anonymous_id') || 'Not set'}
         </p>
-        <button 
+        <button
           className="btn btn-sm btn-outline mt-2"
           onClick={() => {
             localStorage.removeItem('kurukh_anonymous_id');

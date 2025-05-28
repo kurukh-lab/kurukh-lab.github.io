@@ -4,14 +4,16 @@ import ShareWordButtons from './ShareWordButtons';
 import LikeButton from './LikeButton';
 import { Link } from 'react-router-dom';
 import { formatDate } from '../../utils/wordUtils';
+import { highlightText } from '../../utils/highlightUtils.jsx';
 
 /**
  * Component for displaying a dictionary word entry styled like search results
  * @param {object} props Component props
  * @param {object} props.word Word object with word data
  * @param {boolean} [props.compact=false] Whether to show the word in compact format
+ * @param {string} [props.searchTerm] Search term to highlight in the word
  */
-const WordCard = ({ word, compact = false }) => {
+const WordCard = ({ word, compact = false, searchTerm = "" }) => {
   if (!word) return null;
 
   if (compact) {
@@ -22,10 +24,12 @@ const WordCard = ({ word, compact = false }) => {
       >
         <div className="flex justify-between items-start">
           <div className="flex-1">
-            <h3 className="text-lg font-semibold text-primary">{word.kurukh_word}</h3>
+            <h3 className="text-lg font-semibold text-primary">
+              {searchTerm ? highlightText(word.kurukh_word, searchTerm) : word.kurukh_word}
+            </h3>
             {word.meanings && word.meanings.length > 0 && (
               <p className="text-neutral-content text-sm mt-1 line-clamp-1">
-                {word.meanings[0].definition}
+                {searchTerm ? highlightText(word.meanings[0].definition, searchTerm) : word.meanings[0].definition}
               </p>
             )}
           </div>
@@ -43,7 +47,9 @@ const WordCard = ({ word, compact = false }) => {
         <div className="flex justify-between items-start">
           <div>
             <div className="flex items-center gap-2">
-              <h2 className="text-xl font-bold text-primary">{word.kurukh_word}</h2>
+              <h2 className="text-xl font-bold text-primary">
+                {searchTerm ? highlightText(word.kurukh_word, searchTerm) : word.kurukh_word}
+              </h2>
               <PronunciationButton text={word.kurukh_word} />
               {word.part_of_speech && (
                 <span className="badge badge-ghost text-xs">
@@ -74,7 +80,9 @@ const WordCard = ({ word, compact = false }) => {
                 <span className="font-medium text-secondary-content">
                   {meaning.language === 'en' ? 'English' : 'Hindi'}: 
                 </span>
-                <span className="ml-1 text-neutral-content">{meaning.definition}</span>
+                <span className="ml-1 text-neutral-content">
+                  {searchTerm ? highlightText(meaning.definition, searchTerm) : meaning.definition}
+                </span>
                 
                 {meaning.example_sentence_kurukh && index === 0 && (
                   <div className="mt-1 text-neutral-content/80 text-xs italic pl-2 border-l-2 border-base-300">

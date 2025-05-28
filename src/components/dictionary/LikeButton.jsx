@@ -33,7 +33,7 @@ const LikeButton = ({ word, size = 'md', showCount = true }) => {
   useEffect(() => {
     const checkLikeStatus = async () => {
       if (!word?.id) return;
-      
+
       try {
         const userLiked = await hasUserLikedWord(word.id, currentUser?.uid);
         setLiked(userLiked);
@@ -62,7 +62,7 @@ const LikeButton = ({ word, size = 'md', showCount = true }) => {
 
     try {
       const result = await toggleWordLike(word.id, currentUser?.uid);
-      
+
       if (result.success) {
         setLiked(result.liked);
         setLikeCount(result.newCount);
@@ -86,9 +86,8 @@ const LikeButton = ({ word, size = 'md', showCount = true }) => {
       <button
         onClick={handleLike}
         disabled={loading}
-        className={`btn btn-ghost ${sizeClasses[size]} ${
-          liked ? 'text-red-500 hover:text-red-600' : 'text-gray-400 hover:text-red-500'
-        } transition-colors duration-200 ${loading ? 'loading' : ''}`}
+        className={`btn btn-ghost ${sizeClasses[size]} ${liked ? 'text-red-500 hover:text-red-600' : 'text-gray-400 hover:text-red-500'
+          } transition-colors duration-200 ${loading ? 'loading' : ''}`}
         title={liked ? 'Unlike this word' : 'Like this word'}
         aria-label={`${liked ? 'Unlike' : 'Like'} word ${word.kurukh_word || ''}`}
       >
@@ -114,7 +113,7 @@ const LikeButton = ({ word, size = 'md', showCount = true }) => {
           </span>
         )}
       </button>
-      
+
       {error && (
         <div className="tooltip tooltip-error" data-tip={error}>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-error" fill="none" viewBox="0 0 24 24" stroke="currentColor">
