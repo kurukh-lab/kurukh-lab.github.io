@@ -3,7 +3,9 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
-  signOut
+  signOut,
+  GoogleAuthProvider,
+  signInWithPopup
 } from 'firebase/auth';
 import { auth, db } from '../config/firebase';
 import { doc, setDoc, getDoc } from 'firebase/firestore';
@@ -60,6 +62,35 @@ export const AuthProvider = ({ children }) => {
     try {
       await signOut(auth);
       return { success: true };
+    } catch (error) {
+      return { success: false, error: error.message };
+    }
+  };
+
+  // Google Sign In
+  const loginWithGoogle = async () => {
+    try {
+      const provider = new GoogleAuthProvider();
+      const userCredential = await signInWithPopup(auth, provider);
+      const user = userCredential.user;
+
+      // Check if user exists in Firestore, if not create a new document
+      const userDocRef = doc(db, "users", user.uid);
+      const userDoc = await getDoc(userDocRef);
+
+      if (!userDoc.exists()) {
+        // Create new user document with default data
+        await setDoc(userDocRef, {
+          uid: user.uid,
+          username: user.displayName || user.email.split('@')[0],
+          email: user.email,
+          roles: ['user'], // Default role for new users
+          createdAt: new Date(),
+          updatedAt: new Date()
+        });
+      }
+
+      return { success: true, user };
     } catch (error) {
       return { success: false, error: error.message };
     }
@@ -151,6 +182,7 @@ export const AuthProvider = ({ children }) => {
     register,
     login,
     logout,
+    loginWithGoogle,
     getUserData
   };
 
