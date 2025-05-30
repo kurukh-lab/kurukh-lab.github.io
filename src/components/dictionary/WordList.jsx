@@ -8,12 +8,14 @@ import WordCard from './WordCard';
  * @param {string} [props.title] Optional title for the list
  * @param {boolean} [props.compact=false] Whether to show the words in compact format
  * @param {string} [props.emptyMessage] Message to show when there are no words
+ * @param {string} [props.searchTerm] Search term to highlight in results
  */
-const WordList = ({ 
-  words = [], 
-  title, 
+const WordList = ({
+  words = [],
+  title,
   compact = false,
-  emptyMessage = "No words found."
+  emptyMessage = "No words found.",
+  searchTerm = ""
 }) => {
   if (!words || words.length === 0) {
     return (
@@ -32,7 +34,7 @@ const WordList = ({
       {title && <hr className="my-4 border-base-300" />} {/* Replaced Divider */}
       <div className={`grid gap-4 ${compact ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'}`}>
         {words.map((word, index) => (
-          <WordCard key={word.id || index} word={word} compact={compact} />
+          <WordCard key={word.id || index} word={word} compact={compact} searchTerm={searchTerm} />
         ))}
       </div>
     </div>

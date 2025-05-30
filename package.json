@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "emulators": "firebase emulators:start --only auth,functions,firestore,storage,hosting",
-    "dev:firebase": "concurrently \"npm run emulators\" \"npm run dev\"",
+    "dev:firebase": "concurrently \"npm run emulators\" \"npm run dev\" \"sleep 60 & npm run init-db\"",
     "build": "vite build",
     "build:clean": "rm -rf dist && vite build",
     "lint": "eslint .",

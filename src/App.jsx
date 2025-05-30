@@ -19,7 +19,8 @@ function App() {
   const FirebaseTest = React.lazy(() => import('./pages/FirebaseTest'));
   const AdminDebug = React.lazy(() => import('./pages/AdminDebug'));
   const LikeTestPage = React.lazy(() => import('./pages/LikeTestPage'));
-  
+  const HighlightTestPage = React.lazy(() => import('./pages/HighlightTestPage'));
+
   return (
     <Router>
       <AuthProvider>
@@ -73,6 +74,13 @@ function App() {
               <Route path="/like-test" element={
                 <React.Suspense fallback={<div className="flex justify-center p-10"><span className="loading loading-spinner loading-lg"></span></div>}>
                   <LikeTestPage />
+                </React.Suspense>
+              } />
+            )}
+            {import.meta.env.DEV && (
+              <Route path="/highlight-test" element={
+                <React.Suspense fallback={<div className="flex justify-center p-10"><span className="loading loading-spinner loading-lg"></span></div>}>
+                  <HighlightTestPage />
                 </React.Suspense>
               } />
             )}

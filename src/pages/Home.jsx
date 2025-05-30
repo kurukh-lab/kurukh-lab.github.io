@@ -102,6 +102,7 @@ const Home = () => {
                 <WordList
                   words={searchResults}
                   title={`Search Results (${searchResults.length})`}
+                  searchTerm={searchTerm}
                 />
               </div>
             </div>
