@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,14 @@
             padding: 20px;
             line-height: 1.6;
         }
+
         .demo-section {
             margin: 20px 0;
             padding: 20px;
             border: 1px solid #ddd;
             border-radius: 8px;
         }
+
         .search-input {
             padding: 10px;
             font-size: 16px;
@@ -26,6 +29,7 @@
             width: 300px;
             margin-bottom: 20px;
         }
+
         .word-card {
             background: #f9f9f9;
             padding: 15px;
@@ -33,15 +37,18 @@
             border-radius: 6px;
             border-left: 4px solid #007bff;
         }
+
         .word-title {
             font-size: 18px;
             font-weight: bold;
             color: #007bff;
             margin-bottom: 5px;
         }
+
         .word-definition {
             color: #666;
         }
+
         .highlight {
             background-color: #fef08a;
             color: #854d0e;
@@ -49,6 +56,7 @@
             border-radius: 2px;
             font-weight: 600;
         }
+
         .instructions {
             background: #e3f2fd;
             padding: 15px;
@@ -57,9 +65,10 @@
         }
     </style>
 </head>
+
 <body>
     <h1>🔍 Search Highlighting Demo - Kurukh Dictionary</h1>
-    
+
     <div class="instructions">
         <h3>Instructions:</h3>
         <p>Type in the search box below to see how search terms are highlighted in yellow in the results:</p>
@@ -74,14 +83,9 @@
 
     <div class="demo-section">
         <h2>Live Search Demo</h2>
-        <input 
-            type="text" 
-            id="searchInput" 
-            class="search-input" 
-            placeholder="Type a search term..."
-            oninput="performSearch()"
-        >
-        
+        <input type="text" id="searchInput" class="search-input" placeholder="Type a search term..."
+            oninput="performSearch()">
+
         <div id="searchResults">
             <!-- Results will appear here -->
         </div>
@@ -115,7 +119,7 @@
         // Function to highlight text
         function highlightText(text, searchTerm) {
             if (!text || !searchTerm) return text;
-            
+
             const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
             return text.replace(regex, '<span class="highlight">$1</span>');
         }
@@ -124,14 +128,14 @@
         function performSearch() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
             const resultsContainer = document.getElementById('searchResults');
-            
+
             if (!searchTerm) {
                 resultsContainer.innerHTML = '<p>Enter a search term to see highlighted results...</p>';
                 return;
             }
 
             // Filter words that match the search term
-            const matchingWords = words.filter(word => 
+            const matchingWords = words.filter(word =>
                 word.kurukh_word.toLowerCase().includes(searchTerm) ||
                 word.definition.toLowerCase().includes(searchTerm)
             );
@@ -146,7 +150,7 @@
             matchingWords.forEach(word => {
                 const highlightedWord = highlightText(word.kurukh_word, searchTerm);
                 const highlightedDefinition = highlightText(word.definition, searchTerm);
-                
+
                 resultsHTML += `
                     <div class="word-card">
                         <div class="word-title">${highlightedWord}</div>
@@ -154,15 +158,16 @@
                     </div>
                 `;
             });
-            
+
             resultsContainer.innerHTML = resultsHTML;
         }
 
         // Show all words initially
-        window.onload = function() {
+        window.onload = function () {
             document.getElementById('searchInput').value = '';
             performSearch();
         };
     </script>
 </body>
+
 </html>

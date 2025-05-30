@@ -20,7 +20,7 @@ function App() {
   const AdminDebug = React.lazy(() => import('./pages/AdminDebug'));
   const LikeTestPage = React.lazy(() => import('./pages/LikeTestPage'));
   const HighlightTestPage = React.lazy(() => import('./pages/HighlightTestPage'));
-  
+
   return (
     <Router>
       <AuthProvider>

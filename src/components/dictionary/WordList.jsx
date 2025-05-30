@@ -10,9 +10,9 @@ import WordCard from './WordCard';
  * @param {string} [props.emptyMessage] Message to show when there are no words
  * @param {string} [props.searchTerm] Search term to highlight in results
  */
-const WordList = ({ 
-  words = [], 
-  title, 
+const WordList = ({
+  words = [],
+  title,
   compact = false,
   emptyMessage = "No words found.",
   searchTerm = ""

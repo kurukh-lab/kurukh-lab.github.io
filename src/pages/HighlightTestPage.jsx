@@ -6,7 +6,7 @@ import { highlightText } from '../utils/highlightUtils.jsx';
  */
 const HighlightTestPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  
+
   // Sample words for testing
   const sampleWords = [
     {
@@ -42,7 +42,7 @@ const HighlightTestPage = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">Search Highlighting Test</h1>
-      
+
       <div className="mb-6">
         <label className="block text-sm font-medium mb-2">Test Search Term:</label>
         <input
@@ -56,7 +56,7 @@ const HighlightTestPage = () => {
 
       <div className="space-y-4">
         <h2 className="text-xl font-semibold">Sample Words with Highlighting:</h2>
-        
+
         {sampleWords.map(word => (
           <div key={word.id} className="card bg-base-100 shadow-lg">
             <div className="card-body">
