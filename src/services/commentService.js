@@ -343,7 +343,11 @@ export const editComment = async (commentId, userId, newContent) => {
       isEdited: true
     });
 
-    return { success: true, message: 'Comment updated successfully' };
+    return { 
+      success: true, 
+      message: 'Comment updated successfully',
+      parentCommentId: commentData.parentCommentId 
+    };
   } catch (error) {
     console.error('Error editing comment:', error);
     return { success: false, error: error.message };
@@ -388,7 +392,11 @@ export const deleteComment = async (commentId, userId) => {
       });
     }
 
-    return { success: true, message: 'Comment deleted successfully' };
+    return { 
+      success: true, 
+      message: 'Comment deleted successfully',
+      parentCommentId: commentData.parentCommentId 
+    };
   } catch (error) {
     console.error('Error deleting comment:', error);
     return { success: false, error: error.message };
@@ -422,4 +430,65 @@ export const subscribeToWordComments = (wordId, callback) => {
   }, (error) => {
     console.error('Error in comment subscription:', error);
   });
+};
+
+/**
+ * Reload replies for a specific parent comment (used for optimized updates after edit/delete)
+ * @param {string} parentCommentId - The ID of the parent comment
+ * @param {number} currentDepth - Current nesting depth
+ * @param {number} maxDepth - Maximum nesting depth
+ * @returns {Promise<{success: boolean, replies?: Array, error?: string}>}
+ */
+export const reloadParentReplies = async (parentCommentId, currentDepth = 0, maxDepth = 10) => {
+  try {
+    if (currentDepth >= maxDepth) {
+      return { success: true, replies: [] };
+    }
+
+    const q = query(
+      collection(db, 'comments'),
+      where('parentCommentId', '==', parentCommentId),
+      where('isDeleted', '==', false),
+      orderBy('createdAt', 'asc')
+    );
+
+    const querySnapshot = await getDocs(q);
+    const replies = [];
+
+    for (const document of querySnapshot.docs) {
+      const commentData = document.data();
+      const reply = {
+        id: document.id,
+        ...commentData,
+        createdAt: commentData.createdAt?.toDate(),
+        updatedAt: commentData.updatedAt?.toDate()
+      };
+
+      // Get user info for this reply
+      const userDoc = await getDoc(doc(db, 'users', commentData.userId));
+      if (userDoc.exists()) {
+        reply.userInfo = {
+          displayName: userDoc.data().displayName || userDoc.data().email || 'Anonymous',
+          email: userDoc.data().email
+        };
+      }
+
+      // Only load replies for first 3 levels, beyond that use lazy loading flags
+      if (currentDepth < 3) {
+        reply.replies = await getRepliesForComment(document.id, currentDepth + 1, maxDepth);
+      } else {
+        // For deeper levels, just indicate if replies exist
+        reply.hasReplies = (commentData.replyCount || 0) > 0;
+        reply.repliesLoaded = false;
+        reply.replies = [];
+      }
+
+      replies.push(reply);
+    }
+
+    return { success: true, replies };
+  } catch (error) {
+    console.error('Error reloading parent replies:', error);
+    return { success: false, error: error.message };
+  }
 };

@@ -7,7 +7,7 @@
 
 import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { voteOnComment, editComment, deleteComment, loadRepliesForComment } from '../services/commentService';
+import { voteOnComment, editComment, deleteComment, loadRepliesForComment, reloadParentReplies } from '../services/commentService';
 import { formatDate } from '../utils/wordUtils';
 
 const Comment = ({
@@ -16,6 +16,7 @@ const Comment = ({
   onEdit,
   onDelete,
   onVote,
+  onParentReload,
   level = 0,
   maxLevel = 10
 }) => {
@@ -40,6 +41,33 @@ const Comment = ({
 
   // Check if current user owns this comment
   const isOwner = currentUser?.uid === comment.userId;
+
+  // Handle reloading this comment's replies when a child is edited/deleted
+  const handleChildParentReload = async (parentCommentId) => {
+    if (parentCommentId === comment.id) {
+      // This comment is the parent that needs to be reloaded
+      try {
+        const result = await reloadParentReplies(comment.id, level, maxLevel);
+        if (result.success) {
+          // Always update dynamic replies for consistent behavior
+          setDynamicReplies(result.replies || []);
+          setRepliesLoaded(true);
+          
+          // For levels 0-2, we need to also update the comment's replies property
+          // This will be handled by the parent component's reload mechanism
+          if (level < 3 && onParentReload) {
+            // Signal to parent to reload this comment's data
+            onParentReload(comment.id);
+          }
+        }
+      } catch (error) {
+        console.error('Error reloading parent replies:', error);
+      }
+    } else if (onParentReload) {
+      // Pass the reload request up the chain
+      onParentReload(parentCommentId);
+    }
+  };
 
   // Handle loading replies dynamically for deep nested comments
   const handleLoadReplies = async () => {
@@ -101,8 +129,14 @@ const Comment = ({
     setIsSubmitting(true);
     try {
       const result = await editComment(comment.id, currentUser.uid, editContent.trim());
-      if (result.success && onEdit) {
-        onEdit(comment.id, editContent.trim());
+      if (result.success) {
+        if (onEdit) {
+          onEdit(comment.id, editContent.trim());
+        }
+        // If this comment has a parent and we have a parent reload handler, reload just the parent
+        if (result.parentCommentId && onParentReload) {
+          onParentReload(result.parentCommentId);
+        }
         setShowEditForm(false);
       }
     } catch (error) {
@@ -117,8 +151,14 @@ const Comment = ({
 
     try {
       const result = await deleteComment(comment.id, currentUser.uid);
-      if (result.success && onDelete) {
-        onDelete(comment.id);
+      if (result.success) {
+        if (onDelete) {
+          onDelete(comment.id);
+        }
+        // If this comment has a parent and we have a parent reload handler, reload just the parent
+        if (result.parentCommentId && onParentReload) {
+          onParentReload(result.parentCommentId);
+        }
       }
     } catch (error) {
       console.error('Error deleting comment:', error);
@@ -362,6 +402,7 @@ const Comment = ({
               onEdit={onEdit}
               onDelete={onDelete}
               onVote={onVote}
+              onParentReload={handleChildParentReload}
               level={level + 1}
               maxLevel={maxLevel}
             />

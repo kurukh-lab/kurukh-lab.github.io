@@ -10,7 +10,8 @@ import { useAuth } from '../contexts/AuthContext';
 import {
   getCommentsForWord,
   addComment,
-  subscribeToWordComments
+  subscribeToWordComments,
+  reloadParentReplies
 } from '../services/commentService';
 import Comment from './Comment';
 
@@ -147,6 +148,56 @@ const CommentThread = ({ wordId, isOpen, onToggle }) => {
       })
     );
   }, []);
+
+  const handleParentReload = useCallback(async (parentCommentId) => {
+    try {
+      // Find if this is a top-level comment
+      const isTopLevel = comments.some(c => c.id === parentCommentId);
+      
+      if (isTopLevel) {
+        // If it's a top-level comment, reload all comments to get the updated structure
+        await loadComments();
+      } else {
+        // Find the parent comment and reload its replies
+        const result = await reloadParentReplies(parentCommentId, 0, 10);
+        if (result.success) {
+          setComments(prevComments =>
+            prevComments.map((comment) => {
+              if (comment.id === parentCommentId) {
+                return { ...comment, replies: result.replies || [] };
+              }
+              // Also check nested replies for deep comments
+              if (comment.replies) {
+                const updatedReplies = updateNestedReplies(comment.replies, parentCommentId, result.replies || []);
+                if (updatedReplies !== comment.replies) {
+                  return { ...comment, replies: updatedReplies };
+                }
+              }
+              return comment;
+            })
+          );
+        }
+      }
+    } catch (error) {
+      console.error('Error reloading parent replies in CommentThread:', error);
+    }
+  }, [comments]);
+
+  // Helper function to update nested replies recursively
+  const updateNestedReplies = (replies, targetParentId, newReplies) => {
+    return replies.map(reply => {
+      if (reply.id === targetParentId) {
+        return { ...reply, replies: newReplies };
+      }
+      if (reply.replies) {
+        const updatedNestedReplies = updateNestedReplies(reply.replies, targetParentId, newReplies);
+        if (updatedNestedReplies !== reply.replies) {
+          return { ...reply, replies: updatedNestedReplies };
+        }
+      }
+      return reply;
+    });
+  };
 
   const handleVote = useCallback((commentId, voteType) => {
     // Real-time updates will handle vote changes
@@ -286,6 +337,7 @@ const CommentThread = ({ wordId, isOpen, onToggle }) => {
               onEdit={handleEdit}
               onDelete={handleDelete}
               onVote={handleVote}
+              onParentReload={handleParentReload}
               level={0}
               maxLevel={10}
             />
