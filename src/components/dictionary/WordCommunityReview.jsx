@@ -306,6 +306,7 @@ const WordCommunityReview = () => {
                 {/* Comment Thread */}
                 <CommentThread
                   wordId={word.id}
+                  word={word}
                   isOpen={openComments[word.id] || false}
                   onToggle={() => toggleComments(word.id)}
                 />

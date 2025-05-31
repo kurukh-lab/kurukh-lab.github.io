@@ -64,6 +64,13 @@ export const addComment = async (wordId, userId, content, parentCommentId = null
       });
     }
 
+    // Increment the word's comment count (both for top-level comments and replies)
+    const wordRef = doc(db, 'words', wordId);
+    await updateDoc(wordRef, {
+      commentsCount: increment(1),
+      updatedAt: serverTimestamp()
+    });
+
     return { success: true, commentId: commentRef.id };
   } catch (error) {
     console.error('Error adding comment:', error);
@@ -391,6 +398,13 @@ export const deleteComment = async (commentId, userId) => {
         updatedAt: serverTimestamp()
       });
     }
+
+    // Decrement the word's comment count (both for top-level comments and replies)
+    const wordRef = doc(db, 'words', commentData.wordId);
+    await updateDoc(wordRef, {
+      commentsCount: increment(-1),
+      updatedAt: serverTimestamp()
+    });
 
     return { 
       success: true, 

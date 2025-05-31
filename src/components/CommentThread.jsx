@@ -15,7 +15,7 @@ import {
 } from '../services/commentService';
 import Comment from './Comment';
 
-const CommentThread = ({ wordId, isOpen, onToggle }) => {
+const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
   const { currentUser } = useAuth();
   const [comments, setComments] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -222,7 +222,9 @@ const CommentThread = ({ wordId, isOpen, onToggle }) => {
   };
 
   const sortedComments = sortComments(comments, sortBy);
-  const commentCount = comments.reduce((total, comment) => {
+  // Use static comment count from word model for better performance
+  // Falls back to dynamic calculation if static count is not available
+  const commentCount = word?.commentsCount ?? comments.reduce((total, comment) => {
     return total + 1 + (comment.replies ? comment.replies.length : 0);
   }, 0);
 
