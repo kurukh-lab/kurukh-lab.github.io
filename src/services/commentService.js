@@ -123,12 +123,19 @@ export const getCommentsForWord = async (wordId, limit = 20, lastCommentId = nul
 };
 
 /**
- * Get replies for a specific comment
+ * Get replies for a specific comment with recursive nesting up to 10 levels
  * @param {string} parentCommentId - The ID of the parent comment
- * @returns {Promise<Array>} Array of reply comments
+ * @param {number} currentDepth - Current nesting depth (default: 0)
+ * @param {number} maxDepth - Maximum nesting depth (default: 10)
+ * @returns {Promise<Array>} Array of reply comments with nested replies
  */
-export const getRepliesForComment = async (parentCommentId) => {
+export const getRepliesForComment = async (parentCommentId, currentDepth = 0, maxDepth = 10) => {
   try {
+    // Stop recursion if we've reached maximum depth
+    if (currentDepth >= maxDepth) {
+      return [];
+    }
+
     const q = query(
       collection(db, 'comments'),
       where('parentCommentId', '==', parentCommentId),
@@ -155,6 +162,13 @@ export const getRepliesForComment = async (parentCommentId) => {
           displayName: userDoc.data().displayName || userDoc.data().email || 'Anonymous',
           email: userDoc.data().email
         };
+      }
+
+      // Recursively get nested replies for this reply (up to maxDepth)
+      if (currentDepth < maxDepth - 1) {
+        reply.replies = await getRepliesForComment(document.id, currentDepth + 1, maxDepth);
+      } else {
+        reply.replies = [];
       }
 
       replies.push(reply);

@@ -325,7 +325,7 @@ const WordCommunityReview = () => {
             <p className="text-sm text-gray-600 mb-4">
               You can add an optional comment to explain your {currentVote?.vote === 'approve' ? 'approval' : 'rejection'}.
             </p>
-            
+
             <div className="form-control w-full mb-4">
               <label className="label">
                 <span className="label-text">Comment</span>

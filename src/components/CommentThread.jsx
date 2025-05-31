@@ -95,7 +95,7 @@ const CommentThread = ({ wordId, isOpen, onToggle }) => {
     try {
       const result = await addComment(wordId, currentUser.uid, content, parentCommentId);
       if (result.success) {
-        // Reload comments to get updated reply structure
+        // Reload comments to get updated nested reply structure
         await loadComments();
       } else {
         setError(result.error);
@@ -287,6 +287,7 @@ const CommentThread = ({ wordId, isOpen, onToggle }) => {
               onDelete={handleDelete}
               onVote={handleVote}
               level={0}
+              maxLevel={10}
             />
           ))}
         </div>

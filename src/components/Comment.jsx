@@ -10,14 +10,14 @@ import { useAuth } from '../contexts/AuthContext';
 import { voteOnComment, editComment, deleteComment } from '../services/commentService';
 import { formatDate } from '../utils/wordUtils';
 
-const Comment = ({ 
-  comment, 
-  onReply, 
-  onEdit, 
-  onDelete, 
+const Comment = ({
+  comment,
+  onReply,
+  onEdit,
+  onDelete,
   onVote,
   level = 0,
-  maxLevel = 5 
+  maxLevel = 10
 }) => {
   const { currentUser } = useAuth();
   const [showReplyForm, setShowReplyForm] = useState(false);
@@ -26,21 +26,21 @@ const Comment = ({
   const [editContent, setEditContent] = useState(comment.content);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [votingInProgress, setVotingInProgress] = useState(false);
-  const [showReplies, setShowReplies] = useState(level < 2); // Auto-expand first 2 levels
+  const [showReplies, setShowReplies] = useState(level < 3); // Auto-expand first 3 levels
 
   // Calculate net score
   const netScore = (comment.upvotes || 0) - (comment.downvotes || 0);
-  
+
   // Check if current user has voted
   const hasUpvoted = comment.upvotedBy?.includes(currentUser?.uid);
   const hasDownvoted = comment.downvotedBy?.includes(currentUser?.uid);
-  
+
   // Check if current user owns this comment
   const isOwner = currentUser?.uid === comment.userId;
 
   const handleVote = async (voteType) => {
     if (!currentUser) return;
-    
+
     setVotingInProgress(true);
     try {
       const result = await voteOnComment(comment.id, currentUser.uid, voteType);
@@ -103,10 +103,28 @@ const Comment = ({
     }
   };
 
-  // Calculate indentation based on nesting level
-  const indentClass = level > 0 ? `ml-${Math.min(level * 4, 16)}` : '';
+  // Calculate indentation based on nesting level (using proper Tailwind classes)
+  const getIndentClass = (level) => {
+    if (level === 0) return '';
+    // Use standard Tailwind margin classes, max out at reasonable level
+    const indentMap = {
+      1: 'ml-4',   // 1rem
+      2: 'ml-8',   // 2rem  
+      3: 'ml-12',  // 3rem
+      4: 'ml-16',  // 4rem
+      5: 'ml-20',  // 5rem
+      6: 'ml-24',  // 6rem
+      7: 'ml-28',  // 7rem
+      8: 'ml-32',  // 8rem
+      9: 'ml-36',  // 9rem
+      10: 'ml-40'  // 10rem - max visual indent
+    };
+    return indentMap[Math.min(level, 10)] || 'ml-40';
+  };
   
-  // Show collapsed view for deeply nested comments
+  const indentClass = getIndentClass(level);
+
+  // Comments can nest up to maxLevel
   const isCollapsed = level > maxLevel;
 
   if (comment.isDeleted) {
@@ -137,11 +155,11 @@ const Comment = ({
               </svg>
             )}
           </button>
-          
+
           <span className={`text-sm font-medium ${netScore > 0 ? 'text-orange-500' : netScore < 0 ? 'text-blue-500' : 'text-gray-500'}`}>
             {netScore}
           </span>
-          
+
           <button
             onClick={() => handleVote('downvote')}
             disabled={votingInProgress || !currentUser}
@@ -224,7 +242,7 @@ const Comment = ({
                   Reply
                 </button>
               )}
-              
+
               {isOwner && (
                 <>
                   <button
