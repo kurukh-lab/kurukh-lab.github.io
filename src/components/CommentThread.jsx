@@ -13,6 +13,7 @@ import {
   subscribeToWordComments,
   reloadParentReplies
 } from '../services/commentService';
+import { wordReviewService } from '../services/wordReviewService';
 import Comment from './Comment';
 
 const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
@@ -23,6 +24,39 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
   const [newComment, setNewComment] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [sortBy, setSortBy] = useState('newest'); // 'newest', 'oldest', 'best'
+  const [realTimeCommentCount, setRealTimeCommentCount] = useState(word?.commentsCount || 0);
+
+  // Update real-time comment count when word prop changes
+  useEffect(() => {
+    if (word?.commentsCount !== undefined) {
+      setRealTimeCommentCount(word.commentsCount);
+    }
+  }, [word?.commentsCount]);
+
+  // Set up real-time subscription for comment count
+  useEffect(() => {
+    let wordStatusUnsubscribe = () => {};
+
+    if (isOpen && wordId) {
+      console.log(`[CommentThread] Setting up real-time subscription for comment count on word ${wordId}`);
+      // Subscribe to word data changes specifically for commentsCount
+      wordStatusUnsubscribe = wordReviewService.subscribeToWordStatus(wordId, ({ context }) => {
+        if (context?.wordData?.commentsCount !== undefined) {
+          console.log(`[CommentThread] Real-time comment count update: ${context.wordData.commentsCount}`);
+          setRealTimeCommentCount(context.wordData.commentsCount);
+        }
+      });
+    } else if (!isOpen) {
+      console.log(`[CommentThread] Unsubscribing from real-time comment count updates`);
+    }
+
+    return () => {
+      wordStatusUnsubscribe();
+      if (isOpen) {
+        console.log(`[CommentThread] Cleaned up real-time comment count subscription`);
+      }
+    };
+  }, [isOpen, wordId]);
 
   // Load comments when component mounts or wordId changes
   useEffect(() => {
@@ -222,9 +256,9 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
   };
 
   const sortedComments = sortComments(comments, sortBy);
-  // Use static comment count from word model for better performance
-  // Falls back to dynamic calculation if static count is not available
-  const commentCount = word?.commentsCount ?? comments.reduce((total, comment) => {
+  // Use real-time comment count from word model for better performance
+  // Falls back to dynamic calculation if real-time count is not available
+  const commentCount = realTimeCommentCount ?? comments.reduce((total, comment) => {
     return total + 1 + (comment.replies ? comment.replies.length : 0);
   }, 0);
 
