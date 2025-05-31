@@ -92,7 +92,7 @@ const Contribute = () => {
       }
     } catch (err) {
       console.error('Error submitting word:', err);
-      
+
       // Provide more detailed error messages for common issues
       if (err.code === 'permission-denied') {
         setError('Permission denied. This could be an authentication issue. Please log out and log in again.');
@@ -101,7 +101,7 @@ const Contribute = () => {
       } else {
         setError(err.message || 'An error occurred while submitting your contribution. Please try again.');
       }
-      
+
       // Log detailed debug information
       console.log('📊 Error details:', {
         code: err.code,

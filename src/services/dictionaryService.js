@@ -558,16 +558,31 @@ export const submitCorrection = async (wordId, userId, correctionData) => {
 /**
  * Get corrections awaiting community review
  * @param {number} limit - Maximum number of corrections to return
+ * @param {Array<string>} statusFilters - Array of status values to filter by (optional)
  * @returns {Promise<Array>} Array of corrections for review
  */
-export const getCorrectionsForReview = async (reviewLimit = 20) => {
+export const getCorrectionsForReview = async (reviewLimit = 20, statusFilters = null) => {
   try {
-    const q = query(
-      collection(db, 'corrections'),
-      where('status', '==', 'shallow_review'),
-      orderBy('createdAt', 'desc'),
-      reviewLimit ? limit(reviewLimit) : undefined
-    );
+    let q;
+    
+    if (statusFilters && statusFilters.length > 0) {
+      // If specific statuses are provided, use them
+      console.log('getCorrectionsForReview: Filtering by statuses:', statusFilters);
+      q = query(
+        collection(db, 'corrections'),
+        where('status', 'in', statusFilters),
+        orderBy('createdAt', 'desc'),
+        reviewLimit ? limit(reviewLimit) : undefined
+      );
+    } else {
+      // Default behavior - only show corrections needing review
+      q = query(
+        collection(db, 'corrections'),
+        where('status', '==', 'shallow_review'),
+        orderBy('createdAt', 'desc'),
+        reviewLimit ? limit(reviewLimit) : undefined
+      );
+    }
     
     const querySnapshot = await getDocs(q);
     const corrections = [];
@@ -790,23 +805,44 @@ export const applyCorrection = async (correctionId) => {
 /**
  * Get words awaiting community review
  * @param {number} limit - Maximum number of words to return
+ * @param {Array<string>} statusFilters - Array of status values to filter by (optional)
  * @returns {Promise<Array>} Array of words for review
  */
-export const getWordsForCommunityReview = async (maxLimit = 20) => {
+export const getWordsForCommunityReview = async (maxLimit = 20, statusFilters = null) => {
   try {
-    const q = query(
-      wordsCollection,
-      where('status', '==', 'community_review'),
-      orderBy('createdAt', 'desc'),
-      maxLimit ? limit(maxLimit) : undefined
-    );
+    let q;
     
-    console.log('Fetching community review words with query:', JSON.stringify({
-      collection: 'words',
-      where: 'status == community_review',
-      orderBy: 'createdAt desc',
-      limit: maxLimit
-    }));
+    if (statusFilters && statusFilters.length > 0) {
+      // If specific statuses are provided, use them
+      q = query(
+        wordsCollection,
+        where('status', 'in', statusFilters),
+        orderBy('createdAt', 'desc'),
+        maxLimit ? limit(maxLimit) : undefined
+      );
+      
+      console.log('Fetching community review words with status filters:', JSON.stringify({
+        collection: 'words',
+        where: `status in [${statusFilters.join(', ')}]`,
+        orderBy: 'createdAt desc',
+        limit: maxLimit
+      }));
+    } else {
+      // Default behavior - fetch words with community_review status
+      q = query(
+        wordsCollection,
+        where('status', '==', 'community_review'),
+        orderBy('createdAt', 'desc'),
+        maxLimit ? limit(maxLimit) : undefined
+      );
+      
+      console.log('Fetching community review words with query:', JSON.stringify({
+        collection: 'words',
+        where: 'status == community_review',
+        orderBy: 'createdAt desc',
+        limit: maxLimit
+      }));
+    }
     
     const querySnapshot = await getDocs(q);
     console.log(`Found ${querySnapshot.size} words for community review`);

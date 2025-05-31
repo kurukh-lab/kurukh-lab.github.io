@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import { getCorrectionsForReview, voteOnCorrection } from '../../services/dictionaryService';
 import { formatDate } from '../../utils/wordUtils';
+import StateFilter from '../StateFilter';
 
 const CommunityReview = () => {
   const { currentUser } = useAuth();
@@ -10,17 +11,43 @@ const CommunityReview = () => {
   const [error, setError] = useState(null);
   const [votingInProgress, setVotingInProgress] = useState({});
   const [successMessage, setSuccessMessage] = useState(null);
+  const [selectedStates, setSelectedStates] = useState(['shallow_review']);
+
+  // Define available states for correction filtering
+  const correctionStates = [
+    {
+      value: 'shallow_review',
+      label: 'Pending Review',
+      badgeClass: 'badge-warning'
+    },
+    {
+      value: 'approved',
+      label: 'Approved',
+      badgeClass: 'badge-success'
+    },
+    {
+      value: 'rejected',
+      label: 'Rejected',
+      badgeClass: 'badge-error'
+    },
+    {
+      value: 'applied',
+      label: 'Applied',
+      badgeClass: 'badge-info'
+    }
+  ];
 
   useEffect(() => {
     if (currentUser) {
       fetchCorrections();
     }
-  }, [currentUser]);
+  }, [currentUser, selectedStates]);
 
   const fetchCorrections = async () => {
     try {
       setLoading(true);
-      const correctionsData = await getCorrectionsForReview(20);
+      console.log("Fetching corrections with states:", selectedStates);
+      const correctionsData = await getCorrectionsForReview(20, selectedStates.length > 0 ? selectedStates : null);
       setCorrections(correctionsData);
     } catch (err) {
       console.error('Error fetching corrections:', err);
@@ -72,6 +99,10 @@ const CommunityReview = () => {
     return labels[type] || type;
   };
 
+  const handleStateFilterChange = (newSelectedStates) => {
+    setSelectedStates(newSelectedStates);
+  };
+
   if (!currentUser) {
     return (
       <div className="max-w-4xl mx-auto py-8 px-4">
@@ -92,6 +123,18 @@ const CommunityReview = () => {
           Help improve the Kurukh Dictionary by reviewing corrections suggested by the community.
           Your votes help determine which corrections get approved.
         </p>
+      </div>
+
+      {/* State Filter */}
+      <div className="mb-6">
+        <StateFilter
+          states={correctionStates}
+          selectedStates={selectedStates}
+          onSelectionChange={handleStateFilterChange}
+          title="Filter Corrections by Review State"
+          multiSelect={true}
+          disabled={loading}
+        />
       </div>
 
       {successMessage && (

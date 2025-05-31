@@ -18,6 +18,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import { getWordsForCommunityReview, voteOnWord } from '../../services/dictionaryService';
 import { formatDate } from '../../utils/wordUtils';
+import StateFilter from '../StateFilter';
 
 const WordCommunityReview = () => {
   const { currentUser } = useAuth();
@@ -26,6 +27,36 @@ const WordCommunityReview = () => {
   const [error, setError] = useState(null);
   const [votingInProgress, setVotingInProgress] = useState({});
   const [successMessage, setSuccessMessage] = useState(null);
+  const [selectedStates, setSelectedStates] = useState(['community_review', 'in_community_review']);
+
+  // Define available states for word filtering
+  const wordStates = [
+    {
+      value: 'community_review',
+      label: 'Community Review',
+      badgeClass: 'badge-warning'
+    },
+    {
+      value: 'in_community_review',
+      label: 'In Community Review',
+      badgeClass: 'badge-info'
+    },
+    {
+      value: 'pending_review',
+      label: 'Pending Admin Review',
+      badgeClass: 'badge-primary'
+    },
+    {
+      value: 'community_approved',
+      label: 'Community Approved',
+      badgeClass: 'badge-success'
+    },
+    {
+      value: 'community_rejected',
+      label: 'Community Rejected',
+      badgeClass: 'badge-error'
+    }
+  ];
 
   useEffect(() => {
     if (currentUser) {
@@ -34,13 +65,13 @@ const WordCommunityReview = () => {
     } else {
       console.log("No authenticated user, cannot fetch review words");
     }
-  }, [currentUser]);
+  }, [currentUser, selectedStates]); // Re-fetch when states change
 
   const fetchWords = async () => {
     try {
       setLoading(true);
-      console.log("Fetching words for community review...");
-      const wordsData = await getWordsForCommunityReview(20);
+      console.log("Fetching words for community review with states:", selectedStates);
+      const wordsData = await getWordsForCommunityReview(20, selectedStates.length > 0 ? selectedStates : null);
       console.log(`Received ${wordsData.length} words for community review`);
       setWords(wordsData);
     } catch (err) {
@@ -81,6 +112,10 @@ const WordCommunityReview = () => {
     }
   };
 
+  const handleStateFilterChange = (newSelectedStates) => {
+    setSelectedStates(newSelectedStates);
+  };
+
   if (!currentUser) {
     return (
       <div className="max-w-4xl mx-auto py-8 px-4">
@@ -101,6 +136,18 @@ const WordCommunityReview = () => {
           Help improve the Kurukh Dictionary by reviewing new word submissions.
           Words that receive 5 approval votes will be sent to administrators for final review.
         </p>
+      </div>
+
+      {/* State Filter */}
+      <div className="mb-6">
+        <StateFilter
+          states={wordStates}
+          selectedStates={selectedStates}
+          onSelectionChange={handleStateFilterChange}
+          title="Filter Words by Review State"
+          multiSelect={true}
+          disabled={loading}
+        />
       </div>
 
       {successMessage && (
