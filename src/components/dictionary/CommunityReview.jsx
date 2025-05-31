@@ -38,14 +38,14 @@ const CommunityReview = () => {
 
     try {
       const result = await voteOnCorrection(correctionId, currentUser.uid, vote, comment);
-      
+
       if (result.success) {
         setSuccessMessage(result.message);
         // Remove the correction from the list if it was approved/rejected
         if (result.message.includes('approved') || result.message.includes('rejected')) {
           setCorrections(prev => prev.filter(c => c.id !== correctionId));
         }
-        
+
         // Clear success message after 3 seconds
         setTimeout(() => setSuccessMessage(null), 3000);
       } else {
@@ -88,9 +88,8 @@ const CommunityReview = () => {
   return (
     <div className="max-w-6xl mx-auto py-8 px-4">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-4">Community Review</h1>
         <p className="text-gray-600">
-          Help improve the Kurukh Dictionary by reviewing corrections suggested by the community. 
+          Help improve the Kurukh Dictionary by reviewing corrections suggested by the community.
           Your votes help determine which corrections get approved.
         </p>
       </div>

@@ -560,13 +560,13 @@ export const submitCorrection = async (wordId, userId, correctionData) => {
  * @param {number} limit - Maximum number of corrections to return
  * @returns {Promise<Array>} Array of corrections for review
  */
-export const getCorrectionsForReview = async (limit = 20) => {
+export const getCorrectionsForReview = async (reviewLimit = 20) => {
   try {
     const q = query(
       collection(db, 'corrections'),
       where('status', '==', 'shallow_review'),
       orderBy('createdAt', 'desc'),
-      limit ? limit(limit) : undefined
+      reviewLimit ? limit(reviewLimit) : undefined
     );
     
     const querySnapshot = await getDocs(q);
