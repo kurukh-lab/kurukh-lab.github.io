@@ -164,10 +164,13 @@ export const getRepliesForComment = async (parentCommentId, currentDepth = 0, ma
         };
       }
 
-      // Recursively get nested replies for this reply (up to maxDepth)
-      if (currentDepth < maxDepth - 1) {
+      // Only load replies for first 3 levels, beyond that use lazy loading
+      if (currentDepth < 3) {
         reply.replies = await getRepliesForComment(document.id, currentDepth + 1, maxDepth);
       } else {
+        // For deeper levels, just indicate if replies exist
+        reply.hasReplies = (commentData.replyCount || 0) > 0;
+        reply.repliesLoaded = false;
         reply.replies = [];
       }
 
@@ -178,6 +181,60 @@ export const getRepliesForComment = async (parentCommentId, currentDepth = 0, ma
   } catch (error) {
     console.error('Error fetching replies:', error);
     return [];
+  }
+};
+
+/**
+ * Load replies dynamically for a specific comment (used for lazy loading deep nested comments)
+ * @param {string} parentCommentId - The ID of the parent comment
+ * @param {number} currentDepth - Current nesting depth
+ * @param {number} maxDepth - Maximum nesting depth
+ * @returns {Promise<{success: boolean, replies?: Array, error?: string}>}
+ */
+export const loadRepliesForComment = async (parentCommentId, currentDepth = 0, maxDepth = 10) => {
+  try {
+    if (currentDepth >= maxDepth) {
+      return { success: true, replies: [] };
+    }
+
+    const q = query(
+      collection(db, 'comments'),
+      where('parentCommentId', '==', parentCommentId),
+      where('isDeleted', '==', false),
+      orderBy('createdAt', 'asc')
+    );
+
+    const querySnapshot = await getDocs(q);
+    const replies = [];
+
+    for (const document of querySnapshot.docs) {
+      const commentData = document.data();
+      const reply = {
+        id: document.id,
+        ...commentData,
+        createdAt: commentData.createdAt?.toDate(),
+        updatedAt: commentData.updatedAt?.toDate(),
+        hasReplies: (commentData.replyCount || 0) > 0,
+        repliesLoaded: false,
+        replies: [] // Will be loaded dynamically
+      };
+
+      // Get user info for this reply
+      const userDoc = await getDoc(doc(db, 'users', commentData.userId));
+      if (userDoc.exists()) {
+        reply.userInfo = {
+          displayName: userDoc.data().displayName || userDoc.data().email || 'Anonymous',
+          email: userDoc.data().email
+        };
+      }
+
+      replies.push(reply);
+    }
+
+    return { success: true, replies };
+  } catch (error) {
+    console.error('Error loading replies:', error);
+    return { success: false, error: error.message };
   }
 };
 

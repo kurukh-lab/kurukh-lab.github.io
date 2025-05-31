@@ -7,7 +7,7 @@
 
 import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { voteOnComment, editComment, deleteComment } from '../services/commentService';
+import { voteOnComment, editComment, deleteComment, loadRepliesForComment } from '../services/commentService';
 import { formatDate } from '../utils/wordUtils';
 
 const Comment = ({
@@ -27,6 +27,9 @@ const Comment = ({
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [votingInProgress, setVotingInProgress] = useState(false);
   const [showReplies, setShowReplies] = useState(level < 3); // Auto-expand first 3 levels
+  const [loadingReplies, setLoadingReplies] = useState(false);
+  const [repliesLoaded, setRepliesLoaded] = useState(comment.repliesLoaded || level < 3);
+  const [dynamicReplies, setDynamicReplies] = useState(comment.replies || []);
 
   // Calculate net score
   const netScore = (comment.upvotes || 0) - (comment.downvotes || 0);
@@ -37,6 +40,25 @@ const Comment = ({
 
   // Check if current user owns this comment
   const isOwner = currentUser?.uid === comment.userId;
+
+  // Handle loading replies dynamically for deep nested comments
+  const handleLoadReplies = async () => {
+    if (loadingReplies || repliesLoaded) return;
+
+    setLoadingReplies(true);
+    try {
+      const result = await loadRepliesForComment(comment.id, level, maxLevel);
+      if (result.success) {
+        setDynamicReplies(result.replies || []);
+        setRepliesLoaded(true);
+        setShowReplies(true);
+      }
+    } catch (error) {
+      console.error('Error loading replies:', error);
+    } finally {
+      setLoadingReplies(false);
+    }
+  };
 
   const handleVote = async (voteType) => {
     if (!currentUser) return;
@@ -261,12 +283,28 @@ const Comment = ({
               )}
 
               {/* Show replies toggle if there are replies */}
-              {comment.replies && comment.replies.length > 0 && (
+              {((comment.replies && comment.replies.length > 0) || (level >= 3 && comment.hasReplies)) && (
                 <button
-                  onClick={() => setShowReplies(!showReplies)}
+                  onClick={() => {
+                    if (level >= 3 && !repliesLoaded) {
+                      handleLoadReplies();
+                    } else {
+                      setShowReplies(!showReplies);
+                    }
+                  }}
                   className="text-gray-500 hover:text-gray-700 font-medium"
+                  disabled={loadingReplies}
                 >
-                  {showReplies ? 'Hide' : 'Show'} {comment.replies.length} {comment.replies.length === 1 ? 'reply' : 'replies'}
+                  {loadingReplies ? (
+                    <>
+                      <span className="loading loading-spinner loading-xs mr-1"></span>
+                      Loading...
+                    </>
+                  ) : level >= 3 && !repliesLoaded ? (
+                    `Load ${comment.replyCount || 0} ${(comment.replyCount || 0) === 1 ? 'reply' : 'replies'}`
+                  ) : (
+                    `${showReplies ? 'Hide' : 'Show'} ${(comment.replies?.length || dynamicReplies.length)} ${((comment.replies?.length || dynamicReplies.length) === 1) ? 'reply' : 'replies'}`
+                  )}
                 </button>
               )}
             </div>
@@ -313,9 +351,10 @@ const Comment = ({
       </div>
 
       {/* Replies */}
-      {showReplies && comment.replies && comment.replies.length > 0 && (
+      {showReplies && (
         <div className="mt-4">
-          {comment.replies.map((reply) => (
+          {/* Render static replies (for levels 0-2) or dynamically loaded replies (for levels 3+) */}
+          {(level < 3 ? (comment.replies || []) : dynamicReplies).map((reply) => (
             <Comment
               key={reply.id}
               comment={reply}
