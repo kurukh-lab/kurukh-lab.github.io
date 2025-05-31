@@ -91,10 +91,10 @@ export const getCommentsForWord = async (wordId, limit = 20, lastCommentId = nul
     const querySnapshot = await getDocs(q);
     const comments = [];
 
-    for (const doc of querySnapshot.docs) {
-      const commentData = doc.data();
+    for (const document of querySnapshot.docs) {
+      const commentData = document.data();
       const comment = {
-        id: doc.id,
+        id: document.id,
         ...commentData,
         createdAt: commentData.createdAt?.toDate(),
         updatedAt: commentData.updatedAt?.toDate()
@@ -110,7 +110,7 @@ export const getCommentsForWord = async (wordId, limit = 20, lastCommentId = nul
       }
 
       // Get replies for this comment
-      comment.replies = await getRepliesForComment(doc.id);
+      comment.replies = await getRepliesForComment(document.id);
       
       comments.push(comment);
     }
@@ -139,10 +139,10 @@ export const getRepliesForComment = async (parentCommentId) => {
     const querySnapshot = await getDocs(q);
     const replies = [];
 
-    for (const doc of querySnapshot.docs) {
-      const commentData = doc.data();
+    for (const document of querySnapshot.docs) {
+      const commentData = document.data();
       const reply = {
-        id: doc.id,
+        id: document.id,
         ...commentData,
         createdAt: commentData.createdAt?.toDate(),
         updatedAt: commentData.updatedAt?.toDate()
