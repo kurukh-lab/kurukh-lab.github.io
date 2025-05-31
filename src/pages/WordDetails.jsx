@@ -7,14 +7,18 @@ import SuggestCorrectionModal from '../components/dictionary/SuggestCorrectionMo
 import PronunciationButton from '../components/dictionary/PronunciationButton';
 import ShareWordButtons from '../components/dictionary/ShareWordButtons';
 import LikeButton from '../components/dictionary/LikeButton';
+import WordReviewStatus from '../components/WordReviewStatus';
+import { useAuth } from '../contexts/AuthContext';
 
 const WordDetails = () => {
   const { wordId } = useParams();
+  const { isAdmin, currentUser } = useAuth();
   const [word, setWord] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [showReportModal, setShowReportModal] = useState(false);
   const [showCorrectionModal, setShowCorrectionModal] = useState(false);
+  const [showReviewDetails, setShowReviewDetails] = useState(false);
 
   useEffect(() => {
     const fetchWordDetails = async () => {
@@ -117,6 +121,27 @@ const WordDetails = () => {
               </div>
             ))}
           </div>
+
+          {/* Review Status for admin and word owners */}
+          {(isAdmin || (currentUser && word.created_by === currentUser.uid)) && (
+            <div className="mb-6">
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="text-lg font-medium">Review Status</h3>
+                <button
+                  onClick={() => setShowReviewDetails(!showReviewDetails)}
+                  className="btn btn-xs btn-outline"
+                >
+                  {showReviewDetails ? 'Hide Details' : 'Show Details'}
+                </button>
+              </div>
+
+              {showReviewDetails && (
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <WordReviewStatus wordId={wordId} />
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Metadata and Actions */}
           <div className="text-sm text-gray-500 flex flex-col sm:flex-row justify-between gap-4 border-t pt-4 mt-4">

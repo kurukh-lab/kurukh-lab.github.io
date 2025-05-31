@@ -11,7 +11,7 @@ import {
   limit,
   updateDoc
 } from 'firebase/firestore';
-import { db } from '../config/firebase';
+import { db, auth } from '../config/firebase';
 
 // Collection reference
 const wordsCollection = collection(db, 'words');
@@ -230,6 +230,28 @@ export const getWordById = async (id) => {
 // Add a new word
 export const addWord = async (wordData, userId) => {
   try {
+    // Ensure userId is not null to avoid Firestore security rule issues
+    if (!userId) {
+      throw new Error("User must be authenticated to contribute");
+    }
+    
+    // Check if current user is authenticated via Firebase Auth
+    // This ensures the request.auth will be present in Firestore rules
+    if (auth.currentUser === null) {
+      throw new Error("Firebase Auth user not found. Please log in again.");
+    }
+    
+    // Force token refresh for Google auth users to ensure request.auth is present
+    try {
+      // Get fresh ID token to ensure Firebase Auth is properly set
+      await auth.currentUser.getIdToken(true);
+      console.log("🔑 Auth token refreshed successfully");
+    } catch (tokenError) {
+      console.warn("⚠️ Token refresh failed:", tokenError);
+      // Continue anyway as the token might still be valid
+    }
+    
+    // Ensure all required fields are present
     const wordWithMeta = {
       ...wordData,
       contributor_id: userId,
@@ -237,6 +259,8 @@ export const addWord = async (wordData, userId) => {
       community_votes_for: 0,
       community_votes_against: 0,
       reviewed_by: [],
+      likedBy: [],      // Initialize with empty array to avoid null issues
+      likesCount: 0,    // Initialize with 0 to avoid null issues
       createdAt: serverTimestamp(),
       updatedAt: serverTimestamp()
     };

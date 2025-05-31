@@ -2,13 +2,25 @@ rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
+    // Helper function to check if a registered user
+    function isRegisteredUser() {
+      return request.auth != null && 
+             exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.roles.hasAny(['user']);
+    }
+
     // Helper function to check if user is admin
     function isAdmin() {
       return request.auth != null && 
              exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.roles.hasAny(['admin']);
     }
-    
+
+    // Helper function to check if anonymous user
+    function isAnonymousUser() {
+      return request.auth != null && resource.data.status == 'community_review';
+    }
+
     // Allow unauthenticated access in emulator mode
     function isEmulator() {
       return request.auth == null && request.time != null;
@@ -24,12 +36,12 @@ service cloud.firestore {
     // Allow public read access to approved words, community review for authenticated users, admin access to all words
     // Allow like updates for all users (authenticated and anonymous)
     match /words/{wordId} {
-      allow read: if resource.data.status == 'approved' || 
-                    (request.auth != null && resource.data.status == 'community_review') || 
-                    isAdmin() || 
-                    isEmulator();
-      allow write: if (request.auth != null && resource.data.status == 'community_review') || 
-                    isAdmin() || 
+      allow read: if  isRegisteredUser() || 
+                      isAdmin() || 
+                      isEmulator() ||
+                      resource.data.status == 'approved';
+      allow write: if isRegisteredUser() ||
+                    isAdmin() ||
                     isEmulator();
       // Allow specific like-related updates for anonymous users
       allow update: if isLikeUpdate(request.resource.data, resource.data);

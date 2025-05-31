@@ -5,6 +5,8 @@ import { collection, query, where, getDocs, doc, updateDoc, orderBy, getDoc } fr
 import { db } from '../config/firebase';
 import { formatDate } from '../utils/wordUtils';
 import { getCorrectionsForReview, voteOnCorrection, applyCorrection } from '../services/dictionaryService';
+import { wordReviewService } from '../services/wordReviewService';
+import WordReviewStats from '../components/WordReviewStats';
 
 const Admin = () => {
   const { currentUser, isAdmin, userRoles, rolesLoading } = useAuth();
@@ -21,6 +23,7 @@ const Admin = () => {
   const [actionInProgress, setActionInProgress] = useState(false);
   const [successMessage, setSuccessMessage] = useState(null);
   const [activeTab, setActiveTab] = useState('pending-words');
+  const [showStats, setShowStats] = useState(false);
 
   // Debug logging
   console.log('🔍 Admin component render', {
@@ -296,33 +299,14 @@ const Admin = () => {
     setActionInProgress(true);
 
     try {
-      // First fetch the word to check if it has reviewed_by field
-      const wordRef = doc(db, 'words', wordId);
-      const wordDoc = await getDoc(wordRef);
-      const wordData = wordDoc.data();
-      
-      // Create update object - using JavaScript Date instead of serverTimestamp for arrays
-      const updateData = {
-        status: 'approved',
-        updatedAt: new Date()
-      };
-      
-      // If the word has a reviewed_by field with serverTimestamp, create a new array with JS Date objects
-      if (wordData.reviewed_by && Array.isArray(wordData.reviewed_by)) {
-        updateData.reviewed_by = wordData.reviewed_by.map(review => {
-          // If the review has a timestamp that's a server timestamp, replace it with a JS Date
-          if (review.timestamp && typeof review.timestamp.toDate === 'function') {
-            return {
-              ...review,
-              timestamp: review.timestamp.toDate() // Convert Firebase timestamp to JS Date
-            };
-          }
-          return review;
-        });
+      // Use the wordReviewService to transition the word state
+      const result = await wordReviewService.transitionWord(wordId, 'ADMIN_APPROVE', {
+        userId: currentUser.uid,
+      });
+
+      if (!result.success) {
+        throw new Error(result.error || 'Failed to approve word');
       }
-      
-      // Update the document with our prepared data
-      await updateDoc(wordRef, updateData);
 
       // Remove the word from the list
       setPendingWords(pendingWords.filter(word => word.id !== wordId));
@@ -350,11 +334,14 @@ const Admin = () => {
     setActionInProgress(true);
 
     try {
-      const wordRef = doc(db, 'words', wordId);
-      await updateDoc(wordRef, {
-        status: 'rejected',
-        updatedAt: new Date()
+      // Use the wordReviewService to transition the word state
+      const result = await wordReviewService.transitionWord(wordId, 'ADMIN_REJECT', {
+        userId: currentUser.uid,
       });
+
+      if (!result.success) {
+        throw new Error(result.error || 'Failed to reject word');
+      }
 
       // Remove the word from the list
       setPendingWords(pendingWords.filter(word => word.id !== wordId));
@@ -436,6 +423,15 @@ const Admin = () => {
         throw new Error(applyResult.error);
       }
 
+      // If we have the word ID, also update its review state
+      if (correction.word_id) {
+        await wordReviewService.transitionWord(correction.word_id, 'HANDLE_CORRECTION', {
+          userId: currentUser.uid,
+          correctionId,
+          action: 'approved'
+        });
+      }
+
       // Remove the correction from the list
       setCorrections(corrections.filter(c => c.id !== correctionId));
       setSuccessMessage('Correction approved and applied successfully!');
@@ -462,6 +458,11 @@ const Admin = () => {
     setActionInProgress(true);
 
     try {
+      const correction = corrections.find(c => c.id === correctionId);
+      if (!correction) {
+        throw new Error('Correction not found');
+      }
+
       const correctionRef = doc(db, 'corrections', correctionId);
       await updateDoc(correctionRef, {
         status: 'admin_rejected',
@@ -469,6 +470,15 @@ const Admin = () => {
         admin_rejected_at: new Date(),
         updatedAt: new Date()
       });
+
+      // If we have the word ID, also update its review state
+      if (correction.word_id) {
+        await wordReviewService.transitionWord(correction.word_id, 'HANDLE_CORRECTION', {
+          userId: currentUser.uid,
+          correctionId,
+          action: 'rejected'
+        });
+      }
 
       // Remove the correction from the list
       setCorrections(corrections.filter(c => c.id !== correctionId));
@@ -525,6 +535,25 @@ const Admin = () => {
   return (
     <div className="max-w-4xl mx-auto py-8 px-4">
       <h1 className="text-3xl font-bold mb-6">Admin Dashboard</h1>
+
+      <div className="flex justify-between items-center mb-6">
+        <button
+          className="btn btn-outline btn-sm"
+          onClick={() => setShowStats(!showStats)}
+        >
+          {showStats ? 'Hide Statistics' : 'Show Dictionary Statistics'}
+        </button>
+
+        <Link to="/word-review-demo" className="btn btn-sm btn-primary">
+          Review System Demo
+        </Link>
+      </div>
+
+      {showStats && (
+        <div className="mb-8">
+          <WordReviewStats />
+        </div>
+      )}
 
       {successMessage && (
         <div className="alert alert-success mb-6">

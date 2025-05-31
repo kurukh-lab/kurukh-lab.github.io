@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { addWord } from '../services/dictionaryService';
+import { auth } from '../config/firebase';
 
 const Contribute = () => {
   const { currentUser } = useAuth();
@@ -39,6 +40,21 @@ const Contribute = () => {
     setError(null);
 
     try {
+      // Check if user is authenticated
+      if (!currentUser || !currentUser.uid) {
+        setError('You must be logged in to contribute. Please log in and try again.');
+        setSubmitting(false);
+        return;
+      }
+
+      // Add debug information
+      console.log('🔑 Current user authentication:', {
+        uid: currentUser.uid,
+        email: currentUser.email,
+        provider: currentUser.providerData?.[0]?.providerId || 'unknown',
+        isAnonymous: currentUser.isAnonymous
+      });
+
       // Format the data according to our model
       const wordData = {
         kurukh_word: formData.kurukh_word.trim(),
@@ -53,6 +69,7 @@ const Contribute = () => {
         part_of_speech: formData.part_of_speech.trim() || null,
       };
 
+      console.log(`Submitting word with user ID: ${currentUser.uid}`);
       const result = await addWord(wordData, currentUser.uid);
 
       if (result.success) {
@@ -75,7 +92,24 @@ const Contribute = () => {
       }
     } catch (err) {
       console.error('Error submitting word:', err);
-      setError(err.message || 'An error occurred while submitting your contribution. Please try again.');
+      
+      // Provide more detailed error messages for common issues
+      if (err.code === 'permission-denied') {
+        setError('Permission denied. This could be an authentication issue. Please log out and log in again.');
+      } else if (err.message && err.message.includes('auth')) {
+        setError(`Authentication error: ${err.message}. Please log out and log in again.`);
+      } else {
+        setError(err.message || 'An error occurred while submitting your contribution. Please try again.');
+      }
+      
+      // Log detailed debug information
+      console.log('📊 Error details:', {
+        code: err.code,
+        message: err.message,
+        stack: err.stack,
+        authCurrentUser: auth?.currentUser ? 'present' : 'null',
+        userUID: currentUser?.uid || 'none'
+      });
     } finally {
       setSubmitting(false);
     }
