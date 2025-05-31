@@ -233,7 +233,10 @@ export const addWord = async (wordData, userId) => {
     const wordWithMeta = {
       ...wordData,
       contributor_id: userId,
-      status: 'pending_review',
+      status: 'community_review',
+      community_votes_for: 0,
+      community_votes_against: 0,
+      reviewed_by: [],
       createdAt: serverTimestamp(),
       updatedAt: serverTimestamp()
     };
@@ -600,12 +603,12 @@ export const voteOnCorrection = async (correctionId, userId, vote, comment = '')
       throw new Error('You have already voted on this correction');
     }
     
-    // Add vote to the correction
+    // Add vote to the correction (use regular Date object for arrays instead of serverTimestamp)
     const newReview = {
       user_id: userId,
       vote: vote, // 'approve' or 'reject'
       comment: comment,
-      timestamp: serverTimestamp()
+      timestamp: new Date() // Using JavaScript Date object instead of serverTimestamp for arrays
     };
     
     const updatedReviewedBy = [...reviewedBy, newReview];
@@ -625,7 +628,7 @@ export const voteOnCorrection = async (correctionId, userId, vote, comment = '')
       votes_for: votesFor,
       votes_against: votesAgainst,
       status: newStatus,
-      updatedAt: serverTimestamp()
+      updatedAt: serverTimestamp() // This is fine as it's not inside an array
     });
     
     return {
@@ -753,6 +756,124 @@ export const applyCorrection = async (correctionId) => {
     };
   } catch (error) {
     console.error('Error applying correction:', error);
+    return {
+      success: false,
+      error: error.message
+    };
+  }
+};
+
+/**
+ * Get words awaiting community review
+ * @param {number} limit - Maximum number of words to return
+ * @returns {Promise<Array>} Array of words for review
+ */
+export const getWordsForCommunityReview = async (maxLimit = 20) => {
+  try {
+    const q = query(
+      wordsCollection,
+      where('status', '==', 'community_review'),
+      orderBy('createdAt', 'desc'),
+      maxLimit ? limit(maxLimit) : undefined
+    );
+    
+    console.log('Fetching community review words with query:', JSON.stringify({
+      collection: 'words',
+      where: 'status == community_review',
+      orderBy: 'createdAt desc',
+      limit: maxLimit
+    }));
+    
+    const querySnapshot = await getDocs(q);
+    console.log(`Found ${querySnapshot.size} words for community review`);
+    
+    const words = [];
+    
+    querySnapshot.forEach((doc) => {
+      words.push({
+        id: doc.id,
+        ...doc.data()
+      });
+    });
+    
+    return words;
+  } catch (error) {
+    console.error('Error getting words for community review:', error);
+    return [];
+  }
+};
+
+/**
+ * Vote on a word (approve or reject)
+ * @param {string} wordId - ID of the word
+ * @param {string} userId - ID of the user voting
+ * @param {string} vote - 'approve' or 'reject'
+ * @param {string} comment - Optional comment explaining the vote
+ * @returns {Promise<Object>} Result of the operation
+ */
+export const voteOnWord = async (wordId, userId, vote, comment = '') => {
+  try {
+    const wordRef = doc(db, 'words', wordId);
+    const wordDoc = await getDoc(wordRef);
+    
+    if (!wordDoc.exists()) {
+      throw new Error('Word not found');
+    }
+    
+    const wordData = wordDoc.data();
+    const reviewedBy = wordData.reviewed_by || [];
+    
+    // Prevent voting on own contribution
+    if (wordData.contributor_id === userId) {
+      throw new Error('You cannot vote on your own contribution');
+    }
+
+    // Check if word is still in community review
+    if (wordData.status !== 'community_review') {
+      throw new Error('This word is no longer available for community review');
+    }
+    
+    // Check if user has already voted
+    if (reviewedBy.some(review => review.user_id === userId)) {
+      throw new Error('You have already voted on this word');
+    }
+    
+    // Add vote to the word (use regular Date object for arrays instead of serverTimestamp)
+    const newReview = {
+      user_id: userId,
+      vote: vote, // 'approve' or 'reject'
+      comment: comment,
+      timestamp: new Date() // Using JavaScript Date object instead of serverTimestamp for arrays
+    };
+    
+    const updatedReviewedBy = [...reviewedBy, newReview];
+    const votesFor = vote === 'approve' ? (wordData.community_votes_for || 0) + 1 : (wordData.community_votes_for || 0);
+    const votesAgainst = vote === 'reject' ? (wordData.community_votes_against || 0) + 1 : (wordData.community_votes_against || 0);
+    
+    // Check if the word should move to admin review (5+ approve votes) or be rejected (5+ reject votes)
+    let newStatus = wordData.status;
+    if (votesFor >= 5) {
+      newStatus = 'pending_review'; // Move to admin review
+    } else if (votesAgainst >= 5) {
+      newStatus = 'community_rejected';
+    }
+    
+    await updateDoc(wordRef, {
+      reviewed_by: updatedReviewedBy,
+      community_votes_for: votesFor,
+      community_votes_against: votesAgainst,
+      status: newStatus,
+      updatedAt: serverTimestamp() // This is fine as it's not inside an array
+    });
+    
+    return {
+      success: true,
+      message: newStatus === 'pending_review' ? 'Word approved for admin review!' : 
+               newStatus === 'community_rejected' ? 'Word rejected by community!' : 
+               'Vote recorded successfully!'
+    };
+  } catch (error) {
+    console.error('Error voting on word:', error);
     return {
       success: false,
       error: error.message

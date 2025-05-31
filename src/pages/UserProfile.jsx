@@ -13,10 +13,10 @@ const UserProfile = () => {
   useEffect(() => {
     const fetchContributions = async () => {
       if (!currentUser) return;
-      
+
       setLoading(true);
       setError(null);
-      
+
       try {
         const userContributions = await getUserContributions(currentUser.uid);
         setContributions(userContributions);
@@ -27,7 +27,7 @@ const UserProfile = () => {
         setLoading(false);
       }
     };
-    
+
     fetchContributions();
   }, [currentUser]);
 
@@ -39,12 +39,12 @@ const UserProfile = () => {
   return (
     <div className="max-w-4xl mx-auto py-8 px-4">
       <h1 className="text-3xl font-bold mb-6">Your Profile</h1>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="md:col-span-1">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h2 className="text-xl font-bold mb-4">User Information</h2>
-            
+
             <div className="flex flex-col gap-2">
               <p className="flex justify-between">
                 <span className="text-gray-500">Username:</span>
@@ -61,11 +61,11 @@ const UserProfile = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="md:col-span-2">
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <h2 className="p-4 bg-gray-100 font-bold text-xl border-b">Your Contributions</h2>
-            
+
             {loading ? (
               <div className="flex justify-center py-10">
                 <span className="loading loading-spinner loading-lg"></span>
@@ -96,13 +96,18 @@ const UserProfile = () => {
                           Status: <span className={`font-medium ${getStatusClass(word.status)}`}>
                             {formatStatus(word.status)}
                           </span>
+                          {word.status === 'community_review' && word.community_votes_for > 0 && (
+                            <span className="ml-1 text-xs">
+                              ({word.community_votes_for}/5 approvals)
+                            </span>
+                          )}
                         </p>
                       </div>
                       <p className="text-xs text-gray-400">
                         {formatDate(word.createdAt)}
                       </p>
                     </div>
-                    
+
                     {word.meanings && word.meanings.length > 0 && (
                       <p className="mt-2 text-gray-700">
                         {word.meanings[0].definition.length > 100
@@ -127,9 +132,15 @@ const formatStatus = (status) => {
     case 'approved':
       return 'Approved';
     case 'pending_review':
-      return 'Pending Review';
+      return 'Admin Review';
+    case 'community_review':
+      return 'Community Review';
+    case 'community_approved':
+      return 'Community Approved';
     case 'rejected':
       return 'Rejected';
+    case 'community_rejected':
+      return 'Community Rejected';
     default:
       return 'Unknown';
   }
@@ -140,8 +151,13 @@ const getStatusClass = (status) => {
     case 'approved':
       return 'text-success';
     case 'pending_review':
+      return 'text-info';
+    case 'community_review':
       return 'text-warning';
+    case 'community_approved':
+      return 'text-info';
     case 'rejected':
+    case 'community_rejected':
       return 'text-error';
     default:
       return 'text-gray-500';

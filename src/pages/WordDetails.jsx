@@ -19,10 +19,10 @@ const WordDetails = () => {
   useEffect(() => {
     const fetchWordDetails = async () => {
       if (!wordId) return;
-      
+
       setLoading(true);
       setError(null);
-      
+
       try {
         const wordData = await getWordById(wordId);
         if (wordData) {
@@ -37,7 +37,7 @@ const WordDetails = () => {
         setLoading(false);
       }
     };
-    
+
     fetchWordDetails();
   }, [wordId]);
 
@@ -69,7 +69,7 @@ const WordDetails = () => {
 
   return (
     <div className="max-w-3xl mx-auto py-10 px-4">
-      <Link 
+      <Link
         to="/"
         className="inline-flex items-center mb-6 text-primary hover:underline"
       >
@@ -78,7 +78,7 @@ const WordDetails = () => {
         </svg>
         Back to Dictionary
       </Link>
-      
+
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
         {/* Word header */}
         <div className="p-6 bg-primary text-white">
@@ -92,7 +92,7 @@ const WordDetails = () => {
             </p>
           )}
         </div>
-        
+
         {/* Word details */}
         <div className="p-6">
           {/* Meanings */}
@@ -106,7 +106,7 @@ const WordDetails = () => {
                   </p>
                   <p className="text-lg">{meaning.definition}</p>
                 </div>
-                
+
                 {meaning.example_sentence_kurukh && (
                   <div className="bg-gray-50 p-4 rounded-md">
                     <p className="font-medium text-sm mb-1">Example:</p>
@@ -117,25 +117,38 @@ const WordDetails = () => {
               </div>
             ))}
           </div>
-          
+
           {/* Metadata and Actions */}
           <div className="text-sm text-gray-500 flex flex-col sm:flex-row justify-between gap-4 border-t pt-4 mt-4">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-4">
               {word.createdAt && (
                 <p>Added: {formatDate(word.createdAt)}</p>
               )}
+
+              {/* Word Status */}
+              {word.status && (
+                <div className="flex items-center gap-1">
+                  <span>Status:</span>
+                  <span className={`badge ${getStatusBadgeClass(word.status)}`}>
+                    {formatStatus(word.status)}
+                  </span>
+                  {word.status === 'community_review' && word.community_votes_for > 0 && (
+                    <span className="text-xs ml-1">({word.community_votes_for}/5 approvals)</span>
+                  )}
+                </div>
+              )}
             </div>
-            
+
             <div className="flex flex-wrap gap-4 items-center">
               <LikeButton word={word} size="lg" />
-              
-              <ShareWordButtons 
-                word={word.kurukh_word} 
+
+              <ShareWordButtons
+                word={word.kurukh_word}
                 url={window.location.href}
-                description={word.meanings?.[0]?.definition} 
+                description={word.meanings?.[0]?.definition}
               />
-              
-              <button 
+
+              <button
                 className="btn btn-ghost btn-xs text-primary"
                 onClick={() => setShowCorrectionModal(true)}
               >
@@ -144,8 +157,8 @@ const WordDetails = () => {
                 </svg>
                 Suggest Correction
               </button>
-              
-              <button 
+
+              <button
                 className="btn btn-ghost btn-xs text-red-500"
                 onClick={() => setShowReportModal(true)}
               >
@@ -155,17 +168,17 @@ const WordDetails = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Report Word Modal */}
-      <ReportWordModal 
+      <ReportWordModal
         isOpen={showReportModal}
         onClose={() => setShowReportModal(false)}
         wordId={word?.id}
         wordText={word?.kurukh_word}
       />
-      
+
       {/* Suggest Correction Modal */}
-      <SuggestCorrectionModal 
+      <SuggestCorrectionModal
         isOpen={showCorrectionModal}
         onClose={() => setShowCorrectionModal(false)}
         wordId={word?.id}
@@ -177,3 +190,41 @@ const WordDetails = () => {
 };
 
 export default WordDetails;
+
+// Helper functions for formatting word status
+const formatStatus = (status) => {
+  switch (status) {
+    case 'approved':
+      return 'Approved';
+    case 'community_review':
+      return 'Community Review';
+    case 'pending_review':
+      return 'Admin Review';
+    case 'community_approved':
+      return 'Community Approved';
+    case 'rejected':
+      return 'Rejected';
+    case 'community_rejected':
+      return 'Community Rejected';
+    default:
+      return status ? status.replace('_', ' ').charAt(0).toUpperCase() + status.slice(1) : 'Unknown';
+  }
+};
+
+const getStatusBadgeClass = (status) => {
+  switch (status) {
+    case 'approved':
+      return 'badge-success';
+    case 'community_review':
+      return 'badge-warning';
+    case 'pending_review':
+      return 'badge-info';
+    case 'community_approved':
+      return 'badge-info';
+    case 'rejected':
+    case 'community_rejected':
+      return 'badge-error';
+    default:
+      return 'badge-neutral';
+  }
+};

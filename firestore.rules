@@ -21,11 +21,16 @@ service cloud.firestore {
              newData.keys().hasAll(oldData.keys());
     }
 
-    // Allow public read access to approved words, admin access to all words
+    // Allow public read access to approved words, community review for authenticated users, admin access to all words
     // Allow like updates for all users (authenticated and anonymous)
     match /words/{wordId} {
-      allow read: if resource.data.status == 'approved' || isAdmin() || isEmulator();
-      allow write: if request.auth != null || isEmulator();
+      allow read: if resource.data.status == 'approved' || 
+                    (request.auth != null && resource.data.status == 'community_review') || 
+                    isAdmin() || 
+                    isEmulator();
+      allow write: if (request.auth != null && resource.data.status == 'community_review') || 
+                    isAdmin() || 
+                    isEmulator();
       // Allow specific like-related updates for anonymous users
       allow update: if isLikeUpdate(request.resource.data, resource.data);
     }
