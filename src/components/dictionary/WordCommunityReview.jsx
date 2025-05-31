@@ -19,6 +19,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { getWordsForCommunityReview, voteOnWord } from '../../services/dictionaryService';
 import { formatDate } from '../../utils/wordUtils';
 import StateFilter from '../StateFilter';
+import CommentThread from '../CommentThread';
 
 const WordCommunityReview = () => {
   const { currentUser } = useAuth();
@@ -31,6 +32,7 @@ const WordCommunityReview = () => {
   const [showCommentModal, setShowCommentModal] = useState(false);
   const [currentVote, setCurrentVote] = useState(null);
   const [voteComment, setVoteComment] = useState('');
+  const [openComments, setOpenComments] = useState({}); // Track which comment threads are open
 
   // Define available states for word filtering
   const wordStates = [
@@ -132,6 +134,13 @@ const WordCommunityReview = () => {
 
   const handleStateFilterChange = (newSelectedStates) => {
     setSelectedStates(newSelectedStates);
+  };
+
+  const toggleComments = (wordId) => {
+    setOpenComments(prev => ({
+      ...prev,
+      [wordId]: !prev[wordId]
+    }));
   };
 
   if (!currentUser) {
@@ -293,6 +302,13 @@ const WordCommunityReview = () => {
                     </div>
                   </div>
                 )}
+
+                {/* Comment Thread */}
+                <CommentThread
+                  wordId={word.id}
+                  isOpen={openComments[word.id] || false}
+                  onToggle={() => toggleComments(word.id)}
+                />
               </div>
             </div>
           ))}
