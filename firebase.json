@@ -20,9 +20,6 @@
       }
     ]
   },
-  "storage": {
-    "rules": "storage.rules"
-  },
   "emulators": {
     "auth": {
       "host": "0.0.0.0",
@@ -39,10 +36,6 @@
     "hosting": {
       "host": "0.0.0.0",
       "port": 5003
-    },
-    "storage": {
-      "host": "0.0.0.0",
-      "port": 9198
     },
     "ui": {
       "enabled": true,

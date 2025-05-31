@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { 
+import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
@@ -96,17 +96,37 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  // Get user data from Firestore
+  // Get user data from Firestore with enhanced error handling
   const getUserData = async (uid) => {
     try {
       console.log("🔍 getUserData called for UID:", uid);
-      
+
+      if (!uid) {
+        console.error("❌ getUserData called with null/undefined UID");
+        return null;
+      }
+
       // Use the enhanced debugging function
       const userData = await getUserDocument(uid);
+
+      if (!userData) {
+        console.warn("⚠️ No user data found for UID:", uid);
+
+        // Return a minimal user data object to prevent null reference errors
+        return {
+          uid: uid,
+          roles: ['user']  // Default role
+        };
+      }
+
       return userData;
     } catch (error) {
       console.error("❌ Error in getUserData:", error);
-      return null;
+      // Return minimal data to prevent null reference errors
+      return {
+        uid: uid,
+        roles: ['user']
+      };
     }
   };
 
@@ -122,10 +142,24 @@ export const AuthProvider = ({ children }) => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
       if (user) {
         // User is signed in - get additional data from Firestore
-        const userData = await getUserData(user.uid);
-        setCurrentUser({ ...user, ...userData });
+        console.log("👤 Auth state changed - user signed in:", user.uid);
+        try {
+          const userData = await getUserData(user.uid);
+          console.log("📋 User data loaded:", userData);
+          // Ensure we always have the UID in currentUser even if Firestore data fails
+          setCurrentUser({
+            ...user,
+            ...(userData || {}),
+            uid: user.uid // Ensure UID is always available
+          });
+        } catch (error) {
+          console.error("❌ Error loading user data:", error);
+          // Set user with auth data only if Firestore fails
+          setCurrentUser(user);
+        }
       } else {
         // User is signed out
+        console.log("👤 Auth state changed - user signed out");
         setCurrentUser(null);
       }
       setLoading(false);
@@ -138,7 +172,7 @@ export const AuthProvider = ({ children }) => {
   // Get user roles from Firestore
   const [userRoles, setUserRoles] = useState(null); // Start with null to indicate not loaded
   const [rolesLoading, setRolesLoading] = useState(false);
-  
+
   useEffect(() => {
     const fetchUserRoles = async () => {
       if (!currentUser) {
@@ -146,15 +180,15 @@ export const AuthProvider = ({ children }) => {
         setRolesLoading(false);
         return;
       }
-      
+
       setRolesLoading(true);
-      
+
       try {
         console.log("🔍 Fetching user roles for UID:", currentUser.uid);
         const userDocRef = doc(db, "users", currentUser.uid);
         const userDoc = await getDoc(userDocRef);
         console.log("📄 User roles document exists:", userDoc.exists());
-        
+
         if (userDoc.exists()) {
           const data = userDoc.data();
           console.log("📄 User roles document data:", data);
@@ -170,7 +204,7 @@ export const AuthProvider = ({ children }) => {
         setRolesLoading(false);
       }
     };
-    
+
     fetchUserRoles();
   }, [currentUser]);
 

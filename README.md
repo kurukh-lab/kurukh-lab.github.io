@@ -19,6 +19,7 @@ A web application designed to be a crowd-sourced repository of Kurukh words and 
 - **Styling:** Tailwind CSS with DaisyUI
 - **Backend:** Firebase (Authentication, Firestore)
 - **Deployment:** Firebase Hosting
+- **State Management:** XState for complex workflows
 
 ## Development Setup
 
@@ -232,6 +233,18 @@ Contributions to the Kurukh Dictionary project are welcome! Here's how you can c
 5. Open a Pull Request
 
 Please ensure your code follows the existing style and includes appropriate tests.
+
+## Feature Spotlight: XState Word Review System
+
+We use XState to manage the word review workflow in the Kurukh Dictionary. This provides a structured and visual way to understand and control how words progress through different review states.
+
+Key features include:
+- State machine visualization for developers and admins
+- Integration with Firestore for state persistence
+- Full history tracking of state transitions
+- React hooks for simple component integration
+
+See [Word Review XState Documentation](docs/WORD_REVIEW_XSTATE.md) for more details.
 
 ## Future Roadmap
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import { getCorrectionsForReview, voteOnCorrection } from '../../services/dictionaryService';
 import { formatDate } from '../../utils/wordUtils';
+import StateFilter from '../StateFilter';
 
 const CommunityReview = () => {
   const { currentUser } = useAuth();
@@ -10,17 +11,46 @@ const CommunityReview = () => {
   const [error, setError] = useState(null);
   const [votingInProgress, setVotingInProgress] = useState({});
   const [successMessage, setSuccessMessage] = useState(null);
+  const [selectedStates, setSelectedStates] = useState(['shallow_review']);
+  const [showCommentModal, setShowCommentModal] = useState(false);
+  const [currentVote, setCurrentVote] = useState(null);
+  const [voteComment, setVoteComment] = useState('');
+
+  // Define available states for correction filtering
+  const correctionStates = [
+    {
+      value: 'shallow_review',
+      label: 'Pending Review',
+      badgeClass: 'badge-warning'
+    },
+    {
+      value: 'approved',
+      label: 'Approved',
+      badgeClass: 'badge-success'
+    },
+    {
+      value: 'rejected',
+      label: 'Rejected',
+      badgeClass: 'badge-error'
+    },
+    {
+      value: 'applied',
+      label: 'Applied',
+      badgeClass: 'badge-info'
+    }
+  ];
 
   useEffect(() => {
     if (currentUser) {
       fetchCorrections();
     }
-  }, [currentUser]);
+  }, [currentUser, selectedStates]);
 
   const fetchCorrections = async () => {
     try {
       setLoading(true);
-      const correctionsData = await getCorrectionsForReview(20);
+      console.log("Fetching corrections with states:", selectedStates);
+      const correctionsData = await getCorrectionsForReview(20, selectedStates.length > 0 ? selectedStates : null);
       setCorrections(correctionsData);
     } catch (err) {
       console.error('Error fetching corrections:', err);
@@ -38,14 +68,14 @@ const CommunityReview = () => {
 
     try {
       const result = await voteOnCorrection(correctionId, currentUser.uid, vote, comment);
-      
+
       if (result.success) {
         setSuccessMessage(result.message);
         // Remove the correction from the list if it was approved/rejected
         if (result.message.includes('approved') || result.message.includes('rejected')) {
           setCorrections(prev => prev.filter(c => c.id !== correctionId));
         }
-        
+
         // Clear success message after 3 seconds
         setTimeout(() => setSuccessMessage(null), 3000);
       } else {
@@ -56,6 +86,21 @@ const CommunityReview = () => {
       setError('An error occurred while submitting your vote. Please try again.');
     } finally {
       setVotingInProgress(prev => ({ ...prev, [correctionId]: false }));
+    }
+  };
+
+  const handleVoteWithComment = (correctionId, vote) => {
+    setCurrentVote({ correctionId, vote });
+    setShowCommentModal(true);
+    setVoteComment('');
+  };
+
+  const submitVote = async () => {
+    if (currentVote) {
+      await handleVote(currentVote.correctionId, currentVote.vote, voteComment);
+      setShowCommentModal(false);
+      setCurrentVote(null);
+      setVoteComment('');
     }
   };
 
@@ -70,6 +115,10 @@ const CommunityReview = () => {
       other: 'Other'
     };
     return labels[type] || type;
+  };
+
+  const handleStateFilterChange = (newSelectedStates) => {
+    setSelectedStates(newSelectedStates);
   };
 
   if (!currentUser) {
@@ -88,11 +137,22 @@ const CommunityReview = () => {
   return (
     <div className="max-w-6xl mx-auto py-8 px-4">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-4">Community Review</h1>
         <p className="text-gray-600">
-          Help improve the Kurukh Dictionary by reviewing corrections suggested by the community. 
+          Help improve the Kurukh Dictionary by reviewing corrections suggested by the community.
           Your votes help determine which corrections get approved.
         </p>
+      </div>
+
+      {/* State Filter */}
+      <div className="mb-6">
+        <StateFilter
+          states={correctionStates}
+          selectedStates={selectedStates}
+          onSelectionChange={handleStateFilterChange}
+          title="Filter Corrections by Review State"
+          multiSelect={true}
+          disabled={loading}
+        />
       </div>
 
       {successMessage && (
@@ -174,7 +234,7 @@ const CommunityReview = () => {
                   <div className="flex gap-2">
                     <button
                       className="btn btn-success btn-sm"
-                      onClick={() => handleVote(correction.id, 'approve')}
+                      onClick={() => handleVoteWithComment(correction.id, 'approve')}
                       disabled={votingInProgress[correction.id] || correction.reviewed_by?.some(r => r.user_id === currentUser.uid)}
                     >
                       {votingInProgress[correction.id] ? (
@@ -185,7 +245,7 @@ const CommunityReview = () => {
                     </button>
                     <button
                       className="btn btn-error btn-sm"
-                      onClick={() => handleVote(correction.id, 'reject')}
+                      onClick={() => handleVoteWithComment(correction.id, 'reject')}
                       disabled={votingInProgress[correction.id] || correction.reviewed_by?.some(r => r.user_id === currentUser.uid)}
                     >
                       {votingInProgress[correction.id] ? (
@@ -207,6 +267,57 @@ const CommunityReview = () => {
               </div>
             </div>
           ))}
+        </div>
+      )}
+
+      {/* Comment Modal */}
+      {showCommentModal && (
+        <div className="modal modal-open">
+          <div className="modal-box">
+            <h3 className="font-bold text-lg mb-4">
+              Add Comment (Optional)
+            </h3>
+            <p className="text-sm text-gray-600 mb-4">
+              You can add an optional comment to explain your {currentVote?.vote === 'approve' ? 'approval' : 'rejection'} of this correction.
+            </p>
+            
+            <div className="form-control w-full mb-4">
+              <label className="label">
+                <span className="label-text">Comment</span>
+              </label>
+              <textarea
+                className="textarea textarea-bordered w-full"
+                placeholder="Add your comment here (optional)..."
+                value={voteComment}
+                onChange={(e) => setVoteComment(e.target.value)}
+                rows="3"
+              />
+            </div>
+
+            <div className="modal-action">
+              <button
+                className="btn btn-ghost"
+                onClick={() => {
+                  setShowCommentModal(false);
+                  setCurrentVote(null);
+                  setVoteComment('');
+                }}
+              >
+                Cancel
+              </button>
+              <button
+                className={`btn ${currentVote?.vote === 'approve' ? 'btn-success' : 'btn-error'}`}
+                onClick={submitVote}
+                disabled={votingInProgress[currentVote?.correctionId]}
+              >
+                {votingInProgress[currentVote?.correctionId] ? (
+                  <span className="loading loading-spinner loading-xs"></span>
+                ) : (
+                  `${currentVote?.vote === 'approve' ? 'Approve' : 'Reject'}`
+                )}
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>

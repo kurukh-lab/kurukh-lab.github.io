@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { addWord } from '../services/dictionaryService';
+import { auth } from '../config/firebase';
 
 const Contribute = () => {
   const { currentUser } = useAuth();
@@ -28,7 +29,7 @@ const Contribute = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     // Validate form
     if (!formData.kurukh_word.trim() || !formData.definition.trim()) {
       setError('Kurukh word and definition are required.');
@@ -37,8 +38,23 @@ const Contribute = () => {
 
     setSubmitting(true);
     setError(null);
-    
+
     try {
+      // Check if user is authenticated
+      if (!currentUser || !currentUser.uid) {
+        setError('You must be logged in to contribute. Please log in and try again.');
+        setSubmitting(false);
+        return;
+      }
+
+      // Add debug information
+      console.log('🔑 Current user authentication:', {
+        uid: currentUser.uid,
+        email: currentUser.email,
+        provider: currentUser.providerData?.[0]?.providerId || 'unknown',
+        isAnonymous: currentUser.isAnonymous
+      });
+
       // Format the data according to our model
       const wordData = {
         kurukh_word: formData.kurukh_word.trim(),
@@ -52,9 +68,10 @@ const Contribute = () => {
         ],
         part_of_speech: formData.part_of_speech.trim() || null,
       };
-      
+
+      console.log(`Submitting word with user ID: ${currentUser.uid}`);
       const result = await addWord(wordData, currentUser.uid);
-      
+
       if (result.success) {
         setSuccess(true);
         // Reset form
@@ -66,7 +83,7 @@ const Contribute = () => {
           example_sentence_translation: '',
           part_of_speech: '',
         });
-        
+
         setTimeout(() => {
           setSuccess(false);
         }, 5000);
@@ -75,7 +92,24 @@ const Contribute = () => {
       }
     } catch (err) {
       console.error('Error submitting word:', err);
-      setError(err.message || 'An error occurred while submitting your contribution. Please try again.');
+
+      // Provide more detailed error messages for common issues
+      if (err.code === 'permission-denied') {
+        setError('Permission denied. This could be an authentication issue. Please log out and log in again.');
+      } else if (err.message && err.message.includes('auth')) {
+        setError(`Authentication error: ${err.message}. Please log out and log in again.`);
+      } else {
+        setError(err.message || 'An error occurred while submitting your contribution. Please try again.');
+      }
+
+      // Log detailed debug information
+      console.log('📊 Error details:', {
+        code: err.code,
+        message: err.message,
+        stack: err.stack,
+        authCurrentUser: auth?.currentUser ? 'present' : 'null',
+        userUID: currentUser?.uid || 'none'
+      });
     } finally {
       setSubmitting(false);
     }
@@ -88,13 +122,13 @@ const Contribute = () => {
         <div className="bg-white p-8 rounded-lg shadow-md text-center">
           <p className="mb-6">You need to be logged in to contribute new words to the dictionary.</p>
           <div className="flex justify-center gap-4">
-            <button 
+            <button
               onClick={() => navigate('/login')}
               className="btn btn-primary"
             >
               Log In
             </button>
-            <button 
+            <button
               onClick={() => navigate('/register')}
               className="btn btn-outline btn-primary"
             >
@@ -109,15 +143,29 @@ const Contribute = () => {
   return (
     <div className="max-w-2xl mx-auto py-8 px-4">
       <h1 className="text-3xl font-bold mb-6">Contribute to Kurukh Dictionary</h1>
-      
+
       {success && (
         <div className="alert alert-success mb-6">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
-          <span>Thank you! Your word has been submitted successfully and is pending review.</span>
+          <span>Thank you! Your word has been submitted for community review. Once it receives 5 approvals, it will be sent to administrators for final review.</span>
         </div>
       )}
+
+      <div className="alert alert-info mb-6">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="stroke-current shrink-0 w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        <div>
+          <h3 className="font-bold">Community Review Process</h3>
+          <p className="text-sm">New words go through two review stages:</p>
+          <ol className="text-sm list-decimal ml-5 mt-1">
+            <li>Community review (requires 5 approvals)</li>
+            <li>Admin final review</li>
+          </ol>
+        </div>
+      </div>
 
       <div className="bg-white p-6 rounded-lg shadow-md">
         <form onSubmit={handleSubmit}>
@@ -223,8 +271,8 @@ const Contribute = () => {
           </div>
 
           <div className="flex justify-end">
-            <button 
-              type="submit" 
+            <button
+              type="submit"
               className="btn btn-primary"
               disabled={submitting}
             >

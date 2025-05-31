@@ -2,13 +2,25 @@ rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
+    // Helper function to check if a registered user
+    function isRegisteredUser() {
+      return request.auth != null && 
+             exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.roles.hasAny(['user']);
+    }
+
     // Helper function to check if user is admin
     function isAdmin() {
       return request.auth != null && 
              exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.roles.hasAny(['admin']);
     }
-    
+
+    // Helper function to check if anonymous user
+    function isAnonymousUser() {
+      return request.auth != null && resource.data.status == 'community_review';
+    }
+
     // Allow unauthenticated access in emulator mode
     function isEmulator() {
       return request.auth == null && request.time != null;
@@ -21,11 +33,16 @@ service cloud.firestore {
              newData.keys().hasAll(oldData.keys());
     }
 
-    // Allow public read access to approved words, admin access to all words
+    // Allow public read access to approved words, community review for authenticated users, admin access to all words
     // Allow like updates for all users (authenticated and anonymous)
     match /words/{wordId} {
-      allow read: if resource.data.status == 'approved' || isAdmin() || isEmulator();
-      allow write: if request.auth != null || isEmulator();
+      allow read: if  isRegisteredUser() || 
+                      isAdmin() || 
+                      isEmulator() ||
+                      resource.data.status == 'approved';
+      allow write: if isRegisteredUser() ||
+                    isAdmin() ||
+                    isEmulator();
       // Allow specific like-related updates for anonymous users
       allow update: if isLikeUpdate(request.resource.data, resource.data);
     }
@@ -40,6 +57,31 @@ service cloud.firestore {
     match /users/{userId} {
       allow read: if request.auth != null && (request.auth.uid == userId || isAdmin());
       allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    match /corrections/{wordId} {
+      allow write: if isRegisteredUser() ||
+                    isAdmin() ||
+                    isEmulator();
+      allow read: if isRegisteredUser() ||
+                    isAdmin() ||
+                    isEmulator();
+    }
+
+    // Allow authenticated users to read and write comments
+    match /comments/{commentId} {
+      allow read: if isRegisteredUser() || 
+                     isAdmin() || 
+                     isEmulator();
+      allow create: if isRegisteredUser() || 
+                       isAdmin() || 
+                       isEmulator();
+      allow update: if isRegisteredUser() || 
+                       isAdmin() || 
+                       isEmulator();
+      allow delete: if (isRegisteredUser() && resource.data.userId == request.auth.uid) ||
+                       isAdmin() ||
+                       isEmulator();
     }
   }
 }

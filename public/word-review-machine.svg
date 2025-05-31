@@ -1,0 +1,112 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- States -->
+  <g fill="white" stroke="black" stroke-width="2">
+    <!-- Initial states -->
+    <rect x="50" y="50" width="100" height="60" rx="15" />
+    <rect x="200" y="50" width="100" height="60" rx="15" />
+    
+    <!-- Community review states -->
+    <rect x="50" y="150" width="150" height="60" rx="15" />
+    <rect x="50" y="250" width="150" height="60" rx="15" />
+    <rect x="250" y="200" width="150" height="60" rx="15" />
+    <rect x="250" y="300" width="150" height="60" rx="15" />
+    
+    <!-- Admin review states -->
+    <rect x="450" y="150" width="150" height="60" rx="15" />
+    <rect x="450" y="250" width="150" height="60" rx="15" />
+    
+    <!-- Final states -->
+    <rect x="650" y="200" width="100" height="60" rx="15" fill="#c8e6c9" />
+    <rect x="650" y="300" width="100" height="60" rx="15" fill="#ffcdd2" />
+  </g>
+  
+  <!-- State Labels -->
+  <g text-anchor="middle" font-family="Arial" font-size="14">
+    <text x="100" y="85">draft</text>
+    <text x="250" y="85">submitted</text>
+    
+    <text x="125" y="185">pendingCommunity</text>
+    <text x="125" y="200">Review</text>
+    
+    <text x="125" y="285">inCommunity</text>
+    <text x="125" y="300">Review</text>
+    
+    <text x="325" y="235">community</text>
+    <text x="325" y="250">Approved</text>
+    
+    <text x="325" y="335">community</text>
+    <text x="325" y="350">Rejected</text>
+    
+    <text x="525" y="185">pendingAdmin</text>
+    <text x="525" y="200">Review</text>
+    
+    <text x="525" y="285">inAdmin</text>
+    <text x="525" y="300">Review</text>
+    
+    <text x="700" y="235">approved</text>
+    <text x="700" y="335">rejected</text>
+  </g>
+  
+  <!-- Transitions -->
+  <g stroke="black" stroke-width="1.5" fill="transparent" marker-end="url(#arrowhead)">
+    <!-- Initial transitions -->
+    <path d="M 150,80 L 190,80" />
+    
+    <!-- Community review path -->
+    <path d="M 250,110 L 125,140" />
+    <path d="M 125,210 L 125,240" />
+    <path d="M 200,275 L 240,230" />
+    <path d="M 200,285 L 240,300" />
+    
+    <!-- Admin review path -->
+    <path d="M 300,80 L 500,140" />
+    <path d="M 400,200 L 440,180" />
+    <path d="M 525,210 L 525,240" />
+    
+    <!-- Final transitions -->
+    <path d="M 600,250 L 640,230" />
+    <path d="M 600,280 L 640,330" />
+  </g>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+  
+  <!-- Event Labels -->
+  <g text-anchor="middle" font-family="Arial" font-size="10" fill="blue">
+    <text x="170" y="70">SUBMIT</text>
+    <text x="180" y="140">SEND_TO_COMMUNITY</text>
+    <text x="125" y="230">START_COMMUNITY</text>
+    <text x="220" y="260">COMMUNITY_APPROVED</text>
+    <text x="220" y="310">COMMUNITY_REJECTED</text>
+    <text x="450" y="120">SEND_TO_ADMIN</text>
+    <text x="400" y="170">SEND_TO_ADMIN</text>
+    <text x="525" y="230">START_ADMIN</text>
+    <text x="620" y="220">ADMIN_APPROVE</text>
+    <text x="620" y="320">ADMIN_REJECT</text>
+  </g>
+  
+  <!-- Title and Legend -->
+  <g font-family="Arial">
+    <text x="400" y="30" font-size="16" font-weight="bold" text-anchor="middle">Word Review State Machine</text>
+    
+    <!-- Legend -->
+    <rect x="50" y="380" width="15" height="15" fill="white" stroke="black" />
+    <text x="75" y="393" font-size="12">Normal state</text>
+    
+    <rect x="150" y="380" width="15" height="15" fill="#c8e6c9" stroke="black" />
+    <text x="175" y="393" font-size="12">Approved (final)</text>
+    
+    <rect x="250" y="380" width="15" height="15" fill="#ffcdd2" stroke="black" />
+    <text x="275" y="393" font-size="12">Rejected (final)</text>
+    
+    <line x1="350" y1="385" x2="380" y2="385" stroke="black" stroke-width="1.5" marker-end="url(#arrowhead)" />
+    <text x="400" y="390" font-size="12">Transition</text>
+    
+    <text x="50" y="420" font-size="10" fill="blue">Blue text</text>
+    <text x="100" y="420" font-size="10">= Event names</text>
+  </g>
+</svg>
