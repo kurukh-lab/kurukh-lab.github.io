@@ -24,6 +24,9 @@ const Admin = () => {
   const [successMessage, setSuccessMessage] = useState(null);
   const [activeTab, setActiveTab] = useState('pending-words');
   const [showStats, setShowStats] = useState(false);
+  const [showCommentModal, setShowCommentModal] = useState(false);
+  const [currentAction, setCurrentAction] = useState(null);
+  const [actionComment, setActionComment] = useState('');
 
   // Debug logging
   console.log('🔍 Admin component render', {
@@ -293,74 +296,63 @@ const Admin = () => {
     fetchCorrections();
   }, [isAdmin, activeTab, currentUser, userRoles, rolesLoading]);
 
-  // Handle word approval
-  const handleApproveWord = async (wordId) => {
-    if (actionInProgress) return;
+  // Handle action with comment workflow
+  const handleActionWithComment = (wordId, action) => {
+    setCurrentAction({ wordId, action });
+    setActionComment('');
+    setShowCommentModal(true);
+  };
+
+  // Submit action with comment
+  const submitAction = async () => {
+    if (!currentAction) return;
+    
     setActionInProgress(true);
+    setShowCommentModal(false);
 
     try {
+      const { wordId, action } = currentAction;
+      const event = action === 'approve' ? 'ADMIN_APPROVE' : 'ADMIN_REJECT';
+      
       // Use the wordReviewService to transition the word state
-      const result = await wordReviewService.transitionWord(wordId, 'ADMIN_APPROVE', {
+      const result = await wordReviewService.transitionWord(wordId, event, {
         userId: currentUser.uid,
+        comment: actionComment.trim()
       });
 
       if (!result.success) {
-        throw new Error(result.error || 'Failed to approve word');
+        throw new Error(result.error || `Failed to ${action} word`);
       }
 
       // Remove the word from the list
       setPendingWords(pendingWords.filter(word => word.id !== wordId));
-      setSuccessMessage("Word approved successfully!");
+      setSuccessMessage(`Word ${action}d successfully!`);
 
       // Clear success message after 3 seconds
       setTimeout(() => {
         setSuccessMessage(null);
       }, 3000);
     } catch (err) {
-      console.error("Error approving word:", err);
-      setError("Failed to approve word. Please try again.");
+      console.error(`Error ${currentAction.action}ing word:`, err);
+      setError(`Failed to ${currentAction.action} word. Please try again.`);
 
       setTimeout(() => {
         setError(null);
       }, 3000);
     } finally {
       setActionInProgress(false);
+      setCurrentAction(null);
+      setActionComment('');
     }
   };
 
-  // Handle word rejection
-  const handleRejectWord = async (wordId) => {
-    if (actionInProgress) return;
-    setActionInProgress(true);
+  // Legacy functions for backward compatibility (now redirect to comment workflow)
+  const handleApproveWord = (wordId) => {
+    handleActionWithComment(wordId, 'approve');
+  };
 
-    try {
-      // Use the wordReviewService to transition the word state
-      const result = await wordReviewService.transitionWord(wordId, 'ADMIN_REJECT', {
-        userId: currentUser.uid,
-      });
-
-      if (!result.success) {
-        throw new Error(result.error || 'Failed to reject word');
-      }
-
-      // Remove the word from the list
-      setPendingWords(pendingWords.filter(word => word.id !== wordId));
-      setSuccessMessage("Word rejected successfully!");
-
-      // Clear success message after 3 seconds
-      setTimeout(() => {
-        setSuccessMessage(null);
-      }, 3000);
-    } catch (err) {
-      console.error("Error rejecting word:", err);
-      setError("Failed to reject word. Please try again.");
-
-      setTimeout(() => {
-        setError(null);
-      }, 3000);
-    } finally {
-      setActionInProgress(false);
-    }
+  const handleRejectWord = (wordId) => {
+    handleActionWithComment(wordId, 'reject');
   };
 
   // Handle report resolution
@@ -816,6 +808,54 @@ const Admin = () => {
           </div>
         )}
       </div>
+
+      {/* Comment Modal */}
+      {showCommentModal && (
+        <div className="modal modal-open">
+          <div className="modal-box">
+            <h3 className="font-bold text-lg mb-4">
+              Add Comment (Optional)
+            </h3>
+            <p className="text-sm text-gray-600 mb-4">
+              {currentAction?.action === 'approve' 
+                ? 'You can add an optional comment explaining your approval decision.'
+                : 'You can add an optional comment explaining your rejection decision.'
+              }
+            </p>
+            <textarea
+              className="textarea textarea-bordered w-full mb-4"
+              placeholder={`Optional comment for ${currentAction?.action || 'action'}...`}
+              value={actionComment}
+              onChange={(e) => setActionComment(e.target.value)}
+              rows="4"
+            />
+            <div className="modal-action">
+              <button
+                className="btn btn-ghost"
+                onClick={() => {
+                  setShowCommentModal(false);
+                  setCurrentAction(null);
+                  setActionComment('');
+                }}
+                disabled={actionInProgress}
+              >
+                Cancel
+              </button>
+              <button
+                className={`btn ${currentAction?.action === 'approve' ? 'btn-success' : 'btn-error'}`}
+                onClick={submitAction}
+                disabled={actionInProgress}
+              >
+                {actionInProgress ? (
+                  <span className="loading loading-spinner loading-xs"></span>
+                ) : (
+                  `${currentAction?.action === 'approve' ? 'Approve' : 'Reject'}`
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

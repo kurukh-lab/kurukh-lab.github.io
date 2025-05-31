@@ -12,6 +12,9 @@ const CommunityReview = () => {
   const [votingInProgress, setVotingInProgress] = useState({});
   const [successMessage, setSuccessMessage] = useState(null);
   const [selectedStates, setSelectedStates] = useState(['shallow_review']);
+  const [showCommentModal, setShowCommentModal] = useState(false);
+  const [currentVote, setCurrentVote] = useState(null);
+  const [voteComment, setVoteComment] = useState('');
 
   // Define available states for correction filtering
   const correctionStates = [
@@ -83,6 +86,21 @@ const CommunityReview = () => {
       setError('An error occurred while submitting your vote. Please try again.');
     } finally {
       setVotingInProgress(prev => ({ ...prev, [correctionId]: false }));
+    }
+  };
+
+  const handleVoteWithComment = (correctionId, vote) => {
+    setCurrentVote({ correctionId, vote });
+    setShowCommentModal(true);
+    setVoteComment('');
+  };
+
+  const submitVote = async () => {
+    if (currentVote) {
+      await handleVote(currentVote.correctionId, currentVote.vote, voteComment);
+      setShowCommentModal(false);
+      setCurrentVote(null);
+      setVoteComment('');
     }
   };
 
@@ -216,7 +234,7 @@ const CommunityReview = () => {
                   <div className="flex gap-2">
                     <button
                       className="btn btn-success btn-sm"
-                      onClick={() => handleVote(correction.id, 'approve')}
+                      onClick={() => handleVoteWithComment(correction.id, 'approve')}
                       disabled={votingInProgress[correction.id] || correction.reviewed_by?.some(r => r.user_id === currentUser.uid)}
                     >
                       {votingInProgress[correction.id] ? (
@@ -227,7 +245,7 @@ const CommunityReview = () => {
                     </button>
                     <button
                       className="btn btn-error btn-sm"
-                      onClick={() => handleVote(correction.id, 'reject')}
+                      onClick={() => handleVoteWithComment(correction.id, 'reject')}
                       disabled={votingInProgress[correction.id] || correction.reviewed_by?.some(r => r.user_id === currentUser.uid)}
                     >
                       {votingInProgress[correction.id] ? (
@@ -249,6 +267,57 @@ const CommunityReview = () => {
               </div>
             </div>
           ))}
+        </div>
+      )}
+
+      {/* Comment Modal */}
+      {showCommentModal && (
+        <div className="modal modal-open">
+          <div className="modal-box">
+            <h3 className="font-bold text-lg mb-4">
+              Add Comment (Optional)
+            </h3>
+            <p className="text-sm text-gray-600 mb-4">
+              You can add an optional comment to explain your {currentVote?.vote === 'approve' ? 'approval' : 'rejection'} of this correction.
+            </p>
+            
+            <div className="form-control w-full mb-4">
+              <label className="label">
+                <span className="label-text">Comment</span>
+              </label>
+              <textarea
+                className="textarea textarea-bordered w-full"
+                placeholder="Add your comment here (optional)..."
+                value={voteComment}
+                onChange={(e) => setVoteComment(e.target.value)}
+                rows="3"
+              />
+            </div>
+
+            <div className="modal-action">
+              <button
+                className="btn btn-ghost"
+                onClick={() => {
+                  setShowCommentModal(false);
+                  setCurrentVote(null);
+                  setVoteComment('');
+                }}
+              >
+                Cancel
+              </button>
+              <button
+                className={`btn ${currentVote?.vote === 'approve' ? 'btn-success' : 'btn-error'}`}
+                onClick={submitVote}
+                disabled={votingInProgress[currentVote?.correctionId]}
+              >
+                {votingInProgress[currentVote?.correctionId] ? (
+                  <span className="loading loading-spinner loading-xs"></span>
+                ) : (
+                  `${currentVote?.vote === 'approve' ? 'Approve' : 'Reject'}`
+                )}
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>
