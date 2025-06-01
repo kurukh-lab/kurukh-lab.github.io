@@ -1,6 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import {
-  createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
@@ -9,6 +8,7 @@ import {
 } from 'firebase/auth';
 import { auth, db } from '../config/firebase';
 import { doc, setDoc, getDoc } from 'firebase/firestore';
+import { getFunctions, httpsCallable } from 'firebase/functions';
 import { testFirebaseConnection, getUserDocument } from '../utils/firebaseTest';
 
 // Create the context
@@ -24,26 +24,38 @@ export const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Register a new user
+  // Register a new user using secure Firebase Function
   const register = async (email, password, username) => {
     try {
-      // Create user in Firebase Auth
-      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-      const user = userCredential.user;
+      // Get Firebase Functions instance
+      const functions = getFunctions();
+      const createUser = httpsCallable(functions, 'createUser');
 
-      // Store additional user data in Firestore
-      await setDoc(doc(db, "users", user.uid), {
-        uid: user.uid,
-        username,
+      // Call the secure server-side function
+      const result = await createUser({
         email,
-        roles: ['user'], // Default role for new users
-        createdAt: new Date(),
-        updatedAt: new Date()
+        password,
+        username
       });
 
-      return { success: true, user };
+      return { success: true, data: result.data };
     } catch (error) {
-      return { success: false, error: error.message };
+      console.error('Registration error:', error);
+
+      // Handle Firebase Functions errors
+      let errorMessage = 'Registration failed. Please try again.';
+
+      if (error.code === 'functions/invalid-argument') {
+        errorMessage = error.message || 'Invalid input provided';
+      } else if (error.code === 'functions/already-exists') {
+        errorMessage = 'An account with this email already exists';
+      } else if (error.code === 'functions/internal') {
+        errorMessage = 'Server error. Please try again later';
+      } else if (error.message) {
+        errorMessage = error.message;
+      }
+
+      return { success: false, error: errorMessage };
     }
   };
 
@@ -67,31 +79,29 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  // Google Sign In
+  // Google Sign In with secure user creation
   const loginWithGoogle = async () => {
     try {
       const provider = new GoogleAuthProvider();
       const userCredential = await signInWithPopup(auth, provider);
       const user = userCredential.user;
 
-      // Check if user exists in Firestore, if not create a new document
-      const userDocRef = doc(db, "users", user.uid);
-      const userDoc = await getDoc(userDocRef);
+      // Use Firebase Function to securely create user document if needed
+      const functions = getFunctions();
+      const createGoogleUser = httpsCallable(functions, 'createGoogleUser');
 
-      if (!userDoc.exists()) {
-        // Create new user document with default data
-        await setDoc(userDocRef, {
-          uid: user.uid,
-          username: user.displayName || user.email.split('@')[0],
-          email: user.email,
-          roles: ['user'], // Default role for new users
-          createdAt: new Date(),
-          updatedAt: new Date()
-        });
-      }
+      const result = await createGoogleUser({
+        username: user.displayName || user.email.split('@')[0]
+      });
 
-      return { success: true, user };
+      return {
+        success: true,
+        user,
+        isNewUser: result.data?.isNewUser || false,
+        message: result.data?.message || 'Login successful'
+      };
     } catch (error) {
+      console.error('Google sign-in error:', error);
       return { success: false, error: error.message };
     }
   };
