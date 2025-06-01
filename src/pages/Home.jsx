@@ -4,7 +4,7 @@ import WordList from '../components/dictionary/WordList';
 import WordCard from '../components/dictionary/WordCard';
 import DictionaryStats from '../components/dictionary/DictionaryStats';
 import SearchShortcutHint from '../components/common/SearchShortcutHint';
-import { getRecentWords, getWordOfTheDay } from '../services/dictionaryService';
+import { getHomePageData } from '../services/dictionaryService';
 import useSearch from '../hooks/useSearch';
 
 const Home = () => {
@@ -28,14 +28,11 @@ const Home = () => {
       setError(null);
 
       try {
-        // Fetch recent words and word of the day in parallel
-        const [recentWordsData, wordOfTheDayData] = await Promise.all([
-          getRecentWords(6),
-          getWordOfTheDay()
-        ]);
+        // Fetch pre-computed home page data
+        const homePageData = await getHomePageData();
 
-        setRecentWords(recentWordsData);
-        setWordOfTheDay(wordOfTheDayData);
+        setRecentWords(homePageData.recentWords);
+        setWordOfTheDay(homePageData.wordOfTheDay);
       } catch (err) {
         console.error('Error fetching data:', err);
         setError('Failed to load dictionary data. Please try again later.');
