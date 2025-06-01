@@ -9,6 +9,7 @@ import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { voteOnComment, editComment, deleteComment, loadRepliesForComment, reloadParentReplies } from '../services/commentService';
 import { formatDate } from '../utils/wordUtils';
+import { MAX_COMMENT_LEVEL } from '../config/comments';
 
 const Comment = ({
   comment,
@@ -18,7 +19,7 @@ const Comment = ({
   onVote,
   onParentReload,
   level = 0,
-  maxLevel = 10
+  maxLevel = MAX_COMMENT_LEVEL
 }) => {
   const { currentUser } = useAuth();
   const [showReplyForm, setShowReplyForm] = useState(false);
@@ -52,7 +53,7 @@ const Comment = ({
           // Always update dynamic replies for consistent behavior
           setDynamicReplies(result.replies || []);
           setRepliesLoaded(true);
-          
+
           // For levels 0-2, we need to also update the comment's replies property
           // This will be handled by the parent component's reload mechanism
           if (level < 3 && onParentReload) {
@@ -183,7 +184,7 @@ const Comment = ({
     };
     return indentMap[Math.min(level, 10)] || 'ml-40';
   };
-  
+
   const indentClass = getIndentClass(level);
 
   // Comments can nest up to maxLevel

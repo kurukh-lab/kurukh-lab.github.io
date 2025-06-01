@@ -940,3 +940,66 @@ export const voteOnWord = async (wordId, userId, vote, comment = '') => {
     };
   }
 };
+
+/**
+ * Get pre-computed home page data from static_data collection
+ * @returns {Promise<Object>} Home page data with recent words and word of the day
+ */
+export const getHomePageData = async () => {
+  try {
+    const homePageDoc = await getDoc(doc(db, 'static_data', 'home-page'));
+    
+    if (homePageDoc.exists()) {
+      const data = homePageDoc.data();
+      // Return the exact format as stored by updateHomePageData()
+      return {
+        recentWords: data.recentWords || [],
+        wordOfTheDay: data.wordOfTheDay || null,
+        lastUpdated: data.lastUpdated,
+        generatedAt: data.generatedAt,
+        date: data.date
+      };
+    } else {
+      // Fallback to original methods if static data doesn't exist
+      console.warn('Static home page data not found, falling back to original methods');
+      const [recentWords, wordOfTheDay] = await Promise.all([
+        getRecentWords(6),
+        getWordOfTheDay()
+      ]);
+      
+      return {
+        recentWords,
+        wordOfTheDay,
+        lastUpdated: new Date(),
+        generatedAt: new Date().toISOString(),
+        date: new Date().toISOString().split('T')[0]
+      };
+    }
+  } catch (error) {
+    console.error('Error fetching home page data:', error);
+    // Fallback to original methods on error
+    try {
+      const [recentWords, wordOfTheDay] = await Promise.all([
+        getRecentWords(6),
+        getWordOfTheDay()
+      ]);
+      
+      return {
+        recentWords,
+        wordOfTheDay,
+        lastUpdated: new Date(),
+        generatedAt: new Date().toISOString(),
+        date: new Date().toISOString().split('T')[0]
+      };
+    } catch (fallbackError) {
+      console.error('Error with fallback methods:', fallbackError);
+      return {
+        recentWords: [],
+        wordOfTheDay: null,
+        lastUpdated: new Date(),
+        generatedAt: new Date().toISOString(),
+        date: new Date().toISOString().split('T')[0]
+      };
+    }
+  }
+};

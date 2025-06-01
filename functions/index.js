@@ -1,7 +1,9 @@
 const { onRequest, onCall } = require("firebase-functions/v2/https");
+const { onSchedule } = require("firebase-functions/v2/scheduler");
 const { setGlobalOptions } = require("firebase-functions/v2");
 const admin = require("firebase-admin");
 const cors = require("cors")({ origin: true });
+const { updateHomePageData } = require("./modules/homePageDataService");
 
 // Set global options for functions
 setGlobalOptions({ maxInstances: 10 });
@@ -300,6 +302,32 @@ exports.updateDailyStats = onRequest((req, res) => {
         success: false, 
         error: "Failed to update daily statistics" 
       });
+    }
+  });
+});
+
+// Scheduled function to update home page data daily
+exports.updateHomePageData = onSchedule('0 0 * * *', async (event) => {
+  try {
+    const result = await updateHomePageData(admin, db);
+    console.log('Scheduled home page data update completed:', result.data);
+    return null;
+  } catch (error) {
+    console.error('Scheduled home page data update failed:', error);
+    throw new Error(error.error || error.message);
+  }
+});
+
+// Manual trigger to update home page data (useful for testing and initialization)
+exports.triggerHomePageUpdate = onRequest((req, res) => {
+  cors(req, res, async () => {
+    try {
+      console.log('Manual trigger for home page data update...');
+      const result = await updateHomePageData(admin, db);
+      res.json(result);
+    } catch (error) {
+      console.error('Error in manual trigger:', error);
+      res.status(500).json(error);
     }
   });
 });
