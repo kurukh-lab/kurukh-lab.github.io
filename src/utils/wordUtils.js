@@ -51,11 +51,15 @@ const formatDateHelper = (date) => {
 };
 
 export const formatDate = (timestamp) => {
-  if (!timestamp) {
-    return 'Unknown date';
-  } else if (timestamp.toDate) {
-    return formatDateHelper(timestamp.toDate());
-  } else {
-    return formatDateHelper(timestamp);
+  try {
+    if (!timestamp) {
+      return 'Unknown date';
+    } else if (timestamp.toDate) {
+      return formatDateHelper(timestamp.toDate());
+    } else {
+      return formatDateHelper(timestamp);
+    }
+  } catch (error) {
+    return 'Invalid date';
   }
 };
