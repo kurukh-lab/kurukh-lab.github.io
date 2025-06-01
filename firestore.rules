@@ -83,5 +83,11 @@ service cloud.firestore {
                        isAdmin() ||
                        isEmulator();
     }
+
+    // Allow anyone to read from static_data
+    match /static_data/{docId} {
+      allow read: if true;
+      allow create, update, delete: if request.auth != null && request.auth.token.firebase.sign_in_provider == 'firebase';
+    }
   }
 }

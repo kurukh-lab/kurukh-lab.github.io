@@ -951,10 +951,12 @@ export const getHomePageData = async () => {
     
     if (homePageDoc.exists()) {
       const data = homePageDoc.data();
+      // Return the exact format as stored by updateHomePageData()
       return {
         recentWords: data.recentWords || [],
         wordOfTheDay: data.wordOfTheDay || null,
         lastUpdated: data.lastUpdated,
+        generatedAt: data.generatedAt,
         date: data.date
       };
     } else {
@@ -969,6 +971,7 @@ export const getHomePageData = async () => {
         recentWords,
         wordOfTheDay,
         lastUpdated: new Date(),
+        generatedAt: new Date().toISOString(),
         date: new Date().toISOString().split('T')[0]
       };
     }
@@ -985,6 +988,7 @@ export const getHomePageData = async () => {
         recentWords,
         wordOfTheDay,
         lastUpdated: new Date(),
+        generatedAt: new Date().toISOString(),
         date: new Date().toISOString().split('T')[0]
       };
     } catch (fallbackError) {
@@ -993,6 +997,7 @@ export const getHomePageData = async () => {
         recentWords: [],
         wordOfTheDay: null,
         lastUpdated: new Date(),
+        generatedAt: new Date().toISOString(),
         date: new Date().toISOString().split('T')[0]
       };
     }
