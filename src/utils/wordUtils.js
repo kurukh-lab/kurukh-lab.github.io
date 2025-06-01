@@ -41,15 +41,21 @@ export const getWordOfTheDay = async () => {
  * @param {Timestamp} timestamp Firebase Timestamp object
  * @returns {string} Formatted date string
  */
-export const formatDate = (timestamp) => {
-  if (!timestamp || !timestamp.toDate) {
-    return 'Unknown date';
-  }
-  
-  const date = timestamp.toDate();
+// Helper function to format a date
+const formatDateHelper = (date) => {
   return new Intl.DateTimeFormat('en-US', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
   }).format(date);
+};
+
+export const formatDate = (timestamp) => {
+  if (!timestamp) {
+    return 'Unknown date';
+  } else if (timestamp.toDate) {
+    return formatDateHelper(timestamp.toDate());
+  } else {
+    return formatDateHelper(timestamp);
+  }
 };
