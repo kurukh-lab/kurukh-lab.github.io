@@ -9,59 +9,48 @@ async function updateHomePageData(admin, db) {
   try {
     console.log('Starting home page data update...');
     
-    // Get recent words (last 6 approved words)
-    console.log('Fetching recent words...');
-    const recentWordsSnapshot = await db.collection('words')
-      .where('status', '==', 'approved')
-      .orderBy('createdAt', 'desc')
-      .limit(6)
-      .get();
+    // Get today's date at midnight UTC for consistent word of the day selection
+    const today = new Date();
+    today.setUTCHours(0, 0, 0, 0);
+    const dateString = today.toISOString().split('T')[0];
+    const seed = Array.from(dateString).reduce((sum, char) => sum + char.charCodeAt(0), 0);
 
+    // Execute both queries in parallel for better performance
+    console.log('Fetching recent words and all approved words...');
+    const [recentWordsSnapshot, approvedWordsSnapshot] = await Promise.all([
+      // Query 1: Get recent words (last 6 approved words)
+      db.collection('words')
+        .where('status', '==', 'approved')
+        .orderBy('createdAt', 'desc')
+        .limit(6)
+        .get(),
+      
+      // Query 2: Get all approved words for word of the day selection
+      db.collection('words')
+        .where('status', '==', 'approved')
+        .get()
+    ]);
+
+    // Process recent words
     const recentWords = [];
     recentWordsSnapshot.forEach(doc => {
-      const data = doc.data();
       recentWords.push({
         id: doc.id,
-        kurukh: data.kurukh_word,
-        english: (data.meanings.find(h => h.language === 'en') || {}).definition,
-        hindi: (data.meanings.find(h => h.language === 'hi') || {}).definition,
-        partOfSpeech: data.part_of_speech,
-        createdAt: data.createdAt
+        ...doc.data()
       });
     });
 
     console.log(`Found ${recentWords.length} recent words`);
 
-    // Get word of the day using deterministic random selection based on date
-    console.log('Fetching word of the day...');
-    
-    // Get today's date at midnight UTC for consistent results throughout the day
-    const today = new Date();
-    today.setUTCHours(0, 0, 0, 0);
-    
-    // Use the date as a seed for pseudo-randomness
-    const dateString = today.toISOString().split('T')[0];
-    const seed = Array.from(dateString).reduce((sum, char) => sum + char.charCodeAt(0), 0);
-    
-    // Get all approved words for word of the day selection
-    const approvedWordsSnapshot = await db.collection('words')
-      .where('status', '==', 'approved')
-      .get();
-    
+    // Process word of the day using deterministic random selection
+    console.log('Selecting word of the day...');
     let wordOfTheDay = null;
     if (!approvedWordsSnapshot.empty) {
       const approvedWords = [];
       approvedWordsSnapshot.forEach(doc => {
-        const data = doc.data();
         approvedWords.push({
           id: doc.id,
-          kurukh: data.kurukh_word,
-          english: (data.meanings.find(h => h.language === 'en') || {}).definition,
-          hindi: (data.meanings.find(h => h.language === 'hi') || {}).definition,
-          partOfSpeech: data.part_of_speech,
-          etymology: data.etymology,
-          examples: data.examples || [],
-          createdAt: data.createdAt
+          ...doc.data()
         });
       });
       
@@ -70,7 +59,7 @@ async function updateHomePageData(admin, db) {
       wordOfTheDay = approvedWords[randomIndex];
     }
 
-    console.log('Word of the day selected:', wordOfTheDay?.kurukh);
+    console.log('Word of the day selected:', wordOfTheDay?.kurukh_word);
 
     // Prepare the data to store
     const homePageData = {
@@ -92,7 +81,7 @@ async function updateHomePageData(admin, db) {
       message: 'Home page data updated successfully',
       data: {
         recentWordsCount: recentWords.length,
-        wordOfTheDay: wordOfTheDay?.kurukh,
+        wordOfTheDay: wordOfTheDay?.kurukh_word,
         wordOfTheDayId: wordOfTheDay?.id,
         date: dateString,
         timestamp: new Date().toISOString()
