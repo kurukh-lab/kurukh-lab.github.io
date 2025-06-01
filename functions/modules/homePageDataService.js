@@ -22,10 +22,10 @@ async function updateHomePageData(admin, db) {
       const data = doc.data();
       recentWords.push({
         id: doc.id,
-        kurukh: data.kurukh,
-        english: data.english,
-        hindi: data.hindi,
-        partOfSpeech: data.partOfSpeech,
+        kurukh: data.kurukh_word,
+        english: (data.meanings.find(h => h.language === 'en') || {}).definition,
+        hindi: (data.meanings.find(h => h.language === 'hi') || {}).definition,
+        partOfSpeech: data.part_of_speech,
         createdAt: data.createdAt
       });
     });
@@ -55,10 +55,10 @@ async function updateHomePageData(admin, db) {
         const data = doc.data();
         approvedWords.push({
           id: doc.id,
-          kurukh: data.kurukh,
-          english: data.english,
-          hindi: data.hindi,
-          partOfSpeech: data.partOfSpeech,
+          kurukh: data.kurukh_word,
+          english: (data.meanings.find(h => h.language === 'en') || {}).definition,
+          hindi: (data.meanings.find(h => h.language === 'hi') || {}).definition,
+          partOfSpeech: data.part_of_speech,
           etymology: data.etymology,
           examples: data.examples || [],
           createdAt: data.createdAt

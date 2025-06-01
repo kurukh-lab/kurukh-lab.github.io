@@ -15,6 +15,7 @@ import {
 } from '../services/commentService';
 import { wordReviewService } from '../services/wordReviewService';
 import Comment from './Comment';
+import { MAX_COMMENT_LEVEL } from '../config/comments';
 
 const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
   const { currentUser } = useAuth();
@@ -35,7 +36,7 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
 
   // Set up real-time subscription for comment count
   useEffect(() => {
-    let wordStatusUnsubscribe = () => {};
+    let wordStatusUnsubscribe = () => { };
 
     if (isOpen && wordId) {
       console.log(`[CommentThread] Setting up real-time subscription for comment count on word ${wordId}`);
@@ -187,7 +188,7 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
     try {
       // Find if this is a top-level comment
       const isTopLevel = comments.some(c => c.id === parentCommentId);
-      
+
       if (isTopLevel) {
         // If it's a top-level comment, reload all comments to get the updated structure
         await loadComments();
@@ -375,7 +376,7 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
               onVote={handleVote}
               onParentReload={handleParentReload}
               level={0}
-              maxLevel={10}
+              maxLevel={MAX_COMMENT_LEVEL}
             />
           ))}
         </div>
