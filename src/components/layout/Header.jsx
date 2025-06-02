@@ -1,14 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import KurukhDictionaryLogo from '../logo/KurukhDictionaryLogo';
+import { useLocation } from 'react-router-dom';
 
 const Header = () => {
   const { currentUser, isAdmin, logout } = useAuth();
-
-  const closeMobileMenu = () => {
-    setIsMobileMenuOpen(false);
-  };
 
   const closeUserMenu = () => {
     setIsUserMenuOpen(false);
@@ -18,6 +15,9 @@ const Header = () => {
     logout();
     closeUserMenu();
   };
+
+  const location = useLocation();
+  const { pathname } = location;
 
   return (
     <nav className="navbar bg-base-100 top-0 z-50">
@@ -57,8 +57,8 @@ const Header = () => {
             </ul>
           </div>
         ) : (
-          <Link to="/login">
-            <button className="btn btn-primary">Login</button>
+          <Link to="/login" tabIndex={pathname === "/login" ? -1 : 0}>
+            <button className="btn btn-primary" disabled={pathname === "/login"}>Login</button>
           </Link>
         )}
       </div>
