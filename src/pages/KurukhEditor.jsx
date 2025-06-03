@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import TiptapKurukhEditor from '../components/editor/TiptapKurukhEditor';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
@@ -260,7 +261,9 @@ const KurukhEditor = () => {
                 </div>
               )}
               <span className="text-gray-400">|</span>
-              <span>Responsive Kurukh Editor</span>
+              <Link to="/" className="text-blue-600 hover:text-blue-800 font-medium">
+                Back to Kurukh Dictionary
+              </Link>
             </div>
           </div>
 

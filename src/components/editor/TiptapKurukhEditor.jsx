@@ -265,209 +265,194 @@ const TiptapKurukhEditor = ({
       {/* Microsoft Word-style Ribbon */}
       {showToolbar && (
         <div className="bg-gradient-to-b from-blue-50 to-blue-100 border-b-2 border-blue-200 shadow-sm">
-          {/* Ribbon Header */}
-          <div className="bg-white border-b border-gray-300 px-4 py-2">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-6">
-                <div className="text-sm font-medium text-gray-700">Home</div>
-                <div className="text-sm text-gray-500 hover:text-gray-700 cursor-pointer">Insert</div>
-                <div className="text-sm text-gray-500 hover:text-gray-700 cursor-pointer">Layout</div>
-                <div className="text-sm text-gray-500 hover:text-gray-700 cursor-pointer">References</div>
-              </div>
-              <div className="text-xs text-gray-500">Kurukh Dictionary Editor</div>
-            </div>
-          </div>
-
           {/* Ribbon Content */}
-          <div className="px-4 py-3">
-            <div className="flex flex-wrap items-center gap-1">
-              {/* Clipboard Group */}
-              <div className="mr-6">
-                <div className="text-xs text-gray-600 mb-1">Clipboard</div>
-                <div className="flex items-center space-x-1">
-                  <div className="flex flex-col items-center">
+                <div className="px-4 py-3">
+                <div className="flex flex-wrap items-start gap-1">
+                  {/* Clipboard Group */}
+                  <div className="mr-6 flex flex-col items-start">
+                  <div className="text-xs text-gray-600 mb-1">Clipboard</div>
+                  <div className="flex items-center space-x-1">
+                    <div className="flex flex-col items-center">
                     <button className="p-2 rounded hover:bg-blue-50 border border-transparent hover:border-blue-200 transition-all">
                       <div className="text-lg">📋</div>
                     </button>
                     <span className="text-xs text-gray-600">Paste</span>
-                  </div>
-                  <div className="w-px h-12 bg-gray-300 mx-2"></div>
-                  <div className="flex flex-col space-y-1">
+                    </div>
+                    <div className="w-px h-12 bg-gray-300 mx-2"></div>
+                    <div className="flex flex-col space-y-1">
                     <button className="p-1 rounded hover:bg-blue-50 text-sm">✂️ Cut</button>
                     <button className="p-1 rounded hover:bg-blue-50 text-sm">📄 Copy</button>
+                    </div>
                   </div>
-                </div>
-              </div>
+                  </div>
 
-              {/* Font Group */}
-              <div className="mr-6">
-                <div className="text-xs text-gray-600 mb-1">Font</div>
-                <div className="flex items-center space-x-1">
-                  <button
+                  {/* Font Group */}
+                  <div className="mr-6 flex flex-col items-start">
+                  <div className="text-xs text-gray-600 mb-1">Font</div>
+                  <div className="flex items-center space-x-1">
+                    <button
                     onClick={() => editor.chain().focus().toggleBold().run()}
                     disabled={!editor.can().chain().focus().toggleBold().run()}
                     className={`w-8 h-8 flex items-center justify-center text-sm rounded transition-all ${editor.isActive('bold')
-                        ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
-                        : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
+                      ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
+                      : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
                       } disabled:opacity-50`}
                     title="Bold (Ctrl+B)"
-                  >
+                    >
                     <strong className="font-bold">B</strong>
-                  </button>
-                  <button
+                    </button>
+                    <button
                     onClick={() => editor.chain().focus().toggleItalic().run()}
                     disabled={!editor.can().chain().focus().toggleItalic().run()}
                     className={`w-8 h-8 flex items-center justify-center text-sm rounded transition-all ${editor.isActive('italic')
-                        ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
-                        : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
+                      ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
+                      : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
                       } disabled:opacity-50`}
                     title="Italic (Ctrl+I)"
-                  >
+                    >
                     <em className="italic">I</em>
-                  </button>
-                  <button
+                    </button>
+                    <button
                     onClick={() => editor.chain().focus().toggleUnderline().run()}
                     disabled={!editor.can().chain().focus().toggleUnderline().run()}
                     className={`w-8 h-8 flex items-center justify-center text-sm rounded transition-all ${editor.isActive('underline')
-                        ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
-                        : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
+                      ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
+                      : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
                       } disabled:opacity-50`}
                     title="Underline (Ctrl+U)"
-                  >
+                    >
                     <span className="underline">U</span>
-                  </button>
-                </div>
-              </div>
+                    </button>
+                  </div>
+                  </div>
 
-              {/* Paragraph Group */}
-              <div className="mr-6">
-                <div className="text-xs text-gray-600 mb-1">Paragraph</div>
-                <div className="flex items-center space-x-1">
-                  <button
+                  {/* Paragraph Group */}
+                  <div className="mr-6 flex flex-col items-start">
+                  <div className="text-xs text-gray-600 mb-1">Paragraph</div>
+                  <div className="flex items-center space-x-1">
+                    <button
                     onClick={() => editor.chain().focus().setTextAlign('left').run()}
                     className={`w-8 h-8 flex items-center justify-center text-sm rounded transition-all ${editor.isActive({ textAlign: 'left' })
-                        ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
-                        : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
+                      ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
+                      : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
                       }`}
                     title="Align Left"
-                  >
+                    >
                     ⬅️
-                  </button>
-                  <button
+                    </button>
+                    <button
                     onClick={() => editor.chain().focus().setTextAlign('center').run()}
                     className={`w-8 h-8 flex items-center justify-center text-sm rounded transition-all ${editor.isActive({ textAlign: 'center' })
-                        ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
-                        : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
+                      ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
+                      : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
                       }`}
                     title="Center"
-                  >
+                    >
                     ↔️
-                  </button>
-                  <button
+                    </button>
+                    <button
                     onClick={() => editor.chain().focus().setTextAlign('right').run()}
                     className={`w-8 h-8 flex items-center justify-center text-sm rounded transition-all ${editor.isActive({ textAlign: 'right' })
-                        ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
-                        : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
+                      ? 'bg-blue-200 text-blue-800 border border-blue-300 shadow-inner'
+                      : 'hover:bg-blue-50 border border-transparent hover:border-blue-200'
                       }`}
                     title="Align Right"
-                  >
+                    >
                     ➡️
-                  </button>
-                </div>
-              </div>
+                    </button>
+                  </div>
+                  </div>
 
-              {/* Language Formatting Group */}
-              <div className="mr-6">
-                <div className="text-xs text-gray-600 mb-1">Language</div>
-                <div className="flex items-center space-x-2">
-                  <button
+                  {/* Language Formatting Group */}
+                  <div className="mr-6 flex flex-col items-start">
+                  <div className="text-xs text-gray-600 mb-1">Language</div>
+                  <div className="flex items-center space-x-2">
+                    <button
                     onClick={toggleKurukhFont}
                     className={`px-4 py-2 text-sm rounded-lg font-medium transition-all ${editor.isActive('kurukhFont')
-                        ? 'bg-green-200 text-green-800 border-2 border-green-400 shadow-inner'
-                        : 'bg-white hover:bg-green-50 border-2 border-green-300 hover:border-green-400'
+                      ? 'bg-green-200 text-green-800 border-2 border-green-400 shadow-inner'
+                      : 'bg-white hover:bg-green-50 border-2 border-green-300 hover:border-green-400'
                       }`}
                     style={{
                       fontFamily: editor.isActive('kurukhFont')
-                        ? 'KellyTolong, monospace'
-                        : 'inherit'
+                      ? 'KellyTolong, monospace'
+                      : 'inherit'
                     }}
                     title="Apply Kurukh font formatting (Ctrl+K)"
-                  >
+                    >
                     𝐊𝐮𝐫𝐮𝐤𝐡
-                  </button>
-                  <button
+                    </button>
+                    <button
                     onClick={toggleHindiFont}
                     className={`px-4 py-2 text-sm rounded-lg font-medium transition-all ${editor.isActive('hindiFont')
-                        ? 'bg-orange-200 text-orange-800 border-2 border-orange-400 shadow-inner'
-                        : 'bg-white hover:bg-orange-50 border-2 border-orange-300 hover:border-orange-400'
+                      ? 'bg-orange-200 text-orange-800 border-2 border-orange-400 shadow-inner'
+                      : 'bg-white hover:bg-orange-50 border-2 border-orange-300 hover:border-orange-400'
                       }`}
                     style={{
                       fontFamily: editor.isActive('hindiFont')
-                        ? '"Noto Sans Devanagari", Arial, sans-serif'
-                        : 'inherit'
+                      ? '"Noto Sans Devanagari", Arial, sans-serif'
+                      : 'inherit'
                     }}
                     title="Apply Hindi font formatting (Ctrl+H)"
-                  >
+                    >
                     हिंदी
-                  </button>
-                </div>
-              </div>
+                    </button>
+                  </div>
+                  </div>
 
-              {/* Language Tools */}
-              <div>
-                <div className="text-xs text-gray-600 mb-1">Tools</div>
-                <div className="flex items-center space-x-1">
-                  <div className="relative group">
+                  {/* Language Tools */}
+                  <div className="flex flex-col items-start">
+                  <div className="text-xs text-gray-600 mb-1">Tools</div>
+                  <div className="flex items-center space-x-1">
+                    <div className="relative group">
                     <button className="px-3 py-2 text-xs bg-white border border-gray-300 rounded hover:bg-gray-50 transition-colors">
                       Kurukh Tools ▼
                     </button>
                     <div className="absolute top-full left-0 mt-1 bg-white border border-gray-300 rounded-lg shadow-xl z-20 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 min-w-max">
                       <button
-                        onClick={applyKurukhToAll}
-                        className="block w-full px-4 py-2 text-xs text-left hover:bg-gray-100 rounded-t-lg"
-                        title="Apply Kurukh font to all text"
+                      onClick={applyKurukhToAll}
+                      className="block w-full px-4 py-2 text-xs text-left hover:bg-gray-100 rounded-t-lg"
+                      title="Apply Kurukh font to all text"
                       >
-                        Apply to All Text
+                      Apply to All Text
                       </button>
                       <button
-                        onClick={removeKurukhFromAll}
-                        className="block w-full px-4 py-2 text-xs text-left hover:bg-gray-100 rounded-b-lg"
-                        title="Remove Kurukh font from all text"
+                      onClick={removeKurukhFromAll}
+                      className="block w-full px-4 py-2 text-xs text-left hover:bg-gray-100 rounded-b-lg"
+                      title="Remove Kurukh font from all text"
                       >
-                        Remove from All Text
+                      Remove from All Text
                       </button>
                     </div>
-                  </div>
+                    </div>
 
-                  <div className="relative group">
+                    <div className="relative group">
                     <button className="px-3 py-2 text-xs bg-white border border-gray-300 rounded hover:bg-gray-50 transition-colors">
                       Hindi Tools ▼
                     </button>
                     <div className="absolute top-full left-0 mt-1 bg-white border border-gray-300 rounded-lg shadow-xl z-20 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 min-w-max">
                       <button
-                        onClick={applyHindiToAll}
-                        className="block w-full px-4 py-2 text-xs text-left hover:bg-gray-100 rounded-t-lg"
-                        title="Apply Hindi font to all text"
+                      onClick={applyHindiToAll}
+                      className="block w-full px-4 py-2 text-xs text-left hover:bg-gray-100 rounded-t-lg"
+                      title="Apply Hindi font to all text"
                       >
-                        Apply to All Text
+                      Apply to All Text
                       </button>
                       <button
-                        onClick={removeHindiFromAll}
-                        className="block w-full px-4 py-2 text-xs text-left hover:bg-gray-100 rounded-b-lg"
-                        title="Remove Hindi font from all text"
+                      onClick={removeHindiFromAll}
+                      className="block w-full px-4 py-2 text-xs text-left hover:bg-gray-100 rounded-b-lg"
+                      title="Remove Hindi font from all text"
                       >
-                        Remove from All Text
+                      Remove from All Text
                       </button>
                     </div>
+                    </div>
+                  </div>
                   </div>
                 </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Editor Content - Responsive */}
+              )}
       <div className="tiptap-editor-container flex-1 overflow-auto">
         <div className="tiptap-editor-content">
           <EditorContent

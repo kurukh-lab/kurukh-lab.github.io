@@ -29,6 +29,7 @@ const Header = () => {
         <div>
           <ul className="menu menu-horizontal px-1">
             <li><NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>
+            <li><NavLink to="/kurukh-editor" className={({ isActive }) => isActive ? "active" : ""}>Kurukh Editor</NavLink></li>
             <li><NavLink to="/contribute" className={({ isActive }) => isActive ? "active" : ""}>Contribute</NavLink></li>
             {currentUser && (
               <li><NavLink to="/review" className={({ isActive }) => isActive ? "active" : ""}>Community Review</NavLink></li>
