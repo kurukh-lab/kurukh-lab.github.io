@@ -21,6 +21,7 @@ function App() {
   const LikeTestPage = React.lazy(() => import('./pages/LikeTestPage'));
   const HighlightTestPage = React.lazy(() => import('./pages/HighlightTestPage'));
   const WordReviewDemo = React.lazy(() => import('./pages/WordReviewDemo'));
+  const KurukhEditor = React.lazy(() => import('./pages/KurukhEditor'));
 
   return (
     <Router>
@@ -89,6 +90,13 @@ function App() {
               <Route path="/word-review-demo" element={
                 <React.Suspense fallback={<div className="flex justify-center p-10"><span className="loading loading-spinner loading-lg"></span></div>}>
                   <WordReviewDemo />
+                </React.Suspense>
+              } />
+            )}
+            {(
+              <Route path="/kurukh-editor" element={
+                <React.Suspense fallback={<div className="flex justify-center p-10"><span className="loading loading-spinner loading-lg"></span></div>}>
+                  <KurukhEditor />
                 </React.Suspense>
               } />
             )}

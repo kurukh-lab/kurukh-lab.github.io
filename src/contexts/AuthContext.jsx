@@ -150,7 +150,7 @@ export const AuthProvider = ({ children }) => {
           setCurrentUser(user);
         } finally {
           setLoading(false);
-          navigate('/'); // Redirect to home page after auth state change
+          // navigate('/'); // Redirect to home page after auth state change
         }
       } else {
         // User is signed out
