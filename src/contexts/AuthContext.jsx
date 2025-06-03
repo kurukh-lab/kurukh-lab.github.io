@@ -1,6 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import {
-  createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
@@ -8,8 +7,9 @@ import {
   signInWithPopup
 } from 'firebase/auth';
 import { auth, db } from '../config/firebase';
-import { doc, setDoc, getDoc } from 'firebase/firestore';
-import { testFirebaseConnection, getUserDocument } from '../utils/firebaseTest';
+import { doc, getDoc } from 'firebase/firestore';
+import { getFunctions, httpsCallable } from 'firebase/functions';
+import { useNavigate } from 'react-router-dom';
 
 // Create the context
 export const AuthContext = createContext(null);
@@ -23,33 +23,51 @@ export const useAuth = () => {
 export const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
-  // Register a new user
+  // Register a new user using secure Firebase Function
   const register = async (email, password, username) => {
     try {
-      // Create user in Firebase Auth
-      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-      const user = userCredential.user;
+      setLoading(true);
+      // Get Firebase Functions instance
+      const functions = getFunctions();
+      const createUser = httpsCallable(functions, 'createUser');
 
-      // Store additional user data in Firestore
-      await setDoc(doc(db, "users", user.uid), {
-        uid: user.uid,
-        username,
+      // Call the secure server-side function
+      const result = await createUser({
         email,
-        roles: ['user'], // Default role for new users
-        createdAt: new Date(),
-        updatedAt: new Date()
+        password,
+        username
       });
 
-      return { success: true, user };
+      return { success: true, data: result.data };
     } catch (error) {
-      return { success: false, error: error.message };
+      console.error('Registration error:', error);
+
+      // Handle Firebase Functions errors
+      let errorMessage = 'Registration failed. Please try again.';
+
+      if (error.code === 'functions/invalid-argument') {
+        errorMessage = error.message || 'Invalid input provided';
+      } else if (error.code === 'functions/already-exists') {
+        errorMessage = 'An account with this email already exists';
+      } else if (error.code === 'functions/internal') {
+        errorMessage = 'Server error. Please try again later';
+      } else if (error.message) {
+        errorMessage = error.message;
+      }
+
+      return { success: false, error: errorMessage };
+    } finally {
+      setLoading(false);
+      navigate('/login'); // Redirect to login page after registration
     }
   };
 
   // Login user
   const login = async (email, password) => {
     try {
+      setLoading(true);
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       return { success: true, user: userCredential.user };
     } catch (error) {
@@ -60,164 +78,101 @@ export const AuthProvider = ({ children }) => {
   // Logout user
   const logout = async () => {
     try {
+      setLoading(true);
       await signOut(auth);
       return { success: true };
     } catch (error) {
       return { success: false, error: error.message };
+    } finally {
+      setLoading(false);
     }
   };
 
-  // Google Sign In
+  // Google Sign In with secure user creation
   const loginWithGoogle = async () => {
     try {
+      setLoading(true);
       const provider = new GoogleAuthProvider();
       const userCredential = await signInWithPopup(auth, provider);
       const user = userCredential.user;
 
-      // Check if user exists in Firestore, if not create a new document
-      const userDocRef = doc(db, "users", user.uid);
-      const userDoc = await getDoc(userDocRef);
+      // Use Firebase Function to securely create user document if needed
+      const functions = getFunctions();
+      const createGoogleUser = httpsCallable(functions, 'createGoogleUser');
 
-      if (!userDoc.exists()) {
-        // Create new user document with default data
-        await setDoc(userDocRef, {
-          uid: user.uid,
-          username: user.displayName || user.email.split('@')[0],
-          email: user.email,
-          roles: ['user'], // Default role for new users
-          createdAt: new Date(),
-          updatedAt: new Date()
-        });
-      }
+      const result = await createGoogleUser({
+        username: user.displayName || user.email.split('@')[0]
+      });
 
-      return { success: true, user };
-    } catch (error) {
-      return { success: false, error: error.message };
-    }
-  };
-
-  // Get user data from Firestore with enhanced error handling
-  const getUserData = async (uid) => {
-    try {
-      console.log("🔍 getUserData called for UID:", uid);
-
-      if (!uid) {
-        console.error("❌ getUserData called with null/undefined UID");
-        return null;
-      }
-
-      // Use the enhanced debugging function
-      const userData = await getUserDocument(uid);
-
-      if (!userData) {
-        console.warn("⚠️ No user data found for UID:", uid);
-
-        // Return a minimal user data object to prevent null reference errors
-        return {
-          uid: uid,
-          roles: ['user']  // Default role
-        };
-      }
-
-      return userData;
-    } catch (error) {
-      console.error("❌ Error in getUserData:", error);
-      // Return minimal data to prevent null reference errors
       return {
-        uid: uid,
-        roles: ['user']
+        success: true,
+        user,
+        isNewUser: result.data?.isNewUser || false,
+        message: result.data?.message || 'Login successful'
       };
+    } catch (error) {
+      console.error('Google sign-in error:', error);
+      return { success: false, error: error.message };
+    } finally {
+      setLoading(false);
     }
   };
 
   // Listen for auth state changes
   useEffect(() => {
-    // Test Firebase connection when app starts
-    if (import.meta.env.DEV) {
-      testFirebaseConnection().then(result => {
-        console.log('🧪 Firebase connection test result:', result);
-      });
-    }
-
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
       if (user) {
         // User is signed in - get additional data from Firestore
         console.log("👤 Auth state changed - user signed in:", user.uid);
+        setLoading(true);
         try {
-          const userData = await getUserData(user.uid);
-          console.log("📋 User data loaded:", userData);
-          // Ensure we always have the UID in currentUser even if Firestore data fails
-          setCurrentUser({
-            ...user,
-            ...(userData || {}),
-            uid: user.uid // Ensure UID is always available
-          });
+          // Fetch user roles from Firestore
+          console.log("🔍 Fetching user roles for UID:", user.uid);
+          const userDocRef = doc(db, "users", user.uid);
+          const userDoc = await getDoc(userDocRef);
+          console.log("📄 User roles document exists:", userDoc.exists());
+
+          let roles = [];
+          if (userDoc.exists()) {
+            const data = userDoc.data();
+            console.log("📄 User roles document data:", data);
+
+            setCurrentUser({
+              ...user,
+              ...(data || {}),
+              uid: user.uid // Ensure UID is always available
+            });
+
+          }
         } catch (error) {
-          console.error("❌ Error loading user data:", error);
+          console.error("❌ Error loading user data or roles:", error);
           // Set user with auth data only if Firestore fails
           setCurrentUser(user);
+        } finally {
+          setLoading(false);
+          // navigate('/'); // Redirect to home page after auth state change
         }
       } else {
         // User is signed out
         console.log("👤 Auth state changed - user signed out");
         setCurrentUser(null);
+        logout();
       }
-      setLoading(false);
-    });
 
-    // Cleanup subscription on unmount
-    return unsubscribe;
+      return unsubscribe;
+    });
   }, []);
 
-  // Get user roles from Firestore
-  const [userRoles, setUserRoles] = useState(null); // Start with null to indicate not loaded
-  const [rolesLoading, setRolesLoading] = useState(false);
-
-  useEffect(() => {
-    const fetchUserRoles = async () => {
-      if (!currentUser) {
-        setUserRoles([]);
-        setRolesLoading(false);
-        return;
-      }
-
-      setRolesLoading(true);
-
-      try {
-        console.log("🔍 Fetching user roles for UID:", currentUser.uid);
-        const userDocRef = doc(db, "users", currentUser.uid);
-        const userDoc = await getDoc(userDocRef);
-        console.log("📄 User roles document exists:", userDoc.exists());
-
-        if (userDoc.exists()) {
-          const data = userDoc.data();
-          console.log("📄 User roles document data:", data);
-          setUserRoles(data.roles || []);
-        } else {
-          console.log("📄 No user roles document found");
-          setUserRoles([]);
-        }
-      } catch (error) {
-        console.error("❌ Error fetching user roles:", error);
-        setUserRoles([]);
-      } finally {
-        setRolesLoading(false);
-      }
-    };
-
-    fetchUserRoles();
-  }, [currentUser]);
 
   const value = {
     currentUser,
-    userRoles,
-    rolesLoading,
-    isAdmin: userRoles?.includes('admin') || false,
+    userRoles: currentUser?.roles || [],
+    loading,
+    isAdmin: currentUser?.roles?.includes('admin') || false,
     register,
     login,
     logout,
-    loginWithGoogle,
-    getUserData
+    loginWithGoogle
   };
 
   return (
