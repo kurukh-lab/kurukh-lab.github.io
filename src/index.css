@@ -1,10 +1,67 @@
+/* Design-system fonts (Newsreader, DM Sans, JetBrains Mono, Noto Devanagari)
+   are loaded via <link> tags in index.html — keeps them out of the bundled
+   CSS so postcss-import doesn't move them after Tailwind's emitted rules. */
 @import "tailwindcss";
+@import "./styles/kd-tokens.css";
 
-/** * 
-* this plugin is requiree for the kurukh dictionalyr ui
- */
+/* DaisyUI: keep the plugin but register two custom themes that mirror our KD tokens.
+   We toggle them via the `data-theme` attribute on <html>, set by ThemeContext. */
 @plugin "daisyui" {
-  themes: light --default;
+  themes:
+    kd-light --default,
+    kd-dark --prefersdark;
+}
+
+@plugin "daisyui/theme" {
+  name: "kd-light";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+  --color-base-100: #FBF7EE;
+  --color-base-200: #F5EFE3;
+  --color-base-300: #EFE7D5;
+  --color-base-content: #1C1814;
+  --color-primary: #C7522A;
+  --color-primary-content: #FBF7EE;
+  --color-secondary: #5A7A5F;
+  --color-secondary-content: #FBF7EE;
+  --color-accent: #E89A6C;
+  --color-accent-content: #1C1814;
+  --color-neutral: #534B40;
+  --color-neutral-content: #FBF7EE;
+  --color-info: #5A7A5F;
+  --color-success: #5A7A5F;
+  --color-warning: #C7522A;
+  --color-error: #B23B1B;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.625rem;
+  --radius-box: 1rem;
+}
+
+@plugin "daisyui/theme" {
+  name: "kd-dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: dark;
+  --color-base-100: #1B1816;
+  --color-base-200: #13110F;
+  --color-base-300: #26221E;
+  --color-base-content: #F2EBDC;
+  --color-primary: #C7522A;
+  --color-primary-content: #F2EBDC;
+  --color-secondary: #8FA690;
+  --color-secondary-content: #13110F;
+  --color-accent: #E89A6C;
+  --color-accent-content: #13110F;
+  --color-neutral: #B8AE9A;
+  --color-neutral-content: #13110F;
+  --color-info: #8FA690;
+  --color-success: #8FA690;
+  --color-warning: #E89A6C;
+  --color-error: #E07043;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.625rem;
+  --radius-box: 1rem;
 }
 
 /* Kurukh Font */
