@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { getWordById } from '../services/dictionaryService';
 import { formatDate } from '../utils/wordUtils';
 import ReportWordModal from '../components/dictionary/ReportWordModal';
@@ -9,9 +10,12 @@ import ShareWordButtons from '../components/dictionary/ShareWordButtons';
 import LikeButton from '../components/dictionary/LikeButton';
 import WordReviewStatus from '../components/WordReviewStatus';
 import { useAuth } from '../contexts/AuthContext';
+import SectionLabel from '../components/kd/SectionLabel';
+import { IconBack, IconBookmark, IconShare } from '../components/kd/icons';
 
 const WordDetails = () => {
   const { wordId } = useParams();
+  const { t } = useTranslation();
   const { isAdmin, currentUser } = useAuth();
   const [word, setWord] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -23,186 +27,341 @@ const WordDetails = () => {
   useEffect(() => {
     const fetchWordDetails = async () => {
       if (!wordId) return;
-
       setLoading(true);
       setError(null);
-
       try {
         const wordData = await getWordById(wordId);
-        if (wordData) {
-          setWord(wordData);
-        } else {
-          setError('Word not found');
-        }
+        if (wordData) setWord(wordData);
+        else setError(t('word.notFound'));
       } catch (err) {
         console.error('Error fetching word details:', err);
-        setError('Failed to load word details. Please try again.');
+        setError(t('errors.loadWord'));
       } finally {
         setLoading(false);
       }
     };
-
     fetchWordDetails();
-  }, [wordId]);
+  }, [wordId, t]);
 
   if (loading) {
     return (
-      <div className="max-w-3xl mx-auto py-10 px-4 flex justify-center">
-        <span data-testid="loading-spinner" className="loading loading-spinner loading-lg text-primary"></span>
+      <div className="max-w-[1100px] mx-auto py-16 px-6 md:px-14 flex justify-center">
+        <span data-testid="loading-spinner" className="loading loading-spinner loading-lg" style={{ color: 'var(--kd-accent)' }} />
       </div>
     );
   }
 
   if (error || !word) {
     return (
-      <div className="max-w-3xl mx-auto py-10 px-4">
-        <div className="alert alert-error">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <span>{error || 'Word not found'}</span>
+      <div className="max-w-[1100px] mx-auto py-16 px-6 md:px-14">
+        <div
+          className="kd-font-sans px-5 py-4 rounded-xl"
+          style={{
+            background: 'var(--kd-accent-tint)',
+            color: 'var(--kd-accent)',
+            border: '1px solid var(--kd-accent)',
+          }}
+        >
+          {error || t('word.notFound')}
         </div>
-        <div className="flex justify-center mt-6">
-          <Link to="/" className="btn btn-primary">
-            Return to Home
+        <div className="flex justify-center mt-8">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-[10px] kd-font-sans text-[14px] font-medium"
+            style={{ background: 'var(--kd-ink)', color: 'var(--kd-bg)' }}
+          >
+            <IconBack size={14} color="currentColor" />
+            {t('word.returnHome')}
           </Link>
         </div>
       </div>
     );
   }
 
-  return (
-    <div className="max-w-3xl mx-auto py-10 px-4">
-      <Link
-        to="/"
-        className="inline-flex items-center mb-6 text-primary hover:underline"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
-          <path fillRule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
-        </svg>
-        Back to Dictionary
-      </Link>
+  const allMeanings = word.meanings || [];
+  const ownerOrAdmin = isAdmin || (currentUser && word.created_by === currentUser.uid);
 
-      <div className="bg-white rounded-lg shadow-md overflow-hidden">
-        {/* Word header */}
-        <div className="p-6 bg-primary text-white">
-          <div className="flex items-center gap-2">
-            <h1 className="text-3xl font-bold">{word.kurukh_word}</h1>
-            <PronunciationButton text={word.kurukh_word} />
+  return (
+    <div style={{ background: 'var(--kd-bg)' }}>
+      {/* Breadcrumb */}
+      <div
+        className="max-w-[1100px] mx-auto pt-8 px-6 md:px-14 kd-font-mono"
+        style={{
+          fontSize: 12,
+          color: 'var(--kd-ink-mute)',
+          letterSpacing: '0.06em',
+          textTransform: 'uppercase',
+        }}
+      >
+        <Link to="/" className="hover:opacity-80">{t('word.breadcrumb')}</Link>
+        {' / '}
+        <span style={{ color: 'var(--kd-ink)' }}>{word.kurukh_word}</span>
+      </div>
+
+      {/* Big entry header */}
+      <div className="max-w-[1100px] mx-auto px-6 md:px-14 pt-6 pb-8">
+        <div className="grid gap-6 md:grid-cols-[1fr_auto] md:items-end">
+          <div>
+            <h1
+              className="kd-font-serif"
+              style={{
+                fontWeight: 500,
+                fontSize: 'clamp(72px, 12vw, 140px)',
+                margin: 0,
+                color: 'var(--kd-ink)',
+                letterSpacing: '-0.04em',
+                lineHeight: 0.95,
+              }}
+            >
+              {word.kurukh_word}
+            </h1>
+            <div className="mt-4 flex items-center gap-4 flex-wrap">
+              {word.pronunciation && (
+                <span className="kd-font-mono" style={{ fontSize: 17, color: 'var(--kd-ink-soft)' }}>
+                  /{word.pronunciation}/
+                </span>
+              )}
+              {word.part_of_speech && (
+                <span
+                  className="kd-font-sans"
+                  style={{
+                    padding: '4px 12px',
+                    borderRadius: 999,
+                    fontSize: 12,
+                    fontWeight: 500,
+                    letterSpacing: '0.04em',
+                    background: 'var(--kd-accent-tint)',
+                    color: 'var(--kd-accent)',
+                  }}
+                >
+                  {word.part_of_speech}
+                </span>
+              )}
+              {word.status === 'approved' && (
+                <span
+                  className="kd-font-sans inline-flex items-center gap-1.5"
+                  style={{ fontSize: 13, color: 'var(--kd-ink-mute)' }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: 6,
+                      height: 6,
+                      borderRadius: '50%',
+                      background: 'var(--kd-sage)',
+                      display: 'inline-block',
+                    }}
+                  />
+                  {t('word.verified')}
+                </span>
+              )}
+            </div>
           </div>
-          {word.part_of_speech && (
-            <p className="mt-2 text-primary-content opacity-90 italic">
-              {word.part_of_speech}
+
+          <div className="flex flex-wrap gap-2">
+            <PronunciationButton text={word.kurukh_word} />
+            <button
+              type="button"
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-[10px] kd-font-sans text-[14px] font-medium transition-colors"
+              style={{
+                background: 'transparent',
+                color: 'var(--kd-ink)',
+                border: '1px solid var(--kd-line)',
+              }}
+            >
+              <IconBookmark size={16} />
+              {t('word.save')}
+            </button>
+            <div
+              className="inline-flex items-center gap-2 px-3 py-2 rounded-[10px]"
+              style={{ border: '1px solid var(--kd-line)' }}
+            >
+              <ShareWordButtons
+                word={word.kurukh_word}
+                url={typeof window !== 'undefined' ? window.location.href : ''}
+                description={allMeanings?.[0]?.definition}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Main entry body */}
+      <div className="max-w-[1100px] mx-auto px-6 md:px-14 pb-24 grid gap-14 md:gap-16 md:grid-cols-[1.6fr_1fr]">
+        <div>
+          <SectionLabel eyebrow={t('word.meanings')} title={t('word.definitions')} />
+          {allMeanings.length === 0 && (
+            <p className="kd-font-sans" style={{ color: 'var(--kd-ink-mute)' }}>
+              {t('home.noWords')}
             </p>
           )}
-        </div>
-
-        {/* Word details */}
-        <div className="p-6">
-          {/* Meanings */}
-          <div className="mb-8">
-            <h2 className="text-xl font-bold mb-4">Meanings</h2>
-            {word.meanings && word.meanings.map((meaning, index) => (
-              <div key={index} className="mb-6 pb-6 border-b border-gray-200 last:border-b-0">
-                <div className="mb-3">
-                  <p className="text-sm text-gray-500">
-                    {meaning.language === 'en' ? 'English' : 'Hindi'}
-                  </p>
-                  <p className="text-lg">{meaning.definition}</p>
+          {allMeanings.map((meaning, n) => (
+            <div
+              key={n}
+              className="mb-9 pb-9"
+              style={{ borderBottom: n === allMeanings.length - 1 ? 'none' : '1px solid var(--kd-line)' }}
+            >
+              <div className="flex gap-5">
+                <div
+                  className="kd-font-serif"
+                  style={{
+                    fontWeight: 500,
+                    fontSize: 28,
+                    color: 'var(--kd-accent)',
+                    letterSpacing: '-0.02em',
+                    lineHeight: 1,
+                    marginTop: 4,
+                  }}
+                >
+                  {n + 1}.
                 </div>
-
-                {meaning.example_sentence_kurukh && (
-                  <div className="bg-gray-50 p-4 rounded-md">
-                    <p className="font-medium text-sm mb-1">Example:</p>
-                    <p className="italic">{meaning.example_sentence_kurukh}</p>
-                    <p className="text-gray-700 mt-1">{meaning.example_sentence_translation}</p>
+                <div className="flex-1 min-w-0">
+                  <div className="kd-eyebrow mb-2">
+                    {meaning.language === 'hi' ? t('word.hindi') : t('word.english')}
                   </div>
-                )}
+                  <p
+                    className="kd-font-serif"
+                    style={{
+                      fontSize: 22,
+                      color: 'var(--kd-ink)',
+                      lineHeight: 1.4,
+                      margin: 0,
+                      fontWeight: 400,
+                    }}
+                  >
+                    {meaning.definition}
+                  </p>
+                  {meaning.example_sentence_kurukh && (
+                    <div
+                      className="mt-4 px-5 py-4 rounded-xl"
+                      style={{
+                        background: 'var(--kd-surface)',
+                        border: '1px solid var(--kd-line)',
+                        borderLeft: '3px solid var(--kd-accent)',
+                      }}
+                    >
+                      <p
+                        className="kd-font-serif"
+                        style={{
+                          fontSize: 19,
+                          fontStyle: 'italic',
+                          color: 'var(--kd-ink)',
+                          margin: 0,
+                          lineHeight: 1.4,
+                        }}
+                      >
+                        {meaning.example_sentence_kurukh}
+                      </p>
+                      {meaning.example_sentence_translation && (
+                        <p
+                          className="kd-font-sans mt-1.5"
+                          style={{ fontSize: 14, color: 'var(--kd-ink-soft)', margin: 0 }}
+                        >
+                          {meaning.example_sentence_translation}
+                        </p>
+                      )}
+                    </div>
+                  )}
+                </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
 
-          {/* Review Status for admin and word owners */}
-          {(isAdmin || (currentUser && word.created_by === currentUser.uid)) && (
-            <div className="mb-6">
+          {ownerOrAdmin && (
+            <div className="mt-2 mb-10">
               <div className="flex items-center justify-between mb-2">
-                <h3 className="text-lg font-medium">Review Status</h3>
+                <h3 className="kd-eyebrow">{t('word.reviewStatus')}</h3>
                 <button
                   onClick={() => setShowReviewDetails(!showReviewDetails)}
-                  className="btn btn-xs btn-outline"
+                  className="kd-font-sans text-[12px] underline"
+                  style={{ color: 'var(--kd-ink-soft)' }}
                 >
-                  {showReviewDetails ? 'Hide Details' : 'Show Details'}
+                  {showReviewDetails ? t('word.hideDetails') : t('word.showDetails')}
                 </button>
               </div>
-
               {showReviewDetails && (
-                <div className="bg-gray-50 p-4 rounded-lg">
+                <div
+                  className="p-4 rounded-xl"
+                  style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
+                >
                   <WordReviewStatus wordId={wordId} />
                 </div>
               )}
             </div>
           )}
 
-          {/* Metadata and Actions */}
-          <div className="text-sm text-gray-500 flex flex-col sm:flex-row justify-between gap-4 border-t pt-4 mt-4">
-            <div className="flex items-center gap-4">
-              {word.createdAt && (
-                <p>Added: {formatDate(word.createdAt)}</p>
-              )}
-
-              {/* Word Status */}
-              {word.status && (
-                <div className="flex items-center gap-1">
-                  <span>Status:</span>
-                  <span className={`badge ${getStatusBadgeClass(word.status)}`}>
-                    {formatStatus(word.status)}
-                  </span>
-                  {word.status === 'community_review' && word.community_votes_for > 0 && (
-                    <span className="text-xs ml-1">({word.community_votes_for}/5 approvals)</span>
-                  )}
-                </div>
-              )}
+          <div
+            className="pt-6 mt-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4"
+            style={{ borderTop: '1px solid var(--kd-line)' }}
+          >
+            <div className="kd-font-sans" style={{ fontSize: 13, color: 'var(--kd-ink-mute)' }}>
+              {word.createdAt && <>{t('word.addedOn')}: {formatDate(word.createdAt)}</>}
             </div>
-
-            <div className="flex flex-wrap gap-4 items-center">
+            <div className="flex flex-wrap items-center gap-3">
               <LikeButton word={word} size="lg" />
-
-              <ShareWordButtons
-                word={word.kurukh_word}
-                url={window.location.href}
-                description={word.meanings?.[0]?.definition}
-              />
-
               <button
-                className="btn btn-ghost btn-xs text-primary"
+                type="button"
                 onClick={() => setShowCorrectionModal(true)}
+                className="kd-font-sans text-[13px] underline"
+                style={{ color: 'var(--kd-ink-soft)' }}
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                </svg>
-                Suggest Correction
+                {t('word.suggestCorrection')}
               </button>
-
               <button
-                className="btn btn-ghost btn-xs text-red-500"
+                type="button"
                 onClick={() => setShowReportModal(true)}
+                className="kd-font-sans text-[13px] underline"
+                style={{ color: 'var(--kd-accent)' }}
               >
-                Report Issue
+                {t('word.reportIssue')}
               </button>
             </div>
           </div>
         </div>
+
+        {/* Sidebar */}
+        <aside className="flex flex-col gap-5">
+          {word.etymology && (
+            <SidebarCard title={t('word.relatedEyebrow')}>
+              <p
+                className="kd-font-serif"
+                style={{ fontSize: 16, lineHeight: 1.6, color: 'var(--kd-ink)', margin: 0 }}
+              >
+                {word.etymology}
+              </p>
+            </SidebarCard>
+          )}
+          {Array.isArray(word.tags) && word.tags.length > 0 && (
+            <SidebarCard title={t('word.relatedEyebrow')}>
+              <div className="flex flex-wrap gap-2">
+                {word.tags.map(tag => (
+                  <span
+                    key={tag}
+                    className="kd-font-sans"
+                    style={{
+                      padding: '5px 12px',
+                      borderRadius: 999,
+                      fontSize: 13,
+                      color: 'var(--kd-ink)',
+                      background: 'var(--kd-surface-alt)',
+                      border: '1px solid var(--kd-line)',
+                    }}
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </SidebarCard>
+          )}
+        </aside>
       </div>
 
-      {/* Report Word Modal */}
       <ReportWordModal
         isOpen={showReportModal}
         onClose={() => setShowReportModal(false)}
         wordId={word?.id}
         wordText={word?.kurukh_word}
       />
-
-      {/* Suggest Correction Modal */}
       <SuggestCorrectionModal
         isOpen={showCorrectionModal}
         onClose={() => setShowCorrectionModal(false)}
@@ -214,42 +373,17 @@ const WordDetails = () => {
   );
 };
 
+const SidebarCard = ({ title, children }) => (
+  <div
+    className="p-6 rounded-2xl"
+    style={{
+      background: 'var(--kd-surface)',
+      border: '1px solid var(--kd-line)',
+    }}
+  >
+    <div className="kd-eyebrow mb-4">{title}</div>
+    {children}
+  </div>
+);
+
 export default WordDetails;
-
-// Helper functions for formatting word status
-const formatStatus = (status) => {
-  switch (status) {
-    case 'approved':
-      return 'Approved';
-    case 'community_review':
-      return 'Community Review';
-    case 'pending_review':
-      return 'Admin Review';
-    case 'community_approved':
-      return 'Community Approved';
-    case 'rejected':
-      return 'Rejected';
-    case 'community_rejected':
-      return 'Community Rejected';
-    default:
-      return status ? status.replace('_', ' ').charAt(0).toUpperCase() + status.slice(1) : 'Unknown';
-  }
-};
-
-const getStatusBadgeClass = (status) => {
-  switch (status) {
-    case 'approved':
-      return 'badge-success';
-    case 'community_review':
-      return 'badge-warning';
-    case 'pending_review':
-      return 'badge-info';
-    case 'community_approved':
-      return 'badge-info';
-    case 'rejected':
-    case 'community_rejected':
-      return 'badge-error';
-    default:
-      return 'badge-neutral';
-  }
-};

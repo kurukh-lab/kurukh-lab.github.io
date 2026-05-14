@@ -1,0 +1,103 @@
+/* Kurukh Dictionary design tokens — single source of truth for color, type, and rhythm.
+   Light surface = warm bone with a hint of cream. Dark surface = warm charcoal, never pure black.
+   Single considered accent: terracotta saffron. Second muted accent: sage (for community/verified). */
+
+:root,
+[data-theme="kd-light"] {
+  --kd-bg:           #F5EFE3;
+  --kd-surface:      #FBF7EE;
+  --kd-surface-alt:  #EFE7D5;
+  --kd-ink:          #1C1814;
+  --kd-ink-soft:     #534B40;
+  --kd-ink-mute:     #8A8073;
+  --kd-line:         rgba(28, 24, 20, 0.10);
+  --kd-line-soft:    rgba(28, 24, 20, 0.06);
+
+  --kd-accent:       #C7522A;
+  --kd-accent-soft:  #E89A6C;
+  --kd-accent-tint:  rgba(199, 82, 42, 0.10);
+  --kd-sage:         #5A7A5F;
+  --kd-sage-soft:    #8FA690;
+
+  --kd-shadow-card:  0 1px 0 rgba(28, 24, 20, 0.06), 0 12px 40px -20px rgba(28, 24, 20, 0.18);
+  --kd-shadow-elev:  0 30px 80px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(28, 24, 20, 0.10);
+
+  color-scheme: light;
+}
+
+[data-theme="kd-dark"] {
+  --kd-bg:           #13110F;
+  --kd-surface:      #1B1816;
+  --kd-surface-alt:  #26221E;
+  --kd-ink:          #F2EBDC;
+  --kd-ink-soft:     #B8AE9A;
+  --kd-ink-mute:     #7A7060;
+  --kd-line:         rgba(242, 235, 220, 0.10);
+  --kd-line-soft:    rgba(242, 235, 220, 0.06);
+
+  --kd-accent:       #C7522A;
+  --kd-accent-soft:  #E89A6C;
+  --kd-accent-tint:  rgba(199, 82, 42, 0.18);
+  --kd-sage:         #5A7A5F;
+  --kd-sage-soft:    #8FA690;
+
+  --kd-shadow-card:  0 1px 0 rgba(0, 0, 0, 0.4), 0 12px 40px -20px rgba(0, 0, 0, 0.6);
+  --kd-shadow-elev:  0 30px 80px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(242, 235, 220, 0.08);
+
+  color-scheme: dark;
+}
+
+:root {
+  --kd-font-serif: "Newsreader", "Source Serif Pro", Georgia, serif;
+  --kd-font-sans:  "DM Sans", -apple-system, system-ui, sans-serif;
+  --kd-font-mono:  "JetBrains Mono", ui-monospace, monospace;
+  --kd-font-deva:  "Noto Serif Devanagari", "Noto Sans Devanagari", "DM Sans", system-ui, sans-serif;
+}
+
+/* When the active language is Hindi, prefer Devanagari serif for display headings.
+   We still keep the regular serif fallback so any non-deva text renders correctly. */
+html[lang="hi"] {
+  --kd-font-serif: "Noto Serif Devanagari", "Newsreader", Georgia, serif;
+  --kd-font-sans:  "Noto Sans Devanagari", "DM Sans", system-ui, sans-serif;
+}
+
+html, body {
+  background: var(--kd-bg);
+  color: var(--kd-ink);
+  font-family: var(--kd-font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*::-webkit-scrollbar      { width: 8px; height: 8px; }
+*::-webkit-scrollbar-thumb { background: var(--kd-line); border-radius: 4px; }
+*::-webkit-scrollbar-track { background: transparent; }
+
+/* Tailwind utility shorthand for KD tokens — used across page components. */
+.kd-bg          { background-color: var(--kd-bg); }
+.kd-surface     { background-color: var(--kd-surface); }
+.kd-surface-alt { background-color: var(--kd-surface-alt); }
+.kd-ink         { color: var(--kd-ink); }
+.kd-ink-soft    { color: var(--kd-ink-soft); }
+.kd-ink-mute    { color: var(--kd-ink-mute); }
+.kd-accent      { color: var(--kd-accent); }
+.kd-border      { border-color: var(--kd-line); }
+.kd-border-soft { border-color: var(--kd-line-soft); }
+.kd-font-serif  { font-family: var(--kd-font-serif); }
+.kd-font-sans   { font-family: var(--kd-font-sans); }
+.kd-font-mono   { font-family: var(--kd-font-mono); }
+
+.kd-eyebrow {
+  font-family: var(--kd-font-mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--kd-accent);
+}
+
+.kd-card {
+  background: var(--kd-surface);
+  border: 1px solid var(--kd-line);
+  border-radius: 16px;
+  box-shadow: var(--kd-shadow-card);
+}

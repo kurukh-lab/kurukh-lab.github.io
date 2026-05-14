@@ -1,0 +1,117 @@
+{
+  "brand": {
+    "name": "Kurukh",
+    "tagline": "A living dictionary"
+  },
+  "nav": {
+    "home": "Home",
+    "browse": "Browse",
+    "contribute": "Contribute",
+    "community": "Community Review",
+    "saved": "Saved",
+    "editor": "Kurukh Editor",
+    "admin": "Admin",
+    "profile": "Profile",
+    "login": "Login",
+    "logout": "Logout",
+    "addWord": "Add a word"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "toggle": "Change language",
+    "english": "English",
+    "hindi": "हिन्दी"
+  },
+  "home": {
+    "eyebrow": "Kuṛuk · ku.ɖukʰ · the people's word",
+    "titleLine1": "A dictionary",
+    "titleEmph": "tended",
+    "titleLine2": "by its speakers.",
+    "subtitle": "A community archive of Kuṛuk — the Oraon tongue spoken across Jharkhand, Chhattisgarh and the Tarai foothills. Read, listen, contribute.",
+    "stats": {
+      "words": "words",
+      "audio": "entries with audio",
+      "contributors": "contributors",
+      "regions": "dialect regions"
+    },
+    "wordOfDay": {
+      "eyebrow": "Today",
+      "title": "Word of the day",
+      "readEntry": "Read full entry",
+      "save": "Save",
+      "inSentence": "In a sentence"
+    },
+    "alphabet": {
+      "eyebrow": "A — Z",
+      "title": "Browse the lexicon",
+      "entries": "{{count}} entries"
+    },
+    "recent": {
+      "eyebrow": "Recently added",
+      "title": "New to the archive"
+    },
+    "loved": {
+      "eyebrow": "Most loved",
+      "title": "The community's favorites"
+    },
+    "noWords": "No words to show yet."
+  },
+  "search": {
+    "placeholder": "Search a word in Kurukh, English or Hindi…",
+    "shortcut": "⌘ K",
+    "try": "Try:",
+    "results": "Search results ({{count}})",
+    "clear": "Clear search",
+    "filters": "Filters",
+    "searchIn": "Search in",
+    "allLanguages": "All languages",
+    "partOfSpeech": "Part of speech",
+    "allTypes": "All types"
+  },
+  "word": {
+    "loading": "Loading word…",
+    "notFound": "Word not found",
+    "returnHome": "Return to home",
+    "breadcrumb": "Browse",
+    "verified": "verified",
+    "contributors": "{{count}} contributors",
+    "listen": "Listen",
+    "save": "Save",
+    "share": "Share",
+    "definitions": "Definitions",
+    "meanings": "Meanings",
+    "related": "Words around this one",
+    "relatedEyebrow": "Related",
+    "exampleLabel": "Example",
+    "addedOn": "Added",
+    "status": "Status",
+    "suggestCorrection": "Suggest correction",
+    "reportIssue": "Report issue",
+    "reviewStatus": "Review status",
+    "showDetails": "Show details",
+    "hideDetails": "Hide details",
+    "english": "English",
+    "hindi": "Hindi"
+  },
+  "footer": {
+    "tagline": "An open dictionary stewarded by the Kurukh-speaking community. Free, ad-free, and built to outlive any one of us.",
+    "explore": "Explore",
+    "exploreItems": ["Browse A–Z", "Themes", "Phrasebook", "Audio archive"],
+    "contribute": "Contribute",
+    "contributeItems": ["Add a word", "Record audio", "Review queue", "Editor guide"],
+    "about": "About",
+    "aboutItems": ["Project", "Team", "Privacy", "Contact"],
+    "copyright": "© {{year}} Kurukh Dictionary Collective · CC BY-SA 4.0",
+    "made": "Made with care in Ranchi, Jharkhand",
+    "privacyPolicy": "Privacy Policy",
+    "contact": "Contact"
+  },
+  "errors": {
+    "loadDictionary": "Failed to load dictionary data. Please try again later.",
+    "loadWord": "Failed to load word details. Please try again."
+  }
+}

@@ -1,33 +1,29 @@
 import React, { useState, useEffect, useRef } from 'react';
-import SearchButton from './SearchButton';
-import VoiceSearchButton from './VoiceSearchButton';
+import { useTranslation } from 'react-i18next';
 import { FaTimes, FaFilter, FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import SearchButton from './SearchButton';
+import { IconSearch } from '../kd/icons';
 import useSearch from '../../hooks/useSearch';
 import useKeyboardShortcut from '../../hooks/useKeyboardShortcut';
 
 /**
- * Reusable search component styled like a search engine
- * @param {object} props Component props
- * @param {function} [props.onSearchComplete] Callback function when search is complete
- * @param {string} [props.initialSearchTerm] Initial search term
- * @param {string} [props.searchTerm] Controlled search term
- * @param {function} [props.onSearchTermChange] Callback for search term changes
- * @param {function} [props.onSearch] Search handler function
- * @param {boolean} [props.loading] Loading state
+ * Search input styled to the KD design system (warm bone surface, soft shadow,
+ * monospace kbd hint). Keeps the existing useSearch API and filter affordances.
  */
-const SearchBar = ({ 
-  onSearchComplete, 
-  initialSearchTerm = '', 
+const SearchBar = ({
+  onSearchComplete,
+  initialSearchTerm = '',
   searchTerm: controlledSearchTerm,
   onSearchTermChange,
   onSearch,
-  loading: externalLoading
+  loading: externalLoading,
+  large = false,
 }) => {
+  const { t } = useTranslation();
   const [showFilters, setShowFilters] = useState(false);
   const [localSearchTerm, setLocalSearchTerm] = useState(initialSearchTerm);
   const searchInputRef = useRef(null);
-  
-  // Use external search functionality if provided, otherwise use internal useSearch
+
   const {
     searchTerm: hookSearchTerm,
     setSearchTerm: hookSetSearchTerm,
@@ -35,23 +31,18 @@ const SearchBar = ({
     error,
     filters,
     updateFilters,
-    handleSearch: hookHandleSearch
+    handleSearch: hookHandleSearch,
   } = useSearch();
 
-  // Determine which search term and handlers to use
   const searchTerm = controlledSearchTerm !== undefined ? controlledSearchTerm : (hookSearchTerm || localSearchTerm);
   const setSearchTerm = onSearchTermChange || hookSetSearchTerm || setLocalSearchTerm;
   const handleSearch = onSearch || hookHandleSearch;
   const loading = externalLoading !== undefined ? externalLoading : hookLoading;
 
-  // Set initial search term if provided
   useEffect(() => {
-    if (initialSearchTerm) {
-      setSearchTerm(initialSearchTerm);
-    }
+    if (initialSearchTerm) setSearchTerm(initialSearchTerm);
   }, [initialSearchTerm, setSearchTerm]);
 
-  // Focus search input with keyboard shortcut
   useKeyboardShortcut({
     'k': () => searchInputRef.current?.focus(),
     'ctrl+k': () => searchInputRef.current?.focus(),
@@ -59,94 +50,114 @@ const SearchBar = ({
     '/': () => searchInputRef.current?.focus(),
   });
 
-  // Call the onSearchComplete callback when search is complete
   const handleSubmit = async (e) => {
     e.preventDefault();
     await handleSearch(e);
-    if (onSearchComplete) {
-      onSearchComplete(searchTerm);
-    }
-  };
-
-  // Handle voice search results
-  const handleVoiceResult = (transcript) => {
-    setSearchTerm(transcript);
-    searchInputRef.current?.focus();
-    // Auto-search after a short delay
-    setTimeout(() => {
-      handleSubmit({ preventDefault: () => {} });
-    }, 300);
+    if (onSearchComplete) onSearchComplete(searchTerm);
   };
 
   return (
-    <div className="w-full max-w-xl mx-auto">
-      <form onSubmit={handleSubmit} className="join w-full">
+    <div className="w-full">
+      <form
+        onSubmit={handleSubmit}
+        className="flex items-center gap-3 w-full"
+        style={{
+          background: 'var(--kd-surface)',
+          border: '1px solid var(--kd-line)',
+          borderRadius: 14,
+          padding: large ? '18px 22px' : '12px 18px',
+          boxShadow: 'var(--kd-shadow-card)',
+        }}
+      >
+        <IconSearch size={large ? 22 : 18} color="var(--kd-ink-soft)" weight={1.6} />
         <input
           type="text"
           ref={searchInputRef}
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Search for a word..."
-          className="input input-bordered join-item flex-grow focus:ring-2 focus:ring-primary"
+          placeholder={t('search.placeholder')}
+          className="flex-1 bg-transparent border-none outline-none kd-font-sans"
+          style={{
+            fontSize: large ? 19 : 15,
+            color: 'var(--kd-ink)',
+          }}
         />
         {searchTerm && (
           <button
             type="button"
             onClick={() => setSearchTerm('')}
-            className="btn btn-ghost join-item"
-            aria-label="Clear search"
+            aria-label={t('search.clear')}
+            className="inline-flex items-center justify-center w-7 h-7 rounded-full transition-colors"
+            style={{ color: 'var(--kd-ink-soft)' }}
           >
             <FaTimes />
           </button>
         )}
-        <SearchButton onClick={handleSubmit} disabled={loading || !searchTerm.trim()} loading={loading} />
-        <button 
-          type="button" 
-          onClick={() => setShowFilters(!showFilters)} 
-          className="btn btn-ghost join-item"
-          aria-label="Toggle search filters"
+        <button
+          type="button"
+          onClick={() => setShowFilters(!showFilters)}
+          aria-label={t('search.filters')}
+          className="inline-flex items-center gap-1 px-2 h-8 rounded-md transition-colors"
+          style={{ color: 'var(--kd-ink-soft)' }}
         >
-          <FaFilter />
-          {showFilters ? <FaChevronUp /> : <FaChevronDown />}
+          <FaFilter size={12} />
+          {showFilters ? <FaChevronUp size={10} /> : <FaChevronDown size={10} />}
         </button>
+        <span
+          className="hidden sm:inline-flex kd-font-mono items-center px-2 py-1 rounded-md"
+          style={{
+            fontSize: 11,
+            color: 'var(--kd-ink-mute)',
+            border: '1px solid var(--kd-line)',
+            background: 'var(--kd-surface-alt)',
+          }}
+        >
+          {t('search.shortcut')}
+        </span>
+        <SearchButton onClick={handleSubmit} disabled={loading || !searchTerm.trim()} loading={loading} />
       </form>
 
       {showFilters && filters && updateFilters && (
-        <div className="mt-2 p-4 bg-base-200 rounded-md shadow">
-          <div className="form-control">
-            <label className="label">
-              <span className="label-text">Search In:</span>
+        <div
+          className="mt-3 p-4 rounded-xl"
+          style={{
+            background: 'var(--kd-surface)',
+            border: '1px solid var(--kd-line)',
+          }}
+        >
+          <div className="grid sm:grid-cols-2 gap-3">
+            <label className="flex flex-col gap-1">
+              <span className="kd-eyebrow">{t('search.searchIn')}</span>
+              <select
+                value={filters.language || ''}
+                onChange={(e) => updateFilters({ language: e.target.value })}
+                className="select select-bordered w-full"
+                style={{ background: 'var(--kd-bg)', color: 'var(--kd-ink)', borderColor: 'var(--kd-line)' }}
+              >
+                <option value="">{t('search.allLanguages')}</option>
+                <option value="en">{t('word.english')}</option>
+                <option value="hi">{t('word.hindi')}</option>
+              </select>
             </label>
-            <select 
-              value={filters.language || ''} 
-              onChange={(e) => updateFilters({ language: e.target.value })}
-              className="select select-bordered w-full"
-            >
-              <option value="">All Languages</option>
-              <option value="en">English</option>
-              <option value="hi">Hindi</option>
-            </select>
-          </div>
-          
-          <div className="form-control">
-            <label className="label">
-              <span className="label-text">Part of Speech:</span>
+            <label className="flex flex-col gap-1">
+              <span className="kd-eyebrow">{t('search.partOfSpeech')}</span>
+              <select
+                value={filters.partOfSpeech || ''}
+                onChange={(e) => updateFilters({ partOfSpeech: e.target.value })}
+                className="select select-bordered w-full"
+                style={{ background: 'var(--kd-bg)', color: 'var(--kd-ink)', borderColor: 'var(--kd-line)' }}
+              >
+                <option value="">{t('search.allTypes')}</option>
+                <option value="noun">Noun</option>
+                <option value="verb">Verb</option>
+                <option value="adjective">Adjective</option>
+                <option value="adverb">Adverb</option>
+                <option value="pronoun">Pronoun</option>
+                <option value="preposition">Preposition</option>
+                <option value="conjunction">Conjunction</option>
+                <option value="interjection">Interjection</option>
+              </select>
             </label>
-            <select
-              value={filters.partOfSpeech || ''}
-              onChange={(e) => updateFilters({ partOfSpeech: e.target.value })}
-              className="select select-bordered w-full"
-            >
-              <option value="">All Types</option>
-              <option value="noun">Noun</option>
-              <option value="verb">Verb</option>
-              <option value="adjective">Adjective</option>
-              <option value="adverb">Adverb</option>
-              <option value="pronoun">Pronoun</option>
-              <option value="preposition">Preposition</option>
-              <option value="conjunction">Conjunction</option>
-              <option value="interjection">Interjection</option>
-            </select>
           </div>
         </div>
       )}
