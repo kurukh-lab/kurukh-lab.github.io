@@ -120,6 +120,7 @@ const TiptapKurukhEditor = ({
   content = '',
   placeholder = 'Start typing in Kurukh...',
   onContentChange = () => { },
+  onEditorReady = () => { },
   className = '',
   disabled = false,
   showToolbar = true,
@@ -221,6 +222,11 @@ const TiptapKurukhEditor = ({
     }
   }, [editor, content]);
 
+  // Notify the parent once the editor instance is available — enables external toolbars.
+  useEffect(() => {
+    if (editor) onEditorReady(editor);
+  }, [editor, onEditorReady]);
+
   // Add keyboard shortcuts - now after function declarations
   useEffect(() => {
     if (!editor) return;
@@ -254,14 +260,17 @@ const TiptapKurukhEditor = ({
 
   if (!editor) {
     return (
-      <div className="animate-pulse bg-gray-200 rounded-lg h-32 flex items-center justify-center">
-        <span className="text-gray-500">Loading editor...</span>
+      <div
+        className="animate-pulse rounded-lg h-32 flex items-center justify-center kd-font-sans"
+        style={{ background: 'var(--kd-surface-alt)', color: 'var(--kd-ink-mute)' }}
+      >
+        Loading editor…
       </div>
     );
   }
 
   return (
-    <div className={`tiptap-kurukh-editor w-full h-full ${disabled ? 'bg-gray-100' : 'bg-white'}`}>
+    <div className="tiptap-kurukh-editor w-full h-full">
       {/* Microsoft Word-style Ribbon */}
       {showToolbar && (
         <div className="bg-gradient-to-b from-blue-50 to-blue-100 border-b-2 border-blue-200 shadow-sm">

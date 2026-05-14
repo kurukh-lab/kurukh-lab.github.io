@@ -1,15 +1,31 @@
 /**
- * Comment Component
- * 
- * Displays a single comment with voting, reply, edit, and delete functionality.
- * Supports nested threading for Reddit-style comment trees.
+ * Comment — a single threaded comment node with voting, reply, edit, and delete.
+ * Behaviour is preserved from the original implementation; only the presentation
+ * is rewritten to match the KD design (sage/accent vote chevrons, monogram avatar,
+ * accent-edged reply rail).
  */
 
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useAuth } from '../contexts/AuthContext';
-import { voteOnComment, editComment, deleteComment, loadRepliesForComment, reloadParentReplies } from '../services/commentService';
+import {
+  voteOnComment,
+  editComment,
+  deleteComment,
+  loadRepliesForComment,
+  reloadParentReplies,
+} from '../services/commentService';
 import { formatDate } from '../utils/wordUtils';
 import { MAX_COMMENT_LEVEL } from '../config/comments';
+
+const initialsOf = (name) =>
+  (name || '?')
+    .split(/\s+/)
+    .map((part) => part[0])
+    .filter(Boolean)
+    .slice(0, 2)
+    .join('')
+    .toUpperCase();
 
 const Comment = ({
   comment,
@@ -19,8 +35,9 @@ const Comment = ({
   onVote,
   onParentReload,
   level = 0,
-  maxLevel = MAX_COMMENT_LEVEL
+  maxLevel = MAX_COMMENT_LEVEL,
 }) => {
+  const { t } = useTranslation();
   const { currentUser } = useAuth();
   const [showReplyForm, setShowReplyForm] = useState(false);
   const [showEditForm, setShowEditForm] = useState(false);
@@ -28,52 +45,37 @@ const Comment = ({
   const [editContent, setEditContent] = useState(comment.content);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [votingInProgress, setVotingInProgress] = useState(false);
-  const [showReplies, setShowReplies] = useState(level < 3); // Auto-expand first 3 levels
+  const [showReplies, setShowReplies] = useState(level < 3);
   const [loadingReplies, setLoadingReplies] = useState(false);
   const [repliesLoaded, setRepliesLoaded] = useState(comment.repliesLoaded || level < 3);
   const [dynamicReplies, setDynamicReplies] = useState(comment.replies || []);
 
-  // Calculate net score
   const netScore = (comment.upvotes || 0) - (comment.downvotes || 0);
-
-  // Check if current user has voted
   const hasUpvoted = comment.upvotedBy?.includes(currentUser?.uid);
   const hasDownvoted = comment.downvotedBy?.includes(currentUser?.uid);
-
-  // Check if current user owns this comment
   const isOwner = currentUser?.uid === comment.userId;
+  const displayName = comment.userInfo?.displayName || t('comments.anonymous');
+  const avatarBg = level % 2 === 0 ? 'var(--kd-accent-soft)' : 'var(--kd-sage-soft)';
 
-  // Handle reloading this comment's replies when a child is edited/deleted
   const handleChildParentReload = async (parentCommentId) => {
     if (parentCommentId === comment.id) {
-      // This comment is the parent that needs to be reloaded
       try {
         const result = await reloadParentReplies(comment.id, level, maxLevel);
         if (result.success) {
-          // Always update dynamic replies for consistent behavior
           setDynamicReplies(result.replies || []);
           setRepliesLoaded(true);
-
-          // For levels 0-2, we need to also update the comment's replies property
-          // This will be handled by the parent component's reload mechanism
-          if (level < 3 && onParentReload) {
-            // Signal to parent to reload this comment's data
-            onParentReload(comment.id);
-          }
+          if (level < 3 && onParentReload) onParentReload(comment.id);
         }
-      } catch (error) {
-        console.error('Error reloading parent replies:', error);
+      } catch (err) {
+        console.error('Error reloading parent replies:', err);
       }
     } else if (onParentReload) {
-      // Pass the reload request up the chain
       onParentReload(parentCommentId);
     }
   };
 
-  // Handle loading replies dynamically for deep nested comments
   const handleLoadReplies = async () => {
     if (loadingReplies || repliesLoaded) return;
-
     setLoadingReplies(true);
     try {
       const result = await loadRepliesForComment(comment.id, level, maxLevel);
@@ -82,8 +84,8 @@ const Comment = ({
         setRepliesLoaded(true);
         setShowReplies(true);
       }
-    } catch (error) {
-      console.error('Error loading replies:', error);
+    } catch (err) {
+      console.error('Error loading replies:', err);
     } finally {
       setLoadingReplies(false);
     }
@@ -91,15 +93,12 @@ const Comment = ({
 
   const handleVote = async (voteType) => {
     if (!currentUser) return;
-
     setVotingInProgress(true);
     try {
       const result = await voteOnComment(comment.id, currentUser.uid, voteType);
-      if (result.success && onVote) {
-        onVote(comment.id, voteType);
-      }
-    } catch (error) {
-      console.error('Error voting on comment:', error);
+      if (result.success && onVote) onVote(comment.id, voteType);
+    } catch (err) {
+      console.error('Error voting on comment:', err);
     } finally {
       setVotingInProgress(false);
     }
@@ -108,7 +107,6 @@ const Comment = ({
   const handleReplySubmit = async (e) => {
     e.preventDefault();
     if (!replyContent.trim() || !currentUser) return;
-
     setIsSubmitting(true);
     try {
       if (onReply) {
@@ -116,8 +114,8 @@ const Comment = ({
         setReplyContent('');
         setShowReplyForm(false);
       }
-    } catch (error) {
-      console.error('Error submitting reply:', error);
+    } catch (err) {
+      console.error('Error submitting reply:', err);
     } finally {
       setIsSubmitting(false);
     }
@@ -126,154 +124,193 @@ const Comment = ({
   const handleEditSubmit = async (e) => {
     e.preventDefault();
     if (!editContent.trim() || !currentUser) return;
-
     setIsSubmitting(true);
     try {
       const result = await editComment(comment.id, currentUser.uid, editContent.trim());
       if (result.success) {
-        if (onEdit) {
-          onEdit(comment.id, editContent.trim());
-        }
-        // If this comment has a parent and we have a parent reload handler, reload just the parent
-        if (result.parentCommentId && onParentReload) {
-          onParentReload(result.parentCommentId);
-        }
+        if (onEdit) onEdit(comment.id, editContent.trim());
+        if (result.parentCommentId && onParentReload) onParentReload(result.parentCommentId);
         setShowEditForm(false);
       }
-    } catch (error) {
-      console.error('Error editing comment:', error);
+    } catch (err) {
+      console.error('Error editing comment:', err);
     } finally {
       setIsSubmitting(false);
     }
   };
 
   const handleDelete = async () => {
-    if (!currentUser || !window.confirm('Are you sure you want to delete this comment?')) return;
-
+    if (!currentUser || !window.confirm(t('comments.deleteConfirm'))) return;
     try {
       const result = await deleteComment(comment.id, currentUser.uid);
       if (result.success) {
-        if (onDelete) {
-          onDelete(comment.id);
-        }
-        // If this comment has a parent and we have a parent reload handler, reload just the parent
-        if (result.parentCommentId && onParentReload) {
-          onParentReload(result.parentCommentId);
-        }
+        if (onDelete) onDelete(comment.id);
+        if (result.parentCommentId && onParentReload) onParentReload(result.parentCommentId);
       }
-    } catch (error) {
-      console.error('Error deleting comment:', error);
+    } catch (err) {
+      console.error('Error deleting comment:', err);
     }
   };
 
-  // Calculate indentation based on nesting level (using proper Tailwind classes)
-  const getIndentClass = (level) => {
-    if (level === 0) return '';
-    // Use standard Tailwind margin classes, max out at reasonable level
-    const indentMap = {
-      1: 'ml-4',   // 1rem
-      2: 'ml-8',   // 2rem  
-      3: 'ml-12',  // 3rem
-      4: 'ml-16',  // 4rem
-      5: 'ml-20',  // 5rem
-      6: 'ml-24',  // 6rem
-      7: 'ml-28',  // 7rem
-      8: 'ml-32',  // 8rem
-      9: 'ml-36',  // 9rem
-      10: 'ml-40'  // 10rem - max visual indent
-    };
-    return indentMap[Math.min(level, 10)] || 'ml-40';
-  };
-
-  const indentClass = getIndentClass(level);
-
-  // Comments can nest up to maxLevel
-  const isCollapsed = level > maxLevel;
-
+  // Deleted comments collapse to a small placeholder so the tree shape is preserved.
   if (comment.isDeleted) {
     return (
-      <div className={`comment-deleted ${indentClass} py-2`}>
-        <div className="text-gray-500 italic text-sm">[deleted]</div>
+      <div
+        className="kd-font-serif italic py-2"
+        style={{
+          fontSize: 14,
+          color: 'var(--kd-ink-mute)',
+          paddingLeft: level > 0 ? 16 : 0,
+          borderLeft: level > 0 ? '2px solid var(--kd-line)' : 'none',
+        }}
+      >
+        {t('comments.deleted')}
       </div>
     );
   }
 
+  // Use a CSS-variable indent so we don't run out of Tailwind ml-* classes
+  // and so the rail border can stay flush across all depths.
+  const indent = level === 0 ? 0 : Math.min(level, 6) * 18;
+
+  const inputStyle = {
+    background: 'var(--kd-bg)',
+    color: 'var(--kd-ink)',
+    border: '1px solid var(--kd-line)',
+    borderRadius: 10,
+    padding: '10px 12px',
+    fontSize: 14,
+    lineHeight: 1.5,
+    outline: 'none',
+    resize: 'vertical',
+  };
+
   return (
-    <div className={`comment ${indentClass} ${level > 0 ? 'border-l-2 border-gray-200 pl-4' : ''} mb-4`}>
-      {/* Comment Header */}
-      <div className="flex items-start space-x-3">
-        {/* Voting Section */}
-        <div className="flex flex-col items-center space-y-1 min-w-[40px]">
+    <div
+      style={{
+        marginLeft: indent,
+        paddingLeft: level > 0 ? 16 : 0,
+        borderLeft: level > 0 ? '2px solid var(--kd-line)' : 'none',
+      }}
+    >
+      <div className="flex items-start gap-3">
+        {/* Vote column */}
+        <div className="flex flex-col items-center gap-1" style={{ minWidth: 30 }}>
           <button
+            type="button"
             onClick={() => handleVote('upvote')}
             disabled={votingInProgress || !currentUser}
-            className={`btn btn-xs btn-ghost p-1 ${hasUpvoted ? 'text-orange-500' : 'text-gray-400 hover:text-orange-500'}`}
             title="Upvote"
+            aria-pressed={hasUpvoted || undefined}
+            className="inline-flex items-center justify-center transition-colors disabled:opacity-50"
+            style={{
+              width: 24,
+              height: 24,
+              borderRadius: 6,
+              border: 'none',
+              background: hasUpvoted ? 'var(--kd-accent-tint)' : 'transparent',
+              color: hasUpvoted ? 'var(--kd-accent)' : 'var(--kd-ink-mute)',
+              cursor: votingInProgress || !currentUser ? 'not-allowed' : 'pointer',
+            }}
           >
-            {votingInProgress ? (
-              <span className="loading loading-spinner loading-xs"></span>
-            ) : (
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clipRule="evenodd" />
-              </svg>
-            )}
+            <ChevUp />
           </button>
-
-          <span className={`text-sm font-medium ${netScore > 0 ? 'text-orange-500' : netScore < 0 ? 'text-blue-500' : 'text-gray-500'}`}>
+          <span
+            className="kd-font-mono"
+            style={{
+              fontSize: 13,
+              fontWeight: 600,
+              color:
+                netScore > 0
+                  ? 'var(--kd-accent)'
+                  : netScore < 0
+                    ? 'var(--kd-sage)'
+                    : 'var(--kd-ink-mute)',
+            }}
+          >
             {netScore}
           </span>
-
           <button
+            type="button"
             onClick={() => handleVote('downvote')}
             disabled={votingInProgress || !currentUser}
-            className={`btn btn-xs btn-ghost p-1 ${hasDownvoted ? 'text-blue-500' : 'text-gray-400 hover:text-blue-500'}`}
             title="Downvote"
+            aria-pressed={hasDownvoted || undefined}
+            className="inline-flex items-center justify-center transition-colors disabled:opacity-50"
+            style={{
+              width: 24,
+              height: 24,
+              borderRadius: 6,
+              border: 'none',
+              background: hasDownvoted ? 'color-mix(in srgb, var(--kd-sage) 18%, transparent)' : 'transparent',
+              color: hasDownvoted ? 'var(--kd-sage)' : 'var(--kd-ink-mute)',
+              cursor: votingInProgress || !currentUser ? 'not-allowed' : 'pointer',
+            }}
           >
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-            </svg>
+            <ChevDown />
           </button>
         </div>
 
-        {/* Comment Content */}
+        {/* Comment body */}
         <div className="flex-1 min-w-0">
-          {/* Comment Meta */}
-          <div className="flex items-center space-x-2 text-sm text-gray-500 mb-2">
-            <span className="font-medium text-gray-700">
-              {comment.userInfo?.displayName || 'Anonymous'}
+          {/* Meta row */}
+          <div className="flex items-center gap-2 flex-wrap">
+            <span
+              className="kd-font-serif inline-flex items-center justify-center"
+              style={{
+                width: 24,
+                height: 24,
+                borderRadius: '50%',
+                background: avatarBg,
+                color: '#FFF',
+                fontWeight: 600,
+                fontSize: 10,
+              }}
+            >
+              {initialsOf(displayName)}
             </span>
-            <span>•</span>
-            <span>{formatDate(comment.createdAt)}</span>
+            <span
+              className="kd-font-sans"
+              style={{ fontSize: 13, fontWeight: 500, color: 'var(--kd-ink)' }}
+            >
+              {displayName}
+            </span>
+            <span style={{ color: 'var(--kd-ink-mute)' }}>·</span>
+            <span className="kd-font-sans" style={{ fontSize: 12, color: 'var(--kd-ink-mute)' }}>
+              {formatDate(comment.createdAt)}
+            </span>
             {comment.isEdited && (
               <>
-                <span>•</span>
-                <span className="text-xs">(edited)</span>
+                <span style={{ color: 'var(--kd-ink-mute)' }}>·</span>
+                <span
+                  className="kd-font-mono"
+                  style={{ fontSize: 11, color: 'var(--kd-ink-mute)', letterSpacing: '0.06em' }}
+                >
+                  {t('comments.edited')}
+                </span>
               </>
             )}
           </div>
 
-          {/* Comment Body */}
+          {/* Body or edit form */}
           {showEditForm ? (
-            <form onSubmit={handleEditSubmit} className="mb-3">
+            <form onSubmit={handleEditSubmit} className="mt-3">
               <textarea
                 value={editContent}
                 onChange={(e) => setEditContent(e.target.value)}
-                className="textarea textarea-bordered w-full text-sm"
-                rows="3"
-                placeholder="Edit your comment..."
+                rows={3}
                 disabled={isSubmitting}
+                className="kd-font-serif w-full"
+                style={inputStyle}
               />
-              <div className="flex space-x-2 mt-2">
+              <div className="flex gap-2 mt-2">
                 <button
                   type="submit"
-                  className="btn btn-primary btn-sm"
                   disabled={isSubmitting || !editContent.trim()}
+                  className="kd-font-sans px-3 py-1.5 rounded-[8px] text-[12.5px] font-semibold disabled:opacity-50"
+                  style={{ background: 'var(--kd-ink)', color: 'var(--kd-bg)' }}
                 >
-                  {isSubmitting ? (
-                    <span className="loading loading-spinner loading-xs"></span>
-                  ) : (
-                    'Save'
-                  )}
+                  {t('comments.save')}
                 </button>
                 <button
                   type="button"
@@ -281,98 +318,110 @@ const Comment = ({
                     setShowEditForm(false);
                     setEditContent(comment.content);
                   }}
-                  className="btn btn-ghost btn-sm"
                   disabled={isSubmitting}
+                  className="kd-font-sans px-3 py-1.5 rounded-[8px] text-[12.5px] font-medium"
+                  style={{ background: 'transparent', color: 'var(--kd-ink-soft)', border: '1px solid var(--kd-line)' }}
                 >
-                  Cancel
+                  {t('comments.cancel')}
                 </button>
               </div>
             </form>
           ) : (
-            <div className="prose prose-sm max-w-none mb-3">
-              <p className="text-gray-800 whitespace-pre-wrap">{comment.content}</p>
-            </div>
+            <p
+              className="kd-font-serif mt-2 mb-2 whitespace-pre-wrap"
+              style={{ fontSize: 15, lineHeight: 1.6, color: 'var(--kd-ink)', margin: '8px 0' }}
+            >
+              {comment.content}
+            </p>
           )}
 
-          {/* Comment Actions */}
+          {/* Action row */}
           {!showEditForm && (
-            <div className="flex items-center space-x-4 text-sm">
+            <div
+              className="flex items-center gap-4 kd-font-sans"
+              style={{ fontSize: 12.5, color: 'var(--kd-ink-soft)' }}
+            >
               {currentUser && level < maxLevel && (
                 <button
+                  type="button"
                   onClick={() => setShowReplyForm(!showReplyForm)}
-                  className="text-gray-500 hover:text-gray-700 font-medium"
+                  className="font-medium transition-colors hover:opacity-80"
+                  style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'inherit', padding: 0 }}
                 >
-                  Reply
+                  {t('comments.reply')}
                 </button>
               )}
-
               {isOwner && (
                 <>
                   <button
+                    type="button"
                     onClick={() => setShowEditForm(true)}
-                    className="text-gray-500 hover:text-gray-700 font-medium"
+                    className="font-medium transition-colors hover:opacity-80"
+                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'inherit', padding: 0 }}
                   >
-                    Edit
+                    {t('comments.edit')}
                   </button>
                   <button
+                    type="button"
                     onClick={handleDelete}
-                    className="text-red-500 hover:text-red-700 font-medium"
+                    className="font-medium transition-colors hover:opacity-80"
+                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'var(--kd-accent)', padding: 0 }}
                   >
-                    Delete
+                    {t('comments.delete')}
                   </button>
                 </>
               )}
-
-              {/* Show replies toggle if there are replies */}
               {((comment.replies && comment.replies.length > 0) || (level >= 3 && comment.hasReplies)) && (
                 <button
+                  type="button"
                   onClick={() => {
-                    if (level >= 3 && !repliesLoaded) {
-                      handleLoadReplies();
-                    } else {
-                      setShowReplies(!showReplies);
-                    }
+                    if (level >= 3 && !repliesLoaded) handleLoadReplies();
+                    else setShowReplies(!showReplies);
                   }}
-                  className="text-gray-500 hover:text-gray-700 font-medium"
                   disabled={loadingReplies}
+                  className="font-medium transition-colors hover:opacity-80"
+                  style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'inherit', padding: 0 }}
                 >
-                  {loadingReplies ? (
-                    <>
-                      <span className="loading loading-spinner loading-xs mr-1"></span>
-                      Loading...
-                    </>
-                  ) : level >= 3 && !repliesLoaded ? (
-                    `Load ${comment.replyCount || 0} ${(comment.replyCount || 0) === 1 ? 'reply' : 'replies'}`
-                  ) : (
-                    `${showReplies ? 'Hide' : 'Show'} ${(comment.replies?.length || dynamicReplies.length)} ${((comment.replies?.length || dynamicReplies.length) === 1) ? 'reply' : 'replies'}`
-                  )}
+                  {loadingReplies
+                    ? t('comments.loading')
+                    : level >= 3 && !repliesLoaded
+                      ? t('comments.loadReplies', { count: comment.replyCount || 0 })
+                      : showReplies
+                        ? t('comments.hideReplies', {
+                            count: comment.replies?.length || dynamicReplies.length,
+                          })
+                        : t('comments.showReplies', {
+                            count: comment.replies?.length || dynamicReplies.length,
+                          })}
                 </button>
               )}
             </div>
           )}
 
-          {/* Reply Form */}
+          {/* Reply form */}
           {showReplyForm && (
-            <form onSubmit={handleReplySubmit} className="mt-3 p-3 bg-gray-50 rounded-lg">
+            <form
+              onSubmit={handleReplySubmit}
+              className="mt-3 p-3 rounded-xl"
+              style={{ background: 'var(--kd-surface-alt)', border: '1px solid var(--kd-line)' }}
+            >
               <textarea
                 value={replyContent}
                 onChange={(e) => setReplyContent(e.target.value)}
-                className="textarea textarea-bordered w-full text-sm"
-                rows="3"
-                placeholder="Write a reply..."
+                rows={3}
+                placeholder={t('comments.replyPlaceholder')}
                 disabled={isSubmitting}
+                className="kd-font-serif w-full"
+                style={inputStyle}
               />
-              <div className="flex space-x-2 mt-2">
+              <div className="flex gap-2 mt-2">
                 <button
                   type="submit"
-                  className="btn btn-primary btn-sm"
                   disabled={isSubmitting || !replyContent.trim()}
+                  className="kd-font-sans px-3 py-1.5 rounded-[8px] text-[12.5px] font-semibold disabled:opacity-50"
+                  style={{ background: 'var(--kd-ink)', color: 'var(--kd-bg)' }}
                 >
-                  {isSubmitting ? (
-                    <span className="loading loading-spinner loading-xs"></span>
-                  ) : (
-                    'Reply'
-                  )}
+                  {t('comments.replyAction')}
                 </button>
                 <button
                   type="button"
@@ -380,10 +429,11 @@ const Comment = ({
                     setShowReplyForm(false);
                     setReplyContent('');
                   }}
-                  className="btn btn-ghost btn-sm"
                   disabled={isSubmitting}
+                  className="kd-font-sans px-3 py-1.5 rounded-[8px] text-[12.5px] font-medium"
+                  style={{ background: 'transparent', color: 'var(--kd-ink-soft)', border: '1px solid var(--kd-line)' }}
                 >
-                  Cancel
+                  {t('comments.cancel')}
                 </button>
               </div>
             </form>
@@ -393,8 +443,7 @@ const Comment = ({
 
       {/* Replies */}
       {showReplies && (
-        <div className="mt-4">
-          {/* Render static replies (for levels 0-2) or dynamically loaded replies (for levels 3+) */}
+        <div className="mt-4 flex flex-col gap-4">
           {(level < 3 ? (comment.replies || []) : dynamicReplies).map((reply) => (
             <Comment
               key={reply.id}
@@ -413,5 +462,16 @@ const Comment = ({
     </div>
   );
 };
+
+const ChevUp = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="m6 15 6-6 6 6" />
+  </svg>
+);
+const ChevDown = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="m6 9 6 6 6-6" />
+  </svg>
+);
 
 export default Comment;

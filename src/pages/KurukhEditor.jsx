@@ -1,80 +1,81 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useMemo, useCallback, useEffect, useReducer } from 'react';
 import { Link } from 'react-router-dom';
-import TiptapKurukhEditor from '../components/editor/TiptapKurukhEditor';
+import { useTranslation } from 'react-i18next';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
+import TiptapKurukhEditor from '../components/editor/TiptapKurukhEditor';
+import { useAuth } from '../contexts/AuthContext';
+import KMark from '../components/kd/KMark';
+import ThemeToggle from '../components/kd/ThemeToggle';
+import LanguageToggle from '../components/kd/LanguageToggle';
+import { IconArrow, IconBookmark, IconBack, IconPlus } from '../components/kd/icons';
+
+const TEMPLATE_KEYS = ['dictionary', 'story', 'letter', 'blank'];
 
 const KurukhEditor = () => {
+  const { t, i18n } = useTranslation();
+  const { currentUser } = useAuth();
+  const [editor, setEditor] = useState(null);
   const [editorContent, setEditorContent] = useState('');
-  const [documentTitle, setDocumentTitle] = useState('Untitled Document');
+  const [documentTitle, setDocumentTitle] = useState('');
   const [isExporting, setIsExporting] = useState(false);
   const [savedAt, setSavedAt] = useState(null);
-  const [showHelpModal, setShowHelpModal] = useState(false);
-  const editorRef = useRef(null);
+  const [activeTemplate, setActiveTemplate] = useState(null);
 
-  const handleContentChange = ({ html, text, editor }) => {
+  const handleContentChange = useCallback(({ html }) => {
     setEditorContent(html);
-    // Auto-save indication
     setSavedAt(new Date());
-  };
+  }, []);
+
+  const plainText = useMemo(
+    () => (editorContent ? editorContent.replace(/<[^>]*>/g, '') : ''),
+    [editorContent],
+  );
+  const wordsCount = plainText.split(/\s+/).filter(Boolean).length;
+  const charsCount = plainText.length;
+  const readingMinutes = Math.max(1, Math.round(wordsCount / 220));
+
+  // Naive script-share heuristic for the inspector — counts spans tagged with KellyTolong vs Devanagari
+  const scriptShare = useMemo(() => {
+    if (!editorContent || wordsCount === 0) return { kurukh: 0, hindi: 0, english: 0 };
+    const kurukh = (editorContent.match(/KellyTolong/gi) || []).length;
+    const hindi = (editorContent.match(/Devanagari/gi) || []).length;
+    const latin = Math.max(0, wordsCount - kurukh - hindi);
+    const total = kurukh + hindi + latin || 1;
+    return {
+      kurukh: Math.round((kurukh / total) * 100),
+      hindi: Math.round((hindi / total) * 100),
+      english: Math.round((latin / total) * 100),
+    };
+  }, [editorContent, wordsCount]);
+
+  const byline = useMemo(() => {
+    const author = currentUser?.displayName || currentUser?.username || (currentUser?.email?.split('@')[0]);
+    const dateLocale = i18n.language === 'hi' ? 'hi-IN' : 'en-GB';
+    const date = new Date().toLocaleDateString(dateLocale, { day: 'numeric', month: 'short', year: 'numeric' });
+    return author ? `by ${author} · ${date}` : date;
+  }, [currentUser, i18n.language]);
 
   const exportToPDF = async () => {
+    if (!editorContent) return;
     setIsExporting(true);
     try {
-      // Create a temporary div for PDF export
       const exportDiv = document.createElement('div');
       exportDiv.style.cssText = `
-        width: 210mm;
-        min-height: 297mm;
-        padding: 20mm;
-        margin: 0 auto;
-        background: white;
-        font-family: 'Times New Roman', serif;
-        line-height: 1.6;
-        color: #000;
+        width: 210mm; min-height: 297mm; padding: 20mm; margin: 0 auto;
+        background: white; font-family: Newsreader, serif; line-height: 1.6; color: #1C1814;
       `;
-
-      // Add title
       const titleElement = document.createElement('h1');
-      titleElement.textContent = documentTitle;
-      titleElement.style.cssText = `
-        font-size: 24px;
-        font-weight: bold;
-        margin-bottom: 20px;
-        text-align: center;
-      `;
+      titleElement.textContent = documentTitle || t('editor.titlePlaceholder');
+      titleElement.style.cssText = 'font-size: 28px; font-weight: 500; margin-bottom: 20px;';
       exportDiv.appendChild(titleElement);
 
-      // Add content
       const contentDiv = document.createElement('div');
       contentDiv.innerHTML = editorContent;
-
-      // Apply PDF-specific styles to Kurukh text
-      const kurukhElements = contentDiv.querySelectorAll('.kurukh-text, [style*="KellyTolong"]');
-      kurukhElements.forEach(el => {
-        el.style.fontFamily = 'KellyTolong, monospace';
-        el.style.fontSize = '18px';
-        el.style.lineHeight = '1.6';
-      });
-
-      // Apply PDF-specific styles to Hindi text
-      const hindiElements = contentDiv.querySelectorAll('.hindi-text, [style*="Noto Sans Devanagari"]');
-      hindiElements.forEach(el => {
-        el.style.fontFamily = '"Noto Sans Devanagari", Arial, sans-serif';
-        el.style.fontSize = '16px';
-        el.style.lineHeight = '1.5';
-      });
-
       exportDiv.appendChild(contentDiv);
       document.body.appendChild(exportDiv);
 
-      // Generate PDF
-      const canvas = await html2canvas(exportDiv, {
-        scale: 2,
-        useCORS: true,
-        allowTaint: true,
-      });
-
+      const canvas = await html2canvas(exportDiv, { scale: 2, useCORS: true, allowTaint: true });
       const imgData = canvas.toDataURL('image/png');
       const pdf = new jsPDF('p', 'mm', 'a4');
       const imgWidth = 210;
@@ -82,374 +83,559 @@ const KurukhEditor = () => {
       const imgHeight = (canvas.height * imgWidth) / canvas.width;
       let heightLeft = imgHeight;
       let position = 0;
-
       pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
       heightLeft -= pageHeight;
-
       while (heightLeft >= 0) {
         position = heightLeft - imgHeight;
         pdf.addPage();
         pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
         heightLeft -= pageHeight;
       }
-
-      // Clean up
       document.body.removeChild(exportDiv);
-
-      // Download PDF
-      const fileName = `${documentTitle.replace(/[^a-zA-Z0-9]/g, '_')}.pdf`;
+      const fileName = `${(documentTitle || 'kurukh-document').replace(/[^a-zA-Z0-9]/g, '_')}.pdf`;
       pdf.save(fileName);
-
-    } catch (error) {
-      console.error('Error exporting PDF:', error);
-      alert('Error exporting PDF. Please try again.');
+    } catch (e) {
+      console.error('Error exporting PDF:', e);
     } finally {
       setIsExporting(false);
     }
   };
 
   const saveAsHTML = () => {
-    const htmlContent = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${documentTitle}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <style>
-        @font-face {
-            font-family: 'KellyTolong';
-            src: url('kellytolong4.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-        }
-        body {
-            font-family: 'Times New Roman', serif;
-            line-height: 1.6;
-            max-width: 210mm;
-            margin: 0 auto;
-            padding: 20mm;
-            background: white;
-            color: #000;
-        }
-        .kurukh-text, [style*="KellyTolong"] {
-            font-family: 'KellyTolong', monospace !important;
-            font-size: 1.5rem !important;
-            line-height: 1.6 !important;
-        }
-        .hindi-text, [style*="Noto Sans Devanagari"] {
-            font-family: 'Noto Sans Devanagari', Arial, sans-serif !important;
-            font-size: 1.2rem !important;
-            line-height: 1.5 !important;
-        }
-    </style>
-</head>
-<body>
-    <h1>${documentTitle}</h1>
-    ${editorContent}
-</body>
-</html>`;
-
-    const blob = new Blob([htmlContent], { type: 'text/html' });
+    if (!editorContent) return;
+    const html = `<!doctype html><html><head><meta charset="utf-8"><title>${documentTitle || 'Document'}</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600&family=Noto+Sans+Devanagari&display=swap">
+<style>body{font-family:Newsreader,serif;max-width:760px;margin:40px auto;padding:0 24px;color:#1C1814}h1{font-weight:500;letter-spacing:-0.02em}.kurukh-text,[style*="KellyTolong"]{font-family:KellyTolong,monospace}.hindi-text,[style*="Devanagari"]{font-family:'Noto Sans Devanagari',sans-serif}</style>
+</head><body><h1>${documentTitle || ''}</h1>${editorContent}</body></html>`;
+    const blob = new Blob([html], { type: 'text/html' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${documentTitle.replace(/[^a-zA-Z0-9]/g, '_')}.html`;
+    a.download = `${(documentTitle || 'kurukh-document').replace(/[^a-zA-Z0-9]/g, '_')}.html`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
   };
 
-  const newDocument = () => {
-    if (editorContent && confirm('Are you sure you want to create a new document? Unsaved changes will be lost.')) {
-      setEditorContent('');
-      setDocumentTitle('Untitled Document');
-      setSavedAt(null);
-    } else if (!editorContent) {
-      setEditorContent('');
-      setDocumentTitle('Untitled Document');
-      setSavedAt(null);
-    }
-  };
-
-  const loadTemplate = (templateType) => {
+  const loadTemplate = (templateKey) => {
+    setActiveTemplate(templateKey);
     let template = '';
-
-    switch (templateType) {
+    switch (templateKey) {
       case 'dictionary':
-        template = `
-          <h1>Kurukh Dictionary Entry</h1>
-          <div style="border: 1px solid #e2e8f0; border-radius: 0.5rem; padding: 1rem; margin: 1rem 0; background-color: #f8fafc;">
-            <h3 style="color: #1e40af; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem; margin-bottom: 1rem;">Word Entry</h3>
-            <p><strong>Word:</strong> <span style="font-family: KellyTolong, monospace; font-size: 1.5rem; line-height: 1.6;">[Enter Kurukh word here]</span></p>
-            <p><strong>Meaning (Hindi):</strong> <span style="font-family: 'Noto Sans Devanagari', Arial, sans-serif; font-size: 1.2rem; line-height: 1.5;">[हिंदी अर्थ यहाँ लिखें]</span></p>
-            <p><strong>Meaning (English):</strong> [Enter English meaning here]</p>
-            <p><strong>Example:</strong> <span style="font-family: KellyTolong, monospace; font-size: 1.5rem; line-height: 1.6;">[Example sentence in Kurukh]</span></p>
-            <p><strong>Translation (Hindi):</strong> <span style="font-family: 'Noto Sans Devanagari', Arial, sans-serif; font-size: 1.2rem; line-height: 1.5;">[हिंदी अनुवाद]</span></p>
-            <p><strong>Translation (English):</strong> [English translation]</p>
-          </div>
-        `;
-        setDocumentTitle('Kurukh Dictionary Entry');
+        template = `<h2>Word</h2><p><span style="font-family: KellyTolong, monospace;">[Kurukh word]</span></p><h2>Meaning</h2><p>English: [definition]</p><p><span style="font-family: 'Noto Sans Devanagari', sans-serif;">हिन्दी: [अर्थ]</span></p><h2>Example</h2><blockquote><em>[example sentence]</em></blockquote>`;
+        setDocumentTitle('Kurukh dictionary entry');
         break;
       case 'story':
-        template = `
-          <h1>Kurukh Story</h1>
-          <p>Once upon a time in a beautiful village, there lived...</p>
-          <p><span style="font-family: KellyTolong, monospace; font-size: 1.5rem; line-height: 1.6;">enga gRam men...</span></p>
-          <p><span style="font-family: 'Noto Sans Devanagari', Arial, sans-serif; font-size: 1.2rem; line-height: 1.5;">एक सुंदर गाँव में...</span></p>
-        `;
-        setDocumentTitle('Kurukh Story');
+        template = `<h2>Once</h2><p>Once upon a time in a village near <span style="font-family: KellyTolong, monospace;">[place]</span>…</p>`;
+        setDocumentTitle('A folk story');
         break;
       case 'letter':
-        template = `
-          <div style="margin-bottom: 2rem;">
-            <p style="text-align: right;">[Date]</p>
-            <p>Dear [Name],</p>
-            <p><span style="font-family: 'Noto Sans Devanagari', Arial, sans-serif; font-size: 1.2rem; line-height: 1.5;">प्रिय [नाम],</span></p>
-            <p><span style="font-family: KellyTolong, monospace; font-size: 1.5rem; line-height: 1.6;">[Kurukh greeting]</span></p>
-            <br>
-            <p>[Letter content...]</p>
-            <br>
-            <p>Sincerely,<br>[Your name]</p>
-          </div>
-        `;
+        template = `<p style="text-align:right">[Date]</p><p>Dear [Name],</p><p>[Body]</p><p>Sincerely,<br/>[Your name]</p>`;
         setDocumentTitle('Letter');
         break;
       default:
-        template = '<p>Start writing your document here...</p>';
+        template = '<p></p>';
+        setDocumentTitle('');
     }
-
     setEditorContent(template);
+    if (editor) editor.commands.setContent(template);
   };
 
+  const newDocument = () => {
+    if (editorContent && !confirm('Discard current document?')) return;
+    setEditorContent('');
+    setDocumentTitle('');
+    setSavedAt(null);
+    setActiveTemplate(null);
+    if (editor) editor.commands.clearContent();
+  };
+
+  const savedLabel = savedAt
+    ? t('editor.saveStatus', { time: savedAt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) })
+    : t('editor.unsaved');
+
   return (
-    <div className="kurukh-editor-fullscreen bg-gray-200">
-      {/* Microsoft Word-style Title Bar */}
-      <div className="bg-white border-b border-gray-300 shadow-sm">
-        <div className="px-4 py-2">
-          {/* Title bar with document name */}
-          <div className="flex items-center justify-between mb-2">
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-2">
-                <span className="text-blue-600 text-lg font-bold">📝</span>
-                <h1 className="text-lg font-semibold text-gray-800">Kurukh Editor</h1>
-              </div>
-              <span className="text-gray-400">-</span>
-              <input
-                type="text"
-                value={documentTitle}
-                onChange={(e) => setDocumentTitle(e.target.value)}
-                className="text-sm bg-transparent border-none focus:outline-none focus:bg-blue-50 px-2 py-1 rounded min-w-[250px] font-medium"
-                placeholder="Document title..."
-              />
-            </div>
-            <div className="flex items-center space-x-3 text-xs text-gray-500">
-              {savedAt && (
-                <div className="flex items-center space-x-2">
-                  <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                  <span>Saved {savedAt.toLocaleTimeString()}</span>
-                </div>
-              )}
-              {isExporting && (
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full animate-ping"></div>
-                  <span className="text-blue-600 font-medium">Exporting...</span>
-                </div>
-              )}
-              <span className="text-gray-400">|</span>
-              <Link to="/" className="text-blue-600 hover:text-blue-800 font-medium">
-                Back to Kurukh Dictionary
-              </Link>
-            </div>
+    <div
+      className="min-h-screen flex flex-col"
+      style={{ background: 'var(--kd-bg)', color: 'var(--kd-ink)' }}
+    >
+      {/* Top bar */}
+      <header
+        className="sticky top-0 z-40 backdrop-blur"
+        style={{
+          background: 'color-mix(in srgb, var(--kd-bg) 88%, transparent)',
+          borderBottom: '1px solid var(--kd-line-soft)',
+        }}
+      >
+        <div className="max-w-[1280px] mx-auto px-6 md:px-14 py-3.5 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <Link
+              to="/"
+              className="inline-flex items-center gap-1.5 kd-font-sans text-[13px]"
+              style={{ color: 'var(--kd-ink-soft)' }}
+            >
+              <IconBack size={14} color="currentColor" />
+              <span className="hidden sm:inline">{t('editor.backToDictionary')}</span>
+            </Link>
+            <span className="hidden md:inline" style={{ color: 'var(--kd-ink-mute)' }}>/</span>
+            <Link to="/" className="hidden md:inline-flex items-center gap-2">
+              <KMark size={26} />
+              <span
+                className="kd-font-serif"
+                style={{ fontWeight: 600, fontSize: 16, color: 'var(--kd-ink)' }}
+              >
+                {t('brand.name')}<span style={{ color: 'var(--kd-accent)' }}>.</span>
+              </span>
+            </Link>
           </div>
 
-          {/* Quick Access Toolbar */}
-          <div className="flex items-center justify-between border-b border-gray-200 pb-2">
-            {/* Left side - File operations */}
-            <div className="flex items-center space-x-1">
-              <button
-                onClick={newDocument}
-                className="flex items-center space-x-2 px-4 py-2 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors shadow-sm"
-              >
-                <span>📄</span>
-                <span>New Document</span>
-              </button>
+          <div className="kd-eyebrow text-center truncate hidden md:block">{savedLabel}</div>
 
-              <div className="relative group">
-                <button className="flex items-center space-x-2 px-4 py-2 text-sm bg-green-600 text-white rounded hover:bg-green-700 transition-colors shadow-sm">
-                  <span>📋</span>
-                  <span>Templates</span>
-                  <span className="text-xs">▼</span>
-                </button>
-                <div className="absolute top-full left-0 mt-1 bg-white border border-gray-300 rounded-lg shadow-xl z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 min-w-max">
-                  <button
-                    onClick={() => loadTemplate('dictionary')}
-                    className="block w-full px-4 py-3 text-sm text-left hover:bg-blue-50 border-b border-gray-100"
-                  >
-                    <div className="font-medium">📖 Dictionary Entry</div>
-                    <div className="text-xs text-gray-500">Structured word definition template</div>
-                  </button>
-                  <button
-                    onClick={() => loadTemplate('story')}
-                    className="block w-full px-4 py-3 text-sm text-left hover:bg-blue-50 border-b border-gray-100"
-                  >
-                    <div className="font-medium">📚 Story</div>
-                    <div className="text-xs text-gray-500">Bilingual storytelling format</div>
-                  </button>
-                  <button
-                    onClick={() => loadTemplate('letter')}
-                    className="block w-full px-4 py-3 text-sm text-left hover:bg-blue-50"
-                  >
-                    <div className="font-medium">✉️ Letter</div>
-                    <div className="text-xs text-gray-500">Formal letter template</div>
-                  </button>
-                </div>
-              </div>
-
-              <div className="h-6 w-px bg-gray-300 mx-2"></div>
-
-              <button
-                onClick={exportToPDF}
-                disabled={isExporting || !editorContent}
-                className="flex items-center space-x-2 px-4 py-2 text-sm bg-red-600 text-white rounded hover:bg-red-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors shadow-sm"
-              >
-                <span>📑</span>
-                <span>Export PDF</span>
-              </button>
-
-              <button
-                onClick={saveAsHTML}
-                disabled={!editorContent}
-                className="flex items-center space-x-2 px-4 py-2 text-sm bg-purple-600 text-white rounded hover:bg-purple-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors shadow-sm"
-              >
-                <span>💾</span>
-                <span>Save HTML</span>
-              </button>
-
-              <div className="h-6 w-px bg-gray-300 mx-2"></div>
-
-              <button
-                onClick={() => setShowHelpModal(true)}
-                className="flex items-center space-x-2 px-4 py-2 text-sm bg-orange-600 text-white rounded hover:bg-orange-700 transition-colors shadow-sm"
-              >
-                <span>❓</span>
-                <span>Help & Tips</span>
-              </button>
+          <div className="flex items-center gap-2">
+            <div className="hidden sm:flex items-center gap-2">
+              <LanguageToggle />
+              <ThemeToggle />
             </div>
-
-            {/* Right side - Document stats */}
-            <div className="flex items-center space-x-4 text-xs text-gray-600 bg-gray-50 px-3 py-2 rounded">
-              <div className="flex items-center space-x-1">
-                <span>📊</span>
-                <span>Words: {editorContent ? editorContent.replace(/<[^>]*>/g, '').split(/\s+/).filter(word => word.length > 0).length : 0}</span>
-              </div>
-              <span className="w-px h-4 bg-gray-300"></span>
-              <div className="flex items-center space-x-1">
-                <span>🔤</span>
-                <span>Characters: {editorContent ? editorContent.replace(/<[^>]*>/g, '').length : 0}</span>
-              </div>
-              <span className="w-px h-4 bg-gray-300"></span>
-              <div className="flex items-center space-x-1">
-                <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                <span>Ready</span>
-              </div>
-            </div>
+            <button
+              type="button"
+              onClick={newDocument}
+              className="hidden md:inline-flex items-center gap-1.5 kd-font-sans px-3 py-2 rounded-[10px] text-[13px]"
+              style={{ background: 'transparent', color: 'var(--kd-ink)', border: '1px solid var(--kd-line)' }}
+            >
+              <IconPlus size={12} weight={2.2} />
+              {t('editor.newDocument')}
+            </button>
+            <button
+              type="button"
+              onClick={saveAsHTML}
+              disabled={!editorContent}
+              className="hidden md:inline-flex items-center gap-1.5 kd-font-sans px-3 py-2 rounded-[10px] text-[13px] disabled:opacity-50"
+              style={{ background: 'transparent', color: 'var(--kd-ink)', border: '1px solid var(--kd-line)' }}
+            >
+              <IconBookmark size={13} />
+              {t('editor.saveHtml')}
+            </button>
+            <button
+              type="button"
+              onClick={exportToPDF}
+              disabled={!editorContent || isExporting}
+              className="inline-flex items-center gap-1.5 kd-font-sans px-3.5 py-2 rounded-[10px] text-[13px] font-medium disabled:opacity-50"
+              style={{ background: 'var(--kd-ink)', color: 'var(--kd-bg)' }}
+            >
+              {isExporting ? t('editor.exporting') : t('editor.exportPdf')}
+              {!isExporting && <IconArrow size={13} color="currentColor" />}
+            </button>
           </div>
         </div>
-      </div>
+      </header>
 
-      {/* Main editor area - responsive and full height */}
-      <div className="kurukh-editor-main">
-        <TiptapKurukhEditor
-          ref={editorRef}
-          content={editorContent}
-          placeholder="Start writing your document here... Use the language buttons in the toolbar to format text in Kurukh (𝐊𝐮𝐫𝐮𝐤𝐡) or Hindi (हिंदी) fonts."
-          onContentChange={handleContentChange}
-          className="h-full"
-          showToolbar={true}
-        />
-      </div>
+      {/* Three-column workspace */}
+      <div className="flex-grow max-w-[1280px] mx-auto w-full px-6 md:px-14 py-8 grid gap-7 lg:grid-cols-[220px_minmax(0,1fr)_260px]">
+        {/* Templates rail */}
+        <aside className="hidden lg:flex flex-col">
+          <div className="kd-eyebrow mb-3.5">{t('editor.templatesEyebrow')}</div>
+          {TEMPLATE_KEYS.map(key => {
+            const active = activeTemplate === key;
+            return (
+              <button
+                key={key}
+                type="button"
+                onClick={() => loadTemplate(key)}
+                className="text-left mb-1.5 p-3.5 rounded-xl transition-colors"
+                style={{
+                  background: active ? 'var(--kd-surface)' : 'transparent',
+                  border: `1px solid ${active ? 'var(--kd-line)' : 'transparent'}`,
+                  cursor: 'pointer',
+                }}
+              >
+                <div className="kd-font-serif" style={{ fontSize: 16, fontWeight: 500, color: 'var(--kd-ink)' }}>
+                  {t(`editor.templates.${key}.title`)}
+                </div>
+                <div className="kd-font-sans mt-0.5" style={{ fontSize: 12, color: 'var(--kd-ink-mute)', lineHeight: 1.4 }}>
+                  {t(`editor.templates.${key}.sub`)}
+                </div>
+              </button>
+            );
+          })}
 
-      {/* Fixed Status Bar at Bottom */}
-      <div className="kurukh-editor-status-bar bg-blue-600 text-white px-4 py-1 text-xs flex justify-between items-center">
-        <div className="flex items-center space-x-4">
-          <span>Document</span>
-          <span className="border-l border-blue-400 pl-4">
-            Words: {editorContent ? editorContent.replace(/<[^>]*>/g, '').split(/\s+/).filter(word => word.length > 0).length : 0}
-          </span>
-          <span>
-            Characters: {editorContent ? editorContent.replace(/<[^>]*>/g, '').length : 0}
-          </span>
-        </div>
-        <div className="flex items-center space-x-2">
-          <span>📝 Ready</span>
-          <span className="text-green-300">●</span>
-        </div>
-      </div>
-
-      {/* Help and tips modal */}
-      {showHelpModal && (
-        <div className="help-modal-backdrop" onClick={() => setShowHelpModal(false)}>
-          <div className="help-modal-content" onClick={(e) => e.stopPropagation()}>
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-6">
-                <h2 className="text-2xl font-bold text-gray-800">Help & Tips</h2>
-                <button
-                  onClick={() => setShowHelpModal(false)}
-                  className="text-gray-400 hover:text-gray-600 text-2xl font-bold"
+          <div
+            className="mt-7 p-4 rounded-xl"
+            style={{
+              background: 'color-mix(in srgb, var(--kd-sage) 10%, transparent)',
+              border: '1px solid color-mix(in srgb, var(--kd-sage) 25%, transparent)',
+            }}
+          >
+            <div
+              className="kd-font-mono mb-2"
+              style={{
+                fontSize: 10,
+                color: 'var(--kd-sage)',
+                letterSpacing: '0.2em',
+                textTransform: 'uppercase',
+              }}
+            >
+              {t('editor.keyboardEyebrow')}
+            </div>
+            {[
+              ['⌘K', t('editor.keyboard.kurukh')],
+              ['⌘H', t('editor.keyboard.hindi')],
+              ['⌘B', t('editor.keyboard.bold')],
+              ['⌘I', t('editor.keyboard.italic')],
+            ].map(([key, label]) => (
+              <div
+                key={key}
+                className="flex items-center justify-between kd-font-sans py-1"
+                style={{ fontSize: 12, color: 'var(--kd-ink)' }}
+              >
+                <span>{label}</span>
+                <kbd
+                  className="kd-font-mono"
+                  style={{
+                    fontSize: 11,
+                    padding: '2px 7px',
+                    border: '1px solid var(--kd-line)',
+                    borderRadius: 5,
+                    background: 'var(--kd-surface)',
+                  }}
                 >
-                  ×
-                </button>
+                  {key}
+                </kbd>
               </div>
+            ))}
+          </div>
+        </aside>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2 text-blue-800 flex items-center">
-                    <span className="mr-2">🎯</span>
-                    Quick Start
-                  </h3>
-                  <ul className="space-y-1 text-blue-700 text-xs">
-                    <li>• Click "Templates" to start with a pre-formatted document</li>
-                    <li>• Use <strong>Kurukh</strong> and <strong>हिंदी</strong> buttons to format text</li>
-                    <li>• Bold: <kbd>Ctrl+B</kbd>, Italic: <kbd>Ctrl+I</kbd>, Underline: <kbd>Ctrl+U</kbd></li>
-                  </ul>
-                </div>
+        {/* Center column: slim toolbar + paper */}
+        <div className="min-w-0 flex flex-col gap-3.5">
+          <SlimToolbar editor={editor} wordsCount={wordsCount} synced={!!savedAt} />
 
-                <div className="bg-green-50 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2 text-green-800 flex items-center">
-                    <span className="mr-2">🌐</span>
-                    Language Features
-                  </h3>
-                  <ul className="space-y-1 text-green-700 text-xs">
-                    <li>• Select text and click language buttons to apply fonts</li>
-                    <li>• Keyboard shortcuts: <kbd>Ctrl+K</kbd> (Kurukh), <kbd>Ctrl+H</kbd> (Hindi)</li>
-                    <li>• Use dropdown tools to apply fonts to entire document</li>
-                    <li>• Kurukh text appears in green, Hindi in brown</li>
-                  </ul>
-                </div>
-
-                <div className="bg-purple-50 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2 text-purple-800 flex items-center">
-                    <span className="mr-2">💾</span>
-                    Export Options
-                  </h3>
-                  <ul className="space-y-1 text-purple-700 text-xs">
-                    <li>• <strong>PDF Export:</strong> High-quality document with embedded fonts</li>
-                    <li>• <strong>HTML Save:</strong> Web-compatible with font references</li>
-                    <li>• Auto-save keeps your work safe in browser</li>
-                  </ul>
-                </div>
-              </div>
+          {/* Paper card — title, byline, hr, editor body */}
+          <div
+            className="rounded-2xl"
+            style={{
+              background: 'var(--kd-surface)',
+              border: '1px solid var(--kd-line)',
+              boxShadow: '0 1px 0 var(--kd-line-soft), 0 24px 60px -30px rgba(28, 24, 20, 0.18)',
+              padding: 'clamp(28px, 5vw, 56px) clamp(28px, 5vw, 72px)',
+              minHeight: 'calc(100vh - 280px)',
+            }}
+          >
+            <input
+              type="text"
+              value={documentTitle}
+              onChange={(e) => setDocumentTitle(e.target.value)}
+              placeholder={t('editor.titlePlaceholder')}
+              className="kd-font-serif outline-none bg-transparent w-full"
+              style={{
+                fontSize: 'clamp(28px, 4vw, 42px)',
+                fontWeight: 500,
+                color: 'var(--kd-ink)',
+                letterSpacing: '-0.025em',
+                padding: 0,
+              }}
+            />
+            <div
+              className="kd-font-mono mt-2"
+              style={{ fontSize: 11.5, color: 'var(--kd-ink-mute)', letterSpacing: '0.06em' }}
+            >
+              {byline}
             </div>
+            <hr style={{ border: 'none', borderTop: '1px solid var(--kd-line)', margin: '28px 0' }} />
+
+            <TiptapKurukhEditor
+              content={editorContent}
+              placeholder={t('editor.titlePlaceholder')}
+              onContentChange={handleContentChange}
+              onEditorReady={setEditor}
+              showToolbar={false}
+            />
           </div>
         </div>
-      )}
+
+        {/* Inspector */}
+        <aside className="hidden lg:flex flex-col gap-3.5">
+          <div className="kd-eyebrow">{t('editor.documentEyebrow')}</div>
+          <div
+            className="p-5 rounded-2xl"
+            style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
+          >
+            {[
+              [t('editor.words'), wordsCount],
+              [t('editor.characters'), charsCount.toLocaleString()],
+              [t('editor.readingTime'), t('editor.minute', { count: readingMinutes })],
+            ].map(([label, value]) => (
+              <div key={label} className="flex justify-between items-baseline mb-2.5 last:mb-0">
+                <span className="kd-font-sans" style={{ fontSize: 12, color: 'var(--kd-ink-soft)' }}>{label}</span>
+                <span className="kd-font-serif" style={{ fontSize: 16, fontWeight: 500, color: 'var(--kd-ink)' }}>
+                  {value}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <div
+            className="p-5 rounded-2xl"
+            style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
+          >
+            <div className="kd-eyebrow mb-3">{t('editor.scriptsEyebrow')}</div>
+            <div
+              className="h-2 rounded overflow-hidden flex"
+              style={{ background: 'var(--kd-surface-alt)' }}
+            >
+              <div style={{ width: `${scriptShare.kurukh}%`, background: 'var(--kd-accent)' }} />
+              <div style={{ width: `${scriptShare.hindi}%`, background: 'var(--kd-sage)' }} />
+              <div style={{ width: `${scriptShare.english}%`, background: 'var(--kd-ink-mute)' }} />
+            </div>
+            <div className="mt-3 flex flex-col gap-1.5">
+              {[
+                [t('editor.scripts.kurukh'), 'var(--kd-accent)', scriptShare.kurukh],
+                [t('editor.scripts.hindi'), 'var(--kd-sage)', scriptShare.hindi],
+                [t('editor.scripts.english'), 'var(--kd-ink-mute)', scriptShare.english],
+              ].map(([label, color, pct]) => (
+                <div key={label} className="flex items-center gap-2 kd-font-sans" style={{ fontSize: 12, color: 'var(--kd-ink)' }}>
+                  <span style={{ width: 8, height: 8, borderRadius: '50%', background: color }} />
+                  <span className="flex-1">{label}</span>
+                  <span className="kd-font-mono" style={{ color: 'var(--kd-ink-mute)' }}>{pct}%</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </aside>
+      </div>
     </div>
   );
 };
+
+// ─── Slim KD toolbar that drives the Tiptap editor instance ───
+const SlimToolbar = ({ editor, wordsCount, synced }) => {
+  const { t } = useTranslation();
+  const [, forceUpdate] = useReducer((x) => x + 1, 0);
+
+  // Tiptap doesn't trigger React re-renders on selection or mark changes by default.
+  // Subscribe to transaction + selection events so button active states stay in sync.
+  useEffect(() => {
+    if (!editor) return;
+    const handler = () => forceUpdate();
+    editor.on('selectionUpdate', handler);
+    editor.on('transaction', handler);
+    editor.on('focus', handler);
+    editor.on('blur', handler);
+    return () => {
+      editor.off('selectionUpdate', handler);
+      editor.off('transaction', handler);
+      editor.off('focus', handler);
+      editor.off('blur', handler);
+    };
+  }, [editor]);
+
+  const isActive = (name, attrs) => editor?.isActive(name, attrs) ?? false;
+  const can = (chainFn) => !!editor && chainFn(editor.can().chain().focus()).run();
+  const focusChain = () => editor?.chain().focus();
+
+  // Active state for the "English" chip — the absence of either script mark
+  const isEnglishActive = editor && !isActive('kurukhFont') && !isActive('hindiFont');
+
+  return (
+    <div
+      className="flex flex-wrap items-center gap-1 px-3 py-2 rounded-2xl"
+      style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
+    >
+      {/* Font picker chip (display-only — Newsreader is fixed for now) */}
+      <Chip>
+        <span className="kd-font-serif" style={{ fontSize: 13, fontWeight: 500, color: 'var(--kd-ink)', lineHeight: 1 }}>
+          Newsreader
+        </span>
+        <span className="kd-font-sans ml-1" style={{ fontSize: 10, color: 'var(--kd-ink-mute)' }}>
+          default
+        </span>
+        <ChevDown />
+      </Chip>
+
+      <Chip>
+        <span className="kd-font-mono" style={{ fontSize: 12, color: 'var(--kd-ink)' }}>18 pt</span>
+        <ChevDown />
+      </Chip>
+
+      <Sep />
+
+      <IconBtn
+        active={isActive('bold')}
+        onClick={() => focusChain()?.toggleBold().run()}
+        disabled={!can(c => c.toggleBold())}
+        title="Bold (Ctrl+B)"
+      >
+        <span style={{ fontFamily: 'var(--kd-font-serif)', fontWeight: 700 }}>B</span>
+      </IconBtn>
+      <IconBtn
+        active={isActive('italic')}
+        onClick={() => focusChain()?.toggleItalic().run()}
+        title="Italic (Ctrl+I)"
+      >
+        <span style={{ fontFamily: 'var(--kd-font-serif)', fontStyle: 'italic' }}>I</span>
+      </IconBtn>
+      <IconBtn
+        active={isActive('underline')}
+        onClick={() => focusChain()?.toggleUnderline().run()}
+        title="Underline (Ctrl+U)"
+      >
+        <span style={{ fontFamily: 'var(--kd-font-serif)', textDecoration: 'underline' }}>U</span>
+      </IconBtn>
+      <IconBtn
+        active={isActive('strike')}
+        onClick={() => focusChain()?.toggleStrike().run()}
+        title="Strikethrough"
+      >
+        <span style={{ fontFamily: 'var(--kd-font-serif)', textDecoration: 'line-through' }}>S</span>
+      </IconBtn>
+
+      <Sep />
+
+      {/* Script chips */}
+      <ScriptChip
+        label="Kurukh"
+        active={isActive('kurukhFont')}
+        onClick={() => focusChain()?.toggleKurukhFont().run()}
+      />
+      <ScriptChip
+        label="हिन्दी"
+        active={isActive('hindiFont')}
+        hindi
+        onClick={() => focusChain()?.toggleHindiFont().run()}
+      />
+      <ScriptChip
+        label="English"
+        active={isEnglishActive}
+        onClick={() => focusChain()?.unsetKurukhFont().unsetHindiFont().run()}
+      />
+
+      <Sep />
+
+      <IconBtn
+        active={isActive({ textAlign: 'left' })}
+        onClick={() => focusChain()?.setTextAlign('left').run()}
+        title="Align left"
+      >
+        <AlignLeftIcon />
+      </IconBtn>
+      <IconBtn
+        active={isActive({ textAlign: 'center' })}
+        onClick={() => focusChain()?.setTextAlign('center').run()}
+        title="Align center"
+      >
+        <AlignCenterIcon />
+      </IconBtn>
+      <IconBtn
+        active={isActive({ textAlign: 'right' })}
+        onClick={() => focusChain()?.setTextAlign('right').run()}
+        title="Align right"
+      >
+        <AlignRightIcon />
+      </IconBtn>
+
+      <span className="flex-1" />
+
+      <div
+        className="kd-font-mono flex items-center gap-3 px-2"
+        style={{ fontSize: 11, color: 'var(--kd-ink-mute)' }}
+      >
+        <span>{wordsCount} {t('editor.words').toLowerCase()}</span>
+        <span style={{ width: 1, height: 14, background: 'var(--kd-line)' }} />
+        <span className="inline-flex items-center gap-1.5">
+          <span style={{ width: 6, height: 6, borderRadius: '50%', background: synced ? 'var(--kd-sage)' : 'var(--kd-ink-mute)' }} />
+          {synced ? t('editor.synced') : t('editor.neverSaved')}
+        </span>
+      </div>
+    </div>
+  );
+};
+
+// ─── tiny presentational helpers for the slim toolbar ───
+
+const Chip = ({ children }) => (
+  <button
+    type="button"
+    className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg"
+    style={{ background: 'transparent', color: 'var(--kd-ink)', border: 'none' }}
+  >
+    {children}
+  </button>
+);
+
+const Sep = () => (
+  <span
+    aria-hidden="true"
+    style={{ width: 1, height: 22, background: 'var(--kd-line)', margin: '0 6px' }}
+  />
+);
+
+const IconBtn = ({ active, onClick, disabled, title, children }) => (
+  <button
+    type="button"
+    onClick={onClick}
+    disabled={disabled}
+    title={title}
+    aria-pressed={active || undefined}
+    className="inline-flex items-center justify-center transition-colors disabled:opacity-40"
+    style={{
+      width: 30,
+      height: 30,
+      borderRadius: 7,
+      background: active ? 'var(--kd-surface-alt)' : 'transparent',
+      color: active ? 'var(--kd-accent)' : 'var(--kd-ink)',
+      border: 'none',
+      fontSize: 15,
+      cursor: 'pointer',
+    }}
+  >
+    {children}
+  </button>
+);
+
+const ScriptChip = ({ label, active, hindi, onClick }) => (
+  <button
+    type="button"
+    onClick={onClick}
+    aria-pressed={active || undefined}
+    className="inline-flex items-center transition-colors"
+    style={{
+      padding: '6px 12px',
+      borderRadius: 999,
+      background: active ? 'var(--kd-accent)' : 'transparent',
+      color: active ? '#FBF7EE' : 'var(--kd-ink)',
+      border: active ? 'none' : '1px solid var(--kd-line)',
+      fontFamily: hindi
+        ? 'var(--kd-font-deva, "Noto Sans Devanagari", system-ui, sans-serif)'
+        : 'var(--kd-font-sans)',
+      fontSize: 12,
+      fontWeight: 500,
+      cursor: 'pointer',
+    }}
+  >
+    {label}
+  </button>
+);
+
+const ChevDown = () => (
+  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="var(--kd-ink-soft)" strokeWidth="2.2" strokeLinecap="round" aria-hidden="true">
+    <path d="m6 9 6 6 6-6" />
+  </svg>
+);
+
+const AlignLeftIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+    <path d="M4 6h16M4 12h10M4 18h13" />
+  </svg>
+);
+const AlignCenterIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+    <path d="M4 6h16M7 12h10M5 18h14" />
+  </svg>
+);
+const AlignRightIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+    <path d="M4 6h16M10 12h10M7 18h13" />
+  </svg>
+);
 
 export default KurukhEditor;

@@ -6,6 +6,7 @@
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useAuth } from '../contexts/AuthContext';
 import {
   getCommentsForWord,
@@ -18,6 +19,7 @@ import Comment from './Comment';
 import { MAX_COMMENT_LEVEL } from '../config/comments';
 
 const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
+  const { t } = useTranslation();
   const { currentUser } = useAuth();
   const [comments, setComments] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -96,7 +98,7 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
       }
     } catch (err) {
       console.error('Error loading comments:', err);
-      setError('Failed to load comments');
+      setError(t('comments.loadError'));
     } finally {
       setLoading(false);
     }
@@ -119,7 +121,7 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
       }
     } catch (err) {
       console.error('Error adding comment:', err);
-      setError('Failed to add comment');
+      setError(t('comments.addError'));
     } finally {
       setIsSubmitting(false);
     }
@@ -138,9 +140,9 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
       }
     } catch (err) {
       console.error('Error adding reply:', err);
-      setError('Failed to add reply');
+      setError(t('comments.replyError'));
     }
-  }, [wordId, currentUser]);
+  }, [wordId, currentUser, t]);
 
   const handleEdit = useCallback((commentId, newContent) => {
     // Update comment in local state
@@ -257,115 +259,160 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
   };
 
   const sortedComments = sortComments(comments, sortBy);
-  // Use real-time comment count from word model for better performance
-  // Falls back to dynamic calculation if real-time count is not available
+  // Use real-time comment count from word model for better performance;
+  // fall back to a static walk of replies when no live count is set.
   const commentCount = realTimeCommentCount ?? comments.reduce((total, comment) => {
     return total + 1 + (comment.replies ? comment.replies.length : 0);
   }, 0);
 
+  // Collapsed state — a single toggle row sized to slot under the review card.
   if (!isOpen) {
     return (
-      <div className="border-t border-gray-200 pt-4">
+      <div
+        className="mt-5 pt-4"
+        style={{ borderTop: '1px solid var(--kd-line)' }}
+      >
         <button
+          type="button"
           onClick={onToggle}
-          className="flex items-center space-x-2 text-gray-600 hover:text-gray-800"
+          className="inline-flex items-center gap-2 kd-font-sans transition-colors"
+          style={{
+            background: 'transparent',
+            border: 'none',
+            cursor: 'pointer',
+            fontSize: 13,
+            fontWeight: 500,
+            color: 'var(--kd-ink-soft)',
+            padding: 0,
+          }}
         >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-3.582 8-8 8a8.955 8.955 0 01-4.126-.998L3 21l1.998-5.874A8.955 8.955 0 013 12a8 8 0 018-8c4.418 0 8 3.582 8 8z" />
-          </svg>
-          <span>{commentCount} {commentCount === 1 ? 'comment' : 'comments'}</span>
+          <CommentBubbleIcon />
+          {t('comments.count', { count: commentCount })}
         </button>
       </div>
     );
   }
 
   return (
-    <div className="border-t border-gray-200 pt-4 mt-4">
+    <div className="mt-5 pt-5" style={{ borderTop: '1px solid var(--kd-line)' }}>
       {/* Header */}
-      <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center space-x-4">
-          <button
-            onClick={onToggle}
-            className="flex items-center space-x-2 text-gray-600 hover:text-gray-800"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-3.582 8-8 8a8.955 8.955 0 01-4.126-.998L3 21l1.998-5.874A8.955 8.955 0 013 12a8 8 0 018-8c4.418 0 8 3.582 8 8z" />
-            </svg>
-            <span className="font-medium">{commentCount} {commentCount === 1 ? 'comment' : 'comments'}</span>
-          </button>
-        </div>
+      <div className="flex items-center justify-between mb-4 flex-wrap gap-3">
+        <button
+          type="button"
+          onClick={onToggle}
+          className="inline-flex items-center gap-2 kd-font-sans"
+          style={{
+            background: 'transparent',
+            border: 'none',
+            cursor: 'pointer',
+            fontSize: 14,
+            fontWeight: 600,
+            color: 'var(--kd-ink)',
+            padding: 0,
+          }}
+        >
+          <CommentBubbleIcon />
+          {t('comments.count', { count: commentCount })}
+        </button>
 
-        {/* Sort Options */}
         {comments.length > 1 && (
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}
-            className="select select-bordered select-sm"
+            className="kd-font-sans outline-none appearance-none"
+            style={{
+              background: 'var(--kd-bg)',
+              color: 'var(--kd-ink)',
+              border: '1px solid var(--kd-line)',
+              borderRadius: 10,
+              padding: '6px 32px 6px 10px',
+              fontSize: 12,
+              backgroundImage: chevronBg(),
+              backgroundPosition: 'right 10px center',
+              backgroundRepeat: 'no-repeat',
+            }}
           >
-            <option value="newest">Newest First</option>
-            <option value="oldest">Oldest First</option>
-            <option value="best">Best</option>
+            <option value="newest">{t('comments.sort.newest')}</option>
+            <option value="oldest">{t('comments.sort.oldest')}</option>
+            <option value="best">{t('comments.sort.best')}</option>
           </select>
         )}
       </div>
 
-      {/* Error Message */}
       {error && (
-        <div className="alert alert-error mb-4">
-          <span>{error}</span>
+        <div
+          role="alert"
+          className="kd-font-sans mb-4 px-4 py-3 rounded-xl"
+          style={{
+            background: 'var(--kd-accent-tint)',
+            color: 'var(--kd-accent)',
+            border: '1px solid color-mix(in srgb, var(--kd-accent) 40%, transparent)',
+            fontSize: 13,
+          }}
+        >
+          {error}
         </div>
       )}
 
       {/* Add Comment Form */}
       {currentUser ? (
         <form onSubmit={handleAddComment} className="mb-6">
-          <div className="form-control">
-            <textarea
-              value={newComment}
-              onChange={(e) => setNewComment(e.target.value)}
-              className="textarea textarea-bordered w-full"
-              rows="3"
-              placeholder="Add a comment..."
-              disabled={isSubmitting}
-            />
-          </div>
+          <textarea
+            value={newComment}
+            onChange={(e) => setNewComment(e.target.value)}
+            placeholder={t('comments.placeholder')}
+            rows={3}
+            disabled={isSubmitting}
+            className="kd-font-serif w-full outline-none"
+            style={{
+              background: 'var(--kd-bg)',
+              color: 'var(--kd-ink)',
+              border: '1px solid var(--kd-line)',
+              borderRadius: 12,
+              padding: '12px 14px',
+              fontSize: 15,
+              lineHeight: 1.5,
+              resize: 'vertical',
+            }}
+          />
           <div className="mt-3 flex justify-end">
             <button
               type="submit"
-              className="btn btn-primary"
               disabled={isSubmitting || !newComment.trim()}
+              className="kd-font-sans inline-flex items-center gap-2 px-4 py-2.5 rounded-[10px] text-[13.5px] font-semibold disabled:opacity-50"
+              style={{ background: 'var(--kd-ink)', color: 'var(--kd-bg)' }}
             >
-              {isSubmitting ? (
-                <>
-                  <span className="loading loading-spinner loading-sm"></span>
-                  Posting...
-                </>
-              ) : (
-                'Post Comment'
-              )}
+              {isSubmitting ? t('comments.posting') : t('comments.post')}
             </button>
           </div>
         </form>
       ) : (
-        <div className="alert alert-info mb-6">
-          <span>Please log in to join the discussion.</span>
+        <div
+          className="kd-font-sans mb-6 px-4 py-3 rounded-xl"
+          style={{
+            background: 'var(--kd-surface-alt)',
+            color: 'var(--kd-ink-soft)',
+            border: '1px solid var(--kd-line)',
+            fontSize: 13.5,
+          }}
+        >
+          {t('comments.loginRequired')}
         </div>
       )}
 
-      {/* Comments List */}
       {loading ? (
         <div className="flex justify-center py-8">
-          <span className="loading loading-spinner loading-md"></span>
+          <span className="loading loading-spinner loading-md" style={{ color: 'var(--kd-accent)' }} />
         </div>
       ) : comments.length === 0 ? (
-        <div className="text-center py-8 text-gray-500">
-          <svg className="w-12 h-12 mx-auto mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-3.582 8-8 8a8.955 8.955 0 01-4.126-.998L3 21l1.998-5.874A8.955 8.955 0 013 12a8 8 0 018-8c4.418 0 8 3.582 8 8z" />
-          </svg>
-          <p>No comments yet. Be the first to start the discussion!</p>
+        <div
+          className="kd-font-serif italic text-center py-10"
+          style={{ fontSize: 15, color: 'var(--kd-ink-mute)' }}
+        >
+          {t('comments.noComments')}
         </div>
       ) : (
-        <div className="space-y-6">
+        <div className="flex flex-col gap-5">
           {sortedComments.map((comment) => (
             <Comment
               key={comment.id}
@@ -384,5 +431,14 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
     </div>
   );
 };
+
+const CommentBubbleIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+  </svg>
+);
+
+const chevronBg = () =>
+  `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%238A8073' stroke-width='2' stroke-linecap='round'><path d='m6 9 6 6 6-6'/></svg>")`;
 
 export default CommentThread;

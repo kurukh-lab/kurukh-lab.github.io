@@ -103,19 +103,31 @@
   }
 }
 
-/* Tiptap Editor Styles - Fully Responsive */
+/* Tiptap Editor Styles — themed via KD tokens so light/dark works inside the paper card.
+   The screen styles use serif display type matching the KD design system; the print rules
+   at the bottom of this file keep their fixed values for PDF export. */
 .tiptap-content .ProseMirror {
   outline: none;
-  padding: 1.5rem;
+  padding: 1rem 0;
   min-height: 100%;
   width: 100%;
-  font-family: 'Times New Roman', serif;
-  font-size: 12pt;
-  line-height: 1.15;
-  color: #000;
-  background: white;
+  font-family: var(--kd-font-serif);
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--kd-ink);
+  background: transparent;
   border: none;
   box-sizing: border-box;
+}
+
+/* Placeholder shown when the editor is empty (driven by @tiptap/extension-placeholder) */
+.tiptap-content .ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  color: var(--kd-ink-mute);
+  float: left;
+  height: 0;
+  pointer-events: none;
+  font-style: italic;
 }
 
 /* Remove document page styling */
@@ -124,10 +136,10 @@
   box-shadow: none;
 }
 
-/* Microsoft Word-like paragraph spacing */
+/* Editorial paragraph rhythm — looser than Word, matching the design's paper feel */
 .tiptap-content .ProseMirror p {
-  margin: 0 0 10pt 0;
-  line-height: 1.15;
+  margin: 0 0 18px 0;
+  line-height: 1.7;
 }
 
 .tiptap-content .ProseMirror h1,
@@ -136,55 +148,63 @@
 .tiptap-content .ProseMirror h4,
 .tiptap-content .ProseMirror h5,
 .tiptap-content .ProseMirror h6 {
-  margin: 12pt 0 6pt 0;
-  line-height: 1.15;
+  font-family: var(--kd-font-serif);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  margin: 28px 0 12px;
+  line-height: 1.2;
+  color: var(--kd-ink);
 }
 
-.tiptap-content .ProseMirror h1 {
-  font-size: 16pt;
-  font-weight: bold;
+.tiptap-content .ProseMirror h1 { font-size: 34px; }
+.tiptap-content .ProseMirror h2 { font-size: 26px; }
+.tiptap-content .ProseMirror h3 { font-size: 22px; }
+
+.tiptap-content .ProseMirror blockquote {
+  border-left: 3px solid var(--kd-accent);
+  padding-left: 20px;
+  margin: 24px 0;
+  font-family: var(--kd-font-serif);
+  font-size: 20px;
+  font-style: italic;
+  color: var(--kd-ink);
+  line-height: 1.5;
 }
 
-.tiptap-content .ProseMirror h2 {
-  font-size: 14pt;
-  font-weight: bold;
-}
-
-.tiptap-content .ProseMirror h3 {
-  font-size: 12pt;
-  font-weight: bold;
-}
-
-/* Kurukh text styling in the editor */
+/* Kurukh-script spans — themed accent color so they remain readable in light + dark */
 .tiptap-content .kurukh-text,
 .tiptap-content [style*="KellyTolong"] {
   font-family: 'KellyTolong', monospace !important;
-  font-size: 14pt !important;
-  line-height: 1.3 !important;
-  color: #0f5132 !important;
+  font-size: 1.25em !important;
+  line-height: 1.5 !important;
+  color: var(--kd-accent) !important;
+  background: var(--kd-accent-tint);
+  padding: 0 4px;
+  border-radius: 3px;
 }
 
-/* Hindi text styling in the editor */
+/* Hindi spans — sage accent, mirroring the design's "second" color */
 .tiptap-content .hindi-text,
 .tiptap-content [style*="Noto Sans Devanagari"] {
-  font-family: 'Noto Sans Devanagari', Arial, sans-serif !important;
-  font-size: 12pt !important;
-  line-height: 1.25 !important;
-  color: #7c2d12 !important;
+  font-family: 'Noto Sans Devanagari', 'Noto Serif Devanagari', sans-serif !important;
+  font-size: 1.08em !important;
+  line-height: 1.5 !important;
+  color: var(--kd-sage) !important;
+  background: color-mix(in srgb, var(--kd-sage) 12%, transparent);
+  padding: 0 4px;
+  border-radius: 3px;
 }
 
-/* Microsoft Word-like selection */
 .tiptap-content .ProseMirror ::selection {
-  background: #316AC5;
-  color: white;
+  background: var(--kd-accent-tint);
+  color: var(--kd-ink);
 }
 
-/* Responsive layout - no page margins */
 .tiptap-content {
   position: relative;
   height: 100%;
   width: 100%;
-  background: white;
+  background: transparent;
 }
 
 /* Print media styles for PDF export */
@@ -215,7 +235,7 @@
   }
 }
 
-/* Additional responsive styles */
+/* Editor shell — themed, no white hardcoded background */
 .tiptap-kurukh-editor {
   height: 100%;
   display: flex;
@@ -224,33 +244,19 @@
 
 .tiptap-editor-container {
   flex: 1;
-  background: white;
+  background: transparent;
   overflow: auto;
 }
 
 .tiptap-editor-content {
   width: 100%;
   height: 100%;
-  background: white;
+  background: transparent;
 }
 
-/* Responsive padding for different screen sizes */
 @media (max-width: 640px) {
   .tiptap-content .ProseMirror {
-    padding: 1rem;
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 641px) and (max-width: 1024px) {
-  .tiptap-content .ProseMirror {
-    padding: 1.25rem;
-  }
-}
-
-@media (min-width: 1025px) {
-  .tiptap-content .ProseMirror {
-    padding: 1.5rem;
+    font-size: 16px;
   }
 }
 

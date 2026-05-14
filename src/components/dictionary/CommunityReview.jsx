@@ -1,10 +1,45 @@
-import React, { useState, useEffect } from 'react';
+/**
+ * CommunityReview — community voting on suggested corrections to existing words.
+ * Behaviour preserved from the original: fetch corrections by state, optimistic
+ * filtering on threshold votes, repeat-vote guard. Presentation rebuilt to KD theme:
+ * paired "current → proposed" diff cards with sage/accent backgrounds, vote tracker
+ * with five-slot approval avatars, sage Approve / ghost Reject actions.
+ */
+
+import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
 import { getCorrectionsForReview, voteOnCorrection } from '../../services/dictionaryService';
 import { formatDate } from '../../utils/wordUtils';
 import StateFilter from '../StateFilter';
+import StatusPill from '../kd/StatusPill';
+import VoteTracker from '../kd/VoteTracker';
+import CommentModal from '../kd/CommentModal';
+
+const initialsOf = (name) =>
+  (name || '')
+    .split(/\s+/)
+    .map((part) => part[0])
+    .filter(Boolean)
+    .slice(0, 2)
+    .join('')
+    .toUpperCase();
+
+const correctionStateTone = (value) => {
+  switch (value) {
+    case 'approved':
+    case 'applied':
+      return 'sage';
+    case 'rejected':
+      return 'neutral';
+    case 'shallow_review':
+    default:
+      return 'accent';
+  }
+};
 
 const CommunityReview = () => {
+  const { t } = useTranslation();
   const { currentUser } = useAuth();
   const [corrections, setCorrections] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -16,67 +51,45 @@ const CommunityReview = () => {
   const [currentVote, setCurrentVote] = useState(null);
   const [voteComment, setVoteComment] = useState('');
 
-  // Define available states for correction filtering
   const correctionStates = [
-    {
-      value: 'shallow_review',
-      label: 'Pending Review',
-      badgeClass: 'badge-warning'
-    },
-    {
-      value: 'approved',
-      label: 'Approved',
-      badgeClass: 'badge-success'
-    },
-    {
-      value: 'rejected',
-      label: 'Rejected',
-      badgeClass: 'badge-error'
-    },
-    {
-      value: 'applied',
-      label: 'Applied',
-      badgeClass: 'badge-info'
-    }
+    { value: 'shallow_review', label: t('review.corrections.stateLabels.shallow_review'), tone: 'accent' },
+    { value: 'approved', label: t('review.corrections.stateLabels.approved'), tone: 'sage' },
+    { value: 'rejected', label: t('review.corrections.stateLabels.rejected'), tone: 'neutral' },
+    { value: 'applied', label: t('review.corrections.stateLabels.applied'), tone: 'sage' },
   ];
 
   useEffect(() => {
-    if (currentUser) {
-      fetchCorrections();
-    }
+    if (!currentUser) return;
+    let cancelled = false;
+    const run = async () => {
+      try {
+        setLoading(true);
+        const data = await getCorrectionsForReview(20, selectedStates.length > 0 ? selectedStates : null);
+        if (!cancelled) setCorrections(data);
+      } catch (err) {
+        console.error('Error fetching corrections:', err);
+        if (!cancelled) setError('Failed to load corrections for review. Please try again.');
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    };
+    run();
+    return () => {
+      cancelled = true;
+    };
   }, [currentUser, selectedStates]);
-
-  const fetchCorrections = async () => {
-    try {
-      setLoading(true);
-      console.log("Fetching corrections with states:", selectedStates);
-      const correctionsData = await getCorrectionsForReview(20, selectedStates.length > 0 ? selectedStates : null);
-      setCorrections(correctionsData);
-    } catch (err) {
-      console.error('Error fetching corrections:', err);
-      setError('Failed to load corrections for review. Please try again.');
-    } finally {
-      setLoading(false);
-    }
-  };
 
   const handleVote = async (correctionId, vote, comment = '') => {
     if (!currentUser) return;
-
-    setVotingInProgress(prev => ({ ...prev, [correctionId]: true }));
+    setVotingInProgress((prev) => ({ ...prev, [correctionId]: true }));
     setError(null);
-
     try {
       const result = await voteOnCorrection(correctionId, currentUser.uid, vote, comment);
-
       if (result.success) {
         setSuccessMessage(result.message);
-        // Remove the correction from the list if it was approved/rejected
-        if (result.message.includes('approved') || result.message.includes('rejected')) {
-          setCorrections(prev => prev.filter(c => c.id !== correctionId));
+        if (result.message?.includes('approved') || result.message?.includes('rejected')) {
+          setCorrections((prev) => prev.filter((c) => c.id !== correctionId));
         }
-
-        // Clear success message after 3 seconds
         setTimeout(() => setSuccessMessage(null), 3000);
       } else {
         setError(result.error);
@@ -85,241 +98,324 @@ const CommunityReview = () => {
       console.error('Error voting:', err);
       setError('An error occurred while submitting your vote. Please try again.');
     } finally {
-      setVotingInProgress(prev => ({ ...prev, [correctionId]: false }));
+      setVotingInProgress((prev) => ({ ...prev, [correctionId]: false }));
     }
   };
 
-  const handleVoteWithComment = (correctionId, vote) => {
+  const openVoteModal = (correctionId, vote) => {
     setCurrentVote({ correctionId, vote });
-    setShowCommentModal(true);
     setVoteComment('');
+    setShowCommentModal(true);
   };
 
   const submitVote = async () => {
-    if (currentVote) {
-      await handleVote(currentVote.correctionId, currentVote.vote, voteComment);
-      setShowCommentModal(false);
-      setCurrentVote(null);
-      setVoteComment('');
-    }
-  };
-
-  const getCorrectionTypeLabel = (type) => {
-    const labels = {
-      word_spelling: 'Word Spelling',
-      definition: 'Definition/Meaning',
-      part_of_speech: 'Part of Speech',
-      example_sentence: 'Example Sentence',
-      example_translation: 'Example Translation',
-      pronunciation: 'Pronunciation',
-      other: 'Other'
-    };
-    return labels[type] || type;
-  };
-
-  const handleStateFilterChange = (newSelectedStates) => {
-    setSelectedStates(newSelectedStates);
+    if (!currentVote) return;
+    await handleVote(currentVote.correctionId, currentVote.vote, voteComment);
+    setShowCommentModal(false);
+    setCurrentVote(null);
+    setVoteComment('');
   };
 
   if (!currentUser) {
     return (
-      <div className="max-w-4xl mx-auto py-8 px-4">
-        <div className="alert alert-warning">
-          <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-          </svg>
-          <span>You must be logged in to review corrections.</span>
-        </div>
+      <div
+        role="alert"
+        className="kd-font-sans px-4 py-3 rounded-xl"
+        style={{
+          background: 'var(--kd-accent-tint)',
+          color: 'var(--kd-accent)',
+          border: '1px solid color-mix(in srgb, var(--kd-accent) 40%, transparent)',
+        }}
+      >
+        {t('review.loginRequired')}
       </div>
     );
   }
 
   return (
-    <div className="max-w-6xl mx-auto py-8 px-4">
-      <div className="mb-8">
-        <p className="text-gray-600">
-          Help improve the Kurukh Dictionary by reviewing corrections suggested by the community.
-          Your votes help determine which corrections get approved.
-        </p>
-      </div>
+    <div>
+      <p
+        className="kd-font-serif mb-6"
+        style={{ fontSize: 16, lineHeight: 1.6, color: 'var(--kd-ink-soft)' }}
+      >
+        {t('review.introCorrections')}
+      </p>
 
-      {/* State Filter */}
       <div className="mb-6">
         <StateFilter
           states={correctionStates}
           selectedStates={selectedStates}
-          onSelectionChange={handleStateFilterChange}
-          title="Filter Corrections by Review State"
-          multiSelect={true}
+          onSelectionChange={setSelectedStates}
+          title={t('review.filterTitleCorrections')}
+          multiSelect
           disabled={loading}
         />
       </div>
 
       {successMessage && (
-        <div className="alert alert-success mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <span>{successMessage}</span>
+        <div
+          role="status"
+          className="kd-font-sans mb-5 px-4 py-3 rounded-xl"
+          style={{
+            background: 'color-mix(in srgb, var(--kd-sage) 15%, transparent)',
+            color: 'var(--kd-sage)',
+            border: '1px solid color-mix(in srgb, var(--kd-sage) 40%, transparent)',
+          }}
+        >
+          {successMessage}
         </div>
       )}
 
       {error && (
-        <div className="alert alert-error mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <span>{error}</span>
+        <div
+          role="alert"
+          className="kd-font-sans mb-5 px-4 py-3 rounded-xl"
+          style={{
+            background: 'var(--kd-accent-tint)',
+            color: 'var(--kd-accent)',
+            border: '1px solid color-mix(in srgb, var(--kd-accent) 40%, transparent)',
+          }}
+        >
+          {error}
         </div>
       )}
 
       {loading ? (
-        <div className="flex justify-center items-center py-12">
-          <span className="loading loading-spinner loading-lg"></span>
+        <div className="flex justify-center py-12">
+          <span className="loading loading-spinner loading-lg" style={{ color: 'var(--kd-accent)' }} />
         </div>
       ) : corrections.length === 0 ? (
-        <div className="text-center py-12">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 mx-auto mb-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <h3 className="text-xl font-medium text-gray-900 mb-2">No corrections to review</h3>
-          <p className="text-gray-500">All pending corrections have been reviewed. Check back later!</p>
+        <div
+          className="p-10 rounded-2xl text-center"
+          style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
+        >
+          <p
+            className="kd-font-serif italic"
+            style={{ fontSize: 17, color: 'var(--kd-ink-soft)', margin: 0 }}
+          >
+            {t('review.empty')}
+          </p>
         </div>
       ) : (
-        <div className="space-y-6">
+        <div className="flex flex-col gap-4">
           {corrections.map((correction) => (
-            <div key={correction.id} className="card bg-base-100 shadow-lg">
-              <div className="card-body">
-                <div className="flex justify-between items-start mb-4">
-                  <div>
-                    <h2 className="card-title text-xl mb-2">
-                      {correction.word?.kurukh_word || 'Unknown Word'}
-                    </h2>
-                    <div className="badge badge-primary">{getCorrectionTypeLabel(correction.correction_type)}</div>
-                  </div>
-                  <div className="text-sm text-gray-500">
-                    Submitted {correction.createdAt && formatDate(correction.createdAt)}
-                  </div>
-                </div>
-
-                <div className="grid md:grid-cols-2 gap-4 mb-6">
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-sm text-gray-600">Current Value:</h4>
-                    <div className="p-3 bg-red-50 border border-red-200 rounded">
-                      <span className="text-red-800">{correction.current_value || 'No current value'}</span>
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-sm text-gray-600">Proposed Change:</h4>
-                    <div className="p-3 bg-green-50 border border-green-200 rounded">
-                      <span className="text-green-800">{correction.proposed_change}</span>
-                    </div>
-                  </div>
-                </div>
-
-                {correction.explanation && (
-                  <div className="mb-4">
-                    <h4 className="font-semibold text-sm text-gray-600 mb-2">Explanation:</h4>
-                    <p className="text-sm text-gray-700 italic">{correction.explanation}</p>
-                  </div>
-                )}
-
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-4 text-sm text-gray-500">
-                    <span>👍 {correction.votes_for || 0}</span>
-                    <span>👎 {correction.votes_against || 0}</span>
-                    <span>Reviews: {correction.reviewed_by?.length || 0}</span>
-                  </div>
-
-                  <div className="flex gap-2">
-                    <button
-                      className="btn btn-success btn-sm"
-                      onClick={() => handleVoteWithComment(correction.id, 'approve')}
-                      disabled={votingInProgress[correction.id] || correction.reviewed_by?.some(r => r.user_id === currentUser.uid)}
-                    >
-                      {votingInProgress[correction.id] ? (
-                        <span className="loading loading-spinner loading-xs"></span>
-                      ) : (
-                        '👍 Approve'
-                      )}
-                    </button>
-                    <button
-                      className="btn btn-error btn-sm"
-                      onClick={() => handleVoteWithComment(correction.id, 'reject')}
-                      disabled={votingInProgress[correction.id] || correction.reviewed_by?.some(r => r.user_id === currentUser.uid)}
-                    >
-                      {votingInProgress[correction.id] ? (
-                        <span className="loading loading-spinner loading-xs"></span>
-                      ) : (
-                        '👎 Reject'
-                      )}
-                    </button>
-                  </div>
-                </div>
-
-                {correction.reviewed_by?.some(r => r.user_id === currentUser.uid) && (
-                  <div className="mt-2">
-                    <div className="alert alert-info alert-sm">
-                      <span>You have already voted on this correction.</span>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
+            <CorrectionCard
+              key={correction.id}
+              correction={correction}
+              currentUser={currentUser}
+              voting={!!votingInProgress[correction.id]}
+              onVote={(vote) => openVoteModal(correction.id, vote)}
+            />
           ))}
         </div>
       )}
 
-      {/* Comment Modal */}
-      {showCommentModal && (
-        <div className="modal modal-open">
-          <div className="modal-box">
-            <h3 className="font-bold text-lg mb-4">
-              Add Comment (Optional)
-            </h3>
-            <p className="text-sm text-gray-600 mb-4">
-              You can add an optional comment to explain your {currentVote?.vote === 'approve' ? 'approval' : 'rejection'} of this correction.
-            </p>
-            
-            <div className="form-control w-full mb-4">
-              <label className="label">
-                <span className="label-text">Comment</span>
-              </label>
-              <textarea
-                className="textarea textarea-bordered w-full"
-                placeholder="Add your comment here (optional)..."
-                value={voteComment}
-                onChange={(e) => setVoteComment(e.target.value)}
-                rows="3"
-              />
-            </div>
+      <CommentModal
+        open={showCommentModal}
+        vote={currentVote?.vote}
+        comment={voteComment}
+        onCommentChange={setVoteComment}
+        onConfirm={submitVote}
+        onCancel={() => {
+          setShowCommentModal(false);
+          setCurrentVote(null);
+          setVoteComment('');
+        }}
+        submitting={!!votingInProgress[currentVote?.correctionId]}
+      />
+    </div>
+  );
+};
 
-            <div className="modal-action">
-              <button
-                className="btn btn-ghost"
-                onClick={() => {
-                  setShowCommentModal(false);
-                  setCurrentVote(null);
-                  setVoteComment('');
-                }}
+// ─── Single correction card ───
+const CorrectionCard = ({ correction, currentUser, voting, onVote }) => {
+  const { t } = useTranslation();
+  const hasVoted = correction.reviewed_by?.some((r) => r.user_id === currentUser.uid);
+  const disabled = voting || hasVoted;
+  const approvals = correction.votes_for || 0;
+  const rejections = correction.votes_against || 0;
+  const initials = (correction.reviewed_by || []).map((r) =>
+    initialsOf(r.displayName || r.username || r.email || ''),
+  );
+
+  return (
+    <article
+      className="p-6 md:p-7 rounded-2xl"
+      style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
+    >
+      <div className="grid gap-6 md:grid-cols-[1fr_220px]">
+        <div className="min-w-0">
+          <div className="flex items-baseline gap-3.5 flex-wrap">
+            <span
+              className="kd-font-serif"
+              style={{
+                fontWeight: 500,
+                fontSize: 'clamp(28px, 3vw, 36px)',
+                color: 'var(--kd-ink)',
+                letterSpacing: '-0.025em',
+                lineHeight: 1,
+              }}
+            >
+              {correction.word?.kurukh_word || '—'}
+            </span>
+            <span
+              className="kd-font-sans"
+              style={{
+                padding: '3px 10px',
+                borderRadius: 999,
+                fontSize: 11,
+                fontWeight: 500,
+                letterSpacing: '0.04em',
+                background: 'var(--kd-accent-tint)',
+                color: 'var(--kd-accent)',
+              }}
+            >
+              {t(`review.corrections.types.${correction.correction_type}`, {
+                defaultValue: correction.correction_type,
+              })}
+            </span>
+          </div>
+
+          {/* Current → Proposed diff */}
+          <div className="grid md:grid-cols-2 gap-3 mt-5">
+            <DiffBlock
+              eyebrow={t('review.corrections.currentValue')}
+              value={correction.current_value || t('review.corrections.noCurrent')}
+              tone="muted"
+            />
+            <DiffBlock
+              eyebrow={t('review.corrections.proposedChange')}
+              value={correction.proposed_change}
+              tone="accent"
+            />
+          </div>
+
+          {correction.explanation && (
+            <div className="mt-4">
+              <div
+                className="kd-eyebrow mb-1.5"
+                style={{ color: 'var(--kd-ink-mute)' }}
               >
-                Cancel
-              </button>
-              <button
-                className={`btn ${currentVote?.vote === 'approve' ? 'btn-success' : 'btn-error'}`}
-                onClick={submitVote}
-                disabled={votingInProgress[currentVote?.correctionId]}
+                {t('review.corrections.explanation')}
+              </div>
+              <p
+                className="kd-font-serif italic"
+                style={{ fontSize: 16, lineHeight: 1.5, color: 'var(--kd-ink-soft)', margin: 0 }}
               >
-                {votingInProgress[currentVote?.correctionId] ? (
-                  <span className="loading loading-spinner loading-xs"></span>
-                ) : (
-                  `${currentVote?.vote === 'approve' ? 'Approve' : 'Reject'}`
-                )}
-              </button>
+                {correction.explanation}
+              </p>
             </div>
+          )}
+
+          {/* Submitted + status */}
+          <div
+            className="mt-4 flex items-center gap-2.5 flex-wrap kd-font-sans"
+            style={{ fontSize: 12.5, color: 'var(--kd-ink-mute)' }}
+          >
+            {correction.createdAt && (
+              <span>{t('review.submittedOn', { date: formatDate(correction.createdAt) })}</span>
+            )}
+            {correction.status && (
+              <>
+                <span>·</span>
+                <StatusPill tone={correctionStateTone(correction.status)}>
+                  {t(`review.corrections.stateLabels.${correction.status}`, {
+                    defaultValue: correction.status,
+                  })}
+                </StatusPill>
+              </>
+            )}
           </div>
         </div>
-      )}
+
+        {/* Tracker + actions */}
+        <div className="flex flex-col gap-2.5">
+          <VoteTracker
+            approvals={approvals}
+            voterInitials={initials}
+            label={t('review.card.approvalsLabel')}
+          />
+          {rejections > 0 && (
+            <div
+              className="kd-font-mono px-3 py-2 rounded-lg flex justify-between items-baseline"
+              style={{
+                background: 'var(--kd-accent-tint)',
+                color: 'var(--kd-accent)',
+                fontSize: 12,
+              }}
+            >
+              <span style={{ letterSpacing: '0.1em', textTransform: 'uppercase', fontSize: 10 }}>
+                {t('review.votesAgainstLabel')}
+              </span>
+              <span style={{ fontWeight: 600 }}>{rejections}</span>
+            </div>
+          )}
+
+          <div className="flex gap-1.5">
+            <button
+              type="button"
+              onClick={() => onVote('approve')}
+              disabled={disabled}
+              className="flex-1 inline-flex items-center justify-center gap-1.5 kd-font-sans font-semibold py-2.5 rounded-[10px] disabled:opacity-50"
+              style={{ background: 'var(--kd-sage)', color: '#FBF7EE', fontSize: 13, cursor: disabled ? 'not-allowed' : 'pointer' }}
+            >
+              {voting ? '…' : t('review.card.approve')}
+            </button>
+            <button
+              type="button"
+              onClick={() => onVote('reject')}
+              disabled={disabled}
+              className="flex-1 inline-flex items-center justify-center gap-1.5 kd-font-sans font-medium py-2.5 rounded-[10px] disabled:opacity-50"
+              style={{
+                background: 'transparent',
+                color: 'var(--kd-ink)',
+                border: '1px solid var(--kd-line)',
+                fontSize: 13,
+                cursor: disabled ? 'not-allowed' : 'pointer',
+              }}
+            >
+              {t('review.card.reject')}
+            </button>
+          </div>
+
+          {hasVoted && (
+            <p
+              className="kd-font-sans"
+              style={{ fontSize: 12, color: 'var(--kd-ink-mute)', lineHeight: 1.5, margin: 0 }}
+            >
+              {t('review.alreadyVotedCorrection')}
+            </p>
+          )}
+        </div>
+      </div>
+    </article>
+  );
+};
+
+const DiffBlock = ({ eyebrow, value, tone }) => {
+  const styles =
+    tone === 'accent'
+      ? {
+          background: 'color-mix(in srgb, var(--kd-sage) 12%, transparent)',
+          color: 'var(--kd-ink)',
+          border: '1px solid color-mix(in srgb, var(--kd-sage) 25%, transparent)',
+        }
+      : {
+          background: 'var(--kd-surface-alt)',
+          color: 'var(--kd-ink-soft)',
+          border: '1px solid var(--kd-line)',
+        };
+  return (
+    <div>
+      <div className="kd-eyebrow mb-1.5" style={{ color: 'var(--kd-ink-mute)' }}>
+        {eyebrow}
+      </div>
+      <div
+        className="kd-font-serif rounded-xl px-4 py-3"
+        style={{ ...styles, fontSize: 16, lineHeight: 1.5 }}
+      >
+        {value}
+      </div>
     </div>
   );
 };
