@@ -1,52 +1,44 @@
-import { useState } from 'react';
+import { useState, type FormEvent } from 'react';
 import { searchWords } from '../services/dictionaryService';
+import type { SearchOptions, Word } from '../types';
 
-/**
- * Custom hook for search functionality
- * @returns {Object} Search state and functions
- */
-export const useSearch = () => {
+export interface UseSearchReturn {
+  searchTerm: string;
+  setSearchTerm: (term: string) => void;
+  searchResults: Word[];
+  loading: boolean;
+  error: string | null;
+  filters: SearchOptions;
+  updateFilters: (newFilters: Partial<SearchOptions>) => void;
+  handleSearch: (e?: FormEvent) => Promise<void>;
+  clearSearch: () => void;
+}
+
+export const useSearch = (): UseSearchReturn => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [searchResults, setSearchResults] = useState([]);
+  const [searchResults, setSearchResults] = useState<Word[]>([]);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
-  const [filters, setFilters] = useState({
+  const [error, setError] = useState<string | null>(null);
+  const [filters, setFilters] = useState<SearchOptions>({
     language: '',
     partOfSpeech: '',
   });
 
-  /**
-   * Update search filters
-   * @param {Object} newFilters - New filter values
-   */
-  const updateFilters = (newFilters) => {
-    setFilters(prevFilters => ({ ...prevFilters, ...newFilters }));
+  const updateFilters = (newFilters: Partial<SearchOptions>): void => {
+    setFilters((prev) => ({ ...prev, ...newFilters }));
   };
 
-  /**
-   * Handle search submission
-   * @param {Event} e - Form submit event
-   * @returns {Promise<void>}
-   */
-  const handleSearch = async (e) => {
-    if (e) {
-      e.preventDefault();
-    }
-    
-    if (!searchTerm.trim()) {
-      return;
-    }
+  const handleSearch = async (e?: FormEvent): Promise<void> => {
+    if (e) e.preventDefault();
+    if (!searchTerm.trim()) return;
 
     setLoading(true);
     setError(null);
-    
     try {
-      // Pass filters to searchWords function
       const results = await searchWords(searchTerm.trim(), {
         language: filters.language || undefined,
         partOfSpeech: filters.partOfSpeech || undefined,
       });
-      
       setSearchResults(results);
       if (results.length === 0) {
         setError('No words found matching your search criteria.');
@@ -60,10 +52,7 @@ export const useSearch = () => {
     }
   };
 
-  /**
-   * Clear search results
-   */
-  const clearSearch = () => {
+  const clearSearch = (): void => {
     setSearchTerm('');
     setSearchResults([]);
     setError(null);
@@ -78,7 +67,7 @@ export const useSearch = () => {
     filters,
     updateFilters,
     handleSearch,
-    clearSearch
+    clearSearch,
   };
 };
 

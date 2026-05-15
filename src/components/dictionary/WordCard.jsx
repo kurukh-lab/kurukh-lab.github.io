@@ -4,7 +4,7 @@ import ShareWordButtons from './ShareWordButtons';
 import LikeButton from './LikeButton';
 import { Link } from 'react-router-dom';
 import { formatDate } from '../../utils/wordUtils';
-import { highlightText } from '../../utils/highlightUtils.jsx';
+import { highlightText } from '../../utils/highlightUtils';
 
 /**
  * Component for displaying a dictionary word entry styled like search results

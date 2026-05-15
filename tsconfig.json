@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    // Bundler mode (Vite) — TS does not emit JS itself.
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    // Strictness — staged. We start with the strict bundle on but
+    // `noImplicitAny` is the *one* knob most likely to fire during a
+    // .jsx→.tsx migration; we keep it on so contributors don't add new
+    // untyped surface area.
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+
+    // Coexistence with the still-JSX files. Once everything is .ts/.tsx
+    // we can flip allowJs off and gain extra type coverage.
+    "allowJs": true,
+    "checkJs": false,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@contexts/*": ["src/contexts/*"],
+      "@pages/*": ["src/pages/*"],
+      "@services/*": ["src/services/*"],
+      "@config/*": ["src/config/*"],
+      "@utils/*": ["src/utils/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@types/*": ["src/types/*"]
+    },
+
+    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"]
+  },
+  "include": ["src", "tests"],
+  "exclude": ["node_modules", "dist", "coverage", "functions", "scripts"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

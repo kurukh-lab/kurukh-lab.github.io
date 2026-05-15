@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { highlightText } from '../utils/highlightUtils.jsx';
+import { highlightText } from '../utils/highlightUtils';
 
 /**
  * Demo page for testing search highlighting functionality

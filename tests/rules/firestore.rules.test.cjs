@@ -27,7 +27,9 @@ const {
 
 const PROJECT_ID = 'kurukh-dictionary-rules-test';
 const FIRESTORE_HOST = '127.0.0.1';
-const FIRESTORE_PORT = Number(process.env.FIRESTORE_EMULATOR_PORT || 8080);
+// Default matches firebase.json (firestore emulator port = 8081). Override
+// via FIRESTORE_EMULATOR_PORT.
+const FIRESTORE_PORT = Number(process.env.FIRESTORE_EMULATOR_PORT || 8081);
 
 let testEnv;
 
