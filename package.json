@@ -14,7 +14,8 @@
     "deploy": "npm run build:clean && firebase deploy",
     "deploy:functions": "firebase deploy --only functions",
     "init-db": "node scripts/initializeDatabase.js",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test:rules": "firebase emulators:exec --only firestore 'jest --config tests/rules/jest.config.cjs'"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
@@ -46,6 +47,7 @@
     "@babel/preset-env": "^7.27.2",
     "@babel/preset-react": "^7.27.1",
     "@eslint/js": "^9.25.0",
+    "@firebase/rules-unit-testing": "^4.0.1",
     "@tailwindcss/postcss": "^4.1.7",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",

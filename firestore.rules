@@ -1,93 +1,356 @@
 rules_version = '2';
 
+// Kurukh Dictionary — Firestore security rules.
+//
+// Trust model:
+//   * Only Cloud Functions running with the Admin SDK can grant/change roles.
+//   * Clients can never write `roles` (closes self-promotion to admin).
+//   * Clients can never set `status` to anything beyond the constrained
+//     transitions encoded below (closes self-approval of contributions).
+//   * Vote/like updates are scoped by `diff().affectedKeys()` so an attacker
+//     can't sneak content changes inside an "I just voted" write.
+//   * There is no emulator escape hatch in production: rules behave the same
+//     whether evaluated locally or in prod; the emulator is unauthenticated
+//     by default and tests must explicitly sign in as the principals they
+//     want to exercise.
+//
+// Residual risk flagged in PLAN.md:
+//   * `reviewed_by` array elements are user-provided maps; rules can validate
+//     size growth and the *last* element's user_id, but a client can still
+//     submit fake `comment`/`timestamp` fields. Moving voting into a Cloud
+//     Function is the durable fix.
+//   * `applyCorrection` currently writes to /words from the client. Under
+//     these rules only admins can apply corrections; the client-side path
+//     for non-admins must move into a Cloud Function.
+
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Helper function to check if a registered user
-    function isRegisteredUser() {
-      return request.auth != null && 
-             exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
-             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.roles.hasAny(['user']);
+
+    // ─── Helpers ────────────────────────────────────────────────────────
+
+    function isAuthed() {
+      return request.auth != null;
     }
 
-    // Helper function to check if user is admin
+    function isSelf(uid) {
+      return isAuthed() && request.auth.uid == uid;
+    }
+
+    function userDoc(uid) {
+      return get(/databases/$(database)/documents/users/$(uid)).data;
+    }
+
+    function userExists(uid) {
+      return exists(/databases/$(database)/documents/users/$(uid));
+    }
+
+    function hasRole(role) {
+      return isAuthed() &&
+             userExists(request.auth.uid) &&
+             userDoc(request.auth.uid).roles.hasAny([role]);
+    }
+
     function isAdmin() {
-      return request.auth != null && 
-             exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
-             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.roles.hasAny(['admin']);
+      return hasRole('admin');
     }
 
-    // Helper function to check if anonymous user
-    function isAnonymousUser() {
-      return request.auth != null && resource.data.status == 'community_review';
+    // A registered user is anyone with the 'user' OR 'admin' role.
+    // Admins are also users for permission purposes.
+    function isRegistered() {
+      return isAuthed() &&
+             userExists(request.auth.uid) &&
+             userDoc(request.auth.uid).roles.hasAny(['user', 'admin']);
     }
 
-    // Allow unauthenticated access in emulator mode
-    function isEmulator() {
-      return request.auth == null && request.time != null;
+    function changedKeys() {
+      return request.resource.data.diff(resource.data).affectedKeys();
     }
 
-    // Helper function to check if this is only a like update
-    function isLikeUpdate(newData, oldData) {
-      // Allow updates that only change likesCount and likedBy fields
-      return newData.diff(oldData).affectedKeys().hasOnly(['likesCount', 'likedBy', 'updatedAt']) &&
-             newData.keys().hasAll(oldData.keys());
+    function unchanged(field) {
+      return !(field in request.resource.data) ||
+             request.resource.data[field] == resource.data[field];
     }
 
-    // Allow public read access to approved words, community review for authenticated users, admin access to all words
-    // Allow like updates for all users (authenticated and anonymous)
+    // ─── /words ─────────────────────────────────────────────────────────
+    //
+    // Read: approved words are public; everything else needs auth.
+    // Create: must be authored by the caller and start in community_review.
+    // Update: admin can do anything; non-admins can only LIKE, VOTE, or bump
+    //         commentsCount — and never on their own contribution for votes.
+    // Delete: admin only.
     match /words/{wordId} {
-      allow read: if  isRegisteredUser() || 
-                      isAdmin() || 
-                      isEmulator() ||
-                      resource.data.status == 'approved';
-      allow write: if isRegisteredUser() ||
-                    isAdmin() ||
-                    isEmulator();
-      // Allow specific like-related updates for anonymous users
-      allow update: if isLikeUpdate(request.resource.data, resource.data);
+
+      function isApprovedWord() {
+        return resource.data.status == 'approved';
+      }
+
+      // CREATE: the document must declare the caller as contributor and
+      // start in community_review with zeroed vote/like state. This blocks
+      // self-approval at submission time.
+      function isValidWordCreate() {
+        let d = request.resource.data;
+        return isRegistered() &&
+               d.contributor_id == request.auth.uid &&
+               d.status == 'community_review' &&
+               d.community_votes_for == 0 &&
+               d.community_votes_against == 0 &&
+               d.reviewed_by.size() == 0 &&
+               d.likesCount == 0 &&
+               d.likedBy.size() == 0;
+      }
+
+      // LIKE: bounded toggle of likedBy/likesCount. Anonymous likes are
+      // intentionally allowed (matches existing UX) but the rule:
+      //   * scopes the write to exactly likesCount + likedBy + updatedAt
+      //   * forces likesCount == likedBy.size()
+      //   * caps likedBy at 10_000 entries (prevents unbounded growth)
+      //   * allows the array to grow/shrink by at most 1 per write
+      function isLikeOnlyUpdate() {
+        let oldLikes = resource.data.likedBy;
+        let newLikes = request.resource.data.likedBy;
+        let oldCount = oldLikes.size();
+        let newCount = newLikes.size();
+        return changedKeys().hasOnly(['likesCount', 'likedBy', 'updatedAt']) &&
+               request.resource.data.likesCount == newCount &&
+               newCount <= 10000 &&
+               (newCount == oldCount + 1 ||
+                newCount == oldCount - 1 ||
+                newCount == oldCount);
+      }
+
+      // VOTE: registered user adds exactly one entry to reviewed_by, bumps
+      // one of the vote counters by exactly 1, and may (only) transition
+      // status from community_review → pending_review or community_rejected.
+      // Self-voting is blocked. The new reviewed_by entry's user_id must
+      // match the caller.
+      function isCommunityVoteUpdate() {
+        let d = request.resource.data;
+        let r = resource.data;
+        let allowed = ['community_votes_for', 'community_votes_against',
+                       'reviewed_by', 'status', 'updatedAt'];
+        let newReview = d.reviewed_by[d.reviewed_by.size() - 1];
+        let forDelta = d.community_votes_for - r.community_votes_for;
+        let againstDelta = d.community_votes_against - r.community_votes_against;
+        return isRegistered() &&
+               r.status == 'community_review' &&
+               r.contributor_id != request.auth.uid &&
+               changedKeys().hasOnly(allowed) &&
+               d.reviewed_by.size() == r.reviewed_by.size() + 1 &&
+               newReview.user_id == request.auth.uid &&
+               forDelta + againstDelta == 1 &&
+               forDelta >= 0 && againstDelta >= 0 &&
+               (d.status == 'community_review' ||
+                d.status == 'pending_review' ||
+                d.status == 'community_rejected');
+      }
+
+      // COMMENT COUNT: allow any registered user to bump commentsCount and
+      // updatedAt (and nothing else) — used by addComment/deleteComment.
+      function isCommentCountUpdate() {
+        return isRegistered() &&
+               changedKeys().hasOnly(['commentsCount', 'updatedAt']);
+      }
+
+      allow read:   if isApprovedWord() || isRegistered() || isAdmin();
+      allow create: if isValidWordCreate();
+      allow update: if isAdmin() ||
+                       isLikeOnlyUpdate() ||
+                       isCommunityVoteUpdate() ||
+                       isCommentCountUpdate();
+      allow delete: if isAdmin();
     }
-    
-    // Allow admin access to all reports, users can only read their own reports
-    match /reports/{reportId} {
-      allow read: if isAdmin() || (request.auth != null && resource.data.user_id == request.auth.uid);
-      allow write: if request.auth != null;
-    }
-    
-    // Restrict user data access to authenticated users and admins
+
+    // ─── /users ────────────────────────────────────────────────────────
+    //
+    // Reading: self or admin (matches existing behaviour).
+    // Creating: only self, with roles forced to ['user']. In practice the
+    //   createUser/createGoogleUser callables use the Admin SDK (which
+    //   bypasses rules), so this is a defence-in-depth fallback.
+    // Updating: self can update profile fields, but `roles`, `uid`, `email`
+    //   are immutable from the client. Admin can change roles.
+    // Deletion: admin only.
     match /users/{userId} {
-      allow read: if request.auth != null && (request.auth.uid == userId || isAdmin());
-      allow write: if request.auth != null && request.auth.uid == userId;
+      function isSelfUserUpdate() {
+        return isSelf(userId) &&
+               unchanged('roles') &&
+               unchanged('uid') &&
+               unchanged('email') &&
+               unchanged('createdAt');
+      }
+
+      function isValidSelfCreate() {
+        let d = request.resource.data;
+        return isSelf(userId) &&
+               d.uid == userId &&
+               d.roles.size() == 1 &&
+               d.roles.hasOnly(['user']);
+      }
+
+      allow read:   if isSelf(userId) || isAdmin();
+      allow create: if isValidSelfCreate() || isAdmin();
+      allow update: if isSelfUserUpdate() || isAdmin();
+      allow delete: if isAdmin();
     }
 
-    match /corrections/{wordId} {
-      allow write: if isRegisteredUser() ||
-                    isAdmin() ||
-                    isEmulator();
-      allow read: if isRegisteredUser() ||
-                    isAdmin() ||
-                    isEmulator();
+    // ─── /reports ──────────────────────────────────────────────────────
+    //
+    // Reports are sensitive: they identify users who flagged content.
+    // Read: admin sees all; registered users see only their own.
+    // Create: only by the user identified in `user_id`, with status 'open'.
+    // Update/Delete: admin only (resolveReport runs as Admin SDK).
+    match /reports/{reportId} {
+      function isValidReportCreate() {
+        let d = request.resource.data;
+        return isRegistered() &&
+               d.user_id == request.auth.uid &&
+               d.status == 'open';
+      }
+
+      allow read:   if isAdmin() ||
+                       (isRegistered() && resource.data.user_id == request.auth.uid);
+      allow create: if isValidReportCreate();
+      allow update, delete: if isAdmin();
     }
 
-    // Allow authenticated users to read and write comments
+    // ─── /corrections ──────────────────────────────────────────────────
+    //
+    // Read: registered users + admin (community review surface).
+    // Create: only by the user identified in `user_id`, with the initial
+    //   workflow state and zeroed votes.
+    // Update: admin can do anything; non-admins can only cast a vote
+    //   (analogous to /words isCommunityVoteUpdate). Status transitions
+    //   beyond auto-approve thresholds and `status: 'applied'` are admin-
+    //   only (closes the applyCorrection escalation path).
+    // Delete: admin only.
+    match /corrections/{correctionId} {
+      function isValidCorrectionCreate() {
+        let d = request.resource.data;
+        return isRegistered() &&
+               d.user_id == request.auth.uid &&
+               d.status == 'shallow_review' &&
+               d.votes_for == 0 &&
+               d.votes_against == 0 &&
+               d.reviewed_by.size() == 0;
+      }
+
+      function isCorrectionVoteUpdate() {
+        let d = request.resource.data;
+        let r = resource.data;
+        let allowed = ['votes_for', 'votes_against', 'reviewed_by',
+                       'status', 'updatedAt'];
+        let newReview = d.reviewed_by[d.reviewed_by.size() - 1];
+        let forDelta = d.votes_for - r.votes_for;
+        let againstDelta = d.votes_against - r.votes_against;
+        return isRegistered() &&
+               r.status == 'shallow_review' &&
+               r.user_id != request.auth.uid &&
+               changedKeys().hasOnly(allowed) &&
+               d.reviewed_by.size() == r.reviewed_by.size() + 1 &&
+               newReview.user_id == request.auth.uid &&
+               forDelta + againstDelta == 1 &&
+               forDelta >= 0 && againstDelta >= 0 &&
+               (d.status == 'shallow_review' ||
+                d.status == 'approved' ||
+                d.status == 'rejected');
+      }
+
+      allow read:   if isRegistered() || isAdmin();
+      allow create: if isValidCorrectionCreate();
+      allow update: if isAdmin() || isCorrectionVoteUpdate();
+      allow delete: if isAdmin();
+    }
+
+    // ─── /comments ─────────────────────────────────────────────────────
+    //
+    // Read: any registered user.
+    // Create: only as the author (userId == auth.uid), with zeroed vote
+    //   state.
+    // Update split into three lanes:
+    //   * Edit own content  (author only, content/updatedAt/isEdited)
+    //   * Soft-delete own   (author only, isDeleted/content/deletedAt/updatedAt)
+    //   * Vote              (any registered user, only vote fields, and
+    //                        the diff in upvotedBy/downvotedBy must be
+    //                        the caller's own uid)
+    //   * Reply-count bump  (replyCount + updatedAt only)
+    //   * Admin override    (anything)
+    // Delete (hard): author or admin.
     match /comments/{commentId} {
-      allow read: if isRegisteredUser() || 
-                     isAdmin() || 
-                     isEmulator();
-      allow create: if isRegisteredUser() || 
-                       isAdmin() || 
-                       isEmulator();
-      allow update: if isRegisteredUser() || 
-                       isAdmin() || 
-                       isEmulator();
-      allow delete: if (isRegisteredUser() && resource.data.userId == request.auth.uid) ||
-                       isAdmin() ||
-                       isEmulator();
+      function isValidCommentCreate() {
+        let d = request.resource.data;
+        return isRegistered() &&
+               d.userId == request.auth.uid &&
+               d.upvotes == 0 &&
+               d.downvotes == 0 &&
+               d.upvotedBy.size() == 0 &&
+               d.downvotedBy.size() == 0 &&
+               d.isDeleted == false;
+      }
+
+      function isAuthorEdit() {
+        return isRegistered() &&
+               resource.data.userId == request.auth.uid &&
+               changedKeys().hasOnly(['content', 'updatedAt', 'isEdited']);
+      }
+
+      function isAuthorSoftDelete() {
+        return isRegistered() &&
+               resource.data.userId == request.auth.uid &&
+               changedKeys().hasOnly(['isDeleted', 'deletedAt',
+                                      'content', 'updatedAt']) &&
+               request.resource.data.isDeleted == true;
+      }
+
+      // For vote arrays the symmetric difference must be either {} or
+      // {auth.uid} — i.e., the caller can only add/remove themselves.
+      function symDiffIsSelfOrEmpty(oldList, newList) {
+        let oldSet = oldList.toSet();
+        let newSet = newList.toSet();
+        let added = newSet.difference(oldSet);
+        let removed = oldSet.difference(newSet);
+        return (added.size() == 0 || added == [request.auth.uid].toSet()) &&
+               (removed.size() == 0 || removed == [request.auth.uid].toSet());
+      }
+
+      function isCommentVote() {
+        let allowed = ['upvotes', 'downvotes', 'upvotedBy',
+                       'downvotedBy', 'updatedAt'];
+        return isRegistered() &&
+               changedKeys().hasOnly(allowed) &&
+               symDiffIsSelfOrEmpty(resource.data.upvotedBy,
+                                    request.resource.data.upvotedBy) &&
+               symDiffIsSelfOrEmpty(resource.data.downvotedBy,
+                                    request.resource.data.downvotedBy) &&
+               request.resource.data.upvotes ==
+                   request.resource.data.upvotedBy.size() &&
+               request.resource.data.downvotes ==
+                   request.resource.data.downvotedBy.size();
+      }
+
+      function isReplyCountBump() {
+        return isRegistered() &&
+               changedKeys().hasOnly(['replyCount', 'updatedAt']);
+      }
+
+      allow read:   if isRegistered() || isAdmin();
+      allow create: if isValidCommentCreate();
+      allow update: if isAdmin() ||
+                       isAuthorEdit() ||
+                       isAuthorSoftDelete() ||
+                       isCommentVote() ||
+                       isReplyCountBump();
+      allow delete: if isAdmin() ||
+                       (isRegistered() && resource.data.userId == request.auth.uid);
     }
 
-    // Allow anyone to read from static_data
+    // ─── /static_data ──────────────────────────────────────────────────
+    //
+    // Public-readable home-page payload. Writes happen via Admin SDK in
+    // the scheduled function; the rule below is the explicit gate for
+    // any direct-from-client writes (admin only) — there should be none
+    // in practice.
     match /static_data/{docId} {
       allow read: if true;
-      allow create, update, delete: if request.auth != null && request.auth.token.firebase.sign_in_provider == 'firebase';
+      allow create, update, delete: if isAdmin();
     }
   }
 }
