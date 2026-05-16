@@ -97,6 +97,298 @@
     "english": "English",
     "hindi": "Hindi"
   },
+  "contribute": {
+    "stepEyebrow": "Step 1 of 1 · Contribute",
+    "titleLine1": "Add a word to",
+    "titleEmph": "archive",
+    "titleLine2": "the",
+    "subtitle": "Every entry passes through five community reviewers before an editor reads it. Take your time — clarity is worth more than speed.",
+    "steps": {
+      "draft": "Draft",
+      "community": "Community",
+      "editor": "Editor",
+      "published": "Published"
+    },
+    "loginRequired": "You need to be logged in to contribute new words to the dictionary.",
+    "logIn": "Log in",
+    "register": "Register",
+    "headwordEyebrow": "Headword",
+    "headwordTitle": "The word itself",
+    "fields": {
+      "kurukhWord": "Kurukh word",
+      "ipa": "Pronunciation (IPA)",
+      "ipaHint": "Optional but encouraged",
+      "pos": "Part of speech",
+      "posSelect": "— Select —",
+      "dialect": "Dialect"
+    },
+    "meaningsEyebrow": "Meanings",
+    "meaningsTitle": "Definitions in every language you can offer",
+    "addLanguage": "Add another language",
+    "definition": "Definition",
+    "definitionPlaceholder": "Enter definition in {{lang}}",
+    "exampleKurukh": "Example sentence (in Kurukh)",
+    "exampleKurukhPlaceholder": "Optional: provide an example sentence in Kurukh",
+    "exampleTranslation": "Example translation",
+    "exampleTranslationPlaceholder": "Optional: translation in {{lang}}",
+    "wordsCount": "{{count}} words",
+    "removeMeaning": "Remove this definition",
+    "infoPillTitle": "Review process",
+    "infoPillBody": "Five community speakers vote → an editor reads → published. Usually 3–5 days.",
+    "preview": "Live preview",
+    "draftStatus": "draft · not yet published",
+    "previewEmpty": "Start adding word details to see the live preview.",
+    "rulesEyebrow": "Before you submit",
+    "rules": [
+      {
+        "title": "Use the form your community uses",
+        "body": "Loan-words and dialect forms are welcome — tag the region."
+      },
+      {
+        "title": "Cite a source for unusual claims",
+        "body": "Especially for etymology and rare meanings."
+      },
+      {
+        "title": "No duplicate languages",
+        "body": "One definition per language; merge variants in the same entry."
+      }
+    ],
+    "submit": "Submit for community review",
+    "submitting": "Submitting…",
+    "saveDraft": "Save draft",
+    "cancel": "Cancel",
+    "successMessage": "Thank you — your word has been submitted for community review.",
+    "errors": {
+      "wordRequired": "Kurukh word is required.",
+      "definitionRequired": "At least one definition is required.",
+      "duplicateLanguage": "You cannot add multiple definitions in the same language. Please select different languages for each definition.",
+      "notLoggedIn": "You must be logged in to contribute. Please log in and try again.",
+      "permissionDenied": "Permission denied. This could be an authentication issue. Please log out and log in again.",
+      "generic": "An error occurred while submitting your contribution. Please try again."
+    }
+  },
+  "review": {
+    "queueEyebrow": "Queue · {{count}} entries waiting",
+    "titleLine1": "Help us",
+    "titleEmph": "tend",
+    "titleLine2": "the lexicon.",
+    "subtitle": "Five speakers vote on each entry. Read carefully. A “yes” means you have heard this word used this way — not just that it sounds right.",
+    "tabs": {
+      "words": "New words",
+      "edits": "Edits & corrections",
+      "audio": "Audio recordings",
+      "myVotes": "My votes"
+    },
+    "card": {
+      "approvalsLabel": "Approvals",
+      "approve": "Approve",
+      "defer": "Defer",
+      "reject": "Reject",
+      "suggest": "Suggest a correction",
+      "submitted": "submitted {{date}}"
+    },
+    "yourReviewing": "Your reviewing",
+    "votesCast": "votes cast this season",
+    "topReviewer": "You are among the <strong>top {{rank}}</strong> reviewers. Eligible to vouch for new contributors after 100.",
+    "guidanceEyebrow": "How to vote",
+    "guidance": [
+      {
+        "title": "Approve",
+        "body": "You have heard this word, in this meaning, in real use."
+      },
+      {
+        "title": "Reject",
+        "body": "You have not heard this, OR the meaning is wrong."
+      },
+      {
+        "title": "Defer",
+        "body": "You are not sure — pass the entry to other reviewers."
+      }
+    ],
+    "empty": "Nothing waiting in this queue right now.",
+    "loginRequired": "You must be logged in to review submissions.",
+    "intro": "Help improve the Kurukh Dictionary by reviewing new word submissions. Five community approvals send a word to editor review.",
+    "introCorrections": "Help improve the dictionary by reviewing corrections suggested by the community.",
+    "filterTitle": "Filter by state",
+    "filterTitleCorrections": "Filter corrections by state",
+    "filterSelectAll": "Select all",
+    "filterClearAll": "Clear all",
+    "filterSummary": "{{selected}} of {{total}} states selected",
+    "submittedOn": "Submitted {{date}}",
+    "ownContribution": "This is your contribution — you can't vote on your own words.",
+    "alreadyVoted": "You have already voted on this word.",
+    "alreadyVotedCorrection": "You have already voted on this correction.",
+    "votesAgainstLabel": "rejections",
+    "reviewersLabel": "voters",
+    "stateLabels": {
+      "community_review": "Community review",
+      "in_community_review": "In community review",
+      "pending_review": "Admin review",
+      "community_approved": "Community approved",
+      "community_rejected": "Community rejected"
+    },
+    "card": {
+      "approvalsLabel": "Approvals",
+      "approve": "Approve",
+      "defer": "Defer",
+      "reject": "Reject",
+      "suggest": "Suggest a correction",
+      "submitted": "submitted {{date}}"
+    },
+    "modal": {
+      "approveTitle": "Approve this entry",
+      "rejectTitle": "Reject this entry",
+      "approveBody": "Add a note explaining your approval (optional).",
+      "rejectBody": "Add a note explaining your rejection (optional).",
+      "commentLabel": "Comment",
+      "commentPlaceholder": "A line about why — context, dialect notes, sources…",
+      "cancel": "Cancel",
+      "confirmApprove": "Approve",
+      "confirmReject": "Reject"
+    },
+    "corrections": {
+      "currentValue": "Current value",
+      "proposedChange": "Proposed change",
+      "explanation": "Explanation",
+      "noCurrent": "No current value",
+      "types": {
+        "word_spelling": "Word spelling",
+        "definition": "Definition / meaning",
+        "part_of_speech": "Part of speech",
+        "example_sentence": "Example sentence",
+        "example_translation": "Example translation",
+        "pronunciation": "Pronunciation",
+        "other": "Other"
+      },
+      "stateLabels": {
+        "shallow_review": "Pending review",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "applied": "Applied"
+      }
+    }
+  },
+  "comments": {
+    "loading": "Loading…",
+    "loginRequired": "Log in to join the discussion.",
+    "placeholder": "Add a comment…",
+    "post": "Post comment",
+    "posting": "Posting…",
+    "noComments": "No comments yet. Be the first to start the discussion.",
+    "count_one": "{{count}} comment",
+    "count_other": "{{count}} comments",
+    "sort": {
+      "newest": "Newest first",
+      "oldest": "Oldest first",
+      "best": "Best"
+    },
+    "reply": "Reply",
+    "replyPlaceholder": "Write a reply…",
+    "replyAction": "Reply",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "deleteConfirm": "Are you sure you want to delete this comment?",
+    "edited": "edited",
+    "deleted": "[deleted]",
+    "anonymous": "Anonymous",
+    "showReplies_one": "Show {{count}} reply",
+    "showReplies_other": "Show {{count}} replies",
+    "hideReplies_one": "Hide {{count}} reply",
+    "hideReplies_other": "Hide {{count}} replies",
+    "loadReplies_one": "Load {{count}} reply",
+    "loadReplies_other": "Load {{count}} replies",
+    "loadError": "Failed to load comments",
+    "addError": "Failed to add comment",
+    "replyError": "Failed to add reply"
+  },
+  "profile": {
+    "eyebrow": "Speaker · Member",
+    "memberSince": "Member since {{date}}",
+    "stats": {
+      "contributed": "words contributed",
+      "approved": "approved",
+      "awaiting": "awaiting review",
+      "reviews": "reviews cast"
+    },
+    "editProfile": "Edit profile",
+    "addWord": "Add a word",
+    "aboutEyebrow": "About",
+    "aboutTitle": "Speaker profile",
+    "dialectsEyebrow": "Dialects I speak",
+    "badgesEyebrow": "Badges",
+    "contribsEyebrow": "Your contributions",
+    "contribsTitle": "Words you've planted",
+    "filterAll": "All status",
+    "filterApproved": "Approved",
+    "filterInReview": "In review",
+    "addedOn": "added {{date}}",
+    "emptyContribs": "You haven't contributed any words yet.",
+    "addFirst": "Add your first word",
+    "loadError": "Failed to load your contributions. Please try again.",
+    "status": {
+      "approved": "Approved",
+      "community": "Community · {{count}}/5",
+      "communityApproved": "Community approved",
+      "pending": "Admin review",
+      "rejected": "Rejected",
+      "draft": "Draft"
+    }
+  },
+  "editor": {
+    "saveStatus": "Editor · saved {{time}}",
+    "unsaved": "Editor · unsaved",
+    "share": "Share",
+    "saveHtml": "Save as HTML",
+    "exportPdf": "Export PDF",
+    "exporting": "Exporting…",
+    "templatesEyebrow": "Templates",
+    "templates": {
+      "dictionary": {
+        "title": "Dictionary entry",
+        "sub": "Structured word + meanings + example"
+      },
+      "story": {
+        "title": "Folk story",
+        "sub": "Bilingual storytelling format"
+      },
+      "letter": {
+        "title": "Letter",
+        "sub": "Formal correspondence"
+      },
+      "blank": {
+        "title": "Blank document",
+        "sub": "Start fresh"
+      }
+    },
+    "keyboardEyebrow": "Keyboard",
+    "keyboard": {
+      "kurukh": "Kurukh script",
+      "hindi": "हिन्दी",
+      "bold": "Bold",
+      "italic": "Italic"
+    },
+    "documentEyebrow": "Document",
+    "words": "Words",
+    "characters": "Characters",
+    "readingTime": "Reading time",
+    "minute": "~{{count}} min",
+    "scriptsEyebrow": "Scripts in use",
+    "scripts": {
+      "kurukh": "Kurukh",
+      "hindi": "हिन्दी",
+      "english": "English"
+    },
+    "collaboratorsEyebrow": "Collaborators",
+    "invite": "Invite",
+    "newDocument": "New document",
+    "backToDictionary": "Back to Kurukh Dictionary",
+    "titlePlaceholder": "Untitled document",
+    "synced": "synced",
+    "autoSaved": "auto-saved",
+    "neverSaved": "draft"
+  },
   "footer": {
     "tagline": "An open dictionary stewarded by the Kurukh-speaking community. Free, ad-free, and built to outlive any one of us.",
     "explore": "Explore",
@@ -113,5 +405,29 @@
   "errors": {
     "loadDictionary": "Failed to load dictionary data. Please try again later.",
     "loadWord": "Failed to load word details. Please try again."
+  },
+  "login": {
+    "eyebrow": "Sign in · the keeper's gate",
+    "titleLine1": "Welcome",
+    "titleEmph": "back",
+    "titleLine2": ", keeper of words.",
+    "panelQuote": "“Every word, when you stand close enough to it, opens out into a place.”",
+    "panelAttribution": "— Binod Lakra, 78, Gumla",
+    "formTitle": "Log in",
+    "formSubtitle": "Continue tending the archive.",
+    "email": "Email",
+    "emailPlaceholder": "you@village.dict",
+    "password": "Password",
+    "passwordPlaceholder": "your private word",
+    "submit": "Log in",
+    "submitting": "Logging in…",
+    "or": "or",
+    "google": "Continue with Google",
+    "noAccount": "New to the archive?",
+    "registerLink": "Create an account",
+    "errors": {
+      "generic": "Failed to log in. Please check your credentials and try again.",
+      "google": "Failed to log in with Google. Please try again."
+    }
   }
 }

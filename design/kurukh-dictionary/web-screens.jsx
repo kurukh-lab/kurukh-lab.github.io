@@ -717,4 +717,4 @@ function SidebarCard({ t, title, children, mt = 0 }) {
   );
 }
 
-Object.assign(window, { WebHome, WebWordDetail, KMark });
+Object.assign(window, { WebHome, WebWordDetail, KMark, WebNav, WebFooter, SectionLabel });

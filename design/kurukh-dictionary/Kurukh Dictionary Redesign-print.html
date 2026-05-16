@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Kurukh Dictionary — Redesign · PDF</title>
+  <style>
+    @page { size: A4 landscape; margin: 0.5cm; }
+    html, body { margin: 0; padding: 0; background: #f0eee9;
+      font-family: "DM Sans", -apple-system, system-ui, sans-serif;
+      -webkit-print-color-adjust: exact; print-color-adjust: exact;
+      color-adjust: exact; }
+
+    /* Each "page" frame in screen view matches a landscape A4 page (with margins) */
+    .page {
+      width: 287mm; height: 190mm;
+      margin: 0 auto 16px;
+      background: #f0eee9;
+      box-sizing: border-box;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      break-after: page; page-break-after: always;
+      overflow: hidden;
+      position: relative;
+    }
+    .page:last-child { break-after: auto; page-break-after: auto; }
+
+    /* Section divider — full-page card with eyebrow + huge title */
+    .divider {
+      background: #F5EFE3; color: #1C1814; text-align: left;
+      padding: 12mm 18mm;
+      align-items: flex-start; justify-content: center;
+    }
+    .divider.dark { background: #13110F; color: #F2EBDC; }
+    .divider .eyebrow {
+      font-family: "JetBrains Mono", monospace; font-size: 14px;
+      letter-spacing: 0.2em; text-transform: uppercase; color: #C7522A;
+      margin-bottom: 10mm;
+    }
+    .divider h1 {
+      font-family: "Newsreader", "Source Serif Pro", Georgia, serif;
+      font-weight: 500; font-size: 96px; line-height: 1.02;
+      letter-spacing: -0.025em; margin: 0; max-width: 80%;
+    }
+    .divider h1.hi { font-family: "Noto Serif Devanagari", "Newsreader", serif; }
+    .divider em { font-style: italic; color: #C7522A; font-weight: 400; }
+    .divider em.hi { font-style: normal; }
+    .divider p {
+      font-family: "Newsreader", Georgia, serif; font-size: 22px;
+      line-height: 1.5; max-width: 540px; margin: 8mm 0 0;
+      color: #534B40;
+    }
+    .divider.dark p { color: #B8AE9A; }
+
+    /* Caption strip at the bottom of each screen page */
+    .caption {
+      position: absolute; bottom: 4mm; left: 8mm; right: 8mm;
+      display: flex; align-items: center; justify-content: space-between;
+      font-family: "JetBrains Mono", monospace; font-size: 10px;
+      color: #8A8073; letter-spacing: 0.1em; text-transform: uppercase;
+    }
+    .caption .right { font-family: "DM Sans", system-ui, sans-serif;
+      letter-spacing: 0; text-transform: none; color: #534B40;
+      font-weight: 500; font-size: 11px; }
+
+    /* Each scaled screen sits inside .stage; we measure it after mount and
+       apply a transform that fits it into the page content area. */
+    .stage {
+      transform-origin: center center;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    /* Mobile pages put two devices side by side */
+    .row { display: flex; align-items: center; justify-content: center; gap: 12mm; }
+
+    .pn { /* page number badge */
+      position: absolute; top: 4mm; right: 8mm;
+      font-family: "JetBrains Mono", monospace; font-size: 10px;
+      letter-spacing: 0.1em; color: #8A8073;
+    }
+
+    /* Cover page */
+    .cover {
+      background: #C7522A; color: #FBF7EE;
+      align-items: flex-start; justify-content: flex-end;
+      padding: 14mm 18mm;
+    }
+    .cover .mark {
+      position: absolute; top: 14mm; left: 18mm;
+      display: flex; align-items: center; gap: 14px;
+    }
+    .cover .mark-tile {
+      width: 56px; height: 56px; border-radius: 14px;
+      background: #FBF7EE; color: #C7522A;
+      display: flex; align-items: center; justify-content: center;
+      font-family: "Newsreader", serif; font-weight: 600; font-size: 36px;
+      letter-spacing: -0.02em;
+    }
+    .cover h1 {
+      font-family: "Newsreader", serif; font-weight: 500; font-size: 120px;
+      line-height: 0.95; letter-spacing: -0.03em; margin: 0;
+      max-width: 86%;
+    }
+    .cover h1 em { font-style: italic; color: rgba(251,247,238,0.65); font-weight: 400; }
+    .cover .sub {
+      font-family: "JetBrains Mono", monospace; font-size: 14px;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      opacity: 0.85; margin-top: 8mm; margin-bottom: 4mm;
+    }
+    .cover .footer {
+      position: absolute; bottom: 14mm; left: 18mm; right: 18mm;
+      display: flex; align-items: center; justify-content: space-between;
+      font-family: "DM Sans", system-ui, sans-serif; font-size: 13px;
+      opacity: 0.85; padding-top: 6mm;
+      border-top: 1px solid rgba(251,247,238,0.25);
+    }
+
+    *::-webkit-scrollbar { display: none; }
+    * { scrollbar-width: none; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React + Babel -->
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <!-- Starters + screens (reuse the same source files) -->
+  <script type="text/babel" src="browser-window.jsx"></script>
+  <script type="text/babel" src="ios-frame.jsx"></script>
+  <script type="text/babel" src="android-frame.jsx"></script>
+  <script type="text/babel" src="tokens.jsx"></script>
+  <script type="text/babel" src="web-screens.jsx"></script>
+  <script type="text/babel" src="mobile-screens.jsx"></script>
+  <script type="text/babel" src="hindi-screens.jsx"></script>
+
+  <script type="text/babel">
+    const {
+      IOSDevice, AndroidDevice,
+      WebHome, WebWordDetail,
+      IOSHome, IOSWordDetail, IOSContribute,
+      AndroidHome, AndroidWordDetail,
+      HiWebHome, HiWebWordDetail,
+      HiIOSHome, HiIOSWordDetail,
+      HiAndroidHome, HiAndroidWordDetail,
+      KD,
+    } = window;
+
+    // Simple browser shell (matches the canvas one but lighter — no toolbar interactivity)
+    function PrintBrowser({ dark = false, url, width, height, children }) {
+      const bar = dark ? '#26221E' : '#EFE7D5';
+      const text = dark ? '#F2EBDC' : '#1C1814';
+      const dim = dark ? '#B8AE9A' : '#8A8073';
+      return (
+        <div style={{
+          width, height, borderRadius: 12, overflow: 'hidden',
+          boxShadow: '0 24px 60px rgba(0,0,0,0.18), 0 0 0 1px rgba(28,24,20,0.10)',
+          display: 'flex', flexDirection: 'column', background: bar,
+        }}>
+          <div style={{
+            display: 'flex', alignItems: 'center', gap: 14, padding: '12px 16px',
+            borderBottom: `1px solid ${dark ? 'rgba(242,235,220,0.08)' : 'rgba(28,24,20,0.08)'}`,
+          }}>
+            <div style={{ display: 'flex', gap: 7 }}>
+              <div style={{ width: 12, height: 12, borderRadius: '50%', background: '#ff5f57' }}/>
+              <div style={{ width: 12, height: 12, borderRadius: '50%', background: '#febc2e' }}/>
+              <div style={{ width: 12, height: 12, borderRadius: '50%', background: '#28c840' }}/>
+            </div>
+            <div style={{
+              flex: 1, height: 30, borderRadius: 8,
+              background: dark ? '#1B1816' : '#FBF7EE',
+              display: 'flex', alignItems: 'center', padding: '0 12px',
+              fontFamily: 'DM Sans, system-ui', fontSize: 12, color: text,
+            }}>{url}</div>
+          </div>
+          <div style={{ flex: 1, overflow: 'hidden', background: dark ? KD.dark.bg : KD.light.bg }}>
+            {children}
+          </div>
+        </div>
+      );
+    }
+
+    // A Page wrapper that scales its inner content to fit the page content area.
+    // The page is 287mm × 190mm. We assume 96 DPI: 287mm ≈ 1085px, 190mm ≈ 718px.
+    // We pick a uniform scale based on the content's natural width/height.
+    const PAGE_W = 1085, PAGE_H = 718;
+
+    function ScreenPage({ contentW, contentH, label, sectionLabel, pageNum, children }) {
+      const scale = Math.min((PAGE_W - 40) / contentW, (PAGE_H - 80) / contentH);
+      return (
+        <div className="page">
+          <span className="pn">{pageNum}</span>
+          <div className="stage" style={{
+            width: contentW * scale, height: contentH * scale,
+          }}>
+            <div style={{
+              width: contentW, height: contentH,
+              transform: `scale(${scale})`, transformOrigin: 'center center',
+            }}>{children}</div>
+          </div>
+          <div className="caption">
+            <span>{sectionLabel}</span>
+            <span className="right">{label}</span>
+          </div>
+        </div>
+      );
+    }
+
+    // Mobile pair page — two devices side by side
+    function MobilePairPage({ deviceW, deviceH, sectionLabel, labels, pageNum, children }) {
+      // Two devices + gap should fit within PAGE_W; we scale uniformly.
+      const totalW = deviceW * 2 + 60; // 60px gap
+      const scale = Math.min((PAGE_W - 40) / totalW, (PAGE_H - 80) / deviceH);
+      return (
+        <div className="page">
+          <span className="pn">{pageNum}</span>
+          <div className="stage" style={{
+            width: totalW * scale, height: deviceH * scale,
+          }}>
+            <div className="row" style={{
+              width: totalW, height: deviceH,
+              transform: `scale(${scale})`, transformOrigin: 'center center',
+              gap: 60,
+            }}>{children}</div>
+          </div>
+          <div className="caption">
+            <span>{sectionLabel}</span>
+            <span className="right">{labels.join('  ·  ')}</span>
+          </div>
+        </div>
+      );
+    }
+
+    function Divider({ dark = false, eyebrow, title, sub, hi = false, pageNum }) {
+      return (
+        <div className={'page divider' + (dark ? ' dark' : '')}>
+          <span className="pn" style={{ color: dark ? '#7A7060' : '#8A8073' }}>{pageNum}</span>
+          <div className="eyebrow">{eyebrow}</div>
+          <h1 className={hi ? 'hi' : ''}
+            dangerouslySetInnerHTML={{ __html: title }}/>
+          {sub && <p>{sub}</p>}
+        </div>
+      );
+    }
+
+    function Cover() {
+      return (
+        <div className="page cover">
+          <div className="mark">
+            <div className="mark-tile">K</div>
+            <div style={{ fontFamily: 'Newsreader, serif', fontSize: 28, fontWeight: 600 }}>
+              Kurukh<span style={{ color: 'rgba(251,247,238,0.55)' }}>.</span>
+            </div>
+          </div>
+          <div>
+            <div className="sub">2026 · A redesign proposal</div>
+            <h1>A dictionary,<br/><em>tended</em> by its speakers.</h1>
+          </div>
+          <div className="footer">
+            <span>Kurukh Dictionary · web · iOS · Android · Hindi (हिन्दी) twin</span>
+            <span>26 screens · light + dark</span>
+          </div>
+        </div>
+      );
+    }
+
+    function App() {
+      // Build the page list in order.
+      let n = 0;
+      const next = () => ++n;
+      return (
+        <>
+          <Cover/>
+
+          {/* ─── Kurukh · Web ─── */}
+          <Divider pageNum={next()}
+            eyebrow="01 · Kurukh · Web"
+            title='A dictionary<br/><em>tended</em> by its speakers.'
+            sub="Warm bone surface, deep ink, terracotta accent. Newsreader for the word; DM Sans for UI."/>
+          <ScreenPage contentW={1280} contentH={1500}
+            sectionLabel="Kurukh · Web · Light" label="Home" pageNum={next()}>
+            <PrintBrowser url="kurukh.dict" width={1280} height={1500}>
+              <WebHome dark={false}/>
+            </PrintBrowser>
+          </ScreenPage>
+          <ScreenPage contentW={1280} contentH={1500}
+            sectionLabel="Kurukh · Web · Light" label="Word detail — khekhel" pageNum={next()}>
+            <PrintBrowser url="kurukh.dict/word/khekhel" width={1280} height={1500}>
+              <WebWordDetail dark={false}/>
+            </PrintBrowser>
+          </ScreenPage>
+          <ScreenPage contentW={1280} contentH={1500}
+            sectionLabel="Kurukh · Web · Dark" label="Home" pageNum={next()}>
+            <PrintBrowser dark url="kurukh.dict" width={1280} height={1500}>
+              <WebHome dark={true}/>
+            </PrintBrowser>
+          </ScreenPage>
+          <ScreenPage contentW={1280} contentH={1500}
+            sectionLabel="Kurukh · Web · Dark" label="Word detail — khekhel" pageNum={next()}>
+            <PrintBrowser dark url="kurukh.dict/word/khekhel" width={1280} height={1500}>
+              <WebWordDetail dark={true}/>
+            </PrintBrowser>
+          </ScreenPage>
+
+          {/* ─── Kurukh · iOS ─── */}
+          <Divider pageNum={next()}
+            eyebrow="02 · Kurukh · iOS"
+            title='Built for every <em>age</em>.'
+            sub="Generous serif type, ≥44pt tap targets, postcard cards for the word of the day."/>
+          <MobilePairPage deviceW={402} deviceH={874}
+            sectionLabel="Kurukh · iOS · Light" labels={['Home', 'Word detail']} pageNum={next()}>
+            <IOSDevice dark={false} width={402} height={874}><IOSHome dark={false}/></IOSDevice>
+            <IOSDevice dark={false} width={402} height={874}><IOSWordDetail dark={false}/></IOSDevice>
+          </MobilePairPage>
+          <MobilePairPage deviceW={402} deviceH={874}
+            sectionLabel="Kurukh · iOS · Light" labels={['Contribute', '—']} pageNum={next()}>
+            <IOSDevice dark={false} width={402} height={874}><IOSContribute dark={false}/></IOSDevice>
+            <div style={{ width: 402, height: 874 }}/>
+          </MobilePairPage>
+          <MobilePairPage deviceW={402} deviceH={874}
+            sectionLabel="Kurukh · iOS · Dark" labels={['Home', 'Word detail']} pageNum={next()}>
+            <IOSDevice dark={true} width={402} height={874}><IOSHome dark={true}/></IOSDevice>
+            <IOSDevice dark={true} width={402} height={874}><IOSWordDetail dark={true}/></IOSDevice>
+          </MobilePairPage>
+
+          {/* ─── Kurukh · Android ─── */}
+          <Divider pageNum={next()}
+            eyebrow="03 · Kurukh · Android"
+            title='Material 3,<br/><em>expressive</em>.'
+            sub="Mixed-shape cards, dynamic color, a hero block that quotes the word back at full bleed."/>
+          <MobilePairPage deviceW={412} deviceH={892}
+            sectionLabel="Kurukh · Android · Light" labels={['Home', 'Word detail']} pageNum={next()}>
+            <AndroidDevice dark={false} width={412} height={892}><AndroidHome dark={false}/></AndroidDevice>
+            <AndroidDevice dark={false} width={412} height={892}><AndroidWordDetail dark={false}/></AndroidDevice>
+          </MobilePairPage>
+          <MobilePairPage deviceW={412} deviceH={892}
+            sectionLabel="Kurukh · Android · Dark" labels={['Home', 'Word detail']} pageNum={next()}>
+            <AndroidDevice dark={true} width={412} height={892}><AndroidHome dark={true}/></AndroidDevice>
+            <AndroidDevice dark={true} width={412} height={892}><AndroidWordDetail dark={true}/></AndroidDevice>
+          </MobilePairPage>
+
+          {/* ─── Hindi · Web ─── */}
+          <Divider pageNum={next()} hi
+            eyebrow="04 · हिन्दी · Web"
+            title='एक शब्दकोश,<br/><em class="hi">बोलने वालों</em> का।'
+            sub="वही गर्म रंग, वही लय — बस अब देवनागरी में। Noto Serif Devanagari + Noto Sans Devanagari."/>
+          <ScreenPage contentW={1280} contentH={1500}
+            sectionLabel="हिन्दी · Web · Light" label="मुख्य" pageNum={next()}>
+            <PrintBrowser url="kosh.dict" width={1280} height={1500}>
+              <HiWebHome dark={false}/>
+            </PrintBrowser>
+          </ScreenPage>
+          <ScreenPage contentW={1280} contentH={1500}
+            sectionLabel="हिन्दी · Web · Light" label="शब्द — जंगल" pageNum={next()}>
+            <PrintBrowser url="kosh.dict/शब्द/जंगल" width={1280} height={1500}>
+              <HiWebWordDetail dark={false}/>
+            </PrintBrowser>
+          </ScreenPage>
+          <ScreenPage contentW={1280} contentH={1500}
+            sectionLabel="हिन्दी · Web · Dark" label="मुख्य" pageNum={next()}>
+            <PrintBrowser dark url="kosh.dict" width={1280} height={1500}>
+              <HiWebHome dark={true}/>
+            </PrintBrowser>
+          </ScreenPage>
+          <ScreenPage contentW={1280} contentH={1500}
+            sectionLabel="हिन्दी · Web · Dark" label="शब्द — जंगल" pageNum={next()}>
+            <PrintBrowser dark url="kosh.dict/शब्द/जंगल" width={1280} height={1500}>
+              <HiWebWordDetail dark={true}/>
+            </PrintBrowser>
+          </ScreenPage>
+
+          {/* ─── Hindi · iOS ─── */}
+          <Divider pageNum={next()} hi
+            eyebrow="05 · हिन्दी · iOS"
+            title='हर <em class="hi">उम्र</em> के लिए।'
+            sub="बड़े अक्षर, सरल नेविगेशन, चित्र‑पोस्टकार्ड शैली का आज का शब्द।"/>
+          <MobilePairPage deviceW={402} deviceH={874}
+            sectionLabel="हिन्दी · iOS · Light" labels={['मुख्य', 'शब्द — जंगल']} pageNum={next()}>
+            <IOSDevice dark={false} width={402} height={874}><HiIOSHome dark={false}/></IOSDevice>
+            <IOSDevice dark={false} width={402} height={874}><HiIOSWordDetail dark={false}/></IOSDevice>
+          </MobilePairPage>
+          <MobilePairPage deviceW={402} deviceH={874}
+            sectionLabel="हिन्दी · iOS · Dark" labels={['मुख्य', 'शब्द — जंगल']} pageNum={next()}>
+            <IOSDevice dark={true} width={402} height={874}><HiIOSHome dark={true}/></IOSDevice>
+            <IOSDevice dark={true} width={402} height={874}><HiIOSWordDetail dark={true}/></IOSDevice>
+          </MobilePairPage>
+
+          {/* ─── Hindi · Android ─── */}
+          <Divider pageNum={next()} hi
+            eyebrow="06 · हिन्दी · Android"
+            title='Material 3,<br/><em class="hi">हिन्दी में</em>।'
+            sub="उसी जोड़ी का देवनागरी संस्करण — मिश्रित कार्ड, गतिशील रंग, पूर्ण‑पटल हीरो ब्लॉक।"/>
+          <MobilePairPage deviceW={412} deviceH={892}
+            sectionLabel="हिन्दी · Android · Light" labels={['मुख्य', 'शब्द — चाँद']} pageNum={next()}>
+            <AndroidDevice dark={false} width={412} height={892}><HiAndroidHome dark={false}/></AndroidDevice>
+            <AndroidDevice dark={false} width={412} height={892}><HiAndroidWordDetail dark={false}/></AndroidDevice>
+          </MobilePairPage>
+          <MobilePairPage deviceW={412} deviceH={892}
+            sectionLabel="हिन्दी · Android · Dark" labels={['मुख्य', 'शब्द — चाँद']} pageNum={next()}>
+            <AndroidDevice dark={true} width={412} height={892}><HiAndroidHome dark={true}/></AndroidDevice>
+            <AndroidDevice dark={true} width={412} height={892}><HiAndroidWordDetail dark={true}/></AndroidDevice>
+          </MobilePairPage>
+
+          {/* Closing page */}
+          <Divider pageNum={next()}
+            eyebrow="Fin · 2026"
+            title='Built to <em>outlive</em> any one of us.'
+            sub="An open, ad-free, community-stewarded archive — for Kurukh, हिन्दी, and the next tongue that needs one."/>
+        </>
+      );
+    }
+
+    // Wait for fonts + Babel + React mount before triggering print.
+    ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+
+    (async () => {
+      try { if (document.fonts && document.fonts.ready) await document.fonts.ready; } catch (e) {}
+      // Allow children (iOS keyboard fonts, etc) and layout to settle
+      await new Promise(r => setTimeout(r, 1200));
+      if (window.__PRINT_OK !== false) window.print();
+    })();
+  </script>
+</body>
+</html>
