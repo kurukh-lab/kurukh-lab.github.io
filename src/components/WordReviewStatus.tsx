@@ -11,17 +11,49 @@ export interface WordReviewStatusProps {
   realTimeUpdates?: boolean;
 }
 
-const statusColors: Record<string, string> = {
-  draft: 'badge-neutral',
-  submitted: 'badge-info',
-  pendingCommunityReview: 'badge-warning',
-  inCommunityReview: 'badge-warning',
-  communityApproved: 'badge-success',
-  communityRejected: 'badge-error',
-  pendingAdminReview: 'badge-primary',
-  inAdminReview: 'badge-primary',
-  approved: 'badge-success',
-  rejected: 'badge-error',
+type Tone = 'neutral' | 'info' | 'progress' | 'sage' | 'accent';
+
+const statusTone: Record<string, Tone> = {
+  draft: 'neutral',
+  submitted: 'info',
+  pendingCommunityReview: 'progress',
+  inCommunityReview: 'progress',
+  communityApproved: 'sage',
+  communityRejected: 'accent',
+  pendingAdminReview: 'info',
+  inAdminReview: 'info',
+  approved: 'sage',
+  rejected: 'accent',
+};
+
+const toneStyle = (tone: Tone): React.CSSProperties => {
+  switch (tone) {
+    case 'sage':
+      return {
+        background: 'color-mix(in srgb, var(--kd-sage) 14%, transparent)',
+        color: 'var(--kd-sage)',
+      };
+    case 'accent':
+      return {
+        background: 'var(--kd-accent-tint)',
+        color: 'var(--kd-accent)',
+      };
+    case 'progress':
+      return {
+        background: 'color-mix(in srgb, #FEBC2E 22%, transparent)',
+        color: 'var(--kd-ink)',
+      };
+    case 'info':
+      return {
+        background: 'var(--kd-surface-alt)',
+        color: 'var(--kd-ink)',
+      };
+    default:
+      return {
+        background: 'var(--kd-surface-alt)',
+        color: 'var(--kd-ink-soft)',
+      };
+  }
 };
 
 const actionMap: Record<string, string> = {
@@ -46,6 +78,20 @@ const actionMap: Record<string, string> = {
 };
 
 const formatEventAction = (action: string): string => actionMap[action] || action;
+
+const STEPS: { label: string; match: string[] }[] = [
+  { label: 'Draft', match: ['draft'] },
+  { label: 'Submitted', match: ['submitted'] },
+  { label: 'Community review', match: ['pendingCommunityReview', 'inCommunityReview'] },
+  {
+    label: 'Community decision',
+    match: ['communityApproved', 'communityRejected'],
+  },
+  { label: 'Admin review', match: ['pendingAdminReview', 'inAdminReview'] },
+  { label: 'Final decision', match: ['approved', 'rejected'] },
+];
+
+const REJECTED_STATES = new Set(['communityRejected', 'rejected']);
 
 const WordReviewStatus = ({ wordId, realTimeUpdates = true }: WordReviewStatusProps) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -79,7 +125,7 @@ const WordReviewStatus = ({ wordId, realTimeUpdates = true }: WordReviewStatusPr
   });
 
   const currentState = (wordReview.state || initialState) as string;
-  const statusColor = statusColors[currentState] || 'badge-neutral';
+  const tone = statusTone[currentState] || 'neutral';
   const statusText = wordReview.getStatusText ? wordReview.getStatusText() : initialState;
   const context = wordReview.context || initialContext;
   const communityVotes = wordReview.getCommunityVotes
@@ -90,53 +136,144 @@ const WordReviewStatus = ({ wordId, realTimeUpdates = true }: WordReviewStatusPr
     action: string;
   }>;
 
+  const activeStepIndex = STEPS.findIndex((s) => s.match.includes(currentState));
+  const isRejected = REJECTED_STATES.has(currentState);
+
   if (isLoading) {
     return (
-      <div className="flex items-center gap-2">
-        <span className="loading loading-spinner loading-sm"></span>
-        <span>Loading status...</span>
+      <div
+        className="kd-font-mono"
+        style={{
+          fontSize: 11,
+          letterSpacing: '0.16em',
+          textTransform: 'uppercase',
+          color: 'var(--kd-ink-mute)',
+        }}
+      >
+        Loading status…
       </div>
     );
   }
-  if (error) return <div className="text-error">{error}</div>;
+  if (error)
+    return (
+      <div
+        className="kd-font-sans"
+        style={{ color: 'var(--kd-accent)', fontSize: 14 }}
+      >
+        {error}
+      </div>
+    );
 
   return (
-    <div className="space-y-3">
-      <div className="flex flex-wrap items-center gap-3">
-        <h3 className="font-medium">Review Status:</h3>
-        <div className={`badge ${statusColor}`}>{statusText}</div>
+    <div className="flex flex-col gap-5">
+      <div className="flex flex-wrap items-center gap-2.5">
+        <span
+          className="kd-font-mono"
+          style={{
+            fontSize: 11,
+            letterSpacing: '0.16em',
+            textTransform: 'uppercase',
+            padding: '4px 10px',
+            borderRadius: 999,
+            ...toneStyle(tone),
+          }}
+        >
+          {statusText}
+        </span>
         {wordReview.isRealTimeActive && (
-          <div className="badge badge-outline badge-sm">
-            <span className="inline-block w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-            Live Updates
-          </div>
+          <span
+            className="kd-font-mono inline-flex items-center gap-1.5"
+            style={{
+              fontSize: 10.5,
+              letterSpacing: '0.16em',
+              textTransform: 'uppercase',
+              padding: '3px 8px',
+              borderRadius: 999,
+              border: '1px solid var(--kd-line)',
+              color: 'var(--kd-ink-soft)',
+            }}
+          >
+            <span
+              aria-hidden="true"
+              style={{
+                width: 6,
+                height: 6,
+                borderRadius: '50%',
+                background: 'var(--kd-sage)',
+              }}
+            />
+            Live
+          </span>
         )}
       </div>
 
-      <div className="overflow-x-auto">
-        <div className="flex gap-2 items-center min-w-max py-3">
-          {[
-            { label: 'Draft', match: ['draft'] },
-            { label: 'Submitted', match: ['submitted'] },
-            { label: 'Community Review', match: ['pendingCommunityReview', 'inCommunityReview'] },
-            { label: 'Community Decision', match: ['communityApproved', 'communityRejected'] },
-            { label: 'Admin Review', match: ['pendingAdminReview', 'inAdminReview'] },
-            { label: 'Final Decision', match: ['approved', 'rejected'] },
-          ].map((step, i) => {
-            const active = step.match.includes(currentState);
+      <div className="overflow-x-auto -mx-1 px-1 pb-1">
+        <div className="flex items-start gap-0 min-w-max">
+          {STEPS.map((step, i) => {
+            const isActive = i === activeStepIndex;
+            const isDone = activeStepIndex >= 0 && i < activeStepIndex;
+            const isFinalRejected = isActive && isRejected;
+            let dotBg = 'var(--kd-surface-alt)';
+            let dotColor = 'var(--kd-ink-mute)';
+            let dotBorder = '1px solid var(--kd-line)';
+            if (isActive) {
+              dotBg = isFinalRejected ? 'var(--kd-accent)' : 'var(--kd-ink)';
+              dotColor = '#FBF7EE';
+              dotBorder = 'none';
+            } else if (isDone) {
+              dotBg = 'var(--kd-sage)';
+              dotColor = '#FBF7EE';
+              dotBorder = 'none';
+            }
             return (
-              <div key={step.label} className="flex items-center gap-2">
-                <div className={`flex flex-col items-center ${active ? 'text-primary' : ''}`}>
+              <div
+                key={step.label}
+                className="flex items-start"
+                style={{ flex: '0 0 auto' }}
+              >
+                <div className="flex flex-col items-center" style={{ width: 96 }}>
                   <div
-                    className={`w-8 h-8 rounded-full flex items-center justify-center ${
-                      active ? 'bg-primary text-white' : 'bg-base-200'
-                    }`}
+                    className="kd-font-mono"
+                    style={{
+                      width: 26,
+                      height: 26,
+                      borderRadius: '50%',
+                      background: dotBg,
+                      color: dotColor,
+                      border: dotBorder,
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: 11,
+                      fontWeight: 600,
+                    }}
                   >
                     {i + 1}
                   </div>
-                  <span className="text-xs mt-1">{step.label}</span>
+                  <span
+                    className="kd-font-sans text-center mt-2 px-1"
+                    style={{
+                      fontSize: 11,
+                      lineHeight: 1.3,
+                      color: isActive ? 'var(--kd-ink)' : 'var(--kd-ink-soft)',
+                      fontWeight: isActive ? 600 : 400,
+                    }}
+                  >
+                    {step.label}
+                  </span>
                 </div>
-                {i < 5 && <div className="w-8 h-0.5 bg-base-200"></div>}
+                {i < STEPS.length - 1 && (
+                  <div
+                    aria-hidden="true"
+                    style={{
+                      height: 1,
+                      width: 24,
+                      marginTop: 13,
+                      background: isDone ? 'var(--kd-sage)' : 'var(--kd-line)',
+                      flex: '0 0 auto',
+                    }}
+                  />
+                )}
               </div>
             );
           })}
@@ -144,19 +281,63 @@ const WordReviewStatus = ({ wordId, realTimeUpdates = true }: WordReviewStatusPr
       </div>
 
       {['inCommunityReview', 'communityApproved', 'communityRejected'].includes(currentState) && (
-        <div className="mt-3">
-          <h4 className="font-medium text-sm">Community Votes:</h4>
-          <div className="flex items-center gap-4 text-sm">
-            <span>👍 {communityVotes?.for || 0}</span>
-            <span>👎 {communityVotes?.against || 0}</span>
+        <div
+          className="grid grid-cols-2 gap-3 rounded-xl p-4"
+          style={{ background: 'var(--kd-bg)', border: '1px solid var(--kd-line)' }}
+        >
+          <div>
+            <div
+              className="kd-font-serif"
+              style={{
+                fontSize: 26,
+                lineHeight: 1,
+                color: 'var(--kd-sage)',
+              }}
+            >
+              {communityVotes?.for || 0}
+            </div>
+            <div
+              className="kd-font-mono mt-1.5"
+              style={{
+                fontSize: 10.5,
+                letterSpacing: '0.16em',
+                textTransform: 'uppercase',
+                color: 'var(--kd-ink-mute)',
+              }}
+            >
+              Approvals
+            </div>
+          </div>
+          <div>
+            <div
+              className="kd-font-serif"
+              style={{
+                fontSize: 26,
+                lineHeight: 1,
+                color: 'var(--kd-accent)',
+              }}
+            >
+              {communityVotes?.against || 0}
+            </div>
+            <div
+              className="kd-font-mono mt-1.5"
+              style={{
+                fontSize: 10.5,
+                letterSpacing: '0.16em',
+                textTransform: 'uppercase',
+                color: 'var(--kd-ink-mute)',
+              }}
+            >
+              Flags
+            </div>
           </div>
         </div>
       )}
 
       {history && history.length > 0 && (
-        <div className="mt-4">
-          <h4 className="font-medium text-sm mb-2">Review History:</h4>
-          <ol className="timeline timeline-vertical timeline-compact">
+        <div>
+          <div className="kd-eyebrow mb-3">Review history</div>
+          <ol className="flex flex-col gap-3">
             {history.map((event, index) => {
               const ts = event.timestamp;
               const dateStr =
@@ -165,16 +346,41 @@ const WordReviewStatus = ({ wordId, realTimeUpdates = true }: WordReviewStatusPr
                   : ts instanceof Date
                     ? ts.toLocaleString()
                     : '';
+              const isReject =
+                event.action.includes('reject') || event.action.includes('Reject');
               return (
-                <li key={index} className="timeline-item">
-                  <div className="timeline-middle">
-                    <div className="w-2 h-2 rounded-full bg-primary"></div>
+                <li key={index} className="flex items-start gap-3">
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: 8,
+                      height: 8,
+                      borderRadius: '50%',
+                      marginTop: 6,
+                      background: isReject ? 'var(--kd-accent)' : 'var(--kd-sage)',
+                      flex: '0 0 auto',
+                    }}
+                  />
+                  <div className="min-w-0">
+                    <div
+                      className="kd-font-sans"
+                      style={{ color: 'var(--kd-ink)', fontSize: 14 }}
+                    >
+                      {formatEventAction(event.action)}
+                    </div>
+                    {dateStr && (
+                      <div
+                        className="kd-font-mono mt-0.5"
+                        style={{
+                          fontSize: 11,
+                          letterSpacing: '0.04em',
+                          color: 'var(--kd-ink-mute)',
+                        }}
+                      >
+                        {dateStr}
+                      </div>
+                    )}
                   </div>
-                  <div className={`timeline-${index % 2 === 0 ? 'start' : 'end'} pr-4`}>
-                    <div className="text-xs">{dateStr}</div>
-                    <div className="text-sm">{formatEventAction(event.action)}</div>
-                  </div>
-                  <hr className={index === history.length - 1 ? 'hidden' : ''} />
                 </li>
               );
             })}

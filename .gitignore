@@ -41,3 +41,5 @@ emulator-data/
 .env.example
 .vite/
 coverage/
+
+.playwright-mcp/

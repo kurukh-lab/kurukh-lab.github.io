@@ -5,12 +5,12 @@ import { getWordById } from '../services/dictionaryService';
 import { formatDate } from '../utils/wordUtils';
 import ReportWordModal from '../components/dictionary/ReportWordModal';
 import SuggestCorrectionModal from '../components/dictionary/SuggestCorrectionModal';
-import PronunciationButton from '../components/dictionary/PronunciationButton';
 import ShareWordButtons from '../components/dictionary/ShareWordButtons';
 import LikeButton from '../components/dictionary/LikeButton';
 import WordReviewStatus from '../components/WordReviewStatus';
 import { useAuth } from '../contexts/AuthContext';
 import SectionLabel from '../components/kd/SectionLabel';
+import AudioPlayer, { type AudioTrack } from '../components/kd/AudioPlayer';
 import { IconBack, IconBookmark } from '../components/kd/icons';
 import type { Word } from '../types';
 
@@ -19,6 +19,8 @@ type WordWithExtras = Word & {
   created_by?: string;
   etymology?: string;
   tags?: string[];
+  audio_tracks?: AudioTrack[];
+  pronunciation_audio_url?: string;
 };
 
 const WordDetails = () => {
@@ -171,7 +173,6 @@ const WordDetails = () => {
           </div>
 
           <div className="flex flex-wrap gap-2">
-            <PronunciationButton text={word.kurukh_word} />
             <button
               type="button"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-[10px] kd-font-sans text-[14px] font-medium transition-colors"
@@ -195,6 +196,14 @@ const WordDetails = () => {
               />
             </div>
           </div>
+        </div>
+
+        <div className="mt-8">
+          <AudioPlayer
+            tracks={word.audio_tracks}
+            src={word.pronunciation_audio_url}
+            ariaLabel={`Pronunciation of ${word.kurukh_word}`}
+          />
         </div>
       </div>
 
