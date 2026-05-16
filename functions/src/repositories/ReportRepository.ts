@@ -5,7 +5,7 @@ import type { IReportRepository, ResolveReportData } from './interfaces/IReportR
 export class ReportRepository implements IReportRepository {
   private static readonly COLLECTION = 'reports';
 
-  constructor(private readonly db: Firestore) {}
+  constructor(private readonly db: Firestore) { }
 
   async getReportsByWordId(wordId: string, uid?: string): Promise<Report[]> {
     let query = this.db

@@ -5,7 +5,7 @@ import type { IWordRepository } from './interfaces/IWordRepository';
 export class WordRepository implements IWordRepository {
   private static readonly COLLECTION = 'words';
 
-  constructor(private readonly db: Firestore) {}
+  constructor(private readonly db: Firestore) { }
 
   async getApprovedWords(): Promise<Word[]> {
     const snap = await this.db

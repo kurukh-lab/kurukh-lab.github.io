@@ -5,7 +5,7 @@ import type { IStatisticsRepository } from './interfaces/IStatisticsRepository';
 export class StatisticsRepository implements IStatisticsRepository {
   private static readonly COLLECTION = 'statistics';
 
-  constructor(private readonly db: Firestore) {}
+  constructor(private readonly db: Firestore) { }
 
   async saveDailyStats(dateString: string, data: DailyStatsRecord): Promise<void> {
     await this.db

@@ -8,7 +8,7 @@ export class HomePageDataService {
     private readonly wordRepo: IWordRepository,
     private readonly staticDataRepo: IStaticDataRepository,
     private readonly dateProvider: IDateProvider
-  ) {}
+  ) { }
 
   async updateHomePageData(): Promise<HomePageUpdateResult> {
     try {

@@ -12,7 +12,7 @@ export class UserService {
   constructor(
     private readonly userRepo: IUserRepository,
     private readonly authProvider: IAuthProvider
-  ) {}
+  ) { }
 
   async createUser(data: CreateUserRequest): Promise<CreateUserResult> {
     UserService.validateEmail(data.email);

@@ -5,7 +5,7 @@ import type { IUserRepository } from './interfaces/IUserRepository';
 export class UserRepository implements IUserRepository {
   private static readonly COLLECTION = 'users';
 
-  constructor(private readonly db: Firestore) {}
+  constructor(private readonly db: Firestore) { }
 
   async getUserById(uid: string): Promise<UserDocument | null> {
     const doc = await this.db.collection(UserRepository.COLLECTION).doc(uid).get();

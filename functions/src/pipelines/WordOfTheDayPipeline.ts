@@ -17,7 +17,7 @@ export class WordOfTheDayPipeline implements IPipeline {
     private readonly wordRepo: IWordRepository,
     private readonly dailyReportRepo: IDailyReportRepository,
     private readonly dateProvider: IDateProvider
-  ) {}
+  ) { }
 
   async run(): Promise<WordOfTheDayPipelineResult> {
     const dateString = this.dateProvider.istDateString();

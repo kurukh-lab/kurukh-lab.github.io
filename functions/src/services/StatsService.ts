@@ -10,7 +10,7 @@ export class StatsService {
     private readonly userRepo: IUserRepository,
     private readonly statsRepo: IStatisticsRepository,
     private readonly dateProvider: IDateProvider
-  ) {}
+  ) { }
 
   async getDictionaryStats(): Promise<DictionaryStatsResult> {
     const [totalApprovedWords, totalPendingWords, totalUsers] = await Promise.all([

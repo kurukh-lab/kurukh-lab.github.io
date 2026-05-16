@@ -6,7 +6,7 @@ export class DailyScheduleOrchestrator {
   constructor(
     private readonly pipelines: IPipeline[],
     private readonly dateProvider: IDateProvider
-  ) {}
+  ) { }
 
   async run(): Promise<ScheduleSummary> {
     const dateString = this.dateProvider.istDateString();

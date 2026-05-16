@@ -6,7 +6,7 @@ export class StaticDataRepository implements IStaticDataRepository {
   private static readonly COLLECTION = 'static_data';
   private static readonly HOME_PAGE_DOC = 'home-page';
 
-  constructor(private readonly db: Firestore) {}
+  constructor(private readonly db: Firestore) { }
 
   async saveHomePageData(data: HomePageData): Promise<void> {
     await this.db

@@ -7,7 +7,7 @@ export class ReportsService {
   constructor(
     private readonly userRepo: IUserRepository,
     private readonly reportRepo: IReportRepository
-  ) {}
+  ) { }
 
   async getWordReports(
     uid: string | undefined,

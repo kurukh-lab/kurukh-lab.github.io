@@ -7,7 +7,7 @@ export class DailyReportRepository implements IDailyReportRepository {
   private static readonly WOTD_DOC = 'word_of_the_day';
   private static readonly STATS_DOC = 'stats';
 
-  constructor(private readonly db: Firestore) {}
+  constructor(private readonly db: Firestore) { }
 
   async getWordOfTheDay(): Promise<WordOfTheDaySnapshot | null> {
     const doc = await this.db

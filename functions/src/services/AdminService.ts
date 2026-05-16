@@ -8,7 +8,7 @@ export class AdminService {
     private readonly userRepo: IUserRepository,
     private readonly wordRepo: IWordRepository,
     private readonly reportRepo: IReportRepository
-  ) {}
+  ) { }
 
   async reviewWord(
     uid: string | undefined,

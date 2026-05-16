@@ -6,7 +6,7 @@ export class WordOfTheDayService {
   constructor(
     private readonly dailyReportRepo: IDailyReportRepository,
     private readonly wordOfTheDayPipeline: WordOfTheDayPipeline
-  ) {}
+  ) { }
 
   async getWordOfTheDay(): Promise<WordOfTheDayHttpResult> {
     const snapshot = await this.dailyReportRepo.getWordOfTheDay();

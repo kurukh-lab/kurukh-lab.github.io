@@ -18,7 +18,7 @@ export class StatsPipeline implements IPipeline {
     private readonly userRepo: IUserRepository,
     private readonly dailyReportRepo: IDailyReportRepository,
     private readonly dateProvider: IDateProvider
-  ) {}
+  ) { }
 
   async run(): Promise<StatsPipelineResult> {
     const dateString = this.dateProvider.istDateString();

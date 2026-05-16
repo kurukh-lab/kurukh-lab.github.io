@@ -7,7 +7,7 @@ export class AdminAuthMiddleware {
   constructor(
     private readonly userRepo: IUserRepository,
     private readonly authProvider: IAuthProvider
-  ) {}
+  ) { }
 
   async requireAdmin(req: Request): Promise<string> {
     const header = req.get('Authorization') ?? '';

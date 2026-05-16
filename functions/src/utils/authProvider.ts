@@ -6,7 +6,7 @@ export interface IAuthProvider {
 }
 
 export class FirebaseAuthProvider implements IAuthProvider {
-  constructor(private readonly auth: Auth) {}
+  constructor(private readonly auth: Auth) { }
 
   verifyIdToken(token: string): Promise<DecodedIdToken> {
     return this.auth.verifyIdToken(token);
