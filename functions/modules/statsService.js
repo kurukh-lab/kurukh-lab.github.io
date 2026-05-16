@@ -1,6 +1,19 @@
 /**
- * Statistics service module
+ * Statistics service module.
+ *
+ * Two responsibilities:
+ *  * Historical: `updateDailyStats` writes a per-date doc to /statistics
+ *    for trend analysis.
+ *  * Snapshot: `statsPipeline` (run by the dailySchedule orchestrator at
+ *    00:00 IST) writes a single rolling doc to /daily_reports/stats that
+ *    drives the home-page hero numbers.
  */
+
+const { FieldValue } = require("firebase-admin/firestore");
+const { istDateString } = require("./dateUtils");
+
+const DAILY_REPORTS_COLLECTION = "daily_reports";
+const STATS_DOC = "stats";
 
 /**
  * Get dictionary statistics
@@ -92,7 +105,74 @@ async function updateDailyStats(admin, db) {
   }
 }
 
+/**
+ * Compute home-page hero stats and persist a single rolling snapshot to
+ * /daily_reports/stats. Counts derive from approved-word docs (the only
+ * data exposed to anonymous clients), so they line up with what users see.
+ *
+ * The `audio` and `regions` fields stay 0 until those columns exist on the
+ * Word schema; once they're added (audio_url / dialect) the counts here
+ * start flowing without any UI change.
+ */
+async function statsPipeline(admin, db) {
+  const dateString = istDateString();
+  console.log(`[stats] processing for ${dateString} IST`);
+
+  const [approvedSnap, usersSnap] = await Promise.all([
+    db.collection("words").where("status", "==", "approved").get(),
+    db.collection("users").count().get(),
+  ]);
+
+  const approvedDocs = approvedSnap.docs.map((d) => d.data());
+
+  const totalWords = approvedDocs.length;
+  const totalUsers = usersSnap.data().count;
+
+  const totalContributors = new Set(
+    approvedDocs.map((d) => d.contributor_id).filter(Boolean),
+  ).size;
+
+  // Forward-looking: count any approved word that already carries an audio
+  // URL on the doc or a per-meaning audio entry. Returns 0 today.
+  const totalAudio = approvedDocs.filter((d) => {
+    if (d.audio_url || d.pronunciation_audio_url) return true;
+    return (d.meanings || []).some((m) => m && (m.audio_url || m.audio));
+  }).length;
+
+  // Forward-looking: dialect/region either on the doc or on meanings.
+  const regionSet = new Set();
+  for (const doc of approvedDocs) {
+    if (doc.dialect) regionSet.add(doc.dialect);
+    if (doc.region) regionSet.add(doc.region);
+    for (const meaning of doc.meanings || []) {
+      if (meaning?.dialect) regionSet.add(meaning.dialect);
+      if (meaning?.region) regionSet.add(meaning.region);
+    }
+  }
+
+  const stats = {
+    totalWords,
+    totalAudio,
+    totalContributors,
+    totalRegions: regionSet.size,
+    totalUsers,
+    date: dateString,
+    generatedAt: FieldValue.serverTimestamp(),
+    generatedAtUTC: new Date().toISOString(),
+  };
+
+  await db.collection(DAILY_REPORTS_COLLECTION).doc(STATS_DOC).set(stats);
+
+  console.log(
+    `[stats] wrote words=${totalWords} contributors=${totalContributors} audio=${totalAudio} regions=${regionSet.size} for ${dateString}`,
+  );
+
+  return { success: true, stats };
+}
+
 module.exports = {
   getDictionaryStats,
-  updateDailyStats
+  updateDailyStats,
+  statsPipeline,
+  STATS_DOC,
 };

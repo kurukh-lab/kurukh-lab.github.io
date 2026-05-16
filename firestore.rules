@@ -352,5 +352,17 @@ service cloud.firestore {
       allow read: if true;
       allow create, update, delete: if isAdmin();
     }
+
+    // ─── /daily_reports ────────────────────────────────────────────────
+    //
+    // Public-readable daily snapshots produced by scheduled Cloud Functions
+    // (e.g. /daily_reports/word_of_the_day, regenerated at 00:00 IST).
+    // Same trust model as /static_data: clients read, only the Admin SDK
+    // writes. The admin-only manual trigger uses the Admin SDK too, so
+    // direct-from-client writes should never happen in practice.
+    match /daily_reports/{docId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
   }
 }

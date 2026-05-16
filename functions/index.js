@@ -8,7 +8,12 @@ const cors = require("cors")({ origin: true });
 // Import service modules
 const { updateHomePageData } = require("./modules/homePageDataService");
 const { getDictionaryStats, updateDailyStats } = require("./modules/statsService");
-const { getWordOfTheDay } = require("./modules/wordOfTheDayService");
+const {
+  getWordOfTheDay,
+  processWordOfTheDay,
+  IST_TIMEZONE,
+} = require("./modules/wordOfTheDayService");
+const { runDailySchedule } = require("./modules/dailyScheduleService");
 const { reviewWord, resolveReport } = require("./modules/adminService");
 const { getWordReports } = require("./modules/reportsService");
 
@@ -118,6 +123,21 @@ exports.updateHomePageData = onSchedule('0 0 * * *', async (event) => {
   }
 });
 
+// Single daily orchestrator: runs every registered pipeline (word of the
+// day, stats, …) at 00:00 IST and writes their results into /daily_reports/*.
+// See modules/dailyScheduleService.js for the pipeline registry.
+exports.runDailySchedule = onSchedule(
+  { schedule: '0 0 * * *', timeZone: IST_TIMEZONE },
+  async (event) => {
+    const summary = await runDailySchedule(admin, db);
+    console.log('Daily schedule summary:', JSON.stringify(summary));
+    if (!summary.success) {
+      throw new Error(`${summary.failedCount} pipeline(s) failed`);
+    }
+    return null;
+  },
+);
+
 // Manual trigger to update home page data (useful for testing and initialization).
 // Requires a Firebase ID token belonging to an admin user, passed as
 // `Authorization: Bearer <token>`. The scheduled job uses the Admin SDK and
@@ -150,6 +170,44 @@ exports.triggerHomePageUpdate = onRequest((req, res) => {
       res.json(result);
     } catch (error) {
       console.error('Error in manual trigger:', error);
+      const status = error.statusCode || 500;
+      res.status(status).json({ success: false, error: error.message });
+    }
+  });
+});
+
+// Manual admin-only trigger to (re)compute the word of the day in isolation.
+// Useful when only that pipeline needs reseeding.
+exports.triggerWordOfTheDayUpdate = onRequest((req, res) => {
+  cors(req, res, async () => {
+    try {
+      await requireAdminFromAuthHeader(req);
+      console.log('Manual trigger for word of the day...');
+      const result = await processWordOfTheDay(admin, db);
+      res.json({
+        success: true,
+        date: result.date,
+        word: result.word?.kurukh_word || null,
+      });
+    } catch (error) {
+      console.error('Error in word-of-the-day trigger:', error);
+      const status = error.statusCode || 500;
+      res.status(status).json({ success: false, error: error.message });
+    }
+  });
+});
+
+// Manual admin-only trigger to run every daily pipeline at once. Use this
+// after deploying a new pipeline so the snapshot doc exists before the cron.
+exports.triggerDailySchedule = onRequest((req, res) => {
+  cors(req, res, async () => {
+    try {
+      await requireAdminFromAuthHeader(req);
+      console.log('Manual trigger for full daily schedule...');
+      const summary = await runDailySchedule(admin, db);
+      res.status(summary.success ? 200 : 500).json(summary);
+    } catch (error) {
+      console.error('Error in daily-schedule trigger:', error);
       const status = error.statusCode || 500;
       res.status(status).json({ success: false, error: error.message });
     }
