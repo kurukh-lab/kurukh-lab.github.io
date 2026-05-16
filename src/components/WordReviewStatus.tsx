@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { useWordReview } from '../hooks/useWordReview';
 import {
   wordReviewService,
   type WordReviewMachineState,
@@ -93,11 +92,24 @@ const STEPS: { label: string; match: string[] }[] = [
 
 const REJECTED_STATES = new Set(['communityRejected', 'rejected']);
 
+const stateLabels: Record<string, string> = {
+  draft: 'Draft',
+  submitted: 'Submitted',
+  pendingCommunityReview: 'Pending Community Review',
+  inCommunityReview: 'In Community Review',
+  communityApproved: 'Community Approved',
+  communityRejected: 'Community Rejected',
+  pendingAdminReview: 'Pending Admin Review',
+  inAdminReview: 'In Admin Review',
+  approved: 'Approved',
+  rejected: 'Rejected',
+};
+
 const WordReviewStatus = ({ wordId, realTimeUpdates = true }: WordReviewStatusProps) => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [initialState, setInitialState] = useState<WordReviewMachineState>('submitted');
-  const [initialContext, setInitialContext] = useState<Partial<WordReviewContext>>({});
+  const [currentState, setCurrentState] = useState<WordReviewMachineState>('submitted');
+  const [context, setContext] = useState<Partial<WordReviewContext>>({});
 
   useEffect(() => {
     const fetchWordStatus = async () => {
@@ -106,8 +118,8 @@ const WordReviewStatus = ({ wordId, realTimeUpdates = true }: WordReviewStatusPr
         setIsLoading(true);
         setError(null);
         const result = await wordReviewService.loadWordStatus(wordId);
-        setInitialState(result.state);
-        setInitialContext(result.context);
+        setCurrentState(result.state);
+        setContext(result.context);
       } catch (err) {
         console.error('Failed to load word status:', err);
         setError("Could not load the word's review status");
@@ -118,23 +130,22 @@ const WordReviewStatus = ({ wordId, realTimeUpdates = true }: WordReviewStatusPr
     fetchWordStatus();
   }, [wordId]);
 
-  const wordReview = useWordReview({
-    wordId,
-    wordData: initialContext.wordData || null,
-    useRealTimeUpdates: realTimeUpdates,
-  });
+  useEffect(() => {
+    if (!realTimeUpdates || !wordId) return;
+    return wordReviewService.subscribeToWordStatus(wordId, (snapshot) => {
+      setCurrentState(snapshot.state);
+      setContext(snapshot.context);
+    });
+  }, [wordId, realTimeUpdates]);
 
-  const currentState = (wordReview.state || initialState) as string;
   const tone = statusTone[currentState] || 'neutral';
-  const statusText = wordReview.getStatusText ? wordReview.getStatusText() : initialState;
-  const context = wordReview.context || initialContext;
-  const communityVotes = wordReview.getCommunityVotes
-    ? wordReview.getCommunityVotes()
-    : context.communityVotes || { for: 0, against: 0 };
-  const history = (wordReview.getHistory ? wordReview.getHistory() : context.history || []) as Array<{
+  const statusText = stateLabels[currentState] || currentState;
+  const communityVotes = context.communityVotes || { for: 0, against: 0 };
+  const history = (context.history || []) as unknown as Array<{
     timestamp?: { seconds?: number } | Date | null;
     action: string;
   }>;
+  const isRealTimeActive = realTimeUpdates && !!wordId;
 
   const activeStepIndex = STEPS.findIndex((s) => s.match.includes(currentState));
   const isRejected = REJECTED_STATES.has(currentState);
@@ -180,7 +191,7 @@ const WordReviewStatus = ({ wordId, realTimeUpdates = true }: WordReviewStatusPr
         >
           {statusText}
         </span>
-        {wordReview.isRealTimeActive && (
+        {isRealTimeActive && (
           <span
             className="kd-font-mono inline-flex items-center gap-1.5"
             style={{

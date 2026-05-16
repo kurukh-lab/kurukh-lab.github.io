@@ -1,14 +1,8 @@
 import { useActor } from '@xstate/react';
-import { createActor } from 'xstate';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { wordReviewMachine } from '../state/wordReviewMachine';
 import { wordReviewService, type WordReviewMachineState } from '../services/wordReviewService';
 import type { Word } from '../types';
-
-// XState's Actor<typeof machine> generic doesn't satisfy useActor's
-// AnyActorLogic constraint in strict mode; the concrete return is fine at
-// runtime so we type the ref as unknown and let xstate's runtime narrow.
-type AnyActor = ReturnType<typeof createActor>;
 
 export interface UseWordReviewOptions {
   wordId?: string | null;
@@ -35,19 +29,10 @@ export const useWordReview = ({
   useRealTimeUpdates = false,
 }: UseWordReviewOptions = {}) => {
   const [isListening, setIsListening] = useState(false);
-  const actorRef = useRef<AnyActor | null>(null);
 
-  if (!actorRef.current) {
-    actorRef.current = createActor(wordReviewMachine, {
-      input: { wordId, wordData },
-    }).start();
-  }
-
-  // XState's strict generics make the actor-instance overload of useActor
-  // hard to satisfy without leaking machine internals into the hook type.
-  // Cast to the loosely-typed parameter; semantics are unchanged.
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [snapshot, send] = useActor(actorRef.current as any);
+  const [snapshot, send] = useActor(wordReviewMachine, {
+    input: { wordId, wordData },
+  });
 
   useEffect(() => {
     let unsubscribe = () => {};
@@ -103,7 +88,6 @@ export const useWordReview = ({
   const getHistory = () => context.history;
 
   return {
-    actor: actorRef.current,
     state: currentState,
     context,
     send,

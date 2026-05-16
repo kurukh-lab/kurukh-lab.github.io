@@ -15,8 +15,10 @@ import "./App.css";
 
 const WordDetails = lazy(() => import("./pages/WordDetails"));
 const Admin = lazy(() => import("./pages/Admin"));
+const AdminWordReview = lazy(() => import("./pages/AdminWordReview"));
 const UserProfile = lazy(() => import("./pages/UserProfile"));
 const CommunityReview = lazy(() => import("./pages/CommunityReview"));
+const WordReview = lazy(() => import("./pages/WordReview"));
 const FirebaseTest = lazy(() => import("./pages/FirebaseTest"));
 const AdminDebug = lazy(() => import("./pages/AdminDebug"));
 const LikeTestPage = lazy(() => import("./pages/LikeTestPage"));
@@ -62,6 +64,16 @@ function App() {
                 }
               />
               <Route
+                path="/review/:wordId"
+                element={
+                  <ProtectedRoute>
+                    <Lazy>
+                      <WordReview />
+                    </Lazy>
+                  </ProtectedRoute>
+                }
+              />
+              <Route
                 path="/profile"
                 element={
                   <ProtectedRoute>
@@ -77,6 +89,16 @@ function App() {
                   <AdminRoute>
                     <Lazy>
                       <Admin />
+                    </Lazy>
+                  </AdminRoute>
+                }
+              />
+              <Route
+                path="/admin/review/:wordId"
+                element={
+                  <AdminRoute>
+                    <Lazy>
+                      <AdminWordReview />
                     </Lazy>
                   </AdminRoute>
                 }

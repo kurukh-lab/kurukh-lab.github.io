@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
 import { getWordsForCommunityReview, voteOnWord } from '../../services/dictionaryService';
@@ -293,7 +294,8 @@ const ReviewCard = ({
       <div className="grid gap-6 md:grid-cols-[1fr_220px]">
         <div className="min-w-0">
           <div className="flex items-baseline gap-3.5 flex-wrap">
-            <span
+            <Link
+              to={`/review/${word.id}`}
               className="kd-font-serif"
               style={{
                 fontWeight: 500,
@@ -301,10 +303,11 @@ const ReviewCard = ({
                 color: 'var(--kd-ink)',
                 letterSpacing: '-0.025em',
                 lineHeight: 1,
+                textDecoration: 'none',
               }}
             >
               {word.kurukh_word}
-            </span>
+            </Link>
             {word.pronunciation && (
               <span className="kd-font-mono" style={{ fontSize: 14, color: 'var(--kd-ink-soft)' }}>
                 /{word.pronunciation}/

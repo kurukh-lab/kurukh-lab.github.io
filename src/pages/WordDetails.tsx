@@ -8,6 +8,7 @@ import SuggestCorrectionModal from '../components/dictionary/SuggestCorrectionMo
 import ShareWordButtons from '../components/dictionary/ShareWordButtons';
 import LikeButton from '../components/dictionary/LikeButton';
 import WordReviewStatus from '../components/WordReviewStatus';
+import WordFlowDiagram from '../components/kd/WordFlowDiagram';
 import { useAuth } from '../contexts/AuthContext';
 import SectionLabel from '../components/kd/SectionLabel';
 import AudioPlayer, { type AudioTrack } from '../components/kd/AudioPlayer';
@@ -33,6 +34,7 @@ const WordDetails = () => {
   const [showReportModal, setShowReportModal] = useState(false);
   const [showCorrectionModal, setShowCorrectionModal] = useState(false);
   const [showReviewDetails, setShowReviewDetails] = useState(false);
+  const [reviewView, setReviewView] = useState<'steps' | 'diagram'>('steps');
 
   useEffect(() => {
     const fetchWordDetails = async () => {
@@ -303,10 +305,49 @@ const WordDetails = () => {
               </div>
               {showReviewDetails && wordId && (
                 <div
-                  className="p-4 rounded-xl"
+                  className="p-4 rounded-xl flex flex-col gap-4"
                   style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
                 >
-                  <WordReviewStatus wordId={wordId} />
+                  <div
+                    role="tablist"
+                    aria-label="Review view"
+                    className="inline-flex self-start rounded-full p-0.5"
+                    style={{
+                      background: 'var(--kd-bg)',
+                      border: '1px solid var(--kd-line)',
+                    }}
+                  >
+                    {(['steps', 'diagram'] as const).map((view) => {
+                      const isActive = reviewView === view;
+                      return (
+                        <button
+                          key={view}
+                          type="button"
+                          role="tab"
+                          aria-selected={isActive}
+                          onClick={() => setReviewView(view)}
+                          className="kd-font-mono rounded-full"
+                          style={{
+                            fontSize: 10.5,
+                            letterSpacing: '0.14em',
+                            textTransform: 'uppercase',
+                            padding: '5px 12px',
+                            background: isActive ? 'var(--kd-ink)' : 'transparent',
+                            color: isActive ? '#FBF7EE' : 'var(--kd-ink-soft)',
+                            border: 'none',
+                            cursor: 'pointer',
+                          }}
+                        >
+                          {view === 'steps' ? 'Steps' : 'Diagram'}
+                        </button>
+                      );
+                    })}
+                  </div>
+                  {reviewView === 'steps' ? (
+                    <WordReviewStatus wordId={wordId} />
+                  ) : (
+                    <WordFlowDiagram wordId={wordId} />
+                  )}
                 </div>
               )}
             </div>

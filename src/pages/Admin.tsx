@@ -855,7 +855,8 @@ const FocusedPendingReview = ({
 
                     <div className="px-6 md:px-10 py-8">
                         <div className="flex flex-wrap items-baseline gap-4">
-                            <h2
+                            <Link
+                                to={`/admin/review/${currentWord.id}`}
                                 className="kd-font-serif"
                                 style={{
                                     fontWeight: 500,
@@ -864,10 +865,12 @@ const FocusedPendingReview = ({
                                     letterSpacing: "-0.02em",
                                     margin: 0,
                                     color: "var(--kd-ink)",
+                                    textDecoration: "none",
                                 }}
+                                title="Open detailed review"
                             >
                                 {currentWord.kurukh_word}
-                            </h2>
+                            </Link>
                             {currentWord.pronunciation_guide && (
                                 <span
                                     className="kd-font-mono"
@@ -1377,18 +1380,35 @@ const ReportsList = ({
                 >
                     <div className="flex flex-wrap items-baseline justify-between gap-3">
                         <div>
-                            <h3
-                                className="kd-font-serif"
-                                style={{
-                                    fontSize: 28,
-                                    lineHeight: 1.1,
-                                    margin: 0,
-                                    color: "var(--kd-ink)",
-                                    fontWeight: 500,
-                                }}
-                            >
-                                {report.word?.kurukh_word || "Unknown word"}
-                            </h3>
+                            {report.word?.id ? (
+                                <Link
+                                    to={`/admin/review/${report.word.id}`}
+                                    className="kd-font-serif"
+                                    style={{
+                                        fontSize: 28,
+                                        lineHeight: 1.1,
+                                        margin: 0,
+                                        color: "var(--kd-ink)",
+                                        fontWeight: 500,
+                                        textDecoration: "none",
+                                    }}
+                                >
+                                    {report.word.kurukh_word}
+                                </Link>
+                            ) : (
+                                <h3
+                                    className="kd-font-serif"
+                                    style={{
+                                        fontSize: 28,
+                                        lineHeight: 1.1,
+                                        margin: 0,
+                                        color: "var(--kd-ink)",
+                                        fontWeight: 500,
+                                    }}
+                                >
+                                    Unknown word
+                                </h3>
+                            )}
                             <div
                                 className="kd-font-mono mt-1"
                                 style={{
@@ -1536,19 +1556,35 @@ const CorrectionsList = ({
                 >
                     <div className="flex flex-wrap items-baseline justify-between gap-3">
                         <div>
-                            <h3
-                                className="kd-font-serif"
-                                style={{
-                                    fontSize: 28,
-                                    lineHeight: 1.1,
-                                    margin: 0,
-                                    color: "var(--kd-ink)",
-                                    fontWeight: 500,
-                                }}
-                            >
-                                {correction.word?.kurukh_word ||
-                                    "Unknown word"}
-                            </h3>
+                            {correction.word?.id ? (
+                                <Link
+                                    to={`/admin/review/${correction.word.id}`}
+                                    className="kd-font-serif"
+                                    style={{
+                                        fontSize: 28,
+                                        lineHeight: 1.1,
+                                        margin: 0,
+                                        color: "var(--kd-ink)",
+                                        fontWeight: 500,
+                                        textDecoration: "none",
+                                    }}
+                                >
+                                    {correction.word.kurukh_word}
+                                </Link>
+                            ) : (
+                                <h3
+                                    className="kd-font-serif"
+                                    style={{
+                                        fontSize: 28,
+                                        lineHeight: 1.1,
+                                        margin: 0,
+                                        color: "var(--kd-ink)",
+                                        fontWeight: 500,
+                                    }}
+                                >
+                                    Unknown word
+                                </h3>
+                            )}
                             <div className="flex items-center gap-2 mt-2">
                                 <span
                                     className="kd-font-mono"
