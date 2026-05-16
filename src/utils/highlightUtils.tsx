@@ -37,3 +37,40 @@ export const highlightContent = (
   if (typeof content === 'string') return highlightText(content, searchTerm);
   return content;
 };
+
+/**
+ * Highlight matches with the design's soft terracotta underline — used in
+ * search results to show *why* a word was a hit. Falls back to the raw text
+ * when the term is empty or the text doesn't contain it.
+ */
+export const highlightMatch = (
+  text: string | undefined | null,
+  searchTerm: string | undefined | null,
+): ReactNode => {
+  if (!text) return text;
+  const needle = searchTerm?.trim();
+  if (!needle) return text;
+
+  const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${escaped})`, 'gi');
+  const parts = text.split(regex);
+  if (parts.length === 1) return text;
+
+  return parts.map((part, index) => {
+    if (part.toLowerCase() === needle.toLowerCase()) {
+      return (
+        <span
+          key={index}
+          style={{
+            background:
+              'linear-gradient(transparent 85%, var(--kd-accent-soft) 85%)',
+            paddingBottom: '0.05em',
+          }}
+        >
+          {part}
+        </span>
+      );
+    }
+    return part;
+  });
+};

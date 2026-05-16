@@ -19,6 +19,7 @@ import {
   IconArrow,
 } from './icons';
 import { useSearchUI, type SearchSort } from '../../contexts/SearchContext';
+import { highlightMatch } from '../../utils/highlightUtils';
 import type { Word } from '../../types';
 
 type SortMode = SearchSort;
@@ -62,6 +63,20 @@ const SearchModal = () => {
     return () => window.clearTimeout(focusTimer);
   }, [open]);
 
+  // Debounced live search: rerun whenever the input or filters change while
+  // the modal is open. Skipped when there's no query so we don't fire empty
+  // searches against the backend.
+  useEffect(() => {
+    if (!open) return;
+    if (!searchTerm.trim()) return;
+    const id = window.setTimeout(() => {
+      void handleSearch();
+    }, 220);
+    return () => window.clearTimeout(id);
+    // handleSearch closes over searchTerm/filters; depending on those is enough.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open, searchTerm, filters.language, filters.partOfSpeech]);
+
   // Lock body scroll while the modal is open.
   useEffect(() => {
     if (!open) return;
@@ -98,8 +113,24 @@ const SearchModal = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, selectedId, searchResults, sort]);
 
-  const sortedResults = useMemo(() => {
+  // Filter cached results against the current input before showing them. The
+  // server's searchResults reflect the *last submitted* query — when the user
+  // is still typing, hide entries that no longer match so we never display a
+  // stale row like "chicka" for the input "m".
+  const filteredResults = useMemo(() => {
     const list = searchResults as WordWithExtras[];
+    const needle = searchTerm.trim().toLowerCase();
+    if (!needle) return list;
+    return list.filter((word) => {
+      if (word.kurukh_word?.toLowerCase().includes(needle)) return true;
+      return (word.meanings || []).some((m) =>
+        m.definition?.toLowerCase().includes(needle),
+      );
+    });
+  }, [searchResults, searchTerm]);
+
+  const sortedResults = useMemo(() => {
+    const list = filteredResults;
     if (sort === 'alpha') {
       return [...list].sort((a, b) =>
         (a.kurukh_word || '').localeCompare(b.kurukh_word || ''),
@@ -113,7 +144,7 @@ const SearchModal = () => {
       );
     }
     return list;
-  }, [searchResults, sort]);
+  }, [filteredResults, sort]);
 
   // Keep a selection in sync with what's on screen.
   useEffect(() => {
@@ -347,6 +378,7 @@ const SearchModal = () => {
               onSelect={setSelectedId}
               selected={selectedWord}
               onCloseModal={onClose}
+              searchTerm={trimmed}
             />
           )}
         </div>
@@ -429,12 +461,14 @@ const SplitView = ({
   onSelect,
   selected,
   onCloseModal,
+  searchTerm,
 }: {
   results: WordWithExtras[];
   selectedId: string | null;
   onSelect: (id: string) => void;
   selected: WordWithExtras | null;
   onCloseModal: () => void;
+  searchTerm: string;
 }) => {
   return (
     <div className="h-full grid gap-4 md:gap-5 md:grid-cols-[minmax(240px,300px)_1fr] min-h-0">
@@ -442,8 +476,13 @@ const SplitView = ({
         results={results}
         selectedId={selectedId}
         onSelect={onSelect}
+        searchTerm={searchTerm}
       />
-      <DetailPane word={selected} onCloseModal={onCloseModal} />
+      <DetailPane
+        word={selected}
+        onCloseModal={onCloseModal}
+        searchTerm={searchTerm}
+      />
     </div>
   );
 };
@@ -452,10 +491,12 @@ const ResultsList = ({
   results,
   selectedId,
   onSelect,
+  searchTerm,
 }: {
   results: WordWithExtras[];
   selectedId: string | null;
   onSelect: (id: string) => void;
+  searchTerm: string;
 }) => {
   return (
     <div
@@ -494,7 +535,7 @@ const ResultsList = ({
                       letterSpacing: '-0.01em',
                     }}
                   >
-                    {word.kurukh_word}
+                    {highlightMatch(word.kurukh_word, searchTerm)}
                   </span>
                   {word.pronunciation && (
                     <span
@@ -523,7 +564,7 @@ const ResultsList = ({
                       className="kd-font-serif italic line-clamp-1"
                       style={{ fontSize: 13, color: 'var(--kd-ink-soft)' }}
                     >
-                      {gloss}
+                      {highlightMatch(gloss, searchTerm)}
                     </span>
                   )}
                 </div>
@@ -539,9 +580,11 @@ const ResultsList = ({
 const DetailPane = ({
   word,
   onCloseModal,
+  searchTerm,
 }: {
   word: WordWithExtras | null;
   onCloseModal: () => void;
+  searchTerm: string;
 }) => {
   const { t } = useTranslation();
 
@@ -595,7 +638,7 @@ const DetailPane = ({
             lineHeight: 1,
           }}
         >
-          {word.kurukh_word}
+          {highlightMatch(word.kurukh_word, searchTerm)}
         </h2>
         {word.pronunciation && (
           <span
@@ -667,7 +710,7 @@ const DetailPane = ({
             fontWeight: 400,
           }}
         >
-          {englishMeaning.definition}
+          {highlightMatch(englishMeaning.definition, searchTerm)}
         </p>
       )}
 
@@ -681,7 +724,7 @@ const DetailPane = ({
             fontWeight: 400,
           }}
         >
-          {hindiMeaning.definition}
+          {highlightMatch(hindiMeaning.definition, searchTerm)}
         </p>
       )}
 
