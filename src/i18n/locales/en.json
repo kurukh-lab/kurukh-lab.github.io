@@ -70,7 +70,31 @@
     "searchIn": "Search in",
     "allLanguages": "All languages",
     "partOfSpeech": "Part of speech",
-    "allTypes": "All types"
+    "allTypes": "All types",
+    "modal": {
+      "eyebrow": "Search results",
+      "matches_one": "{{count}} match for “{{term}}”",
+      "matches_other": "{{count}} matches for “{{term}}”",
+      "close": "Close search",
+      "sort": {
+        "relevance": "Relevance",
+        "alpha": "A → Z",
+        "liked": "Most liked"
+      },
+      "empty": {
+        "title": "Start typing to search",
+        "body": "Search across Kurukh headwords, English glosses and Hindi meanings."
+      },
+      "noResults": {
+        "title": "No matches for “{{term}}”",
+        "body": "Try a different spelling, or browse the lexicon A–Z."
+      },
+      "loading": "Searching…",
+      "viewFull": "View full entry",
+      "openWord": "Open entry",
+      "shareLabel": "Share",
+      "saveLabel": "Save"
+    }
   },
   "word": {
     "loading": "Loading word…",

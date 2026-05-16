@@ -21,6 +21,12 @@ export interface SearchBarProps {
   onSearch?: (event?: FormEvent) => void | Promise<void>;
   loading?: boolean;
   large?: boolean;
+  /** When true the bar acts purely as a visual trigger — focusing or clicking
+   * it (and the cmd+K / "/" shortcuts) call `onActivate` instead of editing
+   * the input. Used by the home page to open the search modal. */
+  asTrigger?: boolean;
+  onActivate?: () => void;
+  autoFocus?: boolean;
 }
 
 const SearchBar = ({
@@ -31,6 +37,9 @@ const SearchBar = ({
   onSearch,
   loading: externalLoading,
   large = false,
+  asTrigger = false,
+  onActivate,
+  autoFocus = false,
 }: SearchBarProps) => {
   const { t } = useTranslation();
   const [showFilters, setShowFilters] = useState(false);
@@ -62,15 +71,28 @@ const SearchBar = ({
     if (initialSearchTerm) setSearchTerm(initialSearchTerm);
   }, [initialSearchTerm, setSearchTerm]);
 
+  const focusOrActivate = () => {
+    if (asTrigger) onActivate?.();
+    else searchInputRef.current?.focus();
+  };
+
   useKeyboardShortcut({
-    k: () => searchInputRef.current?.focus(),
-    'ctrl+k': () => searchInputRef.current?.focus(),
-    'cmd+k': () => searchInputRef.current?.focus(),
-    '/': () => searchInputRef.current?.focus(),
+    k: focusOrActivate,
+    'ctrl+k': focusOrActivate,
+    'cmd+k': focusOrActivate,
+    '/': focusOrActivate,
   });
+
+  useEffect(() => {
+    if (autoFocus && !asTrigger) searchInputRef.current?.focus();
+  }, [autoFocus, asTrigger]);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+    if (asTrigger) {
+      onActivate?.();
+      return;
+    }
     await handleSearch(e);
     if (onSearchComplete) onSearchComplete(searchTerm);
   };
@@ -79,7 +101,22 @@ const SearchBar = ({
     <div className="w-full">
       <form
         onSubmit={handleSubmit}
-        className="flex items-center gap-3 w-full"
+        onClick={asTrigger ? () => onActivate?.() : undefined}
+        role={asTrigger ? 'button' : undefined}
+        tabIndex={asTrigger ? 0 : undefined}
+        onKeyDown={
+          asTrigger
+            ? (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  onActivate?.();
+                }
+              }
+            : undefined
+        }
+        className={`flex items-center gap-3 w-full ${
+          asTrigger ? 'cursor-text' : ''
+        }`}
         style={{
           background: 'var(--kd-surface)',
           border: '1px solid var(--kd-line)',
@@ -94,11 +131,21 @@ const SearchBar = ({
           ref={searchInputRef}
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
+          onFocus={asTrigger ? () => onActivate?.() : undefined}
+          readOnly={asTrigger}
+          tabIndex={asTrigger ? -1 : undefined}
           placeholder={t('search.placeholder') as string}
-          className="flex-1 bg-transparent border-none outline-none kd-font-sans"
-          style={{ fontSize: large ? 19 : 15, color: 'var(--kd-ink)' }}
+          className={`flex-1 bg-transparent border-none outline-none kd-font-sans ${
+            asTrigger ? 'cursor-text' : ''
+          }`}
+          style={{
+            fontSize: large ? 19 : 15,
+            color: 'var(--kd-ink)',
+            pointerEvents: asTrigger ? 'none' : undefined,
+          }}
+          aria-label={t('search.placeholder') as string}
         />
-        {searchTerm && (
+        {searchTerm && !asTrigger && (
           <button
             type="button"
             onClick={() => setSearchTerm('')}
@@ -109,16 +156,21 @@ const SearchBar = ({
             <FaTimes />
           </button>
         )}
-        <button
-          type="button"
-          onClick={() => setShowFilters(!showFilters)}
-          aria-label={t('search.filters') as string}
-          className="inline-flex items-center gap-1 px-2 h-8 rounded-md transition-colors"
-          style={{ color: 'var(--kd-ink-soft)' }}
-        >
-          <FaFilter size={12} />
-          {showFilters ? <FaChevronUp size={10} /> : <FaChevronDown size={10} />}
-        </button>
+        {!asTrigger && (
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              setShowFilters(!showFilters);
+            }}
+            aria-label={t('search.filters') as string}
+            className="inline-flex items-center gap-1 px-2 h-8 rounded-md transition-colors"
+            style={{ color: 'var(--kd-ink-soft)' }}
+          >
+            <FaFilter size={12} />
+            {showFilters ? <FaChevronUp size={10} /> : <FaChevronDown size={10} />}
+          </button>
+        )}
         <span
           className="hidden sm:inline-flex kd-font-mono items-center px-2 py-1 rounded-md"
           style={{
@@ -130,11 +182,13 @@ const SearchBar = ({
         >
           {t('search.shortcut')}
         </span>
-        <SearchButton
-          onClick={handleSubmit}
-          disabled={loading || !searchTerm.trim()}
-          loading={loading}
-        />
+        {!asTrigger && (
+          <SearchButton
+            onClick={handleSubmit}
+            disabled={loading || !searchTerm.trim()}
+            loading={loading}
+          />
+        )}
       </form>
 
       {showFilters && filters && updateFilters && (

@@ -1,13 +1,12 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import SearchBar from '../components/common/SearchBar';
-import WordList from '../components/dictionary/WordList';
 import SectionLabel from '../components/kd/SectionLabel';
 import WordOfDayCard from '../components/kd/WordOfDayCard';
 import AlphabetRibbon from '../components/kd/AlphabetRibbon';
 import WordRow from '../components/kd/WordRow';
+import { useSearchUI } from '../contexts/SearchContext';
 import { getHomePageData } from '../services/dictionaryService';
-import useSearch from '../hooks/useSearch';
 import type { Word } from '../types';
 
 type WordWithLikes = Word & { likes_count?: number; likes?: number };
@@ -18,7 +17,7 @@ const Home = () => {
   const [wordOfTheDay, setWordOfTheDay] = useState<Word | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const { searchResults, searchTerm, setSearchTerm, handleSearch, loading: searchLoading } = useSearch();
+  const { openSearch } = useSearchUI();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -47,8 +46,6 @@ const Home = () => {
   const lovedWords = [...recentWords]
     .sort((a, b) => (b.likes_count ?? b.likes ?? 0) - (a.likes_count ?? a.likes ?? 0))
     .slice(0, 4);
-
-  const hasSearchResults = searchResults.length > 0;
 
   return (
     <div style={{ background: 'var(--kd-bg)', color: 'var(--kd-ink)' }}>
@@ -89,46 +86,38 @@ const Home = () => {
         </p>
 
         <div style={{ maxWidth: 720 }}>
-          <SearchBar
-            searchTerm={searchTerm}
-            onSearchTermChange={setSearchTerm}
-            onSearch={handleSearch}
-            loading={searchLoading}
-            large
-          />
+          <SearchBar asTrigger onActivate={openSearch} large />
         </div>
 
-        {!hasSearchResults && (
-          <div
-            className="mt-12 pt-8 grid gap-x-10 gap-y-6"
-            style={{
-              gridTemplateColumns: 'repeat(auto-fit, minmax(120px, max-content))',
-              borderTop: '1px solid var(--kd-line)',
-            }}
-          >
-            {[
-              [String(totalEntries || '—'), t('home.stats.words')],
-              ['—', t('home.stats.audio')],
-              ['—', t('home.stats.contributors')],
-              ['—', t('home.stats.regions')],
-            ].map(([n, l]) => (
-              <div key={String(l)}>
-                <div
-                  className="kd-font-serif"
-                  style={{ fontSize: 32, fontWeight: 500, color: 'var(--kd-ink)', letterSpacing: '-0.02em' }}
-                >
-                  {n}
-                </div>
-                <div
-                  className="kd-font-sans uppercase mt-1"
-                  style={{ fontSize: 12, color: 'var(--kd-ink-mute)', letterSpacing: '0.1em' }}
-                >
-                  {l}
-                </div>
+        <div
+          className="mt-12 pt-8 grid gap-x-10 gap-y-6"
+          style={{
+            gridTemplateColumns: 'repeat(auto-fit, minmax(120px, max-content))',
+            borderTop: '1px solid var(--kd-line)',
+          }}
+        >
+          {[
+            [String(totalEntries || '—'), t('home.stats.words')],
+            ['—', t('home.stats.audio')],
+            ['—', t('home.stats.contributors')],
+            ['—', t('home.stats.regions')],
+          ].map(([n, l]) => (
+            <div key={String(l)}>
+              <div
+                className="kd-font-serif"
+                style={{ fontSize: 32, fontWeight: 500, color: 'var(--kd-ink)', letterSpacing: '-0.02em' }}
+              >
+                {n}
               </div>
-            ))}
-          </div>
-        )}
+              <div
+                className="kd-font-sans uppercase mt-1"
+                style={{ fontSize: 12, color: 'var(--kd-ink-mute)', letterSpacing: '0.1em' }}
+              >
+                {l}
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
 
       {error && !loading && (
@@ -147,75 +136,64 @@ const Home = () => {
         </div>
       )}
 
-      {hasSearchResults ? (
-        <section className="max-w-[1200px] mx-auto px-6 md:px-14 pb-24">
+      {!loading && wordOfTheDay && (
+        <section className="max-w-[1200px] mx-auto px-6 md:px-14 py-6">
           <SectionLabel
-            eyebrow={t('search.results', { count: searchResults.length })}
-            title={searchTerm}
+            eyebrow={`${t('home.wordOfDay.eyebrow')} · ${dateLabel}`}
+            title={t('home.wordOfDay.title')}
           />
-          <WordList words={searchResults} searchTerm={searchTerm} compact={false} />
+          <WordOfDayCard word={wordOfTheDay} />
         </section>
-      ) : (
-        <>
-          {!loading && wordOfTheDay && (
-            <section className="max-w-[1200px] mx-auto px-6 md:px-14 py-6">
-              <SectionLabel
-                eyebrow={`${t('home.wordOfDay.eyebrow')} · ${dateLabel}`}
-                title={t('home.wordOfDay.title')}
-              />
-              <WordOfDayCard word={wordOfTheDay} />
-            </section>
-          )}
-
-          <section className="max-w-[1200px] mx-auto px-6 md:px-14 py-6">
-            <SectionLabel
-              eyebrow={t('home.alphabet.eyebrow')}
-              title={t('home.alphabet.title')}
-              right={
-                <span className="kd-font-sans" style={{ fontSize: 13, color: 'var(--kd-ink-soft)' }}>
-                  {t('home.alphabet.entries', { count: totalEntries })}
-                </span>
-              }
-            />
-            <AlphabetRibbon />
-          </section>
-
-          <section className="max-w-[1200px] mx-auto px-6 md:px-14 pt-6 pb-24 grid gap-14 md:grid-cols-2">
-            <div>
-              <SectionLabel eyebrow={t('home.recent.eyebrow')} title={t('home.recent.title')} />
-              {loading ? (
-                <p className="kd-ink-mute kd-font-sans">…</p>
-              ) : recentWords.length > 0 ? (
-                <div className="flex flex-col">
-                  {recentWords.slice(0, 4).map((w, i) => (
-                    <WordRow key={w.id || i} word={w} isFirst={i === 0} />
-                  ))}
-                </div>
-              ) : (
-                <p className="kd-font-sans" style={{ color: 'var(--kd-ink-mute)' }}>
-                  {t('home.noWords')}
-                </p>
-              )}
-            </div>
-            <div>
-              <SectionLabel eyebrow={t('home.loved.eyebrow')} title={t('home.loved.title')} />
-              {loading ? (
-                <p className="kd-ink-mute kd-font-sans">…</p>
-              ) : lovedWords.length > 0 ? (
-                <div className="flex flex-col">
-                  {lovedWords.map((w, i) => (
-                    <WordRow key={w.id || i} word={w} isFirst={i === 0} />
-                  ))}
-                </div>
-              ) : (
-                <p className="kd-font-sans" style={{ color: 'var(--kd-ink-mute)' }}>
-                  {t('home.noWords')}
-                </p>
-              )}
-            </div>
-          </section>
-        </>
       )}
+
+      <section className="max-w-[1200px] mx-auto px-6 md:px-14 py-6">
+        <SectionLabel
+          eyebrow={t('home.alphabet.eyebrow')}
+          title={t('home.alphabet.title')}
+          right={
+            <span className="kd-font-sans" style={{ fontSize: 13, color: 'var(--kd-ink-soft)' }}>
+              {t('home.alphabet.entries', { count: totalEntries })}
+            </span>
+          }
+        />
+        <AlphabetRibbon />
+      </section>
+
+      <section className="max-w-[1200px] mx-auto px-6 md:px-14 pt-6 pb-24 grid gap-14 md:grid-cols-2">
+        <div>
+          <SectionLabel eyebrow={t('home.recent.eyebrow')} title={t('home.recent.title')} />
+          {loading ? (
+            <p className="kd-ink-mute kd-font-sans">…</p>
+          ) : recentWords.length > 0 ? (
+            <div className="flex flex-col">
+              {recentWords.slice(0, 4).map((w, i) => (
+                <WordRow key={w.id || i} word={w} isFirst={i === 0} />
+              ))}
+            </div>
+          ) : (
+            <p className="kd-font-sans" style={{ color: 'var(--kd-ink-mute)' }}>
+              {t('home.noWords')}
+            </p>
+          )}
+        </div>
+        <div>
+          <SectionLabel eyebrow={t('home.loved.eyebrow')} title={t('home.loved.title')} />
+          {loading ? (
+            <p className="kd-ink-mute kd-font-sans">…</p>
+          ) : lovedWords.length > 0 ? (
+            <div className="flex flex-col">
+              {lovedWords.map((w, i) => (
+                <WordRow key={w.id || i} word={w} isFirst={i === 0} />
+              ))}
+            </div>
+          ) : (
+            <p className="kd-font-sans" style={{ color: 'var(--kd-ink-mute)' }}>
+              {t('home.noWords')}
+            </p>
+          )}
+        </div>
+      </section>
+
     </div>
   );
 };

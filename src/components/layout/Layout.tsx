@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { useLocation } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
+import SearchModal from '../kd/SearchModal';
 
 export interface LayoutProps {
   children: ReactNode;
@@ -12,7 +13,10 @@ const Layout = ({ children }: LayoutProps) => {
 
   if (location.pathname === '/kurukh-editor') {
     return (
-      <div className="flex flex-col min-h-screen w-full">{children}</div>
+      <div className="flex flex-col min-h-screen w-full">
+        {children}
+        <SearchModal />
+      </div>
     );
   }
 
@@ -24,6 +28,7 @@ const Layout = ({ children }: LayoutProps) => {
       <Header />
       <main className="flex-grow">{children}</main>
       <Footer />
+      <SearchModal />
     </div>
   );
 };

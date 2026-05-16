@@ -5,7 +5,8 @@ import { useAuth } from '../../contexts/AuthContext';
 import KMark from '../kd/KMark';
 import ThemeToggle from '../kd/ThemeToggle';
 import LanguageToggle from '../kd/LanguageToggle';
-import { IconPlus, IconMenu, IconClose } from '../kd/icons';
+import { IconPlus, IconMenu, IconClose, IconSearch } from '../kd/icons';
+import { useSearchUI } from '../../contexts/SearchContext';
 
 interface NavLinkArg {
   isActive: boolean;
@@ -15,6 +16,7 @@ const Header = () => {
   const { currentUser, isAdmin, logout } = useAuth();
   const { t } = useTranslation();
   const { pathname } = useLocation();
+  const { openSearch } = useSearchUI();
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const navItems: { to: string; label: string }[] = [
@@ -81,6 +83,16 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-2.5">
+          <button
+            type="button"
+            onClick={openSearch}
+            aria-label={t('search.placeholder') as string}
+            className="inline-flex items-center justify-center w-10 h-10 rounded-full transition-colors"
+            style={{ color: 'var(--kd-ink)', background: 'var(--kd-surface-alt)' }}
+          >
+            <IconSearch size={18} weight={1.7} />
+          </button>
+
           <div className="hidden sm:flex items-center gap-2">
             <LanguageToggle />
             <ThemeToggle />
