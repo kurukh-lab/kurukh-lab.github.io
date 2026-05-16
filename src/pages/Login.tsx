@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, type ChangeEvent, type FormEvent } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../contexts/AuthContext';
@@ -14,22 +14,22 @@ const Login = () => {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     try {
       setError('');
       setLoading(true);
-      const { success, error: err } = await login(formData.email, formData.password);
-      if (success) navigate('/');
-      else throw new Error(err || t('login.errors.generic'));
+      const result = await login(formData.email, formData.password);
+      if (result.success) navigate('/');
+      else throw new Error(result.error || (t('login.errors.generic') as string));
     } catch (err) {
       console.error('Login error:', err);
-      setError(t('login.errors.generic'));
+      setError(t('login.errors.generic') as string);
     } finally {
       setLoading(false);
     }
@@ -39,12 +39,12 @@ const Login = () => {
     try {
       setError('');
       setLoading(true);
-      const { success, error: err } = await loginWithGoogle();
-      if (success) navigate('/');
-      else throw new Error(err || t('login.errors.google'));
+      const result = await loginWithGoogle();
+      if (result.success) navigate('/');
+      else throw new Error(result.error || (t('login.errors.google') as string));
     } catch (err) {
       console.error('Google login error:', err);
-      setError(t('login.errors.google'));
+      setError(t('login.errors.google') as string);
     } finally {
       setLoading(false);
     }
@@ -52,13 +52,9 @@ const Login = () => {
 
   return (
     <div className="min-h-[calc(100vh-80px)] grid lg:grid-cols-2">
-      {/* ── Left editorial panel ── */}
       <aside
         className="hidden lg:flex flex-col justify-between p-14"
-        style={{
-          background: 'var(--kd-surface)',
-          borderRight: '1px solid var(--kd-line)',
-        }}
+        style={{ background: 'var(--kd-surface)', borderRight: '1px solid var(--kd-line)' }}
       >
         <Link to="/" className="inline-flex items-center gap-2.5 w-fit">
           <KMark size={36} />
@@ -71,12 +67,7 @@ const Login = () => {
             </span>
             <span
               className="kd-font-sans mt-1"
-              style={{
-                fontSize: 10.5,
-                color: 'var(--kd-ink-mute)',
-                letterSpacing: '0.14em',
-                textTransform: 'uppercase',
-              }}
+              style={{ fontSize: 10.5, color: 'var(--kd-ink-mute)', letterSpacing: '0.14em', textTransform: 'uppercase' }}
             >
               {t('brand.tagline')}
             </span>
@@ -103,10 +94,7 @@ const Login = () => {
             {t('login.titleLine2')}
           </h1>
 
-          <blockquote
-            className="mt-10 pl-6"
-            style={{ borderLeft: '2px solid var(--kd-accent)' }}
-          >
+          <blockquote className="mt-10 pl-6" style={{ borderLeft: '2px solid var(--kd-accent)' }}>
             <p
               className="kd-font-serif italic m-0"
               style={{
@@ -118,33 +106,22 @@ const Login = () => {
             >
               {t('login.panelQuote')}
             </p>
-            <footer
-              className="kd-font-sans mt-3"
-              style={{ fontSize: 13, color: 'var(--kd-ink-mute)' }}
-            >
+            <footer className="kd-font-sans mt-3" style={{ fontSize: 13, color: 'var(--kd-ink-mute)' }}>
               {t('login.panelAttribution')}
             </footer>
           </blockquote>
         </div>
 
-        <div
-          className="kd-font-sans"
-          style={{ fontSize: 12, color: 'var(--kd-ink-mute)' }}
-        >
+        <div className="kd-font-sans" style={{ fontSize: 12, color: 'var(--kd-ink-mute)' }}>
           {t('footer.copyright', { year: new Date().getFullYear() })}
         </div>
       </aside>
 
-      {/* ── Right form panel ── */}
       <section className="flex items-center justify-center px-6 py-14 md:px-10">
         <div className="w-full max-w-[420px]">
-          {/* Visible only on mobile — desktop has the wordmark in the left panel */}
           <Link to="/" className="lg:hidden inline-flex items-center gap-2.5 mb-10">
             <KMark size={32} />
-            <span
-              className="kd-font-serif"
-              style={{ fontWeight: 600, fontSize: 20, color: 'var(--kd-ink)' }}
-            >
+            <span className="kd-font-serif" style={{ fontWeight: 600, fontSize: 20, color: 'var(--kd-ink)' }}>
               {t('brand.name')}<span style={{ color: 'var(--kd-accent)' }}>.</span>
             </span>
           </Link>
@@ -181,23 +158,23 @@ const Login = () => {
 
           <form onSubmit={handleSubmit} className="mt-8 flex flex-col gap-4">
             <Field
-              label={t('login.email')}
+              label={t('login.email') as string}
               name="email"
               type="email"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder={t('login.emailPlaceholder')}
+              placeholder={t('login.emailPlaceholder') as string}
               required
             />
             <Field
-              label={t('login.password')}
+              label={t('login.password') as string}
               name="password"
               type="password"
               autoComplete="current-password"
               value={formData.password}
               onChange={handleChange}
-              placeholder={t('login.passwordPlaceholder')}
+              placeholder={t('login.passwordPlaceholder') as string}
               required
             />
 
@@ -226,20 +203,13 @@ const Login = () => {
             onClick={handleGoogleLogin}
             disabled={loading}
             className="w-full inline-flex items-center justify-center gap-3 kd-font-sans font-medium text-[14px] py-3 rounded-xl disabled:opacity-60 transition-colors"
-            style={{
-              background: 'transparent',
-              color: 'var(--kd-ink)',
-              border: '1px solid var(--kd-line)',
-            }}
+            style={{ background: 'transparent', color: 'var(--kd-ink)', border: '1px solid var(--kd-line)' }}
           >
             <GoogleIcon />
             {t('login.google')}
           </button>
 
-          <p
-            className="mt-8 text-center kd-font-sans"
-            style={{ fontSize: 14, color: 'var(--kd-ink-soft)' }}
-          >
+          <p className="mt-8 text-center kd-font-sans" style={{ fontSize: 14, color: 'var(--kd-ink-soft)' }}>
             {t('login.noAccount')}{' '}
             <Link
               to="/register"
@@ -255,7 +225,18 @@ const Login = () => {
   );
 };
 
-const Field = ({ label, name, type, value, onChange, placeholder, autoComplete, required }) => (
+interface FieldProps {
+  label: string;
+  name: string;
+  type: string;
+  value: string;
+  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
+  placeholder: string;
+  autoComplete?: string;
+  required?: boolean;
+}
+
+const Field = ({ label, name, type, value, onChange, placeholder, autoComplete, required }: FieldProps) => (
   <label className="flex flex-col gap-1.5">
     <span
       className="kd-font-sans"

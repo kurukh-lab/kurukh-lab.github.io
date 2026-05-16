@@ -1,15 +1,20 @@
-import React, { useState } from 'react';
+import {
+  useState,
+  type ChangeEvent,
+  type FormEvent,
+  type CSSProperties,
+  type ReactNode,
+} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../contexts/AuthContext';
 import { addWord } from '../services/dictionaryService';
-import { auth } from '../config/firebase';
 import Stepper from '../components/kd/Stepper';
 import SubHead from '../components/kd/SubHead';
 import { IconPlus, IconClose, IconArrow } from '../components/kd/icons';
+import type { Meaning } from '../types';
 
-// language code → display name, used for placeholders and the live preview chip
-const LANGUAGE_NAMES = {
+const LANGUAGE_NAMES: Record<string, string> = {
   en: 'English',
   hi: 'Hindi · हिन्दी',
   bn: 'Bengali · বাংলা',
@@ -26,92 +31,117 @@ const LANGUAGE_NAMES = {
 
 const LANGUAGE_OPTIONS = Object.keys(LANGUAGE_NAMES);
 
+interface MeaningDraft {
+  language: string;
+  definition: string;
+  example_sentence_kurukh: string;
+  example_sentence_translation: string;
+}
+
+interface ContribFormState {
+  kurukh_word: string;
+  pronunciation: string;
+  dialect: string;
+  part_of_speech: string;
+  meanings: MeaningDraft[];
+}
+
+const emptyMeaning = (language: string): MeaningDraft => ({
+  language,
+  definition: '',
+  example_sentence_kurukh: '',
+  example_sentence_translation: '',
+});
+
 const Contribute = () => {
   const { currentUser } = useAuth();
   const navigate = useNavigate();
   const { t } = useTranslation();
 
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<ContribFormState>({
     kurukh_word: '',
     pronunciation: '',
     dialect: '',
     part_of_speech: '',
-    meanings: [
-      { language: 'en', definition: '', example_sentence_kurukh: '', example_sentence_translation: '' },
-    ],
+    meanings: [emptyMeaning('en')],
   });
   const [submitting, setSubmitting] = useState(false);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
 
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleMeaningChange = (index, field, value) => {
-    setFormData(prev => ({
+  const handleMeaningChange = (
+    index: number,
+    field: keyof MeaningDraft,
+    value: string,
+  ) => {
+    setFormData((prev) => ({
       ...prev,
       meanings: prev.meanings.map((m, i) => (i === index ? { ...m, [field]: value } : m)),
     }));
   };
 
   const addMeaning = () => {
-    const used = new Set(formData.meanings.map(m => m.language));
-    const next = LANGUAGE_OPTIONS.find(c => !used.has(c)) || 'en';
-    setFormData(prev => ({
+    const used = new Set(formData.meanings.map((m) => m.language));
+    const next = LANGUAGE_OPTIONS.find((c) => !used.has(c)) || 'en';
+    setFormData((prev) => ({ ...prev, meanings: [...prev.meanings, emptyMeaning(next)] }));
+  };
+
+  const removeMeaning = (index: number) => {
+    if (formData.meanings.length <= 1) return;
+    setFormData((prev) => ({
       ...prev,
-      meanings: [
-        ...prev.meanings,
-        { language: next, definition: '', example_sentence_kurukh: '', example_sentence_translation: '' },
-      ],
+      meanings: prev.meanings.filter((_, i) => i !== index),
     }));
   };
 
-  const removeMeaning = (index) => {
-    if (formData.meanings.length <= 1) return;
-    setFormData(prev => ({ ...prev, meanings: prev.meanings.filter((_, i) => i !== index) }));
-  };
-
-  const isLanguageUsed = (code, currentIndex) =>
+  const isLanguageUsed = (code: string, currentIndex: number) =>
     formData.meanings.some((m, i) => m.language === code && i !== currentIndex);
 
-  const wordCount = (text) =>
-    text.trim().split(/\s+/).filter(Boolean).length;
+  const wordCount = (text: string) => text.trim().split(/\s+/).filter(Boolean).length;
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    if (!formData.kurukh_word.trim()) return setError(t('contribute.errors.wordRequired'));
-    if (!formData.meanings.some(m => m.definition.trim())) return setError(t('contribute.errors.definitionRequired'));
-    const langs = formData.meanings.map(m => m.language);
-    if (new Set(langs).size !== langs.length) return setError(t('contribute.errors.duplicateLanguage'));
+    if (!formData.kurukh_word.trim()) return setError(t('contribute.errors.wordRequired') as string);
+    if (!formData.meanings.some((m) => m.definition.trim()))
+      return setError(t('contribute.errors.definitionRequired') as string);
+    const langs = formData.meanings.map((m) => m.language);
+    if (new Set(langs).size !== langs.length)
+      return setError(t('contribute.errors.duplicateLanguage') as string);
 
     setSubmitting(true);
     setError(null);
 
     try {
       if (!currentUser?.uid) {
-        setError(t('contribute.errors.notLoggedIn'));
+        setError(t('contribute.errors.notLoggedIn') as string);
         setSubmitting(false);
         return;
       }
 
-      const wordData = {
-        kurukh_word: formData.kurukh_word.trim(),
-        meanings: formData.meanings
-          .filter(m => m.definition.trim())
-          .map(m => ({
-            language: m.language,
-            definition: m.definition.trim(),
-            example_sentence_kurukh: m.example_sentence_kurukh.trim(),
-            example_sentence_translation: m.example_sentence_translation.trim(),
-          })),
-        part_of_speech: formData.part_of_speech.trim() || null,
-        pronunciation: formData.pronunciation.trim() || null,
-        dialect: formData.dialect.trim() || null,
-      };
+      const meanings: Meaning[] = formData.meanings
+        .filter((m) => m.definition.trim())
+        .map((m) => ({
+          language: m.language,
+          definition: m.definition.trim(),
+          example_sentence_kurukh: m.example_sentence_kurukh.trim(),
+          example_sentence_translation: m.example_sentence_translation.trim(),
+        }));
 
-      const result = await addWord(wordData, currentUser.uid);
+      const result = await addWord(
+        {
+          kurukh_word: formData.kurukh_word.trim(),
+          meanings,
+          part_of_speech: formData.part_of_speech.trim() || undefined,
+          pronunciation_guide: formData.pronunciation.trim() || undefined,
+        },
+        currentUser.uid,
+      );
+
       if (result.success) {
         setSuccess(true);
         setFormData({
@@ -119,16 +149,16 @@ const Contribute = () => {
           pronunciation: '',
           dialect: '',
           part_of_speech: '',
-          meanings: [{ language: 'en', definition: '', example_sentence_kurukh: '', example_sentence_translation: '' }],
+          meanings: [emptyMeaning('en')],
         });
         setTimeout(() => setSuccess(false), 5000);
       } else {
-        throw new Error(result.error || t('contribute.errors.generic'));
+        throw new Error(result.error || (t('contribute.errors.generic') as string));
       }
     } catch (err) {
-      console.error('Error submitting word:', err);
-      if (err.code === 'permission-denied') setError(t('contribute.errors.permissionDenied'));
-      else setError(err.message || t('contribute.errors.generic'));
+      const e2 = err as { code?: string; message?: string };
+      if (e2.code === 'permission-denied') setError(t('contribute.errors.permissionDenied') as string);
+      else setError(e2.message || (t('contribute.errors.generic') as string));
     } finally {
       setSubmitting(false);
     }
@@ -140,7 +170,7 @@ const Contribute = () => {
       pronunciation: '',
       dialect: '',
       part_of_speech: '',
-      meanings: [{ language: 'en', definition: '', example_sentence_kurukh: '', example_sentence_translation: '' }],
+      meanings: [emptyMeaning('en')],
     });
     setError(null);
   };
@@ -154,7 +184,13 @@ const Contribute = () => {
         >
           <h1
             className="kd-font-serif"
-            style={{ fontSize: 36, fontWeight: 500, margin: 0, color: 'var(--kd-ink)', letterSpacing: '-0.02em' }}
+            style={{
+              fontSize: 36,
+              fontWeight: 500,
+              margin: 0,
+              color: 'var(--kd-ink)',
+              letterSpacing: '-0.02em',
+            }}
           >
             {t('nav.contribute')}
           </h1>
@@ -177,7 +213,11 @@ const Contribute = () => {
               type="button"
               onClick={() => navigate('/register')}
               className="kd-font-sans px-5 py-2.5 rounded-[10px] font-semibold text-[14px]"
-              style={{ background: 'transparent', color: 'var(--kd-ink)', border: '1px solid var(--kd-line)' }}
+              style={{
+                background: 'transparent',
+                color: 'var(--kd-ink)',
+                border: '1px solid var(--kd-line)',
+              }}
             >
               {t('contribute.register')}
             </button>
@@ -187,12 +227,11 @@ const Contribute = () => {
     );
   }
 
-  const previewMeanings = formData.meanings.filter(m => m.definition.trim());
+  const previewMeanings = formData.meanings.filter((m) => m.definition.trim());
   const hasPreviewContent = formData.kurukh_word.trim() && previewMeanings.length > 0;
 
   return (
     <div style={{ background: 'var(--kd-bg)', color: 'var(--kd-ink)' }}>
-      {/* Page header */}
       <div className="max-w-[1200px] mx-auto px-6 md:px-14 pt-14 pb-8">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8">
           <div>
@@ -217,7 +256,13 @@ const Contribute = () => {
             </h1>
             <p
               className="kd-font-serif mt-4 max-w-[560px]"
-              style={{ fontSize: 'clamp(16px, 1.4vw, 19px)', color: 'var(--kd-ink-soft)', lineHeight: 1.5, margin: 0, marginTop: 16 }}
+              style={{
+                fontSize: 'clamp(16px, 1.4vw, 19px)',
+                color: 'var(--kd-ink-soft)',
+                lineHeight: 1.5,
+                margin: 0,
+                marginTop: 16,
+              }}
             >
               {t('contribute.subtitle')}
             </p>
@@ -225,10 +270,10 @@ const Contribute = () => {
           <div className="hidden md:block">
             <Stepper
               steps={[
-                t('contribute.steps.draft'),
-                t('contribute.steps.community'),
-                t('contribute.steps.editor'),
-                t('contribute.steps.published'),
+                t('contribute.steps.draft') as string,
+                t('contribute.steps.community') as string,
+                t('contribute.steps.editor') as string,
+                t('contribute.steps.published') as string,
               ]}
               activeIndex={0}
             />
@@ -236,9 +281,7 @@ const Contribute = () => {
         </div>
       </div>
 
-      {/* Two-column body */}
       <div className="max-w-[1200px] mx-auto px-6 md:px-14 pb-24 grid gap-10 lg:grid-cols-[1.05fr_0.95fr]">
-        {/* ── Form ── */}
         <form
           onSubmit={handleSubmit}
           className="p-7 md:p-9 rounded-[20px]"
@@ -246,7 +289,7 @@ const Contribute = () => {
         >
           <SubHead eyebrow={t('contribute.headwordEyebrow')} title={t('contribute.headwordTitle')} />
 
-          <FieldLabel label={t('contribute.fields.kurukhWord')} required />
+          <FieldLabel label={t('contribute.fields.kurukhWord') as string} required />
           <input
             type="text"
             name="kurukh_word"
@@ -260,7 +303,10 @@ const Contribute = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             <div>
-              <FieldLabel label={t('contribute.fields.ipa')} hint={t('contribute.fields.ipaHint')} />
+              <FieldLabel
+                label={t('contribute.fields.ipa') as string}
+                hint={t('contribute.fields.ipaHint') as string}
+              />
               <input
                 type="text"
                 name="pronunciation"
@@ -272,13 +318,19 @@ const Contribute = () => {
               />
             </div>
             <div>
-              <FieldLabel label={t('contribute.fields.pos')} />
+              <FieldLabel label={t('contribute.fields.pos') as string} />
               <select
                 name="part_of_speech"
                 value={formData.part_of_speech}
                 onChange={handleChange}
                 className="w-full kd-font-sans outline-none appearance-none"
-                style={{ ...inputStyle({ fontSize: 15 }), paddingRight: 36, backgroundPosition: 'right 12px center', backgroundRepeat: 'no-repeat', backgroundImage: chevronBg() }}
+                style={{
+                  ...inputStyle({ fontSize: 15 }),
+                  paddingRight: 36,
+                  backgroundPosition: 'right 12px center',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundImage: chevronBg(),
+                }}
               >
                 <option value="">{t('contribute.fields.posSelect')}</option>
                 <option value="noun">noun</option>
@@ -294,7 +346,7 @@ const Contribute = () => {
           </div>
 
           <div className="mt-4">
-            <FieldLabel label={t('contribute.fields.dialect')} />
+            <FieldLabel label={t('contribute.fields.dialect') as string} />
             <input
               type="text"
               name="dialect"
@@ -306,7 +358,6 @@ const Contribute = () => {
             />
           </div>
 
-          {/* Meanings */}
           <div className="mt-9">
             <div className="flex flex-wrap justify-between items-end gap-3">
               <SubHead eyebrow={t('contribute.meaningsEyebrow')} title={t('contribute.meaningsTitle')} noBottom />
@@ -381,16 +432,18 @@ const Contribute = () => {
               type="button"
               onClick={resetForm}
               className="kd-font-sans font-medium text-[14px] px-5 py-3.5 rounded-xl"
-              style={{ background: 'transparent', color: 'var(--kd-ink)', border: '1px solid var(--kd-line)' }}
+              style={{
+                background: 'transparent',
+                color: 'var(--kd-ink)',
+                border: '1px solid var(--kd-line)',
+              }}
             >
               {t('contribute.cancel')}
             </button>
           </div>
         </form>
 
-        {/* ── Right: info + preview + rules ── */}
         <div className="flex flex-col gap-5">
-          {/* Info pill */}
           <div
             className="p-4 rounded-2xl flex gap-3.5"
             style={{
@@ -430,7 +483,6 @@ const Contribute = () => {
             </div>
           </div>
 
-          {/* Live preview */}
           <div
             className="p-7 rounded-[20px] relative overflow-hidden"
             style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
@@ -525,58 +577,13 @@ const Contribute = () => {
               </div>
             )}
           </div>
-
-          {/* Submission rules */}
-          <div
-            className="p-6 rounded-2xl"
-            style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
-          >
-            <div className="kd-eyebrow mb-3.5">{t('contribute.rulesEyebrow')}</div>
-            {(t('contribute.rules', { returnObjects: true }) || []).map(rule => (
-              <div key={rule.title} className="flex gap-3 mb-3">
-                <span
-                  aria-hidden="true"
-                  className="inline-flex items-center justify-center"
-                  style={{
-                    width: 18,
-                    height: 18,
-                    borderRadius: 5,
-                    background: 'var(--kd-accent)',
-                    color: '#FBF7EE',
-                    flexShrink: 0,
-                    marginTop: 2,
-                    fontSize: 11,
-                    fontWeight: 700,
-                  }}
-                >
-                  ✓
-                </span>
-                <div>
-                  <div
-                    className="kd-font-sans"
-                    style={{ fontSize: 13.5, fontWeight: 500, color: 'var(--kd-ink)' }}
-                  >
-                    {rule.title}
-                  </div>
-                  <div
-                    className="kd-font-sans mt-0.5"
-                    style={{ fontSize: 12.5, color: 'var(--kd-ink-soft)', lineHeight: 1.5 }}
-                  >
-                    {rule.body}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </div>
   );
 };
 
-// ─── helpers ───
-
-const inputStyle = (overrides = {}) => ({
+const inputStyle = (overrides: CSSProperties = {}): CSSProperties => ({
   width: '100%',
   boxSizing: 'border-box',
   border: '1px solid var(--kd-line)',
@@ -588,10 +595,16 @@ const inputStyle = (overrides = {}) => ({
   ...overrides,
 });
 
-const chevronBg = () =>
+const chevronBg = (): string =>
   `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%238A8073' stroke-width='2' stroke-linecap='round'><path d='m6 9 6 6 6-6'/></svg>")`;
 
-const FieldLabel = ({ label, required, hint }) => (
+interface FieldLabelProps {
+  label: string;
+  required?: boolean;
+  hint?: string;
+}
+
+const FieldLabel = ({ label, required, hint }: FieldLabelProps) => (
   <div className="flex items-baseline justify-between mb-1.5">
     <label
       className="kd-font-sans"
@@ -608,7 +621,27 @@ const FieldLabel = ({ label, required, hint }) => (
   </div>
 );
 
-const MeaningCard = ({ t, n, meaning, isLanguageUsed, onChange, onRemove, showRemove, wordCount }) => {
+interface MeaningCardProps {
+  t: (key: string, opts?: Record<string, unknown>) => string;
+  n: number;
+  meaning: MeaningDraft;
+  isLanguageUsed: (code: string, idx: number) => boolean;
+  onChange: (field: keyof MeaningDraft, value: string) => void;
+  onRemove: () => void;
+  showRemove: boolean;
+  wordCount: (text: string) => number;
+}
+
+const MeaningCard = ({
+  t,
+  n,
+  meaning,
+  isLanguageUsed,
+  onChange,
+  onRemove,
+  showRemove,
+  wordCount,
+}: MeaningCardProps) => {
   const langLabel = LANGUAGE_NAMES[meaning.language] || meaning.language;
   return (
     <div
@@ -632,13 +665,13 @@ const MeaningCard = ({ t, n, meaning, isLanguageUsed, onChange, onRemove, showRe
             {n}
           </span>
           <div>
-            <div
-              className="kd-font-sans"
-              style={{ fontSize: 13, fontWeight: 500, color: 'var(--kd-ink)' }}
-            >
+            <div className="kd-font-sans" style={{ fontSize: 13, fontWeight: 500, color: 'var(--kd-ink)' }}>
               {langLabel}
             </div>
-            <div className="kd-font-mono" style={{ fontSize: 11, color: 'var(--kd-ink-mute)', marginTop: 1 }}>
+            <div
+              className="kd-font-mono"
+              style={{ fontSize: 11, color: 'var(--kd-ink-mute)', marginTop: 1 }}
+            >
               {meaning.language}
             </div>
           </div>
@@ -647,7 +680,7 @@ const MeaningCard = ({ t, n, meaning, isLanguageUsed, onChange, onRemove, showRe
           <button
             type="button"
             onClick={onRemove}
-            aria-label={t('contribute.removeMeaning')}
+            aria-label={t('contribute.removeMeaning') as string}
             className="inline-flex items-center justify-center p-1.5 rounded-md"
             style={{ color: 'var(--kd-ink-mute)' }}
           >
@@ -669,7 +702,7 @@ const MeaningCard = ({ t, n, meaning, isLanguageUsed, onChange, onRemove, showRe
           backgroundImage: chevronBg(),
         }}
       >
-        {LANGUAGE_OPTIONS.map(code => (
+        {LANGUAGE_OPTIONS.map((code) => (
           <option key={code} value={code} disabled={isLanguageUsed(code, n - 1)}>
             {LANGUAGE_NAMES[code]}
             {isLanguageUsed(code, n - 1) ? ' (used)' : ''}
@@ -677,15 +710,15 @@ const MeaningCard = ({ t, n, meaning, isLanguageUsed, onChange, onRemove, showRe
         ))}
       </select>
       <FieldLabel
-        label={t('contribute.definition')}
+        label={t('contribute.definition') as string}
         required
-        hint={t('contribute.wordsCount', { count: wordCount(meaning.definition) })}
+        hint={t('contribute.wordsCount', { count: wordCount(meaning.definition) }) as string}
       />
       <textarea
         value={meaning.definition}
         onChange={(e) => onChange('definition', e.target.value)}
         rows={2}
-        placeholder={t('contribute.definitionPlaceholder', { lang: langLabel })}
+        placeholder={t('contribute.definitionPlaceholder', { lang: langLabel }) as string}
         className="w-full kd-font-serif outline-none"
         style={inputStyle({ fontSize: 16, lineHeight: 1.5, background: 'var(--kd-surface)' })}
         required={n === 1}
@@ -696,7 +729,7 @@ const MeaningCard = ({ t, n, meaning, isLanguageUsed, onChange, onRemove, showRe
           value={meaning.example_sentence_kurukh}
           onChange={(e) => onChange('example_sentence_kurukh', e.target.value)}
           rows={2}
-          placeholder={t('contribute.exampleKurukhPlaceholder')}
+          placeholder={t('contribute.exampleKurukhPlaceholder') as string}
           className="kd-font-serif italic outline-none"
           style={inputStyle({ fontSize: 14, background: 'var(--kd-surface)', color: 'var(--kd-ink-soft)' })}
         />
@@ -704,7 +737,7 @@ const MeaningCard = ({ t, n, meaning, isLanguageUsed, onChange, onRemove, showRe
           value={meaning.example_sentence_translation}
           onChange={(e) => onChange('example_sentence_translation', e.target.value)}
           rows={2}
-          placeholder={t('contribute.exampleTranslationPlaceholder', { lang: langLabel })}
+          placeholder={t('contribute.exampleTranslationPlaceholder', { lang: langLabel }) as string}
           className="kd-font-sans outline-none"
           style={inputStyle({ fontSize: 13, background: 'var(--kd-surface)', color: 'var(--kd-ink-soft)' })}
         />
@@ -713,7 +746,15 @@ const MeaningCard = ({ t, n, meaning, isLanguageUsed, onChange, onRemove, showRe
   );
 };
 
-const PreviewMeaning = ({ n, definition, example, translation, hindi }) => (
+interface PreviewMeaningProps {
+  n: number;
+  definition: string;
+  example: string;
+  translation: string;
+  hindi: boolean;
+}
+
+const PreviewMeaning = ({ n, definition, example, translation, hindi }: PreviewMeaningProps): ReactNode => (
   <div style={{ borderLeft: '3px solid var(--kd-accent)', paddingLeft: 16 }}>
     <div className="flex items-baseline gap-2 flex-wrap">
       <span className="kd-font-serif" style={{ fontWeight: 500, fontSize: 18, color: 'var(--kd-accent)' }}>

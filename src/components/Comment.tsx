@@ -1,11 +1,4 @@
-/**
- * Comment — a single threaded comment node with voting, reply, edit, and delete.
- * Behaviour is preserved from the original implementation; only the presentation
- * is rewritten to match the KD design (sage/accent vote chevrons, monogram avatar,
- * accent-edged reply rail).
- */
-
-import React, { useState } from 'react';
+import { useState, type FormEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../contexts/AuthContext';
 import {
@@ -14,11 +7,13 @@ import {
   deleteComment,
   loadRepliesForComment,
   reloadParentReplies,
+  type CommentVoteType,
 } from '../services/commentService';
 import { formatDate } from '../utils/wordUtils';
 import { MAX_COMMENT_LEVEL } from '../config/comments';
+import type { Comment as CommentModel } from '../types';
 
-const initialsOf = (name) =>
+const initialsOf = (name: string): string =>
   (name || '?')
     .split(/\s+/)
     .map((part) => part[0])
@@ -26,6 +21,17 @@ const initialsOf = (name) =>
     .slice(0, 2)
     .join('')
     .toUpperCase();
+
+export interface CommentProps {
+  comment: CommentModel;
+  onReply?: (parentCommentId: string, content: string) => void | Promise<void>;
+  onEdit?: (commentId: string, newContent: string) => void;
+  onDelete?: (commentId: string) => void;
+  onVote?: (commentId: string, voteType: CommentVoteType) => void;
+  onParentReload?: (parentCommentId: string) => void | Promise<void>;
+  level?: number;
+  maxLevel?: number;
+}
 
 const Comment = ({
   comment,
@@ -36,7 +42,7 @@ const Comment = ({
   onParentReload,
   level = 0,
   maxLevel = MAX_COMMENT_LEVEL,
-}) => {
+}: CommentProps) => {
   const { t } = useTranslation();
   const { currentUser } = useAuth();
   const [showReplyForm, setShowReplyForm] = useState(false);
@@ -47,17 +53,21 @@ const Comment = ({
   const [votingInProgress, setVotingInProgress] = useState(false);
   const [showReplies, setShowReplies] = useState(level < 3);
   const [loadingReplies, setLoadingReplies] = useState(false);
-  const [repliesLoaded, setRepliesLoaded] = useState(comment.repliesLoaded || level < 3);
-  const [dynamicReplies, setDynamicReplies] = useState(comment.replies || []);
+  const [repliesLoaded, setRepliesLoaded] = useState(
+    comment.repliesLoaded || level < 3,
+  );
+  const [dynamicReplies, setDynamicReplies] = useState<CommentModel[]>(
+    comment.replies || [],
+  );
 
   const netScore = (comment.upvotes || 0) - (comment.downvotes || 0);
-  const hasUpvoted = comment.upvotedBy?.includes(currentUser?.uid);
-  const hasDownvoted = comment.downvotedBy?.includes(currentUser?.uid);
+  const hasUpvoted = !!currentUser && comment.upvotedBy?.includes(currentUser.uid);
+  const hasDownvoted = !!currentUser && comment.downvotedBy?.includes(currentUser.uid);
   const isOwner = currentUser?.uid === comment.userId;
   const displayName = comment.userInfo?.displayName || t('comments.anonymous');
   const avatarBg = level % 2 === 0 ? 'var(--kd-accent-soft)' : 'var(--kd-sage-soft)';
 
-  const handleChildParentReload = async (parentCommentId) => {
+  const handleChildParentReload = async (parentCommentId: string) => {
     if (parentCommentId === comment.id) {
       try {
         const result = await reloadParentReplies(comment.id, level, maxLevel);
@@ -91,7 +101,7 @@ const Comment = ({
     }
   };
 
-  const handleVote = async (voteType) => {
+  const handleVote = async (voteType: CommentVoteType) => {
     if (!currentUser) return;
     setVotingInProgress(true);
     try {
@@ -104,7 +114,7 @@ const Comment = ({
     }
   };
 
-  const handleReplySubmit = async (e) => {
+  const handleReplySubmit = async (e: FormEvent) => {
     e.preventDefault();
     if (!replyContent.trim() || !currentUser) return;
     setIsSubmitting(true);
@@ -121,7 +131,7 @@ const Comment = ({
     }
   };
 
-  const handleEditSubmit = async (e) => {
+  const handleEditSubmit = async (e: FormEvent) => {
     e.preventDefault();
     if (!editContent.trim() || !currentUser) return;
     setIsSubmitting(true);
@@ -140,7 +150,7 @@ const Comment = ({
   };
 
   const handleDelete = async () => {
-    if (!currentUser || !window.confirm(t('comments.deleteConfirm'))) return;
+    if (!currentUser || !window.confirm(t('comments.deleteConfirm') as string)) return;
     try {
       const result = await deleteComment(comment.id, currentUser.uid);
       if (result.success) {
@@ -152,7 +162,6 @@ const Comment = ({
     }
   };
 
-  // Deleted comments collapse to a small placeholder so the tree shape is preserved.
   if (comment.isDeleted) {
     return (
       <div
@@ -169,8 +178,6 @@ const Comment = ({
     );
   }
 
-  // Use a CSS-variable indent so we don't run out of Tailwind ml-* classes
-  // and so the rail border can stay flush across all depths.
   const indent = level === 0 ? 0 : Math.min(level, 6) * 18;
 
   const inputStyle = {
@@ -182,7 +189,7 @@ const Comment = ({
     fontSize: 14,
     lineHeight: 1.5,
     outline: 'none',
-    resize: 'vertical',
+    resize: 'vertical' as const,
   };
 
   return (
@@ -194,7 +201,6 @@ const Comment = ({
       }}
     >
       <div className="flex items-start gap-3">
-        {/* Vote column */}
         <div className="flex flex-col items-center gap-1" style={{ minWidth: 30 }}>
           <button
             type="button"
@@ -242,7 +248,9 @@ const Comment = ({
               height: 24,
               borderRadius: 6,
               border: 'none',
-              background: hasDownvoted ? 'color-mix(in srgb, var(--kd-sage) 18%, transparent)' : 'transparent',
+              background: hasDownvoted
+                ? 'color-mix(in srgb, var(--kd-sage) 18%, transparent)'
+                : 'transparent',
               color: hasDownvoted ? 'var(--kd-sage)' : 'var(--kd-ink-mute)',
               cursor: votingInProgress || !currentUser ? 'not-allowed' : 'pointer',
             }}
@@ -251,9 +259,7 @@ const Comment = ({
           </button>
         </div>
 
-        {/* Comment body */}
         <div className="flex-1 min-w-0">
-          {/* Meta row */}
           <div className="flex items-center gap-2 flex-wrap">
             <span
               className="kd-font-serif inline-flex items-center justify-center"
@@ -267,7 +273,7 @@ const Comment = ({
                 fontSize: 10,
               }}
             >
-              {initialsOf(displayName)}
+              {initialsOf(String(displayName))}
             </span>
             <span
               className="kd-font-sans"
@@ -292,7 +298,6 @@ const Comment = ({
             )}
           </div>
 
-          {/* Body or edit form */}
           {showEditForm ? (
             <form onSubmit={handleEditSubmit} className="mt-3">
               <textarea
@@ -320,7 +325,11 @@ const Comment = ({
                   }}
                   disabled={isSubmitting}
                   className="kd-font-sans px-3 py-1.5 rounded-[8px] text-[12.5px] font-medium"
-                  style={{ background: 'transparent', color: 'var(--kd-ink-soft)', border: '1px solid var(--kd-line)' }}
+                  style={{
+                    background: 'transparent',
+                    color: 'var(--kd-ink-soft)',
+                    border: '1px solid var(--kd-line)',
+                  }}
                 >
                   {t('comments.cancel')}
                 </button>
@@ -335,7 +344,6 @@ const Comment = ({
             </p>
           )}
 
-          {/* Action row */}
           {!showEditForm && (
             <div
               className="flex items-center gap-4 kd-font-sans"
@@ -346,7 +354,13 @@ const Comment = ({
                   type="button"
                   onClick={() => setShowReplyForm(!showReplyForm)}
                   className="font-medium transition-colors hover:opacity-80"
-                  style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'inherit', padding: 0 }}
+                  style={{
+                    background: 'transparent',
+                    border: 'none',
+                    cursor: 'pointer',
+                    color: 'inherit',
+                    padding: 0,
+                  }}
                 >
                   {t('comments.reply')}
                 </button>
@@ -357,7 +371,13 @@ const Comment = ({
                     type="button"
                     onClick={() => setShowEditForm(true)}
                     className="font-medium transition-colors hover:opacity-80"
-                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'inherit', padding: 0 }}
+                    style={{
+                      background: 'transparent',
+                      border: 'none',
+                      cursor: 'pointer',
+                      color: 'inherit',
+                      padding: 0,
+                    }}
                   >
                     {t('comments.edit')}
                   </button>
@@ -365,13 +385,20 @@ const Comment = ({
                     type="button"
                     onClick={handleDelete}
                     className="font-medium transition-colors hover:opacity-80"
-                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'var(--kd-accent)', padding: 0 }}
+                    style={{
+                      background: 'transparent',
+                      border: 'none',
+                      cursor: 'pointer',
+                      color: 'var(--kd-accent)',
+                      padding: 0,
+                    }}
                   >
                     {t('comments.delete')}
                   </button>
                 </>
               )}
-              {((comment.replies && comment.replies.length > 0) || (level >= 3 && comment.hasReplies)) && (
+              {((comment.replies && comment.replies.length > 0) ||
+                (level >= 3 && comment.hasReplies)) && (
                 <button
                   type="button"
                   onClick={() => {
@@ -380,7 +407,13 @@ const Comment = ({
                   }}
                   disabled={loadingReplies}
                   className="font-medium transition-colors hover:opacity-80"
-                  style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'inherit', padding: 0 }}
+                  style={{
+                    background: 'transparent',
+                    border: 'none',
+                    cursor: 'pointer',
+                    color: 'inherit',
+                    padding: 0,
+                  }}
                 >
                   {loadingReplies
                     ? t('comments.loading')
@@ -398,7 +431,6 @@ const Comment = ({
             </div>
           )}
 
-          {/* Reply form */}
           {showReplyForm && (
             <form
               onSubmit={handleReplySubmit}
@@ -409,7 +441,7 @@ const Comment = ({
                 value={replyContent}
                 onChange={(e) => setReplyContent(e.target.value)}
                 rows={3}
-                placeholder={t('comments.replyPlaceholder')}
+                placeholder={t('comments.replyPlaceholder') as string}
                 disabled={isSubmitting}
                 className="kd-font-serif w-full"
                 style={inputStyle}
@@ -431,7 +463,11 @@ const Comment = ({
                   }}
                   disabled={isSubmitting}
                   className="kd-font-sans px-3 py-1.5 rounded-[8px] text-[12.5px] font-medium"
-                  style={{ background: 'transparent', color: 'var(--kd-ink-soft)', border: '1px solid var(--kd-line)' }}
+                  style={{
+                    background: 'transparent',
+                    color: 'var(--kd-ink-soft)',
+                    border: '1px solid var(--kd-line)',
+                  }}
                 >
                   {t('comments.cancel')}
                 </button>
@@ -441,10 +477,9 @@ const Comment = ({
         </div>
       </div>
 
-      {/* Replies */}
       {showReplies && (
         <div className="mt-4 flex flex-col gap-4">
-          {(level < 3 ? (comment.replies || []) : dynamicReplies).map((reply) => (
+          {(level < 3 ? comment.replies || [] : dynamicReplies).map((reply) => (
             <Comment
               key={reply.id}
               comment={reply}
@@ -464,12 +499,32 @@ const Comment = ({
 };
 
 const ChevUp = () => (
-  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+  <svg
+    width="14"
+    height="14"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2.2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    aria-hidden="true"
+  >
     <path d="m6 15 6-6 6 6" />
   </svg>
 );
 const ChevDown = () => (
-  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+  <svg
+    width="14"
+    height="14"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2.2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    aria-hidden="true"
+  >
     <path d="m6 9 6 6 6-6" />
   </svg>
 );

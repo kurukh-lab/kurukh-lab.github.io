@@ -25,8 +25,7 @@ i18n
     },
   });
 
-// Keep <html lang> in sync — used by kd-tokens.css to switch Devanagari fonts.
-const syncHtmlLang = (lng) => {
+const syncHtmlLang = (lng: string): void => {
   if (typeof document !== 'undefined') {
     document.documentElement.setAttribute('lang', lng);
   }

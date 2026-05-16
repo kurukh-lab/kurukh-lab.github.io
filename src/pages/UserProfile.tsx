@@ -1,14 +1,17 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../contexts/AuthContext';
 import { getUserContributions } from '../services/dictionaryService';
 import { formatDate } from '../utils/wordUtils';
 import SubHead from '../components/kd/SubHead';
-import StatusPill from '../components/kd/StatusPill';
+import StatusPill, { type PillTone } from '../components/kd/StatusPill';
 import { IconPlus, IconArrow, IconHeart } from '../components/kd/icons';
+import type { Word } from '../types';
 
-const STATUS_TONE = {
+type WordWithLikes = Word & { likes_count?: number; likes?: number };
+
+const STATUS_TONE: Record<string, PillTone> = {
   approved: 'sage',
   community_approved: 'sage',
   pending_review: 'violet',
@@ -19,7 +22,10 @@ const STATUS_TONE = {
   community_rejected: 'neutral',
 };
 
-const formatStatusLabel = (t, word) => {
+const formatStatusLabel = (
+  t: (key: string, opts?: Record<string, unknown>) => string,
+  word: Word,
+): string => {
   switch (word.status) {
     case 'approved':
       return t('profile.status.approved');
@@ -43,10 +49,10 @@ const formatStatusLabel = (t, word) => {
 const UserProfile = () => {
   const { currentUser } = useAuth();
   const { t } = useTranslation();
-  const [contributions, setContributions] = useState([]);
+  const [contributions, setContributions] = useState<WordWithLikes[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [statusFilter, setStatusFilter] = useState('all');
+  const [error, setError] = useState<string | null>(null);
+  const [statusFilter, setStatusFilter] = useState<'all' | 'approved' | 'review'>('all');
 
   useEffect(() => {
     const run = async () => {
@@ -55,10 +61,10 @@ const UserProfile = () => {
       setError(null);
       try {
         const list = await getUserContributions(currentUser.uid);
-        setContributions(list || []);
+        setContributions((list as WordWithLikes[]) || []);
       } catch (err) {
         console.error('Error fetching user contributions:', err);
-        setError(t('profile.loadError'));
+        setError(t('profile.loadError') as string);
       } finally {
         setLoading(false);
       }
@@ -68,23 +74,42 @@ const UserProfile = () => {
 
   const stats = useMemo(() => {
     const total = contributions.length;
-    const approved = contributions.filter(w => w.status === 'approved' || w.status === 'community_approved').length;
-    const awaiting = contributions.filter(w => ['pending_review', 'community_review', 'in_community_review'].includes(w.status)).length;
+    const approved = contributions.filter(
+      (w) => w.status === 'approved' || w.status === 'community_approved',
+    ).length;
+    const awaiting = contributions.filter((w) =>
+      ['pending_review', 'community_review', 'in_community_review'].includes(w.status),
+    ).length;
     return { total, approved, awaiting };
   }, [contributions]);
 
   const filtered = useMemo(() => {
-    if (statusFilter === 'approved') return contributions.filter(w => w.status === 'approved' || w.status === 'community_approved');
-    if (statusFilter === 'review') return contributions.filter(w => ['pending_review', 'community_review', 'in_community_review'].includes(w.status));
+    if (statusFilter === 'approved')
+      return contributions.filter(
+        (w) => w.status === 'approved' || w.status === 'community_approved',
+      );
+    if (statusFilter === 'review')
+      return contributions.filter((w) =>
+        ['pending_review', 'community_review', 'in_community_review'].includes(w.status),
+      );
     return contributions;
   }, [contributions, statusFilter]);
 
   if (!currentUser) return <Navigate to="/login" replace />;
 
-  const name = currentUser.displayName || currentUser.username || currentUser.email?.split('@')[0] || 'User';
+  const userExt = currentUser as typeof currentUser & {
+    displayName?: string | null;
+    username?: string;
+    createdAt?: unknown;
+  };
+  const name =
+    userExt.displayName ||
+    userExt.username ||
+    currentUser.email?.split('@')[0] ||
+    'User';
   const initials = name
     .split(/\s+/)
-    .map(s => s[0])
+    .map((s) => s[0])
     .filter(Boolean)
     .slice(0, 2)
     .join('')
@@ -92,7 +117,6 @@ const UserProfile = () => {
 
   return (
     <div style={{ background: 'var(--kd-bg)', color: 'var(--kd-ink)' }}>
-      {/* Header */}
       <section className="max-w-[1200px] mx-auto px-6 md:px-14 pt-14 pb-8">
         <div className="grid items-center gap-8 md:grid-cols-[auto_1fr_auto]">
           <div
@@ -135,9 +159,14 @@ const UserProfile = () => {
               style={{ fontSize: 14, color: 'var(--kd-ink-soft)', margin: 0, marginTop: 8 }}
             >
               {currentUser.email}
-              {currentUser.createdAt && (
-                <> · {t('profile.memberSince', { date: formatDate(currentUser.createdAt) })}</>
-              )}
+              {userExt.createdAt ? (
+                <>
+                  {' · '}
+                  {t('profile.memberSince', {
+                    date: formatDate(userExt.createdAt as Parameters<typeof formatDate>[0]),
+                  })}
+                </>
+              ) : null}
             </p>
           </div>
 
@@ -145,7 +174,11 @@ const UserProfile = () => {
             <button
               type="button"
               className="kd-font-sans inline-flex items-center gap-2 px-4 py-2.5 rounded-[10px] text-[13.5px] font-medium"
-              style={{ background: 'transparent', color: 'var(--kd-ink)', border: '1px solid var(--kd-line)' }}
+              style={{
+                background: 'transparent',
+                color: 'var(--kd-ink)',
+                border: '1px solid var(--kd-line)',
+              }}
             >
               {t('profile.editProfile')}
             </button>
@@ -161,7 +194,6 @@ const UserProfile = () => {
         </div>
       </section>
 
-      {/* Stats */}
       <section className="max-w-[1200px] mx-auto px-6 md:px-14">
         <div className="grid gap-3 grid-cols-2 md:grid-cols-4">
           {[
@@ -169,9 +201,9 @@ const UserProfile = () => {
             { value: stats.approved, label: t('profile.stats.approved') },
             { value: stats.awaiting, label: t('profile.stats.awaiting') },
             { value: '—', label: t('profile.stats.reviews') },
-          ].map(s => (
+          ].map((s) => (
             <div
-              key={s.label}
+              key={String(s.label)}
               className="p-5 rounded-2xl"
               style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
             >
@@ -189,11 +221,7 @@ const UserProfile = () => {
               </div>
               <div
                 className="kd-font-sans uppercase mt-2"
-                style={{
-                  fontSize: 12.5,
-                  color: 'var(--kd-ink-soft)',
-                  letterSpacing: '0.08em',
-                }}
+                style={{ fontSize: 12.5, color: 'var(--kd-ink-soft)', letterSpacing: '0.08em' }}
               >
                 {s.label}
               </div>
@@ -202,77 +230,17 @@ const UserProfile = () => {
         </div>
       </section>
 
-      {/* Body */}
       <section className="max-w-[1200px] mx-auto px-6 md:px-14 pt-10 pb-24 grid gap-10 md:grid-cols-[1fr_1.6fr]">
-        {/* Left: about + badges */}
         <aside>
           <SubHead eyebrow={t('profile.aboutEyebrow')} title={t('profile.aboutTitle')} />
-
-          <div
-            className="p-5 rounded-2xl"
-            style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
-          >
-            <div className="kd-eyebrow mb-3.5">{t('profile.dialectsEyebrow')}</div>
-            {[
-              ['Lohardaga', 'native', 'var(--kd-accent)'],
-              ['Gumla', 'conversational', 'var(--kd-sage-soft)'],
-              ['Sundargarh', 'reading', 'var(--kd-ink-mute)'],
-            ].map(([place, level, color]) => (
-              <div key={place} className="flex gap-3 mb-3">
-                <span
-                  aria-hidden="true"
-                  style={{ width: 6, height: 6, borderRadius: '50%', background: color, marginTop: 8, flexShrink: 0 }}
-                />
-                <div>
-                  <div className="kd-font-sans" style={{ fontSize: 13.5, fontWeight: 600, color: 'var(--kd-ink)' }}>
-                    {place}
-                  </div>
-                  <div className="kd-font-sans mt-0.5" style={{ fontSize: 12.5, color: 'var(--kd-ink-soft)' }}>
-                    {level}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div
-            className="mt-4 p-5 rounded-2xl"
-            style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
-          >
-            <div className="kd-eyebrow mb-3.5">{t('profile.badgesEyebrow')}</div>
-            <div className="flex flex-wrap gap-1.5">
-              {[
-                ['100 words', 'var(--kd-accent)'],
-                ['Audio archivist', 'var(--kd-sage)'],
-                ['First-year', 'var(--kd-ink-mute)'],
-                ['Folktale collector', '#7C5BA8'],
-              ].map(([label, color]) => (
-                <span
-                  key={label}
-                  className="kd-font-sans"
-                  style={{
-                    padding: '5px 12px',
-                    borderRadius: 999,
-                    border: `1px solid color-mix(in srgb, ${color} 40%, transparent)`,
-                    color,
-                    fontSize: 12,
-                    fontWeight: 500,
-                  }}
-                >
-                  {label}
-                </span>
-              ))}
-            </div>
-          </div>
         </aside>
 
-        {/* Right: contributions */}
         <div className="min-w-0">
           <div className="flex flex-wrap justify-between items-end gap-3 mb-5">
             <SubHead eyebrow={t('profile.contribsEyebrow')} title={t('profile.contribsTitle')} noBottom />
             <select
               value={statusFilter}
-              onChange={(e) => setStatusFilter(e.target.value)}
+              onChange={(e) => setStatusFilter(e.target.value as 'all' | 'approved' | 'review')}
               className="kd-font-sans outline-none appearance-none"
               style={{
                 background: 'var(--kd-bg)',
@@ -281,9 +249,6 @@ const UserProfile = () => {
                 borderRadius: 10,
                 padding: '8px 36px 8px 12px',
                 fontSize: 13,
-                backgroundImage: chevronBg(),
-                backgroundPosition: 'right 12px center',
-                backgroundRepeat: 'no-repeat',
               }}
             >
               <option value="all">{t('profile.filterAll')}</option>
@@ -297,15 +262,7 @@ const UserProfile = () => {
               <span className="loading loading-spinner loading-lg" style={{ color: 'var(--kd-accent)' }} />
             </div>
           ) : error ? (
-            <div
-              role="alert"
-              className="kd-font-sans px-4 py-3 rounded-xl"
-              style={{
-                background: 'var(--kd-accent-tint)',
-                color: 'var(--kd-accent)',
-                border: '1px solid color-mix(in srgb, var(--kd-accent) 40%, transparent)',
-              }}
-            >
+            <div role="alert" className="kd-font-sans px-4 py-3 rounded-xl">
               {error}
             </div>
           ) : filtered.length === 0 ? (
@@ -316,23 +273,15 @@ const UserProfile = () => {
               <p className="kd-font-serif italic" style={{ fontSize: 16, color: 'var(--kd-ink-soft)' }}>
                 {t('profile.emptyContribs')}
               </p>
-              <Link
-                to="/contribute"
-                className="kd-font-sans inline-flex items-center gap-2 mt-4 px-4 py-2.5 rounded-[10px] text-[13.5px] font-medium"
-                style={{ background: 'var(--kd-accent)', color: '#FBF7EE' }}
-              >
-                <IconPlus size={13} weight={2.2} />
-                {t('profile.addFirst')}
-              </Link>
             </div>
           ) : (
-            filtered.map(word => (
+            filtered.map((word) => (
               <ContribRow
                 key={word.id}
                 word={word}
                 label={formatStatusLabel(t, word)}
                 tone={STATUS_TONE[word.status] || 'neutral'}
-                addedLabel={t('profile.addedOn', { date: formatDate(word.createdAt) })}
+                addedLabel={t('profile.addedOn', { date: formatDate(word.createdAt) }) as string}
               />
             ))
           )}
@@ -342,7 +291,14 @@ const UserProfile = () => {
   );
 };
 
-const ContribRow = ({ word, label, tone, addedLabel }) => {
+interface ContribRowProps {
+  word: WordWithLikes;
+  label: string;
+  tone: PillTone;
+  addedLabel: string;
+}
+
+const ContribRow = ({ word, label, tone, addedLabel }: ContribRowProps) => {
   const gloss = word.meanings?.[0]?.definition;
   const likes = word.likes_count ?? word.likes ?? 0;
   return (
@@ -380,7 +336,10 @@ const ContribRow = ({ word, label, tone, addedLabel }) => {
       <StatusPill tone={tone}>{label}</StatusPill>
 
       {likes > 0 ? (
-        <span className="kd-font-mono inline-flex items-center gap-1.5" style={{ fontSize: 13, color: 'var(--kd-ink-mute)' }}>
+        <span
+          className="kd-font-mono inline-flex items-center gap-1.5"
+          style={{ fontSize: 13, color: 'var(--kd-ink-mute)' }}
+        >
           <IconHeart size={13} color="var(--kd-accent)" fill="var(--kd-accent)" />
           {likes}
         </span>
@@ -390,8 +349,5 @@ const ContribRow = ({ word, label, tone, addedLabel }) => {
     </Link>
   );
 };
-
-const chevronBg = () =>
-  `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%238A8073' stroke-width='2' stroke-linecap='round'><path d='m6 9 6 6 6-6'/></svg>")`;
 
 export default UserProfile;

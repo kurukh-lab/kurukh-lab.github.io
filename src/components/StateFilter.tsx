@@ -1,19 +1,26 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
+import type { PillTone } from './kd/StatusPill';
 
-/**
- * Filter row of toggle pills — one per state. Each pill has a leading
- * dot whose color is mapped from the state's tone, and the pill turns
- * solid terracotta (or the state's tone) when active. Replaces the
- * earlier daisyUI checkbox + badge list.
- *
- * Tone keys are read from `state.tone` ('sage' | 'accent' | 'violet' |
- * 'neutral'). Fallback to neutral if a state omits its tone.
- */
-const TONE = {
-  sage:    { color: 'var(--kd-sage)',  bg: 'color-mix(in srgb, var(--kd-sage) 15%, transparent)' },
-  accent:  { color: 'var(--kd-accent)', bg: 'var(--kd-accent-tint)' },
-  violet:  { color: '#7C5BA8', bg: 'color-mix(in srgb, #7C5BA8 15%, transparent)' },
+export interface StateOption {
+  value: string;
+  label: string;
+  tone?: PillTone;
+  count?: number;
+}
+
+export interface StateFilterProps {
+  states: StateOption[];
+  selectedStates: string[];
+  onSelectionChange: (next: string[]) => void;
+  title?: string;
+  multiSelect?: boolean;
+  disabled?: boolean;
+}
+
+const TONE: Record<PillTone, { color: string; bg: string }> = {
+  sage: { color: 'var(--kd-sage)', bg: 'color-mix(in srgb, var(--kd-sage) 15%, transparent)' },
+  accent: { color: 'var(--kd-accent)', bg: 'var(--kd-accent-tint)' },
+  violet: { color: '#7C5BA8', bg: 'color-mix(in srgb, #7C5BA8 15%, transparent)' },
   neutral: { color: 'var(--kd-ink-mute)', bg: 'var(--kd-surface-alt)' },
 };
 
@@ -24,14 +31,14 @@ const StateFilter = ({
   title,
   multiSelect = true,
   disabled = false,
-}) => {
+}: StateFilterProps) => {
   const { t } = useTranslation();
 
-  const handleStateToggle = (state) => {
+  const handleStateToggle = (state: string) => {
     if (disabled) return;
     if (multiSelect) {
       const next = selectedStates.includes(state)
-        ? selectedStates.filter(s => s !== state)
+        ? selectedStates.filter((s) => s !== state)
         : [...selectedStates, state];
       onSelectionChange(next);
     } else {
@@ -41,7 +48,7 @@ const StateFilter = ({
 
   const handleSelectAll = () => {
     if (disabled) return;
-    onSelectionChange(states.map(s => s.value));
+    onSelectionChange(states.map((s) => s.value));
   };
 
   const handleClearAll = () => {
@@ -57,7 +64,10 @@ const StateFilter = ({
       <div className="flex flex-wrap items-end justify-between gap-3 mb-4">
         <div className="kd-eyebrow">{title || t('review.filterTitle')}</div>
         {multiSelect && (
-          <div className="flex items-center gap-3 kd-font-sans" style={{ fontSize: 12, color: 'var(--kd-ink-soft)' }}>
+          <div
+            className="flex items-center gap-3 kd-font-sans"
+            style={{ fontSize: 12, color: 'var(--kd-ink-soft)' }}
+          >
             <button
               type="button"
               onClick={handleSelectAll}
@@ -84,7 +94,7 @@ const StateFilter = ({
       <div className="flex flex-wrap gap-2">
         {states.map((state) => {
           const isActive = selectedStates.includes(state.value);
-          const tone = TONE[state.tone] || TONE.neutral;
+          const tone = (state.tone && TONE[state.tone]) || TONE.neutral;
           return (
             <button
               key={state.value}
@@ -116,7 +126,10 @@ const StateFilter = ({
               />
               {state.label}
               {state.count !== undefined && (
-                <span className="kd-font-mono ml-1" style={{ fontSize: 11, color: 'var(--kd-ink-mute)' }}>
+                <span
+                  className="kd-font-mono ml-1"
+                  style={{ fontSize: 11, color: 'var(--kd-ink-mute)' }}
+                >
                   {state.count}
                 </span>
               )}
@@ -128,9 +141,17 @@ const StateFilter = ({
       {multiSelect && (
         <div
           className="kd-font-mono mt-4"
-          style={{ fontSize: 11, color: 'var(--kd-ink-mute)', letterSpacing: '0.08em', textTransform: 'uppercase' }}
+          style={{
+            fontSize: 11,
+            color: 'var(--kd-ink-mute)',
+            letterSpacing: '0.08em',
+            textTransform: 'uppercase',
+          }}
         >
-          {t('review.filterSummary', { selected: selectedStates.length, total: states.length })}
+          {t('review.filterSummary', {
+            selected: selectedStates.length,
+            total: states.length,
+          })}
         </div>
       )}
     </div>

@@ -140,24 +140,32 @@ Write rule tests using the [Firebase Rules Unit Testing](https://firebase.google
 
 ---
 
-## 6. Adopt TypeScript (incrementally) 🟠 P1 — Effort: **L**
+## 6. Adopt TypeScript (incrementally) 🟠 P1 — Effort: **L** — ✅ **DONE**
 
 **What**
 
-Convert the codebase to TypeScript starting from the inside out:
+Convert the codebase to TypeScript starting from the inside out.
 
-1. Add `typescript`, `@types/react`, `@types/react-dom` as dev deps; add a permissive `tsconfig.json` with `allowJs: true`, `noImplicitAny: false`.
-2. Rename services first: `dictionaryService.js → .ts`, then `wordReviewService`, `commentService`. Type the Firestore document shapes (`Word`, `Comment`, `Correction`, `Report`, `User`) in a new `src/types/firestore.ts`.
-3. Type the hooks (`useSearch`, `useWordReview`, `useKeyboardShortcut`).
-4. Tighten `tsconfig` (`strict: true`) and continue page-by-page.
+**Status — complete as of 2026-05-16**
 
-**Why**
+Every file under `src/` is now `.ts` or `.tsx`. `tsconfig.json` runs with `strict: true` and `allowJs: false`. `npx tsc --noEmit`, `npm test` (13/13 passing across 9 suites), and `npm run build` are all green.
 
-The Firestore field names are easy to typo (`kurukh_word`, `community_votes_for`, `likesCount`/`likes_count` — both exist in different code paths). A type definition catches every one of those at compile time. JSDoc helps but isn't enforced.
+Order it actually shipped in:
 
-**How**
+1. ✅ Added `typescript` + `@types/react` + `@types/react-dom`. Initial `tsconfig.json` was permissive (`allowJs: true`, strict on).
+2. ✅ Shared domain types live in [src/types/domain.ts](src/types/domain.ts) and [src/types/index.ts](src/types/index.ts).
+3. ✅ Services converted: [dictionaryService.ts](src/services/dictionaryService.ts), [wordReviewService.ts](src/services/wordReviewService.ts), [commentService.ts](src/services/commentService.ts).
+4. ✅ Hooks converted: [useSearch.ts](src/hooks/useSearch.ts), [useWordReview.ts](src/hooks/useWordReview.ts), [useKeyboardShortcut.ts](src/hooks/useKeyboardShortcut.ts).
+5. ✅ Components migrated in waves: design-system leaves → auth/layout → dictionary feature → loose review → editor (Tiptap).
+6. ✅ All 17 pages migrated (`Home`, `Admin`, `Contribute`, `KurukhEditor`, `WordDetails`, `CommunityReview`, `UserProfile`, etc.).
+7. ✅ Entry points: [main.tsx](src/main.tsx), [App.tsx](src/App.tsx), [i18n/index.ts](src/i18n/index.ts).
+8. ✅ Test suite migrated to `.tsx`/`.ts`. `test-kurukh-editor.js` deleted.
+9. ✅ Flipped `allowJs` to `false` in [tsconfig.json](tsconfig.json) — no JS files remain in the program.
 
-Do not Big-Bang it. The `allowJs` flag lets `.ts` and `.js` co-exist; convert one file per PR. Each PR should leave the build green.
+**Follow-up worth doing later (not blocking)**
+
+- Audit any remaining `any`/`unknown` escape hatches in services that handle raw Firestore docs.
+- Consider turning on `noUnusedLocals`/`noUnusedParameters` once the codebase stabilises.
 
 ---
 
@@ -361,7 +369,7 @@ A rough quarter-sized roadmap:
 - §12 Drop hardcoded function URLs
 
 **Months 2–3 — Investment**
-- §6 Incremental TypeScript migration
+- ✅ §6 Incremental TypeScript migration — complete (see §6 above)
 - §9 Naming/extension standardisation (done alongside TS conversion)
 - §15 Documentation consolidation
 - §16 Loading/error primitives

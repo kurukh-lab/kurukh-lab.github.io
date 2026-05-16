@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import SearchBar from '../components/common/SearchBar';
 import WordList from '../components/dictionary/WordList';
@@ -8,13 +8,16 @@ import AlphabetRibbon from '../components/kd/AlphabetRibbon';
 import WordRow from '../components/kd/WordRow';
 import { getHomePageData } from '../services/dictionaryService';
 import useSearch from '../hooks/useSearch';
+import type { Word } from '../types';
+
+type WordWithLikes = Word & { likes_count?: number; likes?: number };
 
 const Home = () => {
   const { t, i18n } = useTranslation();
-  const [recentWords, setRecentWords] = useState([]);
-  const [wordOfTheDay, setWordOfTheDay] = useState(null);
+  const [recentWords, setRecentWords] = useState<WordWithLikes[]>([]);
+  const [wordOfTheDay, setWordOfTheDay] = useState<Word | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
   const { searchResults, searchTerm, setSearchTerm, handleSearch, loading: searchLoading } = useSearch();
 
   useEffect(() => {
@@ -23,11 +26,11 @@ const Home = () => {
       setError(null);
       try {
         const homePageData = await getHomePageData();
-        setRecentWords(homePageData.recentWords || []);
+        setRecentWords((homePageData.recentWords as WordWithLikes[]) || []);
         setWordOfTheDay(homePageData.wordOfTheDay || null);
       } catch (err) {
         console.error('Error fetching home page data:', err);
-        setError(t('errors.loadDictionary'));
+        setError(t('errors.loadDictionary') as string);
       } finally {
         setLoading(false);
       }
@@ -35,10 +38,10 @@ const Home = () => {
     fetchData();
   }, [t]);
 
-  const dateLabel = new Date().toLocaleDateString(i18n.language === 'hi' ? 'hi-IN' : 'en-US', {
-    day: 'numeric',
-    month: 'short',
-  });
+  const dateLabel = new Date().toLocaleDateString(
+    i18n.language === 'hi' ? 'hi-IN' : 'en-US',
+    { day: 'numeric', month: 'short' },
+  );
 
   const totalEntries = recentWords.length;
   const lovedWords = [...recentWords]
@@ -49,7 +52,6 @@ const Home = () => {
 
   return (
     <div style={{ background: 'var(--kd-bg)', color: 'var(--kd-ink)' }}>
-      {/* HERO */}
       <section className="max-w-[1200px] mx-auto px-6 md:px-14 pt-16 md:pt-20 pb-10">
         <div className="kd-eyebrow mb-4">{t('home.eyebrow')}</div>
         <h1
@@ -65,13 +67,7 @@ const Home = () => {
         >
           {t('home.titleLine1')}
           <br />
-          <em
-            style={{
-              fontStyle: 'italic',
-              color: 'var(--kd-accent)',
-              fontWeight: 400,
-            }}
-          >
+          <em style={{ fontStyle: 'italic', color: 'var(--kd-accent)', fontWeight: 400 }}>
             {t('home.titleEmph')}
           </em>{' '}
           {t('home.titleLine2')}
@@ -102,7 +98,6 @@ const Home = () => {
           />
         </div>
 
-        {/* Stats line — pulls from live data where available, falls back to placeholders */}
         {!hasSearchResults && (
           <div
             className="mt-12 pt-8 grid gap-x-10 gap-y-6"
@@ -117,25 +112,16 @@ const Home = () => {
               ['—', t('home.stats.contributors')],
               ['—', t('home.stats.regions')],
             ].map(([n, l]) => (
-              <div key={l}>
+              <div key={String(l)}>
                 <div
                   className="kd-font-serif"
-                  style={{
-                    fontSize: 32,
-                    fontWeight: 500,
-                    color: 'var(--kd-ink)',
-                    letterSpacing: '-0.02em',
-                  }}
+                  style={{ fontSize: 32, fontWeight: 500, color: 'var(--kd-ink)', letterSpacing: '-0.02em' }}
                 >
                   {n}
                 </div>
                 <div
                   className="kd-font-sans uppercase mt-1"
-                  style={{
-                    fontSize: 12,
-                    color: 'var(--kd-ink-mute)',
-                    letterSpacing: '0.1em',
-                  }}
+                  style={{ fontSize: 12, color: 'var(--kd-ink-mute)', letterSpacing: '0.1em' }}
                 >
                   {l}
                 </div>
@@ -145,7 +131,6 @@ const Home = () => {
         )}
       </section>
 
-      {/* Error banner */}
       {error && !loading && (
         <div className="max-w-[1200px] mx-auto px-6 md:px-14 pb-6">
           <div
@@ -162,7 +147,6 @@ const Home = () => {
         </div>
       )}
 
-      {/* Search results take precedence over the rest of the home content */}
       {hasSearchResults ? (
         <section className="max-w-[1200px] mx-auto px-6 md:px-14 pb-24">
           <SectionLabel
@@ -173,7 +157,6 @@ const Home = () => {
         </section>
       ) : (
         <>
-          {/* Word of the day */}
           {!loading && wordOfTheDay && (
             <section className="max-w-[1200px] mx-auto px-6 md:px-14 py-6">
               <SectionLabel
@@ -184,7 +167,6 @@ const Home = () => {
             </section>
           )}
 
-          {/* Browse by letter */}
           <section className="max-w-[1200px] mx-auto px-6 md:px-14 py-6">
             <SectionLabel
               eyebrow={t('home.alphabet.eyebrow')}
@@ -198,13 +180,9 @@ const Home = () => {
             <AlphabetRibbon />
           </section>
 
-          {/* Recent + Loved */}
           <section className="max-w-[1200px] mx-auto px-6 md:px-14 pt-6 pb-24 grid gap-14 md:grid-cols-2">
             <div>
-              <SectionLabel
-                eyebrow={t('home.recent.eyebrow')}
-                title={t('home.recent.title')}
-              />
+              <SectionLabel eyebrow={t('home.recent.eyebrow')} title={t('home.recent.title')} />
               {loading ? (
                 <p className="kd-ink-mute kd-font-sans">…</p>
               ) : recentWords.length > 0 ? (
@@ -220,10 +198,7 @@ const Home = () => {
               )}
             </div>
             <div>
-              <SectionLabel
-                eyebrow={t('home.loved.eyebrow')}
-                title={t('home.loved.title')}
-              />
+              <SectionLabel eyebrow={t('home.loved.eyebrow')} title={t('home.loved.title')} />
               {loading ? (
                 <p className="kd-ink-mute kd-font-sans">…</p>
               ) : lovedWords.length > 0 ? (

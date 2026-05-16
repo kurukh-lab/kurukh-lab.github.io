@@ -23,9 +23,8 @@
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
 
-    // Coexistence with the still-JSX files. Once everything is .ts/.tsx
-    // we can flip allowJs off and gain extra type coverage.
-    "allowJs": true,
+    // All app sources are .ts/.tsx — no JS files allowed in the program.
+    "allowJs": false,
     "checkJs": false,
 
     "esModuleInterop": true,

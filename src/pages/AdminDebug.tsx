@@ -1,77 +1,67 @@
-import React, { useState, useEffect } from 'react';
-import { useAuth } from '../contexts/AuthContext';
+import { useState, useEffect } from 'react';
 import { collection, query, where, getDocs, orderBy } from 'firebase/firestore';
+import { useAuth } from '../contexts/AuthContext';
 import { db } from '../config/firebase';
+import type { Word } from '../types';
+
+interface DebugInfo {
+  timestamp?: string;
+  currentUser?: { uid: string; email: string | null } | null;
+  userRoles?: string[];
+  rolesLoading?: boolean;
+  isAdmin?: boolean;
+  hasCurrentUser?: boolean;
+  rolesLoaded?: boolean;
+}
 
 const AdminDebug = () => {
-  const { currentUser, isAdmin, userRoles, rolesLoading } = useAuth();
-  const [debugInfo, setDebugInfo] = useState({});
-  const [pendingWords, setPendingWords] = useState([]);
+  const auth = useAuth() as ReturnType<typeof useAuth> & { rolesLoading?: boolean };
+  const { currentUser, isAdmin, userRoles } = auth;
+  const rolesLoading = auth.rolesLoading ?? false;
+  const [debugInfo, setDebugInfo] = useState<DebugInfo>({});
+  const [pendingWords, setPendingWords] = useState<Word[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [logs, setLogs] = useState([]);
-
-  const addLog = (message) => {
-    const timestamp = new Date().toISOString();
-    setLogs(prev => [...prev, `[${timestamp}] ${message}`]);
-    console.log(message);
-  };
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchDebugInfo = async () => {
-      const info = {
+      const info: DebugInfo = {
         timestamp: new Date().toISOString(),
-        currentUser: currentUser ? {
-          uid: currentUser.uid,
-          email: currentUser.email
-        } : null,
+        currentUser: currentUser ? { uid: currentUser.uid, email: currentUser.email } : null,
         userRoles,
         rolesLoading,
         isAdmin,
         hasCurrentUser: !!currentUser,
-        rolesLoaded: !rolesLoading
+        rolesLoaded: !rolesLoading,
       };
-      
       setDebugInfo(info);
-      console.log('🔍 Debug info:', info);
 
       if (currentUser && !rolesLoading && isAdmin) {
         try {
-          console.log('🔍 Fetching pending words in debug component...');
           const q = query(
             collection(db, 'words'),
             where('status', '==', 'pending_review'),
-            orderBy('createdAt', 'desc')
+            orderBy('createdAt', 'desc'),
           );
-          
           const querySnapshot = await getDocs(q);
-          const words = [];
-          
-          querySnapshot.forEach((doc) => {
-            words.push({
-              id: doc.id,
-              ...doc.data()
-            });
+          const words: Word[] = [];
+          querySnapshot.forEach((d) => {
+            words.push({ id: d.id, ...d.data() } as Word);
           });
-          
-          console.log('📋 Debug: Found pending words:', words.length);
           setPendingWords(words);
         } catch (err) {
-          console.error('❌ Debug: Error fetching pending words:', err);
-          setError(err.message);
+          setError((err as Error).message);
         }
       }
-      
       setLoading(false);
     };
-
     fetchDebugInfo();
   }, [currentUser, userRoles, isAdmin, rolesLoading]);
 
   return (
     <div className="max-w-4xl mx-auto py-8 px-4">
       <h1 className="text-3xl font-bold mb-6">Admin Debug Page</h1>
-      
+
       <div className="bg-white p-6 rounded-lg shadow-md mb-6">
         <h2 className="text-xl font-bold mb-4">Debug Information</h2>
         <pre className="bg-gray-100 p-4 rounded text-sm overflow-auto">

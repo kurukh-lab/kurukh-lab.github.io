@@ -1,277 +1,257 @@
-/**
- * CommentThread Component
- * 
- * Manages the threaded comment system for word reviews.
- * Provides functionality to add top-level comments and handles real-time updates.
- */
-
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, type FormEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../contexts/AuthContext';
 import {
   getCommentsForWord,
   addComment,
   subscribeToWordComments,
-  reloadParentReplies
+  reloadParentReplies,
 } from '../services/commentService';
 import { wordReviewService } from '../services/wordReviewService';
 import Comment from './Comment';
 import { MAX_COMMENT_LEVEL } from '../config/comments';
+import type { Comment as CommentModel, Word } from '../types';
 
-const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
+type SortOrder = 'newest' | 'oldest' | 'best';
+
+export interface CommentThreadProps {
+  wordId: string;
+  word?: Pick<Word, 'commentsCount'> & Partial<Word>;
+  isOpen: boolean;
+  onToggle: () => void;
+}
+
+const CommentThread = ({ wordId, word, isOpen, onToggle }: CommentThreadProps) => {
   const { t } = useTranslation();
   const { currentUser } = useAuth();
-  const [comments, setComments] = useState([]);
+  const [comments, setComments] = useState<CommentModel[]>([]);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
   const [newComment, setNewComment] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [sortBy, setSortBy] = useState('newest'); // 'newest', 'oldest', 'best'
-  const [realTimeCommentCount, setRealTimeCommentCount] = useState(word?.commentsCount || 0);
+  const [sortBy, setSortBy] = useState<SortOrder>('newest');
+  const [realTimeCommentCount, setRealTimeCommentCount] = useState(
+    word?.commentsCount ?? 0,
+  );
 
-  // Update real-time comment count when word prop changes
   useEffect(() => {
     if (word?.commentsCount !== undefined) {
       setRealTimeCommentCount(word.commentsCount);
     }
   }, [word?.commentsCount]);
 
-  // Set up real-time subscription for comment count
   useEffect(() => {
-    let wordStatusUnsubscribe = () => { };
-
+    let wordStatusUnsubscribe: () => void = () => {};
     if (isOpen && wordId) {
-      console.log(`[CommentThread] Setting up real-time subscription for comment count on word ${wordId}`);
-      // Subscribe to word data changes specifically for commentsCount
-      wordStatusUnsubscribe = wordReviewService.subscribeToWordStatus(wordId, ({ context }) => {
-        if (context?.wordData?.commentsCount !== undefined) {
-          console.log(`[CommentThread] Real-time comment count update: ${context.wordData.commentsCount}`);
-          setRealTimeCommentCount(context.wordData.commentsCount);
-        }
-      });
-    } else if (!isOpen) {
-      console.log(`[CommentThread] Unsubscribing from real-time comment count updates`);
+      wordStatusUnsubscribe = wordReviewService.subscribeToWordStatus(
+        wordId,
+        ({ context }) => {
+          const c = (context?.wordData as { commentsCount?: number } | undefined)?.commentsCount;
+          if (c !== undefined) setRealTimeCommentCount(c);
+        },
+      );
     }
-
     return () => {
       wordStatusUnsubscribe();
-      if (isOpen) {
-        console.log(`[CommentThread] Cleaned up real-time comment count subscription`);
-      }
     };
   }, [isOpen, wordId]);
 
-  // Load comments when component mounts or wordId changes
-  useEffect(() => {
-    if (isOpen && wordId) {
-      loadComments();
-
-      // Set up real-time listener
-      const unsubscribe = subscribeToWordComments(wordId, (updatedComments) => {
-        // Merge with existing replies data since real-time listener only gets top-level comments
-        setComments(prevComments => {
-          const mergedComments = updatedComments.map(updatedComment => {
-            const existingComment = prevComments.find(c => c.id === updatedComment.id);
-            return {
-              ...updatedComment,
-              replies: existingComment?.replies || []
-            };
-          });
-          return mergedComments;
-        });
-      });
-
-      return () => unsubscribe();
-    }
-  }, [wordId, isOpen]);
-
-  const loadComments = async () => {
+  const loadComments = useCallback(async () => {
     setLoading(true);
     setError(null);
-
     try {
       const result = await getCommentsForWord(wordId);
       if (result.success) {
         setComments(result.comments || []);
       } else {
-        setError(result.error);
+        setError(result.error ?? null);
       }
     } catch (err) {
       console.error('Error loading comments:', err);
-      setError(t('comments.loadError'));
+      setError(t('comments.loadError') as string);
     } finally {
       setLoading(false);
     }
-  };
+  }, [wordId, t]);
 
-  const handleAddComment = async (e) => {
+  useEffect(() => {
+    if (isOpen && wordId) {
+      loadComments();
+      const unsubscribe = subscribeToWordComments(wordId, (updatedComments) => {
+        setComments((prevComments) =>
+          updatedComments.map((updatedComment) => {
+            const existing = prevComments.find((c) => c.id === updatedComment.id);
+            return { ...updatedComment, replies: existing?.replies || [] };
+          }),
+        );
+      });
+      return () => unsubscribe();
+    }
+  }, [wordId, isOpen, loadComments]);
+
+  const handleAddComment = async (e: FormEvent) => {
     e.preventDefault();
     if (!newComment.trim() || !currentUser) return;
-
     setIsSubmitting(true);
     setError(null);
-
     try {
       const result = await addComment(wordId, currentUser.uid, newComment.trim());
       if (result.success) {
         setNewComment('');
-        // Comments will be updated via real-time listener
       } else {
-        setError(result.error);
+        setError(result.error ?? null);
       }
     } catch (err) {
       console.error('Error adding comment:', err);
-      setError(t('comments.addError'));
+      setError(t('comments.addError') as string);
     } finally {
       setIsSubmitting(false);
     }
   };
 
-  const handleReply = useCallback(async (parentCommentId, content) => {
-    if (!currentUser) return;
-
-    try {
-      const result = await addComment(wordId, currentUser.uid, content, parentCommentId);
-      if (result.success) {
-        // Reload comments to get updated nested reply structure
-        await loadComments();
-      } else {
-        setError(result.error);
+  const handleReply = useCallback(
+    async (parentCommentId: string, content: string) => {
+      if (!currentUser) return;
+      try {
+        const result = await addComment(wordId, currentUser.uid, content, parentCommentId);
+        if (result.success) {
+          await loadComments();
+        } else {
+          setError(result.error ?? null);
+        }
+      } catch (err) {
+        console.error('Error adding reply:', err);
+        setError(t('comments.replyError') as string);
       }
-    } catch (err) {
-      console.error('Error adding reply:', err);
-      setError(t('comments.replyError'));
-    }
-  }, [wordId, currentUser, t]);
+    },
+    [wordId, currentUser, t, loadComments],
+  );
 
-  const handleEdit = useCallback((commentId, newContent) => {
-    // Update comment in local state
-    setComments(prevComments =>
-      prevComments.map(comment => {
+  const handleEdit = useCallback((commentId: string, newContent: string) => {
+    setComments((prevComments) =>
+      prevComments.map((comment) => {
         if (comment.id === commentId) {
           return { ...comment, content: newContent, isEdited: true };
         }
-        // Check replies too
         if (comment.replies) {
-          const updatedReplies = comment.replies.map(reply =>
+          const updatedReplies = comment.replies.map((reply) =>
             reply.id === commentId
               ? { ...reply, content: newContent, isEdited: true }
-              : reply
+              : reply,
           );
           return { ...comment, replies: updatedReplies };
         }
         return comment;
-      })
+      }),
     );
   }, []);
 
-  const handleDelete = useCallback((commentId) => {
-    // Update comment in local state
-    setComments(prevComments =>
-      prevComments.map(comment => {
+  const handleDelete = useCallback((commentId: string) => {
+    setComments((prevComments) =>
+      prevComments.map((comment) => {
         if (comment.id === commentId) {
           return { ...comment, isDeleted: true, content: '[deleted]' };
         }
-        // Check replies too
         if (comment.replies) {
-          const updatedReplies = comment.replies.map(reply =>
+          const updatedReplies = comment.replies.map((reply) =>
             reply.id === commentId
               ? { ...reply, isDeleted: true, content: '[deleted]' }
-              : reply
+              : reply,
           );
           return { ...comment, replies: updatedReplies };
         }
         return comment;
-      })
+      }),
     );
   }, []);
 
-  const handleParentReload = useCallback(async (parentCommentId) => {
-    try {
-      // Find if this is a top-level comment
-      const isTopLevel = comments.some(c => c.id === parentCommentId);
-
-      if (isTopLevel) {
-        // If it's a top-level comment, reload all comments to get the updated structure
-        await loadComments();
-      } else {
-        // Find the parent comment and reload its replies
-        const result = await reloadParentReplies(parentCommentId, 0, 10);
-        if (result.success) {
-          setComments(prevComments =>
-            prevComments.map((comment) => {
-              if (comment.id === parentCommentId) {
-                return { ...comment, replies: result.replies || [] };
-              }
-              // Also check nested replies for deep comments
-              if (comment.replies) {
-                const updatedReplies = updateNestedReplies(comment.replies, parentCommentId, result.replies || []);
-                if (updatedReplies !== comment.replies) {
-                  return { ...comment, replies: updatedReplies };
-                }
-              }
-              return comment;
-            })
-          );
-        }
-      }
-    } catch (error) {
-      console.error('Error reloading parent replies in CommentThread:', error);
-    }
-  }, [comments]);
-
-  // Helper function to update nested replies recursively
-  const updateNestedReplies = (replies, targetParentId, newReplies) => {
-    return replies.map(reply => {
-      if (reply.id === targetParentId) {
-        return { ...reply, replies: newReplies };
-      }
+  const updateNestedReplies = (
+    replies: CommentModel[],
+    targetParentId: string,
+    newReplies: CommentModel[],
+  ): CommentModel[] =>
+    replies.map((reply) => {
+      if (reply.id === targetParentId) return { ...reply, replies: newReplies };
       if (reply.replies) {
-        const updatedNestedReplies = updateNestedReplies(reply.replies, targetParentId, newReplies);
-        if (updatedNestedReplies !== reply.replies) {
-          return { ...reply, replies: updatedNestedReplies };
-        }
+        const updated = updateNestedReplies(reply.replies, targetParentId, newReplies);
+        if (updated !== reply.replies) return { ...reply, replies: updated };
       }
       return reply;
     });
-  };
 
-  const handleVote = useCallback((commentId, voteType) => {
+  const handleParentReload = useCallback(
+    async (parentCommentId: string) => {
+      try {
+        const isTopLevel = comments.some((c) => c.id === parentCommentId);
+        if (isTopLevel) {
+          await loadComments();
+        } else {
+          const result = await reloadParentReplies(parentCommentId, 0, 10);
+          if (result.success) {
+            setComments((prevComments) =>
+              prevComments.map((comment) => {
+                if (comment.id === parentCommentId) {
+                  return { ...comment, replies: result.replies || [] };
+                }
+                if (comment.replies) {
+                  const updated = updateNestedReplies(
+                    comment.replies,
+                    parentCommentId,
+                    result.replies || [],
+                  );
+                  if (updated !== comment.replies) {
+                    return { ...comment, replies: updated };
+                  }
+                }
+                return comment;
+              }),
+            );
+          }
+        }
+      } catch (err) {
+        console.error('Error reloading parent replies in CommentThread:', err);
+      }
+    },
+    [comments, loadComments],
+  );
+
+  const handleVote = useCallback(() => {
     // Real-time updates will handle vote changes
-    // This is a placeholder for immediate UI feedback if needed
   }, []);
 
-  const sortComments = (comments, sortBy) => {
-    const sorted = [...comments];
-    switch (sortBy) {
+  const sortComments = (list: CommentModel[], order: SortOrder): CommentModel[] => {
+    const sorted = [...list];
+    const toMs = (d: unknown): number => {
+      if (!d) return 0;
+      if (d instanceof Date) return d.getTime();
+      return new Date(d as string).getTime();
+    };
+    switch (order) {
       case 'oldest':
-        return sorted.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+        return sorted.sort((a, b) => toMs(a.createdAt) - toMs(b.createdAt));
       case 'best':
-        return sorted.sort((a, b) => {
-          const scoreA = (a.upvotes || 0) - (a.downvotes || 0);
-          const scoreB = (b.upvotes || 0) - (b.downvotes || 0);
-          return scoreB - scoreA;
-        });
+        return sorted.sort(
+          (a, b) =>
+            ((b.upvotes || 0) - (b.downvotes || 0)) -
+            ((a.upvotes || 0) - (a.downvotes || 0)),
+        );
       case 'newest':
       default:
-        return sorted.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+        return sorted.sort((a, b) => toMs(b.createdAt) - toMs(a.createdAt));
     }
   };
 
   const sortedComments = sortComments(comments, sortBy);
-  // Use real-time comment count from word model for better performance;
-  // fall back to a static walk of replies when no live count is set.
-  const commentCount = realTimeCommentCount ?? comments.reduce((total, comment) => {
-    return total + 1 + (comment.replies ? comment.replies.length : 0);
-  }, 0);
+  const commentCount =
+    realTimeCommentCount ??
+    comments.reduce(
+      (total, comment) => total + 1 + (comment.replies ? comment.replies.length : 0),
+      0,
+    );
 
-  // Collapsed state — a single toggle row sized to slot under the review card.
   if (!isOpen) {
     return (
-      <div
-        className="mt-5 pt-4"
-        style={{ borderTop: '1px solid var(--kd-line)' }}
-      >
+      <div className="mt-5 pt-4" style={{ borderTop: '1px solid var(--kd-line)' }}>
         <button
           type="button"
           onClick={onToggle}
@@ -295,7 +275,6 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
 
   return (
     <div className="mt-5 pt-5" style={{ borderTop: '1px solid var(--kd-line)' }}>
-      {/* Header */}
       <div className="flex items-center justify-between mb-4 flex-wrap gap-3">
         <button
           type="button"
@@ -318,7 +297,7 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
         {comments.length > 1 && (
           <select
             value={sortBy}
-            onChange={(e) => setSortBy(e.target.value)}
+            onChange={(e) => setSortBy(e.target.value as SortOrder)}
             className="kd-font-sans outline-none appearance-none"
             style={{
               background: 'var(--kd-bg)',
@@ -354,13 +333,12 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
         </div>
       )}
 
-      {/* Add Comment Form */}
       {currentUser ? (
         <form onSubmit={handleAddComment} className="mb-6">
           <textarea
             value={newComment}
             onChange={(e) => setNewComment(e.target.value)}
-            placeholder={t('comments.placeholder')}
+            placeholder={t('comments.placeholder') as string}
             rows={3}
             disabled={isSubmitting}
             className="kd-font-serif w-full outline-none"
@@ -433,12 +411,22 @@ const CommentThread = ({ wordId, word, isOpen, onToggle }) => {
 };
 
 const CommentBubbleIcon = () => (
-  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    aria-hidden="true"
+  >
     <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
   </svg>
 );
 
-const chevronBg = () =>
+const chevronBg = (): string =>
   `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%238A8073' stroke-width='2' stroke-linecap='round'><path d='m6 9 6 6 6-6'/></svg>")`;
 
 export default CommentThread;

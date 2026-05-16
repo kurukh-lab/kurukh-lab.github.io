@@ -1,29 +1,33 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CommunityReviewList from '../components/dictionary/CommunityReview';
 import WordCommunityReview from '../components/dictionary/WordCommunityReview';
 
-const TABS = [
-  { id: 'words', count: 'words' },
-  { id: 'edits', count: 'edits' },
-];
+type Tab = 'words' | 'edits';
+
+const TABS: Array<{ id: Tab }> = [{ id: 'words' }, { id: 'edits' }];
+
+interface Guidance {
+  title: string;
+  body: string;
+}
 
 const CommunityReviewPage = () => {
   const { t } = useTranslation();
-  const [activeTab, setActiveTab] = useState('words');
+  const [activeTab, setActiveTab] = useState<Tab>('words');
 
-  const tabLabels = {
-    words: t('review.tabs.words'),
-    edits: t('review.tabs.edits'),
+  const tabLabels: Record<Tab, string> = {
+    words: t('review.tabs.words') as string,
+    edits: t('review.tabs.edits') as string,
   };
+
+  const guidanceRaw = t('review.guidance', { returnObjects: true });
+  const guidance: Guidance[] = Array.isArray(guidanceRaw) ? (guidanceRaw as Guidance[]) : [];
 
   return (
     <div style={{ background: 'var(--kd-bg)', color: 'var(--kd-ink)' }}>
-      {/* Hero */}
       <section className="max-w-[1200px] mx-auto px-6 md:px-14 pt-14">
-        <div className="kd-eyebrow mb-4">
-          {t('review.queueEyebrow', { count: '—' })}
-        </div>
+        <div className="kd-eyebrow mb-4">{t('review.queueEyebrow', { count: '—' })}</div>
         <h1
           className="kd-font-serif"
           style={{
@@ -48,12 +52,11 @@ const CommunityReviewPage = () => {
           {t('review.subtitle')}
         </p>
 
-        {/* Tabs */}
         <div
           className="mt-9 flex gap-7 items-end overflow-x-auto"
           style={{ borderBottom: '1px solid var(--kd-line)' }}
         >
-          {TABS.map(tab => {
+          {TABS.map((tab) => {
             const isActive = activeTab === tab.id;
             return (
               <button
@@ -92,21 +95,21 @@ const CommunityReviewPage = () => {
         </div>
       </section>
 
-      {/* Queue */}
       <section className="max-w-[1200px] mx-auto px-6 md:px-14 py-8 pb-24 grid gap-10 lg:grid-cols-[1fr_320px]">
         <div className="min-w-0">
           {activeTab === 'words' ? <WordCommunityReview /> : <CommunityReviewList />}
         </div>
 
-        {/* Right rail: guidance */}
         <aside className="flex flex-col gap-4">
           <div
             className="p-6 rounded-2xl"
             style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
           >
             <div className="kd-eyebrow mb-3.5">{t('review.guidanceEyebrow')}</div>
-            {(t('review.guidance', { returnObjects: true }) || []).map((g, i) => {
-              const dotColor = ['var(--kd-sage)', 'var(--kd-accent)', 'var(--kd-ink-mute)'][i] || 'var(--kd-ink-mute)';
+            {guidance.map((g, i) => {
+              const dotColor =
+                ['var(--kd-sage)', 'var(--kd-accent)', 'var(--kd-ink-mute)'][i] ||
+                'var(--kd-ink-mute)';
               return (
                 <div key={g.title} className="flex gap-3 mb-3.5">
                   <span

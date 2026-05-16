@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect, type ReactNode } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { getWordById } from '../services/dictionaryService';
@@ -11,15 +11,23 @@ import LikeButton from '../components/dictionary/LikeButton';
 import WordReviewStatus from '../components/WordReviewStatus';
 import { useAuth } from '../contexts/AuthContext';
 import SectionLabel from '../components/kd/SectionLabel';
-import { IconBack, IconBookmark, IconShare } from '../components/kd/icons';
+import { IconBack, IconBookmark } from '../components/kd/icons';
+import type { Word } from '../types';
+
+type WordWithExtras = Word & {
+  pronunciation?: string;
+  created_by?: string;
+  etymology?: string;
+  tags?: string[];
+};
 
 const WordDetails = () => {
-  const { wordId } = useParams();
+  const { wordId } = useParams<{ wordId: string }>();
   const { t } = useTranslation();
   const { isAdmin, currentUser } = useAuth();
-  const [word, setWord] = useState(null);
+  const [word, setWord] = useState<WordWithExtras | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
   const [showReportModal, setShowReportModal] = useState(false);
   const [showCorrectionModal, setShowCorrectionModal] = useState(false);
   const [showReviewDetails, setShowReviewDetails] = useState(false);
@@ -31,11 +39,11 @@ const WordDetails = () => {
       setError(null);
       try {
         const wordData = await getWordById(wordId);
-        if (wordData) setWord(wordData);
-        else setError(t('word.notFound'));
+        if (wordData) setWord(wordData as WordWithExtras);
+        else setError(t('word.notFound') as string);
       } catch (err) {
         console.error('Error fetching word details:', err);
-        setError(t('errors.loadWord'));
+        setError(t('errors.loadWord') as string);
       } finally {
         setLoading(false);
       }
@@ -46,7 +54,11 @@ const WordDetails = () => {
   if (loading) {
     return (
       <div className="max-w-[1100px] mx-auto py-16 px-6 md:px-14 flex justify-center">
-        <span data-testid="loading-spinner" className="loading loading-spinner loading-lg" style={{ color: 'var(--kd-accent)' }} />
+        <span
+          data-testid="loading-spinner"
+          className="loading loading-spinner loading-lg"
+          style={{ color: 'var(--kd-accent)' }}
+        />
       </div>
     );
   }
@@ -83,7 +95,6 @@ const WordDetails = () => {
 
   return (
     <div style={{ background: 'var(--kd-bg)' }}>
-      {/* Breadcrumb */}
       <div
         className="max-w-[1100px] mx-auto pt-8 px-6 md:px-14 kd-font-mono"
         style={{
@@ -93,12 +104,13 @@ const WordDetails = () => {
           textTransform: 'uppercase',
         }}
       >
-        <Link to="/" className="hover:opacity-80">{t('word.breadcrumb')}</Link>
+        <Link to="/" className="hover:opacity-80">
+          {t('word.breadcrumb')}
+        </Link>
         {' / '}
         <span style={{ color: 'var(--kd-ink)' }}>{word.kurukh_word}</span>
       </div>
 
-      {/* Big entry header */}
       <div className="max-w-[1100px] mx-auto px-6 md:px-14 pt-6 pb-8">
         <div className="grid gap-6 md:grid-cols-[1fr_auto] md:items-end">
           <div>
@@ -186,7 +198,6 @@ const WordDetails = () => {
         </div>
       </div>
 
-      {/* Main entry body */}
       <div className="max-w-[1100px] mx-auto px-6 md:px-14 pb-24 grid gap-14 md:gap-16 md:grid-cols-[1.6fr_1fr]">
         <div>
           <SectionLabel eyebrow={t('word.meanings')} title={t('word.definitions')} />
@@ -199,7 +210,9 @@ const WordDetails = () => {
             <div
               key={n}
               className="mb-9 pb-9"
-              style={{ borderBottom: n === allMeanings.length - 1 ? 'none' : '1px solid var(--kd-line)' }}
+              style={{
+                borderBottom: n === allMeanings.length - 1 ? 'none' : '1px solid var(--kd-line)',
+              }}
             >
               <div className="flex gap-5">
                 <div
@@ -279,7 +292,7 @@ const WordDetails = () => {
                   {showReviewDetails ? t('word.hideDetails') : t('word.showDetails')}
                 </button>
               </div>
-              {showReviewDetails && (
+              {showReviewDetails && wordId && (
                 <div
                   className="p-4 rounded-xl"
                   style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
@@ -295,7 +308,11 @@ const WordDetails = () => {
             style={{ borderTop: '1px solid var(--kd-line)' }}
           >
             <div className="kd-font-sans" style={{ fontSize: 13, color: 'var(--kd-ink-mute)' }}>
-              {word.createdAt && <>{t('word.addedOn')}: {formatDate(word.createdAt)}</>}
+              {word.createdAt ? (
+                <>
+                  {t('word.addedOn')}: {formatDate(word.createdAt)}
+                </>
+              ) : null}
             </div>
             <div className="flex flex-wrap items-center gap-3">
               <LikeButton word={word} size="lg" />
@@ -319,10 +336,9 @@ const WordDetails = () => {
           </div>
         </div>
 
-        {/* Sidebar */}
         <aside className="flex flex-col gap-5">
           {word.etymology && (
-            <SidebarCard title={t('word.relatedEyebrow')}>
+            <SidebarCard title={t('word.relatedEyebrow') as string}>
               <p
                 className="kd-font-serif"
                 style={{ fontSize: 16, lineHeight: 1.6, color: 'var(--kd-ink)', margin: 0 }}
@@ -332,9 +348,9 @@ const WordDetails = () => {
             </SidebarCard>
           )}
           {Array.isArray(word.tags) && word.tags.length > 0 && (
-            <SidebarCard title={t('word.relatedEyebrow')}>
+            <SidebarCard title={t('word.relatedEyebrow') as string}>
               <div className="flex flex-wrap gap-2">
-                {word.tags.map(tag => (
+                {word.tags.map((tag) => (
                   <span
                     key={tag}
                     className="kd-font-sans"
@@ -356,30 +372,31 @@ const WordDetails = () => {
         </aside>
       </div>
 
-      <ReportWordModal
-        isOpen={showReportModal}
-        onClose={() => setShowReportModal(false)}
-        wordId={word?.id}
-        wordText={word?.kurukh_word}
-      />
-      <SuggestCorrectionModal
-        isOpen={showCorrectionModal}
-        onClose={() => setShowCorrectionModal(false)}
-        wordId={word?.id}
-        wordText={word?.kurukh_word}
-        currentWord={word}
-      />
+      {wordId && (
+        <>
+          <ReportWordModal
+            isOpen={showReportModal}
+            onClose={() => setShowReportModal(false)}
+            wordId={wordId}
+            wordText={word.kurukh_word}
+          />
+          <SuggestCorrectionModal
+            isOpen={showCorrectionModal}
+            onClose={() => setShowCorrectionModal(false)}
+            wordId={wordId}
+            wordText={word.kurukh_word}
+            currentWord={word}
+          />
+        </>
+      )}
     </div>
   );
 };
 
-const SidebarCard = ({ title, children }) => (
+const SidebarCard = ({ title, children }: { title: string; children: ReactNode }) => (
   <div
     className="p-6 rounded-2xl"
-    style={{
-      background: 'var(--kd-surface)',
-      border: '1px solid var(--kd-line)',
-    }}
+    style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
   >
     <div className="kd-eyebrow mb-4">{title}</div>
     {children}
