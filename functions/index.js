@@ -118,16 +118,40 @@ exports.updateHomePageData = onSchedule('0 0 * * *', async (event) => {
   }
 });
 
-// Manual trigger to update home page data (useful for testing and initialization)
+// Manual trigger to update home page data (useful for testing and initialization).
+// Requires a Firebase ID token belonging to an admin user, passed as
+// `Authorization: Bearer <token>`. The scheduled job uses the Admin SDK and
+// is unaffected.
+async function requireAdminFromAuthHeader(req) {
+  const header = req.get('Authorization') || '';
+  const match = header.match(/^Bearer (.+)$/);
+  if (!match) {
+    const err = new Error('Missing Bearer token');
+    err.statusCode = 401;
+    throw err;
+  }
+  const decoded = await admin.auth().verifyIdToken(match[1]);
+  const userDoc = await db.collection('users').doc(decoded.uid).get();
+  const roles = userDoc.exists ? (userDoc.data().roles || []) : [];
+  if (!roles.includes('admin')) {
+    const err = new Error('Admin role required');
+    err.statusCode = 403;
+    throw err;
+  }
+  return decoded.uid;
+}
+
 exports.triggerHomePageUpdate = onRequest((req, res) => {
   cors(req, res, async () => {
     try {
+      await requireAdminFromAuthHeader(req);
       console.log('Manual trigger for home page data update...');
       const result = await updateHomePageData(admin, db);
       res.json(result);
     } catch (error) {
       console.error('Error in manual trigger:', error);
-      res.status(500).json(error);
+      const status = error.statusCode || 500;
+      res.status(status).json({ success: false, error: error.message });
     }
   });
 });

@@ -1,53 +1,34 @@
 /**
  * Database initialization script
- * 
- * This script populates the Firestore database with initial data for testing
- * Run using: node scripts/initializeDatabase.js
+ *
+ * Seeds the Firestore + Auth emulators with sample users and words.
+ * Uses the Firebase Admin SDK so it bypasses security rules — this is
+ * a developer-only seeder and would never run against production.
+ *
+ * Usage: node scripts/initializeDatabase.js  (emulators must be running)
  */
 
-import { initializeApp } from 'firebase/app';
-import { 
-  getFirestore, 
-  collection, 
-  addDoc, 
-  setDoc, 
-  doc, 
-  serverTimestamp,
-  connectFirestoreEmulator
-} from 'firebase/firestore';
-import { 
-  getAuth, 
-  createUserWithEmailAndPassword, 
-  connectAuthEmulator 
-} from 'firebase/auth';
-import fs from 'fs';
-import path from 'path';
+// Point the Admin SDK at the local emulators BEFORE importing firebase-admin.
+process.env.FIRESTORE_EMULATOR_HOST = process.env.FIRESTORE_EMULATOR_HOST ?? '127.0.0.1:8081';
+process.env.FIREBASE_AUTH_EMULATOR_HOST = process.env.FIREBASE_AUTH_EMULATOR_HOST ?? '127.0.0.1:9098';
+process.env.GCLOUD_PROJECT = process.env.GCLOUD_PROJECT ?? 'kurukh-dictionary';
+
+import admin from 'firebase-admin';
 import * as dotenv from 'dotenv';
 
-// Load environment variables
 dotenv.config({
   path: process.env.NODE_ENV === 'production' ? '.env' : '.env.local'
 });
 
-console.log('Initializing database in emulator mode...');
+console.log('Initializing database in emulator mode (admin SDK)...');
+console.log(`  Firestore emulator: ${process.env.FIRESTORE_EMULATOR_HOST}`);
+console.log(`  Auth emulator:      ${process.env.FIREBASE_AUTH_EMULATOR_HOST}`);
 
-// Simple Firebase configuration for emulator
-const firebaseConfig = {
-  projectId: "kurukh-dictionary",
-  apiKey: "fake-api-key-for-emulator"
-};
+admin.initializeApp({ projectId: 'kurukh-dictionary' });
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-const auth = getAuth(app);
-
-// Connect to emulators
-console.log('Connecting to Auth emulator on port 9098...');
-connectAuthEmulator(auth, "http://127.0.0.1:9098", { disableWarnings: true });
-
-console.log('Connecting to Firestore emulator on port 8081...');
-connectFirestoreEmulator(db, '127.0.0.1', 8081);
+const db = admin.firestore();
+const auth = admin.auth();
+const serverTimestamp = () => admin.firestore.FieldValue.serverTimestamp();
 
 // Sample data
 const sampleWords = [
@@ -203,15 +184,17 @@ const sampleUsers = [
  */
 async function createUsers() {
   console.log('Creating users...');
-  
+
   for (const user of sampleUsers) {
     try {
-      // Create user with Firebase Auth
-      const userCredential = await createUserWithEmailAndPassword(auth, user.email, user.password);
-      const uid = userCredential.user.uid;
-      
-      // Add additional user data to Firestore
-      await setDoc(doc(db, 'users', uid), {
+      const created = await auth.createUser({
+        email: user.email,
+        password: user.password,
+        displayName: user.username,
+      });
+      const uid = created.uid;
+
+      await db.collection('users').doc(uid).set({
         uid,
         username: user.username,
         email: user.email,
@@ -219,10 +202,11 @@ async function createUsers() {
         createdAt: serverTimestamp(),
         updatedAt: serverTimestamp()
       });
-      
+
       console.log(`Created user: ${user.email} (${uid})`);
     } catch (error) {
-      if (error.code === 'auth/email-already-in-use') {
+      // Admin SDK emits 'auth/email-already-exists' (note: different from client SDK's 'auth/email-already-in-use').
+      if (error.code === 'auth/email-already-exists' || error.code === 'auth/email-already-in-use') {
         console.log(`User ${user.email} already exists, skipping...`);
       } else {
         console.error(`Error creating user ${user.email}:`, error);
@@ -236,23 +220,19 @@ async function createUsers() {
  */
 async function addSampleWords() {
   console.log('Adding sample words...');
-  
+
   for (const word of sampleWords) {
     try {
-      // Get admin user to set as contributor
-      const userEmail = 'admin@kurukhdictionary.com';
-      const usersRef = collection(db, 'users');
-      
-      // Add timestamp and contributor ID
       const wordWithMetadata = {
         ...word,
-        contributor_id: 'system',  // Will be updated if we find the admin user
+        contributor_id: 'system',
+        likesCount: 0,
+        likedBy: [],
         createdAt: serverTimestamp(),
         updatedAt: serverTimestamp()
       };
-      
-      // Add the word to Firestore
-      const docRef = await addDoc(collection(db, 'words'), wordWithMetadata);
+
+      const docRef = await db.collection('words').add(wordWithMetadata);
       console.log(`Added word: ${word.kurukh_word} (${docRef.id})`);
     } catch (error) {
       console.error(`Error adding word ${word.kurukh_word}:`, error);
@@ -516,16 +496,16 @@ async function addCommunityReviewWords() {
   
   for (const word of communityReviewWords) {
     try {
-      // Add timestamp and contributor ID
       const wordWithMetadata = {
         ...word,
         contributor_id: 'system',
+        likesCount: 0,
+        likedBy: [],
         createdAt: serverTimestamp(),
         updatedAt: serverTimestamp()
       };
-      
-      // Add the word to Firestore
-      const docRef = await addDoc(collection(db, 'words'), wordWithMetadata);
+
+      const docRef = await db.collection('words').add(wordWithMetadata);
       console.log(`Added community review word: ${word.kurukh_word} (${docRef.id})`);
     } catch (error) {
       console.error(`Error adding community review word ${word.kurukh_word}:`, error);

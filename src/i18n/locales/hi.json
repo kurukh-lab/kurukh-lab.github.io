@@ -97,6 +97,298 @@
     "english": "अंग्रेज़ी",
     "hindi": "हिन्दी"
   },
+  "contribute": {
+    "stepEyebrow": "चरण 1 / 1 · योगदान",
+    "titleLine1": "अभिलेखागार में",
+    "titleEmph": "शब्द",
+    "titleLine2": "जोड़ें।",
+    "subtitle": "हर प्रविष्टि पाँच सामुदायिक समीक्षकों से गुज़रती है, फिर एक संपादक पढ़ता है। समय लें — स्पष्टता गति से अधिक मूल्यवान है।",
+    "steps": {
+      "draft": "मसौदा",
+      "community": "समुदाय",
+      "editor": "संपादक",
+      "published": "प्रकाशित"
+    },
+    "loginRequired": "योगदान के लिए लॉगिन आवश्यक है।",
+    "logIn": "लॉगिन",
+    "register": "रजिस्टर",
+    "headwordEyebrow": "मुख्य शब्द",
+    "headwordTitle": "स्वयं शब्द",
+    "fields": {
+      "kurukhWord": "कुड़ुख़ शब्द",
+      "ipa": "उच्चारण (IPA)",
+      "ipaHint": "वैकल्पिक पर अनुशंसित",
+      "pos": "शब्द भेद",
+      "posSelect": "— चुनें —",
+      "dialect": "बोली"
+    },
+    "meaningsEyebrow": "अर्थ",
+    "meaningsTitle": "हर उस भाषा में अर्थ जो आप दे सकें",
+    "addLanguage": "एक और भाषा जोड़ें",
+    "definition": "अर्थ",
+    "definitionPlaceholder": "{{lang}} में अर्थ लिखें",
+    "exampleKurukh": "उदाहरण वाक्य (कुड़ुख़ में)",
+    "exampleKurukhPlaceholder": "वैकल्पिक: कुड़ुख़ में उदाहरण दें",
+    "exampleTranslation": "उदाहरण अनुवाद",
+    "exampleTranslationPlaceholder": "वैकल्पिक: {{lang}} में अनुवाद",
+    "wordsCount": "{{count}} शब्द",
+    "removeMeaning": "यह अर्थ हटाएँ",
+    "infoPillTitle": "समीक्षा प्रक्रिया",
+    "infoPillBody": "पाँच सामुदायिक वक्ता वोट देते हैं → एक संपादक पढ़ता है → प्रकाशित। आमतौर पर 3–5 दिन।",
+    "preview": "लाइव पूर्वावलोकन",
+    "draftStatus": "मसौदा · अभी प्रकाशित नहीं",
+    "previewEmpty": "लाइव पूर्वावलोकन देखने के लिए विवरण भरना शुरू करें।",
+    "rulesEyebrow": "जमा करने से पहले",
+    "rules": [
+      {
+        "title": "वही रूप उपयोग करें जो आपका समुदाय करता है",
+        "body": "उधार शब्द और बोली रूप स्वागत योग्य हैं — क्षेत्र को टैग करें।"
+      },
+      {
+        "title": "असामान्य दावों के लिए स्रोत दें",
+        "body": "विशेषकर व्युत्पत्ति और दुर्लभ अर्थों के लिए।"
+      },
+      {
+        "title": "एक भाषा में डुप्लिकेट नहीं",
+        "body": "प्रति भाषा एक अर्थ; विविधताओं को उसी प्रविष्टि में मिलाएँ।"
+      }
+    ],
+    "submit": "सामुदायिक समीक्षा के लिए जमा करें",
+    "submitting": "जमा हो रहा है…",
+    "saveDraft": "मसौदा सहेजें",
+    "cancel": "रद्द करें",
+    "successMessage": "धन्यवाद — आपका शब्द सामुदायिक समीक्षा के लिए जमा हो गया है।",
+    "errors": {
+      "wordRequired": "कुड़ुख़ शब्द आवश्यक है।",
+      "definitionRequired": "कम से कम एक अर्थ आवश्यक है।",
+      "duplicateLanguage": "एक ही भाषा में कई अर्थ नहीं जोड़ सकते। हर अर्थ के लिए अलग भाषा चुनें।",
+      "notLoggedIn": "योगदान के लिए लॉगिन करें।",
+      "permissionDenied": "अनुमति अस्वीकृत। प्रमाणन समस्या हो सकती है। कृपया लॉगआउट करके पुनः लॉगिन करें।",
+      "generic": "आपका योगदान जमा करते समय त्रुटि हुई। कृपया पुनः प्रयास करें।"
+    }
+  },
+  "review": {
+    "queueEyebrow": "कतार · {{count}} प्रविष्टियाँ प्रतीक्षारत",
+    "titleLine1": "शब्दकोश को",
+    "titleEmph": "सँवारने",
+    "titleLine2": "में हमारी मदद करें।",
+    "subtitle": "हर प्रविष्टि पर पाँच वक्ता वोट देते हैं। ध्यान से पढ़ें। “हाँ” का अर्थ है कि आपने इस शब्द को इसी अर्थ में सुना है — केवल यह नहीं कि ठीक लगता है।",
+    "tabs": {
+      "words": "नए शब्द",
+      "edits": "संपादन और सुधार",
+      "audio": "ऑडियो रिकॉर्डिंग",
+      "myVotes": "मेरे वोट"
+    },
+    "card": {
+      "approvalsLabel": "अनुमोदन",
+      "approve": "अनुमोदित करें",
+      "defer": "स्थगित",
+      "reject": "अस्वीकृत",
+      "suggest": "सुधार सुझाएँ",
+      "submitted": "जमा {{date}}"
+    },
+    "yourReviewing": "आपकी समीक्षा",
+    "votesCast": "इस सत्र में दिए वोट",
+    "topReviewer": "आप शीर्ष <strong>{{rank}}</strong> समीक्षकों में हैं। 100 के बाद नए योगदानकर्ताओं की पुष्टि कर सकते हैं।",
+    "guidanceEyebrow": "वोट कैसे दें",
+    "guidance": [
+      {
+        "title": "अनुमोदित करें",
+        "body": "आपने यह शब्द, इसी अर्थ में, वास्तविक उपयोग में सुना है।"
+      },
+      {
+        "title": "अस्वीकृत",
+        "body": "आपने यह नहीं सुना, या अर्थ ग़लत है।"
+      },
+      {
+        "title": "स्थगित",
+        "body": "आप निश्चित नहीं — प्रविष्टि अन्य समीक्षकों को भेजें।"
+      }
+    ],
+    "empty": "अभी इस कतार में कुछ नहीं।",
+    "loginRequired": "समीक्षा के लिए लॉगिन आवश्यक है।",
+    "intro": "नए शब्द प्रस्तावों की समीक्षा करके कुड़ुख़ शब्दकोश को बेहतर बनाने में मदद करें। पाँच सामुदायिक अनुमोदन के बाद शब्द संपादक के पास जाता है।",
+    "introCorrections": "समुदाय द्वारा सुझाए गए सुधारों की समीक्षा करके शब्दकोश को बेहतर बनाने में मदद करें।",
+    "filterTitle": "स्थिति से फ़िल्टर करें",
+    "filterTitleCorrections": "सुधारों को स्थिति से फ़िल्टर करें",
+    "filterSelectAll": "सभी चुनें",
+    "filterClearAll": "सभी साफ़ करें",
+    "filterSummary": "{{total}} में से {{selected}} स्थितियाँ चुनी गईं",
+    "submittedOn": "जमा {{date}}",
+    "ownContribution": "यह आपका योगदान है — आप अपने ही शब्दों पर वोट नहीं दे सकते।",
+    "alreadyVoted": "आप इस शब्द पर पहले ही वोट दे चुके हैं।",
+    "alreadyVotedCorrection": "आप इस सुधार पर पहले ही वोट दे चुके हैं।",
+    "votesAgainstLabel": "अस्वीकृति",
+    "reviewersLabel": "मतदाता",
+    "stateLabels": {
+      "community_review": "सामुदायिक समीक्षा",
+      "in_community_review": "समीक्षा में",
+      "pending_review": "व्यवस्थापक समीक्षा",
+      "community_approved": "समुदाय अनुमोदित",
+      "community_rejected": "समुदाय अस्वीकृत"
+    },
+    "card": {
+      "approvalsLabel": "अनुमोदन",
+      "approve": "अनुमोदित करें",
+      "defer": "स्थगित",
+      "reject": "अस्वीकृत",
+      "suggest": "सुधार सुझाएँ",
+      "submitted": "जमा {{date}}"
+    },
+    "modal": {
+      "approveTitle": "इस प्रविष्टि को अनुमोदित करें",
+      "rejectTitle": "इस प्रविष्टि को अस्वीकृत करें",
+      "approveBody": "अपने अनुमोदन का कारण लिखें (वैकल्पिक)।",
+      "rejectBody": "अपने अस्वीकरण का कारण लिखें (वैकल्पिक)।",
+      "commentLabel": "टिप्पणी",
+      "commentPlaceholder": "संदर्भ, बोली, स्रोत — एक पंक्ति में…",
+      "cancel": "रद्द करें",
+      "confirmApprove": "अनुमोदित करें",
+      "confirmReject": "अस्वीकृत करें"
+    },
+    "corrections": {
+      "currentValue": "वर्तमान मान",
+      "proposedChange": "प्रस्तावित परिवर्तन",
+      "explanation": "स्पष्टीकरण",
+      "noCurrent": "कोई वर्तमान मान नहीं",
+      "types": {
+        "word_spelling": "शब्द वर्तनी",
+        "definition": "अर्थ / परिभाषा",
+        "part_of_speech": "शब्द भेद",
+        "example_sentence": "उदाहरण वाक्य",
+        "example_translation": "उदाहरण अनुवाद",
+        "pronunciation": "उच्चारण",
+        "other": "अन्य"
+      },
+      "stateLabels": {
+        "shallow_review": "समीक्षा प्रतीक्षित",
+        "approved": "अनुमोदित",
+        "rejected": "अस्वीकृत",
+        "applied": "लागू"
+      }
+    }
+  },
+  "comments": {
+    "loading": "लोड हो रहा है…",
+    "loginRequired": "चर्चा में शामिल होने के लिए लॉगिन करें।",
+    "placeholder": "टिप्पणी जोड़ें…",
+    "post": "टिप्पणी पोस्ट करें",
+    "posting": "पोस्ट हो रहा है…",
+    "noComments": "अभी कोई टिप्पणी नहीं। पहली टिप्पणी आप करें।",
+    "count_one": "{{count}} टिप्पणी",
+    "count_other": "{{count}} टिप्पणियाँ",
+    "sort": {
+      "newest": "नवीनतम पहले",
+      "oldest": "सबसे पुराने पहले",
+      "best": "सर्वश्रेष्ठ"
+    },
+    "reply": "उत्तर",
+    "replyPlaceholder": "उत्तर लिखें…",
+    "replyAction": "उत्तर",
+    "edit": "संपादित",
+    "delete": "हटाएँ",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "deleteConfirm": "क्या आप वाकई यह टिप्पणी हटाना चाहते हैं?",
+    "edited": "संपादित",
+    "deleted": "[हटाई गई]",
+    "anonymous": "अनाम",
+    "showReplies_one": "{{count}} उत्तर दिखाएँ",
+    "showReplies_other": "{{count}} उत्तर दिखाएँ",
+    "hideReplies_one": "{{count}} उत्तर छिपाएँ",
+    "hideReplies_other": "{{count}} उत्तर छिपाएँ",
+    "loadReplies_one": "{{count}} उत्तर लोड करें",
+    "loadReplies_other": "{{count}} उत्तर लोड करें",
+    "loadError": "टिप्पणियाँ लोड नहीं हो सकीं",
+    "addError": "टिप्पणी जोड़ने में विफल",
+    "replyError": "उत्तर जोड़ने में विफल"
+  },
+  "profile": {
+    "eyebrow": "वक्ता · सदस्य",
+    "memberSince": "सदस्य {{date}} से",
+    "stats": {
+      "contributed": "योगदान दिए शब्द",
+      "approved": "अनुमोदित",
+      "awaiting": "समीक्षा प्रतीक्षित",
+      "reviews": "किए गए समीक्षा-वोट"
+    },
+    "editProfile": "प्रोफ़ाइल संपादित करें",
+    "addWord": "शब्द जोड़ें",
+    "aboutEyebrow": "परिचय",
+    "aboutTitle": "वक्ता प्रोफ़ाइल",
+    "dialectsEyebrow": "मेरी बोलियाँ",
+    "badgesEyebrow": "बैज",
+    "contribsEyebrow": "आपके योगदान",
+    "contribsTitle": "आपने रोपे शब्द",
+    "filterAll": "सभी स्थितियाँ",
+    "filterApproved": "अनुमोदित",
+    "filterInReview": "समीक्षा में",
+    "addedOn": "जोड़ा {{date}}",
+    "emptyContribs": "आपने अभी कोई शब्द नहीं जोड़ा।",
+    "addFirst": "अपना पहला शब्द जोड़ें",
+    "loadError": "आपके योगदान लोड नहीं हो सके। कृपया पुनः प्रयास करें।",
+    "status": {
+      "approved": "अनुमोदित",
+      "community": "समुदाय · {{count}}/5",
+      "communityApproved": "समुदाय अनुमोदित",
+      "pending": "व्यवस्थापक समीक्षा",
+      "rejected": "अस्वीकृत",
+      "draft": "मसौदा"
+    }
+  },
+  "editor": {
+    "saveStatus": "संपादक · सहेजा गया {{time}}",
+    "unsaved": "संपादक · सहेजा नहीं",
+    "share": "साझा करें",
+    "saveHtml": "HTML के रूप में सहेजें",
+    "exportPdf": "PDF निर्यात",
+    "exporting": "निर्यात हो रहा है…",
+    "templatesEyebrow": "टेम्पलेट",
+    "templates": {
+      "dictionary": {
+        "title": "शब्दकोश प्रविष्टि",
+        "sub": "संरचित शब्द + अर्थ + उदाहरण"
+      },
+      "story": {
+        "title": "लोककथा",
+        "sub": "द्विभाषी कथा प्रारूप"
+      },
+      "letter": {
+        "title": "पत्र",
+        "sub": "औपचारिक पत्राचार"
+      },
+      "blank": {
+        "title": "रिक्त दस्तावेज़",
+        "sub": "शुरू से प्रारंभ करें"
+      }
+    },
+    "keyboardEyebrow": "कीबोर्ड",
+    "keyboard": {
+      "kurukh": "कुड़ुख़ लिपि",
+      "hindi": "हिन्दी",
+      "bold": "बोल्ड",
+      "italic": "तिरछा"
+    },
+    "documentEyebrow": "दस्तावेज़",
+    "words": "शब्द",
+    "characters": "वर्ण",
+    "readingTime": "पढ़ने का समय",
+    "minute": "~{{count}} मिनट",
+    "scriptsEyebrow": "उपयोग में लिपियाँ",
+    "scripts": {
+      "kurukh": "कुड़ुख़",
+      "hindi": "हिन्दी",
+      "english": "अंग्रेज़ी"
+    },
+    "collaboratorsEyebrow": "सहयोगी",
+    "invite": "आमंत्रित",
+    "newDocument": "नया दस्तावेज़",
+    "backToDictionary": "शब्दकोश पर लौटें",
+    "titlePlaceholder": "बिना शीर्षक दस्तावेज़",
+    "synced": "सिंक",
+    "autoSaved": "स्वत: सहेजा",
+    "neverSaved": "मसौदा"
+  },
   "footer": {
     "tagline": "कुड़ुख़ बोलने वाले समुदाय द्वारा संचालित एक मुक्त शब्दकोश। मुफ़्त, बिना विज्ञापन, और हम सबसे ज़्यादा टिकाऊ।",
     "explore": "खोजें",
@@ -113,5 +405,29 @@
   "errors": {
     "loadDictionary": "शब्दकोश डेटा लोड नहीं हो सका। कृपया बाद में पुनः प्रयास करें।",
     "loadWord": "शब्द विवरण लोड नहीं हो सका। कृपया पुनः प्रयास करें।"
+  },
+  "login": {
+    "eyebrow": "लॉगिन · शब्दों के रक्षक",
+    "titleLine1": "स्वागत है,",
+    "titleEmph": "वापस",
+    "titleLine2": "शब्दों के रक्षक।",
+    "panelQuote": "“हर शब्द, जब आप उसके पास खड़े होते हैं, एक जगह में खुलता है।”",
+    "panelAttribution": "— बिनोद लकड़ा, 78, गुमला",
+    "formTitle": "लॉगिन",
+    "formSubtitle": "अभिलेखागार को सँवारते रहें।",
+    "email": "ईमेल",
+    "emailPlaceholder": "you@village.dict",
+    "password": "पासवर्ड",
+    "passwordPlaceholder": "आपका निजी शब्द",
+    "submit": "लॉगिन",
+    "submitting": "लॉगिन हो रहा है…",
+    "or": "या",
+    "google": "Google से जारी रखें",
+    "noAccount": "अभिलेखागार में नए हैं?",
+    "registerLink": "खाता बनाएँ",
+    "errors": {
+      "generic": "लॉगिन विफल। कृपया अपनी जानकारी जाँचें और पुनः प्रयास करें।",
+      "google": "Google लॉगिन विफल। कृपया पुनः प्रयास करें।"
+    }
   }
 }

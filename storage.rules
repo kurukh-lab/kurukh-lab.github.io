@@ -1,0 +1,45 @@
+rules_version = '2';
+
+// Kurukh Dictionary — Cloud Storage security rules.
+//
+// Trust model:
+//   * Anything under /public/{...} is world-readable (dictionary assets
+//     served from the bucket, e.g. pronunciation audio attached to
+//     approved words). Writes are admin-only via Admin SDK.
+//   * Anything under /users/{uid}/{...} is private to the owning user.
+//   * Nothing else is reachable from the client.
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isAuthed() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isAuthed() && request.auth.uid == uid;
+    }
+
+    // Server-side / admin uploads go through the Admin SDK, which bypasses
+    // these rules. Clients have no direct-write access here.
+    match /public/{allPaths=**} {
+      allow read:  if true;
+      allow write: if false;
+    }
+
+    // Per-user private storage. Each user can read & write only their own
+    // sub-tree. Maximum file size is 10MB to cap abuse; adjust if you add
+    // features that need larger uploads.
+    match /users/{userId}/{allUserPaths=**} {
+      allow read:  if isOwner(userId);
+      allow write: if isOwner(userId) &&
+                      request.resource.size < 10 * 1024 * 1024;
+    }
+
+    // Everything else: deny. (Default-deny is implicit, but stating it
+    // makes the file unambiguous.)
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

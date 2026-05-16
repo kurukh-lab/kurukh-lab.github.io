@@ -31,6 +31,7 @@
   <script type="text/babel" src="web-screens.jsx"></script>
   <script type="text/babel" src="mobile-screens.jsx"></script>
   <script type="text/babel" src="hindi-screens.jsx"></script>
+  <script type="text/babel" src="new-pages.jsx"></script>
 
   <script type="text/babel">
     const { DesignCanvas, DCSection, DCArtboard,
@@ -38,7 +39,8 @@
       WebHome, WebWordDetail, IOSHome, IOSWordDetail, IOSContribute,
       AndroidHome, AndroidWordDetail,
       HiWebHome, HiWebWordDetail, HiIOSHome, HiIOSWordDetail,
-      HiAndroidHome, HiAndroidWordDetail, KD } = window;
+      HiAndroidHome, HiAndroidWordDetail,
+      WebContribute, WebEditor, WebReview, WebProfile, KD } = window;
 
     // Custom browser chrome that matches the dictionary brand more sympathetically
     // than the default dark Chrome. Light/dark variants.
@@ -252,6 +254,41 @@
               <AndroidDevice dark={true} width={412} height={892}>
                 <AndroidWordDetail dark={true}/>
               </AndroidDevice>
+            </DCArtboard>
+          </DCSection>
+          {/* SECTION 8 — New site pages from the repo */}
+          <DCSection id="new-pages"
+            title="Site pages · Contribute / Editor / Review / Profile"
+            subtitle="Redesigns of /contribute, /kurukh-editor, /review, /profile from kurukh-lab.github.io.">
+            <DCArtboard id="np-contribute-light" label="Contribute · light" width={1280} height={1800}>
+              <KurukhBrowser url="kurukh.dict/contribute" width={1280} height={1800}>
+                <WebContribute dark={false}/>
+              </KurukhBrowser>
+            </DCArtboard>
+            <DCArtboard id="np-editor-light" label="Kurukh Editor · light" width={1280} height={1500}>
+              <KurukhBrowser url="kurukh.dict/editor" width={1280} height={1500}>
+                <WebEditor dark={false}/>
+              </KurukhBrowser>
+            </DCArtboard>
+            <DCArtboard id="np-review-light" label="Community Review · light" width={1280} height={1700}>
+              <KurukhBrowser url="kurukh.dict/review" width={1280} height={1700}>
+                <WebReview dark={false}/>
+              </KurukhBrowser>
+            </DCArtboard>
+            <DCArtboard id="np-profile-light" label="Profile · light" width={1280} height={1600}>
+              <KurukhBrowser url="kurukh.dict/profile" width={1280} height={1600}>
+                <WebProfile dark={false}/>
+              </KurukhBrowser>
+            </DCArtboard>
+            <DCArtboard id="np-contribute-dark" label="Contribute · dark" width={1280} height={1800}>
+              <KurukhBrowser dark url="kurukh.dict/contribute" width={1280} height={1800}>
+                <WebContribute dark={true}/>
+              </KurukhBrowser>
+            </DCArtboard>
+            <DCArtboard id="np-editor-dark" label="Kurukh Editor · dark" width={1280} height={1500}>
+              <KurukhBrowser dark url="kurukh.dict/editor" width={1280} height={1500}>
+                <WebEditor dark={true}/>
+              </KurukhBrowser>
             </DCArtboard>
           </DCSection>
         </DesignCanvas>
