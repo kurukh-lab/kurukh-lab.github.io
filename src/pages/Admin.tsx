@@ -16,9 +16,17 @@ import { formatDate } from '../utils/wordUtils';
 import { applyCorrection } from '../services/dictionaryService';
 import { wordReviewService } from '../services/wordReviewService';
 import WordReviewStats from '../components/WordReviewStats';
+import FunctionTriggers from '../components/FunctionTriggers';
 import type { Word, Correction, Report } from '../types';
 
-type Tab = 'pending-words' | 'reports' | 'corrections';
+type Tab = 'pending-words' | 'reports' | 'corrections' | 'functions';
+
+const TAB_LABELS: Record<Tab, string> = {
+  'pending-words': 'Pending Words',
+  reports: 'Word Reports',
+  corrections: 'Corrections',
+  functions: 'Functions',
+};
 type ActionKind = 'approve' | 'reject';
 
 type ReportWithWord = Report & { word?: Word };
@@ -331,7 +339,7 @@ const Admin = () => {
 
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
         <div className="flex border-b">
-          {(['pending-words', 'reports', 'corrections'] as Tab[]).map((tab) => (
+          {(['pending-words', 'reports', 'corrections', 'functions'] as Tab[]).map((tab) => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
@@ -339,7 +347,7 @@ const Admin = () => {
                 activeTab === tab ? 'bg-gray-100 text-gray-900' : 'text-gray-500 hover:bg-gray-50'
               }`}
             >
-              {tab === 'pending-words' ? 'Pending Words' : tab === 'reports' ? 'Word Reports' : 'Corrections'}
+              {TAB_LABELS[tab]}
             </button>
           ))}
         </div>
@@ -537,6 +545,13 @@ const Admin = () => {
                 ))}
               </div>
             )}
+          </div>
+        )}
+
+        {activeTab === 'functions' && (
+          <div>
+            <h2 className="p-4 bg-gray-100 font-bold text-xl border-b">Cloud Function Triggers</h2>
+            <FunctionTriggers />
           </div>
         )}
       </div>
