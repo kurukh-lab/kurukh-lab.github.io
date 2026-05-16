@@ -6,7 +6,11 @@ import WordOfDayCard from '../components/kd/WordOfDayCard';
 import AlphabetRibbon from '../components/kd/AlphabetRibbon';
 import WordRow from '../components/kd/WordRow';
 import { useSearchUI } from '../contexts/SearchContext';
-import { getHomePageData } from '../services/dictionaryService';
+import {
+  getDailyStats,
+  getHomePageData,
+  type DailyStats,
+} from '../services/dictionaryService';
 import type { Word } from '../types';
 
 type WordWithLikes = Word & { likes_count?: number; likes?: number };
@@ -15,6 +19,7 @@ const Home = () => {
   const { t, i18n } = useTranslation();
   const [recentWords, setRecentWords] = useState<WordWithLikes[]>([]);
   const [wordOfTheDay, setWordOfTheDay] = useState<Word | null>(null);
+  const [stats, setStats] = useState<DailyStats | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const { openSearch } = useSearchUI();
@@ -24,9 +29,13 @@ const Home = () => {
       setLoading(true);
       setError(null);
       try {
-        const homePageData = await getHomePageData();
+        const [homePageData, dailyStats] = await Promise.all([
+          getHomePageData(),
+          getDailyStats(),
+        ]);
         setRecentWords((homePageData.recentWords as WordWithLikes[]) || []);
         setWordOfTheDay(homePageData.wordOfTheDay || null);
+        setStats(dailyStats);
       } catch (err) {
         console.error('Error fetching home page data:', err);
         setError(t('errors.loadDictionary') as string);
@@ -42,10 +51,13 @@ const Home = () => {
     { day: 'numeric', month: 'short' },
   );
 
-  const totalEntries = recentWords.length;
+  const totalEntries = stats?.totalWords ?? recentWords.length;
   const lovedWords = [...recentWords]
     .sort((a, b) => (b.likes_count ?? b.likes ?? 0) - (a.likes_count ?? a.likes ?? 0))
     .slice(0, 4);
+
+  const fmt = (n: number | undefined): string =>
+    n && n > 0 ? n.toLocaleString(i18n.language === 'hi' ? 'hi-IN' : 'en-US') : '—';
 
   return (
     <div style={{ background: 'var(--kd-bg)', color: 'var(--kd-ink)' }}>
@@ -97,10 +109,10 @@ const Home = () => {
           }}
         >
           {[
-            [String(totalEntries || '—'), t('home.stats.words')],
-            ['—', t('home.stats.audio')],
-            ['—', t('home.stats.contributors')],
-            ['—', t('home.stats.regions')],
+            [fmt(stats?.totalWords), t('home.stats.words')],
+            [fmt(stats?.totalAudio), t('home.stats.audio')],
+            [fmt(stats?.totalContributors), t('home.stats.contributors')],
+            [fmt(stats?.totalRegions), t('home.stats.regions')],
           ].map(([n, l]) => (
             <div key={String(l)}>
               <div

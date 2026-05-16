@@ -328,11 +328,69 @@ export const getDictionaryStats = async (): Promise<DictionaryStats> => {
   }
 };
 
+/**
+ * Home-page hero stats produced by the `statsPipeline` running inside the
+ * dailySchedule orchestrator at 00:00 IST. Fields default to 0 when the
+ * snapshot doc is missing so the UI can render without conditional checks.
+ */
+export interface DailyStats {
+  totalWords: number;
+  totalAudio: number;
+  totalContributors: number;
+  totalRegions: number;
+  totalUsers: number;
+  date: string | null;
+}
+
+const emptyDailyStats = (): DailyStats => ({
+  totalWords: 0,
+  totalAudio: 0,
+  totalContributors: 0,
+  totalRegions: 0,
+  totalUsers: 0,
+  date: null,
+});
+
+export const getDailyStats = async (): Promise<DailyStats> => {
+  try {
+    const snapshot = await getDoc(doc(db, 'daily_reports', 'stats'));
+    if (!snapshot.exists()) return emptyDailyStats();
+    const data = snapshot.data() as DocumentData;
+    return {
+      totalWords: Number(data.totalWords) || 0,
+      totalAudio: Number(data.totalAudio) || 0,
+      totalContributors: Number(data.totalContributors) || 0,
+      totalRegions: Number(data.totalRegions) || 0,
+      totalUsers: Number(data.totalUsers) || 0,
+      date: typeof data.date === 'string' ? data.date : null,
+    };
+  } catch (error) {
+    console.error('Error reading daily_reports/stats:', error);
+    return emptyDailyStats();
+  }
+};
+
+/**
+ * Read the precomputed word-of-the-day snapshot written by the scheduled
+ * `processWordOfTheDay` Cloud Function (runs at 00:00 IST). Falls back to
+ * the legacy HTTP function when the snapshot doc is missing — that path
+ * still hits the original on-the-fly selection and seeds the snapshot.
+ */
 export const getWordOfTheDay = async (): Promise<Word | null> => {
+  try {
+    const snapshot = await getDoc(doc(db, 'daily_reports', 'word_of_the_day'));
+    if (snapshot.exists()) {
+      const data = snapshot.data() as DocumentData;
+      return (data.word as Word | null) ?? null;
+    }
+  } catch (error) {
+    console.error('Error reading daily_reports/word_of_the_day:', error);
+  }
+
   try {
     const response = await fetch(functionsBaseUrl('getWordOfTheDay'));
     const data = await response.json();
-    if (data.success) return data.wordOfTheDay as Word;
+    if (data.success) return (data.wordOfTheDay as Word) ?? null;
     return null;
   } catch (error) {
     console.error('Error fetching word of the day:', error);
@@ -733,47 +791,41 @@ export interface HomePageData {
 }
 
 export const getHomePageData = async (): Promise<HomePageData> => {
-  const fallback = async (): Promise<HomePageData> => {
-    const [recentWords, wordOfTheDay] = await Promise.all([
-      getRecentWords(6),
-      getWordOfTheDay(),
-    ]);
-    return {
-      recentWords,
-      wordOfTheDay,
-      lastUpdated: new Date(),
-      generatedAt: new Date().toISOString(),
-      date: new Date().toISOString().split('T')[0],
-    };
-  };
+  const today = new Date().toISOString().split('T')[0];
 
-  try {
-    const homePageDoc = await getDoc(doc(db, 'static_data', 'home-page'));
-    if (!homePageDoc.exists()) {
-      console.warn('Static home page data not found, falling back to original methods');
-      return await fallback();
-    }
-    const data = homePageDoc.data() as DocumentData;
-    return {
-      recentWords: data.recentWords || [],
-      wordOfTheDay: data.wordOfTheDay || null,
-      lastUpdated: data.lastUpdated,
-      generatedAt: data.generatedAt,
-      date: data.date,
-    };
-  } catch (error) {
-    console.error('Error fetching home page data:', error);
-    try {
-      return await fallback();
-    } catch (fallbackError) {
-      console.error('Error with fallback methods:', fallbackError);
-      return {
-        recentWords: [],
-        wordOfTheDay: null,
-        lastUpdated: new Date(),
-        generatedAt: new Date().toISOString(),
-        date: new Date().toISOString().split('T')[0],
-      };
-    }
-  }
+  // Word of the day now lives in /daily_reports/word_of_the_day, written by
+  // the midnight-IST scheduled function. Recent words still come from the
+  // precomputed /static_data/home-page bundle.
+  const [wordOfTheDay, recentWords] = await Promise.all([
+    getWordOfTheDay(),
+    (async (): Promise<Word[]> => {
+      try {
+        const homePageDoc = await getDoc(doc(db, 'static_data', 'home-page'));
+        if (homePageDoc.exists()) {
+          const data = homePageDoc.data() as DocumentData;
+          return (data.recentWords as Word[]) || [];
+        }
+        console.warn(
+          'static_data/home-page missing; falling back to live recent words',
+        );
+        return await getRecentWords(6);
+      } catch (error) {
+        console.error('Error fetching recent words:', error);
+        try {
+          return await getRecentWords(6);
+        } catch (fallbackError) {
+          console.error('Recent-words fallback failed:', fallbackError);
+          return [];
+        }
+      }
+    })(),
+  ]);
+
+  return {
+    recentWords,
+    wordOfTheDay,
+    lastUpdated: new Date(),
+    generatedAt: new Date().toISOString(),
+    date: today,
+  };
 };
