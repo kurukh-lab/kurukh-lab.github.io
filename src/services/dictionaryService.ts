@@ -645,9 +645,9 @@ export const applyCorrection = async (
           updateData.meanings = wordData.meanings.map((meaning) =>
             meaning.example_sentence_translation === correction.current_value
               ? {
-                  ...meaning,
-                  example_sentence_translation: correction.proposed_change,
-                }
+                ...meaning,
+                example_sentence_translation: correction.proposed_change,
+              }
               : meaning,
           );
         }
@@ -798,27 +798,7 @@ export const getHomePageData = async (): Promise<HomePageData> => {
   // precomputed /static_data/home-page bundle.
   const [wordOfTheDay, recentWords] = await Promise.all([
     getWordOfTheDay(),
-    (async (): Promise<Word[]> => {
-      try {
-        const homePageDoc = await getDoc(doc(db, 'static_data', 'home-page'));
-        if (homePageDoc.exists()) {
-          const data = homePageDoc.data() as DocumentData;
-          return (data.recentWords as Word[]) || [];
-        }
-        console.warn(
-          'static_data/home-page missing; falling back to live recent words',
-        );
-        return await getRecentWords(6);
-      } catch (error) {
-        console.error('Error fetching recent words:', error);
-        try {
-          return await getRecentWords(6);
-        } catch (fallbackError) {
-          console.error('Recent-words fallback failed:', fallbackError);
-          return [];
-        }
-      }
-    })(),
+    getRecentWords(6)
   ]);
 
   return {

@@ -43,3 +43,5 @@ emulator-data/
 coverage/
 
 .playwright-mcp/
+
+docs/book/

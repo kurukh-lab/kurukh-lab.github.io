@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
 import { getWordsForCommunityReview, voteOnWord } from '../../services/dictionaryService';
@@ -9,7 +8,7 @@ import CommentThread from '../CommentThread';
 import StatusPill, { type PillTone } from '../kd/StatusPill';
 import VoteTracker from '../kd/VoteTracker';
 import CommentModal from '../kd/CommentModal';
-import { IconSpeaker } from '../kd/icons';
+import WordCard from '../kd/WordCard';
 import type { Word } from '../../types';
 import type { AuthedUser } from '../../contexts/AuthContext';
 
@@ -286,145 +285,54 @@ const ReviewCard = ({
   const contributorDisplay =
     word.contributorName || word.contributor_name || word.contributor_displayName || '';
 
+  const metaLine = (
+    <div className="flex items-center gap-2.5 flex-wrap">
+      <span
+        className="kd-font-serif inline-flex items-center justify-center"
+        style={{
+          width: 22,
+          height: 22,
+          borderRadius: '50%',
+          background: 'var(--kd-accent-soft)',
+          color: '#FFF',
+          fontWeight: 600,
+          fontSize: 10,
+        }}
+      >
+        {initialsOf(contributorDisplay) || '·'}
+      </span>
+      {contributorDisplay && (
+        <span style={{ color: 'var(--kd-ink-soft)', fontWeight: 500 }}>
+          {contributorDisplay}
+        </span>
+      )}
+      {contributorDisplay && word.createdAt && <span>·</span>}
+      {word.createdAt && (
+        <span>{t('review.submittedOn', { date: formatDate(word.createdAt) })}</span>
+      )}
+    </div>
+  );
+
+  const statusPill = word.status ? (
+    <StatusPill tone={stateTone(word.status)}>
+      {t(`review.stateLabels.${word.status}`, { defaultValue: word.status })}
+    </StatusPill>
+  ) : null;
+
   return (
     <article
       className="p-6 md:p-7 rounded-2xl"
       style={{ background: 'var(--kd-surface)', border: '1px solid var(--kd-line)' }}
     >
       <div className="grid gap-6 md:grid-cols-[1fr_220px]">
-        <div className="min-w-0">
-          <div className="flex items-baseline gap-3.5 flex-wrap">
-            <Link
-              to={`/review/${word.id}`}
-              className="kd-font-serif"
-              style={{
-                fontWeight: 500,
-                fontSize: 'clamp(34px, 4vw, 44px)',
-                color: 'var(--kd-ink)',
-                letterSpacing: '-0.025em',
-                lineHeight: 1,
-                textDecoration: 'none',
-              }}
-            >
-              {word.kurukh_word}
-            </Link>
-            {word.pronunciation && (
-              <span className="kd-font-mono" style={{ fontSize: 14, color: 'var(--kd-ink-soft)' }}>
-                /{word.pronunciation}/
-              </span>
-            )}
-            {word.part_of_speech && (
-              <span
-                className="kd-font-sans"
-                style={{
-                  padding: '3px 10px',
-                  borderRadius: 999,
-                  fontSize: 11,
-                  fontWeight: 500,
-                  letterSpacing: '0.04em',
-                  background: 'var(--kd-accent-tint)',
-                  color: 'var(--kd-accent)',
-                }}
-              >
-                {word.part_of_speech}
-              </span>
-            )}
-            <button
-              type="button"
-              aria-label="play pronunciation"
-              className="inline-flex items-center justify-center"
-              style={{
-                width: 32,
-                height: 32,
-                borderRadius: '50%',
-                border: '1px solid var(--kd-line)',
-                background: 'var(--kd-bg)',
-                color: 'var(--kd-ink)',
-                cursor: 'pointer',
-              }}
-            >
-              <IconSpeaker size={14} />
-            </button>
-          </div>
-
-          <div className="mt-4 flex flex-col gap-3">
-            {(word.meanings || []).map((m, i) => (
-              <div key={i}>
-                <div className="kd-eyebrow mb-1" style={{ color: 'var(--kd-ink-mute)' }}>
-                  {m.language === 'hi' ? t('word.hindi') : t('word.english')}
-                </div>
-                <p
-                  className="kd-font-serif"
-                  style={{ fontSize: 18, color: 'var(--kd-ink)', lineHeight: 1.5, margin: 0 }}
-                >
-                  {m.definition}
-                </p>
-                {m.example_sentence_kurukh && (
-                  <div
-                    className="mt-3 px-4 py-3 rounded-xl"
-                    style={{
-                      background: 'var(--kd-bg)',
-                      border: '1px solid var(--kd-line)',
-                      borderLeft: '3px solid var(--kd-accent)',
-                    }}
-                  >
-                    <p
-                      className="kd-font-serif italic"
-                      style={{ fontSize: 16, color: 'var(--kd-ink)', margin: 0, lineHeight: 1.4 }}
-                    >
-                      “{m.example_sentence_kurukh}”
-                    </p>
-                    {m.example_sentence_translation && (
-                      <p
-                        className="kd-font-sans mt-1"
-                        style={{ fontSize: 13, color: 'var(--kd-ink-soft)', margin: 0 }}
-                      >
-                        {m.example_sentence_translation}
-                      </p>
-                    )}
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-
-          <div
-            className="mt-4 flex items-center gap-2.5 flex-wrap kd-font-sans"
-            style={{ fontSize: 12.5, color: 'var(--kd-ink-mute)' }}
-          >
-            <span
-              className="kd-font-serif inline-flex items-center justify-center"
-              style={{
-                width: 22,
-                height: 22,
-                borderRadius: '50%',
-                background: 'var(--kd-accent-soft)',
-                color: '#FFF',
-                fontWeight: 600,
-                fontSize: 10,
-              }}
-            >
-              {initialsOf(contributorDisplay) || '·'}
-            </span>
-            {contributorDisplay && (
-              <span style={{ color: 'var(--kd-ink-soft)', fontWeight: 500 }}>
-                {contributorDisplay}
-              </span>
-            )}
-            {contributorDisplay && <span>·</span>}
-            {word.createdAt && (
-              <span>{t('review.submittedOn', { date: formatDate(word.createdAt) })}</span>
-            )}
-            {word.status && (
-              <>
-                <span>·</span>
-                <StatusPill tone={stateTone(word.status)}>
-                  {t(`review.stateLabels.${word.status}`, { defaultValue: word.status })}
-                </StatusPill>
-              </>
-            )}
-          </div>
-        </div>
+        <WordCard
+          word={word}
+          variant="card"
+          unstyled
+          linkTo={`/review/${word.id}`}
+          meta={metaLine}
+          metaEnd={statusPill}
+        />
 
         <div className="flex flex-col gap-2.5">
           <VoteTracker
