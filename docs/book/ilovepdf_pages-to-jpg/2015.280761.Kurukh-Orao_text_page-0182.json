@@ -1,0 +1,246 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0182.jpg",
+  "page_label": "178",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ṭhēkā-ghāsī",
+      "kurukh_word_ascii": "Theka-ghasi",
+      "english_definition": "a kind of grass",
+      "hindi_definition": "एक प्रकार की घास",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭhēknā",
+      "kurukh_word_ascii": "Thekna",
+      "english_definition": "to touch, knock",
+      "hindi_definition": "स्पर्श करना, टकराना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ṭhēṅg, ṭhēṅg!",
+      "kurukh_word_ascii": "Theng, theng!",
+      "english_definition": "the clank of swords",
+      "hindi_definition": "तलवारों की खनखनाहट",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭhēṅg, ṭhēṅgrā",
+      "kurukh_word_ascii": "Theng, thengra",
+      "english_definition": "to sound as when iron is beaten on the anvil",
+      "hindi_definition": "लोहार की सँडसी पर लोहे के पिटने जैसी आवाज",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ṭhēṭh'gē",
+      "kurukh_word_ascii": "Theth'ge",
+      "english_definition": "naked, negligé, having only a loincloth on",
+      "hindi_definition": "नंगा, केवल लंगोट पहने हुए",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Ṭhēṭh'gē'm rā'ānā",
+      "kurukh_word_ascii": "Theth'ge'm ra'ana",
+      "english_definition": "to be in an almost naked condition",
+      "hindi_definition": "लगभग नग्न अवस्था में रहना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭhēṭhmugrā",
+      "kurukh_word_ascii": "Thethmugra",
+      "english_definition": "naked",
+      "hindi_definition": "नग्न, नंगा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Ṭhēskā",
+      "kurukh_word_ascii": "Theska",
+      "english_definition": "an instrument made of bamboo sticks",
+      "hindi_definition": "बांस की तीलियों से बना एक यंत्र",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭhēssnā",
+      "kurukh_word_ascii": "Thessna",
+      "english_definition": "to press down by beating",
+      "hindi_definition": "कूटकर दबाना, ठूसना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ṭhēsthēsrnā",
+      "kurukh_word_ascii": "Thesthesrna",
+      "english_definition": "to be thronged, beaten down, compressed",
+      "hindi_definition": "दबाया जाना, ठसाठस भरा होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭhīkarī",
+      "kurukh_word_ascii": "Thikari",
+      "english_definition": "the rays of the sun",
+      "hindi_definition": "सूर्य की किरणें, धूप",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭhīkarī sēkrnā",
+      "kurukh_word_ascii": "Thikari sekrna",
+      "english_definition": "to sit in the sun to warm oneself",
+      "hindi_definition": "धूप सेंकना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭhōknā",
+      "kurukh_word_ascii": "Thokna",
+      "english_definition": "to knock",
+      "hindi_definition": "ठोकना, प्रहार करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭhōk-ṭhōk ambnā",
+      "kurukh_word_ascii": "Thok-thok ambna",
+      "english_definition": "to knock at a door",
+      "hindi_definition": "दरवाजा खटखटाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭhōkrā'anā",
+      "kurukh_word_ascii": "Thokra'ana",
+      "english_definition": "to beat one's forehead",
+      "hindi_definition": "माथा पीटना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ṭhōkrā'anā",
+      "kurukh_word_ascii": "Thokra'ana",
+      "english_definition": "to rebuke",
+      "hindi_definition": "फटकारना, डांटना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Ṭhōnā cī'inā",
+      "kurukh_word_ascii": "Thona ci'ina",
+      "english_definition": "to rebuke",
+      "hindi_definition": "फटकार लगाना, डांटना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭhōnā",
+      "kurukh_word_ascii": "Thona",
+      "english_definition": "rebuke",
+      "hindi_definition": "फटकार, डांट",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭhumk'ā",
+      "kurukh_word_ascii": "Thumk'a",
+      "english_definition": "ball shaped, roundish",
+      "hindi_definition": "गोलाकार, गोल मटोल",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Ṭhurkī",
+      "kurukh_word_ascii": "Thurki",
+      "english_definition": "a dwarf (woman)",
+      "hindi_definition": "बौनी औरत",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭhurkī-pūmp",
+      "kurukh_word_ascii": "Thurki-pump",
+      "english_definition": "a kind of flower",
+      "hindi_definition": "ठुरकी फूल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭhūṭhā",
+      "kurukh_word_ascii": "Thutha",
+      "english_definition": "maimed",
+      "hindi_definition": "अंगहीन, लूल्हा",
+      "part_of_speech": "adj",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "U",
+      "kurukh_word_ascii": "U",
+      "english_definition": "short U, letter section heading",
+      "hindi_definition": "उ वर्ण अनुभाग",
+      "part_of_speech": "letter"
+    },
+    {
+      "kurukh_word": "Ubar nannā",
+      "kurukh_word_ascii": "Ubar nanna",
+      "english_definition": "to deliver",
+      "hindi_definition": "बचाना, छुटकारा देना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ubhrnā",
+      "kurukh_word_ascii": "Ubhrna",
+      "english_definition": "to destroy",
+      "hindi_definition": "नष्ट होना, बिगड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Ubhrā'anā",
+      "kurukh_word_ascii": "Ubhra'ana",
+      "english_definition": "to spoil, ruin",
+      "hindi_definition": "बिगाड़ना, नष्ट करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ubhdhē'anā",
+      "kurukh_word_ascii": "Ubhdhe'ana",
+      "english_definition": "to give up, abandon",
+      "hindi_definition": "छोड़ना, त्यागना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ubhdharnā",
+      "kurukh_word_ascii": "Ubhdharna",
+      "english_definition": "to recoil, be abandoned (passive of above)",
+      "hindi_definition": "त्यागा जाना, छूटना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Uben nannā",
+      "kurukh_word_ascii": "Uben nanna",
+      "english_definition": "to clear up, become bright, as weather",
+      "hindi_definition": "मौसम साफ होना, धूप निकलना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ubēr nannā",
+      "kurukh_word_ascii": "Uber nanna",
+      "english_definition": "to clear up (weather), to shine (sun)",
+      "hindi_definition": "धूप खिलना, मौसम साफ होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ubja",
+      "kurukh_word_ascii": "Ubja",
+      "english_definition": "fertility",
+      "hindi_definition": "उपजाऊपन",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ubje'anā",
+      "kurukh_word_ascii": "Ubje'ana",
+      "english_definition": "to be fertile",
+      "hindi_definition": "उपजाऊ होना, पैदावार होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    }
+  ]
+}

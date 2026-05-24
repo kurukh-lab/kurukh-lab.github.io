@@ -1,0 +1,279 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0113.jpg",
+  "page_label": "109",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Urbas gahī k̲h̲uṛtī",
+      "kurukh_word_ascii": "Urbas gahi khurti",
+      "english_definition": "the Lord's Supper or, nemhā khurti, the Holy Supper.",
+      "hindi_definition": "प्रभु भोज (लॉर्ड्स सपर); nemhā khurti = पवित्र भोज।",
+      "part_of_speech": "noun phrase",
+      "notes": "Sub-entry: nemhā khurti = Holy Supper"
+    },
+    {
+      "kurukh_word": "nemhā k̲h̲uṛtī",
+      "kurukh_word_ascii": "nemha khurti",
+      "english_definition": "the Holy Supper.",
+      "hindi_definition": "पवित्र भोज।",
+      "part_of_speech": "noun phrase",
+      "notes": "Associated with Urbas gahī khuṛtī"
+    },
+    {
+      "kurukh_word": "Lab lab",
+      "kurukh_word_ascii": "Lab lab",
+      "english_definition": "quickly, greedily, said of eating.",
+      "hindi_definition": "जल्दी-जल्दी, लालच से (खाने के संबंध में - लपलप)।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lab labhā",
+      "kurukh_word_ascii": "Lab labha",
+      "english_definition": "at once, all together.",
+      "hindi_definition": "तुरंत, एक साथ, सब मिलकर।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lābhnnā",
+      "kurukh_word_ascii": "Labhnna",
+      "english_definition": "ekan, c'an to beat.",
+      "hindi_definition": "पीटना, मारना।",
+      "part_of_speech": "verb",
+      "verb_class": "ekan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lachan",
+      "kurukh_word_ascii": "Lachan",
+      "english_definition": "spectacle, fun.",
+      "hindi_definition": "तमाशा, मज़ा, खेल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lacka'anā",
+      "kurukh_word_ascii": "Lacka'ana",
+      "english_definition": "cka'n, c'an, to err, to lapse, commit a fault, mistake.",
+      "hindi_definition": "भूल करना, चूकना, गलती करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lackārnā",
+      "kurukh_word_ascii": "Lackarna",
+      "english_definition": "kan, an, the same as above, also to bend, give way.",
+      "hindi_definition": "भूल करना, चूकना, गलती करना; झुकना, हार मानना/रास्ता देना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ladrnā",
+      "kurukh_word_ascii": "Ladrna",
+      "english_definition": "kan, an, to be packed.",
+      "hindi_definition": "लदना, पैक होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ladga'anā",
+      "kurukh_word_ascii": "Ladga'ana",
+      "english_definition": "ckan c'an, to deliver, to make over.",
+      "hindi_definition": "सौंपना, सुपुर्द करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ladnā",
+      "kurukh_word_ascii": "Ladna",
+      "english_definition": "kan, an, to pack. Kicrī ladnā, to boil cloth for the purpose of cleaning it.",
+      "hindi_definition": "लादना, पैक करना; Kicrī ladnā = कपड़े धोने के लिए उबालना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Example: Kicrī ladnā = to boil cloth for the purpose of cleaning it"
+    },
+    {
+      "kurukh_word": "Laddī pōtā",
+      "kurukh_word_ascii": "Laddi pota",
+      "english_definition": "stomach.",
+      "hindi_definition": "पेट, आंतें।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laḍḍū",
+      "kurukh_word_ascii": "Laddu",
+      "english_definition": "rice sweetmeat.",
+      "hindi_definition": "लड्डू (चावल का लड्डू)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ladfadrā",
+      "kurukh_word_ascii": "Ladfadra",
+      "english_definition": "much, well.",
+      "hindi_definition": "बहुत, अच्छी तरह से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ladrī",
+      "kurukh_word_ascii": "Ladri",
+      "english_definition": "the contents of the stomach and intestines.",
+      "hindi_definition": "ओझड़ी, पेट और आंतों की सामग्री।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laggnā",
+      "kurukh_word_ascii": "Laggna",
+      "english_definition": "kan, yan, to be entangled.",
+      "hindi_definition": "उलझना, फँसना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laggānakrnā",
+      "kurukh_word_ascii": "Lagganakrna",
+      "english_definition": "kan, an, to quarrel with, or reproach each other.",
+      "hindi_definition": "आपस में लड़ना या एक-दूसरे को दोष देना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lagan",
+      "kurukh_word_ascii": "Lagan",
+      "english_definition": "omen, good or bad.",
+      "hindi_definition": "शकुन (अच्छा या बुरा), लग्न।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laghaba'anā",
+      "kurukh_word_ascii": "Laghaba'ana",
+      "english_definition": "ckan, c'an, to light.",
+      "hindi_definition": "जलाना, सुलगाना (दीपक/आग)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laghrnā",
+      "kurukh_word_ascii": "Laghrna",
+      "english_definition": "to burn; intr. laghrnum malā ōlāgyā, burning it was not consumed.",
+      "hindi_definition": "जलना (अकर्मक); laghrnum malā ōlāgyā = जल रहा था पर नष्ट (भस्म) नहीं हुआ।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Example: laghrnum malā ōlāgyā = burning it was not consumed"
+    },
+    {
+      "kurukh_word": "Lagnā",
+      "kurukh_word_ascii": "Lagna",
+      "english_definition": "to commence, to begin.",
+      "hindi_definition": "लगना, शुरू करना, आरंभ करना।",
+      "part_of_speech": "verb",
+      "verb_class": "lakkan-lagyan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lagnā khuṭā",
+      "kurukh_word_ascii": "Lagna khuta",
+      "english_definition": "the handle of the plough.",
+      "hindi_definition": "हल की मुठिया (हत्था)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laghlem",
+      "kurukh_word_ascii": "Laghlem",
+      "english_definition": "constantly, continually.",
+      "hindi_definition": "निरंतर, लगातार।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laghar",
+      "kurukh_word_ascii": "Laghar",
+      "english_definition": "milk-giving.",
+      "hindi_definition": "दूधारू (दूध देने वाला पशु)।",
+      "part_of_speech": "adjective",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lagaba'anā",
+      "kurukh_word_ascii": "Lagaba'ana",
+      "english_definition": "ckan, c'an, to engage.",
+      "hindi_definition": "लगाना, व्यस्त करना, काम पर लगाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lahak",
+      "kurukh_word_ascii": "Lahak",
+      "english_definition": "pathos, mimic.",
+      "hindi_definition": "हाव-भाव, स्वांग, नकल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lahak nannā",
+      "kurukh_word_ascii": "Lahak nanna",
+      "english_definition": "to speak mimically, to imitate.",
+      "hindi_definition": "स्वांग रचना, नकल करके बोलना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Variant: Lahak lagāba'anā"
+    },
+    {
+      "kurukh_word": "Lahak lagāba'anā",
+      "kurukh_word_ascii": "Lahak lagaba'ana",
+      "english_definition": "to speak mimically, to imitate.",
+      "hindi_definition": "स्वांग रचना, नकल करके बोलना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Variant of Lahak nannā"
+    },
+    {
+      "kurukh_word": "Lahar cī'inā",
+      "kurukh_word_ascii": "Lahar ci'ina",
+      "english_definition": "to give out heat.",
+      "hindi_definition": "लपटें (गर्मी) छोड़ना, तपना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lahrā",
+      "kurukh_word_ascii": "Lahra",
+      "english_definition": "flame.",
+      "hindi_definition": "लपट, ज्वाला, लहर।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lahrārnā",
+      "kurukh_word_ascii": "Lahrarna",
+      "english_definition": "to be on flames, burn.",
+      "hindi_definition": "धधकना, लपटों के साथ जलना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lahsān",
+      "kurukh_word_ascii": "Lahsan",
+      "english_definition": "mole.",
+      "hindi_definition": "तिल, मस्सा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    }
+  ]
+}

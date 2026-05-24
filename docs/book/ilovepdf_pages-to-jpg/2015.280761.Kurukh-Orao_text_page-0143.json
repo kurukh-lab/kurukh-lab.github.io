@@ -1,0 +1,252 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0143.jpg",
+  "page_label": "139",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ontā",
+      "kurukh_word_ascii": "Onta",
+      "english_definition": "one thing or animal",
+      "hindi_definition": "एक वस्तु या पशु",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Ontadim / Ontim",
+      "kurukh_word_ascii": "Ontadim / Ontim",
+      "english_definition": "as above, emphasized",
+      "hindi_definition": "उपरोक्त, जोर देकर",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Ontimgōtā",
+      "kurukh_word_ascii": "Ontimgota",
+      "english_definition": "single, even one",
+      "hindi_definition": "एकल, एक भी",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Opnā",
+      "kurukh_word_ascii": "Opnia",
+      "english_definition": "to make wet, to steep in water, to moisten",
+      "hindi_definition": "गीला करना, पानी में भिगोना",
+      "part_of_speech": "verb",
+      "verb_class": "opkan-an"
+    },
+    {
+      "kurukh_word": "Oprnā",
+      "kurukh_word_ascii": "Oprna",
+      "english_definition": "to get wet, to be steeped, to get moist",
+      "hindi_definition": "गीला होना, भीगना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Or cucuhiā'ē cikh'ā birī",
+      "kurukh_word_ascii": "Or cucuhia'e cikh'a biri",
+      "english_definition": "when the birds chirp, early in the morning (lit.)",
+      "hindi_definition": "जब पक्षी चहचहाते हैं, सुबह सवेरे",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Or gulpulhem",
+      "kurukh_word_ascii": "Or gulpulhem",
+      "english_definition": "early morning time, when the birds begin to chirp",
+      "hindi_definition": "सुबह का वह समय जब पक्षी चहचहाने लगते हैं",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ordnā",
+      "kurukh_word_ascii": "Ordna",
+      "english_definition": "to cover, shield, protect",
+      "hindi_definition": "ढकना, ढाल बनाना, रक्षा करना",
+      "part_of_speech": "verb",
+      "verb_class": "urdkan-yan"
+    },
+    {
+      "kurukh_word": "Ordnā",
+      "kurukh_word_ascii": "Ordna",
+      "english_definition": "to prevent, hinder",
+      "hindi_definition": "रोकना, बाधा डालना",
+      "part_of_speech": "verb",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Orgnā",
+      "kurukh_word_ascii": "Orgna",
+      "english_definition": "to think, consider",
+      "hindi_definition": "सोचना, विचार करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Orgnā",
+      "kurukh_word_ascii": "Orgna",
+      "english_definition": "to press together as paper or a basket, to distort",
+      "hindi_definition": "कागज या टोकरी की तरह दबाना, विकृत करना",
+      "part_of_speech": "verb",
+      "verb_class": "urgkan-urgyan",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Orgōrā ōrs",
+      "kurukh_word_ascii": "Orgora ors",
+      "english_definition": "hawk",
+      "hindi_definition": "बाज",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Orkhnā",
+      "kurukh_word_ascii": "Orkhna",
+      "english_definition": "to be despondent, depressed, grieved",
+      "hindi_definition": "निराश होना, उदास होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Orkh",
+      "kurukh_word_ascii": "Orkh",
+      "english_definition": "finger nail; also orokh",
+      "hindi_definition": "नाखून; ओरोख भी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Orknā",
+      "kurukh_word_ascii": "Orknia",
+      "english_definition": "to strip a tree of its bark",
+      "hindi_definition": "पेड़ की छाल उतारना",
+      "part_of_speech": "verb",
+      "verb_class": "urkan-yan"
+    },
+    {
+      "kurukh_word": "Orkrnā",
+      "kurukh_word_ascii": "Orkrna",
+      "english_definition": "to be stripped of cover",
+      "hindi_definition": "आवरण उतर जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ōrmā",
+      "kurukh_word_ascii": "Orma",
+      "english_definition": "all",
+      "hindi_definition": "सब, सभी",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Orlō's nā sorlō's",
+      "kurukh_word_ascii": "Orlo's na sorlo's",
+      "english_definition": "without sense or meaning",
+      "hindi_definition": "बिना मतलब के, बेतुका",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ōrmār",
+      "kurukh_word_ascii": "Ormar",
+      "english_definition": "all (definite)",
+      "hindi_definition": "सभी (निश्चित)",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Ōrmārim",
+      "kurukh_word_ascii": "Ormarim",
+      "english_definition": "even all",
+      "hindi_definition": "सभी भी",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Orokh",
+      "kurukh_word_ascii": "Orokh",
+      "english_definition": "claw",
+      "hindi_definition": "पंजा, नाखून",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Orsgō",
+      "kurukh_word_ascii": "Orsgo",
+      "english_definition": "a small fungus",
+      "hindi_definition": "एक छोटी कवक",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ornā",
+      "kurukh_word_ascii": "Orna",
+      "english_definition": "to shift, evade, parry",
+      "hindi_definition": "टालना, बचना, रोकना",
+      "part_of_speech": "verb",
+      "verb_class": "orckan-an"
+    },
+    {
+      "kurukh_word": "Ornā",
+      "kurukh_word_ascii": "Orna",
+      "english_definition": "to get warm",
+      "hindi_definition": "गर्म होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Ort",
+      "kurukh_word_ascii": "Ort",
+      "english_definition": "one, one person",
+      "hindi_definition": "एक, एक व्यक्ति",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Ortōs",
+      "kurukh_word_ascii": "Ortos",
+      "english_definition": "the one",
+      "hindi_definition": "वह एक",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Orteklā",
+      "kurukh_word_ascii": "Ortekla",
+      "english_definition": "only one, single",
+      "hindi_definition": "केवल एक, अकेला",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Osāṅgī / Usāṅgī",
+      "kurukh_word_ascii": "Osangi / Usangi",
+      "english_definition": "ploughshare",
+      "hindi_definition": "हल का फाल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Osgā",
+      "kurukh_word_ascii": "Osga",
+      "english_definition": "mouse",
+      "hindi_definition": "चूहा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Osrā",
+      "kurukh_word_ascii": "Osra",
+      "english_definition": "younger brother, viz. the one next born after the elder",
+      "hindi_definition": "छोटा भाई, बड़े के ठीक बाद जन्मा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Osrā khaḍḍ",
+      "kurukh_word_ascii": "Osra khadd",
+      "english_definition": "an afterborn child",
+      "hindi_definition": "बाद में जन्मा बच्चा",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Orsā usrī",
+      "kurukh_word_ascii": "Orsa usri",
+      "english_definition": "twins",
+      "hindi_definition": "जुड़वाँ",
+      "part_of_speech": "noun",
+      "example_phrase": "osrā-usrī kundrar — they are twins"
+    },
+    {
+      "kurukh_word": "Orāsārī",
+      "kurukh_word_ascii": "Orasari",
+      "english_definition": "twins",
+      "hindi_definition": "जुड़वाँ",
+      "part_of_speech": "noun"
+    }
+  ]
+}

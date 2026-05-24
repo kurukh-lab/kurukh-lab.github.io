@@ -1,0 +1,281 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0134.jpg",
+  "page_label": "130",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Nalakh ambnā",
+      "kurukh_word_ascii": "Nalakh ambna",
+      "english_definition": "to give up, leave work.",
+      "hindi_definition": "काम छोड़ना (काम त्यागना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nalakh nanta'anā",
+      "kurukh_word_ascii": "Nalakh nanta'ana",
+      "english_definition": "to make to work, to give work.",
+      "hindi_definition": "काम करवाना, काम पर लगाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nalnā",
+      "kurukh_word_ascii": "Nalna",
+      "english_definition": "kan, yan, to dance.",
+      "hindi_definition": "नाचना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nalnā bēcnā",
+      "kurukh_word_ascii": "Nalna becna",
+      "english_definition": "to dance and play.",
+      "hindi_definition": "नाचना-कूदना (खेलना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nadnā",
+      "kurukh_word_ascii": "Nadna",
+      "english_definition": "nadkan, nad'an, to dance, to play, mimic.",
+      "hindi_definition": "नाचना, खेलना, नकल उतारना।",
+      "part_of_speech": "verb",
+      "verb_class": "nadkan-nad'an",
+      "notes": "Variant of Nalnā"
+    },
+    {
+      "kurukh_word": "Nalū",
+      "kurukh_word_ascii": "Nalu",
+      "english_definition": "microbes, living in water.",
+      "hindi_definition": "जल में रहने वाले सूक्ष्मजीव (रोगाणु)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nam",
+      "kurukh_word_ascii": "Nam",
+      "english_definition": "collect. plural. we and you (inclusive).",
+      "hindi_definition": "सर्वनाम। हम और तुम (समावेशी)।",
+      "part_of_speech": "pronoun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Namhai",
+      "kurukh_word_ascii": "Namhai",
+      "english_definition": "of us, our; namā, to us, etc.",
+      "hindi_definition": "हमारा; namā = हमें, हमारे लिए।",
+      "part_of_speech": "pronoun",
+      "notes": "Variant: namā"
+    },
+    {
+      "kurukh_word": "Nambas",
+      "kurukh_word_ascii": "Nambas",
+      "english_definition": "our common father.",
+      "hindi_definition": "हमारे परमपिता / हमारे सांझा पिता।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Namē",
+      "kurukh_word_ascii": "Name",
+      "english_definition": "name.",
+      "hindi_definition": "नाम (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Namē pinjnā",
+      "kurukh_word_ascii": "Name pinjna",
+      "english_definition": "to name, call, give or fix a name.",
+      "hindi_definition": "नामकरण करना (नाम देना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Namē pinjnā",
+      "kurukh_word_ascii": "Name pinjna",
+      "english_definition": "to call, to invoke.",
+      "hindi_definition": "नाम पुकारना, नाम का आह्वान करना।",
+      "part_of_speech": "verb phrase",
+      "notes": "2nd homograph/sense of Namē pinjnā"
+    },
+    {
+      "kurukh_word": "Namē nannā",
+      "kurukh_word_ascii": "Name nanna",
+      "english_definition": "to give thanks, to praise.",
+      "hindi_definition": "धन्यवाद देना, स्तुति करना (प्रशंसा करना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Namē rā'anā",
+      "kurukh_word_ascii": "Name ra'ana",
+      "english_definition": "to be famous, remembered.",
+      "hindi_definition": "प्रसिद्ध होना, याद रखा जाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Namukil kānā",
+      "kurukh_word_ascii": "Namukil kana",
+      "english_definition": "to deny, denial.",
+      "hindi_definition": "अस्वीकार करना (मुकर जाना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nānā",
+      "kurukh_word_ascii": "Nana",
+      "english_definition": "maternal grandfather; engnānā, my grandfather.",
+      "hindi_definition": "नाना (मातृपक्ष के दादा) (हिंदी से लिया गया); engnānā = मेरे नाना।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": "Possessive form: engnānā"
+    },
+    {
+      "kurukh_word": "Nānī",
+      "kurukh_word_ascii": "Nani",
+      "english_definition": "maternal grandmother; engnānī, my grandmother.",
+      "hindi_definition": "नानी (मातृपक्ष की दादी) (हिंदी से लिया गया); engnānī = मेरी नानी।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": "Possessive form: engnānī"
+    },
+    {
+      "kurukh_word": "Nānasigiḍ",
+      "kurukh_word_ascii": "Nanasigid",
+      "english_definition": "adj. topsy turvy.",
+      "hindi_definition": "विशेषण। अस्त-व्यस्त (उलटा-पुलटा)।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nanāthan nannā",
+      "kurukh_word_ascii": "Nanathan nanna",
+      "english_definition": "to make topsy turvy; also to mock, deride.",
+      "hindi_definition": "अस्त-व्यस्त करना, मज़ाक उड़ाना, उपहास करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nādnā",
+      "kurukh_word_ascii": "Nadna",
+      "english_definition": "kan, yan, also ladnā, to set free, save, deliver.",
+      "hindi_definition": "मुक्त करना, बचाना, उद्धार करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "Variant: ladnā"
+    },
+    {
+      "kurukh_word": "Nandā",
+      "kurukh_word_ascii": "Nanda",
+      "english_definition": "a pot, an earthen vessel with a large mouth.",
+      "hindi_definition": "नाँद (बड़े मुँह का मिट्टी का बरतन) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Naṅg",
+      "kurukh_word_ascii": "Nang",
+      "english_definition": "the stem of inclusive pronoun nam.",
+      "hindi_definition": "सर्वनाम nam का मूल रूप।",
+      "part_of_speech": "pronoun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Naṅghai",
+      "kurukh_word_ascii": "Nanghai",
+      "english_definition": "of us, our; naṅgā, to us, etc.",
+      "hindi_definition": "हमारा; naṅgā = हमें, हमारे लिए।",
+      "part_of_speech": "pronoun",
+      "notes": "Variant: naṅgā"
+    },
+    {
+      "kurukh_word": "Naṅgā",
+      "kurukh_word_ascii": "Nanga",
+      "english_definition": "excuse, pretence, unwillingness; ās kalāgē naṅgā mandas, he is unwilling to go.",
+      "hindi_definition": "बहानेबाजी, अनिच्छा; ās kalāgē naṅgā mandas = वह जाने के लिए अनिच्छुक है (बहाना बनाता है)।",
+      "part_of_speech": "noun",
+      "notes": "Example: ās kalāgē naṅgā mandas = he is unwilling to go"
+    },
+    {
+      "kurukh_word": "Nanihā",
+      "kurukh_word_ascii": "Naniha",
+      "english_definition": "thin, delicate.",
+      "hindi_definition": "पतला, नाजुक (नन्हा) (हिंदी से लिया गया)।",
+      "part_of_speech": "adjective",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nañjnā",
+      "kurukh_word_ascii": "Nanjna",
+      "english_definition": "kan, yan, to hunt for, prosecute.",
+      "hindi_definition": "शिकार करना, पीछा करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nanmuhī",
+      "kurukh_word_ascii": "Nanmuhi",
+      "english_definition": "needle.",
+      "hindi_definition": "सुई।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nan",
+      "kurukh_word_ascii": "Nan",
+      "english_definition": "other, different.",
+      "hindi_definition": "अन्य, दूसरा, भिन्न।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nantarā",
+      "kurukh_word_ascii": "Nantara",
+      "english_definition": "somewhere else, at another place, towards another side.",
+      "hindi_definition": "कहीं और, किसी दूसरी जगह, दूसरी तरफ।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nantarā mannā",
+      "kurukh_word_ascii": "Nantara manna",
+      "english_definition": "to be or get estranged.",
+      "hindi_definition": "विमुख होना (पराया हो जाना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nannā",
+      "kurukh_word_ascii": "Nanna",
+      "english_definition": "other, another, second, a second one.",
+      "hindi_definition": "दूसरा, कोई अन्य।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nannā ālar",
+      "kurukh_word_ascii": "Nanna alar",
+      "english_definition": "other people, strangers.",
+      "hindi_definition": "दूसरे लोग, अजनबी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nannā",
+      "kurukh_word_ascii": "Nanna",
+      "english_definition": "jkan, j'an, to do, accomplish.",
+      "hindi_definition": "करना, पूरा करना।",
+      "part_of_speech": "verb",
+      "verb_class": "jkan-j'an",
+      "notes": ""
+    }
+  ]
+}

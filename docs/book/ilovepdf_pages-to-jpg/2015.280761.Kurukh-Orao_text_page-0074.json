@@ -1,0 +1,727 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg",
+  "page_label": "70",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Isantim",
+      "kurukh_word_ascii": "Isantim",
+      "english_definition": "the same as above",
+      "hindi_definition": "वहीं, ठीक इसी स्थान पर",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Isan",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the same as above", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वहीं, ठीक इसी स्थान पर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Istā",
+      "kurukh_word_ascii": "Ista",
+      "english_definition": "of this locality, same as iyantā, of this place",
+      "hindi_definition": "इस स्थान का, इस क्षेत्र का",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "of this locality, same as iyantā, of this place", "example_sentence_kurukh": "Ista tīkhil", "example_sentence_translation": "the rice of this place" },
+        { "language": "hi", "definition": "इस स्थान का, इस क्षेत्र का", "example_sentence_kurukh": "Ista tīkhil", "example_sentence_translation": "इस स्थान का चावल" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Ista tīkhil",
+      "kurukh_word_ascii": "Ista tikhil",
+      "english_definition": "the rice of this place",
+      "hindi_definition": "इस स्थान का चावल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Istā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the rice of this place", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इस स्थान का चावल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Istak",
+      "kurukh_word_ascii": "Istak",
+      "english_definition": "entire, whole",
+      "hindi_definition": "संपूर्ण, पूरा, सारा",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "entire, whole", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "संपूर्ण, पूरा, सारा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Isignā",
+      "kurukh_word_ascii": "Isigna",
+      "english_definition": "to crack as fruit",
+      "hindi_definition": "दरार पड़ना, फल का फटना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": ["Isg'na"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to crack as fruit", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दरार पड़ना, फल का फटना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Isgikā",
+      "kurukh_word_ascii": "Isgika",
+      "english_definition": "a crack, a chap",
+      "hindi_definition": "दरार, चीरा (जैसे त्वचा का फटना)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Isignā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a crack, a chap", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दरार, चीरा (जैसे त्वचा का फटना)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Isgrnā",
+      "kurukh_word_ascii": "Isgrna",
+      "english_definition": "to be cracked, have chaps on the lips or hands",
+      "hindi_definition": "फटना, होंठ या हाथ फटना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be cracked, have chaps on the lips or hands", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फटना, होंठ या हाथ फटना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Issū",
+      "kurukh_word_ascii": "Issu",
+      "english_definition": "breaker, the breaker",
+      "hindi_definition": "तोड़ने वाला, भंजक",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["issus"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "breaker, the breaker", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तोड़ने वाला, भंजक", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "issus",
+      "kurukh_word_ascii": "issus",
+      "english_definition": "breaker, the breaker",
+      "hindi_definition": "तोड़ने वाला, भंजक",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Issū",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "breaker, the breaker", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तोड़ने वाला, भंजक", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Isuṅg",
+      "kurukh_word_ascii": "Isung",
+      "english_definition": "oil",
+      "hindi_definition": "तेल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "oil", "example_sentence_kurukh": "Isuṅg khasnā", "example_sentence_translation": "to rub with oil, anoint" },
+        { "language": "hi", "definition": "तेल", "example_sentence_kurukh": "Isuṅg khasnā", "example_sentence_translation": "तेल लगाना, मालिश करना" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "go-isuṅg",
+      "kurukh_word_ascii": "go-isung",
+      "english_definition": "milk",
+      "hindi_definition": "दूध",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["guṇḍī"],
+      "variant_of": "Isuṅg",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "milk", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दूध", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Isuṅg khasnā",
+      "kurukh_word_ascii": "Isung khasna",
+      "english_definition": "to rub with oil, anoint",
+      "hindi_definition": "तेल लगाना, मालिश करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Isuṅg",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to rub with oil, anoint", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तेल लगाना, मालिश करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Īsuṅg pīkhnā",
+      "kurukh_word_ascii": "Isung pikhna",
+      "english_definition": "to press oil, to squeeze out oil",
+      "hindi_definition": "तेल पेरना, तेल निकालना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Isuṅg",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to press oil, to squeeze out oil", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तेल पेरना, तेल निकालना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Isuṅg-nerr",
+      "kurukh_word_ascii": "Isung-nerr",
+      "english_definition": "a small glossy snake, not much larger than the rain-worm",
+      "hindi_definition": "एक छोटा चमकीला साँप (केंचुए से थोड़ा बड़ा)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Isuṅg",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a small glossy snake, not much larger than the rain-worm", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक छोटा चमकीला साँप (केंचुए से थोड़ा बड़ा)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Itiṅgalī",
+      "kurukh_word_ascii": "Itingali",
+      "english_definition": "last year",
+      "hindi_definition": "पिछले वर्ष, गत वर्ष",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "last year", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पिछले वर्ष, गत वर्ष", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Ittnā",
+      "kurukh_word_ascii": "Ittna",
+      "english_definition": "to dole out",
+      "hindi_definition": "बाँटना, थोड़ा-थोड़ा करके देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": ["Khaṭṭnā ittnā"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to dole out", "example_sentence_kurukh": "Khaṭṭnā ittnā", "example_sentence_translation": "to distribute" },
+        { "language": "hi", "definition": "बाँटना, थोड़ा-थोड़ा करके देना", "example_sentence_kurukh": "Khaṭṭnā ittnā", "example_sentence_translation": "वितरण करना" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Khaṭṭnā ittnā",
+      "kurukh_word_ascii": "Khattna ittna",
+      "english_definition": "to distribute",
+      "hindi_definition": "बाँटना, वितरण करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ittnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to distribute", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बाँटना, वितरण करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Itrā",
+      "kurukh_word_ascii": "Itra",
+      "english_definition": "this side, hither",
+      "hindi_definition": "इस तरफ, इस ओर",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["itarā"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "this side, hither", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इस तरफ, इस ओर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "itarā",
+      "kurukh_word_ascii": "itara",
+      "english_definition": "this side, hither",
+      "hindi_definition": "इस तरफ, इस ओर",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Itrā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "this side, hither", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इस तरफ, इस ओर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Iunkhnā",
+      "kurukh_word_ascii": "Iunkhna",
+      "english_definition": "same as ēõkhnā, to cough",
+      "hindi_definition": "खाँसना (ēõkhnā के समान)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "same as ēõkhnā, to cough", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खाँसना (ēõkhnā के समान)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Iurum",
+      "kurukh_word_ascii": "Iurum",
+      "english_definition": "thus made, that will do",
+      "hindi_definition": "इस प्रकार बना हुआ, इतने से काम चल जाएगा",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["ihurum"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "thus made, that will do", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इस प्रकार बना हुआ, इतने से काम चल जाएगा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "ihurum",
+      "kurukh_word_ascii": "ihurum",
+      "english_definition": "thus made, that will do",
+      "hindi_definition": "इस प्रकार बना हुआ, इतने से काम चल जाएगा",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Iurum",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "thus made, that will do", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इस प्रकार बना हुआ, इतने से काम चल जाएगा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Iyā",
+      "kurukh_word_ascii": "Iya",
+      "english_definition": "here",
+      "hindi_definition": "यहाँ",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["iyam"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "here", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "यहाँ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "iyam",
+      "kurukh_word_ascii": "iyam",
+      "english_definition": "here",
+      "hindi_definition": "यहीं",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Iyā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "here", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "यहीं", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Iyantā",
+      "kurukh_word_ascii": "Iyanta",
+      "english_definition": "of this place",
+      "hindi_definition": "इस स्थान का",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "of this place", "example_sentence_kurukh": "iyantā amm bēs malī", "example_sentence_translation": "the water of this place is not good." },
+        { "language": "hi", "definition": "इस स्थान का", "example_sentence_kurukh": "iyantā amm bēs malī", "example_sentence_translation": "इस स्थान का पानी अच्छा नहीं है।" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Ī",
+      "kurukh_word_ascii": "I",
+      "english_definition": "this",
+      "hindi_definition": "यह",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "this", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "यह", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Ībsā",
+      "kurukh_word_ascii": "Ibsa",
+      "english_definition": "the spear grass",
+      "hindi_definition": "एक प्रकार की जंगली घास (भाला घास)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the spear grass", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार की जंगली घास (भाला घास)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Īd",
+      "kurukh_word_ascii": "Id",
+      "english_definition": "she, it, this (feminine and neuter)",
+      "hindi_definition": "यह (स्त्रीलिंग/नपुंसक लिंग)",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["Īdim"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "she, it, this (feminine and neuter)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "यह (स्त्रीलिंग/नपुंसक लिंग)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Īdim",
+      "kurukh_word_ascii": "Idim",
+      "english_definition": "this one",
+      "hindi_definition": "यही एक, यही",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Īd",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "this one", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "यही एक, यही", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Īnū",
+      "kurukh_word_ascii": "Inu",
+      "english_definition": "by the means of this",
+      "hindi_definition": "इसके द्वारा, इसके माध्यम से",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["inū"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "by the means of this", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इसके द्वारा, इसके माध्यम से", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "inū",
+      "kurukh_word_ascii": "inu",
+      "english_definition": "by the means of this",
+      "hindi_definition": "इसके द्वारा, इसके माध्यम से",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Īnū",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "by the means of this", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इसके द्वारा, इसके माध्यम से", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Īchō",
+      "kurukh_word_ascii": "Icho",
+      "english_definition": "inferior",
+      "hindi_definition": "घटिया, हीन, निम्न कोटि का",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "inferior", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घटिया, हीन, निम्न कोटि का", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Īchō",
+      "kurukh_word_ascii": "Icho",
+      "english_definition": "an after fruit",
+      "hindi_definition": "बाद में आने वाला फल (जैसे महुआ का देर से खिलने वाला फूल)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "an after fruit", "example_sentence_kurukh": "īchō madgī", "example_sentence_translation": "the late flowers of the mahua tree" },
+        { "language": "hi", "definition": "बाद में आने वाला फल (जैसे महुआ का देर से खिलने वाला फूल)", "example_sentence_kurukh": "īchō madgī", "example_sentence_translation": "महुआ का देर से खिलने वाला फूल" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Īchnā",
+      "kurukh_word_ascii": "Ichna",
+      "english_definition": "to take out, tear off",
+      "hindi_definition": "निकालना, फाड़ना, उखाड़ना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to take out, tear off", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "निकालना, फाड़ना, उखाड़ना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Īdātō",
+      "kurukh_word_ascii": "Idato",
+      "english_definition": "viz., namely, lit. this and that",
+      "hindi_definition": "अर्थात, यानी, उदाहरण के लिए",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "viz., namely, lit. this and that", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अर्थात, यानी, उदाहरण के लिए", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    },
+    {
+      "kurukh_word": "Īdnā",
+      "kurukh_word_ascii": "Idna",
+      "english_definition": "this year",
+      "hindi_definition": "इस वर्ष, इस साल",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "this year", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इस वर्ष, इस साल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0074.jpg", "page_label": "70" }
+    }
+  ]
+}

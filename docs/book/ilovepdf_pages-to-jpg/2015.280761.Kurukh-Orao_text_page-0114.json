@@ -1,0 +1,297 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0114.jpg",
+  "page_label": "110",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Lāhnā",
+      "kurukh_word_ascii": "Lahna",
+      "english_definition": "ckan, o'an, to influence, take effect.",
+      "hindi_definition": "प्रभावित करना, प्रभाव डालना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lāhnā",
+      "kurukh_word_ascii": "Lahna",
+      "english_definition": "ckan, c'an, to glue.",
+      "hindi_definition": "गोंद से चिपकाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": "2nd homograph of Lāhnā — to glue vs. influence"
+    },
+    {
+      "kurukh_word": "Lāhī",
+      "kurukh_word_ascii": "Lahi",
+      "english_definition": "lac, gum.",
+      "hindi_definition": "लाह (लाख), गोंद।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lāhī bālkā pūn",
+      "kurukh_word_ascii": "Lahi balka pun",
+      "english_definition": "a necklace made of lac.",
+      "hindi_definition": "लाख का बना हार।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lahka'anā",
+      "kurukh_word_ascii": "Lahka'ana",
+      "english_definition": "ckan, c'an, to mimic, imitate.",
+      "hindi_definition": "स्वांग रचना, नकल उतारना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lahkārnā",
+      "kurukh_word_ascii": "Lahkarna",
+      "english_definition": "kan, an, to be imitated, mocked.",
+      "hindi_definition": "नकल किया जाना, उपहास उड़ाया जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lahrī",
+      "kurukh_word_ascii": "Lahri",
+      "english_definition": "a species of pulse (arhar/pigeon pea).",
+      "hindi_definition": "अरहर की दाल (एक प्रकार की दाल)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lahṭī",
+      "kurukh_word_ascii": "Lahti",
+      "english_definition": "wristlet made of lac.",
+      "hindi_definition": "लाह की चूड़ी (लहठी)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lahukā",
+      "kurukh_word_ascii": "Lahuka",
+      "english_definition": "boat.",
+      "hindi_definition": "नाव।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lajh lajh",
+      "kurukh_word_ascii": "Lajh lajh",
+      "english_definition": "quickly.",
+      "hindi_definition": "जल्दी से, शीघ्रता से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lajrnā",
+      "kurukh_word_ascii": "Lajrna",
+      "english_definition": "H. kan, an, to be ashamed.",
+      "hindi_definition": "शर्माना, लज्जित होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lajjē",
+      "kurukh_word_ascii": "Lajje",
+      "english_definition": "shame.",
+      "hindi_definition": "शर्म, लज्जा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lajjē lagnā",
+      "kurukh_word_ascii": "Lajje lagna",
+      "english_definition": "to be ashamed.",
+      "hindi_definition": "लज्जा आना, शर्म लगना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lajaba'anā",
+      "kurukh_word_ascii": "Lajaba'ana",
+      "english_definition": "to put to shame.",
+      "hindi_definition": "शर्मिंदा करना, अपमानित करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lajāru",
+      "kurukh_word_ascii": "Lajaru",
+      "english_definition": "the noli me tangere or 'touch-me-not' plant.",
+      "hindi_definition": "छुईमुई का पौधा (लजाऊ पौधा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lakar",
+      "kurukh_word_ascii": "Lakar",
+      "english_definition": "skeleton.",
+      "hindi_definition": "कंकाल, ढांचा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lakhnā",
+      "kurukh_word_ascii": "Lakhna",
+      "english_definition": "ckan, c'an, H. to know, recognise.",
+      "hindi_definition": "जानना, पहचानना (लखना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lakh pakhrnā",
+      "kurukh_word_ascii": "Lakh pakhrna",
+      "english_definition": "kan, an, to covet, desire.",
+      "hindi_definition": "लालसा करना, तीव्र इच्छा करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lakkā ra'anā",
+      "kurukh_word_ascii": "Lakka ra'ana",
+      "english_definition": "to be engaged in, to be connected with.",
+      "hindi_definition": "संलग्न होना, किसी काम में लगा होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lakṛā",
+      "kurukh_word_ascii": "Lakra",
+      "english_definition": "tiger.",
+      "hindi_definition": "बाघ, लकड़ा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lakṛā kaṭai-mann",
+      "kurukh_word_ascii": "Lakra katai-mann",
+      "english_definition": "a kind of thorny tree.",
+      "hindi_definition": "एक प्रकार का कांटेदार पेड़ (बाघ-कटाई पेड़)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lāktā",
+      "kurukh_word_ascii": "Lakta",
+      "english_definition": "piece of wood.",
+      "hindi_definition": "लकड़ी का टुकड़ा (लठ्ठा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lālē",
+      "kurukh_word_ascii": "Lale",
+      "english_definition": "H. spittle, saliva.",
+      "hindi_definition": "लार, थूक।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lalārnā",
+      "kurukh_word_ascii": "Lalarna",
+      "english_definition": "kan, an, to be forsaken, forlorn.",
+      "hindi_definition": "लाचार होना, परित्यक्त या अनाथ होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lalka'anā",
+      "kurukh_word_ascii": "Lalka'ana",
+      "english_definition": "ckan, c'an, to make fun.",
+      "hindi_definition": "मज़ाक उड़ाना, उपहास करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lalkārnā",
+      "kurukh_word_ascii": "Lalkarna",
+      "english_definition": "kan, an, H. to shout with joy.",
+      "hindi_definition": "ललकारना, खुशी से चिल्लाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lambarcat",
+      "kurukh_word_ascii": "Lambarcat",
+      "english_definition": "vagabond.",
+      "hindi_definition": "आवारा, खानाबदोश।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lambrō",
+      "kurukh_word_ascii": "Lambro",
+      "english_definition": "a kind of fly.",
+      "hindi_definition": "एक प्रकार की मक्खी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lambar lumbur",
+      "kurukh_word_ascii": "Lambar lumbur",
+      "english_definition": "quickly.",
+      "hindi_definition": "जल्दी-जल्दी, शीघ्रता से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lambar lumbrnā",
+      "kurukh_word_ascii": "Lambar lumbrna",
+      "english_definition": "kan, an, to be greedy, to be particular.",
+      "hindi_definition": "लालची होना, नखरेबाज़ या बहुत सतर्क होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lambhā",
+      "kurukh_word_ascii": "Lambha",
+      "english_definition": "hare, rabbit.",
+      "hindi_definition": "खरगोश।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lambhuā",
+      "kurukh_word_ascii": "Lambhua",
+      "english_definition": "adulterer.",
+      "hindi_definition": "व्यभिचारी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lambra'anā",
+      "kurukh_word_ascii": "Lambra'ana",
+      "english_definition": "ckan, c'an, to reach with the hand.",
+      "hindi_definition": "हाथ बढ़ाकर छूना/पहुँचना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lamcom amba'anā",
+      "kurukh_word_ascii": "Lamcom amba'ana",
+      "english_definition": "to have a taste for, covet, desire, to prepare the mouth for eating.",
+      "hindi_definition": "ललचाना, खाने के लिए मुँह तैयार करना (लार टपकाना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    }
+  ]
+}

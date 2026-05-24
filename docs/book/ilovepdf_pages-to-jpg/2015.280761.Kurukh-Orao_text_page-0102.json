@@ -1,0 +1,291 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0102.jpg",
+  "page_label": "98",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Khattu",
+      "kurukh_word_ascii": "Khattu",
+      "english_definition": "adj. poor.",
+      "hindi_definition": "गरीब, कमज़ोर।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khattī",
+      "kurukh_word_ascii": "Khatti",
+      "english_definition": "toys, playthings.",
+      "hindi_definition": "खिलौने।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭṭnā",
+      "kurukh_word_ascii": "Khattna",
+      "english_definition": "ckan, c'an, to dress rice for cooking.",
+      "hindi_definition": "चावल पकाने के लिए तैयार करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kha'ūkha'ūrā",
+      "kurukh_word_ascii": "Kha'ukha'ura",
+      "english_definition": "adv. kha'ūkha'ūrā mokhnā, to devour, to eat like a hungry dog.",
+      "hindi_definition": "भूखे कुत्ते की तरह खाना।",
+      "part_of_speech": "adverb",
+      "notes": "kha'ūkha'ūrā mokhnā = to devour"
+    },
+    {
+      "kurukh_word": "Khauwānā",
+      "kurukh_word_ascii": "Khauwana",
+      "english_definition": "adv. to eat greedily.",
+      "hindi_definition": "लालच से खाना।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaudhā",
+      "kurukh_word_ascii": "Khaudha",
+      "english_definition": "adj. greedy.",
+      "hindi_definition": "लालची।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khauhat",
+      "kurukh_word_ascii": "Khauhat",
+      "english_definition": "a greedy person.",
+      "hindi_definition": "लालची व्यक्ति।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khē'ā!",
+      "kurukh_word_ascii": "Khe'a!",
+      "english_definition": "Interj. a curse: die! perish!",
+      "hindi_definition": "अरे मर! नष्ट हो!",
+      "part_of_speech": "interjection",
+      "notes": "Curse interjection"
+    },
+    {
+      "kurukh_word": "Khē'ēnā",
+      "kurukh_word_ascii": "Khe'ena",
+      "english_definition": "keckan, c'an, death, to die, to perish.",
+      "hindi_definition": "मृत्यु, मरना, नष्ट होना।",
+      "part_of_speech": "verb",
+      "verb_class": "keckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khiū",
+      "kurukh_word_ascii": "Khiu",
+      "english_definition": "mortal.",
+      "hindi_definition": "नश्वर, मरणशील।",
+      "part_of_speech": "adjective",
+      "notes": "Sub-entry of Khē'ēnā"
+    },
+    {
+      "kurukh_word": "malkhiū",
+      "kurukh_word_ascii": "malkhiu",
+      "english_definition": "immortal.",
+      "hindi_definition": "अमर, अमरत्व।",
+      "part_of_speech": "adjective",
+      "notes": "Sub-entry antonym of Khiū; mal- = not"
+    },
+    {
+      "kurukh_word": "Kechā",
+      "kurukh_word_ascii": "Kecha",
+      "english_definition": "a corpse, a dead person.",
+      "hindi_definition": "शव, मृत व्यक्ति।",
+      "part_of_speech": "noun",
+      "notes": "Sub-entry of Khē'ēnā"
+    },
+    {
+      "kurukh_word": "Keckar",
+      "kurukh_word_ascii": "Keckar",
+      "english_definition": "the dead.",
+      "hindi_definition": "मृतक, मृत लोग।",
+      "part_of_speech": "noun",
+      "notes": "Sub-entry; collective/plural of Kechā"
+    },
+    {
+      "kurukh_word": "Khēdnā",
+      "kurukh_word_ascii": "Khedna",
+      "english_definition": "H. ckan, c'an, to drive away.",
+      "hindi_definition": "खदेड़ना, भगाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khecā",
+      "kurukh_word_ascii": "Kheca",
+      "english_definition": "a piece, morsel.",
+      "hindi_definition": "टुकड़ा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khedō khedō mannā",
+      "kurukh_word_ascii": "Khedo khedo manna",
+      "english_definition": "to be persecuted, driven away.",
+      "hindi_definition": "सताया जाना, खदेड़ा जाना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Reduplicated form"
+    },
+    {
+      "kurukh_word": "Khedō khedō nannā",
+      "kurukh_word_ascii": "Khedo khedo nanna",
+      "english_definition": "to persecute, to drive away.",
+      "hindi_definition": "सताना, खदेड़ना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Active counterpart of Khedō khedō mannā"
+    },
+    {
+      "kurukh_word": "Khēdrnā lekham",
+      "kurukh_word_ascii": "Khedrna lekham",
+      "english_definition": "redlike, reddish.",
+      "hindi_definition": "लाल जैसा, लालिमायुक्त।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khejō ghāsī",
+      "kurukh_word_ascii": "Khejo ghasi",
+      "english_definition": "a kind of grass.",
+      "hindi_definition": "एक प्रकार की घास।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khelārnā",
+      "kurukh_word_ascii": "Khelarna",
+      "english_definition": "kan, an, to be accustomed, acquainted with.",
+      "hindi_definition": "अभ्यस्त होना, परिचित होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khepnā",
+      "kurukh_word_ascii": "Khepna",
+      "english_definition": "ckan, c'an, to spend the time.",
+      "hindi_definition": "समय बिताना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ullā khepnā",
+      "kurukh_word_ascii": "Ulla khepna",
+      "english_definition": "kan, an, to tide, to spend the time.",
+      "hindi_definition": "समय काटना।",
+      "part_of_speech": "verb phrase",
+      "verb_class": "kan-an",
+      "notes": "Compound: ullā = life/time"
+    },
+    {
+      "kurukh_word": "Kherrnā",
+      "kurukh_word_ascii": "Khorrna",
+      "english_definition": "kan, an, to put by.",
+      "hindi_definition": "एक तरफ रखना, बचाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khes khesrā",
+      "kurukh_word_ascii": "Khes khesra",
+      "english_definition": "adj. confounded, ashamed.",
+      "hindi_definition": "भौंचक्का, शर्मिंदा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kheskhesmā",
+      "kurukh_word_ascii": "Kheskhesma",
+      "english_definition": "kan, an, to be confounded, convinced, ashamed.",
+      "hindi_definition": "भौंचक्का होना, शर्मिंदा होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khiilnā",
+      "kurukh_word_ascii": "Khiilna",
+      "english_definition": "ckan c'an, to wedge in.",
+      "hindi_definition": "फँसाना, ठोकना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khilbirī-pūmp",
+      "kurukh_word_ascii": "Khilbiri-pump",
+      "english_definition": "a kind of flower.",
+      "hindi_definition": "एक प्रकार का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khilpat",
+      "kurukh_word_ascii": "Khilpat",
+      "english_definition": "trouble, distress.",
+      "hindi_definition": "परेशानी, मुसीबत।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khimcnā",
+      "kurukh_word_ascii": "Khimcna",
+      "english_definition": "kan, an, to embrace.",
+      "hindi_definition": "गले लगाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khipcī",
+      "kurukh_word_ascii": "Khipci",
+      "english_definition": "adj. flat.",
+      "hindi_definition": "सपाट, चपटा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khirī",
+      "kurukh_word_ascii": "Khiri",
+      "english_definition": "tale, fable, parable.",
+      "hindi_definition": "कहानी, दंतकथा, दृष्टांत।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khirī maṇḍī",
+      "kurukh_word_ascii": "Khiri mandi",
+      "english_definition": "milk rice.",
+      "hindi_definition": "दूध-चावल, खीर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khirsā",
+      "kurukh_word_ascii": "Khirsa",
+      "english_definition": "the first milk of a cow after throwing a calf.",
+      "hindi_definition": "बछड़ा होने के बाद गाय का पहला दूध, खीस।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khis",
+      "kurukh_word_ascii": "Khis",
+      "english_definition": "U. wrath, quarrel.",
+      "hindi_definition": "क्रोध, झगड़ा।",
+      "part_of_speech": "noun",
+      "loanword_from": "Urdu",
+      "notes": ""
+    }
+  ]
+}

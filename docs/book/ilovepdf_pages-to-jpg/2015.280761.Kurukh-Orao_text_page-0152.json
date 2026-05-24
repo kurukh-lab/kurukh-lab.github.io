@@ -1,0 +1,232 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0152.jpg",
+  "page_label": "148",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pātē",
+      "kurukh_word_ascii": "Pate",
+      "english_definition": "worms in the stomach",
+      "hindi_definition": "पेट के कीड़े",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pātrā",
+      "kurukh_word_ascii": "Patra",
+      "english_definition": "bushes, thicket",
+      "hindi_definition": "झाड़ियाँ, झाड़-झंखाड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pātrī",
+      "kurukh_word_ascii": "Patri",
+      "english_definition": "mat made of jungle khijur leaves; also pitrī",
+      "hindi_definition": "जंगल के खजूर के पत्तों की चटाई; पित्री भी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāthiyā",
+      "kurukh_word_ascii": "Pathiya",
+      "english_definition": "basket",
+      "hindi_definition": "टोकरी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāthrā'ānā",
+      "kurukh_word_ascii": "Pathra'ana",
+      "english_definition": "to stretch the limbs",
+      "hindi_definition": "अंग फैलाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Pāthrārnā",
+      "kurukh_word_ascii": "Pathrarna",
+      "english_definition": "same as pathrā'ānā (instr.)",
+      "hindi_definition": "वही (अंग फैलाना)",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pātiyār",
+      "kurukh_word_ascii": "Patiyar",
+      "english_definition": "belief, faith, trust",
+      "hindi_definition": "विश्वास, आस्था",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pātiyār bārnā",
+      "kurukh_word_ascii": "Patiyar barna",
+      "english_definition": "to take confidence",
+      "hindi_definition": "विश्वास लेना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pātt nū",
+      "kurukh_word_ascii": "Patt nu",
+      "english_definition": "concerning",
+      "hindi_definition": "के बारे में",
+      "part_of_speech": "prep"
+    },
+    {
+      "kurukh_word": "Pātt",
+      "kurukh_word_ascii": "Patt",
+      "english_definition": "side",
+      "hindi_definition": "पक्ष, तरफ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pātt uīnā",
+      "kurukh_word_ascii": "Patt uina",
+      "english_definition": "to take the side of another, to help, protect him",
+      "hindi_definition": "किसी का पक्ष लेना, मदद करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāttā",
+      "kurukh_word_ascii": "Patta",
+      "english_definition": "the stone for grinding spices",
+      "hindi_definition": "मसाले पीसने का पत्थर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāttā'ānā",
+      "kurukh_word_ascii": "Patta'ana",
+      "english_definition": "to believe, trust",
+      "hindi_definition": "विश्वास करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pāttārnā",
+      "kurukh_word_ascii": "Pattarna",
+      "english_definition": "to be pleased",
+      "hindi_definition": "खुश होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pāittū mannā",
+      "kurukh_word_ascii": "Paittu manna",
+      "english_definition": "to believe",
+      "hindi_definition": "विश्वास करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pātt cāmblī / Rāttcāulī",
+      "kurukh_word_ascii": "Patt cambli / Rattcauli",
+      "english_definition": "the plug of a yoke",
+      "hindi_definition": "जुए की खूँटी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāttī mannā",
+      "kurukh_word_ascii": "Patti manna",
+      "english_definition": "to thaw up (intr.)",
+      "hindi_definition": "पिघलना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pātnī",
+      "kurukh_word_ascii": "Patni",
+      "english_definition": "ceiling",
+      "hindi_definition": "छत, सीलिंग",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pātut",
+      "kurukh_word_ascii": "Patut",
+      "english_definition": "strength",
+      "hindi_definition": "शक्ति, ताकत",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāttnā",
+      "kurukh_word_ascii": "Pattna",
+      "english_definition": "to bore, perforate",
+      "hindi_definition": "छेद करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yen"
+    },
+    {
+      "kurukh_word": "Pētābā'ānā",
+      "kurukh_word_ascii": "Petaba'ana",
+      "english_definition": "to water",
+      "hindi_definition": "पानी देना, सींचना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Pātwā",
+      "kurukh_word_ascii": "Patwa",
+      "english_definition": "girdle",
+      "hindi_definition": "करधनी, पेटी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāy",
+      "kurukh_word_ascii": "Pay",
+      "english_definition": "a die, a stone used as a die (set in motion to discern about an appointment, such as for village priest)",
+      "hindi_definition": "पासा, वह पत्थर जो नियुक्ति (जैसे गाँव के पुजारी के लिए) तय करने में प्रयुक्त होता है",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāy cōrgnā",
+      "kurukh_word_ascii": "Pay corgna",
+      "english_definition": "to throw the dice for the above purpose",
+      "hindi_definition": "उपरोक्त उद्देश्य के लिए पासा फेंकना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāy",
+      "kurukh_word_ascii": "Pay",
+      "english_definition": "bad luck",
+      "hindi_definition": "बुरी किस्मत",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pāyā",
+      "kurukh_word_ascii": "Paya",
+      "english_definition": "power, strength",
+      "hindi_definition": "शक्ति, बल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāwhā",
+      "kurukh_word_ascii": "Pawha",
+      "english_definition": "useless, unprofitable",
+      "hindi_definition": "बेकार, निरर्थक",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pēchā",
+      "kurukh_word_ascii": "Pecha",
+      "english_definition": "the small owl",
+      "hindi_definition": "छोटा उल्लू",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēceā",
+      "kurukh_word_ascii": "Pecea",
+      "english_definition": "pursuant",
+      "hindi_definition": "पीछे लगा हुआ",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pēc'hā nannā",
+      "kurukh_word_ascii": "Pec'ha nanna",
+      "english_definition": "to pursue, persecute, follow up",
+      "hindi_definition": "पीछा करना, सताना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pēdkhnā",
+      "kurukh_word_ascii": "Pedkhna",
+      "english_definition": "to break open with the hands, as a fruit",
+      "hindi_definition": "हाथों से खोलना, जैसे फल तोड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    }
+  ]
+}

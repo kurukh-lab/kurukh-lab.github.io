@@ -1,0 +1,280 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0121.jpg",
+  "page_label": "117",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Lūr",
+      "kurukh_word_ascii": "Lur",
+      "english_definition": "reason, intelligence.",
+      "hindi_definition": "बुद्धि, अक्ल (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lurniyā",
+      "kurukh_word_ascii": "Lurniya",
+      "english_definition": "adj. intelligent, clever.",
+      "hindi_definition": "विशेषण। बुद्धिमान, चतुर।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lurmalkā",
+      "kurukh_word_ascii": "Lurmalka",
+      "english_definition": "adj. stupid.",
+      "hindi_definition": "विशेषण। मूर्ख, बुद्धिहीन।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luṛhī",
+      "kurukh_word_ascii": "Lurhi",
+      "english_definition": "the stone on which spices are rubbed.",
+      "hindi_definition": "लोढ़ा (सिल-बट्टा जिस पर मसाले पीसे जाते हैं)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luṛkā",
+      "kurukh_word_ascii": "Lurka",
+      "english_definition": "earring.",
+      "hindi_definition": "झुमका, कर्णफूल (कान की बाली)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luṛpā",
+      "kurukh_word_ascii": "Lurpa",
+      "english_definition": "grape, bunch.",
+      "hindi_definition": "अंगूर, गुच्छा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lutī'",
+      "kurukh_word_ascii": "Luti'",
+      "english_definition": "flea.",
+      "hindi_definition": "पिसू (एक छोटा कीट)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lutpurnā",
+      "kurukh_word_ascii": "Lutpurna",
+      "english_definition": "kan, an, to be tired, wearied.",
+      "hindi_definition": "थकना, थका हुआ होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Māciā",
+      "kurukh_word_ascii": "Macia",
+      "english_definition": "a stool, pulpit.",
+      "hindi_definition": "मचिया (पीढ़ा/चौकी), वेदी।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Macmacrnā",
+      "kurukh_word_ascii": "Macmacrna",
+      "english_definition": "kan, an, to stretch.",
+      "hindi_definition": "अंगड़ाई लेना, शरीर तानना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Machar",
+      "kurukh_word_ascii": "Machar",
+      "english_definition": "a miser.",
+      "hindi_definition": "कंजूस।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Madarnā",
+      "kurukh_word_ascii": "Madarna",
+      "english_definition": "kan, an, to be grown up, to come of age.",
+      "hindi_definition": "बड़ा होना, वयस्क होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Madarnā",
+      "kurukh_word_ascii": "Madarna",
+      "english_definition": "kan, an, to be intoxicated.",
+      "hindi_definition": "नशे में होना, मदहोश होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "2nd homograph of Madarnā"
+    },
+    {
+      "kurukh_word": "Madgī mann",
+      "kurukh_word_ascii": "Madgi mann",
+      "english_definition": "the Mahua tree.",
+      "hindi_definition": "महुआ का पेड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Madgī pūmp",
+      "kurukh_word_ascii": "Madgi pump",
+      "english_definition": "the flower of the mahua.",
+      "hindi_definition": "महुआ का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Madī",
+      "kurukh_word_ascii": "Madi",
+      "english_definition": "adj. right.",
+      "hindi_definition": "विशेषण। दाहिना, सही।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Madnā",
+      "kurukh_word_ascii": "Madna",
+      "english_definition": "ckan, c'an, to select.",
+      "hindi_definition": "चुनना (चयन करना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Madhē",
+      "kurukh_word_ascii": "Madhe",
+      "english_definition": "prep. H. in the midst of, among; ar madhē, among them; ās gohondā madhē has ra’acas, he stood in the midst of the multitude.",
+      "hindi_definition": "सम्बन्धसूचक अव्यय। के बीच में, के मध्य; ar madhē = उनके बीच; ās gohondā madhē has ra’acas = वह भीड़ के बीच खड़ा था।",
+      "part_of_speech": "preposition",
+      "loanword_from": "hi",
+      "notes": "Example: ar madhē = among them; ās gohondā madhē has ra’acas = he stood in the midst of the multitude"
+    },
+    {
+      "kurukh_word": "Māg-hā",
+      "kurukh_word_ascii": "Mag-ha",
+      "english_definition": "oil seed.",
+      "hindi_definition": "तिलहन (सरसों का बीज)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Māg-hā pūmp",
+      "kurukh_word_ascii": "Mag-ha pump",
+      "english_definition": "the flower of the oilseed.",
+      "hindi_definition": "तिलहन (सरसों) का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Māgrā-injō",
+      "kurukh_word_ascii": "Magra-injo",
+      "english_definition": "kind of eel-fish.",
+      "hindi_definition": "एक प्रकार की बाम मछली (इल मछली)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Māduk sardē",
+      "kurukh_word_ascii": "Maduk sarde",
+      "english_definition": "voice.",
+      "hindi_definition": "आवाज, स्वर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maē",
+      "kurukh_word_ascii": "Mae",
+      "english_definition": "wax.",
+      "hindi_definition": "मोम।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mahī",
+      "kurukh_word_ascii": "Mahi",
+      "english_definition": "buttermilk.",
+      "hindi_definition": "मट्ठा (छाछ)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mahīmahnā",
+      "kurukh_word_ascii": "Mahimahna",
+      "english_definition": "ckan, o'an, to make buttermilk.",
+      "hindi_definition": "मट्ठा बनाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mahirārnā",
+      "kurukh_word_ascii": "Mahirarna",
+      "english_definition": "kan, an, to be cast down, sorrowful.",
+      "hindi_definition": "हतोत्साहित होना, दुखी होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mahkārnā",
+      "kurukh_word_ascii": "Mahkarna",
+      "english_definition": "kan, an, to scent.",
+      "hindi_definition": "महकना, सुगंध फैलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mahmaharnā",
+      "kurukh_word_ascii": "Mahmaharna",
+      "english_definition": "kan, an, to scent, to smell sweetly.",
+      "hindi_definition": "बहुत महकना, मधुर सुगंध फैलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mahnā",
+      "kurukh_word_ascii": "Mahna",
+      "english_definition": "ckan, o'an, to churn.",
+      "hindi_definition": "मथना (दही मथना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mahrē",
+      "kurukh_word_ascii": "Mahre",
+      "english_definition": "shepherd.",
+      "hindi_definition": "चरवाहा (गड़ेरिया)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mahtē",
+      "kurukh_word_ascii": "Mahte",
+      "english_definition": "the village accountant or collector of rent.",
+      "hindi_definition": "महतो (गांव का लेखाकार या लगान वसूल करने वाला)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mahurā",
+      "kurukh_word_ascii": "Mahura",
+      "english_definition": "poison.",
+      "hindi_definition": "जहर (विष)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0148.jpg",
+  "page_label": "144",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pākrnī",
+      "kurukh_word_ascii": "Pakrni",
+      "english_definition": "to sit on another's lap",
+      "hindi_definition": "किसी की गोद में बैठना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pākrārnā",
+      "kurukh_word_ascii": "Pakrarna",
+      "english_definition": "to ferment",
+      "hindi_definition": "किण्वित होना, खमीर उठना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pāksā",
+      "kurukh_word_ascii": "Paksa",
+      "english_definition": "dried leaves",
+      "hindi_definition": "सूखे पत्ते",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pākhtā",
+      "kurukh_word_ascii": "Pakhtha",
+      "english_definition": "firm",
+      "hindi_definition": "मजबूत, ठोस",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pākhtā mannā",
+      "kurukh_word_ascii": "Pakhtha manna",
+      "english_definition": "to be firm, solid",
+      "hindi_definition": "मजबूत होना, ठोस होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pākhtā nannā",
+      "kurukh_word_ascii": "Pakhtha nanna",
+      "english_definition": "to confirm, consolidate",
+      "hindi_definition": "पक्का करना, मजबूत करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāll",
+      "kurukh_word_ascii": "Pall",
+      "english_definition": "tooth",
+      "hindi_definition": "दाँत",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārmna pāll",
+      "kurukh_word_ascii": "Parmna pall",
+      "english_definition": "front teeth",
+      "hindi_definition": "आगे के दाँत",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Jāttā pāll",
+      "kurukh_word_ascii": "Jatta pall",
+      "english_definition": "the grinding teeth",
+      "hindi_definition": "दाढ़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Āllā pāll",
+      "kurukh_word_ascii": "Alla pall",
+      "english_definition": "the cutting teeth, biting teeth",
+      "hindi_definition": "कटवाले दाँत",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāll kundrnā",
+      "kurukh_word_ascii": "Pall kundrna",
+      "english_definition": "teething, cutting the teeth",
+      "hindi_definition": "दाँत निकलना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāll birdnē",
+      "kurukh_word_ascii": "Pall birdne",
+      "english_definition": "cutting the teeth",
+      "hindi_definition": "दाँत निकालना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāll cābārnā / Pārmna",
+      "kurukh_word_ascii": "Pall cabarna / Parmna",
+      "english_definition": "to gnash or grind the teeth",
+      "hindi_definition": "दाँत पीसना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāll esrnā",
+      "kurukh_word_ascii": "Pall esrna",
+      "english_definition": "the falling out of the teeth",
+      "hindi_definition": "दाँत गिरना, दाँत टूटना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāll nūjnā / Nunūjnā",
+      "kurukh_word_ascii": "Pall nujna / Nunutjna",
+      "english_definition": "toothache",
+      "hindi_definition": "दाँत दर्द",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāll mokhnā",
+      "kurukh_word_ascii": "Pall mokhna",
+      "english_definition": "to bite the teeth",
+      "hindi_definition": "दाँत काटना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāll okknā",
+      "kurukh_word_ascii": "Pall okkna",
+      "english_definition": "to have lockjaw",
+      "hindi_definition": "जबड़े का बंद हो जाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pālāk ārkhā",
+      "kurukh_word_ascii": "Palak arkha",
+      "english_definition": "celery vegetable",
+      "hindi_definition": "अजवाइन की सब्जी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pālī",
+      "kurukh_word_ascii": "Pali",
+      "english_definition": "time, turn",
+      "hindi_definition": "बारी, समय",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pālī pālī",
+      "kurukh_word_ascii": "Pali pali",
+      "english_definition": "alternately",
+      "hindi_definition": "बारी-बारी से",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Pālī mannā",
+      "kurukh_word_ascii": "Pali manna",
+      "english_definition": "now is my turn",
+      "hindi_definition": "अब मेरी बारी है",
+      "part_of_speech": "phrase",
+      "example_phrase": "akku eighat pai manja — now is my turn"
+    },
+    {
+      "kurukh_word": "Pālī birdnā",
+      "kurukh_word_ascii": "Pali birdna",
+      "english_definition": "to become time or turn",
+      "hindi_definition": "बारी आना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pālī bārnā / Hō'ōnā",
+      "kurukh_word_ascii": "Pali barna / Ho'ona",
+      "english_definition": "to arrive at the turn",
+      "hindi_definition": "बारी पर पहुँचना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pālī kirtā'ānā",
+      "kurukh_word_ascii": "Pali kirta'ana",
+      "english_definition": "to take revenge",
+      "hindi_definition": "बदला लेना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pālpālrnā",
+      "kurukh_word_ascii": "Palpalrna",
+      "english_definition": "to wear out, waste",
+      "hindi_definition": "घिसना, बर्बाद होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pālbā",
+      "kurukh_word_ascii": "Palba",
+      "english_definition": "a vegetable consisting of the dried young leaves of the tamarind tree",
+      "hindi_definition": "इमली के कच्चे पत्तों से बनी सब्जी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pālkhānjā",
+      "kurukh_word_ascii": "Palkhanja",
+      "english_definition": "cucumber",
+      "hindi_definition": "खीरा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pālknā",
+      "kurukh_word_ascii": "Palkna",
+      "english_definition": "to split (trans.)",
+      "hindi_definition": "चीरना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "transitivity": "tr"
+    },
+    {
+      "kurukh_word": "Pālkrnā",
+      "kurukh_word_ascii": "Palkrna",
+      "english_definition": "to split (intr.)",
+      "hindi_definition": "चिरना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "transitivity": "intr"
+    },
+    {
+      "kurukh_word": "Pāltā'ānā",
+      "kurukh_word_ascii": "Palta'and",
+      "english_definition": "to turn over",
+      "hindi_definition": "पलटाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pāltārnā",
+      "kurukh_word_ascii": "Paltarna",
+      "english_definition": "to change",
+      "hindi_definition": "बदलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pāltō! Pāltō!",
+      "kurukh_word_ascii": "Palto! Palto!",
+      "english_definition": "Your servant! or Your honor! Sir! (said at the Karm-Festival when accosting the Karm-tree)",
+      "hindi_definition": "आपका सेवक! मान्यवर! (करम-उत्सव में करम-वृक्ष को संबोधित करते समय)",
+      "part_of_speech": "interj"
+    }
+  ]
+}

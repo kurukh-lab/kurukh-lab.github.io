@@ -1,0 +1,233 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0144.jpg",
+  "page_label": "140",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Otā",
+      "kurukh_word_ascii": "Ota",
+      "english_definition": "only",
+      "hindi_definition": "केवल",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ottā'ē",
+      "kurukh_word_ascii": "Otta'e",
+      "english_definition": "a joint of the limb, fingers, also of the bamboo; khā ottā, river bank",
+      "hindi_definition": "अंग या उंगली का जोड़, बाँस का जोड़; खा ओट्टा — नदी किनारा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Otāṅg",
+      "kurukh_word_ascii": "Otang",
+      "english_definition": "only one, even one",
+      "hindi_definition": "केवल एक, एक भी",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Otāṅg and gōtāig",
+      "kurukh_word_ascii": "Otang and gotaig",
+      "english_definition": "only, merely",
+      "hindi_definition": "केवल, मात्र",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Otkh / Otkhā",
+      "kurukh_word_ascii": "Otkh / Otkha",
+      "english_definition": "single, one, alone",
+      "hindi_definition": "एकल, अकेला",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Otokh / Otkhāsim",
+      "kurukh_word_ascii": "Otokh / Otkhasim",
+      "english_definition": "alone, single",
+      "hindi_definition": "अकेला, एकल",
+      "part_of_speech": "adv",
+      "example_phrase": "otkhasim ra'as — he is single"
+    },
+    {
+      "kurukh_word": "Otthā",
+      "kurukh_word_ascii": "Ottha",
+      "english_definition": "load, burden",
+      "hindi_definition": "बोझ, भार",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Otthā",
+      "kurukh_word_ascii": "Ottha",
+      "english_definition": "heavy, difficult",
+      "hindi_definition": "भारी, कठिन",
+      "part_of_speech": "adj",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Otthā'ēkh",
+      "kurukh_word_ascii": "Ottha'ekh",
+      "english_definition": "pregnant",
+      "hindi_definition": "गर्भवती",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Otthā'ēkh rā'ānā",
+      "kurukh_word_ascii": "Ottha'ekh ra'ana",
+      "english_definition": "to be pregnant",
+      "hindi_definition": "गर्भवती होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Otthā'ēkh mannā",
+      "kurukh_word_ascii": "Ottha'ekh manna",
+      "english_definition": "to become pregnant",
+      "hindi_definition": "गर्भवती हो जाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Othrnā / Otthrna",
+      "kurukh_word_ascii": "Othrn / Otthrna",
+      "english_definition": "to eject, turn out",
+      "hindi_definition": "निकालना, बाहर करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ottnā",
+      "kurukh_word_ascii": "Ottna",
+      "english_definition": "to touch",
+      "hindi_definition": "छूना",
+      "part_of_speech": "verb",
+      "verb_class": "ottkan-yan"
+    },
+    {
+      "kurukh_word": "Ōttr",
+      "kurukh_word_ascii": "Ottr",
+      "english_definition": "hindrance, obstacle",
+      "hindi_definition": "बाधा, रुकावट",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Otth'ō",
+      "kurukh_word_ascii": "Otth'o",
+      "english_definition": "thronged, packed full",
+      "hindi_definition": "भीड़भाड़, पूरा भरा हुआ",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Oyē",
+      "kurukh_word_ascii": "Oye",
+      "english_definition": "cow",
+      "hindi_definition": "गाय",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ō (long)",
+      "kurukh_word_ascii": "O (long)",
+      "english_definition": "Ō long (letter section heading)",
+      "hindi_definition": "ओ (लंबा) वर्ण अनुभाग",
+      "part_of_speech": "letter"
+    },
+    {
+      "kurukh_word": "Ōgnā",
+      "kurukh_word_ascii": "Ogna",
+      "english_definition": "to swim, to float",
+      "hindi_definition": "तैरना, तैरते रहना",
+      "part_of_speech": "verb",
+      "verb_class": "ligkan-ugyan"
+    },
+    {
+      "kurukh_word": "Ōgrnā",
+      "kurukh_word_ascii": "Ogrna",
+      "english_definition": "to be floated",
+      "hindi_definition": "तैरना, बहना",
+      "part_of_speech": "verb",
+      "verb_class": "dgrkan-ogrdn"
+    },
+    {
+      "kurukh_word": "Ōh rē! / Ōh rē āyā!",
+      "kurukh_word_ascii": "Oh re! / Oh re aya!",
+      "english_definition": "expression of pain and distress",
+      "hindi_definition": "दर्द और संकट की अभिव्यक्ति, आह!",
+      "part_of_speech": "interj"
+    },
+    {
+      "kurukh_word": "Ōhārī",
+      "kurukh_word_ascii": "Ohari",
+      "english_definition": "drain near the house, caused by the fall of rain-water from the roof",
+      "hindi_definition": "घर के पास नाली जो छत से गिरते पानी से बनती है",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ōhē rā'ānā",
+      "kurukh_word_ascii": "Ohe ra'ana",
+      "english_definition": "to be distressed, grieved",
+      "hindi_definition": "व्यथित होना, दुखी होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ōbcharnā",
+      "kurukh_word_ascii": "Obcharna",
+      "english_definition": "to climb",
+      "hindi_definition": "चढ़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ōhmā",
+      "kurukh_word_ascii": "Ohma",
+      "english_definition": "honor, glory, respect, homage",
+      "hindi_definition": "सम्मान, महिमा, आदर, श्रद्धांजलि",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ōhmā cōdnā",
+      "kurukh_word_ascii": "Ohma codnā",
+      "english_definition": "to seek honor, to be ambitious",
+      "hindi_definition": "सम्मान पाने की चाहत, महत्वाकांक्षी होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ōhmā nannā",
+      "kurukh_word_ascii": "Ohma nanna",
+      "english_definition": "to honor, show respect",
+      "hindi_definition": "सम्मान देना, आदर दिखाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ōbrārnā",
+      "kurukh_word_ascii": "Obrarna",
+      "english_definition": "to decrease, of water in a river or of a storm",
+      "hindi_definition": "कम होना (नदी का पानी या तूफान)",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ōjnā",
+      "kurukh_word_ascii": "Ojna",
+      "english_definition": "to spin",
+      "hindi_definition": "कातना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ōlā pārdā tēngnā",
+      "kurukh_word_ascii": "Ola parda tengna",
+      "english_definition": "to reveal a secret, to betray",
+      "hindi_definition": "राज खोलना, धोखा देना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ōl",
+      "kurukh_word_ascii": "Ol",
+      "english_definition": "an edible root",
+      "hindi_definition": "एक खाने योग्य जड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ōllāgnā",
+      "kurukh_word_ascii": "Ollagna",
+      "english_definition": "same as olagnā (to greet)",
+      "hindi_definition": "olagnā के समान (अभिवादन करना)",
+      "part_of_speech": "verb"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0088.jpg",
+  "page_label": "84",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Karekundā",
+      "kurukh_word_ascii": "Karekunda",
+      "english_definition": "an earthen measure.",
+      "hindi_definition": "मिट्टी का माप का बर्तन।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karī",
+      "kurukh_word_ascii": "Kari",
+      "english_definition": "verse, a line in a poem, a sentence, part.",
+      "hindi_definition": "पद्य, कविता की पंक्ति, वाक्य।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karijirī-ghāsī",
+      "kurukh_word_ascii": "Karijiri-ghasi",
+      "english_definition": "a kind of grass.",
+      "hindi_definition": "एक प्रकार की घास।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karīkhā",
+      "kurukh_word_ascii": "Karikha",
+      "english_definition": "needle.",
+      "hindi_definition": "सुई।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kariyā ōrā",
+      "kurukh_word_ascii": "Kariya ora",
+      "english_definition": "the small kind of snail.",
+      "hindi_definition": "छोटे प्रकार का घोंघा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karhāba'anā",
+      "kurukh_word_ascii": "Karhaba'ana",
+      "english_definition": "ckan, c'an, to lead, conduct.",
+      "hindi_definition": "नेतृत्व करना, आगे ले जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karjā",
+      "kurukh_word_ascii": "Karja",
+      "english_definition": "liver.",
+      "hindi_definition": "जिगर, यकृत।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karkanc",
+      "kurukh_word_ascii": "Karkanc",
+      "english_definition": "trouble.",
+      "hindi_definition": "परेशानी, झंझट।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karkarrnā",
+      "kurukh_word_ascii": "Karkarrna",
+      "english_definition": "kan, an, to cackle as a hen.",
+      "hindi_definition": "मुर्गी की तरह कड़कड़ाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karkōyā",
+      "kurukh_word_ascii": "Karkoya",
+      "english_definition": "adj. sluggish, lazy.",
+      "hindi_definition": "सुस्त, आलसी।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karm",
+      "kurukh_word_ascii": "Karm",
+      "english_definition": "nauclea parvifolia, the sacred tree of the Orāõs, of which a branch is put up on the Ākhārā and adorned with lights, like a Christmas tree.",
+      "hindi_definition": "नौक्लिया पर्विफोलिया, उराँव का पवित्र वृक्ष; जिसकी शाखा आखारा पर रखी जाती है।",
+      "part_of_speech": "noun",
+      "notes": "Sacred tree; Karam tree of the Oraon people."
+    },
+    {
+      "kurukh_word": "Karm-parb",
+      "kurukh_word_ascii": "Karm-parb",
+      "english_definition": "at which the Karm-tree (a branch of it) is adored. It is likewise the festival of the first-fruits harvest.",
+      "hindi_definition": "करम पर्व; करम वृक्ष की पूजा का त्योहार एवं प्रथम फसल का उत्सव।",
+      "part_of_speech": "noun",
+      "notes": "Major Oraon festival."
+    },
+    {
+      "kurukh_word": "Karmā",
+      "kurukh_word_ascii": "Karma",
+      "english_definition": "waist.",
+      "hindi_definition": "कमर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karmā-khūṭā",
+      "kurukh_word_ascii": "Karma-khuta",
+      "english_definition": "the back bone.",
+      "hindi_definition": "रीढ़ की हड्डी।",
+      "part_of_speech": "noun",
+      "notes": "Compound: karmā (waist) + khūṭā (post/bone)."
+    },
+    {
+      "kurukh_word": "Karmā-khūṭā",
+      "kurukh_word_ascii": "Karma-khuta",
+      "english_definition": "the handle of the plough.",
+      "hindi_definition": "हल का हत्था।",
+      "part_of_speech": "noun",
+      "homograph_index": 2,
+      "notes": "Second sense of Karmā-khūṭā."
+    },
+    {
+      "kurukh_word": "Karmā-muḍḍā",
+      "kurukh_word_ascii": "Karma-mudda",
+      "english_definition": "the spinal cord.",
+      "hindi_definition": "मेरुदंड की नस।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karmdaṇḍi",
+      "kurukh_word_ascii": "Karmdandi",
+      "english_definition": "a curse: May god karm punish thee!",
+      "hindi_definition": "एक अभिशाप: करम देवता तुझे दंड दे!",
+      "part_of_speech": "interjection",
+      "notes": "Religious curse invoking the Karm deity."
+    },
+    {
+      "kurukh_word": "Karmjadī",
+      "kurukh_word_ascii": "Karmjadi",
+      "english_definition": "the wild vine plant.",
+      "hindi_definition": "जंगली बेल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karnā",
+      "kurukh_word_ascii": "Karna",
+      "english_definition": "kan, an, to twist a rope.",
+      "hindi_definition": "रस्सी बटना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karnjuwā ōrā",
+      "kurukh_word_ascii": "Karnjuwa ora",
+      "english_definition": "a kind of wild fowl.",
+      "hindi_definition": "एक प्रकार का जंगली पक्षी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karane",
+      "kurukh_word_ascii": "Karane",
+      "english_definition": "H. because, by reason of.",
+      "hindi_definition": "क्योंकि, के कारण।",
+      "part_of_speech": "conjunction",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karrī",
+      "kurukh_word_ascii": "Karri",
+      "english_definition": "female calf of a buffalo.",
+      "hindi_definition": "भैंस की मादा बछड़ी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karrū",
+      "kurukh_word_ascii": "Karru",
+      "english_definition": "male calf of a buffalo.",
+      "hindi_definition": "भैंस का नर बछड़ा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karrō khocol",
+      "kurukh_word_ascii": "Karro khocol",
+      "english_definition": "cartilage.",
+      "hindi_definition": "उपास्थि।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṛrkā",
+      "kurukh_word_ascii": "Karrka",
+      "english_definition": "a small stick to clean the teeth with.",
+      "hindi_definition": "दाँत साफ करने की छोटी लकड़ी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṛrkā nanna",
+      "kurukh_word_ascii": "Karrka nanna",
+      "english_definition": "to clean the teeth.",
+      "hindi_definition": "दाँत साफ करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kartā",
+      "kurukh_word_ascii": "Karta",
+      "english_definition": "hair-pin.",
+      "hindi_definition": "हेयरपिन।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karta'anā",
+      "kurukh_word_ascii": "Karta'ana",
+      "english_definition": "ckan, c'an to take across.",
+      "hindi_definition": "पार ले जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaskasrā ēknā",
+      "kurukh_word_ascii": "Kaskasra ekna",
+      "english_definition": "to walk in crowds, like ants.",
+      "hindi_definition": "चींटियों की तरह झुंड में चलना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kassā",
+      "kurukh_word_ascii": "Kassa",
+      "english_definition": "dirt on the skin.",
+      "hindi_definition": "त्वचा पर मैल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kassamalkā",
+      "kurukh_word_ascii": "Kassamalka",
+      "english_definition": "spotless.",
+      "hindi_definition": "बेदाग, साफ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    }
+  ]
+}

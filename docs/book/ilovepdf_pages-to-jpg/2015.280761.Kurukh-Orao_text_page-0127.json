@@ -1,0 +1,274 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0127.jpg",
+  "page_label": "123",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Maitā",
+      "kurukh_word_ascii": "Maita",
+      "english_definition": "top, summit (see also Maitā).",
+      "hindi_definition": "शिखर, चोटी (Maitā भी देखें)।",
+      "part_of_speech": "noun",
+      "notes": "Variant: mētē"
+    },
+    {
+      "kurukh_word": "Mēr",
+      "kurukh_word_ascii": "Mer",
+      "english_definition": "thread.",
+      "hindi_definition": "धागा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēr hiṭ'ā-ōṛā",
+      "kurukh_word_ascii": "Mer hit'a-ora",
+      "english_definition": "a slender bird.",
+      "hindi_definition": "एक पतला पक्षी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mergharī",
+      "kurukh_word_ascii": "Merghari",
+      "english_definition": "the union or meeting of the bridal parties.",
+      "hindi_definition": "वर-वधू पक्षों का मिलन (विवाह समारोह में)।",
+      "part_of_speech": "noun",
+      "notes": "Variant: mergharai"
+    },
+    {
+      "kurukh_word": "Merrārnā",
+      "kurukh_word_ascii": "Merrarna",
+      "english_definition": "kan, an, to become entangled, twisted.",
+      "hindi_definition": "उलझना, मुड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Merkhā",
+      "kurukh_word_ascii": "Merkha",
+      "english_definition": "heaven, sky.",
+      "hindi_definition": "स्वर्ग, आकाश।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Merkhā jōkh",
+      "kurukh_word_ascii": "Merkha jokh",
+      "english_definition": "an angel.",
+      "hindi_definition": "देवदूत।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Merkhā rājī",
+      "kurukh_word_ascii": "Merkha raji",
+      "english_definition": "the kingdom of God (literally kingdom of heaven).",
+      "hindi_definition": "स्वर्ग का राज्य।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Merkhantā",
+      "kurukh_word_ascii": "Merkhanta",
+      "english_definition": "adj. heavenly.",
+      "hindi_definition": "विशेषण। स्वर्गीय (आकाशीय)।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Merkhantā phaud",
+      "kurukh_word_ascii": "Merkhanta phaud",
+      "english_definition": "heavenly host.",
+      "hindi_definition": "स्वर्गीय सेना (देवदूतों की सेना)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Merkhā nū ra'ū",
+      "kurukh_word_ascii": "Merkha nu ra'u",
+      "english_definition": "a dweller in heaven.",
+      "hindi_definition": "स्वर्ग में रहने वाला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Merkhā-khēkhēl",
+      "kurukh_word_ascii": "Merkha-khekhel",
+      "english_definition": "the whole world (literally heaven-earth).",
+      "hindi_definition": "संसार (स्वर्ग और पृथ्वी)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mesaba'anā",
+      "kurukh_word_ascii": "Mesaba'ana",
+      "english_definition": "ckan, c'an, to unite (transitive).",
+      "hindi_definition": "जोड़ना, मिलाना (सकर्मक)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mesa nannā",
+      "kurukh_word_ascii": "Mesa nanna",
+      "english_definition": "to unite (same as Mesaba'anā).",
+      "hindi_definition": "मिलाना (Mesaba'anā के समान)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mesa mannā",
+      "kurukh_word_ascii": "Mesa manna",
+      "english_definition": "to be united, to unite (intransitive).",
+      "hindi_definition": "एक होना, मिलना (अकर्मक)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mesnā",
+      "kurukh_word_ascii": "Mesna",
+      "english_definition": "kan, an, to admit, to take into union.",
+      "hindi_definition": "शामिल करना, संघ में लेना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mesrkā",
+      "kurukh_word_ascii": "Mesrka",
+      "english_definition": "fellowship, union.",
+      "hindi_definition": "सहभागिता, मिलाप।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mesrnā",
+      "kurukh_word_ascii": "Mesrna",
+      "english_definition": "kan, an, to be united, admitted.",
+      "hindi_definition": "शामिल होना, संयुक्त होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mesgā",
+      "kurukh_word_ascii": "Mesga",
+      "english_definition": "thatched roof.",
+      "hindi_definition": "फूस की छत।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēt",
+      "kurukh_word_ascii": "Met",
+      "english_definition": "man, person.",
+      "hindi_definition": "पुरुष, व्यक्ति।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mētas",
+      "kurukh_word_ascii": "Metas",
+      "english_definition": "the man, husband.",
+      "hindi_definition": "पुरुष, पति।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mētmalkā mukka'ē",
+      "kurukh_word_ascii": "Metmalka mukka'e",
+      "english_definition": "an unmarried woman.",
+      "hindi_definition": "अविवाहित महिला (कुंवारी)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Meṭaba'anā",
+      "kurukh_word_ascii": "Metaba'ana",
+      "english_definition": "ckan, c'an, to blot out, erase.",
+      "hindi_definition": "मिटाना, मिटा देना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēṭrnā",
+      "kurukh_word_ascii": "Metrna",
+      "english_definition": "kan, an, to be obliterated, erased.",
+      "hindi_definition": "मिट जाना, लुप्त हो जाना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mīchī",
+      "kurukh_word_ascii": "Michi",
+      "english_definition": "mustache.",
+      "hindi_definition": "मूंछ (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mihi cutti",
+      "kurukh_word_ascii": "Mihi cutti",
+      "english_definition": "fine down feathers of birds.",
+      "hindi_definition": "पक्षियों के कोमल रोएँ (छोटे पंख)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Micmicī",
+      "kurukh_word_ascii": "Micmici",
+      "english_definition": "mustache.",
+      "hindi_definition": "मूंछ।",
+      "part_of_speech": "noun",
+      "notes": "Variant/Reduplicated form of Mīchī"
+    },
+    {
+      "kurukh_word": "Mikhīy",
+      "kurukh_word_ascii": "Mikhiy",
+      "english_definition": "caller.",
+      "hindi_definition": "पुकारने वाला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Miñj",
+      "kurukh_word_ascii": "Minj",
+      "english_definition": "eel.",
+      "hindi_definition": "बाम मछली (इल मछली)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Minī",
+      "kurukh_word_ascii": "Mini",
+      "english_definition": "hearer.",
+      "hindi_definition": "सुनने वाला (श्रोता)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Misrtā'ū",
+      "kurukh_word_ascii": "Misrta'u",
+      "english_definition": "a unitor, one who unites.",
+      "hindi_definition": "मिलाने वाला (एक करने वाला)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Minnrnā",
+      "kurukh_word_ascii": "Minnrna",
+      "english_definition": "to be able to hear; eṅghai khebdā malā minnrī, I am unable to hear, my ear is deaf.",
+      "hindi_definition": "सुन पाने में समर्थ होना; eṅghai khebdā malā minnrī = मैं सुन नहीं पा रहा हूँ, मेरा कान बहरा है।",
+      "part_of_speech": "verb",
+      "notes": "Passive/Abilitative of mennā; Example: eṅghai khebdā malā minnrī = I am unable to hear, my ear is deaf"
+    }
+  ]
+}

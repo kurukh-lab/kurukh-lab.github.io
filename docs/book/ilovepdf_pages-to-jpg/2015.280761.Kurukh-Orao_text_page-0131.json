@@ -1,0 +1,271 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0131.jpg",
+  "page_label": "127",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Muṅg-arkhā",
+      "kurukh_word_ascii": "Mung-arkha",
+      "english_definition": "vegetable, the fresh leaves of the muṅgā-tree.",
+      "hindi_definition": "सहजन (मुनगा) के पत्तों की सब्जी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muñjā",
+      "kurukh_word_ascii": "Munja",
+      "english_definition": "end.",
+      "hindi_definition": "अंत (समाप्ति)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Munjnā",
+      "kurukh_word_ascii": "Munjna",
+      "english_definition": "kan, yan, to finish off, to exhaust.",
+      "hindi_definition": "समाप्त करना, खत्म करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Munjrnā",
+      "kurukh_word_ascii": "Munjrna",
+      "english_definition": "kan, an, to get short of, to be used up; eṅghai dhibā munjrā, I am short of money.",
+      "hindi_definition": "खत्म होना, कमी पड़ना; eṅghai dhibā munjrā = मेरे पास पैसों की कमी है।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Example: eṅghai dhibā munjrā = I am short of money"
+    },
+    {
+      "kurukh_word": "Munjantā",
+      "kurukh_word_ascii": "Munjanta",
+      "english_definition": "the last.",
+      "hindi_definition": "अंतिम।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Munjantā ullā",
+      "kurukh_word_ascii": "Munjanta ulla",
+      "english_definition": "the last day, the judgement day.",
+      "hindi_definition": "अंतिम दिन (प्रलय का दिन, न्याय का दिन)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Munjāmalkā",
+      "kurukh_word_ascii": "Munjamalka",
+      "english_definition": "endless, eternal.",
+      "hindi_definition": "विशेषण। अनंत, शाश्वत।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Munjāmalkā ujjnā",
+      "kurukh_word_ascii": "Munjamalka ujjna",
+      "english_definition": "eternal life.",
+      "hindi_definition": "अनंत जीवन।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūñjnā",
+      "kurukh_word_ascii": "Munjna",
+      "english_definition": "kan, an, to wash the face of another, as the mother washes the face of her child.",
+      "hindi_definition": "दूसरे का मुँह धोना (जैसे माँ अपने बच्चे का मुँह धोती है)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūñjrnā",
+      "kurukh_word_ascii": "Munjrna",
+      "english_definition": "to wash one's own face.",
+      "hindi_definition": "अपना मुँह धोना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murkhnā",
+      "kurukh_word_ascii": "Murkhna",
+      "english_definition": "to devour.",
+      "hindi_definition": "हड़प लेना, निगल जाना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūñē",
+      "kurukh_word_ascii": "Mune",
+      "english_definition": "excellent, first rate.",
+      "hindi_definition": "विशेषण। उत्तम, उत्कृष्ट।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūā",
+      "kurukh_word_ascii": "Mua",
+      "english_definition": "hare, rabbit.",
+      "hindi_definition": "खरगोश।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūā",
+      "kurukh_word_ascii": "Mua",
+      "english_definition": "the spirit of a departed person, who died an unnatural death.",
+      "hindi_definition": "अकाल मृत्यु को प्राप्त हुए व्यक्ति की आत्मा (भूत)।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of Mūā"
+    },
+    {
+      "kurukh_word": "Mūṛhnā",
+      "kurukh_word_ascii": "Murdhna",
+      "english_definition": "ckan, o'an, same as mundhnā (to shut up, cover).",
+      "hindi_definition": "ढंकना, बंद करना (mundhnā के समान)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūrnā",
+      "kurukh_word_ascii": "Murna",
+      "english_definition": "kan, yan, to tear up, root up.",
+      "hindi_definition": "उखाड़ना, जड़ से उखाड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūrrnā",
+      "kurukh_word_ascii": "Murrna",
+      "english_definition": "kan, an, to be torn up.",
+      "hindi_definition": "उखड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murdakā",
+      "kurukh_word_ascii": "Murdaka",
+      "english_definition": "bleached.",
+      "hindi_definition": "रंग उड़ा हुआ, ब्लीच किया हुआ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murdnā",
+      "kurukh_word_ascii": "Murdna",
+      "english_definition": "kan, an, to bleak, bleach.",
+      "hindi_definition": "रंग उड़ाना, ब्लीच करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūṛhī",
+      "kurukh_word_ascii": "Murdhi",
+      "english_definition": "parched rice or maize.",
+      "hindi_definition": "मुरमुरा (मूंढ़ी) या भुना हुआ मक्का (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murjhārnā",
+      "kurukh_word_ascii": "Murjharna",
+      "english_definition": "kan, an, to dry up, wither.",
+      "hindi_definition": "मुरझाना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murkā-mann",
+      "kurukh_word_ascii": "Murka-mann",
+      "english_definition": "a tree of the forest (Palash tree).",
+      "hindi_definition": "पलाश (ढाक) का पेड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murkā-pūmp",
+      "kurukh_word_ascii": "Murka-pump",
+      "english_definition": "the flower of the Palash tree.",
+      "hindi_definition": "पलाश का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murkārnā",
+      "kurukh_word_ascii": "Murkarna",
+      "english_definition": "kan, an, to sprain.",
+      "hindi_definition": "मोच आना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murkhur",
+      "kurukh_word_ascii": "Murkhur",
+      "english_definition": "pigeon.",
+      "hindi_definition": "कबूतर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murkhrnā",
+      "kurukh_word_ascii": "Murkhrna",
+      "english_definition": "kan, an, to be wrapt up, head included, in a cloth or sheet to shroud.",
+      "hindi_definition": "सिर सहित पूरे शरीर को कपड़े या चादर में लपेटना (कफन ओढ़ना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murknā",
+      "kurukh_word_ascii": "Murkna",
+      "english_definition": "kan, yan, to cut into pieces, to make slices.",
+      "hindi_definition": "टुकड़ों में काटना, फांक बनाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murnā",
+      "kurukh_word_ascii": "Murna",
+      "english_definition": "mudkan, yan, to stumble.",
+      "hindi_definition": "ठोकर खाना।",
+      "part_of_speech": "verb",
+      "verb_class": "mudkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murārnā",
+      "kurukh_word_ascii": "Murarna",
+      "english_definition": "murairkan, yan, to stumble (same as Murnā).",
+      "hindi_definition": "ठोकर खाना (Murnā के समान)।",
+      "part_of_speech": "verb",
+      "verb_class": "murairkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murmā",
+      "kurukh_word_ascii": "Murma",
+      "english_definition": "marrow.",
+      "hindi_definition": "अस्थि-मज्जा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murrā murrā",
+      "kurukh_word_ascii": "Murra murra",
+      "english_definition": "vehemently, with great force.",
+      "hindi_definition": "तीव्रता से, बड़ी ताकत से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    }
+  ]
+}

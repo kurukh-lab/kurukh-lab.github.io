@@ -1,0 +1,241 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0145.jpg",
+  "page_label": "141",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ōlnā",
+      "kurukh_word_ascii": "Olna",
+      "english_definition": "to burn (intr.)",
+      "hindi_definition": "जलना",
+      "part_of_speech": "verb",
+      "verb_class": "ullken-yan",
+      "transitivity": "intr"
+    },
+    {
+      "kurukh_word": "Ōlī lēkhā",
+      "kurukh_word_ascii": "Oli lekha",
+      "english_definition": "burning, unfeigned",
+      "hindi_definition": "जलन वाला, असली, खरा",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ōndnā",
+      "kurukh_word_ascii": "Ondna",
+      "english_definition": "to warm up paddy (unhusked rice) in water",
+      "hindi_definition": "धान को पानी में गर्म करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ōndnā opnā",
+      "kurukh_word_ascii": "Ondna opna",
+      "english_definition": "to warm up unhusked rice without water",
+      "hindi_definition": "धान को बिना पानी के गर्म करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ōnrsnā",
+      "kurukh_word_ascii": "Onrsna",
+      "english_definition": "to reach with the outstretched arm",
+      "hindi_definition": "बाँह फैलाकर पहुँचना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Ōr",
+      "kurukh_word_ascii": "Or",
+      "english_definition": "secret",
+      "hindi_definition": "रहस्य",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ōr",
+      "kurukh_word_ascii": "Or",
+      "english_definition": "beginning",
+      "hindi_definition": "शुरुआत",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Ōr",
+      "kurukh_word_ascii": "Or",
+      "english_definition": "means",
+      "hindi_definition": "साधन, तरीका",
+      "part_of_speech": "noun",
+      "homograph_index": 3
+    },
+    {
+      "kurukh_word": "Ōr nindāā",
+      "kurukh_word_ascii": "Or nindaa",
+      "english_definition": "to the end, etcetera, and so forth",
+      "hindi_definition": "अंत तक, इत्यादि",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ōrā",
+      "kurukh_word_ascii": "Ora",
+      "english_definition": "bird",
+      "hindi_definition": "पक्षी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ōrē",
+      "kurukh_word_ascii": "Ore",
+      "english_definition": "a small bird",
+      "hindi_definition": "एक छोटा पक्षी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ōrnā",
+      "kurukh_word_ascii": "Orna",
+      "english_definition": "to suffer willingly",
+      "hindi_definition": "स्वेच्छा से सहना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ōrmā",
+      "kurukh_word_ascii": "Orma",
+      "english_definition": "the black from smoke sticking to pots or the chimney",
+      "hindi_definition": "धुएँ से बर्तन या चिमनी पर जमी काली कालिख",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ōsā",
+      "kurukh_word_ascii": "Osa",
+      "english_definition": "mushroom; the edible mushroom",
+      "hindi_definition": "मशरूम, खाने योग्य कुकुरमुत्ता",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Mandi ōsē",
+      "kurukh_word_ascii": "Mandi ose",
+      "english_definition": "the smallest kind of mushroom",
+      "hindi_definition": "सबसे छोटी किस्म का मशरूम",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Calkur-ōsā",
+      "kurukh_word_ascii": "Calkur-osa",
+      "english_definition": "mushroom growing in the sand",
+      "hindi_definition": "रेत में उगने वाला मशरूम",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Kāṅk-ōsā",
+      "kurukh_word_ascii": "Kank-osa",
+      "english_definition": "mushroom growing on rotten wood",
+      "hindi_definition": "सड़ी लकड़ी पर उगने वाला मशरूम",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Tumbā-ōsā",
+      "kurukh_word_ascii": "Tumba-osa",
+      "english_definition": "flask-mushroom",
+      "hindi_definition": "फ्लास्क के आकार का मशरूम",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "P",
+      "kurukh_word_ascii": "P",
+      "english_definition": "P (letter section heading)",
+      "hindi_definition": "प वर्ण अनुभाग",
+      "part_of_speech": "letter"
+    },
+    {
+      "kurukh_word": "Pāb",
+      "kurukh_word_ascii": "Pab",
+      "english_definition": "road, path",
+      "hindi_definition": "रास्ता, पथ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pābē",
+      "kurukh_word_ascii": "Pabe",
+      "english_definition": "the same (road, path)",
+      "hindi_definition": "वही (रास्ता)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāb ērnā",
+      "kurukh_word_ascii": "Pab erna",
+      "english_definition": "to expect, look out for",
+      "hindi_definition": "प्रतीक्षा करना, देखते रहना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāchā",
+      "kurukh_word_ascii": "Pacha",
+      "english_definition": "ancestor",
+      "hindi_definition": "पूर्वज",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāchā āl / Pācbāl / Pācbīlār",
+      "kurukh_word_ascii": "Pacha al / Pacbal / Pacbilar",
+      "english_definition": "ancestors, elders, progenitors",
+      "hindi_definition": "पूर्वज, बुजुर्ग, पुरखे",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pācbāl-addā",
+      "kurukh_word_ascii": "Pacbal-adda",
+      "english_definition": "hades, the infernal region, the underworld",
+      "hindi_definition": "पाताल लोक, मृत्युलोक",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāchāit",
+      "kurukh_word_ascii": "Pachait",
+      "english_definition": "food and drink",
+      "hindi_definition": "भोजन और पेय",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pācār",
+      "kurukh_word_ascii": "Pacar",
+      "english_definition": "wedge",
+      "hindi_definition": "पाचर, कील",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pācār thoknā",
+      "kurukh_word_ascii": "Pacar thokn",
+      "english_definition": "to apply, drive in a wedge",
+      "hindi_definition": "पाचर लगाना, ठोंकना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāccā",
+      "kurukh_word_ascii": "Pacca",
+      "english_definition": "old (things); having grown old",
+      "hindi_definition": "पुराना (वस्तुएँ); पुरानी हो जाना",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pāco' gāchrkā",
+      "kurukh_word_ascii": "Paco' gachrka",
+      "english_definition": "the Old Testament",
+      "hindi_definition": "पुराना नियम (बाइबल)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pācenā",
+      "kurukh_word_ascii": "Pacena",
+      "english_definition": "to become, grow old",
+      "hindi_definition": "पुराना होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pāccā",
+      "kurukh_word_ascii": "Pacca",
+      "english_definition": "an old woman",
+      "hindi_definition": "बूढ़ी औरत",
+      "part_of_speech": "noun",
+      "gender": "f",
+      "homograph_index": 2
+    }
+  ]
+}

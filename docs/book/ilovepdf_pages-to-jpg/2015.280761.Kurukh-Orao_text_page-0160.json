@@ -1,0 +1,241 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0160.jpg",
+  "page_label": "156",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Rēwā-drā",
+      "kurukh_word_ascii": "Rewa-dra",
+      "english_definition": "a kind of bird",
+      "hindi_definition": "एक प्रकार की चिड़िया",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Renjnā",
+      "kurukh_word_ascii": "Renjna",
+      "english_definition": "to use, employ",
+      "hindi_definition": "उपयोग करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rēp'ē mannā",
+      "kurukh_word_ascii": "Rep'e manna",
+      "english_definition": "to stoop down from a heavy load",
+      "hindi_definition": "भारी बोझ से झुकना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rētnā",
+      "kurukh_word_ascii": "Retna",
+      "english_definition": "to plane, polish",
+      "hindi_definition": "रंदा मारना, चमकाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Rēthā nannā",
+      "kurukh_word_ascii": "Retha nanna",
+      "english_definition": "to form a conclusion, to resolve",
+      "hindi_definition": "निष्कर्ष निकालना, निश्चय करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ribribrnā",
+      "kurukh_word_ascii": "Ribribrna",
+      "english_definition": "to be acid, spicy",
+      "hindi_definition": "खट्टा, तीखा होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rigibigī",
+      "kurukh_word_ascii": "Rigibigi",
+      "english_definition": "very bright in colour",
+      "hindi_definition": "बहुत चमकीले रंग वाला",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Righā",
+      "kurukh_word_ascii": "Righa",
+      "english_definition": "fat, corpulent",
+      "hindi_definition": "मोटा, तगड़ा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Rijhabā'ānā'",
+      "kurukh_word_ascii": "Rijhaba'ana",
+      "english_definition": "to fatten, rear",
+      "hindi_definition": "मोटा करना, पालना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Rijhrnā",
+      "kurukh_word_ascii": "Rijhrna",
+      "english_definition": "to get fat, corpulent; to be joyful",
+      "hindi_definition": "मोटा होना; खुश होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rimijimī",
+      "kurukh_word_ascii": "Rimijimi",
+      "english_definition": "a little bit",
+      "hindi_definition": "थोड़ा सा",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Rimrimrā birnā",
+      "kurukh_word_ascii": "Rimrimra birna",
+      "english_definition": "sultry weather or heat",
+      "hindi_definition": "उमस भरा मौसम",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rimrimrnē",
+      "kurukh_word_ascii": "Rimrimrne",
+      "english_definition": "to shine, glitter, glare",
+      "hindi_definition": "चमकना, दमकना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Rigī cingī",
+      "kurukh_word_ascii": "Rigi cingi",
+      "english_definition": "colored, of different colour",
+      "hindi_definition": "रंगीन, विभिन्न रंगों वाला",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Rīs",
+      "kurukh_word_ascii": "Ris",
+      "english_definition": "dust",
+      "hindi_definition": "धूल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rīd mannā",
+      "kurukh_word_ascii": "Rid manna",
+      "english_definition": "dusty",
+      "hindi_definition": "धूल भरा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Rīyā argnā",
+      "kurukh_word_ascii": "Riya argna",
+      "english_definition": "to make dust, throw up dust",
+      "hindi_definition": "धूल उड़ाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rīsrīsmnā",
+      "kurukh_word_ascii": "Risrismna",
+      "english_definition": "the standing up of the hair in excitement",
+      "hindi_definition": "उत्तेजना में रोंगटे खड़े होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rītyārnā",
+      "kurukh_word_ascii": "Rityarna",
+      "english_definition": "to commit fornication",
+      "hindi_definition": "व्यभिचार करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rōjōt nannā",
+      "kurukh_word_ascii": "Rojot nanna",
+      "english_definition": "to take advice, to consult",
+      "hindi_definition": "सलाह लेना, परामर्श करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rōkkā",
+      "kurukh_word_ascii": "Rokka",
+      "english_definition": "suddenly",
+      "hindi_definition": "अचानक",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Rōkk'am khē'ēnā",
+      "kurukh_word_ascii": "Rokk'am khe'ena",
+      "english_definition": "to die suddenly",
+      "hindi_definition": "अचानक मर जाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rō'ā / Rōwā",
+      "kurukh_word_ascii": "Ro'a / Rowa",
+      "english_definition": "rice seedlings",
+      "hindi_definition": "धान के पौधे (रोपाई के लिए)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rō'ā idnā",
+      "kurukh_word_ascii": "Ro'a idna",
+      "english_definition": "to plant rice seedlings",
+      "hindi_definition": "धान के पौधे लगाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rōē rōērnā",
+      "kurukh_word_ascii": "Roe roerna",
+      "english_definition": "to be rough, covered with much small hair on the body",
+      "hindi_definition": "खुरदरा होना, शरीर पर बहुत छोटे बाल होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rōprō mannā",
+      "kurukh_word_ascii": "Ropro manna",
+      "english_definition": "to be lean, sunken-faced",
+      "hindi_definition": "दुबला होना, मुँह धँसा होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rōprē",
+      "kurukh_word_ascii": "Ropre",
+      "english_definition": "dry, as of the mouth after much speaking or singing",
+      "hindi_definition": "मुँह सूखना (बहुत बोलने या गाने के बाद)",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Rōs nannā",
+      "kurukh_word_ascii": "Ros nanna",
+      "english_definition": "to be angry",
+      "hindi_definition": "गुस्सा होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rōt'ō",
+      "kurukh_word_ascii": "Rot'o",
+      "english_definition": "only (adv.)",
+      "hindi_definition": "केवल, मात्र",
+      "part_of_speech": "adv",
+      "example_phrase": "idin rot'ō mālā pahē ādin hō cīeās — not only this, he gave that also; Ōrighon rot'ō — only once, once for all"
+    },
+    {
+      "kurukh_word": "Rōts",
+      "kurukh_word_ascii": "Rots",
+      "english_definition": "without teeth",
+      "hindi_definition": "बिना दाँत का",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Rub'ā",
+      "kurukh_word_ascii": "Rub'a",
+      "english_definition": "an open handful",
+      "hindi_definition": "खुली हथेली भर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rugrī",
+      "kurukh_word_ascii": "Rugri",
+      "english_definition": "stony",
+      "hindi_definition": "पथरीला",
+      "part_of_speech": "adj"
+    }
+  ]
+}

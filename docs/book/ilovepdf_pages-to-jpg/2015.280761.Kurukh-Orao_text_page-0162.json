@@ -1,0 +1,247 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0162.jpg",
+  "page_label": "158",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Sāitim",
+      "kurukh_word_ascii": "Saitim",
+      "english_definition": "concubine",
+      "hindi_definition": "उप-पत्नी, रखैल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāiyā",
+      "kurukh_word_ascii": "Saiya",
+      "english_definition": "one hundred",
+      "hindi_definition": "एक सौ",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Sājā / Sājāī",
+      "kurukh_word_ascii": "Saja / Sajai",
+      "english_definition": "punishment",
+      "hindi_definition": "सजा, दंड",
+      "part_of_speech": "noun",
+      "loanword_from": "ur"
+    },
+    {
+      "kurukh_word": "Sājnā",
+      "kurukh_word_ascii": "Sajna",
+      "english_definition": "to throw, adjust",
+      "hindi_definition": "फेंकना, समायोजित करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Sājhā",
+      "kurukh_word_ascii": "Sajha",
+      "english_definition": "part of produce",
+      "hindi_definition": "उपज का हिस्सा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sājhā urbas",
+      "kurukh_word_ascii": "Sajha urbas",
+      "english_definition": "partner",
+      "hindi_definition": "साझीदार",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sājhā nannā",
+      "kurukh_word_ascii": "Sajha nanna",
+      "english_definition": "to make an agreement for obtaining half of the profit or produce",
+      "hindi_definition": "लाभ या उपज में आधा लेने का समझौता करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sājhā mannā",
+      "kurukh_word_ascii": "Sajha manna",
+      "english_definition": "to become partner",
+      "hindi_definition": "साझीदार बनना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sājgā'ānā",
+      "kurukh_word_ascii": "Sajga'ana",
+      "english_definition": "to put in order or line",
+      "hindi_definition": "क्रम में लगाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Sāk",
+      "kurukh_word_ascii": "Sak",
+      "english_definition": "courage",
+      "hindi_definition": "साहस, हिम्मत",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sākōārnā",
+      "kurukh_word_ascii": "Sakoarna",
+      "english_definition": "to be dubious, to hesitate, be reluctant",
+      "hindi_definition": "संदेहास्पद होना, हिचकिचाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Sākhē",
+      "kurukh_word_ascii": "Sakhe",
+      "english_definition": "the sal-tree",
+      "hindi_definition": "साल का पेड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sākhrā / Sākrā sēkrā",
+      "kurukh_word_ascii": "Sakhra / Sakra sekra",
+      "english_definition": "a number",
+      "hindi_definition": "एक संख्या",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sākhrī",
+      "kurukh_word_ascii": "Sakhri",
+      "english_definition": "the demon of mothers, whose sacrifice purifies them after childbirth",
+      "hindi_definition": "माताओं की राक्षसी, जिसकी बलि से प्रसव के बाद शुद्धि होती है",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāk sākvā",
+      "kurukh_word_ascii": "Sak sakra",
+      "english_definition": "close, tight",
+      "hindi_definition": "बंद, तंग",
+      "part_of_speech": "adj",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sālam sālamrnā",
+      "kurukh_word_ascii": "Salam salamrna",
+      "english_definition": "to walk or go around without distinct object",
+      "hindi_definition": "बिना किसी उद्देश्य के इधर-उधर घूमना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāleyē-mann",
+      "kurukh_word_ascii": "Saleye-mann",
+      "english_definition": "silk cotton tree",
+      "hindi_definition": "सेमल का पेड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sālnā",
+      "kurukh_word_ascii": "Salna",
+      "english_definition": "to be pleasant, agreeable",
+      "hindi_definition": "सुखद होना, अच्छा लगना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Sālgā'ānā",
+      "kurukh_word_ascii": "Salga'ana",
+      "english_definition": "to kindle a fire",
+      "hindi_definition": "आग जलाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Sālōy sōpōy",
+      "kurukh_word_ascii": "Saloy sopoy",
+      "english_definition": "loosely, carelessly",
+      "hindi_definition": "ढीले ढंग से, लापरवाही से",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sāmā nannī",
+      "kurukh_word_ascii": "Sama nanni",
+      "english_definition": "to collect, gather",
+      "hindi_definition": "इकट्ठा करना, संग्रह करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāmārnā",
+      "kurukh_word_ascii": "Samarna",
+      "english_definition": "to reconcile (intr.)",
+      "hindi_definition": "मेल-मिलाप करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "transitivity": "intr"
+    },
+    {
+      "kurukh_word": "Sāmbā",
+      "kurukh_word_ascii": "Samba",
+      "english_definition": "the iron point of the pestle",
+      "hindi_definition": "ओखल की लोहे की नोक",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāmbā",
+      "kurukh_word_ascii": "Samba",
+      "english_definition": "anus, after",
+      "hindi_definition": "गुदा, पीछे",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Sāmbā urkhna",
+      "kurukh_word_ascii": "Samba urkhna",
+      "english_definition": "projecting of the anus, piles",
+      "hindi_definition": "गुदा का बाहर निकलना, बवासीर",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāmbhrā'ānā",
+      "kurukh_word_ascii": "Sambhra'ana",
+      "english_definition": "to support, stay, maintain",
+      "hindi_definition": "सहारा देना, बनाए रखना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sāmdō",
+      "kurukh_word_ascii": "Samdo",
+      "english_definition": "females who are related through marriage",
+      "hindi_definition": "विवाह से संबंधित स्त्रियाँ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāmdhī",
+      "kurukh_word_ascii": "Samdhi",
+      "english_definition": "males related through the marriage of some of their family",
+      "hindi_definition": "परिवार के किसी के विवाह से संबंधित पुरुष",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāmnē",
+      "kurukh_word_ascii": "Samne",
+      "english_definition": "to go into, contain",
+      "hindi_definition": "समाना, धारण करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sāmnā",
+      "kurukh_word_ascii": "Samna",
+      "english_definition": "to prepare, get ready",
+      "hindi_definition": "तैयार करना",
+      "part_of_speech": "verb"
+    },
+    {
+      "kurukh_word": "Sāmtā'ānā",
+      "kurukh_word_ascii": "Samta'ana",
+      "english_definition": "to fill, fill up, make even",
+      "hindi_definition": "भरना, समतल करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sāmeārnā",
+      "kurukh_word_ascii": "Samearna",
+      "english_definition": "to thrust oneself into a crowded assembly",
+      "hindi_definition": "भीड़ में धकेल कर घुसना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    }
+  ]
+}

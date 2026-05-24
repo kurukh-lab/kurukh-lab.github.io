@@ -1,0 +1,563 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg",
+  "page_label": "47",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Eṅgdai",
+      "kurukh_word_ascii": "Engdai",
+      "english_definition": "my elder sister",
+      "hindi_definition": "मेरी बड़ी बहन; एंगबैनाली: ननद (पति की बड़ी बहन) या जेठानी/साली (पत्नी की बड़ी बहन)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "eṅgbainālī"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "my elder sister; eṅgbainālī: sister-in-law (husband's elder sister or wife's elder sister)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मेरी बड़ी बहन; एंगबैनाली: ननद (पति की बड़ी बहन) या जेठानी/साली (पत्नी की बड़ी बहन)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Eṅgjaun khaddis",
+      "kurukh_word_ascii": "Engjaun khaddis",
+      "english_definition": "my son-in-law",
+      "hindi_definition": "मेरा दामाद; एंगबैनालस: जेठ (पति का बड़ा भाई)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "eṅgbainālas"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "my son-in-law; eṅgbainālas: brother-in-law (husband's elder brother)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मेरा दामाद; एंगबैनालस: जेठ (पति का बड़ा भाई)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Eṅgskheddō",
+      "kurukh_word_ascii": "Engskheddo",
+      "english_definition": "my daughter-in-law",
+      "hindi_definition": "मेरी पुत्रवधू, पतोहू",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "my daughter-in-law", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मेरी पुत्रवधू, पतोहू", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Eṅgkhai",
+      "kurukh_word_ascii": "Engkhai",
+      "english_definition": "my wife",
+      "hindi_definition": "मेरी पत्नी, अर्धांगिनी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "my wife", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मेरी पत्नी, अर्धांगिनी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Eṅgnāsgō",
+      "kurukh_word_ascii": "Engnasgo",
+      "english_definition": "my elder brother's wife",
+      "hindi_definition": "मेरी भाभी (बड़े भाई की पत्नी)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "my elder brother's wife", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मेरी भाभी (बड़े भाई की पत्नी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Eṇḍ",
+      "kurukh_word_ascii": "End",
+      "english_definition": "two",
+      "hindi_definition": "दो",
+      "part_of_speech": "numeral",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "two", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दो", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Eṇḍ oṭā",
+      "kurukh_word_ascii": "End ota",
+      "english_definition": "two pieces (of cloth)",
+      "hindi_definition": "दो थान/टुकड़े (कपड़े के)",
+      "part_of_speech": "numeral",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Eṇḍ",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "two pieces (of cloth)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दो थान/टुकड़े (कपड़े के)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Eṇḍ gōṭā",
+      "kurukh_word_ascii": "End gota",
+      "english_definition": "two heads (of cattle)",
+      "hindi_definition": "दो (मवेशी के लिए)",
+      "part_of_speech": "numeral",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Eṇḍ",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "two heads (of cattle)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दो (मवेशी के लिए)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Eṇḍtā",
+      "kurukh_word_ascii": "Endta",
+      "english_definition": "the second (neuter)",
+      "hindi_definition": "दूसरा (नपुंसक लिंग)",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "eṇḍantā"
+      ],
+      "variant_of": "Eṇḍ",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the second (neuter)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दूसरा (नपुंसक लिंग)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "eṇḍantā",
+      "kurukh_word_ascii": "endanta",
+      "english_definition": "the second (neuter)",
+      "hindi_definition": "दूसरा (नपुंसक लिंग)",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Eṇḍtā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the second (neuter)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दूसरा (नपुंसक लिंग)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Eṇḍoye",
+      "kurukh_word_ascii": "Endoye",
+      "english_definition": "twenty",
+      "hindi_definition": "बीस",
+      "part_of_speech": "numeral",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "eṇḍoyond",
+        "eṇdoyeṇḍ"
+      ],
+      "variant_of": "Eṇḍ",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "twenty; eṇḍoyond: twenty-one; eṇdoyeṇḍ: twenty-two", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बीस; एण्डोयोन्द: इक्कीस; एण्डोयेण्ड: बाईस", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Eṇḍānim",
+      "kurukh_word_ascii": "Endanim",
+      "english_definition": "both",
+      "hindi_definition": "दोनों",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Eṇḍ",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "both; ullend: two days; pāreṇd: two times, twice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दोनों; उल्लेण्ड: दो दिन; पारेण्ड: दो बार", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr",
+      "kurukh_word_ascii": "Endr",
+      "english_definition": "which, what?",
+      "hindi_definition": "कौन सा, क्या?",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "Endr gahi",
+        "endr gē"
+      ],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "which, what?; Endr gahi: of what, endr gē: to what", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कौन सा, क्या?; एन्द्र गहि: किसका/क्या का, एन्द्र गे: किसको/किसलिए", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr",
+      "kurukh_word_ascii": "Endr",
+      "english_definition": "why?",
+      "hindi_definition": "क्यों?",
+      "part_of_speech": "interjection",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "why?", "example_sentence_kurukh": "Endr, ās argā barcas?", "example_sentence_translation": "Why, did he not come yet?" },
+        { "language": "hi", "definition": "क्यों?", "example_sentence_kurukh": "Endr, ās argā barcas?", "example_sentence_translation": "क्यों, वह अभी तक नहीं आया?" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr",
+      "kurukh_word_ascii": "Endr",
+      "english_definition": "of what kind",
+      "hindi_definition": "किस प्रकार का, कैसा",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 3,
+      "meanings": [
+        { "language": "en", "definition": "of what kind", "example_sentence_kurukh": "endr bīnkō ethrā?", "example_sentence_translation": "What kind of star, appeared?" },
+        { "language": "hi", "definition": "किस प्रकार का, कैसा", "example_sentence_kurukh": "endr bīnkō ethrā?", "example_sentence_translation": "कैसा तारा दिखाई दिया?" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr",
+      "kurukh_word_ascii": "Endr",
+      "english_definition": "whether ... or",
+      "hindi_definition": "चाहे ... या",
+      "part_of_speech": "conjunction",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 4,
+      "meanings": [
+        { "language": "en", "definition": "whether ... or (in combination with kā)", "example_sentence_kurukh": "endr mētar kā mukkar ra'anar. ormarin kōr'ā ciā", "example_sentence_translation": "Whether they be men or women, let them all enter" },
+        { "language": "hi", "definition": "चाहे ... या (kā के साथ मिलकर)", "example_sentence_kurukh": "endr mētar kā mukkar ra'anar. ormarin kōr'ā ciā", "example_sentence_translation": "चाहे वे पुरुष हों या स्त्रियाँ, उन सभी को प्रवेश करने दो" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr lekhā",
+      "kurukh_word_ascii": "Endr lekha",
+      "english_definition": "what like?",
+      "hindi_definition": "कैसा, किस तरह का?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Endr",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "what like?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कैसा, किस तरह का?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr gē",
+      "kurukh_word_ascii": "Endr ge",
+      "english_definition": "wherefore?",
+      "hindi_definition": "किसलिए?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Endr",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "wherefore?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "किसलिए?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr bāon?",
+      "kurukh_word_ascii": "Endr baon",
+      "english_definition": "What shall I say?",
+      "hindi_definition": "मैं क्या कहूँ?",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "Endr bā'dai?"
+      ],
+      "variant_of": "Endr",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "What shall I say?; Endr bā'dai? What do you say?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मैं क्या कहूँ?; एन्द्र बा'दै? तुम क्या कहते हो?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr manō?",
+      "kurukh_word_ascii": "Endr mano",
+      "english_definition": "What will be? It does not matter",
+      "hindi_definition": "क्या होगा? कोई बात नहीं, कोई फ़र्क नहीं पड़ता",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Endr",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "What will be? It does not matter", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "क्या होगा? कोई बात नहीं, कोई फ़र्क नहीं पड़ता", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr hõ mal manō",
+      "kurukh_word_ascii": "Endr ho mal mano",
+      "english_definition": "nothing will be or happen, it does not matter at all",
+      "hindi_definition": "कुछ नहीं होगा, बिल्कुल कोई फ़र्क नहीं पड़ता",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Endr",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "nothing will be or happen, it does not matter at all", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कुछ नहीं होगा, बिल्कुल कोई फ़र्क नहीं पड़ता", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr akho'e?",
+      "kurukh_word_ascii": "Endr akho'e",
+      "english_definition": "What do you know? i.e., perhaps, it may be",
+      "hindi_definition": "तुम्हें क्या पता? यानी, शायद, हो सकता है",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Endr",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "What do you know? i.e., perhaps, it may be", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तुम्हें क्या पता? यानी, शायद, हो सकता है", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endrālō?",
+      "kurukh_word_ascii": "Endralo",
+      "english_definition": "What thing? What's that?",
+      "hindi_definition": "क्या चीज़? वह क्या है?",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Endr",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "What thing? What's that?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "क्या चीज़? वह क्या है?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr nanta'adai?",
+      "kurukh_word_ascii": "Endr nanta'adai",
+      "english_definition": "What are you going to do? What shall become of it?",
+      "hindi_definition": "तुम क्या करने जा रहे हो? इसका क्या नतीजा होगा?",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Endr",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "What are you going to do? What shall become of it?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तुम क्या करने जा रहे हो? इसका क्या नतीजा होगा?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endr nano'e?",
+      "kurukh_word_ascii": "Endr nano'e",
+      "english_definition": "What's to be done? I can't help it",
+      "hindi_definition": "अब क्या किया जाए? मैं कुछ नहीं कर सकता",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "endr nanon?"
+      ],
+      "variant_of": "Endr",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "What's to be done? I can't help it", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अब क्या किया जाए? मैं कुछ नहीं कर सकता", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "endr nanon?",
+      "kurukh_word_ascii": "endr nanon",
+      "english_definition": "What's to be done? I can't help it",
+      "hindi_definition": "अब क्या किया जाए? मैं कुछ नहीं कर सकता",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Endr nano'e?",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "What's to be done? I can't help it", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अब क्या किया जाए? मैं कुछ नहीं कर सकता", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    },
+    {
+      "kurukh_word": "Endrā",
+      "kurukh_word_ascii": "Endra",
+      "english_definition": "what",
+      "hindi_definition": "क्या",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "what; endrā gahi: of what; endrā ra'i? What is it? What's the matter? (used indefinitely)", "example_sentence_kurukh": "endrā ra'i?", "example_sentence_translation": "What is it? What's the matter?" },
+        { "language": "hi", "definition": "क्या; एन्द्रा गहि: किस चीज़ का; एन्द्रा र'इ? यह क्या है? क्या बात है? (अनिश्चित रूप से प्रयुक्त)", "example_sentence_kurukh": "endrā ra'i?", "example_sentence_translation": "यह क्या है? क्या बात है?" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0051.jpg", "page_label": "47" }
+    }
+  ]
+}

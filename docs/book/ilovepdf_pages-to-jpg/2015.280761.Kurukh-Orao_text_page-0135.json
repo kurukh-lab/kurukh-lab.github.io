@@ -1,0 +1,278 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0135.jpg",
+  "page_label": "131",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Nannus",
+      "kurukh_word_ascii": "Nannus",
+      "english_definition": "the doer or maker; frequently compounded with other words, e.g., saṅgārnannus, the helper.",
+      "hindi_definition": "कर्ता (करने वाला या बनाने वाला); अक्सर अन्य शब्दों के साथ जुड़ता है, जैसे saṅgārnannus = मददगार (सहायता करने वाला)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nārā",
+      "kurukh_word_ascii": "Nara",
+      "english_definition": "stalk.",
+      "hindi_definition": "तनाव (डंठल)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nārā",
+      "kurukh_word_ascii": "Nara",
+      "english_definition": "stubble.",
+      "hindi_definition": "ठूँठ (फसल कटने के बाद बचा हुआ भाग) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": "2nd homograph of Nārā"
+    },
+    {
+      "kurukh_word": "Nārnā",
+      "kurukh_word_ascii": "Narna",
+      "english_definition": "ckan, c'an, to yoke, to break a horse or ox.",
+      "hindi_definition": "नाथना (हल में जोतना, घोड़े या बैल को वश में करना) (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nanta'anā",
+      "kurukh_word_ascii": "Nanta'ana",
+      "english_definition": "ckan, o'an, to cause to be made or done.",
+      "hindi_definition": "करवाना (करवाना या बनवाना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Napē",
+      "kurukh_word_ascii": "Nape",
+      "english_definition": "adj. handsome.",
+      "hindi_definition": "विशेषण। सुंदर, रूपवान।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nargā",
+      "kurukh_word_ascii": "Narga",
+      "english_definition": "bug.",
+      "hindi_definition": "खटमल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nargā-ghāsī",
+      "kurukh_word_ascii": "Narga-ghasi",
+      "english_definition": "bug-grass.",
+      "hindi_definition": "खटमल-घास (एक प्रकार की घास)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nargōṛā",
+      "kurukh_word_ascii": "Nargora",
+      "english_definition": "shinbone (also called narhōṛā).",
+      "hindi_definition": "पैर की नली (नरहरी) की हड्डी।",
+      "part_of_speech": "noun",
+      "notes": "Variant: narhōṛā"
+    },
+    {
+      "kurukh_word": "Narī",
+      "kurukh_word_ascii": "Nari",
+      "english_definition": "nerve, pulse.",
+      "hindi_definition": "नाड़ी (नस) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nariynā",
+      "kurukh_word_ascii": "Nariyna",
+      "english_definition": "ckan, o'an, to be fretful, to cry without any apparent reason.",
+      "hindi_definition": "चिड़चिड़ा होना, बिना किसी प्रत्यक्ष कारण के रोना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Narī",
+      "kurukh_word_ascii": "Nari",
+      "english_definition": "the rope with which the ox is tied to the yoke.",
+      "hindi_definition": "जोत (वह रस्सी जिससे बैल को जुए से बांधा जाता है) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": "2nd homograph of Narī"
+    },
+    {
+      "kurukh_word": "Narī kōrnā",
+      "kurukh_word_ascii": "Nari korna",
+      "english_definition": "to get fever.",
+      "hindi_definition": "बुखार आना (ज्वर चढ़ना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Arkhā narī",
+      "kurukh_word_ascii": "Arkha nari",
+      "english_definition": "splenic fever.",
+      "hindi_definition": "तिल्ली का बुखार (प्लीहा ज्वर)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Narī ambnā",
+      "kurukh_word_ascii": "Nari ambna",
+      "english_definition": "the leaving of fever; narī eṅgan ambyā, the fever left me.",
+      "hindi_definition": "बुखार उतरना; narī eṅgan ambyā = मेरा बुखार उतर गया।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nārkā",
+      "kurukh_word_ascii": "Narka",
+      "english_definition": "adj. broken, tamed.",
+      "hindi_definition": "विशेषण। पालतू बनाया हुआ, वश में किया हुआ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Narmēyā",
+      "kurukh_word_ascii": "Narmeya",
+      "english_definition": "soft, tender.",
+      "hindi_definition": "नरम, कोमल (हिंदी से लिया गया)।",
+      "part_of_speech": "adjective",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Narmārnā",
+      "kurukh_word_ascii": "Narmarna",
+      "english_definition": "kan, an, to become less, give way, to improve; dukh narmārā kerā, the disease/pain has become less.",
+      "hindi_definition": "कम होना, राहत मिलना; dukh narmārā kerā = बीमारी/दर्द कम हो गया है (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": "Example: dukh narmārā kerā = the disease/pain has become less"
+    },
+    {
+      "kurukh_word": "Nasgō",
+      "kurukh_word_ascii": "Nasgo",
+      "english_definition": "elder brother's wife; engnasgō, my elder brother's wife.",
+      "hindi_definition": "भाभी (बड़े भाई की पत्नी); engnasgō = मेरी भाभी।",
+      "part_of_speech": "noun",
+      "notes": "Possessive form: engnasgō"
+    },
+    {
+      "kurukh_word": "Nassnā",
+      "kurukh_word_ascii": "Nassna",
+      "english_definition": "kan, an, to bewitch, to destroy or make ill through witchcraft.",
+      "hindi_definition": "जादू-टोना करना, जादू-टोने से बीमार या नष्ट करना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nasrnā",
+      "kurukh_word_ascii": "Nasrna",
+      "english_definition": "kan, an, to be bewitched.",
+      "hindi_definition": "जादू-टोने से ग्रस्त होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nasrnā",
+      "kurukh_word_ascii": "Nasrna",
+      "english_definition": "kan, an, to get spoiled, to perish.",
+      "hindi_definition": "नष्ट होना, बर्बाद होना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": "2nd homograph of Nasrnā"
+    },
+    {
+      "kurukh_word": "Nātā",
+      "kurukh_word_ascii": "Nata",
+      "english_definition": "relatives, kinsmen.",
+      "hindi_definition": "नाता (रिश्तेदार, सम्बन्धी) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nātāguṭiā",
+      "kurukh_word_ascii": "Natagutia",
+      "english_definition": "relatives, kinsmen (same as Nātā).",
+      "hindi_definition": "नाता-रिश्तेदार (Nātā के समान) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Natgnā",
+      "kurukh_word_ascii": "Natgna",
+      "english_definition": "kan, yan, to pull, drag, draw.",
+      "hindi_definition": "खींचना, घसीटना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Natnā",
+      "kurukh_word_ascii": "Natna",
+      "english_definition": "ckan, o'an, to clean the floor where one has taken the meal.",
+      "hindi_definition": "भोजन करने के स्थान को साफ करना (लीप-पोतकर साफ करना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nattī",
+      "kurukh_word_ascii": "Natti",
+      "english_definition": "grandson; engnattis, my grandson.",
+      "hindi_definition": "पोता (नाती) (हिंदी से लिया गया); engnattis = मेरा पोता।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": "Possessive form: engnattis"
+    },
+    {
+      "kurukh_word": "Nattiyē",
+      "kurukh_word_ascii": "Nattiye",
+      "english_definition": "granddaughter.",
+      "hindi_definition": "पोती (नातिन) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Naujadī",
+      "kurukh_word_ascii": "Naujadi",
+      "english_definition": "famous.",
+      "hindi_definition": "प्रसिद्ध, नामी।",
+      "part_of_speech": "adjective",
+      "loanword_from": "ur",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Naumehalā",
+      "kurukh_word_ascii": "Naumehala",
+      "english_definition": "castle, palace.",
+      "hindi_definition": "महल, राजप्रासाद (नौमहल) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Naur",
+      "kurukh_word_ascii": "Naur",
+      "english_definition": "the fruit of the Sal tree.",
+      "hindi_definition": "साल (सखुआ) के पेड़ का फल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    }
+  ]
+}

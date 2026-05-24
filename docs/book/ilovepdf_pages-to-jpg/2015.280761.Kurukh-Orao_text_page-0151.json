@@ -1,0 +1,245 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0151.jpg",
+  "page_label": "147",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pārnā",
+      "kurukh_word_ascii": "Parna",
+      "english_definition": "to sing",
+      "hindi_definition": "गाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Dāndī pārnā",
+      "kurukh_word_ascii": "Dandi parna",
+      "english_definition": "to sing hymns",
+      "hindi_definition": "भजन गाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pārpānc nannā",
+      "kurukh_word_ascii": "Parpanc nanna",
+      "english_definition": "to quarrel, dispute",
+      "hindi_definition": "झगड़ा करना, विवाद करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pārpānd",
+      "kurukh_word_ascii": "Parpand",
+      "english_definition": "clear",
+      "hindi_definition": "साफ, स्पष्ट",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pārpānd nannā",
+      "kurukh_word_ascii": "Parpand nanna",
+      "english_definition": "to clear away, as grass or weeds",
+      "hindi_definition": "घास या खरपतवार साफ करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pārsnā",
+      "kurukh_word_ascii": "Parsna",
+      "english_definition": "to take upon oneself",
+      "hindi_definition": "खुद पर लेना, जिम्मा लेना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pārtā",
+      "kurukh_word_ascii": "Parta",
+      "english_definition": "mountain, hill",
+      "hindi_definition": "पहाड़, पर्वत",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārtā mēnyā",
+      "kurukh_word_ascii": "Parta menya",
+      "english_definition": "on the top of the hill",
+      "hindi_definition": "पहाड़ की चोटी पर",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pārtā kiyā",
+      "kurukh_word_ascii": "Parta kiya",
+      "english_definition": "at the foot of the hill",
+      "hindi_definition": "पहाड़ के तल पर",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pārtā nu",
+      "kurukh_word_ascii": "Parta nu",
+      "english_definition": "on the slope of the hill",
+      "hindi_definition": "पहाड़ की ढलान पर",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pārtā'ānā",
+      "kurukh_word_ascii": "Parta'ana",
+      "english_definition": "to teach to read",
+      "hindi_definition": "पढ़ाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pārtāriyā",
+      "kurukh_word_ascii": "Partariya",
+      "english_definition": "canny, clever",
+      "hindi_definition": "चतुर, होशियार",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pāsā",
+      "kurukh_word_ascii": "Pasa",
+      "english_definition": "the knot of an iron axe",
+      "hindi_definition": "लोहे की कुल्हाड़ी की गाँठ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāsā'ānā",
+      "kurukh_word_ascii": "Pasa'ana",
+      "english_definition": "to imagine, think, consider",
+      "hindi_definition": "कल्पना करना, सोचना, विचार करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pāsnā",
+      "kurukh_word_ascii": "Pasna",
+      "english_definition": "to strike",
+      "hindi_definition": "मारना, प्रहार करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pāsnā",
+      "kurukh_word_ascii": "Pasna",
+      "english_definition": "to strike",
+      "hindi_definition": "मारना, प्रहार करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pāsngā rā'ānā",
+      "kurukh_word_ascii": "Pasnga ra'ana",
+      "english_definition": "under- or over-balance in a scale",
+      "hindi_definition": "तराजू में कम या ज्यादा होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāssnā",
+      "kurukh_word_ascii": "Passna",
+      "english_definition": "to forge",
+      "hindi_definition": "धातु गढ़ना, लोहार का काम करना",
+      "part_of_speech": "verb"
+    },
+    {
+      "kurukh_word": "Pāsrā",
+      "kurukh_word_ascii": "Pasra",
+      "english_definition": "wild rice",
+      "hindi_definition": "जंगली चावल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Lōhrā pāsrā",
+      "kurukh_word_ascii": "Lohra pasra",
+      "english_definition": "the blacksmith's shop, forge",
+      "hindi_definition": "लोहार की दुकान, भट्टी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāsrā",
+      "kurukh_word_ascii": "Pasra",
+      "english_definition": "chimney of the forge",
+      "hindi_definition": "भट्टी की चिमनी",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pāsrārnā",
+      "kurukh_word_ascii": "Pasrarna",
+      "english_definition": "to be dispersed",
+      "hindi_definition": "बिखरना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pāsrā'ānā",
+      "kurukh_word_ascii": "Pasra'ans",
+      "english_definition": "to disperse, scatter",
+      "hindi_definition": "बिखेरना, फैलाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Pāstārnā",
+      "kurukh_word_ascii": "Pastarna",
+      "english_definition": "to repent",
+      "hindi_definition": "पश्चाताप करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pāstī",
+      "kurukh_word_ascii": "Pasti",
+      "english_definition": "handful; ondpāstī = both handsful",
+      "hindi_definition": "एक मुट्ठी; ओंड पास्ती = दोनों मुट्ठी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pātā",
+      "kurukh_word_ascii": "Pata",
+      "english_definition": "chisel",
+      "hindi_definition": "छेनी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pātā",
+      "kurukh_word_ascii": "Pata",
+      "english_definition": "traditional right",
+      "hindi_definition": "परंपरागत अधिकार",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pāt'ē nannā",
+      "kurukh_word_ascii": "Pat'e nanna",
+      "english_definition": "to thaw up (trans.), as a lamb stiff with cold is brought to a fire to thaw it up",
+      "hindi_definition": "ठंड से अकड़े मेमने को आग के पास पिघलाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pātī",
+      "kurukh_word_ascii": "Pati",
+      "english_definition": "helmet",
+      "hindi_definition": "शिरस्त्राण, हेलमेट",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pātnā",
+      "kurukh_word_ascii": "Patna",
+      "english_definition": "to make a ceiling",
+      "hindi_definition": "छत बनाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pātānpār'ā",
+      "kurukh_word_ascii": "Patanpar'a",
+      "english_definition": "all and sundry",
+      "hindi_definition": "सभी लोग, हर एक",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Pātgālī",
+      "kurukh_word_ascii": "Patgali",
+      "english_definition": "a cup made of leaves being stitched together",
+      "hindi_definition": "पत्तों को सिलकर बना कप",
+      "part_of_speech": "noun"
+    }
+  ]
+}

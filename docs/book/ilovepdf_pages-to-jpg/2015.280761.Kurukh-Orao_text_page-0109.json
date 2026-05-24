@@ -1,0 +1,293 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0109.jpg",
+  "page_label": "105",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "K̲h̲eddō",
+      "kurukh_word_ascii": "Kheddo",
+      "english_definition": "daughter-in-law, engskheddō, my daughter-in-law.",
+      "hindi_definition": "बहू, पुत्रवधू; engskheddō = मेरी बहू।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ē'enā",
+      "kurukh_word_ascii": "Khe'ena",
+      "english_definition": "fresh ; khē'enā amm, fresh water.",
+      "hindi_definition": "ताजा; khē'enā amm = ताजा पानी।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ē'enā",
+      "kurukh_word_ascii": "Khe'ena",
+      "english_definition": "green, unripe.",
+      "hindi_definition": "हरा, कच्चा (फल आदि)।",
+      "part_of_speech": "adjective",
+      "notes": "2nd homograph of K̲h̲ē'enā — green/unripe"
+    },
+    {
+      "kurukh_word": "K̲h̲ē'enā rāanā",
+      "kurukh_word_ascii": "Khe'ena raana",
+      "english_definition": "to be sober, to have an empty stomach.",
+      "hindi_definition": "खाली पेट होना, होश में होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ēk̲h̲ēl",
+      "kurukh_word_ascii": "Khekhel",
+      "english_definition": "earth, world.",
+      "hindi_definition": "पृथ्वी, दुनिया, संसार।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ēk̲h̲ēl ērnā",
+      "kurukh_word_ascii": "Khekhel erna",
+      "english_definition": "to spy.",
+      "hindi_definition": "जासूसी करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ēk̲h̲ēl nukrnā",
+      "kurukh_word_ascii": "Khekhel nukrna",
+      "english_definition": "earthquake.",
+      "hindi_definition": "भूकंप।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ekkhā",
+      "kurukh_word_ascii": "Khekkha",
+      "english_definition": "hand.",
+      "hindi_definition": "हाथ।",
+      "part_of_speech": "noun",
+      "notes": "Variant: k̲h̲ekhã"
+    },
+    {
+      "kurukh_word": "k̲h̲ekhã",
+      "kurukh_word_ascii": "khekha",
+      "english_definition": "hand.",
+      "hindi_definition": "हाथ।",
+      "part_of_speech": "noun",
+      "notes": "Variant of K̲h̲ekkhā"
+    },
+    {
+      "kurukh_word": "K̲h̲ekkhā bichrnā",
+      "kurukh_word_ascii": "Khekkha bichrna",
+      "english_definition": "to be always ready to strike, irritable.",
+      "hindi_definition": "हमेशा मारने को उतारू रहना, चिड़चिड़ा होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ekhan dīghā nannā",
+      "kurukh_word_ascii": "Khekhan digha nanna",
+      "english_definition": "to stretch out the hand, i.e., to be liberal.",
+      "hindi_definition": "हाथ फैलाना (उदार होना, दान देना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ekhātī ēdnā",
+      "kurukh_word_ascii": "Khekhati edna",
+      "english_definition": "to point out with the hand.",
+      "hindi_definition": "हाथ से इशारा करना, हाथ से दिखाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ēl",
+      "kurukh_word_ascii": "Khel",
+      "english_definition": "drum made of clay.",
+      "hindi_definition": "मिट्टी का बना ढोल (मांदर)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲emdnā",
+      "kurukh_word_ascii": "Khemdna",
+      "english_definition": "kan, an, to sleep together with a child in the bosom.",
+      "hindi_definition": "बच्चे को छाती से लगाकर साथ सोना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲emnā",
+      "kurukh_word_ascii": "Khemna",
+      "english_definition": "c'kan, c'an to be without caste.",
+      "hindi_definition": "जातिविहीन होना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ēndnā",
+      "kurukh_word_ascii": "Khendna",
+      "english_definition": "khindkan, yan, to buy, purchase; ēbaggē nū khindkai, at what price did you purchase?",
+      "hindi_definition": "खरीदना; ēbaggē nū khindkai = तुमने किस कीमत पर खरीदा?",
+      "part_of_speech": "verb",
+      "verb_class": "khindkan-yan",
+      "notes": "Example: ēbaggē nū khindkai = at what price did you purchase"
+    },
+    {
+      "kurukh_word": "K̲h̲ēndnā bīsnā",
+      "kurukh_word_ascii": "Khendna bisna",
+      "english_definition": "to buy and to sell, to trade.",
+      "hindi_definition": "क्रय-विक्रय करना, व्यापार करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ēnā k̲h̲ōrnā",
+      "kurukh_word_ascii": "Khena khorna",
+      "english_definition": "to be green.",
+      "hindi_definition": "हरा-भरा होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ennā",
+      "kurukh_word_ascii": "Khenna",
+      "english_definition": "khinkan, yan, to commit adultery.",
+      "hindi_definition": "व्यभिचार करना।",
+      "part_of_speech": "verb",
+      "verb_class": "khinkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲oẽcōṇā",
+      "kurukh_word_ascii": "Khoecona",
+      "english_definition": "kan, yan, to support and lead, as a little child is lead.",
+      "hindi_definition": "सहानुभूतिपूर्वक सहारा देकर ले चलना (जैसे छोटे बच्चे को हाथ पकड़कर चलाते हैं)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲eõcnā",
+      "kurukh_word_ascii": "Kheoncna",
+      "english_definition": "kan, yan, to embrace.",
+      "hindi_definition": "गले लगाना, आलिंगन करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ẽs",
+      "kurukh_word_ascii": "Khens",
+      "english_definition": "adj. red.",
+      "hindi_definition": "लाल।",
+      "part_of_speech": "adjective",
+      "notes": "Variant: k̲h̲ẽsō"
+    },
+    {
+      "kurukh_word": "k̲h̲ẽsō",
+      "kurukh_word_ascii": "khenso",
+      "english_definition": "red.",
+      "hindi_definition": "लाल।",
+      "part_of_speech": "adjective",
+      "notes": "Variant of K̲h̲ẽs"
+    },
+    {
+      "kurukh_word": "K̲h̲ẽs k̲h̲ẽsō",
+      "kurukh_word_ascii": "Khens khenso",
+      "english_definition": "blood.",
+      "hindi_definition": "खून, रक्त।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ẽsō urkhnā",
+      "kurukh_word_ascii": "Khenso urkhna",
+      "english_definition": "to bleed, lose blood.",
+      "hindi_definition": "खून बहना, खून की हानि होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ẽsō curkhnā",
+      "kurukh_word_ascii": "Khenso curkhna",
+      "english_definition": "to bleed, lose blood (same as above).",
+      "hindi_definition": "खून बहना, रक्तस्राव होना (उपरोक्त के समान)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ẽs kāanā",
+      "kurukh_word_ascii": "Khens kaana",
+      "english_definition": "flow of blood, menstruation (mensis).",
+      "hindi_definition": "रक्तप्रवाह, मासिक धर्म।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ẽs khatkā khaddas",
+      "kurukh_word_ascii": "Khens khatka khaddas",
+      "english_definition": "one's own son, a son of one's own blood.",
+      "hindi_definition": "अपना खुद का बेटा, सगा बेटा।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ẽs khatrkā bhaiguṭhiar",
+      "kurukh_word_ascii": "Khens khatrka bhaiguthiar",
+      "english_definition": "blood relatives.",
+      "hindi_definition": "सगे संबंधी, रक्त संबंधी।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ẽs khondrnā",
+      "kurukh_word_ascii": "Khens khondrna",
+      "english_definition": "abscess.",
+      "hindi_definition": "फोड़ा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ẽsō lekhā",
+      "kurukh_word_ascii": "Khenso lekha",
+      "english_definition": "reddish.",
+      "hindi_definition": "लालिमा लिए हुए, लाल सा।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ẽs musō urkhnā",
+      "kurukh_word_ascii": "Khens muso urkhna",
+      "english_definition": "to suffer from dysentery.",
+      "hindi_definition": "पेचिश (खूनी दस्त) से पीड़ित होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ẽs pok",
+      "kurukh_word_ascii": "Khens pok",
+      "english_definition": "the red ant.",
+      "hindi_definition": "लाल चींटी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲eppā",
+      "kurukh_word_ascii": "Kheppa",
+      "english_definition": "inhabitant of a village.",
+      "hindi_definition": "ग्रामीण, गाँव का निवासी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲eppar",
+      "kurukh_word_ascii": "Kheppar",
+      "english_definition": "inhabitants, population.",
+      "hindi_definition": "निवासी, आबादी (बहुवचन)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    }
+  ]
+}

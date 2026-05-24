@@ -1,0 +1,291 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0104.jpg",
+  "page_label": "100",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Khudkhudrnā",
+      "kurukh_word_ascii": "Khudkhudrna",
+      "english_definition": "kan, an or Khudu Khudu alkhnā, to laugh, to titter, snicker.",
+      "hindi_definition": "हँसना, मुस्कुराना, खिखियाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Variant: Khudu Khudu alkhnā"
+    },
+    {
+      "kurukh_word": "Khudu Khudu alkhnā",
+      "kurukh_word_ascii": "Khudu Khudu alkhna",
+      "english_definition": "to laugh, to titter, snicker.",
+      "hindi_definition": "खिखियाना, हँसना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Variant of Khudkhudrnā; reduplicated form"
+    },
+    {
+      "kurukh_word": "Khudī curū",
+      "kurukh_word_ascii": "Khudi curu",
+      "english_definition": "adj. broken.",
+      "hindi_definition": "टूटा हुआ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khudrī",
+      "kurukh_word_ascii": "Khudri",
+      "english_definition": "crumbs.",
+      "hindi_definition": "टुकड़े, बुरादा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khugdu",
+      "kurukh_word_ascii": "Khugdu",
+      "english_definition": "an emaciated person, thin, lean.",
+      "hindi_definition": "दुबला-पतला व्यक्ति, कमज़ोर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khuidu",
+      "kurukh_word_ascii": "Khuidu",
+      "english_definition": "or khuiru, dried, lean, an emaciated person.",
+      "hindi_definition": "सूखा, दुबला-पतला।",
+      "part_of_speech": "adjective",
+      "notes": "Variant: khuiru"
+    },
+    {
+      "kurukh_word": "Khuikhuirnā",
+      "kurukh_word_ascii": "Khuikhuirna",
+      "english_definition": "kan, an, to be or become thin and pale.",
+      "hindi_definition": "पतला और पीला होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khuila'anā",
+      "kurukh_word_ascii": "Khuila'ana",
+      "english_definition": "ckan, c'an, to deliver, entwist.",
+      "hindi_definition": "उलझाना, बाँधना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khuiyā",
+      "kurukh_word_ascii": "Khuiya",
+      "english_definition": "the stem of the maize bunch.",
+      "hindi_definition": "मक्के के गुच्छे का तना।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khujhā",
+      "kurukh_word_ascii": "Khujha",
+      "english_definition": "cup, goblet, chalice.",
+      "hindi_definition": "प्याला, कटोरी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khujhā",
+      "kurukh_word_ascii": "Khujha",
+      "english_definition": "a net to catch birds with.",
+      "hindi_definition": "पक्षी पकड़ने का जाल।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of Khujhā — net (vs. cup)"
+    },
+    {
+      "kurukh_word": "Khukhra'anā",
+      "kurukh_word_ascii": "Khukhra'ana",
+      "english_definition": "ckan, c'an, to put a pillow under the head.",
+      "hindi_definition": "सिर के नीचे तकिया रखना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khulnā",
+      "kurukh_word_ascii": "Khulna",
+      "english_definition": "ckan, c'an, to fit, as of a coat; ī kierī engā khuli, this cloth fits me well.",
+      "hindi_definition": "फिट होना, जैसे कोट। ī kierī engā khuli = यह कपड़ा मुझे अच्छा लगता है।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to fit, as of a coat.",
+          "example_sentence_kurukh": "ī kierī engā khuli",
+          "example_sentence_translation": "this cloth fits me well."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khulnā",
+      "kurukh_word_ascii": "Khulna",
+      "english_definition": "ckan, c'an, to disclose; kaprē khulcā, lit. the forehead disclosed, i.e., the destinies are disclosed, revealed, have become clear, evident.",
+      "hindi_definition": "प्रकट करना। kaprē khulcā = माथा खुला, अर्थात् भाग्य प्रकट हुए।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to disclose.",
+          "example_sentence_kurukh": "kaprē khulcā",
+          "example_sentence_translation": "lit. the forehead disclosed, i.e., the destinies are disclosed."
+        }
+      ],
+      "notes": "2nd homograph of Khulnā — to disclose (vs. to fit)"
+    },
+    {
+      "kurukh_word": "Khuṇḍī khuprī",
+      "kurukh_word_ascii": "Khundi khupri",
+      "english_definition": "heaps.",
+      "hindi_definition": "ढेर, टीले।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khuṇḍlī",
+      "kurukh_word_ascii": "Khundli",
+      "english_definition": "a room, chamber.",
+      "hindi_definition": "कमरा, कक्ष।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khūṇṭ",
+      "kurukh_word_ascii": "Khunt",
+      "english_definition": "margin.",
+      "hindi_definition": "हाशिया, किनारा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khūṇṭ",
+      "kurukh_word_ascii": "Khunt",
+      "english_definition": "clan, sept; mahtō-khūṇṭ, family of the village collector.",
+      "hindi_definition": "कुल, गोत्र। mahtō-khūṇṭ = गाँव के संग्रहकर्ता का परिवार।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of Khūṇṭ — clan (vs. margin); sub-entries: Pahān-khūṇṭ (priest clan), Muṇḍā-khūṇṭ (mayor clan)"
+    },
+    {
+      "kurukh_word": "Pahān-khūṇṭ",
+      "kurukh_word_ascii": "Pahan-khunt",
+      "english_definition": "clan of the village priest.",
+      "hindi_definition": "गाँव के पुजारी का कुल।",
+      "part_of_speech": "noun",
+      "notes": "Sub-entry of Khūṇṭ (clan)"
+    },
+    {
+      "kurukh_word": "Muṇḍā-khūṇṭ",
+      "kurukh_word_ascii": "Munda-khunt",
+      "english_definition": "clan of the village mayor.",
+      "hindi_definition": "गाँव के मुखिया का कुल।",
+      "part_of_speech": "noun",
+      "notes": "Sub-entry of Khūṇṭ (clan)"
+    },
+    {
+      "kurukh_word": "Khuṇṭnā",
+      "kurukh_word_ascii": "Khuntna",
+      "english_definition": "ckan, c'an, to enwrap, to tie in.",
+      "hindi_definition": "लपेटना, बाँधना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khupnā",
+      "kurukh_word_ascii": "Khupna",
+      "english_definition": "ckan, c'an, to work, take effect, have influence.",
+      "hindi_definition": "काम करना, प्रभाव डालना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khupnā",
+      "kurukh_word_ascii": "Khupna",
+      "english_definition": "ckan, c'an, to penetrate.",
+      "hindi_definition": "प्रवेश करना, घुसना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": "2nd homograph of Khupnā — to penetrate (vs. to take effect)"
+    },
+    {
+      "kurukh_word": "Khūsnā",
+      "kurukh_word_ascii": "Khusna",
+      "english_definition": "kan, yan, to strike, pound.",
+      "hindi_definition": "मारना, कूटना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khurī",
+      "kurukh_word_ascii": "Khuri",
+      "english_definition": "knot.",
+      "hindi_definition": "गाँठ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khurjī",
+      "kurukh_word_ascii": "Khurji",
+      "english_definition": "U. property.",
+      "hindi_definition": "संपत्ति, माल।",
+      "part_of_speech": "noun",
+      "loanword_from": "Urdu",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khurjī pātī",
+      "kurukh_word_ascii": "Khurji pati",
+      "english_definition": "property taken together, goods and chattel.",
+      "hindi_definition": "सारी संपत्ति मिलाकर, चल-अचल संपत्ति।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khurjī arja'anā",
+      "kurukh_word_ascii": "Khurji arja'ana",
+      "english_definition": "to earn property.",
+      "hindi_definition": "संपत्ति कमाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khuruk",
+      "kurukh_word_ascii": "Khuruk",
+      "english_definition": "doubt.",
+      "hindi_definition": "संदेह, शक।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khusūduru",
+      "kurukh_word_ascii": "Khusuduru",
+      "english_definition": "a whisper (khusuduru).",
+      "hindi_definition": "फुसफुसाहट।",
+      "part_of_speech": "noun",
+      "notes": "Variant in parentheses: khusuduru"
+    },
+    {
+      "kurukh_word": "Khusuduru mannā",
+      "kurukh_word_ascii": "Khusuduru manna",
+      "english_definition": "to whisper.",
+      "hindi_definition": "फुसफुसाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khusmārnā",
+      "kurukh_word_ascii": "Khusmarna",
+      "english_definition": "kan, an, to be glad, to rejoice.",
+      "hindi_definition": "खुश होना, आनंदित होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    }
+  ]
+}

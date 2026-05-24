@@ -1,0 +1,242 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0156.jpg",
+  "page_label": "152",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pōē'vē",
+      "kurukh_word_ascii": "Poeve",
+      "english_definition": "limbs",
+      "hindi_definition": "अंग, शरीर के अंग",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōrē pōr",
+      "kurukh_word_ascii": "Pore por",
+      "english_definition": "limbs",
+      "hindi_definition": "अंग",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōrō'y",
+      "kurukh_word_ascii": "Poro'y",
+      "english_definition": "a plant yielding berries",
+      "hindi_definition": "जामुन देने वाला पौधा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōrō'ē-dumbārī-mann",
+      "kurukh_word_ascii": "Poro'e-dumbari-mann",
+      "english_definition": "a kind of fig tree",
+      "hindi_definition": "एक प्रकार का गूलर का पेड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōrsā / Pursī",
+      "kurukh_word_ascii": "Porsa / Pursi",
+      "english_definition": "a measure similar to the height a man may reach with his hand",
+      "hindi_definition": "एक माप, जितना ऊँचाई पर आदमी हाथ से पहुँच सके",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pōsnā",
+      "kurukh_word_ascii": "Posna",
+      "english_definition": "to rear, support",
+      "hindi_definition": "पालना, पोसना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pōsnā pārdnā",
+      "kurukh_word_ascii": "Posna pardna",
+      "english_definition": "same as pōsnā (to rear, support)",
+      "hindi_definition": "वही (पालना)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pōttā",
+      "kurukh_word_ascii": "Potta",
+      "english_definition": "bowels, intestines",
+      "hindi_definition": "आँत",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ārē pōttā!",
+      "kurukh_word_ascii": "Are potta!",
+      "english_definition": "expression of contempt",
+      "hindi_definition": "तिरस्कार का भाव",
+      "part_of_speech": "interj"
+    },
+    {
+      "kurukh_word": "Pōthā",
+      "kurukh_word_ascii": "Potha",
+      "english_definition": "the barber's bag, a leather bag",
+      "hindi_definition": "नाई का थैला, चमड़े का झोला",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōtthā-injō",
+      "kurukh_word_ascii": "Pottha-injo",
+      "english_definition": "sardines or herring",
+      "hindi_definition": "सार्डीन या हेरिंग मछली",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōtnā",
+      "kurukh_word_ascii": "Potna",
+      "english_definition": "to plaster a wall or floor, whitewash",
+      "hindi_definition": "दीवार या फर्श पलस्तर करना, सफेदी करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pōtōm nannā",
+      "kurukh_word_ascii": "Potom nanna",
+      "english_definition": "to pack up, to make a parcel, to wrap up",
+      "hindi_definition": "बाँधना, पार्सल बनाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pōwā",
+      "kurukh_word_ascii": "Powa",
+      "english_definition": "a plant",
+      "hindi_definition": "एक पौधा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Prāhāp",
+      "kurukh_word_ascii": "Prahap",
+      "english_definition": "sin, offence, crime",
+      "hindi_definition": "पाप, अपराध",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Puddā",
+      "kurukh_word_ascii": "Pudda",
+      "english_definition": "short",
+      "hindi_definition": "छोटा, ठिगना",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Puddnā",
+      "kurukh_word_ascii": "Puddna",
+      "english_definition": "to be too short, insufficient in length",
+      "hindi_definition": "छोटा पड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pudgnā",
+      "kurukh_word_ascii": "Pudgna",
+      "english_definition": "to clean a fowl or goose of its feathers after having killed it",
+      "hindi_definition": "मुर्गी आदि का पर उखाड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pudugrnā",
+      "kurukh_word_ascii": "Pudugrna",
+      "english_definition": "to fail, to come off",
+      "hindi_definition": "विफल होना, छूट जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Puīdnā",
+      "kurukh_word_ascii": "Puidna",
+      "english_definition": "to blossom",
+      "hindi_definition": "फूलना, खिलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Puī ārkhā",
+      "kurukh_word_ascii": "Pui arkha",
+      "english_definition": "a creeper, the leaves of which are eaten",
+      "hindi_definition": "एक लता जिसके पत्ते खाए जाते हैं",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pukhnā",
+      "kurukh_word_ascii": "Pukhna",
+      "english_definition": "to soak",
+      "hindi_definition": "भिगोना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-ya"
+    },
+    {
+      "kurukh_word": "Pūkhnā",
+      "kurukh_word_ascii": "Pukhna",
+      "english_definition": "to seethe, swell",
+      "hindi_definition": "उबलना, सूजना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pūkhrnā",
+      "kurukh_word_ascii": "Pukhrna",
+      "english_definition": "to swell",
+      "hindi_definition": "सूजना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pūlkhī",
+      "kurukh_word_ascii": "Pulkhi",
+      "english_definition": "stone monuments in memory of the dead",
+      "hindi_definition": "मृतकों की स्मृति में पत्थर की स्मारक",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pūmp",
+      "kurukh_word_ascii": "Pump",
+      "english_definition": "flower; also afterbirth",
+      "hindi_definition": "फूल; अपरा (placenta) भी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pūlui pūlui",
+      "kurukh_word_ascii": "Pului pului",
+      "english_definition": "gentle, soft",
+      "hindi_definition": "कोमल, मृदु",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pūlui pūlui tāgrng",
+      "kurukh_word_ascii": "Pului pului tagrng",
+      "english_definition": "to blow softly (wind)",
+      "hindi_definition": "धीरे से बहना (हवा)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pūn",
+      "kurukh_word_ascii": "Pun",
+      "english_definition": "ornament, trinkets, garland, decorations",
+      "hindi_definition": "गहने, आभूषण, माला, सजावट",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pūn khōcōl",
+      "kurukh_word_ascii": "Pun khocol",
+      "english_definition": "breast bone",
+      "hindi_definition": "सीने की हड्डी, स्तन-अस्थि",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pūnā",
+      "kurukh_word_ascii": "Puna",
+      "english_definition": "new",
+      "hindi_definition": "नया",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pūnā gāchrkē",
+      "kurukh_word_ascii": "Puna gachrke",
+      "english_definition": "New Testament",
+      "hindi_definition": "नया नियम (बाइबल)",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

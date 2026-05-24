@@ -1,0 +1,272 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0110.jpg",
+  "page_label": "106",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "K̲h̲ēr",
+      "kurukh_word_ascii": "Kher",
+      "english_definition": "fowl.",
+      "hindi_definition": "मुर्गा/मुर्गी, पक्षी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲er cīkhnā",
+      "kurukh_word_ascii": "Kher cikhna",
+      "english_definition": "the crowing of the cock.",
+      "hindi_definition": "मुर्गे की बाँग।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ēr cīkhō birī",
+      "kurukh_word_ascii": "Kher cikho biri",
+      "english_definition": "at cockcrow, early in the morning.",
+      "hindi_definition": "पौ फटने के समय, सुबह-सुबह (मुर्गे की बाँग के समय)।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ērcnā",
+      "kurukh_word_ascii": "Khercna",
+      "english_definition": "kan, yan, to scrape out ; take out entirely.",
+      "hindi_definition": "कुरेद कर निकालना, पूरी तरह से बाहर निकालना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ercō",
+      "kurukh_word_ascii": "Kherco",
+      "english_definition": "scraper, brush.",
+      "hindi_definition": "खुरचनी, ब्रश।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ercrnā",
+      "kurukh_word_ascii": "Khercrna",
+      "english_definition": "kan, an, to be scraped off.",
+      "hindi_definition": "खुरच कर निकलना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ērkhāh",
+      "kurukh_word_ascii": "Kherkhah",
+      "english_definition": "faithful.",
+      "hindi_definition": "वफादार, स्वामिभक्त।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ernā",
+      "kurukh_word_ascii": "Kherna",
+      "english_definition": "khirkan, yan, to pocket, put by.",
+      "hindi_definition": "जेब में रखना, बचा कर रखना।",
+      "part_of_speech": "verb",
+      "verb_class": "khirkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ess",
+      "kurukh_word_ascii": "Khess",
+      "english_definition": "paddy ; the crop as well as the corn.",
+      "hindi_definition": "धान, धान की फसल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ess ark̲h̲ā",
+      "kurukh_word_ascii": "Khess arkha",
+      "english_definition": "paddy in the blades.",
+      "hindi_definition": "पत्तियों वाली धान की कोंपलें।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ess bisrnā",
+      "kurukh_word_ascii": "Khess bisrna",
+      "english_definition": "the selling of rice. K̲h̲ess ekāse bīsr'ī, at what rate does the rice sell?",
+      "hindi_definition": "धान/चावल की बिक्री; K̲h̲ess ekāse bīsr'ī = धान किस दर पर बिकता है?",
+      "part_of_speech": "noun phrase",
+      "notes": "Example: K̲h̲ess ekāse bīsr'ī = at what rate does the rice sell?"
+    },
+    {
+      "kurukh_word": "K̲h̲ess mannā",
+      "kurukh_word_ascii": "Khess manna",
+      "english_definition": "to outturning of the rice. Idnā k̲h̲ess ekāse mañjā, how did the rice turn out this year? Idnā mal mañjā, there was a bad crop this year.",
+      "hindi_definition": "धान की उपज होना; Idnā k̲h̲ess ekāse mañjā = इस साल धान की उपज कैसी रही? Idnā mal mañjā = इस साल फसल खराब रही।",
+      "part_of_speech": "verb phrase",
+      "notes": "Examples: Idnā k̲h̲ess ekāse mañjā = how did the rice turn out this year?, Idnā mal mañjā = there was a bad crop this year"
+    },
+    {
+      "kurukh_word": "K̲h̲esēr",
+      "kurukh_word_ascii": "Kheser",
+      "english_definition": "throat, the shoulders.",
+      "hindi_definition": "गला, कंधा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲esēr-farkat",
+      "kurukh_word_ascii": "Kheser-farkat",
+      "english_definition": "shoulder-blade.",
+      "hindi_definition": "कंधे की हड्डी (स्कैपुला)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲esēr-muddō",
+      "kurukh_word_ascii": "Kheser-muddo",
+      "english_definition": "the shoulder joint.",
+      "hindi_definition": "कंधे का जोड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲esēr pedkhnā",
+      "kurukh_word_ascii": "Kheser pedkhna",
+      "english_definition": "to fly at another's throat, to try to suffocate.",
+      "hindi_definition": "गले पर झपटना, गला दबाने की कोशिश करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲esēruṇḍī",
+      "kurukh_word_ascii": "Kheserundi",
+      "english_definition": "up to the shoulders.",
+      "hindi_definition": "कंधे तक।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲esēr-nūocēdnā",
+      "kurukh_word_ascii": "Kheser-nuocedna",
+      "english_definition": "to carry on the shoulders.",
+      "hindi_definition": "कंधों पर उठाना (ढोना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ettā",
+      "kurukh_word_ascii": "Khetta",
+      "english_definition": "a cup, made of leaves.",
+      "hindi_definition": "दोना, पत्तों का बना कप/कटोरा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ettā nerr",
+      "kurukh_word_ascii": "Khetta nerr",
+      "english_definition": "the cobra snake.",
+      "hindi_definition": "कोबरा साँप, नाग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ettārnā",
+      "kurukh_word_ascii": "Khettarna",
+      "english_definition": "kan, an, to be swept, dusted.",
+      "hindi_definition": "बुहारा जाना, झाड़ा जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ettnā",
+      "kurukh_word_ascii": "Khettna",
+      "english_definition": "khittkan, yan, to sweep, to wipe off.",
+      "hindi_definition": "झाड़ना, झाड़ू लगाना, पोंछना।",
+      "part_of_speech": "verb",
+      "verb_class": "khittkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲etrnā",
+      "kurukh_word_ascii": "Khetrna",
+      "english_definition": "kan, an, to be finished, wanting.",
+      "hindi_definition": "समाप्त होना, कम होना (कमी होना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲etrnakrnā",
+      "kurukh_word_ascii": "Khetrnakrna",
+      "english_definition": "kan, an, to wipe off, to dust off.",
+      "hindi_definition": "पोंछना, झाड़-पोंछ करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲indu bīsu",
+      "kurukh_word_ascii": "Khindu bisu",
+      "english_definition": "a merchant.",
+      "hindi_definition": "व्यापारी, सौदागर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲issī",
+      "kurukh_word_ascii": "Khissi",
+      "english_definition": "bright, whitish.",
+      "hindi_definition": "चमकीला, सफ़ेद सा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ocol",
+      "kurukh_word_ascii": "Khocol",
+      "english_definition": "bone.",
+      "hindi_definition": "हड्डी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Baraṇḍī k̲h̲ocol",
+      "kurukh_word_ascii": "Barandi khocol",
+      "english_definition": "the backbone or spine.",
+      "hindi_definition": "रीढ़ की हड्डी।",
+      "part_of_speech": "noun phrase",
+      "notes": "Variant: kubru k̲h̲ocol"
+    },
+    {
+      "kurukh_word": "kubru k̲h̲ocol",
+      "kurukh_word_ascii": "kubru khocol",
+      "english_definition": "the backbone or spine.",
+      "hindi_definition": "रीढ़ की हड्डी।",
+      "part_of_speech": "noun phrase",
+      "notes": "Variant of Baraṇḍi k̲h̲ocol"
+    },
+    {
+      "kurukh_word": "K̲h̲odhkhnā",
+      "kurukh_word_ascii": "Khodhkhna",
+      "english_definition": "kan, an, to burn by overheating, trans.",
+      "hindi_definition": "अत्यधिक गर्म होने के कारण जलना (सकर्मक)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲odōkhrnā",
+      "kurukh_word_ascii": "Khodokhrna",
+      "english_definition": "kan, an, to be burned as rice on the fire when cooked.",
+      "hindi_definition": "भात (पकाए जाने वाले चावल) का आग पर अधिक तपने से जल जाना (अँड़सा लगना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲odomk̲h̲odom mannā",
+      "kurukh_word_ascii": "Khodomkhodom manna",
+      "english_definition": "as above (to be burned/charred due to overheating).",
+      "hindi_definition": "जलने/अँड़सा लगने के रूप में (उपरोक्त के समान)।",
+      "part_of_speech": "adverb phrase",
+      "notes": ""
+    }
+  ]
+}

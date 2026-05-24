@@ -1,0 +1,677 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg",
+  "page_label": "48",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Endrā",
+      "kurukh_word_ascii": "Endra",
+      "english_definition": "refers to quality; contrast with 'endr' (condition)",
+      "hindi_definition": "गुण को दर्शाता है; 'endr' (स्थिति) के साथ तुलना करें",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "refers to quality; e.g. ās endrā manos: what will he be like?; contrast with ās endr manos: what will become of him?", "example_sentence_kurukh": "ās endrā manos", "example_sentence_translation": "what will he be like?" },
+        { "language": "hi", "definition": "गुण को दर्शाता है; जैसे ās endrā manos: वह कैसा होगा?; ās endr manos: उसका क्या होगा? (इसके साथ तुलना करें)", "example_sentence_kurukh": "ās endrā manos", "example_sentence_translation": "वह कैसा होगा?" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Endrnā",
+      "kurukh_word_ascii": "Endrna",
+      "english_definition": "what for, why, wherefore",
+      "hindi_definition": "किसलिए, क्यों?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "what for, why, wherefore", "example_sentence_kurukh": "Endrnā kā'on?", "example_sentence_translation": "Why, wherefore should I go?" },
+        { "language": "hi", "definition": "किसलिए, क्यों?", "example_sentence_kurukh": "Endrnā kā'on?", "example_sentence_translation": "क्यों, मुझे किसलिए जाना चाहिए?" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Endr'am",
+      "kurukh_word_ascii": "Endr'am",
+      "english_definition": "something",
+      "hindi_definition": "कुछ, कोई चीज़",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "endr'im"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "something", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कुछ, कोई चीज़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "endr'im",
+      "kurukh_word_ascii": "endr'im",
+      "english_definition": "something",
+      "hindi_definition": "कुछ, कोई चीज़",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Endr'am",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "something", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कुछ, कोई चीज़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Endr'ādim",
+      "kurukh_word_ascii": "Endr'adim",
+      "english_definition": "anything",
+      "hindi_definition": "कुछ भी, कोई भी चीज़",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "anything", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कुछ भी, कोई भी चीज़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Endr'im jok",
+      "kurukh_word_ascii": "Endr'im jok",
+      "english_definition": "some little more",
+      "hindi_definition": "थोड़ा सा और, कुछ और",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "endr'im",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "some little more", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "थोड़ा सा और, कुछ और", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Endr'im endr'im",
+      "kurukh_word_ascii": "Endr'im endr'im",
+      "english_definition": "whatever",
+      "hindi_definition": "जो कुछ भी",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "endr'im",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "whatever", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जो कुछ भी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Eṅgrnā",
+      "kurukh_word_ascii": "Engrna",
+      "english_definition": "to remain off, to be left off",
+      "hindi_definition": "छूट जाना, बचा रहना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to remain off, to be left off", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छूट जाना, बचा रहना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Eṅgrkā",
+      "kurukh_word_ascii": "Engrka",
+      "english_definition": "morsel, crumb",
+      "hindi_definition": "कौर, निवाला, टुकड़ा (भोजन का)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Eṅgrnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "morsel, crumb", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कौर, निवाला, टुकड़ा (भोजन का)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Enjen",
+      "kurukh_word_ascii": "Enjen",
+      "english_definition": "thus much, many",
+      "hindi_definition": "इतना अधिक, कई",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "thus much, many", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इतना अधिक, कई", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Ennē",
+      "kurukh_word_ascii": "Enne",
+      "english_definition": "thus",
+      "hindi_definition": "इस प्रकार, ऐसे",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "thus", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इस प्रकार, ऐसे", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Ennem",
+      "kurukh_word_ascii": "Ennem",
+      "english_definition": "in this way, manner",
+      "hindi_definition": "इस ढंग से, इस प्रकार",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ennē",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "in this way, manner", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इस ढंग से, इस प्रकार", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Ennegē",
+      "kurukh_word_ascii": "Ennege",
+      "english_definition": "because, for the sake of",
+      "hindi_definition": "क्योंकि, के लिए, इस कारण",
+      "part_of_speech": "conjunction",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ennē",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "because, for the sake of", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "क्योंकि, के लिए, इस कारण", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Entā",
+      "kurukh_word_ascii": "Enta",
+      "english_definition": "the same as eṇḍtā (the second)",
+      "hindi_definition": "दूसरा ('eṇḍtā' की तरह)",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Eṇḍtā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the same as eṇḍtā (the second)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दूसरा ('eṇḍtā' की तरह)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erbnā",
+      "kurukh_word_ascii": "Erbna",
+      "english_definition": "to kill, to sacrifice",
+      "hindi_definition": "मारना, बलि चढ़ाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "irbkan, irbyan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to kill, to sacrifice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मारना, बलि चढ़ाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Ercrnā",
+      "kurukh_word_ascii": "Ercrna",
+      "english_definition": "to sweat, perspire",
+      "hindi_definition": "पसीना आना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to sweat, perspire", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पसीना आना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erec",
+      "kurukh_word_ascii": "Erec",
+      "english_definition": "bow",
+      "hindi_definition": "धनुष",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "Eret"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "bow", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धनुष", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Eret",
+      "kurukh_word_ascii": "Eret",
+      "english_definition": "bow",
+      "hindi_definition": "धनुष",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Erec",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "bow", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धनुष", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Eretuiyū",
+      "kurukh_word_ascii": "Eretuiyu",
+      "english_definition": "a bowman, an archer",
+      "hindi_definition": "धनुर्धर, तीरंदाज़",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Eret",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a bowman, an archer", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धनुर्धर, तीरंदाज़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Ergō",
+      "kurukh_word_ascii": "Ergo",
+      "english_definition": "mole-warp (mole)",
+      "hindi_definition": "छछूंदर",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "mole-warp (mole)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छछूंदर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erkhos",
+      "kurukh_word_ascii": "Erkhos",
+      "english_definition": "husband's younger brother",
+      "hindi_definition": "देवर (पति का छोटा भाई); एर्खो: ननद (पति की छोटी बहन)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "erkhō"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "husband's younger brother; erkhō: husband's younger sister", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "देवर (पति का छोटा भाई); एर्खो: ननद (पति की छोटी बहन)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erkhnā",
+      "kurukh_word_ascii": "Erkhna",
+      "english_definition": "to evacuate the bowels, to ease one's belly",
+      "hindi_definition": "मल त्याग करना, शौच करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "irkhkan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to evacuate the bowels, to ease one's belly", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मल त्याग करना, शौच करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erkhnā",
+      "kurukh_word_ascii": "Erkhna",
+      "english_definition": "to imprison, to shut up",
+      "hindi_definition": "कैद करना, बंद करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to imprison, to shut up", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कैद करना, बंद करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erkhā capnā",
+      "kurukh_word_ascii": "Erkha capna",
+      "english_definition": "to be inclined to stool, to have loose bowels",
+      "hindi_definition": "दस्त होना, शौच की तीव्र इच्छा होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Erkhnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be inclined to stool, to have loose bowels", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दस्त होना, शौच की तीव्र इच्छा होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erkhkā",
+      "kurukh_word_ascii": "Erkhka",
+      "english_definition": "human and animal excretions",
+      "hindi_definition": "मल, विष्ठा (मनुष्यों और जानवरों की); एर्ख चुप्पी: गुदा (anus)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "erkh cuppī"
+      ],
+      "variant_of": "Erkhnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "human and animal excretions; erkh cuppī: the anus", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मल, विष्ठा; एर्ख चुप्पी: गुदा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erkh",
+      "kurukh_word_ascii": "Erkh",
+      "english_definition": "obstruction, hindrance",
+      "hindi_definition": "बाधा, रुकावट, अड़चन",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Erkhnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "obstruction, hindrance", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बाधा, रुकावट, अड़चन", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erkhadḍā",
+      "kurukh_word_ascii": "Erkhadda",
+      "english_definition": "prison, gaol",
+      "hindi_definition": "कारागार, जेल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "erkherpā"
+      ],
+      "variant_of": "Erkhnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "prison, gaol", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कारागार, जेल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "erkherpā",
+      "kurukh_word_ascii": "erkherpa",
+      "english_definition": "prison, gaol",
+      "hindi_definition": "कारागार, जेल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Erkhadḍā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "prison, gaol", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कारागार, जेल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erterkhā'e",
+      "kurukh_word_ascii": "Erterkha'e",
+      "english_definition": "the rainbow",
+      "hindi_definition": "इंद्रधनुष",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the rainbow", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इंद्रधनुष", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erpā",
+      "kurukh_word_ascii": "Erpa",
+      "english_definition": "house",
+      "hindi_definition": "घर, मकान, गृह",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "house", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घर, मकान, गृह", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erpā erpā ka'anā",
+      "kurukh_word_ascii": "Erpa erpa ka'ana",
+      "english_definition": "to go from house to house",
+      "hindi_definition": "घर-घर जाना, प्रत्येक घर में घूमना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Erpā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to go from house to house", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घर-घर जाना, प्रत्येक घर में घूमना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erpā kamnā",
+      "kurukh_word_ascii": "Erpa kamna",
+      "english_definition": "to build a house",
+      "hindi_definition": "घर बनाना, मकान का निर्माण करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Erpā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to build a house", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घर बनाना, मकान का निर्माण करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    },
+    {
+      "kurukh_word": "Erpā nannā",
+      "kurukh_word_ascii": "Erpa nanna",
+      "english_definition": "to set up a house, to marry or get married",
+      "hindi_definition": "घर बसाना, विवाह करना या शादी होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Erpā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to set up a house, to marry or get married", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घर बसाना, विवाह करना या शादी होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0052.jpg", "page_label": "48" }
+    }
+  ]
+}

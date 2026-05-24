@@ -1,0 +1,292 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0086.jpg",
+  "page_label": "82",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kalaknā",
+      "kurukh_word_ascii": "Kalakna",
+      "english_definition": "kan, yan, to hatch eggs.",
+      "hindi_definition": "अंडे सेना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kalbalrnā",
+      "kurukh_word_ascii": "Kalbalrna",
+      "english_definition": "kan, an, to feel very hungry.",
+      "hindi_definition": "बहुत भूखा होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kalchur",
+      "kurukh_word_ascii": "Kalchur",
+      "english_definition": "a large iron spoon.",
+      "hindi_definition": "बड़ा लोहे का चम्मच।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kalgā",
+      "kurukh_word_ascii": "Kalga",
+      "english_definition": "an ornament made of feathers.",
+      "hindi_definition": "पंखों से बना आभूषण।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kalgnā",
+      "kurukh_word_ascii": "Kalgna",
+      "english_definition": "kan, yan, to break off with the teeth.",
+      "hindi_definition": "दाँतों से तोड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kalkalamba'anā",
+      "kurukh_word_ascii": "Kalkalamba'ana",
+      "english_definition": "ckan, c'an to trouble, tease.",
+      "hindi_definition": "तंग करना, परेशान करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kalkalrnā",
+      "kurukh_word_ascii": "Kalkalrna",
+      "english_definition": "kan, an, to be distressed.",
+      "hindi_definition": "व्यथित होना, पीड़ित होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kallā",
+      "kurukh_word_ascii": "Kalla",
+      "english_definition": "an insect, a flea.",
+      "hindi_definition": "एक कीड़ा, पिस्सू।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kallārnā",
+      "kurukh_word_ascii": "Kallarna",
+      "english_definition": "kan, an, to call somebody distressingly.",
+      "hindi_definition": "किसी को तकलीफ से पुकारना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kalm",
+      "kurukh_word_ascii": "Kalm",
+      "english_definition": "private parts.",
+      "hindi_definition": "गुप्तांग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kalpa'anā",
+      "kurukh_word_ascii": "Kalpa'ana",
+      "english_definition": "ckan, c'an, to persecute, oppress.",
+      "hindi_definition": "सताना, अत्याचार करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kalpārnā",
+      "kurukh_word_ascii": "Kalparna",
+      "english_definition": "kan, an, to suffer pains.",
+      "hindi_definition": "दर्द सहना, पीड़ा सहना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaltha'anā",
+      "kurukh_word_ascii": "Kaltha'ana",
+      "english_definition": "ckan, c'an, to raise, turn over.",
+      "hindi_definition": "उठाना, पलटना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kamhārā",
+      "kurukh_word_ascii": "Kamhara",
+      "english_definition": "work.",
+      "hindi_definition": "काम, कार्य।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kamac kamac onnā",
+      "kurukh_word_ascii": "Kamac kamac onna",
+      "english_definition": "to eat greedily.",
+      "hindi_definition": "लालच से खाना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Reduplicated ideophone."
+    },
+    {
+      "kurukh_word": "Kamhar",
+      "kurukh_word_ascii": "Kamhar",
+      "english_definition": "tools, implements.",
+      "hindi_definition": "औज़ार, उपकरण।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kamnā",
+      "kurukh_word_ascii": "Kamna",
+      "english_definition": "ckan, c'an, to make, create, built, erect.",
+      "hindi_definition": "बनाना, निर्माण करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kamokā",
+      "kurukh_word_ascii": "Kamoka",
+      "english_definition": "creation, making, building.",
+      "hindi_definition": "निर्माण, रचना।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kamrā",
+      "kurukh_word_ascii": "Kamra",
+      "english_definition": "blanket.",
+      "hindi_definition": "कंबल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kamrā-pottā",
+      "kurukh_word_ascii": "Kamra-potta",
+      "english_definition": "the stomach.",
+      "hindi_definition": "पेट।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kamus",
+      "kurukh_word_ascii": "Kamus",
+      "english_definition": "maker, creator.",
+      "hindi_definition": "बनाने वाला, निर्माता।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ka'anā",
+      "kurukh_word_ascii": "Ka'ana",
+      "english_definition": "or kānā, kerkan, kir'an, to go.",
+      "hindi_definition": "जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kerkan-kir'an",
+      "notes": "Also spelled kānā."
+    },
+    {
+      "kurukh_word": "Kanat",
+      "kurukh_word_ascii": "Kanat",
+      "english_definition": "courage, satisfaction.",
+      "hindi_definition": "साहस, संतोष।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kancaprā",
+      "kurukh_word_ascii": "Kancapra",
+      "english_definition": "the mumps.",
+      "hindi_definition": "गलसुआ रोग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kanchōr",
+      "kurukh_word_ascii": "Kanchor",
+      "english_definition": "adv. a little; kanchōr meñjkan, I heard a little of it.",
+      "hindi_definition": "थोड़ा; kanchōr meñjkan = मैंने थोड़ा सुना।",
+      "part_of_speech": "adverb",
+      "notes": "Example phrase given in the original."
+    },
+    {
+      "kurukh_word": "Kanou",
+      "kurukh_word_ascii": "Kanou",
+      "english_definition": "adj. squint-eyed.",
+      "hindi_definition": "भेंगा, तिरछी नज़र वाला।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṇḍī nerr",
+      "kurukh_word_ascii": "Kandi nerr",
+      "english_definition": "the boa-constrictor.",
+      "hindi_definition": "अजगर।",
+      "part_of_speech": "noun",
+      "notes": "nerr = snake."
+    },
+    {
+      "kurukh_word": "Kaṇḍō",
+      "kurukh_word_ascii": "Kando",
+      "english_definition": "stool, chair.",
+      "hindi_definition": "मल, कुर्सी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṇḍrka",
+      "kurukh_word_ascii": "Kandrka",
+      "english_definition": "toothbrush; twigs or sticks, used for cleansing the teeth.",
+      "hindi_definition": "दातुन, दाँत साफ करने वाली टहनी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṇḍrā",
+      "kurukh_word_ascii": "Kandra",
+      "english_definition": "adj. of a fair complexion.",
+      "hindi_definition": "गोरे रंग का।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṅgiā",
+      "kurukh_word_ascii": "Kangia",
+      "english_definition": "adj. sour.",
+      "hindi_definition": "खट्टा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kangrnā",
+      "kurukh_word_ascii": "Kangrna",
+      "english_definition": "kan, an, to rinse, wash the mouth.",
+      "hindi_definition": "कुल्ला करना, मुँह धोना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṅkaurnā",
+      "kurukh_word_ascii": "Kankaurna",
+      "english_definition": "kan, an, to give a sensation of cold, to be cold.",
+      "hindi_definition": "ठंड का एहसास देना, ठंडा होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṅk",
+      "kurukh_word_ascii": "Kank",
+      "english_definition": "wood, fuel.",
+      "hindi_definition": "लकड़ी, ईंधन।",
+      "part_of_speech": "noun",
+      "notes": ""
+    }
+  ]
+}

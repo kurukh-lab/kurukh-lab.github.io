@@ -1,0 +1,247 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0105.jpg",
+  "page_label": "101",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Khūṭ",
+      "kurukh_word_ascii": "Khut",
+      "english_definition": "khuṭī, generation.",
+      "hindi_definition": "पीढ़ी, वंश।",
+      "part_of_speech": "noun",
+      "notes": "Variant: khuṭī"
+    },
+    {
+      "kurukh_word": "Khuṭā",
+      "kurukh_word_ascii": "Khuta",
+      "english_definition": "the house or family demon.",
+      "hindi_definition": "घर या परिवार का प्रेत।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khuṭnā",
+      "kurukh_word_ascii": "Khutna",
+      "english_definition": "ckan, c'an, to tether.",
+      "hindi_definition": "बाँधना, खूँटे से बाँधना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khuṭī",
+      "kurukh_word_ascii": "Khuti",
+      "english_definition": "H. hump.",
+      "hindi_definition": "कूबड़।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khuyā",
+      "kurukh_word_ascii": "Khuya",
+      "english_definition": "slender, thin.",
+      "hindi_definition": "पतला, दुबला।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲acnā",
+      "kurukh_word_ascii": "Khacna",
+      "english_definition": "kaṇ, yan, to finish, complete, to break.",
+      "hindi_definition": "समाप्त करना, पूरा करना, तोड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "K̲h̲. section begins (underline-Kh digraph)"
+    },
+    {
+      "kurukh_word": "K̲h̲acnā",
+      "kurukh_word_ascii": "Khacna",
+      "english_definition": "kan, yan, to break, tear off.",
+      "hindi_definition": "तोड़ना, उखाड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "2nd homograph of K̲h̲acnā — break/tear off (vs. finish/complete)"
+    },
+    {
+      "kurukh_word": "K̲h̲add",
+      "kurukh_word_ascii": "Khadd",
+      "english_definition": "child, offspring, used also with regard to animals, e.g., lakrā k̲h̲add, the young of a tiger; also with plants, as tatk̲h̲āk̲h̲add, a young mango tree.",
+      "hindi_definition": "बच्चा, संतान। पशुओं के लिए भी, जैसे lakrā k̲h̲add = बाघ का बच्चा। पौधों के लिए भी, जैसे tatk̲h̲āk̲h̲add = छोटा आम का पेड़।",
+      "part_of_speech": "noun",
+      "notes": "Also used for young of animals and plants"
+    },
+    {
+      "kurukh_word": "K̲h̲addantim",
+      "kurukh_word_ascii": "Khaddantim",
+      "english_definition": "from childhood.",
+      "hindi_definition": "बचपन से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲addarō!",
+      "kurukh_word_ascii": "Khaddaro!",
+      "english_definition": "O you children! masc.",
+      "hindi_definition": "अरे बच्चों! (पुल्लिंग पुकार)।",
+      "part_of_speech": "interjection",
+      "notes": "Masculine vocative plural"
+    },
+    {
+      "kurukh_word": "K̲h̲addiyō!",
+      "kurukh_word_ascii": "Khaddyo!",
+      "english_definition": "O you children! fem.",
+      "hindi_definition": "अरे बच्चों! (स्त्रीलिंग पुकार)।",
+      "part_of_speech": "interjection",
+      "notes": "Feminine vocative plural"
+    },
+    {
+      "kurukh_word": "K̲h̲addā",
+      "kurukh_word_ascii": "Khadda",
+      "english_definition": "diminutive of child; lellē k̲h̲add, a baby.",
+      "hindi_definition": "बच्चे का लघुरूप। lellē k̲h̲add = शिशु।",
+      "part_of_speech": "noun",
+      "notes": "Diminutive; sub-entry: lellē k̲h̲add = baby"
+    },
+    {
+      "kurukh_word": "K̲h̲add urkhnā",
+      "kurukh_word_ascii": "Khadd urkna",
+      "english_definition": "to receive interest from, to be profitable.",
+      "hindi_definition": "ब्याज मिलना, लाभदायक होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲addī",
+      "kurukh_word_ascii": "Khaddi",
+      "english_definition": "the sowing festival, at which edlō paccō demon is married to the earth, to bring forth paddy.",
+      "hindi_definition": "बुआई का त्योहार, जिसमें edlō paccō देव को धरती से विवाह कराया जाता है।",
+      "part_of_speech": "noun",
+      "notes": "Ritual/festival term; edlō paccō is a demon married to the earth"
+    },
+    {
+      "kurukh_word": "K̲h̲add pāknā",
+      "kurukh_word_ascii": "Khadd pakna",
+      "english_definition": "to be confined, delivered of a child, to give birth to a child.",
+      "hindi_definition": "प्रसव होना, बच्चे को जन्म देना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲add kharrā",
+      "kurukh_word_ascii": "Khadd kharra",
+      "english_definition": "children, offspring, family.",
+      "hindi_definition": "बच्चे, संतान, परिवार।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲add nebnā",
+      "kurukh_word_ascii": "Khadd nebna",
+      "english_definition": "nibkan, yan, to be confined, delivered of a child.",
+      "hindi_definition": "प्रसव होना।",
+      "part_of_speech": "verb phrase",
+      "verb_class": "nibkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲addmalkā",
+      "kurukh_word_ascii": "Khaddmalka",
+      "english_definition": "adj. childless, barren.",
+      "hindi_definition": "निःसंतान, बाँझ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲admākhō",
+      "kurukh_word_ascii": "Khadmakho",
+      "english_definition": "said of a woman, suckling a child or having a baby.",
+      "hindi_definition": "शिशु को दूध पिलाने वाली या शिशु रखने वाली महिला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲addbocō",
+      "kurukh_word_ascii": "Khaddboco",
+      "english_definition": "the young of animals; also little folk, children.",
+      "hindi_definition": "पशुओं के बच्चे; बच्चे, छोटे लोग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲adnā",
+      "kurukh_word_ascii": "Khadna",
+      "english_definition": "kan, an, to steal.",
+      "hindi_definition": "चोरी करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲adarnā",
+      "kurukh_word_ascii": "Khadarna",
+      "english_definition": "kan, an, to be stolen.",
+      "hindi_definition": "चोरी जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Passive of K̲h̲adnā"
+    },
+    {
+      "kurukh_word": "K̲h̲ādrō",
+      "kurukh_word_ascii": "Khadro",
+      "english_definition": "addressed to younger brother's wife.",
+      "hindi_definition": "छोटे भाई की पत्नी को संबोधन।",
+      "part_of_speech": "noun",
+      "notes": "Kinship term of address"
+    },
+    {
+      "kurukh_word": "K̲h̲ai",
+      "kurukh_word_ascii": "Khai",
+      "english_definition": "wife; engk̲h̲ai, my wife; ningk̲h̲ai, your wife.",
+      "hindi_definition": "पत्नी। engk̲h̲ai = मेरी पत्नी; ningk̲h̲ai = तुम्हारी पत्नी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ai",
+      "kurukh_word_ascii": "Khai",
+      "english_definition": "daughter-in-law.",
+      "hindi_definition": "बहू।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of K̲h̲ai — daughter-in-law (vs. wife)"
+    },
+    {
+      "kurukh_word": "K̲h̲aikā",
+      "kurukh_word_ascii": "Khaika",
+      "english_definition": "adj. dry, dried up, withered.",
+      "hindi_definition": "सूखा, मुरझाया।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲aikhaira lagnā",
+      "kurukh_word_ascii": "Khaikhaira lagna",
+      "english_definition": "to have dry mouth, to be hungry and thirsty.",
+      "hindi_definition": "मुँह सूखना, भूख-प्यास लगना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲aj",
+      "kurukh_word_ascii": "Khaj",
+      "english_definition": "clay, earth.",
+      "hindi_definition": "मिट्टी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ajnā",
+      "kurukh_word_ascii": "Khajna",
+      "english_definition": "kan, yan, to clean the hair with soap or clay.",
+      "hindi_definition": "साबुन या मिट्टी से बाल साफ करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    }
+  ]
+}

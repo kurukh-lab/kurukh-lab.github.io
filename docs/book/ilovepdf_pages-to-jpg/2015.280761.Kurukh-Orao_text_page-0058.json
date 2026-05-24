@@ -1,0 +1,669 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg",
+  "page_label": "54",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Farsā",
+      "kurukh_word_ascii": "Farsa",
+      "english_definition": "flourishing, prosperous",
+      "hindi_definition": "समृद्ध, फलने-फूलने वाला, उन्नत",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "flourishing, prosperous", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "समृद्ध, फलने-फूलने वाला, उन्नत", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fasrī",
+      "kurukh_word_ascii": "Fasri",
+      "english_definition": "snare",
+      "hindi_definition": "फंदा, जाल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "snare", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फंदा, जाल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Faskat",
+      "kurukh_word_ascii": "Faskat",
+      "english_definition": "false",
+      "hindi_definition": "झूठा, असत्य",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "false", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "झूठा, असत्य", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fasfasā",
+      "kurukh_word_ascii": "Fasfasa",
+      "english_definition": "liar, cheater",
+      "hindi_definition": "झूठा, धोखेबाज़",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "liar, cheater", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "झूठा, धोखेबाज़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fasiyā",
+      "kurukh_word_ascii": "Fasiya",
+      "english_definition": "deceitful",
+      "hindi_definition": "कपटी, धोखेबाज़",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "deceitful", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कपटी, धोखेबाज़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fasta'anā",
+      "kurukh_word_ascii": "Fasta'ana",
+      "english_definition": "to cheat",
+      "hindi_definition": "धोखा देना, ठगना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to cheat", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धोखा देना, ठगना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Faud",
+      "kurukh_word_ascii": "Faud",
+      "english_definition": "an army",
+      "hindi_definition": "सेना, फ़ौज",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "ur",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "an army", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सेना, फ़ौज", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Faurā",
+      "kurukh_word_ascii": "Faura",
+      "english_definition": "a fat man",
+      "hindi_definition": "मोटा आदमी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a fat man", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मोटा आदमी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Faua'anā",
+      "kurukh_word_ascii": "Faua'ana",
+      "english_definition": "to fall with a noise like the one caused by the fall of a heavy body",
+      "hindi_definition": "धड़ाम से गिरना, भारी शरीर के गिरने जैसी आवाज़ के साथ गिरना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to fall with a noise like the one caused by the fall of a heavy body", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धड़ाम से गिरना, भारी शरीर के गिरने जैसी आवाज़ के साथ गिरना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fauhem",
+      "kurukh_word_ascii": "Fauhem",
+      "english_definition": "in vain, useless",
+      "hindi_definition": "व्यर्थ में, बेकार",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "in vain, useless", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "व्यर्थ में, बेकार", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fekrārnā",
+      "kurukh_word_ascii": "Fekrarna",
+      "english_definition": "the howling of the jackal",
+      "hindi_definition": "सियार का हुआँ-हुआँ करना, सियार की आवाज़",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the howling of the jackal", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सियार का हुआँ-हुआँ करना, सियार की आवाज़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fenghā ōṛā",
+      "kurukh_word_ascii": "Fengha ora",
+      "english_definition": "a kind of small bird",
+      "hindi_definition": "एक प्रकार का छोटा पक्षी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a kind of small bird", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार का छोटा पक्षी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fērī",
+      "kurukh_word_ascii": "Feri",
+      "english_definition": "shield",
+      "hindi_definition": "ढाल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "shield", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ढाल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fesfesrnā",
+      "kurukh_word_ascii": "Fesfesrna",
+      "english_definition": "to become sticky or dry, as the lips from much talking",
+      "hindi_definition": "चिपचिपा या सूखा हो जाना (जैसे बहुत बातें करने से होंठ)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to become sticky or dry, as the lips from much talking", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चिपचिपा या सूखा हो जाना (जैसे बहुत बातें करने से होंठ)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fetō",
+      "kurukh_word_ascii": "Feto",
+      "english_definition": "elephant",
+      "hindi_definition": "हाथी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "elephant", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हाथी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fidrāj",
+      "kurukh_word_ascii": "Fidraj",
+      "english_definition": "trouble",
+      "hindi_definition": "कष्ट, परेशानी, मुसीबत",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "trouble", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कष्ट, परेशानी, मुसीबत", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fifiriyā",
+      "kurukh_word_ascii": "Fifiriya",
+      "english_definition": "a babbler",
+      "hindi_definition": "बड़बड़ाने वाला, बकवादी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a babbler", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बड़बड़ाने वाला, बकवादी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fih mannā",
+      "kurukh_word_ascii": "Fih manna",
+      "english_definition": "to become checkmate, yield",
+      "hindi_definition": "शह-मात हो जाना, हार मान लेना, आत्मसमर्पण करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to become checkmate, yield", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शह-मात हो जाना, हार मान लेना, आत्मसमर्पण करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fikrō ōṛā",
+      "kurukh_word_ascii": "Fikro ora",
+      "english_definition": "a kind of bird",
+      "hindi_definition": "एक प्रकार का पक्षी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a kind of bird", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार का पक्षी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fiknā",
+      "kurukh_word_ascii": "Fikna",
+      "english_definition": "a net thrown out",
+      "hindi_definition": "फेंका हुआ जाल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a net thrown out", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फेंका हुआ जाल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fin",
+      "kurukh_word_ascii": "Fin",
+      "english_definition": "again, again and again",
+      "hindi_definition": "फिर, बार-बार",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [
+        "fin-fin"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "again, again and again", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फिर, बार-बार", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "fin-fin",
+      "kurukh_word_ascii": "fin-fin",
+      "english_definition": "again, again and again",
+      "hindi_definition": "फिर, बार-बार",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": "Fin",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "again, again and again", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फिर, बार-बार", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fin hõ",
+      "kurukh_word_ascii": "Fin ho",
+      "english_definition": "even again",
+      "hindi_definition": "फिर भी, पुनः",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": "Fin",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "even again", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फिर भी, पुनः", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Firī",
+      "kurukh_word_ascii": "Firi",
+      "english_definition": "a sword or dagger",
+      "hindi_definition": "तलवार या खंजर",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a sword or dagger", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तलवार या खंजर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Firī becnā",
+      "kurukh_word_ascii": "Firi becna",
+      "english_definition": "a play, to fight with rapiers",
+      "hindi_definition": "तलवारबाज़ी का खेल, तलवारों से लड़ना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Firī",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a play, to fight with rapiers", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तलवारबाज़ी का खेल, तलवारों से लड़ना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fodā",
+      "kurukh_word_ascii": "Foda",
+      "english_definition": "ball",
+      "hindi_definition": "गेंद",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "ball", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गेंद", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fōfar",
+      "kurukh_word_ascii": "Fofar",
+      "english_definition": "a hole or hollowness",
+      "hindi_definition": "छेद या खोखलापन",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a hole or hollowness", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छेद या खोखलापन", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fokrnā",
+      "kurukh_word_ascii": "Fokrna",
+      "english_definition": "to come or to be too late",
+      "hindi_definition": "आने में बहुत देर होना या बहुत देर हो जाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to come or to be too late", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आने में बहुत देर होना या बहुत देर हो जाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fokrārnā barkhnā",
+      "kurukh_word_ascii": "Fokrarna barkhna",
+      "english_definition": "to snore",
+      "hindi_definition": "खर्राटे लेना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to snore", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खर्राटे लेना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Foksā",
+      "kurukh_word_ascii": "Foksa",
+      "english_definition": "the lungs",
+      "hindi_definition": "फेफड़े",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the lungs", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फेफड़े", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Folok",
+      "kurukh_word_ascii": "Folok",
+      "english_definition": "flabby, sluggish",
+      "hindi_definition": "शिथिल, सुस्त",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "flabby, sluggish", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शिथिल, सुस्त", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Fōnk",
+      "kurukh_word_ascii": "Fonk",
+      "english_definition": "an opening",
+      "hindi_definition": "दरार, उद्घाटन, खुला हुआ हिस्सा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "an opening", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दरार, उद्घाटन, खुला हुआ हिस्सा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    },
+    {
+      "kurukh_word": "Foskō",
+      "kurukh_word_ascii": "Fosko",
+      "english_definition": "soft",
+      "hindi_definition": "मुलायम, कोमल, ढीला",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "soft", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मुलायम, कोमल, ढीला", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0058.jpg", "page_label": "54" }
+    }
+  ]
+}

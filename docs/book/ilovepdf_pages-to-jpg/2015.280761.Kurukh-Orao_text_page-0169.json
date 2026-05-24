@@ -1,0 +1,1027 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+  "page_label": "165",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Sulsulrā",
+      "kurukh_word_ascii": "Sulsulra",
+      "english_definition": "soft, said of the wind.",
+      "hindi_definition": "धीमी, मंद (हवा के संदर्भ में)",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "soft, said of the wind.",
+          "example_sentence_kurukh": "sulsulrā tagri’t",
+          "example_sentence_translation": "the wind blows softly."
+        },
+        {
+          "language": "hi",
+          "definition": "धीमी, मंद (हवा के संदर्भ में)",
+          "example_sentence_kurukh": "sulsulrā tagri’t",
+          "example_sentence_translation": "हवा धीरे-धीरे बहती है"
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Sulsulrnā",
+      "kurukh_word_ascii": "Sulsulrna",
+      "english_definition": "to blow softly, the buzzing of the wind.",
+      "hindi_definition": "धीमी गति से बहना, हवा की सरसराहट",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to blow softly, the buzzing of the wind.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "धीमी गति से बहना, हवा की सरसराहट",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Sumbrā",
+      "kurukh_word_ascii": "Sumbra",
+      "english_definition": "a miser.",
+      "hindi_definition": "कंजूस",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "a miser.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "कंजूस",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Sumra’anā",
+      "kurukh_word_ascii": "Sumra’ana",
+      "english_definition": "to pray, worship, praise.",
+      "hindi_definition": "स्मरण करना, प्रार्थना करना, पूजा करना, स्तुति करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c’an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to pray, worship, praise.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "स्मरण करना, प्रार्थना करना, पूजा करना, स्तुति करना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Sun",
+      "kurukh_word_ascii": "Sun",
+      "english_definition": "anesthesia.",
+      "hindi_definition": "सुन्नता, संवेदनशून्यता",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "anesthesia.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "सुन्नता, संवेदनशून्यता",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Sun mannā",
+      "kurukh_word_ascii": "Sun manna",
+      "english_definition": "to be without feeling.",
+      "hindi_definition": "सुन्न हो जाना, संवेदनहीन होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to be without feeling.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "सुन्न हो जाना, संवेदनहीन होना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Sunā",
+      "kurukh_word_ascii": "Suna",
+      "english_definition": "deserted, abandoned.",
+      "hindi_definition": "सूनसान, निर्जन, खाली",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "deserted, abandoned.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "सूनसान, निर्जन, खाली",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Suī-suīrnā",
+      "kurukh_word_ascii": "Sui-suirna",
+      "english_definition": "to hum, the humming of the wind.",
+      "hindi_definition": "गुनगुनाना, हवा की साएँ-साएँ",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to hum, the humming of the wind.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "गुनगुनाना, हवा की साएँ-साएँ",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Suīgā",
+      "kurukh_word_ascii": "Suiga",
+      "english_definition": "a miser.",
+      "hindi_definition": "कंजूस, मक्खीचूस",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "a miser.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "कंजूस, मक्खीचूस",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Suṅgun",
+      "kurukh_word_ascii": "Sungun",
+      "english_definition": "secret.",
+      "hindi_definition": "गुप्त, रहस्य",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "secret.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "गुप्त, रहस्य",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Sūīs",
+      "kurukh_word_ascii": "Suis",
+      "english_definition": "alligator.",
+      "hindi_definition": "सोंस, घड़ियाल, मगरमच्छ",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "alligator.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "सोंस, घड़ियाल, मगरमच्छ",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Suplī",
+      "kurukh_word_ascii": "Supli",
+      "english_definition": "upper part of the foot.",
+      "hindi_definition": "पैर का ऊपरी भाग",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "upper part of the foot.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "पैर का ऊपरी भाग",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Surī c'īnā",
+      "kurukh_word_ascii": "Suri c'ina",
+      "english_definition": "to hang on the gallows.",
+      "hindi_definition": "फांसी पर लटकाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to hang on the gallows.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "फांसी पर लटकाना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Sur'hī",
+      "kurukh_word_ascii": "Sur'hi",
+      "english_definition": "an small insect, feeding on rice.",
+      "hindi_definition": "सुरही (चावल में लगने वाला एक छोटा कीड़ा)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "an small insect, feeding on rice.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "सुरही (चावल में लगने वाला एक छोटा कीड़ा)",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Sur'hī mokhnā",
+      "kurukh_word_ascii": "Sur'hi mokhna",
+      "english_definition": "to destroy by insects, said of the rice when insects have penetrated into.",
+      "hindi_definition": "कीड़ों द्वारा नष्ट होना (चावल के संदर्भ में जिसमें सुरही लग गई हो)",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to destroy by insects, said of the rice when insects have penetrated into.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "कीड़ों द्वारा नष्ट होना (चावल के संदर्भ में जिसमें सुरही लग गई हो)",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Surkh-surkhrā",
+      "kurukh_word_ascii": "Surkh-surkhra",
+      "english_definition": "to cry or weep through the nose.",
+      "hindi_definition": "नाक से रोने या सिसकने की आवाज निकालना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to cry or weep through the nose.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "नाक से रोने या सिसकने की आवाज निकालना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Surkhnā",
+      "kurukh_word_ascii": "Surkhna",
+      "english_definition": "to draw through the nose, sniffle.",
+      "hindi_definition": "नाक से खींचना, सिसकना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to draw through the nose, sniffle.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "नाक से खींचना, सिसकना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Surpnā",
+      "kurukh_word_ascii": "Surpna",
+      "english_definition": "to eat with the fingers, to throw the morsel into the mouth by means of the fingers.",
+      "hindi_definition": "उंगलियों से खाना, उंगलियों से मुंह में कौर डालना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to eat with the fingers, to throw the morsel into the mouth by means of the fingers.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "उंगलियों से खाना, उंगलियों से मुंह में कौर डालना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Surlī ghāsī",
+      "kurukh_word_ascii": "Surli ghasi",
+      "english_definition": "water-grass.",
+      "hindi_definition": "जल-घास, पानी की घास",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "water-grass.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "जल-घास, पानी की घास",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Surrā",
+      "kurukh_word_ascii": "Surra",
+      "english_definition": "common, light.",
+      "hindi_definition": "साधारण, हल्का, आम",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "common, light.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "साधारण, हल्का, आम",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Susar",
+      "kurukh_word_ascii": "Susar",
+      "english_definition": "service, attendance.",
+      "hindi_definition": "सेवा, परिचर्या",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "service, attendance.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "सेवा, परिचर्या",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Susar nannā",
+      "kurukh_word_ascii": "Susar nanna",
+      "english_definition": "to serve, attend at table.",
+      "hindi_definition": "सेवा करना, परोसना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to serve, attend at table.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "सेवा करना, परोसना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Susarā'anā",
+      "kurukh_word_ascii": "Susara'ana",
+      "english_definition": "to attend, wait, serve at table.",
+      "hindi_definition": "सेवा करना, मेज पर परोसना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c’an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to attend, wait, serve at table.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "सेवा करना, मेज पर परोसना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Susum",
+      "kurukh_word_ascii": "Susum",
+      "english_definition": "lukewarm.",
+      "hindi_definition": "गुनगुना, सुसुम",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "lukewarm.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "गुनगुना, सुसुम",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Suswa'anā",
+      "kurukh_word_ascii": "Suswa'ana",
+      "english_definition": "to hiss as a snake; to blow as an ox when excited.",
+      "hindi_definition": "फुफकारना (सांप की तरह); हांफने या फुफकारने जैसी आवाज करना (उत्तेजित बैल की तरह)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c’an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to hiss as a snake; to blow as an ox when excited.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "फुफकारना (सांप की तरह); हांफने या फुफकारने जैसी आवाज करना (उत्तेजित बैल की तरह)",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Suwā",
+      "kurukh_word_ascii": "Suwa",
+      "english_definition": "a big needle.",
+      "hindi_definition": "सुआ (बड़ी सुई)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "a big needle.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "सुआ (बड़ी सुई)",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Tā",
+      "kurukh_word_ascii": "Ta",
+      "english_definition": "then, particle.",
+      "hindi_definition": "तो, तब (निपात)",
+      "part_of_speech": "conjunction",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "then, particle.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "तो, तब (निपात)",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Tabē",
+      "kurukh_word_ascii": "Tabe",
+      "english_definition": "submission.",
+      "hindi_definition": "अधीनता, आज्ञाकारिता",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "ur",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "submission.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "अधीनता, आज्ञाकारिता",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Tabē nī rā'anā",
+      "kurukh_word_ascii": "Tabe ni ra'ana",
+      "english_definition": "to be dependent, to obey.",
+      "hindi_definition": "अधीन रहना, आज्ञा का पालन करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to be dependent, to obey.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "अधीन रहना, आज्ञा का पालन करना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    },
+    {
+      "kurukh_word": "Tabsnā",
+      "kurukh_word_ascii": "Tabsna",
+      "english_definition": "vegetable if burnt somewhat in cooking.",
+      "hindi_definition": "सब्जी का पकते समय कुछ जल जाना (झुलसना)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "vegetable if burnt somewhat in cooking.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "सब्जी का पकते समय कुछ जल जाना (झुलसना)",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0169.jpg",
+        "page_label": "165"
+      }
+    }
+  ]
+}

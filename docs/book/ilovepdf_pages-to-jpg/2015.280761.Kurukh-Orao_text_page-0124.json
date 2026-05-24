@@ -1,0 +1,275 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0124.jpg",
+  "page_label": "120",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Mandnā",
+      "kurukh_word_ascii": "Mandna",
+      "english_definition": "ckan, o'an, to cover.",
+      "hindi_definition": "ढंकना (आवरण करना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mandnā",
+      "kurukh_word_ascii": "Mandna",
+      "english_definition": "ckan, o'an, to select.",
+      "hindi_definition": "चुनना (चयन करना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": "2nd homograph of Mandnā"
+    },
+    {
+      "kurukh_word": "Mandrnā gaḍḍī",
+      "kurukh_word_ascii": "Mandrna gaddi",
+      "english_definition": "grave, burial excavation.",
+      "hindi_definition": "कब्र (दफनाने का गड्ढा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mandrnā aḍḍā",
+      "kurukh_word_ascii": "Mandrna adda",
+      "english_definition": "burial ground.",
+      "hindi_definition": "कब्रिस्तान।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mandrnā",
+      "kurukh_word_ascii": "Mandrna",
+      "english_definition": "kan, an, to roast in hot ashes.",
+      "hindi_definition": "गर्म राख में भूनना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maṅgnī dhibā",
+      "kurukh_word_ascii": "Mangni dhiba",
+      "english_definition": "the fine taken from a man who has outraged a girl (also called pēllō daṇḍē).",
+      "hindi_definition": "लड़की के साथ दुराचार करने वाले पुरुष से लिया जाने वाला जुर्माना (इसे pēllō daṇḍē भी कहा जाता है)।",
+      "part_of_speech": "noun",
+      "notes": "Variant: pēllō daṇḍē"
+    },
+    {
+      "kurukh_word": "Manjkā",
+      "kurukh_word_ascii": "Manjka",
+      "english_definition": "an event, occurrence; past partic. of mannā (to become, to happen).",
+      "hindi_definition": "घटना, वाकया; mannā (होना, घटित होना) का भूतकालिक कृदंत।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Manī",
+      "kurukh_word_ascii": "Mani",
+      "english_definition": "mustard.",
+      "hindi_definition": "सरसों।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Manī-pūmp",
+      "kurukh_word_ascii": "Mani-pump",
+      "english_definition": "mustard flower.",
+      "hindi_definition": "सरसों का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Manī",
+      "kurukh_word_ascii": "Mani",
+      "english_definition": "adj. true.",
+      "hindi_definition": "विशेषण। सच, सत्य।",
+      "part_of_speech": "adjective",
+      "notes": "2nd homograph of Manī"
+    },
+    {
+      "kurukh_word": "Manī manīdīm",
+      "kurukh_word_ascii": "Mani manidim",
+      "english_definition": "adv. very truly, really true, certainly.",
+      "hindi_definition": "क्रियाविशेषण। बिल्कुल सच, वास्तव में, निश्चित रूप से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Manīm",
+      "kurukh_word_ascii": "Manim",
+      "english_definition": "adv. verily, truly.",
+      "hindi_definition": "क्रियाविशेषण। वास्तव में, सचमुच।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maṅkhō",
+      "kurukh_word_ascii": "Mankho",
+      "english_definition": "buffalo, male.",
+      "hindi_definition": "नर भैंसा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maṅkhnā",
+      "kurukh_word_ascii": "Mankhna",
+      "english_definition": "kan, yan, to admit, to let in.",
+      "hindi_definition": "प्रवेश देना, स्वीकार करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maṅkhnī",
+      "kurukh_word_ascii": "Mankhni",
+      "english_definition": "to bestow fellowship, to take into communion.",
+      "hindi_definition": "सहभागिता देना, संगति में शामिल करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maṅkōṭrō",
+      "kurukh_word_ascii": "Mankotro",
+      "english_definition": "the tree-frog.",
+      "hindi_definition": "पेड़ पर रहने वाला मेंढक।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mann",
+      "kurukh_word_ascii": "Mann",
+      "english_definition": "tree.",
+      "hindi_definition": "पेड़ (वृक्ष)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mannā",
+      "kurukh_word_ascii": "Manna",
+      "english_definition": "jkan, j'an, to be, to become.",
+      "hindi_definition": "होना, बन जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "jkan-j'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mannā",
+      "kurukh_word_ascii": "Manna",
+      "english_definition": "ckan, c'an, to obey.",
+      "hindi_definition": "मानना, आज्ञा पालन करना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi",
+      "notes": "2nd homograph of Mannā"
+    },
+    {
+      "kurukh_word": "Manō!",
+      "kurukh_word_ascii": "Mano!",
+      "english_definition": "that will do!",
+      "hindi_definition": "हो गया! / बस काफी है!",
+      "part_of_speech": "interjection",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mannpaṭṭā-ōṛā",
+      "kurukh_word_ascii": "Mannpatta-ora",
+      "english_definition": "a kind of woodpecker.",
+      "hindi_definition": "कठफोड़वा पक्षी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Manta'anā",
+      "kurukh_word_ascii": "Manta'ana",
+      "english_definition": "ckan, o'an, to cause to be.",
+      "hindi_definition": "करवाना, होने देना (होने का कारण बनना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Marā",
+      "kurukh_word_ascii": "Mara",
+      "english_definition": "corpse; niṅghai marā alaṅg op alaṅg nekā, a curse: may thy corpse be burnt, cremated; i.e., die!",
+      "hindi_definition": "शव (लाश); niṅghai marā alaṅg op alaṅg nekā = (श्राप) तेरी लाश जले! अर्थात् मर जा!",
+      "part_of_speech": "noun",
+      "notes": "Example curse: niṅghai marā alaṅg op alaṅg nekā"
+    },
+    {
+      "kurukh_word": "Masṛā ṭoṅkā",
+      "kurukh_word_ascii": "Masra tonka",
+      "english_definition": "cremation ground.",
+      "hindi_definition": "श्मशान घाट।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Masṛā gaḍḍī",
+      "kurukh_word_ascii": "Masra gaddi",
+      "english_definition": "cremation pit, grave.",
+      "hindi_definition": "शवदाह का गड्ढा, कब्र।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Marag",
+      "kurukh_word_ascii": "Marag",
+      "english_definition": "horn.",
+      "hindi_definition": "सींग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maran",
+      "kurukh_word_ascii": "Maran",
+      "english_definition": "secret, meaning.",
+      "hindi_definition": "मर्म (भेद, रहस्य, अर्थ) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mar'ā",
+      "kurukh_word_ascii": "Mar'a",
+      "english_definition": "fallow.",
+      "hindi_definition": "विशेषण। परती (बंजर या बिना जोती हुई भूमि) (हिंदी से लिया गया)।",
+      "part_of_speech": "adjective",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mar'da'anā",
+      "kurukh_word_ascii": "Mar'da'ana",
+      "english_definition": "ckan, c'an, to knead.",
+      "hindi_definition": "मांडना (गूंथना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mar'fā",
+      "kurukh_word_ascii": "Mar'fa",
+      "english_definition": "a corpse, dead body.",
+      "hindi_definition": "शव, लाश।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Markha'anā",
+      "kurukh_word_ascii": "Markha'ana",
+      "english_definition": "ckan, c'an, to soil.",
+      "hindi_definition": "मैला करना, गंदा करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Markhkā",
+      "kurukh_word_ascii": "Markhka",
+      "english_definition": "dirty, soiled.",
+      "hindi_definition": "मैला, गंदा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    }
+  ]
+}

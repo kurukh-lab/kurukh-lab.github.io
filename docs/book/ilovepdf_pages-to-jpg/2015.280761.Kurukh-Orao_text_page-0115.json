@@ -1,0 +1,292 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0115.jpg",
+  "page_label": "111",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Lamcomrnā",
+      "kurukh_word_ascii": "Lamcomrna",
+      "english_definition": "to feel desire for eating a special thing.",
+      "hindi_definition": "विशेष भोजन खाने की इच्छा (लालसा) होना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lamkā dhemkā",
+      "kurukh_word_ascii": "Lamka dhemka",
+      "english_definition": "vile, vulgar.",
+      "hindi_definition": "नीच, अश्लील, भद्दा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lanḍhiyā",
+      "kurukh_word_ascii": "Landhiya",
+      "english_definition": "adj. lazy.",
+      "hindi_definition": "आलसी (लँढ़िया)।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lanḍi",
+      "kurukh_word_ascii": "Landi",
+      "english_definition": "adj. lazy.",
+      "hindi_definition": "आलसी।",
+      "part_of_speech": "adjective",
+      "notes": "Variant of Lanḍhiyā"
+    },
+    {
+      "kurukh_word": "Lanḍi luhārī",
+      "kurukh_word_ascii": "Landi luhari",
+      "english_definition": "early breakfast ; lit. the lazy man's breakfast.",
+      "hindi_definition": "सुबह का नाश्ता (शाब्दिक अर्थ: आलसी व्यक्ति का नाश्ता)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lā̃ḍnā",
+      "kurukh_word_ascii": "Landna",
+      "english_definition": "kan, yan, to save, to deliver from danger or perishment.",
+      "hindi_definition": "बचाना, विपत्ति या विनाश से रक्षा करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "Variant: nā̃ḍnā"
+    },
+    {
+      "kurukh_word": "nā̃ḍnā",
+      "kurukh_word_ascii": "nandna",
+      "english_definition": "to save, to deliver from danger or perishment.",
+      "hindi_definition": "बचाना, रक्षा करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "Variant of Lā̃ḍnā"
+    },
+    {
+      "kurukh_word": "Lā̃ḍrkā",
+      "kurukh_word_ascii": "Landrka",
+      "english_definition": "saved.",
+      "hindi_definition": "बचाया हुआ, सुरक्षित।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lā̃ḍū",
+      "kurukh_word_ascii": "Landu",
+      "english_definition": "saviour, deliverer.",
+      "hindi_definition": "उद्धारक, बचाने वाला, रक्षक।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṅghan",
+      "kurukh_word_ascii": "Langhan",
+      "english_definition": "contagion.",
+      "hindi_definition": "संक्रामक रोग, संक्रमण (लाँघन)।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lāṅghnā",
+      "kurukh_word_ascii": "Langhna",
+      "english_definition": "ckan, c'an, to infect, to be infectious, contagious.",
+      "hindi_definition": "संक्रमित करना, संक्रामक होना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṅgrā",
+      "kurukh_word_ascii": "Langra",
+      "english_definition": "lame.",
+      "hindi_definition": "लंगड़ा।",
+      "part_of_speech": "adjective",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Langra'anā",
+      "kurukh_word_ascii": "Langra'ana",
+      "english_definition": "ckan, c'an, to limp.",
+      "hindi_definition": "लंगड़ा कर चलना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṅgṭā",
+      "kurukh_word_ascii": "Langta",
+      "english_definition": "naked.",
+      "hindi_definition": "नंगा, वस्त्रहीन (नंगटा)।",
+      "part_of_speech": "adjective",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lā̃ṛnā",
+      "kurukh_word_ascii": "Landrna",
+      "english_definition": "kan, an, same as lā̃ḍnā and nā̃ḍnā.",
+      "hindi_definition": "बचाना, रक्षा करना (lā̃ḍnā/nā̃ḍnā के समान)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lau laṛaṅg",
+      "kurukh_word_ascii": "Lau larang",
+      "english_definition": "a creeper, the leaves of which are used for making umbrellas.",
+      "hindi_definition": "एक लता, जिसके पत्तों का उपयोग छाता बनाने के लिए किया जाता है (घूंगू पत्ता)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lauṛā",
+      "kurukh_word_ascii": "Laura",
+      "english_definition": "private parts (male).",
+      "hindi_definition": "पुरुष जननांग (शिश्न)।",
+      "part_of_speech": "noun",
+      "notes": "Variant: lāṛ"
+    },
+    {
+      "kurukh_word": "lāṛ",
+      "kurukh_word_ascii": "lar",
+      "english_definition": "private parts (male).",
+      "hindi_definition": "पुरुष जननांग (शिश्न)।",
+      "part_of_speech": "noun",
+      "notes": "Variant of Lauṛā"
+    },
+    {
+      "kurukh_word": "Lap lap",
+      "kurukh_word_ascii": "Lap lap",
+      "english_definition": "thin, fine.",
+      "hindi_definition": "पतला, बारीक, महीन।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lap lap'rā",
+      "kurukh_word_ascii": "Lap lap'ra",
+      "english_definition": "longeared, flapping.",
+      "hindi_definition": "लंबे और लटकते कानों वाला, फड़फड़ाने वाला।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lap'ā kholpā",
+      "kurukh_word_ascii": "Lap'a kholpa",
+      "english_definition": "a hole in a stone.",
+      "hindi_definition": "पत्थर में बना गड्ढा या खोह।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lapai",
+      "kurukh_word_ascii": "Lapai",
+      "english_definition": "weak, exhausted.",
+      "hindi_definition": "कमजोर, थका हुआ, थका-मांदा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lapai lupairnā",
+      "kurukh_word_ascii": "Lapai lupairna",
+      "english_definition": "to stagger.",
+      "hindi_definition": "लड़खड़ा कर चलना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lafnā",
+      "kurukh_word_ascii": "Lafna",
+      "english_definition": "kite.",
+      "hindi_definition": "चील/पतंग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lapnā",
+      "kurukh_word_ascii": "Lapna",
+      "english_definition": "ckan, c'an, to measure, with the hollow of the hand.",
+      "hindi_definition": "हथेली की ओक से नापना (अंजुली भर कर नापना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lapp",
+      "kurukh_word_ascii": "Lapp",
+      "english_definition": "a handful.",
+      "hindi_definition": "मुट्ठी भर, अंजुली भर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laprā",
+      "kurukh_word_ascii": "Lapra",
+      "english_definition": "long, flapping.",
+      "hindi_definition": "लंबा, लटकता हुआ (कान आदि)।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laprā khebdā",
+      "kurukh_word_ascii": "Lapra khebda",
+      "english_definition": "flapping ear.",
+      "hindi_definition": "लटकता हुआ या लचकदार कान।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lapsārnā",
+      "kurukh_word_ascii": "Lapsarna",
+      "english_definition": "to mount a horse, without the use of a stirrup, to make haste.",
+      "hindi_definition": "बिना रकाब के घोड़े पर चढ़ना, फुर्ती करना (जल्दी करना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lapsī",
+      "kurukh_word_ascii": "Lapsi",
+      "english_definition": "a kind of bread, made of the remnants of the dough.",
+      "hindi_definition": "बचे हुए गूंथे आटे की रोटी (लपसी)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lāṛ cāṛrnā",
+      "kurukh_word_ascii": "Lar carrna",
+      "english_definition": "to doubt, hesitate.",
+      "hindi_definition": "संदेह करना, हिचकिचाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṛā",
+      "kurukh_word_ascii": "Lara",
+      "english_definition": "large.",
+      "hindi_definition": "बड़ा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṛam luṛumrā mōkhnā",
+      "kurukh_word_ascii": "Laram lurumra mokhna",
+      "english_definition": "to eat quickly, with greediness.",
+      "hindi_definition": "जल्दी-जल्दी, लालच के साथ खाना (हड़प-हड़प कर खाना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Larlarrnā",
+      "kurukh_word_ascii": "Larlarrna",
+      "english_definition": "to be unsteady.",
+      "hindi_definition": "अस्थिर होना, लड़खड़ाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,593 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg",
+  "page_label": "4",
+  "running_header": "Allā iuikhnā — Amm pacnā",
+  "status": "extracted",
+  "extracted_at": "2026-05-23",
+  "entries": [
+    {
+      "kurukh_word": "Allā iuikhnā",
+      "kurukh_word_ascii": "Alla iuikhna",
+      "english_definition": "to have whooping cough",
+      "hindi_definition": "कुकर खाँसी होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to have whooping cough", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कुकर खाँसी होना (काली खाँसी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Alla luhur",
+      "kurukh_word_ascii": "Alla luhur",
+      "english_definition": "a kind of grass",
+      "hindi_definition": "एक प्रकार की घास",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "a kind of grass", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार की घास", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Alla aṇḍkū",
+      "kurukh_word_ascii": "Alla andku",
+      "english_definition": "sty in the eye",
+      "hindi_definition": "गुहेरी, आँख की फुंसी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "sty in the eye", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गुहेरी, आँख की फुंसी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Allnā",
+      "kurukh_word_ascii": "Allna",
+      "english_definition": "to become clear, as water when left undisturbed",
+      "hindi_definition": "स्वच्छ हो जाना, जैसे ठहरा हुआ पानी",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan, intr.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to become clear, as water when left undisturbed", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "स्वच्छ हो जाना, जैसे बिना हिले रखा हुआ पानी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Ambnā",
+      "kurukh_word_ascii": "Ambna",
+      "english_definition": "to let go, forsake, abandon, leave",
+      "hindi_definition": "छोड़ देना, त्यागना, जाने देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to let go, forsake, abandon, leave", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छोड़ देना, त्यागना, जाने देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Ambā!",
+      "kurukh_word_ascii": "Amba!",
+      "english_definition": "Don't! Beware! Hands off!",
+      "hindi_definition": "मत करो! सावधान! हाथ हटाओ!",
+      "part_of_speech": "interjection",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "Don't! Beware! Hands off!", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मत करो! सावधान! हाथ हटाओ!", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Ambrnā",
+      "kurukh_word_ascii": "Ambrna",
+      "english_definition": "to escape, to be left, to be forgiven",
+      "hindi_definition": "बच निकलना, छूट जाना, क्षमा मिलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to escape, to be left, to be forgiven", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बच निकलना, छूट जाना, क्षमा प्राप्त करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Ambr",
+      "kurukh_word_ascii": "Ambr",
+      "english_definition": "except, exclusive of",
+      "hindi_definition": "के अतिरिक्त, छोड़कर",
+      "part_of_speech": "preposition",
+      "grammatical_tag": "prep.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "except, exclusive of", "example_sentence_kurukh": "idin ambr urmin ho'ā", "example_sentence_translation": "take away all except this one" },
+        { "language": "hi", "definition": "के अतिरिक्त, छोड़कर, सिवाय", "example_sentence_kurukh": "idin ambr urmin ho'ā", "example_sentence_translation": "इसे छोड़कर सब ले जाओ" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Ambr ci'inā",
+      "kurukh_word_ascii": "Ambr ci'ina",
+      "english_definition": "to give leave, let loose, set free (emphasised form of ambnā)",
+      "hindi_definition": "छुटकारा देना, मुक्त करना (ambnā का बलवाचक रूप)",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to give leave, let loose, set free; emphasised form of ambnā", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छुटकारा देना, मुक्त करना, खुला छोड़ देना; ambnā का बलवाचक रूप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Ambrai",
+      "kurukh_word_ascii": "Ambrai",
+      "english_definition": "mango grove",
+      "hindi_definition": "अमराई, आम का बाग",
+      "part_of_speech": "noun",
+      "grammatical_tag": "H.",
+      "loanword_from": "hi",
+      "meanings": [
+        { "language": "en", "definition": "mango grove", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अमराई, आम का बगीचा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Ambrō-man",
+      "kurukh_word_ascii": "Ambro-man",
+      "english_definition": "woodapple tree",
+      "hindi_definition": "कैथ का पेड़ (बेल जैसा वृक्ष)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "woodapple tree (Limonia acidissima)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कैथ का पेड़ (Limonia acidissima)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Ambri",
+      "kurukh_word_ascii": "Ambri",
+      "english_definition": "rice water, gruel",
+      "hindi_definition": "माड़, चावल का पानी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "rice water, gruel", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "माड़, चावल का पानी, पेज", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Ambsa'anā",
+      "kurukh_word_ascii": "Ambsa'ana",
+      "english_definition": "to allow to become sour",
+      "hindi_definition": "खट्टा होने देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to allow to become sour", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खट्टा होने देना, खटाने देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amkht",
+      "kurukh_word_ascii": "Amkht",
+      "english_definition": "condiments such as meat, vegetables, spices",
+      "hindi_definition": "व्यंजन/मसाले — मांस, सब्ज़ी, मसाले आदि",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "condiments such as meat, vegetables, spices (anything eaten with rice)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मांस, सब्ज़ी, मसाले आदि व्यंजन (चावल के साथ खाई जाने वाली चीज़ें)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amla'anā",
+      "kurukh_word_ascii": "Amla'ana",
+      "english_definition": "to appropriate, to take possession of",
+      "hindi_definition": "अधिकार में लेना, कब्ज़ा करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to appropriate, to take possession of", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अधिकार में लेना, कब्ज़ा करना, हथियाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm",
+      "kurukh_word_ascii": "Amm",
+      "english_definition": "water",
+      "hindi_definition": "पानी, जल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "water", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पानी, जल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Ūr amm",
+      "kurukh_word_ascii": "Ur amm",
+      "english_definition": "nectar, fountain, spring water",
+      "hindi_definition": "अमृत, झरने का पानी, सोते का जल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "nectar; fountain or spring water", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अमृत; झरने या सोते का जल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "boddā amm",
+      "kurukh_word_ascii": "bodda amm",
+      "english_definition": "dirty water",
+      "hindi_definition": "गंदा पानी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "dirty water", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गंदा पानी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "khē'enā amm",
+      "kurukh_word_ascii": "khe'ena amm",
+      "english_definition": "cold water",
+      "hindi_definition": "ठंडा पानी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "cold water", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ठंडा पानी, शीतल जल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "kīkā amm",
+      "kurukh_word_ascii": "kika amm",
+      "english_definition": "foul, stinking water",
+      "hindi_definition": "बदबूदार, सड़ा पानी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "foul, stinking water", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बदबूदार, सड़ा हुआ पानी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "kurnā amm",
+      "kurukh_word_ascii": "kurna amm",
+      "english_definition": "warm, hot water",
+      "hindi_definition": "गर्म पानी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "warm, hot water", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गर्म पानी, उष्ण जल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "umbulkā amm",
+      "kurukh_word_ascii": "umbulka amm",
+      "english_definition": "urine",
+      "hindi_definition": "मूत्र, पेशाब",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "urine (literally 'belly-water')", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मूत्र, पेशाब", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm khondnā",
+      "kurukh_word_ascii": "Amm khondna",
+      "english_definition": "to blister from being burnt (lit. to purchase water)",
+      "hindi_definition": "जलने से छाला पड़ना (शब्दशः 'पानी खरीदना')",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to blister from being burnt; literally 'to purchase water'", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जलने से छाला पड़ना; शब्दशः 'पानी खरीदना'", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm lakkā",
+      "kurukh_word_ascii": "Amm lakka",
+      "english_definition": "to suffer from dropsy",
+      "hindi_definition": "जलोदर रोग होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["Amm nindkā mannā"],
+      "meanings": [
+        { "language": "en", "definition": "to suffer from dropsy", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जलोदर रोग होना (पेट में पानी भरना)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm nindkā mannā",
+      "kurukh_word_ascii": "Amm nindka manna",
+      "english_definition": "to suffer from dropsy (variant of Amm lakkā)",
+      "hindi_definition": "जलोदर रोग होना (Amm lakkā का रूप)",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variant_of": "Amm lakkā",
+      "meanings": [
+        { "language": "en", "definition": "to suffer from dropsy; variant of Amm lakkā", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जलोदर रोग होना; Amm lakkā का रूप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm ōnkā",
+      "kurukh_word_ascii": "Amm onka",
+      "english_definition": "thirst",
+      "hindi_definition": "प्यास",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "thirst", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्यास, तृष्णा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm ōnkā lagnā",
+      "kurukh_word_ascii": "Amm onka lagna",
+      "english_definition": "to feel thirsty",
+      "hindi_definition": "प्यास लगना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["Amm ōnkā sārnā"],
+      "meanings": [
+        { "language": "en", "definition": "to feel thirsty", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्यास लगना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm ōnkā sārnā",
+      "kurukh_word_ascii": "Amm onka sarna",
+      "english_definition": "to feel thirsty (variant of Amm ōnkā lagnā)",
+      "hindi_definition": "प्यास लगना (Amm ōnkā lagnā का रूप)",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variant_of": "Amm ōnkā lagnā",
+      "meanings": [
+        { "language": "en", "definition": "to feel thirsty; variant of Amm ōnkā lagnā", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्यास लगना; Amm ōnkā lagnā का रूप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm ōnkā ra'anā",
+      "kurukh_word_ascii": "Amm onka ra'ana",
+      "english_definition": "to be thirsty",
+      "hindi_definition": "प्यासा होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to be thirsty", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्यासा होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm cipu",
+      "kurukh_word_ascii": "Amm cipu",
+      "english_definition": "sponge",
+      "hindi_definition": "स्पंज",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "sponge", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "स्पंज, जल-शोषक", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm ka'anā",
+      "kurukh_word_ascii": "Amm ka'ana",
+      "english_definition": "to fetch water",
+      "hindi_definition": "पानी लाना, पानी भरना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["amm ondrā ka'anā"],
+      "meanings": [
+        { "language": "en", "definition": "to fetch water", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पानी लाना, पानी भरना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "amm ondrā ka'anā",
+      "kurukh_word_ascii": "amm ondra ka'ana",
+      "english_definition": "to fetch water (variant of Amm ka'anā)",
+      "hindi_definition": "पानी लाना (Amm ka'anā का रूप)",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variant_of": "Amm ka'anā",
+      "meanings": [
+        { "language": "en", "definition": "to fetch water; variant of Amm ka'anā", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पानी लाना; Amm ka'anā का रूप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm pajurārnā",
+      "kurukh_word_ascii": "Amm pajurarna",
+      "english_definition": "pyrosis (heartburn)",
+      "hindi_definition": "जलन, सीने में जलन (पाइरोसिस)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "pyrosis; heartburn", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सीने में जलन, अम्ल-प्रवाह", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    },
+    {
+      "kurukh_word": "Amm pacnā",
+      "kurukh_word_ascii": "Amm pacna",
+      "english_definition": "to become acclimatized",
+      "hindi_definition": "जलवायु के अनुकूल होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to become acclimatized", "example_sentence_kurukh": "iyantā amm eṅgagē malā poci", "example_sentence_translation": "I can't bear the climate of this place" },
+        { "language": "hi", "definition": "जलवायु के अनुकूल हो जाना", "example_sentence_kurukh": "iyantā amm eṅgagē malā poci", "example_sentence_translation": "मुझे इस जगह की जलवायु सहन नहीं होती" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0008.jpg", "page_label": "4" }
+    }
+  ]
+}

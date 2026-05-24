@@ -1,0 +1,208 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0164.jpg",
+  "page_label": "160",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Sāprārnā",
+      "kurukh_word_ascii": "Saprarna",
+      "english_definition": "to be prepared",
+      "hindi_definition": "तैयार होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Sāpnārnā",
+      "kurukh_word_ascii": "Sapnarna",
+      "english_definition": "to dream",
+      "hindi_definition": "सपना देखना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Sāprāu",
+      "kurukh_word_ascii": "Saprau",
+      "english_definition": "preparation",
+      "hindi_definition": "तैयारी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāput",
+      "kurukh_word_ascii": "Saput",
+      "english_definition": "gentleness, meekness",
+      "hindi_definition": "कोमलता, नम्रता",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sārābā'ānā",
+      "kurukh_word_ascii": "Saraba'ana",
+      "english_definition": "to make haste, to hasten, to do quickly",
+      "hindi_definition": "जल्दी करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sārā",
+      "kurukh_word_ascii": "Sara",
+      "english_definition": "brother-in-law",
+      "hindi_definition": "साला",
+      "part_of_speech": "noun",
+      "gender": "m",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sārī",
+      "kurukh_word_ascii": "Sari",
+      "english_definition": "sister-in-law",
+      "hindi_definition": "साली",
+      "part_of_speech": "noun",
+      "gender": "f"
+    },
+    {
+      "kurukh_word": "Sārī",
+      "kurukh_word_ascii": "Sari",
+      "english_definition": "instead of, for the sake of",
+      "hindi_definition": "की बजाय, के लिए",
+      "part_of_speech": "prep",
+      "example_phrase": "ōrmār sārī jānā hērās — he went for the sake of all",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Sārhadd",
+      "kurukh_word_ascii": "Sarhadd",
+      "english_definition": "boundary",
+      "hindi_definition": "सीमा",
+      "part_of_speech": "noun",
+      "loanword_from": "ur"
+    },
+    {
+      "kurukh_word": "Sārhār",
+      "kurukh_word_ascii": "Sarhar",
+      "english_definition": "inaccessible, which cannot be climbed",
+      "hindi_definition": "अप्राप्य, जिस पर चढ़ा न जा सके",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sārhuā",
+      "kurukh_word_ascii": "Sarhua",
+      "english_definition": "soft, thin",
+      "hindi_definition": "नरम, पतला",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sārbī",
+      "kurukh_word_ascii": "Sarbi",
+      "english_definition": "brother-in-law",
+      "hindi_definition": "साला",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sārē",
+      "kurukh_word_ascii": "Sare",
+      "english_definition": "manure",
+      "hindi_definition": "खाद",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sārī",
+      "kurukh_word_ascii": "Sari",
+      "english_definition": "a little bit (jōk sārī)",
+      "hindi_definition": "थोड़ा सा (जोक सारी)",
+      "part_of_speech": "adv",
+      "homograph_index": 3
+    },
+    {
+      "kurukh_word": "Sārā",
+      "kurukh_word_ascii": "Sara",
+      "english_definition": "barrier",
+      "hindi_definition": "बाड़, रोक",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Sārē mannā",
+      "kurukh_word_ascii": "Sare manna",
+      "english_definition": "to be manured",
+      "hindi_definition": "खाद डाला जाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sārdē",
+      "kurukh_word_ascii": "Sarde",
+      "english_definition": "voice; also sārd",
+      "hindi_definition": "आवाज",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sārhī",
+      "kurukh_word_ascii": "Sarhi",
+      "english_definition": "the beam of the plough",
+      "hindi_definition": "हल की लकड़ी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sārkā'ānā",
+      "kurukh_word_ascii": "Sarka'ana",
+      "english_definition": "to listen, pay attention",
+      "hindi_definition": "सुनना, ध्यान देना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sārkhī",
+      "kurukh_word_ascii": "Sarkhi",
+      "english_definition": "a vessel with a gutter or outlet",
+      "hindi_definition": "नाली वाला बर्तन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sārkhā'ānā",
+      "kurukh_word_ascii": "Sarkha'and",
+      "english_definition": "to listen clandestinely",
+      "hindi_definition": "चुपके से सुनना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sārnā",
+      "kurukh_word_ascii": "Sarna",
+      "english_definition": "the sacred grove",
+      "hindi_definition": "पवित्र वन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sārnā",
+      "kurukh_word_ascii": "Sarna",
+      "english_definition": "to suffer; to endure",
+      "hindi_definition": "तकलीफ सहना; सहन करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-ves / kan-an / ckan-an",
+      "example_phrase": "Kirā sārnē — to be poor, hungry; Umhē sārnā — to feel warm/comfortable; Ōnkā sārnā — to be thirsty",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Sārpā'ānā",
+      "kurukh_word_ascii": "Sarpa'ana",
+      "english_definition": "to curse",
+      "hindi_definition": "श्राप देना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sārpārnā",
+      "kurukh_word_ascii": "Sarparna",
+      "english_definition": "to be cursed",
+      "hindi_definition": "श्रापित होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Sārpārkā",
+      "kurukh_word_ascii": "Sarparka",
+      "english_definition": "cursed",
+      "hindi_definition": "श्रापित",
+      "part_of_speech": "adj"
+    }
+  ]
+}

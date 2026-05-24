@@ -1,0 +1,755 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg",
+  "page_label": "43",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ḍaṅgrā mocnā",
+      "kurukh_word_ascii": "Dangra mocna",
+      "english_definition": "to make or kill the bull sacrifice",
+      "hindi_definition": "बैल की बलि देना या चढ़ाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍaṅgrā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to make or kill the bull sacrifice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बैल की बलि देना या चढ़ाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍaṅglō",
+      "kurukh_word_ascii": "Danglo",
+      "english_definition": "a hollow, vacuum",
+      "hindi_definition": "खोखलापन, शून्य, रिक्ति",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a hollow, vacuum", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खोखलापन, शून्य, रिक्ति", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍaṅglō mannā",
+      "kurukh_word_ascii": "Danglo manna",
+      "english_definition": "to be vacant, hollow",
+      "hindi_definition": "खाली होना, खोखला होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍaṅglō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be vacant, hollow", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खाली होना, खोखला होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍaṇṭī",
+      "kurukh_word_ascii": "Danti",
+      "english_definition": "the stack of a fruit",
+      "hindi_definition": "फल का डंठल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the stack of a fruit", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फल का डंठल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍãriyānā",
+      "kurukh_word_ascii": "Danriyana",
+      "english_definition": "to wait for a gift",
+      "hindi_definition": "उपहार या दान की प्रतीक्षा करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [
+        "Ḍaniyānā"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to wait for a gift", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उपहार या दान की प्रतीक्षा करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍaniyānā",
+      "kurukh_word_ascii": "Daniyana",
+      "english_definition": "to wait for a gift",
+      "hindi_definition": "उपहार या दान की प्रतीक्षा करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍãriyānā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to wait for a gift", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उपहार या दान की प्रतीक्षा करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍãṛē",
+      "kurukh_word_ascii": "Danre",
+      "english_definition": "sacrifice, bloody sacrifice",
+      "hindi_definition": "बलि, रक्त बलि",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "sacrifice, bloody sacrifice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बलि, रक्त बलि", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍãṛē nannā",
+      "kurukh_word_ascii": "Danre nanna",
+      "english_definition": "to make a sacrifice",
+      "hindi_definition": "बलि देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "Ḍãṛē cī'inā"
+      ],
+      "variant_of": "Ḍãṛē",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to make a sacrifice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बलि देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍãṛē cī'inā",
+      "kurukh_word_ascii": "Danre ci'ina",
+      "english_definition": "to make a sacrifice",
+      "hindi_definition": "बलि चढ़ाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍãṛē",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to make a sacrifice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बलि चढ़ाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍãṛē mannā",
+      "kurukh_word_ascii": "Danre manna",
+      "english_definition": "to become a sacrifice",
+      "hindi_definition": "बलि बनना, न्योछावर होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍãṛē",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to become a sacrifice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बलि बनना, न्योछावर होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍãṛē ho'onā",
+      "kurukh_word_ascii": "Danre ho'ona",
+      "english_definition": "to accept a sacrifice",
+      "hindi_definition": "बलि स्वीकार करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "injrnā"
+      ],
+      "variant_of": "Ḍãṛē",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to accept a sacrifice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बलि स्वीकार करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "injrnā",
+      "kurukh_word_ascii": "injrna",
+      "english_definition": "to accept a sacrifice",
+      "hindi_definition": "बलि स्वीकार करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍãṛē ho'onā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to accept a sacrifice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बलि स्वीकार करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍãṛharnā",
+      "kurukh_word_ascii": "Danrharna",
+      "english_definition": "to be fatted",
+      "hindi_definition": "मोटा होना, पुष्ट होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be fatted", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मोटा होना, पुष्ट होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍãṛharkā",
+      "kurukh_word_ascii": "Danrharka",
+      "english_definition": "made fat, fat",
+      "hindi_definition": "मोटा-ताजा, पुष्ट",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍãṛharnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "made fat, fat", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मोटा-ताजा, पुष्ट", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍaṛhā",
+      "kurukh_word_ascii": "Darha",
+      "english_definition": "the village demon, see darhā",
+      "hindi_definition": "ग्राम देवता या ग्राम का भूत (विस्तृत जानकारी के लिए 'darhā' देखें)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the village demon, see darhā", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ग्राम देवता या ग्राम का भूत (विस्तृत जानकारी के लिए 'darhā' देखें)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍaṭnā",
+      "kurukh_word_ascii": "Datna",
+      "english_definition": "to threaten, to warn",
+      "hindi_definition": "धमकाना, चेतावनी देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to threaten, to warn", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धमकाना, चेतावनी देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍaṭnā",
+      "kurukh_word_ascii": "Datna",
+      "english_definition": "to ask impertinently",
+      "hindi_definition": "ढीठता या गुस्ताखी से पूछना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to ask impertinently", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ढीठता या गुस्ताखी से पूछना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍau-pōk",
+      "kurukh_word_ascii": "Dau-pok",
+      "english_definition": "the large black ant",
+      "hindi_definition": "बड़ी काली चींटी (मातापोक)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the large black ant", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बड़ी काली चींटी (मातापोक)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍembā",
+      "kurukh_word_ascii": "Demba",
+      "english_definition": "bunch",
+      "hindi_definition": "गुच्छा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "bunch", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गुच्छा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍēnā",
+      "kurukh_word_ascii": "Dena",
+      "english_definition": "wing",
+      "hindi_definition": "पंख",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "wing", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पंख", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍērā",
+      "kurukh_word_ascii": "Dera",
+      "english_definition": "hostel",
+      "hindi_definition": "डेरा, छात्रावास, पड़ाव",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "hostel", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "डेरा, छात्रावास, पड़ाव", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍerkhnā",
+      "kurukh_word_ascii": "Derkhna",
+      "english_definition": "to spring up as a rubber ball when thrown down",
+      "hindi_definition": "नीचे फेंकने पर रबर की गेंद की तरह उछलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to spring up as a rubber ball when thrown down", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नीचे फेंकने पर रबर की गेंद की तरह उछलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍeraṅgō-man",
+      "kurukh_word_ascii": "Derango-man",
+      "english_definition": "a kind of tree",
+      "hindi_definition": "एक प्रकार का पेड़",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a kind of tree", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार का पेड़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍiḍirnā",
+      "kurukh_word_ascii": "Didirna",
+      "english_definition": "to be satiated",
+      "hindi_definition": "तृप्त होना, अघाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be satiated", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तृप्त होना, अघाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍiḍḍō",
+      "kurukh_word_ascii": "Diddo",
+      "english_definition": "big bellied",
+      "hindi_definition": "बड़े पेट वाला, तोंद वाला",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "ḍhiḍhrā"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "big bellied", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बड़े पेट वाला, तोंद वाला", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "ḍhiḍhrā",
+      "kurukh_word_ascii": "dhidhra",
+      "english_definition": "big bellied",
+      "hindi_definition": "बड़े पेट वाला, तोंद वाला",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍiḍḍō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "big bellied", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बड़े पेट वाला, तोंद वाला", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍidgār",
+      "kurukh_word_ascii": "Didgar",
+      "english_definition": "brave, courageous",
+      "hindi_definition": "वीर, साहसी, निडर",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "brave, courageous", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वीर, साहसी, निडर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍiḍhyār",
+      "kurukh_word_ascii": "Didhyar",
+      "english_definition": "courageous",
+      "hindi_definition": "साहसी, वीर",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍidgār",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "courageous", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "साहसी, वीर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍilliṅgī",
+      "kurukh_word_ascii": "Dillingi",
+      "english_definition": "large basket made of bamboo to stow away rice",
+      "hindi_definition": "चावल संचय करने का बाँस का बड़ा टोकरा (डिलिंगी)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "large basket made of bamboo to stow away rice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चावल संचय करने का बाँस का बड़ा टोकरा (डिलिंगी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍikkā",
+      "kurukh_word_ascii": "Dikka",
+      "english_definition": "the hinder parts, the buttocks",
+      "hindi_definition": "नितंब, चूतड़",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the hinder parts, the buttocks", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नितंब, चूतड़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍikkā nannā",
+      "kurukh_word_ascii": "Dikka nanna",
+      "english_definition": "to shew the hinder parts",
+      "hindi_definition": "नितंब दिखाना, पीछे का भाग दिखाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍikkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to shew the hinder parts", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नितंब दिखाना, पीछे का भाग दिखाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍiṇḍā",
+      "kurukh_word_ascii": "Dinda",
+      "english_definition": "virgin, unmarried woman",
+      "hindi_definition": "कुमारी, अविवाहित स्त्री",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "virgin, unmarried woman", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कुमारी, अविवाहित स्त्री", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍiṇḍ",
+      "kurukh_word_ascii": "Dind",
+      "english_definition": "a line drawn with pen or pencil",
+      "hindi_definition": "कलम या पेंसिल से खींची गई रेखा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "a line drawn with pen or pencil", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कलम या पेंसिल से खींची गई रेखा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍiṇḍ",
+      "kurukh_word_ascii": "Dind",
+      "english_definition": "race-course",
+      "hindi_definition": "दौड़ का मैदान",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "race-course", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दौड़ का मैदान", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍiṇḍ natagnā",
+      "kurukh_word_ascii": "Dind natagna",
+      "english_definition": "to draw a line with pen or pencil",
+      "hindi_definition": "कलम या पेंसिल से रेखा खींचना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ḍiṇḍ",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to draw a line with pen or pencil", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कलम या पेंसिल से रेखा खींचना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍimbobohā-pūmp",
+      "kurukh_word_ascii": "Dimboboha-pump",
+      "english_definition": "the tulsī, ocymum sanctum",
+      "hindi_definition": "तुलसी का पौधा, तुलसी का फूल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the tulsī, ocymum sanctum", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तुलसी का पौधा, तुलसी का फूल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    },
+    {
+      "kurukh_word": "Ḍipā",
+      "kurukh_word_ascii": "Dipa",
+      "english_definition": "dale, valley",
+      "hindi_definition": "घाटी, तराई",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "dale, valley", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घाटी, तराई", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0047.jpg", "page_label": "43" }
+    }
+  ]
+}

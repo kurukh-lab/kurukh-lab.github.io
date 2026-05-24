@@ -1,0 +1,549 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg",
+  "page_label": "51",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ēkh",
+      "kurukh_word_ascii": "Ekh",
+      "english_definition": "nightmare",
+      "hindi_definition": "दुःस्वप्न",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 4,
+      "meanings": [
+        { "language": "en", "definition": "nightmare", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दुःस्वप्न", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "ēkh kajnā",
+      "kurukh_word_ascii": "ekh kajna",
+      "english_definition": "to have nightmare, to be pressed down by an apparition",
+      "hindi_definition": "दुःस्वप्न आना, प्रेतबाधा से पीड़ित होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkh",
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to have nightmare, to be pressed down by an apparition", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दुःस्वप्न आना, प्रेतबाधा से पीड़ित होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "ēkh kajnā",
+      "kurukh_word_ascii": "ekh kajna",
+      "english_definition": "to be influenced; also to be pitied or favored",
+      "hindi_definition": "प्रभावित होना; दया या कृपा प्राप्त करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkh",
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to be influenced; also to be pitied or favored", "example_sentence_kurukh": "niṅghai ēkh eṅgan kajanek'ā", "example_sentence_translation": "lit. may thy shadow press or fall upon me! = may thy influence or favor come upon me!" },
+        { "language": "hi", "definition": "प्रभावित होना; दया या कृपा प्राप्त करना", "example_sentence_kurukh": "niṅghai ēkh eṅgan kajanek'ā", "example_sentence_translation": "शाब्दिक रूप से: तुम्हारी छाया मुझ पर पड़े या गिरे! = तुम्हारा प्रभाव या कृपा मुझ पर बनी रहे!" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "ēkh lagnā",
+      "kurukh_word_ascii": "ekh lagna",
+      "english_definition": "to be influenced, empowered, imbibed",
+      "hindi_definition": "प्रभावित होना, अधिकार या शक्ति प्राप्त होना, आत्मसात होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkh",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be influenced, empowered, imbibed", "example_sentence_kurukh": "Niṅghai ēkh lagyā antī kōrē mañjkan", "example_sentence_translation": "I am cured through your virtue or influence or power." },
+        { "language": "hi", "definition": "प्रभावित होना, अधिकार या शक्ति प्राप्त होना, आत्मसात होना", "example_sentence_kurukh": "Niṅghai ēkh lagyā antī kōrē mañjkan", "example_sentence_translation": "मैं आपके गुण, प्रभाव या शक्ति से ठीक हो गया हूँ।" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "ēkh mankhnā",
+      "kurukh_word_ascii": "ekh mankhna",
+      "english_definition": "to practice necromancy, to call, to usher in departed spirits",
+      "hindi_definition": "जादू-टोना करना, प्रेताह्वान करना, मृत आत्माओं को बुलाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkh",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to practice necromancy, to call, to usher in departed spirits", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जादू-टोना करना, प्रेताह्वान करना, मृत आत्माओं को बुलाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Otthā ēkh mannā",
+      "kurukh_word_ascii": "Ottha ekh manna",
+      "english_definition": "to be pregnant; lit. to be heavily shaded, favored, influenced",
+      "hindi_definition": "गर्भवती होना; शाब्दिक रूप से: अत्यधिक छायादार, अनुगृहीत, प्रभावित होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkh",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be pregnant; lit. to be heavily shaded, favored, influenced", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गर्भवती होना; शाब्दिक रूप से: अत्यधिक छायादार, अनुगृहीत, प्रभावित होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "ēkh okknā",
+      "kurukh_word_ascii": "ekh okkna",
+      "english_definition": "to take refuge, shelter",
+      "hindi_definition": "शरण लेना, आश्रय लेना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkh",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to take refuge, shelter", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शरण लेना, आश्रय लेना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēkhā ullā",
+      "kurukh_word_ascii": "Ekha ulla",
+      "english_definition": "the rainy season",
+      "hindi_definition": "वर्षा ऋतु, बरसात का मौसम",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "ēkhā galī"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the rainy season", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वर्षा ऋतु, बरसात का मौसम", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "ēkhā galī",
+      "kurukh_word_ascii": "ekha gali",
+      "english_definition": "the rainy season",
+      "hindi_definition": "वर्षा ऋतु, बरसात का मौसम",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkhā ullā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the rainy season", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वर्षा ऋतु, बरसात का मौसम", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēkhā",
+      "kurukh_word_ascii": "Ekha",
+      "english_definition": "musquito, gnat",
+      "hindi_definition": "मच्छर, डांस",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "musquito, gnat", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मच्छर, डांस", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "ēkhā taknā",
+      "kurukh_word_ascii": "ekha takna",
+      "english_definition": "to cool down, to become cold",
+      "hindi_definition": "ठंडा होना, शीतल होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkhnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to cool down, to become cold", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ठंडा होना, शीतल होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēkhnā",
+      "kurukh_word_ascii": "Ekhna",
+      "english_definition": "to cool, shade",
+      "hindi_definition": "ठंडा करना, छाया करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to cool, shade", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ठंडा करना, छाया करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "khan ēkhnā",
+      "kurukh_word_ascii": "khan ekhna",
+      "english_definition": "to sleep, slumber, rest; lit. shade the eyes",
+      "hindi_definition": "सोना, झपकी लेना, आराम करना; शाब्दिक रूप से: आँखों को छाया देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkhnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to sleep, slumber, rest; lit. shade the eyes", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सोना, झपकी लेना, आराम करना; शाब्दिक रूप से: आँखों को छाया देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēkhnā",
+      "kurukh_word_ascii": "Ekhna",
+      "english_definition": "to be dissatisfied, to want more",
+      "hindi_definition": "असंतुष्ट होना, और अधिक चाहना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to be dissatisfied, to want more", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "असंतुष्ट होना, और अधिक चाहना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēkhrnā",
+      "kurukh_word_ascii": "Ekhrna",
+      "english_definition": "the later hour in the afternoon, when the temperature cools down",
+      "hindi_definition": "अपराह्न का समय, दोपहर के बाद का समय जब तापमान ठंडा हो जाता है",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "the later hour in the afternoon, when the temperature cools down", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अपराह्न का समय, दोपहर के बाद का समय जब तापमान ठंडा हो जाता है", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēkhrnā",
+      "kurukh_word_ascii": "Ekhrna",
+      "english_definition": "to cool down, become cool",
+      "hindi_definition": "ठंडा होना, शीतल होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to cool down, become cool", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ठंडा होना, शीतल होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēkhlāgos",
+      "kurukh_word_ascii": "Ekhlagos",
+      "english_definition": "elder brother's son, nephew",
+      "hindi_definition": "बड़े भाई का बेटा, भतीजा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "elder brother's son, nephew", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बड़े भाई का बेटा, भतीजा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēkhlāgō",
+      "kurukh_word_ascii": "Ekhlago",
+      "english_definition": "elder brother's daughter, niece",
+      "hindi_definition": "बड़े भाई की बेटी, भतीजी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "elder brother's daughter, niece", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बड़े भाई की बेटी, भतीजी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēknā",
+      "kurukh_word_ascii": "Ekna",
+      "english_definition": "to walk",
+      "hindi_definition": "चलना, टहलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ikkan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to walk", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चलना, टहलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "ēkā kuddnā",
+      "kurukh_word_ascii": "eka kuddna",
+      "english_definition": "to walk, wander about",
+      "hindi_definition": "घूमना-फिरना, यहाँ-वहाँ घूमना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēknā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to walk, wander about", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घूमना-फिरना, यहाँ-वहाँ घूमना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēktāanā",
+      "kurukh_word_ascii": "Ektaana",
+      "english_definition": "to guide, conduct, lead",
+      "hindi_definition": "मार्गदर्शन करना, आचरण करना, नेतृत्व करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to guide, conduct, lead", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मार्गदर्शन करना, आचरण करना, नेतृत्व करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēõ",
+      "kurukh_word_ascii": "Eo",
+      "english_definition": "how many, much?",
+      "hindi_definition": "कितने, कितना?",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how many, much?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितने, कितना?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "ēõ cān",
+      "kurukh_word_ascii": "eo can",
+      "english_definition": "how many years?",
+      "hindi_definition": "कितने वर्ष?, कितने साल?",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēõ",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how many years?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितने वर्ष?, कितने साल?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "ēõ baggē",
+      "kurukh_word_ascii": "eo bagge",
+      "english_definition": "How much!",
+      "hindi_definition": "कितना अधिक!, कितना ज़्यादा!",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēõ",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "How much!", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितना अधिक!, कितना ज़्यादा!", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēõdā",
+      "kurukh_word_ascii": "Eoda",
+      "english_definition": "how many ones?",
+      "hindi_definition": "कितने लोग?, कितने ठोस वस्तुएँ?",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "how many ones?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितने लोग?, कितने ठोस वस्तुएँ?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēõdā",
+      "kurukh_word_ascii": "Eoda",
+      "english_definition": "how many or much more?",
+      "hindi_definition": "कितना और अधिक?, कितना और ज़्यादा?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "how many or much more?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितना और अधिक?, कितना और ज़्यादा?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    },
+    {
+      "kurukh_word": "Ēõdā",
+      "kurukh_word_ascii": "Eoda",
+      "english_definition": "how then",
+      "hindi_definition": "फिर कैसे, तब कैसे",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 3,
+      "meanings": [
+        { "language": "en", "definition": "how then", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फिर कैसे, तब कैसे", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0055.jpg", "page_label": "51" }
+    }
+  ]
+}

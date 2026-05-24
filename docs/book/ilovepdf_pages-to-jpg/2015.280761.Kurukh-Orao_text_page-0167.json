@@ -1,0 +1,236 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0167.jpg",
+  "page_label": "163",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Sithārnā",
+      "kurukh_word_ascii": "Sitharna",
+      "english_definition": "to be disappointed",
+      "hindi_definition": "निराश होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Sithiyā / sithiyam",
+      "kurukh_word_ascii": "Sithiya / sithiyam",
+      "english_definition": "easy, with facility",
+      "hindi_definition": "आसान, सुगम",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sīyā",
+      "kurukh_word_ascii": "Siya",
+      "english_definition": "boundary",
+      "hindi_definition": "सीमा, मेड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāj-sīyā",
+      "kurukh_word_ascii": "Raj-siya",
+      "english_definition": "the boundary or end of the kingdom, land's end",
+      "hindi_definition": "राज्य की सीमा, भू-भाग का अंत",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sīmirnā",
+      "kurukh_word_ascii": "Simirna",
+      "english_definition": "to prefer, be fond of, to like",
+      "hindi_definition": "पसंद करना, प्रिय लगना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Smirnā",
+      "kurukh_word_ascii": "Smirna",
+      "english_definition": "myrrh",
+      "hindi_definition": "लोहबान, गंधरस",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sobbā",
+      "kurukh_word_ascii": "Sobba",
+      "english_definition": "a handful as of cooked rice",
+      "hindi_definition": "एक मुट्ठी (पके हुए चावल की)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sōbhnā",
+      "kurukh_word_ascii": "Sobhna",
+      "english_definition": "to be expedient, to suit",
+      "hindi_definition": "शोभा देना, अनुकूल होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sōdhnā",
+      "kurukh_word_ascii": "Sodhna",
+      "english_definition": "to penetrate, soak",
+      "hindi_definition": "सोखना, अंदर तक समाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Sōdhrnā",
+      "kurukh_word_ascii": "Sodhrna",
+      "english_definition": "to be sorely troubled",
+      "hindi_definition": "अत्यधिक परेशान या पीड़ित होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "So'ōkō",
+      "kurukh_word_ascii": "So'oko",
+      "english_definition": "an instrument producing a tingling noise",
+      "hindi_definition": "झनझनाहट पैदा करने वाला एक यंत्र",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sōg",
+      "kurukh_word_ascii": "Sog",
+      "english_definition": "pity",
+      "hindi_definition": "दया, शोक",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sōg / sōgrnā",
+      "kurukh_word_ascii": "Sog / sogrna",
+      "english_definition": "to become wasted through sorrow and affliction",
+      "hindi_definition": "दुख और पीड़ा के कारण सूखना या कमजोर होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Soggē",
+      "kurukh_word_ascii": "Sogge",
+      "english_definition": "pity, mercy",
+      "hindi_definition": "दया, करुणा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Soggē ērnā",
+      "kurukh_word_ascii": "Sogge erna",
+      "english_definition": "to pity, to have mercy",
+      "hindi_definition": "दया करना, करुणा दिखाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sohdā mannā",
+      "kurukh_word_ascii": "Sohda manna",
+      "english_definition": "to be impertinent through being spoiled by kindness and forbearance",
+      "hindi_definition": "अत्यधिक लाड-प्यार के कारण ढीठ या उदंड होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sohrā",
+      "kurukh_word_ascii": "Sohra",
+      "english_definition": "fully, all over, from top to bottom",
+      "hindi_definition": "पूरी तरह से, ऊपर से नीचे तक",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sohrā'ī",
+      "kurukh_word_ascii": "Sohra'i",
+      "english_definition": "the cow or cattle festival",
+      "hindi_definition": "सोहराई (पशु उत्सव)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sokrā",
+      "kurukh_word_ascii": "Sokra",
+      "english_definition": "strait, narrow",
+      "hindi_definition": "संकरा, तंग",
+      "part_of_speech": "adj",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Soko'ē nannā",
+      "kurukh_word_ascii": "Soko'e nanna",
+      "english_definition": "to shake up",
+      "hindi_definition": "हिलाना, झकझोरना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sōṇḍā",
+      "kurukh_word_ascii": "Sonda",
+      "english_definition": "deaf and dumb",
+      "hindi_definition": "बहरा और गूंगा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Soṇḍhē",
+      "kurukh_word_ascii": "Sondhe",
+      "english_definition": "the trunk of the elephant",
+      "hindi_definition": "हाथी की सूंड",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "So'ēykō",
+      "kurukh_word_ascii": "So'eyko",
+      "english_definition": "a small bell, ballshaped",
+      "hindi_definition": "घुंघरू, एक छोटी गोलाकार घंटी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Son-arkhī-mann",
+      "kurukh_word_ascii": "Son-arkhi-mann",
+      "english_definition": "the bandariauri plant",
+      "hindi_definition": "बंदरियाउरी का पेड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sonrap mannā",
+      "kurukh_word_ascii": "Sonrap manna",
+      "english_definition": "to besmear oneself with different color, to disguise, to mimic",
+      "hindi_definition": "विभिन्न रंगों से स्वयं को पोतना, भेष बदलना, नकल उतारना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Soṅk",
+      "kurukh_word_ascii": "Sonk",
+      "english_definition": "dried tamarind or karanj fruit, which dried before ripening",
+      "hindi_definition": "सूखी इमली या करंज का फल (जो पकने से पहले सूख गया हो)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Soṅksē k̲h̲ērnā",
+      "kurukh_word_ascii": "Sonkse kherna",
+      "english_definition": "sunken from emptiness, said of a belly sunken from hunger",
+      "hindi_definition": "भूख से पेट का अंदर धंस जाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Soppē k̲h̲atrnā",
+      "kurukh_word_ascii": "Soppe khatrna",
+      "english_definition": "to fall head beneath and feet above, headlong",
+      "hindi_definition": "सिर के बल गिरना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sōr",
+      "kurukh_word_ascii": "Sor",
+      "english_definition": "open, public",
+      "hindi_definition": "खुला, सार्वजनिक, प्रसिद्ध",
+      "part_of_speech": "adj",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sorā",
+      "kurukh_word_ascii": "Sora",
+      "english_definition": "a cup or dish made of leaves",
+      "hindi_definition": "दोना, पत्तल का प्याला",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sōrad-bōrad mōkhnā",
+      "kurukh_word_ascii": "Sorad-borad mokhna",
+      "english_definition": "to eat negligently / messily",
+      "hindi_definition": "असावधानी या गंदे तरीके से खाना",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

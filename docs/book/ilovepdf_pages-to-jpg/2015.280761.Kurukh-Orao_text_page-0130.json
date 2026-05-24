@@ -1,0 +1,283 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0130.jpg",
+  "page_label": "126",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Mulga'anā",
+      "kurukh_word_ascii": "Mulga'ana",
+      "english_definition": "ckan, o'an, to cover, protect.",
+      "hindi_definition": "ढंकना, सुरक्षित रखना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mulgutā",
+      "kurukh_word_ascii": "Mulguta",
+      "english_definition": "wrist.",
+      "hindi_definition": "कलाई।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūlī",
+      "kurukh_word_ascii": "Muli",
+      "english_definition": "root.",
+      "hindi_definition": "जड़ (मूल) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūlī",
+      "kurukh_word_ascii": "Muli",
+      "english_definition": "chapter.",
+      "hindi_definition": "अध्याय (सर्ग)।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of Mūlī"
+    },
+    {
+      "kurukh_word": "Mulkhnā",
+      "kurukh_word_ascii": "Mulkhna",
+      "english_definition": "kan, yan, to dive, to sink.",
+      "hindi_definition": "गोता लगाना, डूबना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mulkhrnā",
+      "kurukh_word_ascii": "Mulkhrna",
+      "english_definition": "kan, an, to be drowned, to be sunk.",
+      "hindi_definition": "डूब जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mulkhrnā",
+      "kurukh_word_ascii": "Mulkhrna",
+      "english_definition": "kan, an, to kneel down with head bowed to the ground.",
+      "hindi_definition": "घुटने टेककर सिर को जमीन पर झुकाना (सजदा करना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "2nd homograph of Mulkhrnā"
+    },
+    {
+      "kurukh_word": "Mullī",
+      "kurukh_word_ascii": "Mulli",
+      "english_definition": "price, wages, tax; idigahī mullī endr ra'?, what's the price of this?",
+      "hindi_definition": "मूल्य, मजदूरी, कर; idigahī mullī endr ra'? = इसका क्या मूल्य है?",
+      "part_of_speech": "noun",
+      "notes": "Example: idigahī mullī endr ra'? = what's the price of this?"
+    },
+    {
+      "kurukh_word": "Mullī-ñjō",
+      "kurukh_word_ascii": "Mulli-njo",
+      "english_definition": "tax-collector.",
+      "hindi_definition": "कर-वसूली करने वाला (टैक्स कलेक्टर)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mullī khakhrnā",
+      "kurukh_word_ascii": "Mulli khakhrna",
+      "english_definition": "to receive wages.",
+      "hindi_definition": "मजदूरी पाना (वेतन मिलना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mullī cī'inā",
+      "kurukh_word_ascii": "Mulli ci'ina",
+      "english_definition": "to give wages, taxes.",
+      "hindi_definition": "मजदूरी या कर देना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mulnā",
+      "kurukh_word_ascii": "Mulna",
+      "english_definition": "kan, yan, to gather up another's hair into a cue/braid.",
+      "hindi_definition": "दूसरे के बालों को समेटकर चोटी बनाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mulnā-ghāsī",
+      "kurukh_word_ascii": "Mulna-ghasi",
+      "english_definition": "the grass generally growing in rice-fields.",
+      "hindi_definition": "धान के खेतों में उगने वाली एक प्रकार की घास।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mulundā ghāsī",
+      "kurukh_word_ascii": "Mulunda ghasi",
+      "english_definition": "the grass generally growing in rice-fields (same as Mulnā-ghāsī).",
+      "hindi_definition": "धान के खेतों में उगने वाली घास (Mulnā-ghāsī के समान)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mulrnā",
+      "kurukh_word_ascii": "Mulrna",
+      "english_definition": "kan, an, to gather up one's hair into a cue, to plait the hair.",
+      "hindi_definition": "अपने बालों को समेटकर चोटी बनाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mund",
+      "kurukh_word_ascii": "Mund",
+      "english_definition": "prep. before, previous, first, in front.",
+      "hindi_definition": "सम्बन्धसूचक अव्यय। पहले, पूर्व, प्रथम, सामने।",
+      "part_of_speech": "preposition",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mundtā",
+      "kurukh_word_ascii": "Mundta",
+      "english_definition": "the first (also mundtā khadd, first-born child).",
+      "hindi_definition": "प्रथम (पहला); mundtā khadd = पहला बच्चा।",
+      "part_of_speech": "adjective",
+      "notes": "Variant: mundantā"
+    },
+    {
+      "kurukh_word": "Mundim",
+      "kurukh_word_ascii": "Mundim",
+      "english_definition": "adv. the very first.",
+      "hindi_definition": "क्रियाविशेषण। सबसे पहला (सर्वप्रथम)।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Munda",
+      "kurukh_word_ascii": "Munda",
+      "english_definition": "conj. but, however.",
+      "hindi_definition": "संयोजक। लेकिन, परंतु।",
+      "part_of_speech": "conjunction",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mundbhārē",
+      "kurukh_word_ascii": "Mundbhare",
+      "english_definition": "before, in front, henceforth, ahead.",
+      "hindi_definition": "आगे, सामने, अब से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mundbhārē kalā",
+      "kurukh_word_ascii": "Mundbhare kala",
+      "english_definition": "go ahead.",
+      "hindi_definition": "आगे बढ़ो।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mundbhārentā ālas",
+      "kurukh_word_ascii": "Mundbharenta alas",
+      "english_definition": "the foreman, the man in front.",
+      "hindi_definition": "अग्रणी व्यक्ति, फोरमैन (आगे रहने वाला व्यक्ति)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūnd",
+      "kurukh_word_ascii": "Mund",
+      "english_definition": "three.",
+      "hindi_definition": "तीन।",
+      "part_of_speech": "numeral",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūnddōyē",
+      "kurukh_word_ascii": "Munddoye",
+      "english_definition": "thirty.",
+      "hindi_definition": "तीस।",
+      "part_of_speech": "numeral",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūndtā",
+      "kurukh_word_ascii": "Mundta",
+      "english_definition": "the third.",
+      "hindi_definition": "तीसरा।",
+      "part_of_speech": "adjective",
+      "notes": "Variant: mūndantā"
+    },
+    {
+      "kurukh_word": "Ullāmūnd",
+      "kurukh_word_ascii": "Ullamund",
+      "english_definition": "three days.",
+      "hindi_definition": "तीन दिन।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Pērmūnd",
+      "kurukh_word_ascii": "Permund",
+      "english_definition": "three times.",
+      "hindi_definition": "तीन बार।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mundhnā",
+      "kurukh_word_ascii": "Mundhna",
+      "english_definition": "ckan, o'an, to shut, close, as a door or pot.",
+      "hindi_definition": "बंद करना, ढंकना (जैसे दरवाजा या बर्तन) (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mundhrnā",
+      "kurukh_word_ascii": "Mundhrna",
+      "english_definition": "kan, an, to be closed, covered.",
+      "hindi_definition": "बंद होना, ढका होना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Munzrī",
+      "kurukh_word_ascii": "Munzri",
+      "english_definition": "lady, mistress.",
+      "hindi_definition": "श्रीमती, मालकिन।",
+      "part_of_speech": "noun",
+      "notes": "Variant: undrī"
+    },
+    {
+      "kurukh_word": "Mundur kucā",
+      "kurukh_word_ascii": "Mundur kuca",
+      "english_definition": "shaved, bald.",
+      "hindi_definition": "मुंडा हुआ, गंजा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūnē",
+      "kurukh_word_ascii": "Mune",
+      "english_definition": "two years ago.",
+      "hindi_definition": "दो साल पहले (परसों के साल)।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muṅgā-mann",
+      "kurukh_word_ascii": "Munga-mann",
+      "english_definition": "moringa/drumstick tree.",
+      "hindi_definition": "सहजन (मुनगा) का पेड़ (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    }
+  ]
+}

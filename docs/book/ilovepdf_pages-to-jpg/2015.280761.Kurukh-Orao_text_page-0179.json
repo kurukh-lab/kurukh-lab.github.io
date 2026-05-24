@@ -1,0 +1,258 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0179.jpg",
+  "page_label": "175",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ṭagal-magalrnā",
+      "kurukh_word_ascii": "Tagal-magalrna",
+      "english_definition": "to walk about idle",
+      "hindi_definition": "आलसी की तरह इधर-उधर घूमना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭahā-ṭaihī nannā",
+      "kurukh_word_ascii": "Taha-taihi nanna",
+      "english_definition": "to decrease",
+      "hindi_definition": "कम करना, घटाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭahilā pello",
+      "kurukh_word_ascii": "Tahila pello",
+      "english_definition": "a foolish girl",
+      "hindi_definition": "मूर्ख लड़की",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭafyā",
+      "kurukh_word_ascii": "Tafya",
+      "english_definition": "the ornament for the head, made of peacock feathers",
+      "hindi_definition": "मोर पंख से बना सिर का आभूषण",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭākā",
+      "kurukh_word_ascii": "Taka",
+      "english_definition": "rupee, wealth, money",
+      "hindi_definition": "टका, रुपया, धन",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭakkā-ṭōrī mannā",
+      "kurukh_word_ascii": "Takka-tori manna",
+      "english_definition": "to dispute, dissent",
+      "hindi_definition": "विवाद करना, असहमत होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭāknā",
+      "kurukh_word_ascii": "Takna",
+      "english_definition": "to spy greedily",
+      "hindi_definition": "लालच से ताकना, नजर रखना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭāknā",
+      "kurukh_word_ascii": "Takna",
+      "english_definition": "spindle",
+      "hindi_definition": "तकली (सूत कातने का यंत्र)",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Ṭamṭamrnā",
+      "kurukh_word_ascii": "Tamtamrna",
+      "english_definition": "to be tough, hard",
+      "hindi_definition": "कड़ा या सख्त होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭāṇḍnā",
+      "kurukh_word_ascii": "Tandna",
+      "english_definition": "to prevent, to be a hindrance through occupying a place",
+      "hindi_definition": "स्थान घेरकर बाधा डालना, रोकना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Aḍḍā ṭāṇḍnā",
+      "kurukh_word_ascii": "Adda tandna",
+      "english_definition": "to be a hindrance in a place",
+      "hindi_definition": "स्थान पर बाधा डालना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭāṅgrā",
+      "kurukh_word_ascii": "Tangra",
+      "english_definition": "rock, or rocky elevation of the ground",
+      "hindi_definition": "चट्टान, पथरीली ऊँचाई",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭāṅgnā",
+      "kurukh_word_ascii": "Tangna",
+      "english_definition": "to suspend",
+      "hindi_definition": "टांगना, लटकाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭāṅkārnā",
+      "kurukh_word_ascii": "Tankarna",
+      "english_definition": "to revive, recover, as of health or wealth",
+      "hindi_definition": "स्वस्थ होना, पुनः प्राप्त करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭārrnā",
+      "kurukh_word_ascii": "Tarrna",
+      "english_definition": "to stretch out oneself on a mat or the ground",
+      "hindi_definition": "चटाई या जमीन पर पैर पसारकर लेटना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭanṭan",
+      "kurukh_word_ascii": "Tantan",
+      "english_definition": "tetanus",
+      "hindi_definition": "धनुस्तंभ, टिटनेस",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭanṭanrnā",
+      "kurukh_word_ascii": "Tantanrna",
+      "english_definition": "to tighten, to become stiff",
+      "hindi_definition": "कड़ा होना, अकड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭā'ō-ōṛā",
+      "kurukh_word_ascii": "Ta'o-ora",
+      "english_definition": "the blue jay bird",
+      "hindi_definition": "नीलकंठ पक्षी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭāpnā",
+      "kurukh_word_ascii": "Tapna",
+      "english_definition": "to be filled, covered",
+      "hindi_definition": "भरना, ढकना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ṭāpnā",
+      "kurukh_word_ascii": "Tapna",
+      "english_definition": "to cross, to walk across",
+      "hindi_definition": "पार करना, लांघना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "homograph_index": 2,
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭārnā",
+      "kurukh_word_ascii": "Tarna",
+      "english_definition": "to remove",
+      "hindi_definition": "हटाना, टालना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭāsnā",
+      "kurukh_word_ascii": "Tasna",
+      "english_definition": "to apply, attach, fasten",
+      "hindi_definition": "लगाना, चिपकाना, बांधना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ṭāssnā",
+      "kurukh_word_ascii": "Tassna",
+      "english_definition": "to fill up",
+      "hindi_definition": "ठूंसना, भरना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭāṭī",
+      "kurukh_word_ascii": "Tati",
+      "english_definition": "lattice-work",
+      "hindi_definition": "टाटी, बांस की चटाई",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭaṭērnā",
+      "kurukh_word_ascii": "Taterna",
+      "english_definition": "to taste",
+      "hindi_definition": "चखना, स्वाद लेना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ṭatkhā",
+      "kurukh_word_ascii": "Tatkha",
+      "english_definition": "mango-tree and fruit",
+      "hindi_definition": "आम का पेड़ और फल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭatrnakrnā",
+      "kurukh_word_ascii": "Tatrnakrna",
+      "english_definition": "to lick up",
+      "hindi_definition": "चाटना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭaṭhī",
+      "kurukh_word_ascii": "Tathi",
+      "english_definition": "earthen lamp",
+      "hindi_definition": "मिट्टी का दीया, दीया",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭāṭnā",
+      "kurukh_word_ascii": "Tatna",
+      "english_definition": "to lick",
+      "hindi_definition": "चाटना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ṭihrā",
+      "kurukh_word_ascii": "Tihra",
+      "english_definition": "initiation, example",
+      "hindi_definition": "दीक्षा, उदाहरण, राह दिखाना",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭek'ē-ṭorē mannā",
+      "kurukh_word_ascii": "Tek'e-tore manna",
+      "english_definition": "to dispute, fall out",
+      "hindi_definition": "झगड़ा करना, अनबन होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭekā / ṭekkā",
+      "kurukh_word_ascii": "Teka / tekka",
+      "english_definition": "small earthen bottle",
+      "hindi_definition": "कुल्हड़, छोटा मिट्टी का बर्तन",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    }
+  ]
+}

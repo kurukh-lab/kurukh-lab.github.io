@@ -1,0 +1,248 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0163.jpg",
+  "page_label": "159",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Sānē",
+      "kurukh_word_ascii": "Sane",
+      "english_definition": "comfort, convenience",
+      "hindi_definition": "आराम, सुविधा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sānē khākhnā",
+      "kurukh_word_ascii": "Sane khakhna",
+      "english_definition": "to feel comfortable",
+      "hindi_definition": "आरामदायक महसूस करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāndīhī",
+      "kurukh_word_ascii": "Sandihi",
+      "english_definition": "the day before the new moon appears",
+      "hindi_definition": "नए चाँद के प्रकट होने से पहले का दिन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāṅgā",
+      "kurukh_word_ascii": "Sanga",
+      "english_definition": "new bamboo",
+      "hindi_definition": "नया बाँस",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāṅgā co'ōnā",
+      "kurukh_word_ascii": "Sanga co'ona",
+      "english_definition": "to stand thickly, said of paddy",
+      "hindi_definition": "घना खड़ा होना (धान के बारे में)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāngē / Sāngem",
+      "kurukh_word_ascii": "Sange / Sangem",
+      "english_definition": "with, together",
+      "hindi_definition": "साथ, मिलकर",
+      "part_of_speech": "prep",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sāngī / Sāngitār",
+      "kurukh_word_ascii": "Sangi / Sangitar",
+      "english_definition": "friend, friends",
+      "hindi_definition": "दोस्त, मित्र",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāṅgrā",
+      "kurukh_word_ascii": "Sangra",
+      "english_definition": "help, assistance",
+      "hindi_definition": "सहायता",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāṅgrā nānā",
+      "kurukh_word_ascii": "Sangra nana",
+      "english_definition": "to help, assist, aid",
+      "hindi_definition": "सहायता करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāṅgtā",
+      "kurukh_word_ascii": "Sangta",
+      "english_definition": "companion",
+      "hindi_definition": "साथी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāṅgōt",
+      "kurukh_word_ascii": "Sangot",
+      "english_definition": "a lever",
+      "hindi_definition": "लीवर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sānjgī",
+      "kurukh_word_ascii": "Sanjgi",
+      "english_definition": "vessel",
+      "hindi_definition": "बर्तन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sānjhlās",
+      "kurukh_word_ascii": "Sanjhlas",
+      "english_definition": "the third son",
+      "hindi_definition": "तीसरा पुत्र",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sānjōt",
+      "kurukh_word_ascii": "Sanjot",
+      "english_definition": "holy night, the night before the Karm festival",
+      "hindi_definition": "करम उत्सव से पहले की पवित्र रात",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāniyā pōk",
+      "kurukh_word_ascii": "Saniya pok",
+      "english_definition": "a small kind of ants",
+      "hindi_definition": "एक छोटी प्रकार की चींटियाँ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sānkā / Sānkār",
+      "kurukh_word_ascii": "Sanka / Sankar",
+      "english_definition": "very small",
+      "hindi_definition": "बहुत छोटा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sānnā",
+      "kurukh_word_ascii": "Sanna",
+      "english_definition": "to knead dough or tobacco",
+      "hindi_definition": "आटा या तंबाकू गूंधना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-e'an"
+    },
+    {
+      "kurukh_word": "Sānnā",
+      "kurukh_word_ascii": "Sanna",
+      "english_definition": "to collect, comprise",
+      "hindi_definition": "इकट्ठा करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Sānrnā",
+      "kurukh_word_ascii": "Sanrna",
+      "english_definition": "to be comprised, collected",
+      "hindi_definition": "समाहित होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Sānrkā",
+      "kurukh_word_ascii": "Sanrka",
+      "english_definition": "collection",
+      "hindi_definition": "संग्रह",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sānnē'ā",
+      "kurukh_word_ascii": "Sanne'a",
+      "english_definition": "to mix tobacco with lime in the hollow of the hand",
+      "hindi_definition": "हथेली में तंबाकू को चूने के साथ मिलाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sānnī",
+      "kurukh_word_ascii": "Sanni",
+      "english_definition": "small",
+      "hindi_definition": "छोटा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sānnī jiyā",
+      "kurukh_word_ascii": "Sanni jia",
+      "english_definition": "humble mind",
+      "hindi_definition": "विनम्र मन",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sānnī mannā",
+      "kurukh_word_ascii": "Sanni manna",
+      "english_definition": "to be humble, low in self estimation",
+      "hindi_definition": "विनम्र होना, खुद को कम समझना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sārē",
+      "kurukh_word_ascii": "Sare",
+      "english_definition": "bier",
+      "hindi_definition": "अर्थी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sārē",
+      "kurukh_word_ascii": "Sare",
+      "english_definition": "the funeral pile",
+      "hindi_definition": "चिता",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Sāsī",
+      "kurukh_word_ascii": "Sasi",
+      "english_definition": "asthma",
+      "hindi_definition": "दमा",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sānt pēsnā",
+      "kurukh_word_ascii": "Sant pesna",
+      "english_definition": "to deposit the relics of a cremated corpse",
+      "hindi_definition": "दाह संस्कार की अवशेष रखना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sātisā",
+      "kurukh_word_ascii": "Satisa",
+      "english_definition": "whole, all",
+      "hindi_definition": "पूरा, सब",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sōysōyrā'ānā",
+      "kurukh_word_ascii": "Soysoyra'ana",
+      "english_definition": "to glide away, as a snake",
+      "hindi_definition": "साँप की तरह फिसल जाना",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sāysōyrnā'ē",
+      "kurukh_word_ascii": "Saysoyrna'e",
+      "english_definition": "to hiss, the hissing noise caused by water being thrown on fire",
+      "hindi_definition": "फुफकारना, पानी को आग पर डालने से आवाज",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Sāpā supā ōnnī",
+      "kurukh_word_ascii": "Sapa supa onni",
+      "english_definition": "to eat together out of one plate",
+      "hindi_definition": "एक थाली में मिलकर खाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāprā'ānā",
+      "kurukh_word_ascii": "Sapra'ana",
+      "english_definition": "to prepare",
+      "hindi_definition": "तैयार करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    }
+  ]
+}

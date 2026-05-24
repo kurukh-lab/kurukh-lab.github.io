@@ -1,0 +1,254 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0140.jpg",
+  "page_label": "136",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Nondhrna",
+      "kurukh_word_ascii": "Nondhrna",
+      "english_definition": "to cry incessantly",
+      "hindi_definition": "लगातार रोना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Nōdhrna",
+      "kurukh_word_ascii": "Nodhrna",
+      "english_definition": "to wash one's self",
+      "hindi_definition": "खुद को धोना, नहाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Nondhārnā",
+      "kurukh_word_ascii": "Nondharna",
+      "english_definition": "to cry like a fretful child",
+      "hindi_definition": "रोती बच्चे की तरह रोना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Nonindnā",
+      "kurukh_word_ascii": "Nonindna",
+      "english_definition": "to be ungrateful",
+      "hindi_definition": "कृतघ्न होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Nornā",
+      "kurukh_word_ascii": "Norna",
+      "english_definition": "to wash clothes",
+      "hindi_definition": "कपड़े धोना",
+      "part_of_speech": "verb",
+      "verb_class": "nurkan-yan"
+    },
+    {
+      "kurukh_word": "Noytā",
+      "kurukh_word_ascii": "Noyta",
+      "english_definition": "ninth",
+      "hindi_definition": "नवाँ",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Nō'enā",
+      "kurukh_word_ascii": "No'ena",
+      "english_definition": "to tie the calf for milking a cow",
+      "hindi_definition": "गाय दुहने के लिए बछड़े को बाँधना",
+      "part_of_speech": "verb",
+      "verb_class": "n0'ec'kan-nd'ec'an"
+    },
+    {
+      "kurukh_word": "Nōyon-injō",
+      "kurukh_word_ascii": "Noyon-injo",
+      "english_definition": "a small eel",
+      "hindi_definition": "एक छोटी ईल मछली",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Nū",
+      "kurukh_word_ascii": "Nu",
+      "english_definition": "in, on (prep.); also num.",
+      "hindi_definition": "में, पर (परसर्ग); संख्या भी",
+      "part_of_speech": "prep"
+    },
+    {
+      "kurukh_word": "Nūtim",
+      "kurukh_word_ascii": "Nutim",
+      "english_definition": "out of; (participle) having",
+      "hindi_definition": "से बाहर; (कृदंत) रखते हुए",
+      "part_of_speech": "prep"
+    },
+    {
+      "kurukh_word": "Nub",
+      "kurukh_word_ascii": "Nub",
+      "english_definition": "three (masc. and fem.)",
+      "hindi_definition": "तीन (पुल्लिंग और स्त्रीलिंग)",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Nubort",
+      "kurukh_word_ascii": "Nubort",
+      "english_definition": "triune",
+      "hindi_definition": "त्रिएकता",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Nubort Dharmēs",
+      "kurukh_word_ascii": "Nubort Dharmes",
+      "english_definition": "the triune God",
+      "hindi_definition": "त्रिएक ईश्वर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Nudnā",
+      "kurukh_word_ascii": "Nudna",
+      "english_definition": "to hide",
+      "hindi_definition": "छुपाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Nūjnā / Nuncnā",
+      "kurukh_word_ascii": "Nujna / Nuncna",
+      "english_definition": "to pain, ache (intr.)",
+      "hindi_definition": "दर्द करना",
+      "part_of_speech": "verb",
+      "verb_class": "nunckan-nuncan",
+      "transitivity": "intr",
+      "example_phrase": "exghai kukk niyi — I have headache; Ontahs mala nunca — it gave me no pain"
+    },
+    {
+      "kurukh_word": "Nūkhnā",
+      "kurukh_word_ascii": "Nukhna",
+      "english_definition": "to hide",
+      "hindi_definition": "छुपाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Nūkh nākh ērnā",
+      "kurukh_word_ascii": "Nukh nakh erna",
+      "english_definition": "to spy",
+      "hindi_definition": "जासूसी करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nūkhrna",
+      "kurukh_word_ascii": "Nukhrna",
+      "english_definition": "to hide one's self",
+      "hindi_definition": "छुप जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Nūkhr kāthā",
+      "kurukh_word_ascii": "Nukhr katha",
+      "english_definition": "a hidden subject, a secret, a mysterial matter",
+      "hindi_definition": "छुपी बात, रहस्य",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nūkhr bēcnā",
+      "kurukh_word_ascii": "Nukhr becna",
+      "english_definition": "a kind of children's play",
+      "hindi_definition": "एक प्रकार का बच्चों का खेल",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nuknā",
+      "kurukh_word_ascii": "Nukna",
+      "english_definition": "to shake (trans.)",
+      "hindi_definition": "हिलाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "transitivity": "tr"
+    },
+    {
+      "kurukh_word": "Nukrnā",
+      "kurukh_word_ascii": "Nukrna",
+      "english_definition": "to shake, quake, tremble",
+      "hindi_definition": "काँपना, हिलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "example_phrase": "Khēkhēl nukrkā — earthquake"
+    },
+    {
+      "kurukh_word": "Nulgnā",
+      "kurukh_word_ascii": "Nulgna",
+      "english_definition": "to pocket, to put by",
+      "hindi_definition": "जेब में रखना, एक तरफ रखना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Nulga'ānā",
+      "kurukh_word_ascii": "Nulga'ana",
+      "english_definition": "to put fuel on the fire",
+      "hindi_definition": "आग में ईंधन डालना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Nunkhnā",
+      "kurukh_word_ascii": "Nunkhna",
+      "english_definition": "to devour, swallow, to eat up",
+      "hindi_definition": "निगलना, खा जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Nunukhnā",
+      "kurukh_word_ascii": "Nunukhna",
+      "english_definition": "to swallow, devour",
+      "hindi_definition": "निगलना, खा जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Nunjnā / Nūjnā",
+      "kurukh_word_ascii": "Nunjhna / Nujhna",
+      "english_definition": "to pain, ache",
+      "hindi_definition": "दर्द करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Nanjnā",
+      "kurukh_word_ascii": "Nanjhna",
+      "english_definition": "to find out, hunt for",
+      "hindi_definition": "पता लगाना, खोजना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Nurnā",
+      "kurukh_word_ascii": "Nurna",
+      "english_definition": "same as nudna (to hide)",
+      "hindi_definition": "छुपाना (nudna के समान)",
+      "part_of_speech": "verb"
+    },
+    {
+      "kurukh_word": "Nur nurrā",
+      "kurukh_word_ascii": "Nur nurra",
+      "english_definition": "angry",
+      "hindi_definition": "क्रोधित",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Nur nurrā ērnā",
+      "kurukh_word_ascii": "Nur nurra erna",
+      "english_definition": "to stare frowning",
+      "hindi_definition": "भौंहें चढ़ाकर घूरना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nurdnā",
+      "kurukh_word_ascii": "Nurdna",
+      "english_definition": "to slip, glide",
+      "hindi_definition": "फिसलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    }
+  ]
+}

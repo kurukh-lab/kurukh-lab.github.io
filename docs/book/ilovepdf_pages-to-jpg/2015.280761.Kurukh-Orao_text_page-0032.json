@@ -1,0 +1,687 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg",
+  "page_label": "28",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Caprnā",
+      "kurukh_word_ascii": "Caprna",
+      "english_definition": "to be bent upon",
+      "hindi_definition": "दृढ़संकल्प होना, अड़े रहना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be bent upon", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दृढ़संकल्प होना, अड़े रहना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Capṭā",
+      "kurukh_word_ascii": "Capta",
+      "english_definition": "leather, hide",
+      "hindi_definition": "चमड़ा, खाल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "leather, hide", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चमड़ा, खाल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Capuā",
+      "kurukh_word_ascii": "Capua",
+      "english_definition": "the bellows",
+      "hindi_definition": "धौंकनी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the bellows", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धौंकनी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Capcapta'anā",
+      "kurukh_word_ascii": "Capcapta'ana",
+      "english_definition": "to smack",
+      "hindi_definition": "चटकारा मारना, चपचपाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to smack", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चटकारा मारना, चपचपाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Cara'banār",
+      "kurukh_word_ascii": "Cara'banar",
+      "english_definition": "singed",
+      "hindi_definition": "झुलसा हुआ",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "singed", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "झुलसा हुआ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Carkhrnā",
+      "kurukh_word_ascii": "Carkhrna",
+      "english_definition": "to stretch the legs, apart from each other, as native women do in sitting",
+      "hindi_definition": "बैठते समय पैरों को फैलाना या पसारना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to stretch the legs, apart from each other, as native women do in sitting", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बैठते समय पैरों को फैलाना या पसारना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Carmnā",
+      "kurukh_word_ascii": "Carmna",
+      "english_definition": "to wither away, to be scorched",
+      "hindi_definition": "मुरझा जाना, झुलस जाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to wither away, to be scorched", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मुरझा जाना, झुलस जाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Carmta'anā",
+      "kurukh_word_ascii": "Carmta'ana",
+      "english_definition": "to scorch as the heat",
+      "hindi_definition": "गर्मी से झुलसाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to scorch as the heat", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गर्मी से झुलसाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Carrnā",
+      "kurukh_word_ascii": "Carrna",
+      "english_definition": "to rend a cloth, tear",
+      "hindi_definition": "कपड़ा फाड़ना, चीरना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to rend a cloth, tear", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कपड़ा फाड़ना, चीरना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Carrarnā",
+      "kurukh_word_ascii": "Carrarna",
+      "english_definition": "to be rent or torn",
+      "hindi_definition": "फट जाना, चीर जाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to be rent or torn",
+          "example_sentence_kurukh": "kicrī carrā kērā",
+          "example_sentence_translation": "the cloth is torn."
+        },
+        {
+          "language": "hi",
+          "definition": "फट जाना, चीर जाना",
+          "example_sentence_kurukh": "kicrī carrā kērā",
+          "example_sentence_translation": "कपड़ा फट गया है।"
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Carī",
+      "kurukh_word_ascii": "Cari",
+      "english_definition": "a needle made of bamboo",
+      "hindi_definition": "बाँस की बनी सुई",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a needle made of bamboo", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बाँस की बनी सुई", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Carpā",
+      "kurukh_word_ascii": "Carpa",
+      "english_definition": "a trap",
+      "hindi_definition": "एक जाल, फंदा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a trap", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक जाल, फंदा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Carī kienā",
+      "kurukh_word_ascii": "Cari kiena",
+      "english_definition": "to swear, take upon oath ; also to give a divorce",
+      "hindi_definition": "कसम खाना, शपथ लेना; तलाक देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Carī",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to swear, take upon oath ; also to give a divorce", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कसम खाना, शपथ लेना; तलाक देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Cār",
+      "kurukh_word_ascii": "Car",
+      "english_definition": "arrow ; also sting",
+      "hindi_definition": "तीर; डंक",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "arrow ; also sting", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तीर; डंक", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Cār",
+      "kurukh_word_ascii": "Car",
+      "english_definition": "necessity, duty",
+      "hindi_definition": "आवश्यकता, कर्तव्य",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "necessity, duty", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आवश्यकता, कर्तव्य", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Nēgcār",
+      "kurukh_word_ascii": "Negcar",
+      "english_definition": "custom, religious ceremony",
+      "hindi_definition": "रीति-रिवाज, धार्मिक अनुष्ठान, नेग",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "custom, religious ceremony", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रीति-रिवाज, धार्मिक अनुष्ठान, नेग", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Cārnā",
+      "kurukh_word_ascii": "Carna",
+      "english_definition": "to overflow ; also the iron point of an arrow",
+      "hindi_definition": "उफन जाना, लबालब भर जाना; तीर की लोहे की नोक",
+      "part_of_speech": "verb",
+      "grammatical_tag": "can, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to overflow ; also the iron point of an arrow", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उफन जाना, लबालब भर जाना; तीर की लोहे की नोक", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Caruā",
+      "kurukh_word_ascii": "Carua",
+      "english_definition": "club",
+      "hindi_definition": "सोंटा, मुगदर, क्लब (लकड़ी का डंडा)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "club", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सोंटा, मुगदर, क्लब (लकड़ी का डंडा)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Catga'anā",
+      "kurukh_word_ascii": "Catga'ana",
+      "english_definition": "to slap the cheek",
+      "hindi_definition": "गाल पर थप्पड़ मारना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to slap the cheek", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गाल पर थप्पड़ मारना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Caṭaba'anā",
+      "kurukh_word_ascii": "Cataba'ana",
+      "english_definition": "to let lick",
+      "hindi_definition": "चटाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to let lick", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चटाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Catkhā",
+      "kurukh_word_ascii": "Catkha",
+      "english_definition": "step",
+      "hindi_definition": "कदम, डग",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "step", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कदम, डग", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Catkhar ēknā",
+      "kurukh_word_ascii": "Catkhar ekna",
+      "english_definition": "to make long steps in walking",
+      "hindi_definition": "चलते समय लंबे कदम बढ़ाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Catkhā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to make long steps in walking", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चलते समय लंबे कदम बढ़ाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Catkhnā",
+      "kurukh_word_ascii": "Catkhna",
+      "english_definition": "to jump over",
+      "hindi_definition": "कूदना, फाँदना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to jump over", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कूदना, फाँदना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Caṭam ciṭim",
+      "kurukh_word_ascii": "Catam citim",
+      "english_definition": "quick, hasty",
+      "hindi_definition": "तेज़, जल्दबाज़, फुर्तीला",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "quick, hasty",
+          "example_sentence_kurukh": "ās ciṭām ciṭim ōndas",
+          "example_sentence_translation": "he eats quickly."
+        },
+        {
+          "language": "hi",
+          "definition": "तेज़, जल्दबाज़, फुर्तीला",
+          "example_sentence_kurukh": "ās ciṭām ciṭim ōndas",
+          "example_sentence_translation": "वह जल्दी-जल्दी खाता है।"
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Caṭārnā",
+      "kurukh_word_ascii": "Catarna",
+      "english_definition": "to be under divine spell, possessed of an evil spirit",
+      "hindi_definition": "दुष्ट आत्मा के वश में होना, भूत चढ़ना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be under divine spell, possessed of an evil spirit", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दुष्ट आत्मा के वश में होना, भूत चढ़ना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Caṭcaṭrnā",
+      "kurukh_word_ascii": "Catcatrna",
+      "english_definition": "to crackle as wood in the fire",
+      "hindi_definition": "चटचटाना (जैसे आग में लकड़ी)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to crackle as wood in the fire", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चटचटाना (जैसे आग में लकड़ी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Caṭra'anā",
+      "kurukh_word_ascii": "Catra'ana",
+      "english_definition": "to cleanse",
+      "hindi_definition": "साफ करना, स्वच्छ करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to cleanse", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "साफ करना, स्वच्छ करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Caugurdā",
+      "kurukh_word_ascii": "Caugurda",
+      "english_definition": "all around, round about",
+      "hindi_definition": "चारों ओर, चारों तरफ",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "all around, round about", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चारों ओर, चारों तरफ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Caughuria",
+      "kurukh_word_ascii": "Caughuria",
+      "english_definition": "large kettle drum",
+      "hindi_definition": "बड़ा नगाड़ा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "large kettle drum", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बड़ा नगाड़ा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Caukhuṇḍiā",
+      "kurukh_word_ascii": "Caukhundia",
+      "english_definition": "square",
+      "hindi_definition": "चौकोर, वर्गाकार",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "square", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चौकोर, वर्गाकार", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Caukhnā",
+      "kurukh_word_ascii": "Caukhna",
+      "english_definition": "to corrupt",
+      "hindi_definition": "भ्रष्ट करना, बिगाड़ना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to corrupt", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "भ्रष्ट करना, बिगाड़ना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Cauk paṭṭā",
+      "kurukh_word_ascii": "Cauk patta",
+      "english_definition": "a board with which a ploughed field is made level",
+      "hindi_definition": "हेंगा, पाटा (जिससे जोते हुए खेत को समतल किया जाता है)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a board with which a ploughed field is made level", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हेंगा, पाटा (जिससे जोते हुए खेत को समतल किया जाता है)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    },
+    {
+      "kurukh_word": "Cauk cī'inā",
+      "kurukh_word_ascii": "Cauk ci'ina",
+      "english_definition": "to draw this board over the field, to level or smooth a field",
+      "hindi_definition": "पाटा चलाना, खेत को समतल करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cauk paṭṭā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to draw this board over the field, to level or smooth a field", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पाटा चलाना, खेत को समतल करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0032.jpg", "page_label": "28" }
+    }
+  ]
+}

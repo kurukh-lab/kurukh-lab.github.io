@@ -1,0 +1,290 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0122.jpg",
+  "page_label": "118",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Mahuraṅg",
+      "kurukh_word_ascii": "Mahurang",
+      "english_definition": "a grove of Mahua trees.",
+      "hindi_definition": "महुआ के पेड़ों का बाग (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mahukāl-ōṛā",
+      "kurukh_word_ascii": "Mahukal-ora",
+      "english_definition": "the blue neck bird.",
+      "hindi_definition": "नीलकंठ पक्षी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mai",
+      "kurukh_word_ascii": "Mai",
+      "english_definition": "mother (never used alone, except in compounds like Mai kī, Mai kuko'ē, Tēr mai).",
+      "hindi_definition": "मां (अकेले शायद ही कभी प्रयोग किया जाता है, सिवाय संयुक्त शब्दों के जैसे Mai kī, Mai kuko'ē, Tēr mai)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mai kī!",
+      "kurukh_word_ascii": "Mai ki!",
+      "english_definition": "an oath, a solemn affirmation.",
+      "hindi_definition": "शपथ, सौगंध (हिंदी से लिया गया)।",
+      "part_of_speech": "interjection",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mai kuko'ē",
+      "kurukh_word_ascii": "Mai kukoe",
+      "english_definition": "a little girl.",
+      "hindi_definition": "छोटी बच्ची।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Tēr mai",
+      "kurukh_word_ascii": "Ter mai",
+      "english_definition": "a bad epithet.",
+      "hindi_definition": "गाली या अपशब्द।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maitā",
+      "kurukh_word_ascii": "Maita",
+      "english_definition": "top, summit; parṭā maitā nū, on the top of the hill.",
+      "hindi_definition": "शिखर, चोटी; parṭā maitā nū = पहाड़ की चोटी पर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maiyā",
+      "kurukh_word_ascii": "Maiya",
+      "english_definition": "prep. on, above, on the top of.",
+      "hindi_definition": "सम्बन्धसूचक अव्यय। ऊपर, के ऊपर, चोटी पर।",
+      "part_of_speech": "preposition",
+      "notes": "Variant: mēyā"
+    },
+    {
+      "kurukh_word": "Mēyā",
+      "kurukh_word_ascii": "Meya",
+      "english_definition": "prep. on, above, on the top of.",
+      "hindi_definition": "सम्बन्धसूचक अव्यय। ऊपर, के ऊपर, चोटी पर।",
+      "part_of_speech": "preposition",
+      "notes": "Variant of Maiyā"
+    },
+    {
+      "kurukh_word": "Maitlēm",
+      "kurukh_word_ascii": "Maitlem",
+      "english_definition": "from above.",
+      "hindi_definition": "ऊपर से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maitulē",
+      "kurukh_word_ascii": "Maitule",
+      "english_definition": "from above, same as Maitlēm.",
+      "hindi_definition": "ऊपर से (Maitlēm के समान)।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Majhā",
+      "kurukh_word_ascii": "Majha",
+      "english_definition": "middle, right in the middle.",
+      "hindi_definition": "मध्य में, बीचों-बीच (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": "Variant: majhī"
+    },
+    {
+      "kurukh_word": "Majhī",
+      "kurukh_word_ascii": "Majhi",
+      "english_definition": "middle.",
+      "hindi_definition": "मध्य, बीच (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Majhīntā",
+      "kurukh_word_ascii": "Majhinta",
+      "english_definition": "adv. belonging to the middle, the middle one.",
+      "hindi_definition": "क्रियाविशेषण। बीच का, बीच वाला।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Majhī aṅglī",
+      "kurukh_word_ascii": "Majhi angli",
+      "english_definition": "the middle finger.",
+      "hindi_definition": "मध्यमा उंगली (बीच की उंगली) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Majhīhas",
+      "kurukh_word_ascii": "Majhihas",
+      "english_definition": "the land in the village being the landlord's own, generally cultivated by himself.",
+      "hindi_definition": "मझिहस (गांव की वह भूमि जो जमींदार की निजी होती है और आमतौर पर उसके द्वारा स्वयं खेती की जाती है)।",
+      "part_of_speech": "noun",
+      "notes": "Variant: majhyas"
+    },
+    {
+      "kurukh_word": "Majhilas",
+      "kurukh_word_ascii": "Majhilas",
+      "english_definition": "the middle son.",
+      "hindi_definition": "मझला बेटा (बीच का बेटा)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Majhiānā",
+      "kurukh_word_ascii": "Majhiana",
+      "english_definition": "ckan, c'an, to take or leave in the midst.",
+      "hindi_definition": "बीच में लेना या छोड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mak",
+      "kurukh_word_ascii": "Mak",
+      "english_definition": "deer.",
+      "hindi_definition": "हिरण।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mak marg",
+      "kurukh_word_ascii": "Mak marg",
+      "english_definition": "antlers.",
+      "hindi_definition": "हिरण के सींग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Makdār",
+      "kurukh_word_ascii": "Makdar",
+      "english_definition": "power, authority.",
+      "hindi_definition": "शक्ति, अधिकार।",
+      "part_of_speech": "noun",
+      "loanword_from": "ur",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maklē",
+      "kurukh_word_ascii": "Makle",
+      "english_definition": "conj. if not, then.",
+      "hindi_definition": "संयोजक। यदि नहीं, तो।",
+      "part_of_speech": "conjunction",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maklē",
+      "kurukh_word_ascii": "Makle",
+      "english_definition": "otherwise, or.",
+      "hindi_definition": "अन्यथा, या।",
+      "part_of_speech": "conjunction",
+      "notes": "2nd homograph of Maklē"
+    },
+    {
+      "kurukh_word": "Makkā",
+      "kurukh_word_ascii": "Makka",
+      "english_definition": "the sal tree.",
+      "hindi_definition": "साल (सखुआ) का पेड़।",
+      "part_of_speech": "noun",
+      "notes": "Variant: maks"
+    },
+    {
+      "kurukh_word": "Makhā",
+      "kurukh_word_ascii": "Makha",
+      "english_definition": "night.",
+      "hindi_definition": "रात (रात्रि)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Makhā bīrī",
+      "kurukh_word_ascii": "Makha biri",
+      "english_definition": "night time.",
+      "hindi_definition": "रात का समय।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ullā makhā",
+      "kurukh_word_ascii": "Ulla makha",
+      "english_definition": "the whole day, night and day.",
+      "hindi_definition": "पूरा दिन, दिन और रात।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Adhē idhē makhā",
+      "kurukh_word_ascii": "Adhe idhe makha",
+      "english_definition": "midnight.",
+      "hindi_definition": "आधी रात (मध्यरात्रि)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Makhnā",
+      "kurukh_word_ascii": "Makhna",
+      "english_definition": "kan, yan, to grow dark.",
+      "hindi_definition": "अंधेरा होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Makrī-mann",
+      "kurukh_word_ascii": "Makri-mann",
+      "english_definition": "a kind of tree.",
+      "hindi_definition": "एक प्रकार का पेड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Makṛā",
+      "kurukh_word_ascii": "Makra",
+      "english_definition": "spider.",
+      "hindi_definition": "मकड़ी (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Makṛī",
+      "kurukh_word_ascii": "Makri",
+      "english_definition": "a bolt.",
+      "hindi_definition": "चिटकनी (कुंडी)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mal",
+      "kurukh_word_ascii": "Mal",
+      "english_definition": "adv. not.",
+      "hindi_definition": "क्रियाविशेषण। नहीं, ना।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malaṅg",
+      "kurukh_word_ascii": "Malang",
+      "english_definition": "bargain.",
+      "hindi_definition": "सौदा, मोलतोल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    }
+  ]
+}

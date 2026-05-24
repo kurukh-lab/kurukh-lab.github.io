@@ -1,0 +1,232 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0184.jpg",
+  "page_label": "180",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ujgā'anā",
+      "kurukh_word_ascii": "Ujga'ana",
+      "english_definition": "to straighten; to furnish security",
+      "hindi_definition": "सीधा करना; ज़मानत देना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ujgārnā",
+      "kurukh_word_ascii": "Ujgarna",
+      "english_definition": "to be rectified, improved, corrected",
+      "hindi_definition": "ठीक होना, सुधारा जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ujgō",
+      "kurukh_word_ascii": "Ujgo",
+      "english_definition": "straight, right, true, straightforward",
+      "hindi_definition": "सीधा, सही, सच्चा, स्पष्टवादी",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Ujjnā",
+      "kurukh_word_ascii": "Ujjna",
+      "english_definition": "life",
+      "hindi_definition": "जीवन, जिंदगी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ujjā cō'ōnā",
+      "kurukh_word_ascii": "Ujja co'ona",
+      "english_definition": "to rise alive, to rise from the dead",
+      "hindi_definition": "पुनर्जीवित होना, मरे हुओं में से जी उठना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ujjā cōdnā",
+      "kurukh_word_ascii": "Ujja codna",
+      "english_definition": "to raise from the dead",
+      "hindi_definition": "मरे हुओं को जिलाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Āl ujjnā",
+      "kurukh_word_ascii": "Al ujjna",
+      "english_definition": "to remarry (said of widows only)",
+      "hindi_definition": "पुनर्विवाह करना (केवल विधवाओं के लिए)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ujjnā-bijjnā okknā",
+      "kurukh_word_ascii": "Ujjna-bijjna okkna",
+      "english_definition": "to be alive hale and hearty",
+      "hindi_definition": "सकुशल और तंदुरुस्त जीवित रहना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Uk̲h̲rī",
+      "kurukh_word_ascii": "Ukhri",
+      "english_definition": "the wooden log in which rice is pounded",
+      "hindi_definition": "ओखली (धान कूटने का काठ का पात्र)",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Uk̲h̲al-uk̲h̲lī",
+      "kurukh_word_ascii": "Ukhal-ukhli",
+      "english_definition": "agriculture",
+      "hindi_definition": "कृषि, खेतीबाड़ी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ulā k̲h̲ārnā",
+      "kurukh_word_ascii": "Ula kharna",
+      "english_definition": "to be sick, inclined to vomit",
+      "hindi_definition": "जी मिचलाना, उल्टी जैसी स्थिति होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Ulā",
+      "kurukh_word_ascii": "Ula",
+      "english_definition": "inside, within",
+      "hindi_definition": "भीतर, अंदर",
+      "part_of_speech": "prep"
+    },
+    {
+      "kurukh_word": "Ultā / ulantā",
+      "kurukh_word_ascii": "Ulta / ulanta",
+      "english_definition": "internal",
+      "hindi_definition": "आंतरिक, भीतरी",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Uldhā'anā",
+      "kurukh_word_ascii": "Uldha'ana",
+      "english_definition": "to turn upside down",
+      "hindi_definition": "उलटना-पुलटना, उल्टा करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ullā",
+      "kurukh_word_ascii": "Ulla",
+      "english_definition": "day",
+      "hindi_definition": "दिन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Muñjantā'ē ullā",
+      "kurukh_word_ascii": "Munjanta'e ulla",
+      "english_definition": "the last day",
+      "hindi_definition": "अंतिम दिन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ullentā",
+      "kurukh_word_ascii": "Ullenta",
+      "english_definition": "daily",
+      "hindi_definition": "दैनिक, हर रोज का",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Ullā ullā",
+      "kurukh_word_ascii": "Ulla ulla",
+      "english_definition": "day by day",
+      "hindi_definition": "दिन-ब-दिन, दिनोंदिन",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ullā-bīṛī",
+      "kurukh_word_ascii": "Ulla-biri",
+      "english_definition": "day time",
+      "hindi_definition": "दिन का समय",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ullā-mak̲h̲ā",
+      "kurukh_word_ascii": "Ulla-makha",
+      "english_definition": "day and night",
+      "hindi_definition": "दिन-रात",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ullā cī'inā",
+      "kurukh_word_ascii": "Ulla ci'ina",
+      "english_definition": "to give time, prolong, postpone",
+      "hindi_definition": "समय देना, स्थगित करना, टालना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ulēṇḍ",
+      "kurukh_word_ascii": "Ulend",
+      "english_definition": "two days",
+      "hindi_definition": "दो दिन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ulmūṇḍ",
+      "kurukh_word_ascii": "Ulmund",
+      "english_definition": "three days",
+      "hindi_definition": "तीन दिन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ulmūṇḍtā ullā nū",
+      "kurukh_word_ascii": "Ulmundta ulla nu",
+      "english_definition": "on the third day",
+      "hindi_definition": "तीसरे दिन",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ultā ballī",
+      "kurukh_word_ascii": "Ulta balli",
+      "english_definition": "the inner door",
+      "hindi_definition": "अंदर का दरवाजा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ultā āl",
+      "kurukh_word_ascii": "Ulta al",
+      "english_definition": "the inner man, spiritual life",
+      "hindi_definition": "भीतरी मनुष्य, आध्यात्मिक जीवन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ulrā'anā",
+      "kurukh_word_ascii": "Ulra'ana",
+      "english_definition": "to hint, wink",
+      "hindi_definition": "इशारा करना, आंख मारना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ulrārnā",
+      "kurukh_word_ascii": "Ulrarna",
+      "english_definition": "to follow a hint or wink",
+      "hindi_definition": "इशारे पर चलना, बात समझना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ulukbuluk",
+      "kurukh_word_ascii": "Ulukbuluk",
+      "english_definition": "confounded",
+      "hindi_definition": "भ्रमित, हतप्रभ",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Umb / umbu'tī",
+      "kurukh_word_ascii": "Umb / umbu'ti",
+      "english_definition": "front, inner side",
+      "hindi_definition": "सामने, अग्रभाग, भीतरी भाग",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Umbalk̲h̲ā",
+      "kurukh_word_ascii": "Umbalkha",
+      "english_definition": "liver",
+      "hindi_definition": "जिगर, यकृत",
+      "part_of_speech": "noun"
+    }
+  ]
+}

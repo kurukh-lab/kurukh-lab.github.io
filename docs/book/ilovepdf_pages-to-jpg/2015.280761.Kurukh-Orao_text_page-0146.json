@@ -1,0 +1,238 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0146.jpg",
+  "page_label": "142",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pāccā pāccī",
+      "kurukh_word_ascii": "Pacca pacci",
+      "english_definition": "old folk",
+      "hindi_definition": "बूढ़े लोग",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāccī",
+      "kurukh_word_ascii": "Pacci",
+      "english_definition": "an old man, a man grey with age",
+      "hindi_definition": "बूढ़ा आदमी, बुजुर्ग",
+      "part_of_speech": "noun",
+      "gender": "m"
+    },
+    {
+      "kurukh_word": "Pāch kirnā",
+      "kurukh_word_ascii": "Pach kirna",
+      "english_definition": "to revert, repent, turn back, leave off",
+      "hindi_definition": "पलटना, पछताना, वापस मुड़ना, छोड़ देना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pachēnd nannī",
+      "kurukh_word_ascii": "Pachend nanni",
+      "english_definition": "to follow, pursue",
+      "hindi_definition": "पीछा करना, अनुसरण करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāchī!",
+      "kurukh_word_ascii": "Pachi!",
+      "english_definition": "Go away, be off! (used when handling cattle)",
+      "hindi_definition": "हट! भगो! (पशु हाँकते समय)",
+      "part_of_speech": "interj"
+    },
+    {
+      "kurukh_word": "Pachrā'ānā",
+      "kurukh_word_ascii": "Pachra'ana",
+      "english_definition": "to winnow, clean with a winnowing fan",
+      "hindi_definition": "फटकना, सूप से साफ करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Pāckārnā",
+      "kurukh_word_ascii": "Packarna",
+      "english_definition": "to pass winds, flatulence",
+      "hindi_definition": "अपान वायु छोड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pāonā",
+      "kurukh_word_ascii": "Paona",
+      "english_definition": "same as pacenā (to grow old)",
+      "hindi_definition": "pacenā के समान (पुराना होना)",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-an"
+    },
+    {
+      "kurukh_word": "Pāchyī",
+      "kurukh_word_ascii": "Pachyi",
+      "english_definition": "wall",
+      "hindi_definition": "दीवार",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāctā'ānē",
+      "kurukh_word_ascii": "Pacta'ane",
+      "english_definition": "to ripen artificially",
+      "hindi_definition": "कृत्रिम रूप से पकाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pādā",
+      "kurukh_word_ascii": "Pada",
+      "english_definition": "root",
+      "hindi_definition": "जड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pādā hē'enā",
+      "kurukh_word_ascii": "Pada he'ena",
+      "english_definition": "to take root",
+      "hindi_definition": "जड़ पकड़ना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāddā",
+      "kurukh_word_ascii": "Padda",
+      "english_definition": "village",
+      "hindi_definition": "गाँव",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Āddī-vāddā",
+      "kurukh_word_ascii": "Addi-vadda",
+      "english_definition": "homestead, citizenship",
+      "hindi_definition": "मूल निवास, नागरिकता",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāgā",
+      "kurukh_word_ascii": "Paga",
+      "english_definition": "turban, crown",
+      "hindi_definition": "पगड़ी, मुकुट",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāgār",
+      "kurukh_word_ascii": "Pagar",
+      "english_definition": "earthen wall",
+      "hindi_definition": "मिट्टी की दीवार",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāgār hārnā",
+      "kurukh_word_ascii": "Pagar harna",
+      "english_definition": "to throw up an earthen wall",
+      "hindi_definition": "मिट्टी की दीवार खड़ी करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāgār launā",
+      "kurukh_word_ascii": "Pagar launa",
+      "english_definition": "the same (to throw up an earthen wall)",
+      "hindi_definition": "वही (मिट्टी की दीवार)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāghā",
+      "kurukh_word_ascii": "Pagha",
+      "english_definition": "rope",
+      "hindi_definition": "रस्सी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāgsī",
+      "kurukh_word_ascii": "Pagsi",
+      "english_definition": "the yoke put on oxen",
+      "hindi_definition": "बैलों पर रखा जुआ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāhpāhrnā",
+      "kurukh_word_ascii": "Pahpahrna",
+      "english_definition": "early dawn, the breaking of the day",
+      "hindi_definition": "भोर, सूर्योदय से पहले का समय",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pahē",
+      "kurukh_word_ascii": "Pahe",
+      "english_definition": "but; correlative particle in relative sentences",
+      "hindi_definition": "पर, लेकिन; सापेक्ष वाक्यों में संबंधबोधक",
+      "part_of_speech": "conj",
+      "example_phrase": "bare'kai ra'ackai holē gā cī'on pahē — If you had come, I would have given you"
+    },
+    {
+      "kurukh_word": "Pāhī",
+      "kurukh_word_ascii": "Pahi",
+      "english_definition": "guest",
+      "hindi_definition": "मेहमान, अतिथि",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāhī eddnā",
+      "kurukh_word_ascii": "Pahi eddna",
+      "english_definition": "to invite a guest",
+      "hindi_definition": "मेहमान को आमंत्रित करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāhī ērnā",
+      "kurukh_word_ascii": "Pahi erna",
+      "english_definition": "to attend on a guest",
+      "hindi_definition": "मेहमान की सेवा करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāhī khōjnā",
+      "kurukh_word_ascii": "Pahi khojhna",
+      "english_definition": "to be hospitable",
+      "hindi_definition": "अतिथि-सत्कार करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāhī mannā",
+      "kurukh_word_ascii": "Pahi manna",
+      "english_definition": "to be engaged, betrothed",
+      "hindi_definition": "मंगनी होना, सगाई होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāhī manjkā ālī",
+      "kurukh_word_ascii": "Pahi manjka ali",
+      "english_definition": "a betrothed girl or woman",
+      "hindi_definition": "मंगेतर लड़की या स्त्री",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāhī nannā",
+      "kurukh_word_ascii": "Pahi nanna",
+      "english_definition": "to engage, betroth",
+      "hindi_definition": "सगाई करना, मंगनी करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāhī uīnā",
+      "kurukh_word_ascii": "Pahi uina",
+      "english_definition": "to keep guests",
+      "hindi_definition": "मेहमानों को रखना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāhiyār",
+      "kurukh_word_ascii": "Pahiyar",
+      "english_definition": "relatives, friends",
+      "hindi_definition": "रिश्तेदार, दोस्त",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāik",
+      "kurukh_word_ascii": "Paik",
+      "english_definition": "fern",
+      "hindi_definition": "फर्न (एक पौधा)",
+      "part_of_speech": "noun"
+    }
+  ]
+}

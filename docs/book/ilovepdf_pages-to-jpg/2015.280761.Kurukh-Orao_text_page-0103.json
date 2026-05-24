@@ -1,0 +1,281 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0103.jpg",
+  "page_label": "99",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Khis uinā",
+      "kurukh_word_ascii": "Khis uina",
+      "english_definition": "to be enraged.",
+      "hindi_definition": "क्रोधित होना, आग-बबूला होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khīsan khettnā",
+      "kurukh_word_ascii": "Khisan khettna",
+      "english_definition": "lit. to dust off a quarrel, meaning: to take revenge.",
+      "hindi_definition": "झगड़ा झाड़ देना, बदला लेना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Idiomatic: lit. dust off a quarrel = take revenge"
+    },
+    {
+      "kurukh_word": "Khisārnā",
+      "kurukh_word_ascii": "Khisarna",
+      "english_definition": "to get angry.",
+      "hindi_definition": "क्रोधित होना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khisāb'anā",
+      "kurukh_word_ascii": "Khisab'ana",
+      "english_definition": "to vex, make angry.",
+      "hindi_definition": "तंग करना, क्रोधित करना।",
+      "part_of_speech": "verb",
+      "notes": "Causative of Khisārnā"
+    },
+    {
+      "kurukh_word": "Khisem",
+      "kurukh_word_ascii": "Khisem",
+      "english_definition": "in anger, adv.",
+      "hindi_definition": "क्रोध में, गुस्से में।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khiyārnā",
+      "kurukh_word_ascii": "Khiyarna",
+      "english_definition": "H. to crumble, wear away.",
+      "hindi_definition": "टूटना, घिसना।",
+      "part_of_speech": "verb",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khōbrārnā",
+      "kurukh_word_ascii": "Khobrarna",
+      "english_definition": "kan, an, to sorrow.",
+      "hindi_definition": "दुःखी होना, शोक करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khogrō",
+      "kurukh_word_ascii": "Khogro",
+      "english_definition": "old.",
+      "hindi_definition": "पुराना, बूढ़ा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khōhē",
+      "kurukh_word_ascii": "Khohe",
+      "english_definition": "destination, constellation.",
+      "hindi_definition": "गंतव्य, तारामंडल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kholokā",
+      "kurukh_word_ascii": "Kholoka",
+      "english_definition": "a hole.",
+      "hindi_definition": "छेद, गड्ढा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khōkh",
+      "kurukh_word_ascii": "Khokh",
+      "english_definition": "H. womb.",
+      "hindi_definition": "गर्भाशय, कोख।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khokhra'anā",
+      "kurukh_word_ascii": "Khokhra'ana",
+      "english_definition": "ckan, c'an to prick, itch.",
+      "hindi_definition": "चुभाना, खुजाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kholpā",
+      "kurukh_word_ascii": "Kholpa",
+      "english_definition": "hole, cave.",
+      "hindi_definition": "छेद, गुफा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khomkhom",
+      "kurukh_word_ascii": "Khomkhom",
+      "english_definition": "or Khomkhomrnā, to look cross, fierce frown.",
+      "hindi_definition": "गुस्से में देखना, तीव्र भ्रूभंग।",
+      "part_of_speech": "verb",
+      "notes": "Variant: Khomkhomrnā"
+    },
+    {
+      "kurukh_word": "Khomkhomrnā",
+      "kurukh_word_ascii": "Khomkhomrna",
+      "english_definition": "to look cross, fierce frown.",
+      "hindi_definition": "गुस्से से देखना, भौंहें चढ़ाना।",
+      "part_of_speech": "verb",
+      "notes": "Variant of Khomkhom"
+    },
+    {
+      "kurukh_word": "Khōc",
+      "kurukh_word_ascii": "Khoc",
+      "english_definition": "peg, plug.",
+      "hindi_definition": "खूँटी, डाट।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khondrkhondrnā",
+      "kurukh_word_ascii": "Khondrkhondrna",
+      "english_definition": "kan an, or Khondrārnā, to be grieved, despondent.",
+      "hindi_definition": "दुःखी होना, निराश होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Variant: Khondrārnā"
+    },
+    {
+      "kurukh_word": "Khondrārnā",
+      "kurukh_word_ascii": "Khondrarna",
+      "english_definition": "to be grieved, despondent.",
+      "hindi_definition": "दुःखी होना, निराश होना।",
+      "part_of_speech": "verb",
+      "notes": "Variant of Khondrkhondrnā"
+    },
+    {
+      "kurukh_word": "Khoṇḍhā",
+      "kurukh_word_ascii": "Khondha",
+      "english_definition": "or khoṇḍahā, bulk, assembly, gathering.",
+      "hindi_definition": "भीड़, सभा, जमावड़ा।",
+      "part_of_speech": "noun",
+      "notes": "Variant: khoṇḍahā"
+    },
+    {
+      "kurukh_word": "Khōsrnā",
+      "kurukh_word_ascii": "Khosrna",
+      "english_definition": "kan, an, to pound.",
+      "hindi_definition": "कूटना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kierī khōcrnā",
+      "kurukh_word_ascii": "Kieri khocna",
+      "english_definition": "kan, an, to take up the cloth for gathering in fruit or greens.",
+      "hindi_definition": "फल या साग चुनने के लिए कपड़ा उठाना।",
+      "part_of_speech": "verb phrase",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khōsnā",
+      "kurukh_word_ascii": "Khosna",
+      "english_definition": "khūskan, khūsyan, to pound.",
+      "hindi_definition": "कूटना।",
+      "part_of_speech": "verb",
+      "verb_class": "khuskan-khusyan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khōgsrō",
+      "kurukh_word_ascii": "Khogsro",
+      "english_definition": "or khokhsrō, a sack, bag.",
+      "hindi_definition": "बोरा, थैला।",
+      "part_of_speech": "noun",
+      "notes": "Variant: khokhsrō"
+    },
+    {
+      "kurukh_word": "Khoppā",
+      "kurukh_word_ascii": "Khoppa",
+      "english_definition": "hair knot.",
+      "hindi_definition": "जूड़ा, बालों की गाँठ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khorkhod̤rnā",
+      "kurukh_word_ascii": "Khorkhodrna",
+      "english_definition": "kan, an, to appear dirty.",
+      "hindi_definition": "गंदा दिखना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khornā",
+      "kurukh_word_ascii": "Khorna",
+      "english_definition": "or khoḍnā, ckan, c'an, to kindle the fire by stirring.",
+      "hindi_definition": "आग को हिलाकर जलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": "Variant: khoḍnā"
+    },
+    {
+      "kurukh_word": "Khorkhossā",
+      "kurukh_word_ascii": "Khorkhossa",
+      "english_definition": "uneven, rough.",
+      "hindi_definition": "ऊबड़-खाबड़, खुरदुरा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khorkhōrā",
+      "kurukh_word_ascii": "Khorkhora",
+      "english_definition": "fox.",
+      "hindi_definition": "लोमड़ी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khoṛti",
+      "kurukh_word_ascii": "Khorti",
+      "english_definition": "adj. ugly, deformed person.",
+      "hindi_definition": "कुरूप, विकृत व्यक्ति।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khoṭrē",
+      "kurukh_word_ascii": "Khotre",
+      "english_definition": "adj. mutilated.",
+      "hindi_definition": "अंग-भंग, क्षत-विक्षत।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khoyā",
+      "kurukh_word_ascii": "Khoya",
+      "english_definition": "wild dog.",
+      "hindi_definition": "जंगली कुत्ता।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khuā",
+      "kurukh_word_ascii": "Khua",
+      "english_definition": "intervention, stopping.",
+      "hindi_definition": "दखलंदाज़ी, रोकना।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khuā mannā",
+      "kurukh_word_ascii": "Khua manna",
+      "english_definition": "to come to a standstill, to be interfered with.",
+      "hindi_definition": "रुकना, रोका जाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    }
+  ]
+}

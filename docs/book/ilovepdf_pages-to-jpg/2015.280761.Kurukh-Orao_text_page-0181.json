@@ -1,0 +1,255 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0181.jpg",
+  "page_label": "177",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ṭōprī",
+      "kurukh_word_ascii": "Topri",
+      "english_definition": "a hat, a crown",
+      "hindi_definition": "टोपी, मुकुट",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭōraṅg",
+      "kurukh_word_ascii": "Torang",
+      "english_definition": "forest",
+      "hindi_definition": "वन, जंगल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭōrō̃",
+      "kurukh_word_ascii": "Toro",
+      "english_definition": "iron hook to shake up straw",
+      "hindi_definition": "पुआल हिलाने का लोहे का अंकुश/हुक",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭōṭrnā",
+      "kurukh_word_ascii": "Totrna",
+      "english_definition": "to scrape",
+      "hindi_definition": "खुरचना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭūdnā",
+      "kurukh_word_ascii": "Tudna",
+      "english_definition": "to write, draw, paint",
+      "hindi_definition": "लिखना, चित्र बनाना, पेंट करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Ṭumpā",
+      "kurukh_word_ascii": "Tumpa",
+      "english_definition": "bud, flower-bud",
+      "hindi_definition": "कली, फूल की कली",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭuṅgrī",
+      "kurukh_word_ascii": "Tungri",
+      "english_definition": "rocky hill",
+      "hindi_definition": "पथरीली पहाड़ी, डूंगरी",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭunkī",
+      "kurukh_word_ascii": "Tunki",
+      "english_definition": "a small basket, holding only a few pounds",
+      "hindi_definition": "छोटी टोकरी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭūyā",
+      "kurukh_word_ascii": "Tuya",
+      "english_definition": "spout",
+      "hindi_definition": "टोंटी (बर्तन की)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭursī",
+      "kurukh_word_ascii": "Tursi",
+      "english_definition": "a hooked stick",
+      "hindi_definition": "अंकुशदार छड़ी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭurā",
+      "kurukh_word_ascii": "Tura",
+      "english_definition": "an orphan",
+      "hindi_definition": "अनाथ",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭūrnā",
+      "kurukh_word_ascii": "Turna",
+      "english_definition": "to color the forehead with red lead",
+      "hindi_definition": "सिंदूर लगाना (माथे पर)",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Ṭuṛrnā",
+      "kurukh_word_ascii": "Turrna",
+      "english_definition": "to scratch up",
+      "hindi_definition": "खरोंचना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Ṭurkā'anā",
+      "kurukh_word_ascii": "Turka'ana",
+      "english_definition": "to give in small pieces, to give less",
+      "hindi_definition": "छोटे टुकड़ों में देना, कम देना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ṭusā",
+      "kurukh_word_ascii": "Tusa",
+      "english_definition": "the stalk of a flower",
+      "hindi_definition": "फूल का डंठल (विशेषकर कोएनार पेड़ का)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭuṭrnakrnā",
+      "kurukh_word_ascii": "Tutrnakrna",
+      "english_definition": "to split, to fall out, schism",
+      "hindi_definition": "विभाजित होना, अलग होना, दरार पड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭuṭṭalk̲h̲ī",
+      "kurukh_word_ascii": "Tuttalkhi",
+      "english_definition": "muzzle",
+      "hindi_definition": "मुँहबंद (पशुओं का)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭh",
+      "kurukh_word_ascii": "Th",
+      "english_definition": "letter section heading",
+      "hindi_definition": "ठ वर्ण अनुभाग",
+      "part_of_speech": "letter"
+    },
+    {
+      "kurukh_word": "Ṭhaknā",
+      "kurukh_word_ascii": "Thakna",
+      "english_definition": "to cheat",
+      "hindi_definition": "ठगना, धोखा देना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭhaknā",
+      "kurukh_word_ascii": "Thakna",
+      "english_definition": "spindle, the rolling pin",
+      "hindi_definition": "तकली, बेलन",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Ṭhalyārnā",
+      "kurukh_word_ascii": "Thalyarna",
+      "english_definition": "to become stiff as jelly",
+      "hindi_definition": "जेली की तरह जमना या सख्त होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭhamkārnā",
+      "kurukh_word_ascii": "Thamkarna",
+      "english_definition": "to cease",
+      "hindi_definition": "रुकना, बंद होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ṭhamṭhamrnā",
+      "kurukh_word_ascii": "Thamthamrna",
+      "english_definition": "to be composed",
+      "hindi_definition": "शांत होना, स्थिर होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭhanṭhanrnā",
+      "kurukh_word_ascii": "Thanthanrna",
+      "english_definition": "to clink, sound",
+      "hindi_definition": "खनखनाना, सिक्कों की आवाज",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭharkī",
+      "kurukh_word_ascii": "Tharki",
+      "english_definition": "wooden bell",
+      "hindi_definition": "ठरकी, काठ का घंटा",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭharrarnā",
+      "kurukh_word_ascii": "Tharrarna",
+      "english_definition": "to crackle, rattle",
+      "hindi_definition": "खड़खड़ाना, गड़गड़ाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭhasnā",
+      "kurukh_word_ascii": "Thasna",
+      "english_definition": "to stick to, be attached",
+      "hindi_definition": "चिपकना, सटे रहना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭhathnā",
+      "kurukh_word_ascii": "Thathna",
+      "english_definition": "to rally, recover, to stand it",
+      "hindi_definition": "पुनः स्वस्थ होना, टिकना, सामना करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ṭhaukam",
+      "kurukh_word_ascii": "Thaukam",
+      "english_definition": "alright, just so, bravo",
+      "hindi_definition": "ठीक, बिल्कुल सही, शाबाश",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ṭhauka'anā",
+      "kurukh_word_ascii": "Thauka'ana",
+      "english_definition": "to put aright, rectify",
+      "hindi_definition": "ठीक करना, सुधारना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ṭhaukārnā",
+      "kurukh_word_ascii": "Thaukarna",
+      "english_definition": "to be put aright, rectified",
+      "hindi_definition": "ठीक होना, सुधारा जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭhekkā",
+      "kurukh_word_ascii": "Thekka",
+      "english_definition": "a small earthen pot",
+      "hindi_definition": "छोटा मिट्टी का बर्तन, हंडिया",
+      "part_of_speech": "noun"
+    }
+  ]
+}

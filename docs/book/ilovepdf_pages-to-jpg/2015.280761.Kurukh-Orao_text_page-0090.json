@@ -1,0 +1,275 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0090.jpg",
+  "page_label": "86",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Katyā nannā",
+      "kurukh_word_ascii": "Katya nanna",
+      "english_definition": "to circumcise.",
+      "hindi_definition": "खतना करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kau bauamba'anā",
+      "kurukh_word_ascii": "Kau bauamba'ana",
+      "english_definition": "ckan, c'an, to confound, irritate.",
+      "hindi_definition": "चकित करना, चिड़चिड़ाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaubaurnā",
+      "kurukh_word_ascii": "Kaubaurna",
+      "english_definition": "kan, an, to be confused.",
+      "hindi_definition": "भ्रमित होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaukauamba'anā",
+      "kurukh_word_ascii": "Kaukauamba'ana",
+      "english_definition": "ckan, c'an, to vex, irritate.",
+      "hindi_definition": "खीझाना, परेशान करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaukaurna",
+      "kurukh_word_ascii": "Kaukaurna",
+      "english_definition": "kan, an, to be vexed.",
+      "hindi_definition": "खीझना, परेशान होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaur",
+      "kurukh_word_ascii": "Kaur",
+      "english_definition": "exertion.",
+      "hindi_definition": "परिश्रम, प्रयास।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kauar bauar",
+      "kurukh_word_ascii": "Kauar bauar",
+      "english_definition": "calling excitedly, with much agitation, also agitation.",
+      "hindi_definition": "उत्तेजना से पुकारना, आंदोलन।",
+      "part_of_speech": "noun",
+      "notes": "Reduplicated ideophone."
+    },
+    {
+      "kurukh_word": "Kaurbaurnā",
+      "kurukh_word_ascii": "Kaurbaurna",
+      "english_definition": "kan an, to call, order strenuously.",
+      "hindi_definition": "ज़ोर से पुकारना, कठोरता से आदेश देना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaurbaurā lagnā",
+      "kurukh_word_ascii": "Kaurbaura lagna",
+      "english_definition": "to feel sick, agitated.",
+      "hindi_definition": "बीमार और व्याकुल महसूस करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kauwar",
+      "kurukh_word_ascii": "Kauwar",
+      "english_definition": "noise, tumult.",
+      "hindi_definition": "शोर, हुड़दंग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kauwar manna",
+      "kurukh_word_ascii": "Kauwar manna",
+      "english_definition": "noise; there is a noise or tumult going on: kauwar mannālaggī.",
+      "hindi_definition": "शोर होना; उदा. कौवर मन्नालाग्गी।",
+      "part_of_speech": "verb phrase",
+      "notes": "Example phrase given in original."
+    },
+    {
+      "kurukh_word": "Kauwar nanna",
+      "kurukh_word_ascii": "Kauwar nanna",
+      "english_definition": "to make a noise, tumult.",
+      "hindi_definition": "शोर मचाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kayā",
+      "kurukh_word_ascii": "Kaya",
+      "english_definition": "H. jia-kayā, body and soul.",
+      "hindi_definition": "जिया-काया, शरीर और आत्मा।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kayās",
+      "kurukh_word_ascii": "Kayas",
+      "english_definition": "H. courage.",
+      "hindi_definition": "साहस, हिम्मत।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kayās nannā",
+      "kurukh_word_ascii": "Kayas nanna",
+      "english_definition": "to take courage, to endure.",
+      "hindi_definition": "हिम्मत करना, सहना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kayās",
+      "kurukh_word_ascii": "Kayas",
+      "english_definition": "exercise, practice, endurance, forbearance.",
+      "hindi_definition": "अभ्यास, धैर्य, सहनशीलता।",
+      "part_of_speech": "noun",
+      "homograph_index": 2,
+      "notes": "Second sense of Kayās."
+    },
+    {
+      "kurukh_word": "Kēbēr mōkhnā",
+      "kurukh_word_ascii": "Keber mokhna",
+      "english_definition": "to be abused.",
+      "hindi_definition": "गाली खाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kēbnā",
+      "kurukh_word_ascii": "Kebna",
+      "english_definition": "kebkan, an, to abuse in particular.",
+      "hindi_definition": "विशेष रूप से गाली देना।",
+      "part_of_speech": "verb",
+      "verb_class": "kebkan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kēbernā",
+      "kurukh_word_ascii": "Keberna",
+      "english_definition": "kan, an, to abuse in general, to clamour.",
+      "hindi_definition": "सामान्य रूप से गाली देना, शोर करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kēbnakrnā",
+      "kurukh_word_ascii": "Kebnakrna",
+      "english_definition": "to abuse one another.",
+      "hindi_definition": "एक-दूसरे को गाली देना।",
+      "part_of_speech": "verb",
+      "notes": "Reciprocal form."
+    },
+    {
+      "kurukh_word": "Kēhōr-Kotos bēcnā",
+      "kurukh_word_ascii": "Kehor-Kotos becna",
+      "english_definition": "a children's play, in which they imitate the cry of the hawk ('kehōr') and of the fowl (kotos).",
+      "hindi_definition": "बच्चों का खेल जिसमें बाज़ और मुर्गे की आवाज़ की नकल होती है।",
+      "part_of_speech": "noun",
+      "notes": "Oraon children's game."
+    },
+    {
+      "kurukh_word": "Kēlhā-pūmp",
+      "kurukh_word_ascii": "Kelha-pump",
+      "english_definition": "a kind of flower.",
+      "hindi_definition": "एक प्रकार का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kēndā",
+      "kurukh_word_ascii": "Kenda",
+      "english_definition": "the plantain.",
+      "hindi_definition": "केला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kendrā",
+      "kurukh_word_ascii": "Kendra",
+      "english_definition": "an instrument with two strings.",
+      "hindi_definition": "दो तारों वाला वाद्य यंत्र।",
+      "part_of_speech": "noun",
+      "notes": "Traditional Oraon string instrument."
+    },
+    {
+      "kurukh_word": "Kēkō bēkō",
+      "kurukh_word_ascii": "Keko beko",
+      "english_definition": "adj. crooked.",
+      "hindi_definition": "टेढ़ा-मेढ़ा।",
+      "part_of_speech": "adjective",
+      "notes": "Reduplicated ideophone."
+    },
+    {
+      "kurukh_word": "Kerkeṭā ōrā",
+      "kurukh_word_ascii": "Kerketa ora",
+      "english_definition": "quail.",
+      "hindi_definition": "बटेर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Keōṭā",
+      "kurukh_word_ascii": "Keota",
+      "english_definition": "fisherman.",
+      "hindi_definition": "मछुआरा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kēr khakhnā",
+      "kurukh_word_ascii": "Ker khakhna",
+      "english_definition": "to meet, to arrive.",
+      "hindi_definition": "मिलना, पहुँचना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kērā",
+      "kurukh_word_ascii": "Kera",
+      "english_definition": "H. plantain.",
+      "hindi_definition": "केला।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kēsā",
+      "kurukh_word_ascii": "Kesa",
+      "english_definition": "sesamum.",
+      "hindi_definition": "तिल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kēsnā",
+      "kurukh_word_ascii": "Kesna",
+      "english_definition": "kan, an, to fan, to sift.",
+      "hindi_definition": "पंखा करना, छानना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kesarī-ghāsī",
+      "kurukh_word_ascii": "Kesari-ghasi",
+      "english_definition": "the grass of the following.",
+      "hindi_definition": "अगले शब्द से संबंधित घास।",
+      "part_of_speech": "noun",
+      "notes": "Refers to Kēsarī grass entry on next page."
+    }
+  ]
+}

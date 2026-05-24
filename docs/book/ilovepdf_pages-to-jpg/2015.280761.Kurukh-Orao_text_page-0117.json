@@ -1,0 +1,274 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0117.jpg",
+  "page_label": "113",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Laukhnā",
+      "kurukh_word_ascii": "Laukhna",
+      "english_definition": "kan, yan, to bent, intr. wither.",
+      "hindi_definition": "झुकना, मुरझाना (अकर्मक)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Launā",
+      "kurukh_word_ascii": "Launa",
+      "english_definition": "ckan, c'an, to beat, thrash.",
+      "hindi_definition": "पीटना, पीटना (मारना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Launā",
+      "kurukh_word_ascii": "Launa",
+      "english_definition": "ckan, c'an to win, conquer, overcome, akkun gā lauckat, now we won it, finished a difficult task.",
+      "hindi_definition": "जीतना, विजय पाना, काबू पाना; akkun gā lauckat = अब हम जीत गए हैं/हमने एक कठिन कार्य पूरा कर लिया है।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": "2nd homograph of Launā — win vs. beat; Example: akkun gā lauckat = now we won it, finished a difficult task"
+    },
+    {
+      "kurukh_word": "Laurjhaur",
+      "kurukh_word_ascii": "Laurjhaur",
+      "english_definition": "thicket.",
+      "hindi_definition": "झाड़ी, सघन झाड़ी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lau laraṅg",
+      "kurukh_word_ascii": "Lau larang",
+      "english_definition": "a creeper.",
+      "hindi_definition": "एक लता (बेल)।",
+      "part_of_speech": "noun",
+      "notes": "Already mentioned on p. 111"
+    },
+    {
+      "kurukh_word": "Lauṭō",
+      "kurukh_word_ascii": "Lauto",
+      "english_definition": "chin.",
+      "hindi_definition": "ठुड्डी (चिबुक)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lauwā",
+      "kurukh_word_ascii": "Lauwa",
+      "english_definition": "spunge, swelled up through being heated, as maize corns (popcorn).",
+      "hindi_definition": "स्पंज जैसा, गर्म होने से फूला हुआ (जैसे मक्के का लावा/खील)।",
+      "part_of_speech": "noun",
+      "notes": "Variant: Lauwaṭ"
+    },
+    {
+      "kurukh_word": "Lauwaṭ",
+      "kurukh_word_ascii": "Lauwat",
+      "english_definition": "swelled up through being heated, as maize corns.",
+      "hindi_definition": "लावा (मक्के का लावा)।",
+      "part_of_speech": "noun",
+      "notes": "Variant of Lauwā"
+    },
+    {
+      "kurukh_word": "Lay !",
+      "kurukh_word_ascii": "Lay !",
+      "english_definition": "Go on !",
+      "hindi_definition": "चलो! / आगे बढ़ो!",
+      "part_of_speech": "interjection",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laysi !",
+      "kurukh_word_ascii": "Laysi !",
+      "english_definition": "Go on then !",
+      "hindi_definition": "तो फिर चलो! / आगे बढ़ो!",
+      "part_of_speech": "interjection",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Layā koyā mannā",
+      "kurukh_word_ascii": "Laya koya manna",
+      "english_definition": "to stagger, stumble.",
+      "hindi_definition": "लड़खड़ाना, ठोकर खाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lē",
+      "kurukh_word_ascii": "Le",
+      "english_definition": "diminutive particle, used by brothers-in-law among themselves, its meaning similar to brother, ānā lē, speak brother.",
+      "hindi_definition": "एक संबोधक अव्यय, जिसका प्रयोग साले-बहनोई आपस में करते हैं, इसका अर्थ 'भाई' के समान है; ānā lē = बोलो भाई।",
+      "part_of_speech": "particle",
+      "notes": "Example: ānā lē = speak brother"
+    },
+    {
+      "kurukh_word": "Lē",
+      "kurukh_word_ascii": "Le",
+      "english_definition": "adv., e.g., kohālē, similar to kohālekhā, greatly.",
+      "hindi_definition": "क्रियाविशेषण (प्रत्यय के रूप में); जैसे kohālē = बहुत अधिक/महान रूप से (kohālekhā के समान)।",
+      "part_of_speech": "adverb",
+      "notes": "2nd homograph/use of Lē; Example: kohālē = greatly (similar to kohālekhā)"
+    },
+    {
+      "kurukh_word": "Lebdā",
+      "kurukh_word_ascii": "Lebda",
+      "english_definition": "a thrower, a throwing stick.",
+      "hindi_definition": "फेंकने वाला, ढेला फेंकने की लाठी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lebda'anā",
+      "kurukh_word_ascii": "Lebda'ana",
+      "english_definition": "ckan, c'an, to throw.",
+      "hindi_definition": "फेंकना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lebhrnā",
+      "kurukh_word_ascii": "Lebhrna",
+      "english_definition": "libhrkan, yan, to throw away.",
+      "hindi_definition": "फेंक देना (फेंकना)।",
+      "part_of_speech": "verb",
+      "verb_class": "libhrkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leo'ē leo'ē",
+      "kurukh_word_ascii": "Leo'e leo'e",
+      "english_definition": "irony.",
+      "hindi_definition": "व्यंग्य, ताना।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leo'ē leo'ē ba'anā",
+      "kurukh_word_ascii": "Leo'e leo'e ba'ana",
+      "english_definition": "to speak ironically.",
+      "hindi_definition": "व्यंग्य में बोलना, ताना मारना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ledā arkhnā",
+      "kurukh_word_ascii": "Leda arkhna",
+      "english_definition": "to throw up an embankment.",
+      "hindi_definition": "मेड़ (बाँध) बनाना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Variant of Ledā khosnā"
+    },
+    {
+      "kurukh_word": "Ledā khosnā",
+      "kurukh_word_ascii": "Leda khosna",
+      "english_definition": "to throw up an embankment.",
+      "hindi_definition": "मेड़ (बाँध) बनाना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Variant of Ledā arkhnā"
+    },
+    {
+      "kurukh_word": "Ledekhrnā",
+      "kurukh_word_ascii": "Ledekhrna",
+      "english_definition": "kan, an, to be squashed, as a ripe fruit when it falls.",
+      "hindi_definition": "पिचकना/दबना, जैसे गिरते समय पका हुआ फल पिचक जाता है।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ledrā",
+      "kurukh_word_ascii": "Ledra",
+      "english_definition": "rags.",
+      "hindi_definition": "फटे-पुराने कपड़े, चीथड़े (लेदरा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ledem ledemrnā",
+      "kurukh_word_ascii": "Ledem ledemrna",
+      "english_definition": "kan, an, to be soft.",
+      "hindi_definition": "मुलायम होना, कोमल होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ledledrnā",
+      "kurukh_word_ascii": "Ledledrna",
+      "english_definition": "kan, an, to wear ragged clothes.",
+      "hindi_definition": "फटे-चिथड़े कपड़े पहनना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Led ledrā okknā",
+      "kurukh_word_ascii": "Led ledra okkna",
+      "english_definition": "to sit with ease, to squat down carelessly.",
+      "hindi_definition": "आराम से बैठना, लापरवाही से पालथी मारकर बैठ जाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lednā",
+      "kurukh_word_ascii": "Ledna",
+      "english_definition": "kan, yan, to squirt as the waves of the sea at a rocky shore.",
+      "hindi_definition": "टकरा कर पानी छिड़कना (जैसे चट्टानी तट पर समुद्र की लहरें छिड़कती हैं)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leḍrnā",
+      "kurukh_word_ascii": "Ledrna",
+      "english_definition": "kan, an, to become dirty from treading on the excrement of a dog, etc.",
+      "hindi_definition": "कुत्ते के मल आदि पर पैर पड़ने से गंदा होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ledhā",
+      "kurukh_word_ascii": "Ledha",
+      "english_definition": "a person with weak or crooked feet or back.",
+      "hindi_definition": "लंगड़ा या टेढ़े पैर या टेढ़ी पीठ वाला व्यक्ति।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lejhā",
+      "kurukh_word_ascii": "Lejha",
+      "english_definition": "fishing hook, angle.",
+      "hindi_definition": "मछली पकड़ने का काँटा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lejhā bēcnā",
+      "kurukh_word_ascii": "Lejha becna",
+      "english_definition": "to move about the angle in the water.",
+      "hindi_definition": "पानी में मछली पकड़ने के काँटे को हिलाना-डुलाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lekē",
+      "kurukh_word_ascii": "Leke",
+      "english_definition": "prep. H. by means of, through.",
+      "hindi_definition": "के द्वारा, के माध्यम से (लेकर)।",
+      "part_of_speech": "preposition",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lekh'ā",
+      "kurukh_word_ascii": "Lekh'a",
+      "english_definition": "adj. like, similar.",
+      "hindi_definition": "समान, जैसा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0161.jpg",
+  "page_label": "157",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Runiā drā",
+      "kurukh_word_ascii": "Runia dra",
+      "english_definition": "a kind of small black bird",
+      "hindi_definition": "एक प्रकार की छोटी काली चिड़िया",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rukrukrnā",
+      "kurukh_word_ascii": "Rukrukrna",
+      "english_definition": "to faint, to feel exhausted, to be weak",
+      "hindi_definition": "मूर्छित होना, थकान महसूस करना, कमजोर होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rūsī mannā",
+      "kurukh_word_ascii": "Rusi manna",
+      "english_definition": "to be angry, displeased",
+      "hindi_definition": "नाराज होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rūsī nannā",
+      "kurukh_word_ascii": "Rusi nanna",
+      "english_definition": "to annoy, displease",
+      "hindi_definition": "नाराज करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rūwē rūwē",
+      "kurukh_word_ascii": "Ruwe ruwe",
+      "english_definition": "same as bū'ē, bū'ē! the sound by which pigs are called",
+      "hindi_definition": "सूअरों को बुलाने की आवाज",
+      "part_of_speech": "interj"
+    },
+    {
+      "kurukh_word": "S",
+      "kurukh_word_ascii": "S",
+      "english_definition": "S (letter section heading)",
+      "hindi_definition": "स वर्ण अनुभाग",
+      "part_of_speech": "letter"
+    },
+    {
+      "kurukh_word": "Sāb's",
+      "kurukh_word_ascii": "Sab's",
+      "english_definition": "watery, having no good taste, as of fruit",
+      "hindi_definition": "पानीदार, बेस्वाद (जैसे फल)",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sābāī-ghāsī",
+      "kurukh_word_ascii": "Sabai-ghasi",
+      "english_definition": "a kind of grass similar to that used for thatching",
+      "hindi_definition": "छप्पर वाली घास जैसी एक घास",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sābnit",
+      "kurukh_word_ascii": "Sabnit",
+      "english_definition": "always",
+      "hindi_definition": "हमेशा",
+      "part_of_speech": "adv",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sābjārnā",
+      "kurukh_word_ascii": "Sabjarna",
+      "english_definition": "to become moist from underground water",
+      "hindi_definition": "भूमिगत जल से गीला होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Sācham",
+      "kurukh_word_ascii": "Sacham",
+      "english_definition": "same as chāchem, silent",
+      "hindi_definition": "chāchem के समान, चुप",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sādārnum",
+      "kurukh_word_ascii": "Sadarnum",
+      "english_definition": "openly",
+      "hindi_definition": "खुलकर, सरेआम",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sādāu",
+      "kurukh_word_ascii": "Sadau",
+      "english_definition": "always, perpetual",
+      "hindi_definition": "हमेशा, स्थायी",
+      "part_of_speech": "adv",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sādhnā",
+      "kurukh_word_ascii": "Sadhna",
+      "english_definition": "to persecute, trouble",
+      "hindi_definition": "सताना, तकलीफ देना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sāddnā",
+      "kurukh_word_ascii": "Saddna",
+      "english_definition": "to sound as a bell",
+      "hindi_definition": "घंटी की तरह बजना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Sādur nā bādur",
+      "kurukh_word_ascii": "Sadur na badur",
+      "english_definition": "topsy turvy, irregular",
+      "hindi_definition": "उल्टा-पुल्टा, अनियमित",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sāgāī",
+      "kurukh_word_ascii": "Sagai",
+      "english_definition": "a second wife taken after the death or separation of the first wife",
+      "hindi_definition": "दूसरी पत्नी (पहली की मृत्यु या अलगाव के बाद)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāgāī mannā",
+      "kurukh_word_ascii": "Sagai manna",
+      "english_definition": "to become a second wife",
+      "hindi_definition": "दूसरी पत्नी बनना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāgāī nannā",
+      "kurukh_word_ascii": "Sagai nanna",
+      "english_definition": "to take a second wife",
+      "hindi_definition": "दूसरी पत्नी करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāgār",
+      "kurukh_word_ascii": "Sagar",
+      "english_definition": "a small bullock-cart",
+      "hindi_definition": "एक छोटी बैलगाड़ी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāgār ghārī",
+      "kurukh_word_ascii": "Sagar ghari",
+      "english_definition": "all times, constantly",
+      "hindi_definition": "हर समय, लगातार",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sāgār khānē",
+      "kurukh_word_ascii": "Sagar khane",
+      "english_definition": "always, repeatedly",
+      "hindi_definition": "हमेशा, बार-बार",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sāgrī",
+      "kurukh_word_ascii": "Sagri",
+      "english_definition": "all, whole",
+      "hindi_definition": "सब, पूरा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sāgrī nannā",
+      "kurukh_word_ascii": "Sagri nanna",
+      "english_definition": "to find out a hidden treasure or stolen/lost property through the application of spells",
+      "hindi_definition": "जादू-टोने से छुपी संपत्ति खोजना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāgrā",
+      "kurukh_word_ascii": "Sagra",
+      "english_definition": "all round",
+      "hindi_definition": "चारों तरफ",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sāhē",
+      "kurukh_word_ascii": "Sahe",
+      "english_definition": "time, season, turn",
+      "hindi_definition": "समय, मौसम, बारी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāhrā nannā",
+      "kurukh_word_ascii": "Sahra nanna",
+      "english_definition": "to help, assist",
+      "hindi_definition": "मदद करना, सहायता करना",
+      "part_of_speech": "phrase",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sāibā nannā",
+      "kurukh_word_ascii": "Saiba nanna",
+      "english_definition": "to befriend, make friendship",
+      "hindi_definition": "दोस्ती करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāint / Sāint nī",
+      "kurukh_word_ascii": "Saint / Saint ni",
+      "english_definition": "occasion, occasionally",
+      "hindi_definition": "अवसर, कभी-कभी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sāiantā'ānā",
+      "kurukh_word_ascii": "Saianta'ana",
+      "english_definition": "to find through luck",
+      "hindi_definition": "किस्मत से मिलना",
+      "part_of_speech": "verb",
+      "verb_class": "okan-c'an"
+    },
+    {
+      "kurukh_word": "Sāitin",
+      "kurukh_word_ascii": "Saitin",
+      "english_definition": "stepmother",
+      "hindi_definition": "सौतेली माँ",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    }
+  ]
+}

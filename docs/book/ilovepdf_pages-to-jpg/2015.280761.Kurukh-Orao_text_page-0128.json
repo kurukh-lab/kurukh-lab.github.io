@@ -1,0 +1,274 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0128.jpg",
+  "page_label": "124",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Minkhnā",
+      "kurukh_word_ascii": "Minkhna",
+      "english_definition": "kan, yan, to close the eyes. Khan minkhnā, to shut the eyes; said also of the closing of flowers, pūmp minkhyā, the flower closed itself.",
+      "hindi_definition": "आँखें बंद करना; khan minkhnā = आँखें मूँदना; फूलों के बंद होने के लिए भी प्रयुक्त होता है, जैसे pūmp minkhyā = फूल अपने आप बंद हो गया।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "Example: khan minkhnā = to shut the eyes; pūmp minkhyā = the flower closed itself"
+    },
+    {
+      "kurukh_word": "Mitkī",
+      "kurukh_word_ascii": "Mitki",
+      "english_definition": "a twinkling of the eye.",
+      "hindi_definition": "पलक झपकना, आँख की झपकी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mitkēdanā",
+      "kurukh_word_ascii": "Mitkedana",
+      "english_definition": "ckan, o'an, to wink with the eyes.",
+      "hindi_definition": "आँख मारना (इशारा करना)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mītlē",
+      "kurukh_word_ascii": "Mitle",
+      "english_definition": "from above.",
+      "hindi_definition": "ऊपर से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mittā",
+      "kurukh_word_ascii": "Mitta",
+      "english_definition": "namesake.",
+      "hindi_definition": "हमनाम (एक ही नाम वाला व्यक्ति)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōovā",
+      "kurukh_word_ascii": "Moova",
+      "english_definition": "lips, mouth, snout.",
+      "hindi_definition": "थूथन, मुँह, होंठ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōchī",
+      "kurukh_word_ascii": "Mochi",
+      "english_definition": "mustache.",
+      "hindi_definition": "मूंछ (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mocnā",
+      "kurukh_word_ascii": "Mocna",
+      "english_definition": "ckan, c'an, to cut, saw; split.",
+      "hindi_definition": "काटना, आरी से काटना, चीरना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mocrnā",
+      "kurukh_word_ascii": "Mocrna",
+      "english_definition": "kan, an, to be cut, to split.",
+      "hindi_definition": "कटना, चीरा जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōdhrnā",
+      "kurukh_word_ascii": "Modhrna",
+      "english_definition": "kan, an, to forget.",
+      "hindi_definition": "भूलना (भूल जाना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōonā",
+      "kurukh_word_ascii": "Moona",
+      "english_definition": "kan, yan, to wring out.",
+      "hindi_definition": "निचोड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōōnā",
+      "kurukh_word_ascii": "Moona",
+      "english_definition": "ckan, o'an, to wring the water out of cloth or strain it out of rice to be cooked.",
+      "hindi_definition": "कपड़े से पानी निचोड़ना या पके हुए चावल से मार (मांड) छानना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": "2nd homograph of Mōonā/Mōōnā"
+    },
+    {
+      "kurukh_word": "Mōōrārnā",
+      "kurukh_word_ascii": "Moorarna",
+      "english_definition": "ckan, o'an, to be dried, emptied of moisture.",
+      "hindi_definition": "सूखना, नमी से रहित होना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōghrnā",
+      "kurukh_word_ascii": "Moghrna",
+      "english_definition": "kan, an, to be engaged, absorbed.",
+      "hindi_definition": "लीन होना, व्यस्त होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōjkhā",
+      "kurukh_word_ascii": "Mojkha",
+      "english_definition": "smoke.",
+      "hindi_definition": "धुआँ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōjkhrnā",
+      "kurukh_word_ascii": "Mojkhrna",
+      "english_definition": "kan, an, to fumigate, smoke.",
+      "hindi_definition": "धुआँ देना, धूनी लगाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōjrā mannā",
+      "kurukh_word_ascii": "Mojra manna",
+      "english_definition": "to accost, salute.",
+      "hindi_definition": "अभिवादन करना, जोहार करना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Variant: moñjrā mannā"
+    },
+    {
+      "kurukh_word": "Mōjar cī'inā",
+      "kurukh_word_ascii": "Mojar ci'ina",
+      "english_definition": "to clear an account, to pay off a debt.",
+      "hindi_definition": "हिसाब चुकता करना, कर्ज चुकाना।",
+      "part_of_speech": "verb phrase",
+      "loanword_from": "ur",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōkharō",
+      "kurukh_word_ascii": "Mokharo",
+      "english_definition": "adj. black.",
+      "hindi_definition": "विशेषण। काला।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōkhars",
+      "kurukh_word_ascii": "Mokhars",
+      "english_definition": "the black of smoke; also charcoal.",
+      "hindi_definition": "काजल (कालिख), कोयला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōkh ērnā",
+      "kurukh_word_ascii": "Mokh erna",
+      "english_definition": "to taste (also mokkh ērnā).",
+      "hindi_definition": "चखना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōkhnā",
+      "kurukh_word_ascii": "Mokhna",
+      "english_definition": "mokkan, an, to eat.",
+      "hindi_definition": "खाना (भोजन करना)।",
+      "part_of_speech": "verb",
+      "verb_class": "mokkan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōkhōtā",
+      "kurukh_word_ascii": "Mokhota",
+      "english_definition": "the lips.",
+      "hindi_definition": "होंठ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōlabā'anā",
+      "kurukh_word_ascii": "Molaba'ana",
+      "english_definition": "ckan, o'an, to sell by auction, raffle.",
+      "hindi_definition": "नीलाम करना, लॉटरी द्वारा बेचना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōmra'anā",
+      "kurukh_word_ascii": "Momra'ana",
+      "english_definition": "ckan, o'an, to twist, to twist in order to break.",
+      "hindi_definition": "मरोड़ना, तोड़ने के लिए मरोड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Moñjrā mannā",
+      "kurukh_word_ascii": "Monjra manna",
+      "english_definition": "to greet, to be ready to obey orders.",
+      "hindi_definition": "अभिवादन करना, आज्ञा मानने के लिए तैयार रहना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōṭ",
+      "kurukh_word_ascii": "Mot",
+      "english_definition": "fat.",
+      "hindi_definition": "मोटा (हिंदी से लिया गया)।",
+      "part_of_speech": "adjective",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōṭarnā",
+      "kurukh_word_ascii": "Motrna",
+      "english_definition": "to become stout.",
+      "hindi_definition": "मोटा होना।",
+      "part_of_speech": "verb",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōrā",
+      "kurukh_word_ascii": "Mora",
+      "english_definition": "basket made of straw for storing away rice.",
+      "hindi_definition": "मोरा (पुआल का टोकरा जिसमें धान रखा जाता है)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōrā biṅkō",
+      "kurukh_word_ascii": "Mora binko",
+      "english_definition": "the Pleiades.",
+      "hindi_definition": "कृत्तिका नक्षत्र (सप्तर्षि के पास तारों का गुच्छा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōsgā",
+      "kurukh_word_ascii": "Mosga",
+      "english_definition": "smoke (variant of Mōjkhā).",
+      "hindi_definition": "धुआँ (Mōjkhā का रूप)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    }
+  ]
+}

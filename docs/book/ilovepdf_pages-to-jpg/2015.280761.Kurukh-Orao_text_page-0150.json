@@ -1,0 +1,215 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0150.jpg",
+  "page_label": "146",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pār ōāōā",
+      "kurukh_word_ascii": "Par oaoa",
+      "english_definition": "stone for grinding spices",
+      "hindi_definition": "मसाले पीसने की चट्टान",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pār",
+      "kurukh_word_ascii": "Par",
+      "english_definition": "time",
+      "hindi_definition": "समय, बार",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārmūnd",
+      "kurukh_word_ascii": "Parmund",
+      "english_definition": "three times, thrice",
+      "hindi_definition": "तीन बार",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Pārend",
+      "kurukh_word_ascii": "Parend",
+      "english_definition": "two times, twice",
+      "hindi_definition": "दो बार",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Pārb",
+      "kurukh_word_ascii": "Parb",
+      "english_definition": "festival",
+      "hindi_definition": "त्योहार, पर्व",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pārb bāsī ullā",
+      "kurukh_word_ascii": "Parb basi ulla",
+      "english_definition": "the day after a festival ('blue Monday'); including Karmm parb, sarhil or khaddi parb",
+      "hindi_definition": "त्योहार के अगले दिन; करम पर्व, खड्डी पर्व सहित",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pārchā'ānā",
+      "kurukh_word_ascii": "Parcha'ana",
+      "english_definition": "to meet",
+      "hindi_definition": "मिलना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pārdhiā-ghāsī",
+      "kurukh_word_ascii": "Pardhia-ghasi",
+      "english_definition": "a kind of long grass",
+      "hindi_definition": "एक प्रकार की लंबी घास",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārdnā",
+      "kurukh_word_ascii": "Pardna",
+      "english_definition": "to grow",
+      "hindi_definition": "बढ़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pārdnā usgnā",
+      "kurukh_word_ascii": "Pardna usgna",
+      "english_definition": "to spring up, flourish",
+      "hindi_definition": "उगना, फलना-फूलना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāreā",
+      "kurukh_word_ascii": "Parea",
+      "english_definition": "fugitive",
+      "hindi_definition": "भगोड़ा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārgāndā",
+      "kurukh_word_ascii": "Parganda",
+      "english_definition": "the tip of a garment",
+      "hindi_definition": "कपड़े का किनारा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārgnā",
+      "kurukh_word_ascii": "Pargna",
+      "english_definition": "to slander, to speak evil of another",
+      "hindi_definition": "बदनाम करना, किसी की बुराई करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pārg menn",
+      "kurukh_word_ascii": "Parg menn",
+      "english_definition": "to listen to slandering",
+      "hindi_definition": "बदनामी सुनना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pārhī",
+      "kurukh_word_ascii": "Parhi",
+      "english_definition": "district, country; generally a complex of 12 to 24 villages",
+      "hindi_definition": "जिला, इलाका; आमतौर पर 12-24 गाँवों का समूह",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārhā bēlās",
+      "kurukh_word_ascii": "Parha belas",
+      "english_definition": "the chief of a parhā, a count",
+      "hindi_definition": "पड़हा का मुखिया",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārhā-pāik",
+      "kurukh_word_ascii": "Parha-paik",
+      "english_definition": "the constable of a country",
+      "hindi_definition": "इलाके का कोतवाल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārhā'ē khōjnā",
+      "kurukh_word_ascii": "Parha'e khojhna",
+      "english_definition": "to entertain the representative men of the parhā at dinner",
+      "hindi_definition": "पड़हा के प्रतिनिधियों को भोजन कराना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pārhnā",
+      "kurukh_word_ascii": "Parhna",
+      "english_definition": "to read",
+      "hindi_definition": "पढ़ना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pārhabā'ānā",
+      "kurukh_word_ascii": "Parhaba'ana",
+      "english_definition": "to teach to read",
+      "hindi_definition": "पढ़ना सिखाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Pārī",
+      "kurukh_word_ascii": "Pari",
+      "english_definition": "see pālī, turn",
+      "hindi_definition": "पालī देखें, बारी",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pāriyā",
+      "kurukh_word_ascii": "Pariya",
+      "english_definition": "time, especially past time, in the past",
+      "hindi_definition": "समय, विशेषकर बीता हुआ समय",
+      "part_of_speech": "noun",
+      "example_phrase": "ī erpa enghat pariya baned — this house was built at my time, i.e., when I was living there"
+    },
+    {
+      "kurukh_word": "Pērkālā",
+      "kurukh_word_ascii": "Perkala",
+      "english_definition": "mirror",
+      "hindi_definition": "दर्पण",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pārkhnā",
+      "kurukh_word_ascii": "Parkhna",
+      "english_definition": "to split, cleave, rend",
+      "hindi_definition": "चीरना, फाड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pārkhānjā",
+      "kurukh_word_ascii": "Parkhanja",
+      "english_definition": "cucumber",
+      "hindi_definition": "खीरा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārmnē",
+      "kurukh_word_ascii": "Parmne",
+      "english_definition": "to bite, also to grind dal",
+      "hindi_definition": "काटना; दाल पीसना भी",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pārnā",
+      "kurukh_word_ascii": "Parna",
+      "english_definition": "the day after the Karmm-festival",
+      "hindi_definition": "करम-उत्सव के अगले दिन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pārnā ullā",
+      "kurukh_word_ascii": "Parna ulla",
+      "english_definition": "same as pārnā (day after Karmm-festival)",
+      "hindi_definition": "वही (करम-उत्सव के बाद का दिन)",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

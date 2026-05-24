@@ -1,0 +1,261 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0093.jpg",
+  "page_label": "89",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kiyā",
+      "kurukh_word_ascii": "Kiya",
+      "english_definition": "small wooden box for keeping red lead.",
+      "hindi_definition": "सिंदूर रखने का छोटा लकड़ी का डिब्बा।",
+      "part_of_speech": "noun",
+      "homograph_index": 2,
+      "notes": "Second sense of Kiyā (first was preposition)."
+    },
+    {
+      "kurukh_word": "Kiyyāri",
+      "kurukh_word_ascii": "Kiyyari",
+      "english_definition": "H. garden or field bed.",
+      "hindi_definition": "क्यारी, बगीचे या खेत की क्यारी।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kō",
+      "kurukh_word_ascii": "Ko",
+      "english_definition": "masc. ko'e, fem. vocative and interjectional affix; e.g. barā kō, come! Bar' ko'e, come! Barcki ko'e? Did you come?",
+      "hindi_definition": "पुल्लिंग: ko'e, स्त्रीलिंग; संबोधन और विस्मयादिबोधक प्रत्यय।",
+      "part_of_speech": "particle",
+      "notes": "Example phrases given in original text."
+    },
+    {
+      "kurukh_word": "Kōcā",
+      "kurukh_word_ascii": "Koca",
+      "english_definition": "piece, parcel, corner.",
+      "hindi_definition": "टुकड़ा, कोना।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kochā",
+      "kurukh_word_ascii": "Kocha",
+      "english_definition": "the gathered ends of the female dress, formed into a pocket.",
+      "hindi_definition": "महिला की साड़ी का इकट्ठा किया हुआ सिरा जो जेब बनाता है।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kochā nannā",
+      "kurukh_word_ascii": "Kocha nanna",
+      "english_definition": "to take away in the gathered up ends of the dress, to pocket.",
+      "hindi_definition": "साड़ी के कोच में रखना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kochambā",
+      "kurukh_word_ascii": "Kochamba",
+      "english_definition": "a small eating vessel made of leaves.",
+      "hindi_definition": "पत्तों से बना छोटा खाने का बर्तन।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kocro",
+      "kurukh_word_ascii": "Kocro",
+      "english_definition": "adj. narrow.",
+      "hindi_definition": "संकरा, तंग।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Koday",
+      "kurukh_word_ascii": "Koday",
+      "english_definition": "name of plant H. maruwā.",
+      "hindi_definition": "मड़ुआ, रागी का पौधा।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": "H. maruwā = Eleusine coracana (finger millet)."
+    },
+    {
+      "kurukh_word": "Kōḍhē",
+      "kurukh_word_ascii": "Kodhe",
+      "english_definition": "or korhē, adv. too much, excessively.",
+      "hindi_definition": "बहुत ज़्यादा, अत्यधिक।",
+      "part_of_speech": "adverb",
+      "notes": "Also spelled korhē."
+    },
+    {
+      "kurukh_word": "Kodnā",
+      "kurukh_word_ascii": "Kodna",
+      "english_definition": "kan, an or kōrnā, to dig around.",
+      "hindi_definition": "चारों ओर खोदना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Also spelled kōrnā."
+    },
+    {
+      "kurukh_word": "Kodwā",
+      "kurukh_word_ascii": "Kodwa",
+      "english_definition": "H. chicken-pox.",
+      "hindi_definition": "चेचक।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kodō māk",
+      "kurukh_word_ascii": "Kodo mak",
+      "english_definition": "the red antelope.",
+      "hindi_definition": "लाल मृग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōghā",
+      "kurukh_word_ascii": "Kogha",
+      "english_definition": "great one, elder relatives.",
+      "hindi_definition": "बड़े, वरिष्ठ रिश्तेदार।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Koghar",
+      "kurukh_word_ascii": "Koghar",
+      "english_definition": "elders.",
+      "hindi_definition": "बड़े-बुज़ुर्ग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōgō",
+      "kurukh_word_ascii": "Kogo",
+      "english_definition": "kernel.",
+      "hindi_definition": "गिरी, बीज का अंदरूनी भाग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōhā",
+      "kurukh_word_ascii": "Koha",
+      "english_definition": "adj. great, large.",
+      "hindi_definition": "बड़ा, महान।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōhālē",
+      "kurukh_word_ascii": "Kohale",
+      "english_definition": "adv. pretty largely.",
+      "hindi_definition": "काफी बड़े रूप में।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōhallā",
+      "kurukh_word_ascii": "Kohalla",
+      "english_definition": "the greyhound.",
+      "hindi_definition": "शिकारी कुत्ता, ग्रेहाउंड।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōhas",
+      "kurukh_word_ascii": "Kohas",
+      "english_definition": "the great one, masc.",
+      "hindi_definition": "बड़ा (पुल्लिंग)।",
+      "part_of_speech": "noun",
+      "notes": "Masculine form."
+    },
+    {
+      "kurukh_word": "Kōhad",
+      "kurukh_word_ascii": "Kohad",
+      "english_definition": "the great one, fem.",
+      "hindi_definition": "बड़ी (स्त्रीलिंग)।",
+      "part_of_speech": "noun",
+      "notes": "Feminine form."
+    },
+    {
+      "kurukh_word": "Kōhar",
+      "kurukh_word_ascii": "Kohar",
+      "english_definition": "elders.",
+      "hindi_definition": "बड़े-बुज़ुर्ग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōhā onnā mōkhnā",
+      "kurukh_word_ascii": "Koha onna mokhna",
+      "english_definition": "a big meal or rich meal.",
+      "hindi_definition": "बड़ा या पुष्टिकर भोजन।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōhā bai nannā",
+      "kurukh_word_ascii": "Koha bai nanna",
+      "english_definition": "to assume an haughty air.",
+      "hindi_definition": "घमंड करना, रुआब दिखाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōhā akhnā",
+      "kurukh_word_ascii": "Koha akhna",
+      "english_definition": "or uinā, to respect, regard, honour.",
+      "hindi_definition": "सम्मान करना, आदर करना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Also uinā."
+    },
+    {
+      "kurukh_word": "Kōhā khādī",
+      "kurukh_word_ascii": "Koha khadi",
+      "english_definition": "syphilis.",
+      "hindi_definition": "उपदंश, सिफ़लिस।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōhā nārī",
+      "kurukh_word_ascii": "Koha nari",
+      "english_definition": "remittent fever.",
+      "hindi_definition": "बार-बार आने वाला बुखार।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōhrā",
+      "kurukh_word_ascii": "Kohra",
+      "english_definition": "or kohaṇḍā, pumpkin.",
+      "hindi_definition": "कद्दू।",
+      "part_of_speech": "noun",
+      "notes": "Also kohaṇḍā."
+    },
+    {
+      "kurukh_word": "Kohī",
+      "kurukh_word_ascii": "Kohi",
+      "english_definition": "or Kōhī ōlī, the liver.",
+      "hindi_definition": "जिगर, यकृत।",
+      "part_of_speech": "noun",
+      "notes": "Also Kōhī ōlī."
+    },
+    {
+      "kurukh_word": "Kōkā",
+      "kurukh_word_ascii": "Koka",
+      "english_definition": "an idiot.",
+      "hindi_definition": "मूर्ख।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōkā",
+      "kurukh_word_ascii": "Koka",
+      "english_definition": "adj. palsied, paralytic.",
+      "hindi_definition": "लकवे से ग्रस्त।",
+      "part_of_speech": "adjective",
+      "homograph_index": 2,
+      "notes": "Second sense of Kōkā."
+    }
+  ]
+}

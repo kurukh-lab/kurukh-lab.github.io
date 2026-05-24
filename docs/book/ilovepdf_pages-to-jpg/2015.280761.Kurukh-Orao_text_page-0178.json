@@ -1,0 +1,262 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0178.jpg",
+  "page_label": "174",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Thayāmalkā",
+      "kurukh_word_ascii": "Thayamalka",
+      "english_definition": "unreliable, groundless",
+      "hindi_definition": "अविश्वसनीय, निराधार",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Theokā'anā",
+      "kurukh_word_ascii": "Theoka'ana",
+      "english_definition": "to put to grief, to throw obstacles in the way",
+      "hindi_definition": "दुख देना, मार्ग में बाधा डालना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Theckārnā",
+      "kurukh_word_ascii": "Theckarna",
+      "english_definition": "to come to grief, to be surrounded by obstacles",
+      "hindi_definition": "संकट में पड़ना, बाधाओं से घिरना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Thekā",
+      "kurukh_word_ascii": "Theka",
+      "english_definition": "vessel",
+      "hindi_definition": "बर्तन, पात्र",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Thelthelamba'anā",
+      "kurukh_word_ascii": "Thelthelamba'ana",
+      "english_definition": "to soak much, to wet much",
+      "hindi_definition": "अत्यधिक भिगोना, गीला करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Thethkā'anā",
+      "kurukh_word_ascii": "Thethka'ana",
+      "english_definition": "to put to grief (same as theoka'ana)",
+      "hindi_definition": "दुख देना, बाधा डालना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Thethlārnā",
+      "kurukh_word_ascii": "Thethlarna",
+      "english_definition": "to be soaked",
+      "hindi_definition": "पूरी तरह से भीग जाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Thirārnā",
+      "kurukh_word_ascii": "Thirarna",
+      "english_definition": "to be composed, firm",
+      "hindi_definition": "स्थिर होना, दृढ़ होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Thithāba'anā",
+      "kurukh_word_ascii": "Thithaba'ana",
+      "english_definition": "to stare, look staringly",
+      "hindi_definition": "टकटकी लगाकर देखना, घूरना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Thithāba'ar ērnā",
+      "kurukh_word_ascii": "Thithaba'ar erna",
+      "english_definition": "to stare (same as above)",
+      "hindi_definition": "घूरकर देखना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Thirābā'anā",
+      "kurukh_word_ascii": "Thiraba'ana",
+      "english_definition": "to confirm, consolidate",
+      "hindi_definition": "पुष्ट करना, मजबूत करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Thōk",
+      "kurukh_word_ascii": "Thok",
+      "english_definition": "company, crowd",
+      "hindi_definition": "भीड़, समूह",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Thōkē mannā",
+      "kurukh_word_ascii": "Thoke manna",
+      "english_definition": "to gather, crowd",
+      "hindi_definition": "इकट्ठा होना, भीड़ लगाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Thōpnā",
+      "kurukh_word_ascii": "Thopna",
+      "english_definition": "to deliver, make over",
+      "hindi_definition": "सौंपना, थोपना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Thōrbōrānā",
+      "kurukh_word_ascii": "Thorborana",
+      "english_definition": "to push on, to urge onward",
+      "hindi_definition": "आगे धकेलना, प्रेरित करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Thōrēkān",
+      "kurukh_word_ascii": "Thorekan",
+      "english_definition": "a little",
+      "hindi_definition": "थोड़ा सा",
+      "part_of_speech": "adv",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Thōrēkunā",
+      "kurukh_word_ascii": "Thorekuna",
+      "english_definition": "a little",
+      "hindi_definition": "थोड़ा सा",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Thōthnā",
+      "kurukh_word_ascii": "Thothna",
+      "english_definition": "to tip, touch",
+      "hindi_definition": "स्पर्श करना, छूना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Thōthā",
+      "kurukh_word_ascii": "Thotha",
+      "english_definition": "naked",
+      "hindi_definition": "नग्न, नंगा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Thōthrē",
+      "kurukh_word_ascii": "Thothre",
+      "english_definition": "snout",
+      "hindi_definition": "थूथन (पशु का मुंह)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Thōthrā'anā",
+      "kurukh_word_ascii": "Thothra'ana",
+      "english_definition": "to stammer",
+      "hindi_definition": "हकलाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Thōthrē",
+      "kurukh_word_ascii": "Thothre",
+      "english_definition": "stammering",
+      "hindi_definition": "हकलाने वाला",
+      "part_of_speech": "adj",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Thī, thīī!",
+      "kurukh_word_ascii": "Thi, thii!",
+      "english_definition": "fie, fie!",
+      "hindi_definition": "छी-छी!",
+      "part_of_speech": "interj",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Thuī-thuīr'ā mōk̲h̲ā",
+      "kurukh_word_ascii": "Thui-thuoir'a mokha",
+      "english_definition": "white smoke",
+      "hindi_definition": "सफेद धुआं",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Thuṅkī",
+      "kurukh_word_ascii": "Thunki",
+      "english_definition": "a small basket",
+      "hindi_definition": "छोटी टोकरी, मौनी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Thuthkē'anā",
+      "kurukh_word_ascii": "Thuthke'ana",
+      "english_definition": "to touch",
+      "hindi_definition": "छूना, स्पर्श करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Thuthkārnā",
+      "kurukh_word_ascii": "Thuthkarna",
+      "english_definition": "to be touched",
+      "hindi_definition": "छुआ जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Thūrnā",
+      "kurukh_word_ascii": "Thurna",
+      "english_definition": "to poke",
+      "hindi_definition": "कुरेदना, कोंचना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ṭ",
+      "kurukh_word_ascii": "T",
+      "english_definition": "letter section heading",
+      "hindi_definition": "ट वर्ण अनुभाग",
+      "part_of_speech": "letter"
+    },
+    {
+      "kurukh_word": "Ṭabhkē'anā",
+      "kurukh_word_ascii": "Tabhke'ana",
+      "english_definition": "to repel, as a ball when thrown on the ground",
+      "hindi_definition": "टप्पा खाकर वापस आना (गेंद की तरह)",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ṭabhkārnā",
+      "kurukh_word_ascii": "Tabhkarna",
+      "english_definition": "to recoil",
+      "hindi_definition": "पीछे हटना, पलट कर आना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭāḍē",
+      "kurukh_word_ascii": "Tade",
+      "english_definition": "ring worn by women above the elbow",
+      "hindi_definition": "बाजूबंद, टाड़ (कोहनी के ऊपर पहना जाने वाला कड़ा)",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭagal-magal",
+      "kurukh_word_ascii": "Tagal-magal",
+      "english_definition": "idleness",
+      "hindi_definition": "आलस्य, कामचोरी",
+      "part_of_speech": "noun"
+    }
+  ]
+}

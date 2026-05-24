@@ -1,0 +1,1029 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+  "page_label": "166",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Tācī",
+      "kurukh_word_ascii": "Taci",
+      "english_definition": "aunt, father’s sister.",
+      "hindi_definition": "चाची, फुआ, बुआ",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "aunt, father’s sister.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "चाची, फुआ, बुआ",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Taokā!",
+      "kurukh_word_ascii": "Taoka!",
+      "english_definition": "O friend, O son !",
+      "hindi_definition": "ओ दोस्त!, ओ बेटे!",
+      "part_of_speech": "interjection",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "O friend, O son !",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "ओ दोस्त!, ओ बेटे!",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāḍā",
+      "kurukh_word_ascii": "Tada",
+      "english_definition": "fence.",
+      "hindi_definition": "घेरा, बाड़",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "fence.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "घेरा, बाड़",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāḍrnā",
+      "kurukh_word_ascii": "Tadrna",
+      "english_definition": "to cease crying.",
+      "hindi_definition": "रोखना बंद होना, रोना थम जाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to cease crying.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "रोखना बंद होना, रोना थम जाना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tagarnā",
+      "kurukh_word_ascii": "Tagarna",
+      "english_definition": "to be talkative.",
+      "hindi_definition": "वाचाल होना, बहुत बातें करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to be talkative.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "वाचाल होना, बहुत बातें करना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tagrnā",
+      "kurukh_word_ascii": "Tagrna",
+      "english_definition": "to be windy, the blowing of the wind.",
+      "hindi_definition": "हवा का चलना, बहना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": [],
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to be windy, the blowing of the wind.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "हवा का चलना, बहना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tahātuhī",
+      "kurukh_word_ascii": "Tahatuhi",
+      "english_definition": "help, aid in the work as rendered by children.",
+      "hindi_definition": "काम में बच्चों द्वारा की जाने वाली छोटी-मोटी मदद या हाथ बंटाना",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "help, aid in the work as rendered by children.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "काम में बच्चों द्वारा की जाने वाली छोटी-मोटी मदद या हाथ बंटाना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāinā",
+      "kurukh_word_ascii": "Taina",
+      "english_definition": "to send.",
+      "hindi_definition": "भेजना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [
+        "te'enā"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to send.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "भेजना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "te'enā",
+      "kurukh_word_ascii": "te'ena",
+      "english_definition": "to send.",
+      "hindi_definition": "भेजना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Tāinā",
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to send.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "भेजना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāirkā",
+      "kurukh_word_ascii": "Tairka",
+      "english_definition": "sent.",
+      "hindi_definition": "भेजा हुआ",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "sent.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "भेजा हुआ",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāiyū",
+      "kurukh_word_ascii": "Taiyu",
+      "english_definition": "sender.",
+      "hindi_definition": "भेजने वाला",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "sender.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "भेजने वाला",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāirnā",
+      "kurukh_word_ascii": "Tairna",
+      "english_definition": "to swim.",
+      "hindi_definition": "तैरना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to swim.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "तैरना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāk",
+      "kurukh_word_ascii": "Tak",
+      "english_definition": "occasion, opportunity.",
+      "hindi_definition": "ताक, अवसर, मौका",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "occasion, opportunity.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "ताक, अवसर, मौका",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāk ēṛnā",
+      "kurukh_word_ascii": "Tak erna",
+      "english_definition": "to make use of an opportunity, to turn to account.",
+      "hindi_definition": "अवसर का लाभ उठाना, मौके का फायदा उठाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to make use of an opportunity, to turn to account.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "अवसर का लाभ उठाना, मौके का फायदा उठाना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tākā",
+      "kurukh_word_ascii": "Taka",
+      "english_definition": "wind, air.",
+      "hindi_definition": "हवा, पवन",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "wind, air.",
+          "example_sentence_kurukh": "tākā urkhnā",
+          "example_sentence_translation": "the raising of a wind or storm."
+        },
+        {
+          "language": "hi",
+          "definition": "हवा, पवन",
+          "example_sentence_kurukh": "tākā urkhnā",
+          "example_sentence_translation": "हवा या आंधी का उठना"
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "tākā pūlī",
+      "kurukh_word_ascii": "taka puli",
+      "english_definition": "orcanous storm.",
+      "hindi_definition": "भीषण आंधी-तूफान",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Tākā",
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "orcanous storm.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "भीषण आंधी-तूफान",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Takhiē",
+      "kurukh_word_ascii": "Takhie",
+      "english_definition": "then.",
+      "hindi_definition": "तब, उसके बाद",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "then.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "तब, उसके बाद",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Takh'ā",
+      "kurukh_word_ascii": "Takh'a",
+      "english_definition": "bee.",
+      "hindi_definition": "मधुमक्खी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "bee.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "मधुमक्खी",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tak-takrnā",
+      "kurukh_word_ascii": "Tak-takrna",
+      "english_definition": "to be in readiness.",
+      "hindi_definition": "तैयार रहना, तत्पर रहना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to be in readiness.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "तैयार रहना, तत्पर रहना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Takilē",
+      "kurukh_word_ascii": "Takile",
+      "english_definition": "thin.",
+      "hindi_definition": "पतला",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "thin.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "पतला",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Taknā",
+      "kurukh_word_ascii": "Takna",
+      "english_definition": "to wait, look out.",
+      "hindi_definition": "ताकना, राह देखना, इंतजार करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c’an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to wait, look out.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "ताकना, राह देखना, इंतजार करना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Takrnā",
+      "kurukh_word_ascii": "Takrna",
+      "english_definition": "to hurt oneself.",
+      "hindi_definition": "स्वयं को चोट पहुँचाना, चोट लगना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to hurt oneself.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "स्वयं को चोट पहुँचाना, चोट लगना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Talkhnā",
+      "kurukh_word_ascii": "Talkhna",
+      "english_definition": "sever, separate.",
+      "hindi_definition": "अलग करना, काटना, अलग होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "sever, separate.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "अलग करना, काटना, अलग होना",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Talnā",
+      "kurukh_word_ascii": "Talna",
+      "english_definition": "to be ; taldan, am ; taldai, art ; tal, is ; etc.",
+      "hindi_definition": "होना; जैसे 'taldan' (हूँ), 'taldai' (हो), 'tal' (है) आदि",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to be ; taldan, am ; taldai, art ; tal, is ; etc.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "होना; जैसे 'taldan' (हूँ), 'taldai' (हो), 'tal' (है) आदि",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Talyā",
+      "kurukh_word_ascii": "Talya",
+      "english_definition": "is; talyan, am ; talyar, are ; etc.",
+      "hindi_definition": "है; जैसे 'talyan' (हूँ), 'talyar' (हैं) आदि",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "is; talyan, am ; talyar, are ; etc.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "है; जैसे 'talyan' (हूँ), 'talyar' (हैं) आदि",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tām",
+      "kurukh_word_ascii": "Tam",
+      "english_definition": "self, selves, own, refl. pron. plur.",
+      "hindi_definition": "स्वयं, अपने आप, अपना (बहुवचन निजवाचक सर्वनाम)",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "self, selves, own, refl. pron. plur.",
+          "example_sentence_kurukh": "ār tām barcar, tām tām / tām nū",
+          "example_sentence_translation": "they came themselves, among themselves / within themselves"
+        },
+        {
+          "language": "hi",
+          "definition": "स्वयं, अपने आप, अपना (बहुवचन निजवाचक सर्वनाम)",
+          "example_sentence_kurukh": "ār tām barcar, tām tām / tām nū",
+          "example_sentence_translation": "वे स्वयं आए, आपस में / अपने भीतर"
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāmā-tāmagē",
+      "kurukh_word_ascii": "Tama-tamage",
+      "english_definition": "dative of selves, own.",
+      "hindi_definition": "स्वयं के लिए, अपनों के लिए (चतुर्थी विभक्ति)",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Tām",
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "dative of selves, own.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "स्वयं के लिए, अपनों के लिए (चतुर्थी विभक्ति)",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāman",
+      "kurukh_word_ascii": "Taman",
+      "english_definition": "accusative of selves, own.",
+      "hindi_definition": "स्वयं को, अपनों को (द्वितीया विभक्ति)",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Tām",
+      "homograph_index": 1,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "accusative of selves, own.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "स्वयं को, अपनों को (द्वितीया विभक्ति)",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Taman",
+      "kurukh_word_ascii": "Taman",
+      "english_definition": "many, a multitude.",
+      "hindi_definition": "अनेक, बहुत, समूह, भीड़",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "many, a multitude.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "अनेक, बहुत, समूह, भीड़",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    },
+    {
+      "kurukh_word": "Tāmhai",
+      "kurukh_word_ascii": "Tamhai",
+      "english_definition": "genitive of selves, own ; ār tāmhai erpā kōrar, they went to their own house.",
+      "hindi_definition": "अपना, अपने (षष्ठी विभक्ति); जैसे 'वे अपने घर गए'",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Tām",
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "genitive of selves, own ; ār tāmhai erpā kōrar, they went to their own house.",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        },
+        {
+          "language": "hi",
+          "definition": "अपना, अपने (षष्ठी विभक्ति); जैसे 'वे अपने घर गए'",
+          "example_sentence_kurukh": "",
+          "example_sentence_translation": ""
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": {
+        "book": "Hahn 1903 Kurukh-Oraon English Dictionary",
+        "page_image": "2015.280761.Kurukh-Orao_text_page-0170.jpg",
+        "page_label": "166"
+      }
+    }
+  ]
+}

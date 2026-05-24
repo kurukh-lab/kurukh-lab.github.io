@@ -1,0 +1,284 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0126.jpg",
+  "page_label": "122",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Mēd mannā",
+      "kurukh_word_ascii": "Med manna",
+      "english_definition": "to become strong, stout.",
+      "hindi_definition": "मजबूूत होना, हट्टा-कट्टा होना।",
+      "part_of_speech": "verb phrase",
+      "notes": "2nd homograph of Mēd mannā"
+    },
+    {
+      "kurukh_word": "Mēdnā",
+      "kurukh_word_ascii": "Medna",
+      "english_definition": "kan, an, to save, to keep.",
+      "hindi_definition": "बचाना, सुरक्षित रखना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Meddī",
+      "kurukh_word_ascii": "Meddi",
+      "english_definition": "brain.",
+      "hindi_definition": "मस्तिष्क (दिमाग)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mejkhrnā",
+      "kurukh_word_ascii": "Mejkhrna",
+      "english_definition": "kan, an, to be dislocated, as the shoulder blade.",
+      "hindi_definition": "हड्डी खिसकना (जैसे कंधे का जोड़)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mehrnā",
+      "kurukh_word_ascii": "Mehrna",
+      "english_definition": "kan, an, to be damp, as grain or the floor.",
+      "hindi_definition": "सेंधना, नमी होना (जैसे अनाज या फर्श में)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mekkhō",
+      "kurukh_word_ascii": "Mekkho",
+      "english_definition": "cattle.",
+      "hindi_definition": "मवेशी (गाय-बैल)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mekkhō isuṅg",
+      "kurukh_word_ascii": "Mekkho isung",
+      "english_definition": "clarified butter, H. ghi.",
+      "hindi_definition": "घी (गाय का घी) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēkhnā",
+      "kurukh_word_ascii": "Mekhna",
+      "english_definition": "mikkhan, yan, to bake bread.",
+      "hindi_definition": "रोटी सेकना।",
+      "part_of_speech": "verb",
+      "verb_class": "mikkhan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēkhnā",
+      "kurukh_word_ascii": "Mekhna",
+      "english_definition": "mikhkan, yan, to call, shout.",
+      "hindi_definition": "पुकारना, चिल्लाना।",
+      "part_of_speech": "verb",
+      "verb_class": "mikhkan-yan",
+      "notes": "2nd homograph of Mēkhnā"
+    },
+    {
+      "kurukh_word": "Mēkhr cī'inā",
+      "kurukh_word_ascii": "Mekhr ci'ina",
+      "english_definition": "to call out, to shout.",
+      "hindi_definition": "जोर से पुकारना, चिल्लाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Melkhā",
+      "kurukh_word_ascii": "Melkha",
+      "english_definition": "throat.",
+      "hindi_definition": "गला (कंठ)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Melkhā",
+      "kurukh_word_ascii": "Melkha",
+      "english_definition": "a concubine.",
+      "hindi_definition": "रखैल।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of Melkhā"
+    },
+    {
+      "kurukh_word": "Melā",
+      "kurukh_word_ascii": "Mela",
+      "english_definition": "ckan, c'an, to scoff, ridicule, by imitation.",
+      "hindi_definition": "नकल उतारकर मज़ाक उड़ाना, उपहास करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mel'ō",
+      "kurukh_word_ascii": "Mel'o",
+      "english_definition": "a joker.",
+      "hindi_definition": "विदूषक, नकलची।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēn",
+      "kurukh_word_ascii": "Men",
+      "english_definition": "above.",
+      "hindi_definition": "ऊपर।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēn ērnā",
+      "kurukh_word_ascii": "Men erna",
+      "english_definition": "to look up.",
+      "hindi_definition": "ऊपर देखना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēnā teṅgnā",
+      "kurukh_word_ascii": "Mena tengna",
+      "english_definition": "to converse, dispute, reason.",
+      "hindi_definition": "बातचीत करना, विवाद करना, तर्क करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēnā' kirta'anā",
+      "kurukh_word_ascii": "Mena' kirta'ana",
+      "english_definition": "to ask again, ask repeatedly.",
+      "hindi_definition": "बार-बार पूछना, दुहराकर पूछना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mendnā",
+      "kurukh_word_ascii": "Mendna",
+      "english_definition": "ckan, c'an, to tell, to make known.",
+      "hindi_definition": "बताना, सूचित करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mendrārnā",
+      "kurukh_word_ascii": "Mendrarna",
+      "english_definition": "the circular movement of a bird of prey in the air.",
+      "hindi_definition": "शिकारी पक्षी की हवा में मंडराहत (मंडराना)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Meñjā",
+      "kurukh_word_ascii": "Menja",
+      "english_definition": "the mixing of different foodstuff.",
+      "hindi_definition": "विभिन्न खाद्य पदार्थों का मिश्रण।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Meñjkhnā",
+      "kurukh_word_ascii": "Menjkhna",
+      "english_definition": "to incubate, to shelter as the hen shelters her chickens.",
+      "hindi_definition": "अंडे सेना, चूजों को पंखों के नीचे छिपाना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Meñjnakrnā",
+      "kurukh_word_ascii": "Menjnakrna",
+      "english_definition": "kan, an, to ask each other, among themselves.",
+      "hindi_definition": "आपस में एक-दूसरे से पूछना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Meñjkan teṅgnā",
+      "kurukh_word_ascii": "Menjkan tengna",
+      "english_definition": "to witness.",
+      "hindi_definition": "गवाही देना (जो सुना है वह बताना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Meñjkan īrkan teṅgnā",
+      "kurukh_word_ascii": "Menjkan irkan tengna",
+      "english_definition": "to give evidence.",
+      "hindi_definition": "साक्ष्य देना, सबूत देना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mennā",
+      "kurukh_word_ascii": "Menna",
+      "english_definition": "jkan, j'an, to hear, to ask, inquire.",
+      "hindi_definition": "सुनना, पूछना, पूछताछ करना।",
+      "part_of_speech": "verb",
+      "verb_class": "jkan-j'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mennā",
+      "kurukh_word_ascii": "Menna",
+      "english_definition": "minkan, yan, to feed, graze.",
+      "hindi_definition": "चरना (अकर्मक)।",
+      "part_of_speech": "verb",
+      "verb_class": "minkan-yan",
+      "notes": "2nd homograph of Mennā"
+    },
+    {
+      "kurukh_word": "Menta'anā",
+      "kurukh_word_ascii": "Menta'ana",
+      "english_definition": "ckan, c'an, to feed, graze (transitive).",
+      "hindi_definition": "चराना (सकर्मक)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēt",
+      "kurukh_word_ascii": "Met",
+      "english_definition": "adult, maturity.",
+      "hindi_definition": "वयस्क, परिपक्व।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mētpariyā",
+      "kurukh_word_ascii": "Metpariya",
+      "english_definition": "the time or state of being an adult, mature.",
+      "hindi_definition": "वयस्कता (जवानी)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēṛhē",
+      "kurukh_word_ascii": "Merhe",
+      "english_definition": "sheep.",
+      "hindi_definition": "भेड़ (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēṛhē khapū",
+      "kurukh_word_ascii": "Merhe khapu",
+      "english_definition": "shepherd.",
+      "hindi_definition": "गड़ेरिया (भेड़ चराने वाला)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mēyā",
+      "kurukh_word_ascii": "Meya",
+      "english_definition": "prep. above, on (see also Maiyā).",
+      "hindi_definition": "ऊपर, के ऊपर (Maiyā भी देखें)।",
+      "part_of_speech": "preposition",
+      "notes": ""
+    }
+  ]
+}

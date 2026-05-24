@@ -1,0 +1,285 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0101.jpg",
+  "page_label": "97",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kharuā mokhnā",
+      "kurukh_word_ascii": "Kharua mokhna",
+      "english_definition": "to eat clay.",
+      "hindi_definition": "मिट्टी खाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khasam khasam",
+      "kurukh_word_ascii": "Khasam khasam",
+      "english_definition": "and khasam khasamrā mokhnā, to grind the teeth in eating meals.",
+      "hindi_definition": "भोजन करते समय दाँत पीसना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Reduplicated form; khasam khasamrā mokhnā = to grind teeth while eating"
+    },
+    {
+      "kurukh_word": "Khaskhasrnā",
+      "kurukh_word_ascii": "Khaskhasrna",
+      "english_definition": "kan, an, to dry, intr.",
+      "hindi_definition": "सूखना, अकर्मक।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaskhurā",
+      "kurukh_word_ascii": "Khaskhura",
+      "english_definition": "adj. ugly, disfigured, dirty, itchy.",
+      "hindi_definition": "बदसूरत, विकृत, गंदा, खुजलाहट वाला।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaskhasrā",
+      "kurukh_word_ascii": "Khaskhasra",
+      "english_definition": "itches. adj. dry, rough, said of a dirty skin.",
+      "hindi_definition": "खुजली। शुष्क, खुरदुरा, गंदी त्वचा के लिए।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khasta'anā",
+      "kurukh_word_ascii": "Khasta'ana",
+      "english_definition": "ckan, c'an, to urge, strain.",
+      "hindi_definition": "जोर देना, दबाव डालना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khastranā",
+      "kurukh_word_ascii": "Khastrana",
+      "english_definition": "kan, an, to be strained.",
+      "hindi_definition": "खिंचाव महसूस होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khasiānā",
+      "kurukh_word_ascii": "Khasiana",
+      "english_definition": "H. ckan, c'an, to castrate.",
+      "hindi_definition": "बधिया करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khastī",
+      "kurukh_word_ascii": "Khasti",
+      "english_definition": "urgency, strain.",
+      "hindi_definition": "आपातकाल, तनाव।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khasī",
+      "kurukh_word_ascii": "Khasi",
+      "english_definition": "H. castrated goat.",
+      "hindi_definition": "बधिया बकरा, खसी।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khasrā",
+      "kurukh_word_ascii": "Khasra",
+      "english_definition": "itches.",
+      "hindi_definition": "खुजली।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭkhaṭā ōrā",
+      "kurukh_word_ascii": "Khatkhataa ora",
+      "english_definition": "stork, heron.",
+      "hindi_definition": "सारस, बगुला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khata",
+      "kurukh_word_ascii": "Khata",
+      "english_definition": "a title.",
+      "hindi_definition": "उपाधि, पदवी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭi bēcnā",
+      "kurukh_word_ascii": "Khati becna",
+      "english_definition": "a game, played by children.",
+      "hindi_definition": "बच्चों का एक खेल।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭnā",
+      "kurukh_word_ascii": "Khatna",
+      "english_definition": "ckon, c'an, to cook, as rice and vegetables.",
+      "hindi_definition": "पकाना, जैसे चावल और सब्जियाँ।",
+      "part_of_speech": "verb",
+      "verb_class": "ckon-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭnā erpā",
+      "kurukh_word_ascii": "Khatna erpa",
+      "english_definition": "kitchen.",
+      "hindi_definition": "रसोई।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭī pawā bīnkō",
+      "kurukh_word_ascii": "Khati pawa binko",
+      "english_definition": "the great bear, star constellation.",
+      "hindi_definition": "सप्तर्षि तारामंडल।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khatarta'anā",
+      "kurukh_word_ascii": "Khatarta'ana",
+      "english_definition": "kan, yan, to fell.",
+      "hindi_definition": "काटकर गिराना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khatrnā",
+      "kurukh_word_ascii": "Khatrna",
+      "english_definition": "kan, an, to fall.",
+      "hindi_definition": "गिरना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khatr cō'onā",
+      "kurukh_word_ascii": "Khatr co'ona",
+      "english_definition": "to stumble.",
+      "hindi_definition": "ठोकर खाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khātīr",
+      "kurukh_word_ascii": "Khatir",
+      "english_definition": "U. comfort.",
+      "hindi_definition": "आराम, संतोष।",
+      "part_of_speech": "noun",
+      "loanword_from": "Urdu",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khātir mannā",
+      "kurukh_word_ascii": "Khatir manna",
+      "english_definition": "to be composed.",
+      "hindi_definition": "शांत होना, आश्वस्त होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khātir nannā",
+      "kurukh_word_ascii": "Khatir nanna",
+      "english_definition": "to be content, comforted.",
+      "hindi_definition": "संतुष्ट होना, तसल्ली होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khātir ci'inā",
+      "kurukh_word_ascii": "Khatir ci'ina",
+      "english_definition": "to comfort.",
+      "hindi_definition": "तसल्ली देना, ढाढ़स देना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭṭā",
+      "kurukh_word_ascii": "Khatta",
+      "english_definition": "a Hindu, a foreigner.",
+      "hindi_definition": "हिंदू, विदेशी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭī",
+      "kurukh_word_ascii": "Khati",
+      "english_definition": "H. bedstead.",
+      "hindi_definition": "खाट, चारपाई।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭkhaṭā",
+      "kurukh_word_ascii": "Khatkhataa",
+      "english_definition": "the stork.",
+      "hindi_definition": "सारस।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭkhaṭamba'anā",
+      "kurukh_word_ascii": "Khatkhatamba'ana",
+      "english_definition": "ckan, c'an, to knock.",
+      "hindi_definition": "खटखटाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭkhaṭārnā",
+      "kurukh_word_ascii": "Khatkhatarna",
+      "english_definition": "ckan, c'an, to tremble, shiver with cold or fever.",
+      "hindi_definition": "काँपना, ठंड या बुखार से थरथराना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭkhuṭ nannā",
+      "kurukh_word_ascii": "Khatkhutt nanna",
+      "english_definition": "to crackle as dry wood when burning.",
+      "hindi_definition": "जलते समय सूखी लकड़ी की तरह चटकना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭkhuṭrnā",
+      "kurukh_word_ascii": "Khatkhutrna",
+      "english_definition": "the same.",
+      "hindi_definition": "वही।",
+      "part_of_speech": "verb",
+      "notes": "Variant of Khaṭkhuṭ nannā"
+    },
+    {
+      "kurukh_word": "Khatrī",
+      "kurukh_word_ascii": "Khatri",
+      "english_definition": "prep. U. on account of; for.",
+      "hindi_definition": "के कारण, के लिए।",
+      "part_of_speech": "preposition",
+      "loanword_from": "Urdu",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṭa'anā",
+      "kurukh_word_ascii": "Khata'ana",
+      "english_definition": "adv. immediately, without a hitch.",
+      "hindi_definition": "तुरंत, बिना रुकावट के।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    }
+  ]
+}

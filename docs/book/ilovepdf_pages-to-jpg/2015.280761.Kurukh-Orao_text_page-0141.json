@@ -1,0 +1,251 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0141.jpg",
+  "page_label": "137",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Nurdnā dāherē",
+      "kurukh_word_ascii": "Nurdna dahere",
+      "english_definition": "slippery road",
+      "hindi_definition": "फिसलन भरी सड़क",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nurgnā",
+      "kurukh_word_ascii": "Nurgna",
+      "english_definition": "to shove in, insert, to put fuel (half burnt sticks) further into the fire",
+      "hindi_definition": "आग में ईंधन (अधजले लकड़ी) ठेलना, डालना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Nurgnrā",
+      "kurukh_word_ascii": "Nurgnra",
+      "english_definition": "to be thrown in, thrust in",
+      "hindi_definition": "भीतर फेंका जाना, ठेला जाना",
+      "part_of_speech": "verb"
+    },
+    {
+      "kurukh_word": "Nusgnā / Nusugna",
+      "kurukh_word_ascii": "Nusgna / Nusugna",
+      "english_definition": "to smell",
+      "hindi_definition": "सूँघना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Nūtnā",
+      "kurukh_word_ascii": "Nutna",
+      "english_definition": "to take out with the hand from a vessel or pot",
+      "hindi_definition": "बर्तन या हांडी से हाथ से निकालना",
+      "part_of_speech": "verb",
+      "verb_class": "nuttkan-yan"
+    },
+    {
+      "kurukh_word": "Nūtnā",
+      "kurukh_word_ascii": "Nutna",
+      "english_definition": "to put or throw the finger into a hole or pot",
+      "hindi_definition": "उंगली को छेद या बर्तन में डालना",
+      "part_of_speech": "verb",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Nūtnā bānkh'nā",
+      "kurukh_word_ascii": "Nutna bankh'na",
+      "english_definition": "to spoil by touching or throwing the fingers into it",
+      "hindi_definition": "उंगलियाँ डालकर खराब करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nūtnā hō'ōnā",
+      "kurukh_word_ascii": "Nutna ho'ona",
+      "english_definition": "to take food stealthily",
+      "hindi_definition": "चुपके से खाना लेना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nūtā moknā",
+      "kurukh_word_ascii": "Nuta mokna",
+      "english_definition": "to nibble, junket, to eat something forbidden",
+      "hindi_definition": "चुपके से खाना, वर्जित भोजन खाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nuturnā",
+      "kurukh_word_ascii": "Nuturna",
+      "english_definition": "to stretch out one's legs",
+      "hindi_definition": "पैर फैलाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Nutur okknā",
+      "kurukh_word_ascii": "Nutur okkna",
+      "english_definition": "to sit with outstretched legs",
+      "hindi_definition": "पैर फैलाकर बैठना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nyūkhnā",
+      "kurukh_word_ascii": "Nyukhna",
+      "english_definition": "to obey, to follow",
+      "hindi_definition": "मानना, पालन करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "O",
+      "kurukh_word_ascii": "O",
+      "english_definition": "O short (letter section heading)",
+      "hindi_definition": "ओ (छोटा) वर्ण अनुभाग",
+      "part_of_speech": "letter"
+    },
+    {
+      "kurukh_word": "Obnāṅg",
+      "kurukh_word_ascii": "Obnang",
+      "english_definition": "much, many",
+      "hindi_definition": "बहुत, अनेक",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ochōr",
+      "kurukh_word_ascii": "Ochor",
+      "english_definition": "shelter, refuge",
+      "hindi_definition": "आश्रय, शरण",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ochōr nannā",
+      "kurukh_word_ascii": "Ochor nanna",
+      "english_definition": "to give shelter, to protect",
+      "hindi_definition": "आश्रय देना, रक्षा करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ochhālārnā",
+      "kurukh_word_ascii": "Ochhlarna",
+      "english_definition": "see uclarna, to rock in walking",
+      "hindi_definition": "चलते समय झूमना (uclarnaदेखें)",
+      "part_of_speech": "verb"
+    },
+    {
+      "kurukh_word": "Odnā",
+      "kurukh_word_ascii": "Odna",
+      "english_definition": "to screen, shield, shelter",
+      "hindi_definition": "ढाल बनाना, आड़ बनाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Odnā",
+      "kurukh_word_ascii": "Odna",
+      "english_definition": "to burn, as fuel, to kindle a fire",
+      "hindi_definition": "ईंधन जलाना, आग जलाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "O'crā'ānā",
+      "kurukh_word_ascii": "O'cra'ana",
+      "english_definition": "see ochlarna (to rock in walking)",
+      "hindi_definition": "ochlarna देखें",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ohār",
+      "kurukh_word_ascii": "Ohar",
+      "english_definition": "eaves of the house",
+      "hindi_definition": "छत का छज्जा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ojjnā",
+      "kurukh_word_ascii": "Ojjna",
+      "english_definition": "to sew, stitch together",
+      "hindi_definition": "सीना, जोड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "ujjkan-yan"
+    },
+    {
+      "kurukh_word": "Okhō / Ēkhō",
+      "kurukh_word_ascii": "Okho / Ekho",
+      "english_definition": "where",
+      "hindi_definition": "कहाँ",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Okknā",
+      "kurukh_word_ascii": "Okkna",
+      "english_definition": "to sit",
+      "hindi_definition": "बैठना",
+      "part_of_speech": "verb",
+      "verb_class": "ukkan-yan"
+    },
+    {
+      "kurukh_word": "Okknā addā",
+      "kurukh_word_ascii": "Okkna adda",
+      "english_definition": "seat",
+      "hindi_definition": "बैठने की जगह, सीट",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Okrnā",
+      "kurukh_word_ascii": "Okrna",
+      "english_definition": "to seat, to put down",
+      "hindi_definition": "बिठाना, रखना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Olnā",
+      "kurukh_word_ascii": "Olna",
+      "english_definition": "to burn (intr.)",
+      "hindi_definition": "जलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "transitivity": "intr"
+    },
+    {
+      "kurukh_word": "Ollāgnā / Ōllāgnā",
+      "kurukh_word_ascii": "Ollagna / Ollagna",
+      "english_definition": "to salam, to greet, accost",
+      "hindi_definition": "सलाम करना, अभिवादन करना",
+      "part_of_speech": "verb"
+    },
+    {
+      "kurukh_word": "Oldā'ānā",
+      "kurukh_word_ascii": "Olda'ana",
+      "english_definition": "to burn (trans.)",
+      "hindi_definition": "जलाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "transitivity": "tr"
+    },
+    {
+      "kurukh_word": "Oldnā",
+      "kurukh_word_ascii": "Oldna",
+      "english_definition": "to burn (trans.)",
+      "hindi_definition": "जलाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "transitivity": "tr"
+    },
+    {
+      "kurukh_word": "Olkhnā",
+      "kurukh_word_ascii": "Olkhna",
+      "english_definition": "to bewail, lament, cry",
+      "hindi_definition": "विलाप करना, रोना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Olkhnā cikhnā",
+      "kurukh_word_ascii": "Olkhna cikhna",
+      "english_definition": "lament, heartrending crying",
+      "hindi_definition": "विलाप, हृदय विदारक रुदन",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

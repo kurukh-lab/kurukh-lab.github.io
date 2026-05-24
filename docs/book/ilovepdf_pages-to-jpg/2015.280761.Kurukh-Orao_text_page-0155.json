@@ -1,0 +1,198 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0155.jpg",
+  "page_label": "151",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pōkhtā urkhna",
+      "kurukh_word_ascii": "Pokhta urkhna",
+      "english_definition": "to foam",
+      "hindi_definition": "झाग निकालना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pōkkhnā",
+      "kurukh_word_ascii": "Pokkhna",
+      "english_definition": "to blister one's hands; callosity in the palm from handling a spade or axe",
+      "hindi_definition": "हाथों पर छाले पड़ना; खुरपे या कुल्हाड़ी से हाथ की गाँठ",
+      "part_of_speech": "verb",
+      "verb_class": "pukkhan-yan"
+    },
+    {
+      "kurukh_word": "Pōknā",
+      "kurukh_word_ascii": "Pokna",
+      "english_definition": "to have diarrhea",
+      "hindi_definition": "दस्त होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pōknā",
+      "kurukh_word_ascii": "Pokna",
+      "english_definition": "bladder",
+      "hindi_definition": "मूत्राशय",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pōkōl",
+      "kurukh_word_ascii": "Pokol",
+      "english_definition": "cocoon, chrysalis",
+      "hindi_definition": "कोया, किल्ला",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōkl-pōcgā",
+      "kurukh_word_ascii": "Pokl-pocga",
+      "english_definition": "the silkworm",
+      "hindi_definition": "रेशमकीड़ा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōkl-mēr",
+      "kurukh_word_ascii": "Pokl-mer",
+      "english_definition": "silk thread",
+      "hindi_definition": "रेशम का धागा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōk's",
+      "kurukh_word_ascii": "Pok's",
+      "english_definition": "puffed up, swelled up",
+      "hindi_definition": "फूला हुआ, सूजा हुआ",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pōkkō",
+      "kurukh_word_ascii": "Pokko",
+      "english_definition": "same as pōk's (puffed up)",
+      "hindi_definition": "pōk's के समान (फूला हुआ)",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pōkōt",
+      "kurukh_word_ascii": "Pokot",
+      "english_definition": "firm",
+      "hindi_definition": "ठोस, मजबूत",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pōkōy pōndōy mannā",
+      "kurukh_word_ascii": "Pokoy pondoy manna",
+      "english_definition": "to be weak, unable to stand the climate",
+      "hindi_definition": "कमजोर होना, जलवायु सहन न कर पाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pōlē'āsār",
+      "kurukh_word_ascii": "Pole'asar",
+      "english_definition": "the hem of the garment",
+      "hindi_definition": "कपड़े का किनारा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōlā",
+      "kurukh_word_ascii": "Pola",
+      "english_definition": "private parts (female)",
+      "hindi_definition": "स्त्री के गुप्तांग",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōllā",
+      "kurukh_word_ascii": "Polla",
+      "english_definition": "a roll of thread",
+      "hindi_definition": "धागे की लड्डी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōlnā",
+      "kurukh_word_ascii": "Polna",
+      "english_definition": "to be unable, difficult",
+      "hindi_definition": "अक्षम होना, कठिन होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "example_phrase": "polnum ondrkān — I brought it with great difficulty; ongam polnā — to be entirely unable"
+    },
+    {
+      "kurukh_word": "Pōlpōlrnā",
+      "kurukh_word_ascii": "Polpolrna",
+      "english_definition": "to develop, unwind, wind off",
+      "hindi_definition": "खोलना, सुलझाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pōndnā",
+      "kurukh_word_ascii": "Pondna",
+      "english_definition": "to become grey-haired, get old, hoary",
+      "hindi_definition": "सफेद बाल होना, बूढ़ा होना",
+      "part_of_speech": "verb",
+      "verb_class": "pundkan-yan"
+    },
+    {
+      "kurukh_word": "Pōndnā",
+      "kurukh_word_ascii": "Pondna",
+      "english_definition": "to be musty",
+      "hindi_definition": "सीला/फफूंदी होना",
+      "part_of_speech": "verb",
+      "verb_class": "pundkan-yan",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pō'ēnā",
+      "kurukh_word_ascii": "Po'ena",
+      "english_definition": "to rain",
+      "hindi_definition": "बारिश होना",
+      "part_of_speech": "verb",
+      "verb_class": "posskan-an",
+      "example_phrase": "Cēp pō'ēnā — to rain rainwater; cēp mālā possā — it did not rain; cēp pō'ēō? — Will it rain?"
+    },
+    {
+      "kurukh_word": "Pō'ētā'ānā",
+      "kurukh_word_ascii": "Po'eta'ana",
+      "english_definition": "to cause to rain; Dharmēs cēp pōētadās — God makes it rain",
+      "hindi_definition": "बरसाना; धर्मेस बारिश कराता है",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pōndrā",
+      "kurukh_word_ascii": "Pondra",
+      "english_definition": "a kind of grass having a white flower",
+      "hindi_definition": "सफेद फूल वाली एक घास",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōnjkhnā",
+      "kurukh_word_ascii": "Ponjkhna",
+      "english_definition": "to become worse, to grow, increase, as the ulceration of a sore or wound",
+      "hindi_definition": "बिगड़ना, घाव की सूजन बढ़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pōnjnā",
+      "kurukh_word_ascii": "Ponjna",
+      "english_definition": "to ulcerate, cancer",
+      "hindi_definition": "घाव पड़ना, कैंसर होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pōrcā",
+      "kurukh_word_ascii": "Porca",
+      "english_definition": "half cooked or half boiled",
+      "hindi_definition": "आधा पका हुआ",
+      "part_of_speech": "adj",
+      "example_phrase": "porcā bī ondr'ā — bring a half boiled egg"
+    },
+    {
+      "kurukh_word": "Pōrkhnā",
+      "kurukh_word_ascii": "Porkhna",
+      "english_definition": "to swell, as earth from being watered",
+      "hindi_definition": "सूजना, जैसे पानी से धरती फूलना",
+      "part_of_speech": "verb",
+      "verb_class": "purkh-kan-yan"
+    }
+  ]
+}

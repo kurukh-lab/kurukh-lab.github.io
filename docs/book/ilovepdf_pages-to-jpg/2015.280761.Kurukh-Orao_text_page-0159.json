@@ -1,0 +1,253 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0159.jpg",
+  "page_label": "155",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Rāmpācālpā",
+      "kurukh_word_ascii": "Rampacalpa",
+      "english_definition": "a piece of wood ornamented with cloth, bells used at dancing gatherings",
+      "hindi_definition": "नृत्य समारोह में प्रयुक्त कपड़े और घंटियों से सजी लकड़ी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāmrāmrnā",
+      "kurukh_word_ascii": "Ramramrna",
+      "english_definition": "to flaunt, to strut, to be inflated",
+      "hindi_definition": "इतराना, अकड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rānd",
+      "kurukh_word_ascii": "Rand",
+      "english_definition": "widower",
+      "hindi_definition": "विधुर",
+      "part_of_speech": "noun",
+      "gender": "m",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Rāndī",
+      "kurukh_word_ascii": "Randi",
+      "english_definition": "widow",
+      "hindi_definition": "विधवा",
+      "part_of_speech": "noun",
+      "gender": "f"
+    },
+    {
+      "kurukh_word": "Rāndī pāccā",
+      "kurukh_word_ascii": "Randi pacca",
+      "english_definition": "an old widow",
+      "hindi_definition": "बूढ़ी विधवा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāndkit nannā",
+      "kurukh_word_ascii": "Randkit nanna",
+      "english_definition": "to pound",
+      "hindi_definition": "कूटना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rānājitē dāmnā",
+      "kurukh_word_ascii": "Ranajite damna",
+      "english_definition": "the battle-drum, a large kettle drum",
+      "hindi_definition": "युद्ध ढोल, बड़ा नगाड़ा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāingnā",
+      "kurukh_word_ascii": "Raigna",
+      "english_definition": "to color, dye",
+      "hindi_definition": "रंगना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Rānjnā",
+      "kurukh_word_ascii": "Ranjna",
+      "english_definition": "to become wet, watery as salt in the rainy season",
+      "hindi_definition": "बरसात में नमक की तरह गीला हो जाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Rrna",
+      "kurukh_word_ascii": "Rrna",
+      "english_definition": "to give a tingling sound, like a small bell",
+      "hindi_definition": "छोटी घंटी जैसी आवाज निकालना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rāsārnā",
+      "kurukh_word_ascii": "Rasarna",
+      "english_definition": "to be possessed of the devil or an evil spirit",
+      "hindi_definition": "भूत या बुरी आत्मा से पकड़ा जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rāsē rāsē!",
+      "kurukh_word_ascii": "Rase rase!",
+      "english_definition": "slowly, carefully, take heed!",
+      "hindi_definition": "धीरे-धीरे, सावधानी से!",
+      "part_of_speech": "interj"
+    },
+    {
+      "kurukh_word": "Rāsī",
+      "kurukh_word_ascii": "Rasi",
+      "english_definition": "juice",
+      "hindi_definition": "रस",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Rāskā",
+      "kurukh_word_ascii": "Raska",
+      "english_definition": "an actor, joker, fun-maker",
+      "hindi_definition": "अभिनेता, मज़ाकिया",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāsnā",
+      "kurukh_word_ascii": "Rasna",
+      "english_definition": "to permeate",
+      "hindi_definition": "रिसना, समाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Rāsābā'ānā",
+      "kurukh_word_ascii": "Rasaba'ana",
+      "english_definition": "to make another possessed of a malignant spirit",
+      "hindi_definition": "दूसरे को बुरी आत्मा से पकड़वाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Rāsriyā",
+      "kurukh_word_ascii": "Rasriya",
+      "english_definition": "garlic",
+      "hindi_definition": "लहसुन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāstā'ānā",
+      "kurukh_word_ascii": "Rasta'ana",
+      "english_definition": "to close up, repair with reed",
+      "hindi_definition": "सरकंडे से बंद करना, मरम्मत करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Rāspāsrnā",
+      "kurukh_word_ascii": "Raspasrna",
+      "english_definition": "to rattle, clatter, to make a knocking voice",
+      "hindi_definition": "खड़खड़ाना, शोर करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rāthmārā",
+      "kurukh_word_ascii": "Rathmara",
+      "english_definition": "elderly",
+      "hindi_definition": "बुजुर्ग, अधेड़",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Rā'is / Rā'us / Rā'ur",
+      "kurukh_word_ascii": "Ra'is / Ra'us / Ra'ur",
+      "english_definition": "dweller, dwellers",
+      "hindi_definition": "निवासी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāurāuārnā",
+      "kurukh_word_ascii": "Raurauarna",
+      "english_definition": "to make a noise, tumult",
+      "hindi_definition": "शोर मचाना, हंगामा करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Rāybārē",
+      "kurukh_word_ascii": "Raybare",
+      "english_definition": "judgment",
+      "hindi_definition": "न्याय, फैसला",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāy bārī khōndha",
+      "kurukh_word_ascii": "Ray bari khondha",
+      "english_definition": "legislative council, a jury, a court",
+      "hindi_definition": "विधायी परिषद, जूरी, अदालत",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāybārī ērpā",
+      "kurukh_word_ascii": "Raybari erpa",
+      "english_definition": "court-house",
+      "hindi_definition": "न्यायालय भवन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāybārī nannā",
+      "kurukh_word_ascii": "Raybari nanna",
+      "english_definition": "to judge, to decree",
+      "hindi_definition": "न्याय करना, आदेश देना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rēb'ē nannā",
+      "kurukh_word_ascii": "Reb'e nanna",
+      "english_definition": "to conceal, put by",
+      "hindi_definition": "छुपाना, रख देना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rēcā",
+      "kurukh_word_ascii": "Reca",
+      "english_definition": "a kind of children's play",
+      "hindi_definition": "एक बच्चों का खेल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rēknā",
+      "kurukh_word_ascii": "Rekna",
+      "english_definition": "to sigh, groan",
+      "hindi_definition": "आह भरना, कराहना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Rēndē",
+      "kurukh_word_ascii": "Rende",
+      "english_definition": "penetration",
+      "hindi_definition": "घुसपैठ, भेदन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rēndē rēndē cēp'ē mannā",
+      "kurukh_word_ascii": "Rende rende cep'e manna",
+      "english_definition": "to force oneself into, to be crowded",
+      "hindi_definition": "घुसना, भीड़ में दबना",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Rēndē mannā",
+      "kurukh_word_ascii": "Rende manna",
+      "english_definition": "same as above (to force oneself into)",
+      "hindi_definition": "वही (घुसना)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rēndē nannā",
+      "kurukh_word_ascii": "Rende nanna",
+      "english_definition": "to elbow one's way, also thrust aside",
+      "hindi_definition": "धकेल कर रास्ता बनाना",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

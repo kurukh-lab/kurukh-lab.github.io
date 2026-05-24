@@ -1,0 +1,283 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0087.jpg",
+  "page_label": "83",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kaṅk palknā",
+      "kurukh_word_ascii": "Kank palkna",
+      "english_definition": "to cut, split wood.",
+      "hindi_definition": "लकड़ी काटना, चीरना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Compound of Kaṅk (wood)."
+    },
+    {
+      "kurukh_word": "Kaṅk ondrnā",
+      "kurukh_word_ascii": "Kank ondrna",
+      "english_definition": "to fetch wood.",
+      "hindi_definition": "लकड़ी लाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṅkerṗā",
+      "kurukh_word_ascii": "Kankerpaa",
+      "english_definition": "woodhouse.",
+      "hindi_definition": "लकड़ी रखने का घर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaumanrnā",
+      "kurukh_word_ascii": "Kaumanrna",
+      "english_definition": "kan, an, to refuse, reject.",
+      "hindi_definition": "मना करना, अस्वीकार करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kannā",
+      "kurukh_word_ascii": "Kanna",
+      "english_definition": "the iron point of the arrow.",
+      "hindi_definition": "तीर की लोहे की नोक।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kant",
+      "kurukh_word_ascii": "Kant",
+      "english_definition": "adj. satisfied.",
+      "hindi_definition": "संतुष्ट।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kanpathi",
+      "kurukh_word_ascii": "Kanpathi",
+      "english_definition": "H. the templebone.",
+      "hindi_definition": "कनपटी।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kārā",
+      "kurukh_word_ascii": "Kara",
+      "english_definition": "adj. blind.",
+      "hindi_definition": "अंधा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kārā",
+      "kurukh_word_ascii": "Kara",
+      "english_definition": "kan, yan, to curse, expel.",
+      "hindi_definition": "अभिशाप देना, निष्कासित करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "homograph_index": 2,
+      "notes": "Homograph of Kārā (blind)."
+    },
+    {
+      "kurukh_word": "Kārnā",
+      "kurukh_word_ascii": "Karna",
+      "english_definition": "ckan, c'an, to straighten, rectify.",
+      "hindi_definition": "सीधा करना, सुधारना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kārsā",
+      "kurukh_word_ascii": "Karsa",
+      "english_definition": "a bamboo tray, filled with rice, around which at a marriage feast the guests dance.",
+      "hindi_definition": "बाँस की थाली जो चावल से भरी होती है और विवाह में जिसके चारों ओर नृत्य किया जाता है।",
+      "part_of_speech": "noun",
+      "notes": "Ceremonial object used in Oraon marriage rites."
+    },
+    {
+      "kurukh_word": "Kārsā argnā",
+      "kurukh_word_ascii": "Karsa argna",
+      "english_definition": "cōdnā, to prepare the bamboo tray, used at marriages.",
+      "hindi_definition": "विवाह में प्रयुक्त बाँस की थाली तैयार करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kārā injō",
+      "kurukh_word_ascii": "Kara injo",
+      "english_definition": "lit. a blind fish, the ber fish.",
+      "hindi_definition": "अंधी मछली, बेर मछली।",
+      "part_of_speech": "noun",
+      "notes": "Literal meaning: blind fish."
+    },
+    {
+      "kurukh_word": "Kārā bairakhi",
+      "kurukh_word_ascii": "Kara bairakhi",
+      "english_definition": "large banner, streamer.",
+      "hindi_definition": "बड़ा झंडा, बैनर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṇṭī",
+      "kurukh_word_ascii": "Kanti",
+      "english_definition": "grass, especially weed.",
+      "hindi_definition": "घास, विशेषकर खरपतवार।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kanto",
+      "kurukh_word_ascii": "Kanto",
+      "english_definition": "knife.",
+      "hindi_definition": "चाकू।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kap kaprā",
+      "kurukh_word_ascii": "Kap kapra",
+      "english_definition": "adv. tightly.",
+      "hindi_definition": "कसकर।",
+      "part_of_speech": "adverb",
+      "notes": "Reduplicated ideophone."
+    },
+    {
+      "kurukh_word": "Kaparnā",
+      "kurukh_word_ascii": "Kaparna",
+      "english_definition": "kan, an, to hide, conceal.",
+      "hindi_definition": "छुपाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kappnā",
+      "kurukh_word_ascii": "Kappna",
+      "english_definition": "kan, an, to fit in, to take hold, apprehend.",
+      "hindi_definition": "फिट होना, पकड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kappar ērnā",
+      "kurukh_word_ascii": "Kappar erna",
+      "english_definition": "to feel, touch.",
+      "hindi_definition": "महसूस करना, छूना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kappō ōrā",
+      "kurukh_word_ascii": "Kappo ora",
+      "english_definition": "a kind of bird.",
+      "hindi_definition": "एक प्रकार का पक्षी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaprē nuñjnā",
+      "kurukh_word_ascii": "Kapre nunjana",
+      "english_definition": "pain in the forehead.",
+      "hindi_definition": "माथे में दर्द।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaprē",
+      "kurukh_word_ascii": "Kapre",
+      "english_definition": "forehead, H.",
+      "hindi_definition": "माथा।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karamjarī",
+      "kurukh_word_ascii": "Karamjari",
+      "english_definition": "vine plant, vine tree, vine.",
+      "hindi_definition": "बेल का पौधा, अंगूर की बेल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karait",
+      "kurukh_word_ascii": "Karait",
+      "english_definition": "nerr, same as gaṇḍait, a poisonous snake.",
+      "hindi_definition": "करैत, एक ज़हरीला साँप।",
+      "part_of_speech": "noun",
+      "notes": "nerr = snake; also gaṇḍait."
+    },
+    {
+      "kurukh_word": "Karbā",
+      "kurukh_word_ascii": "Karba",
+      "english_definition": "the handle of the plough.",
+      "hindi_definition": "हल का हत्था।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karonā",
+      "kurukh_word_ascii": "Karona",
+      "english_definition": "kan, an, to be hardened.",
+      "hindi_definition": "कठोर होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karchārnā",
+      "kurukh_word_ascii": "Karcharna",
+      "english_definition": "kan, an, to threaten, intimidate.",
+      "hindi_definition": "धमकाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karchārnā",
+      "kurukh_word_ascii": "Karcharna",
+      "english_definition": "kan, an, to shift, move aside.",
+      "hindi_definition": "हटाना, एक ओर करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "homograph_index": 2,
+      "notes": "Second sense of Karchārnā."
+    },
+    {
+      "kurukh_word": "Kardhanī",
+      "kurukh_word_ascii": "Kardhani",
+      "english_definition": "the waist-string.",
+      "hindi_definition": "करधनी, कमर की डोरी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Karē karē",
+      "kurukh_word_ascii": "Kare kare",
+      "english_definition": "adv. successively, by and by, gradually.",
+      "hindi_definition": "क्रमशः, धीरे-धीरे।",
+      "part_of_speech": "adverb",
+      "notes": "Reduplicated form."
+    },
+    {
+      "kurukh_word": "Kareyā",
+      "kurukh_word_ascii": "Kareya",
+      "english_definition": "cloth worn round the private parts.",
+      "hindi_definition": "जाँघिया, लंगोट।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kareyā co'onā",
+      "kurukh_word_ascii": "Kareya co'ona",
+      "english_definition": "to fasten, tie the kareyā.",
+      "hindi_definition": "लंगोट बाँधना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    }
+  ]
+}

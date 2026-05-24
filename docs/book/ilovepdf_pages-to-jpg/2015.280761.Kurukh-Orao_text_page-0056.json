@@ -1,0 +1,693 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg",
+  "page_label": "52",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "ēõdā ālar",
+      "kurukh_word_ascii": "eoda alar",
+      "english_definition": "how many men",
+      "hindi_definition": "कितने लोग?, कितने पुरुष?",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēõdā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how many men", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितने लोग?, कितने पुरुष?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēõdar",
+      "kurukh_word_ascii": "Eodar",
+      "english_definition": "how many (men or women)",
+      "hindi_definition": "कितने (पुरुष या महिलाएँ)",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēõdā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how many (men or women)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितने (पुरुष या महिलाएँ)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēõdā gē",
+      "kurukh_word_ascii": "Eoda ge",
+      "english_definition": "to or for how many, much",
+      "hindi_definition": "कितनों को, कितनों के लिए",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēõdā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to or for how many, much", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितनों को, कितनों के लिए", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēõjhanar",
+      "kurukh_word_ascii": "Eojhanar",
+      "english_definition": "how many persons",
+      "hindi_definition": "कितने व्यक्ति?, कितने लोग?",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēõdā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how many persons", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितने व्यक्ति?, कितने लोग?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēõk'em",
+      "kurukh_word_ascii": "Eok'em",
+      "english_definition": "several",
+      "hindi_definition": "अनेक, कई",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "several", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अनेक, कई", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēõkh",
+      "kurukh_word_ascii": "Eokh",
+      "english_definition": "chest, breast",
+      "hindi_definition": "छाती, वक्ष",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "chest, breast", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छाती, वक्ष", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēõkhnā",
+      "kurukh_word_ascii": "Eokhna",
+      "english_definition": "to cough",
+      "hindi_definition": "खाँसना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "īõkhkan, īõkhyan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to cough", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खाँसना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēõkh nuñjnā",
+      "kurukh_word_ascii": "Eokh nuñjna",
+      "english_definition": "to have pains in the chest",
+      "hindi_definition": "छाती में दर्द होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēõkh",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to have pains in the chest", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छाती में दर्द होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēõkhuṇḍi",
+      "kurukh_word_ascii": "Eokhundi",
+      "english_definition": "up to the breast",
+      "hindi_definition": "छाती तक, वक्ष तक",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēõkh",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "up to the breast", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छाती तक, वक्ष तक", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēsõnā",
+      "kurukh_word_ascii": "Esona",
+      "english_definition": "to bring in touch with, to touch",
+      "hindi_definition": "स्पर्श कराना, छूना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to bring in touch with, to touch; ambā ēõs'ā: don't touch", "example_sentence_kurukh": "ambā ēõs'ā", "example_sentence_translation": "don't touch." },
+        { "language": "hi", "definition": "स्पर्श कराना, छूना; अम्बा ऐओंस'आ (मत छुओ)", "example_sentence_kurukh": "ambā ēõs'ā", "example_sentence_translation": "मत छुओ।" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēõsrnā",
+      "kurukh_word_ascii": "Eosrna",
+      "english_definition": "to bring oneself in touch with, to touch",
+      "hindi_definition": "संपर्क में आना, स्पर्श करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēsõnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to bring oneself in touch with, to touch; ambā ēõsra: don't come into touch with", "example_sentence_kurukh": "ambā ēõsra", "example_sentence_translation": "don't come into touch with." },
+        { "language": "hi", "definition": "संपर्क में आना, स्पर्श करना; अम्बा ऐओंसरा (संपर्क में मत आओ)", "example_sentence_kurukh": "ambā ēõsra", "example_sentence_translation": "संपर्क में मत आओ।" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēõsra'anā",
+      "kurukh_word_ascii": "Eosra'ana",
+      "english_definition": "to reach",
+      "hindi_definition": "पहुँचना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēsõnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to reach", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पहुँचना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēp",
+      "kurukh_word_ascii": "Ep",
+      "english_definition": "rope",
+      "hindi_definition": "रस्सी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "rope", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रस्सी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ērā",
+      "kurukh_word_ascii": "Era",
+      "english_definition": "look out!",
+      "hindi_definition": "देखो!, ध्यान दो!",
+      "part_of_speech": "interjection",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "ērkē"
+      ],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "look out!; also ērkē: take care!", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "देखो!, ध्यान दो!; यह भी: ऐरके (सावधान रहो!, ध्यान रखो!)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "ērkē",
+      "kurukh_word_ascii": "erke",
+      "english_definition": "take care!",
+      "hindi_definition": "सावधान रहो!, ध्यान रखो!",
+      "part_of_speech": "interjection",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "take care!", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सावधान रहो!, ध्यान रखो!", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ērā",
+      "kurukh_word_ascii": "Era",
+      "english_definition": "Indeed! Really! Is it possible?",
+      "hindi_definition": "वास्तव में!, सचमुच!, क्या यह संभव है?",
+      "part_of_speech": "interjection",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "crā tō!"
+      ],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "Indeed! Really! Is it possible?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वास्तव में!, सचमुच!, क्या यह संभव है?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ēram be'enā",
+      "kurukh_word_ascii": "Eram be'ena",
+      "english_definition": "to imitate, mimic",
+      "hindi_definition": "नकल करना, स्वांग रचना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to imitate, mimic", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नकल करना, स्वांग रचना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ērā khane",
+      "kurukh_word_ascii": "Era khane",
+      "english_definition": "seeing, upon seeing, having seen",
+      "hindi_definition": "देखकर, देखते ही, देखने पर",
+      "part_of_speech": "participle",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "seeing, upon seeing, having seen", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "देखकर, देखते ही, देखने पर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ērnum",
+      "kurukh_word_ascii": "Ernum",
+      "english_definition": "in seeing, seeing",
+      "hindi_definition": "देखते हुए, देखते-देखते",
+      "part_of_speech": "participle",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "ērnum ērnum"
+      ],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "in seeing, seeing", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "देखते हुए, देखते-देखते", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "ērnum ērnum",
+      "kurukh_word_ascii": "ernum ernum",
+      "english_definition": "in seeing, seeing",
+      "hindi_definition": "देखते हुए, देखते-देखते",
+      "part_of_speech": "participle",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnum",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "in seeing, seeing", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "देखते हुए, देखते-देखते", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ērnā",
+      "kurukh_word_ascii": "Erna",
+      "english_definition": "to see, perceive",
+      "hindi_definition": "देखना, समझना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to see, perceive", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "देखना, समझना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ērnakrnā",
+      "kurukh_word_ascii": "Ernakrna",
+      "english_definition": "to look at each other",
+      "hindi_definition": "एक-दूसरे को देखना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to look at each other", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक-दूसरे को देखना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "Ērnā khōjnā",
+      "kurukh_word_ascii": "Erna khojna",
+      "english_definition": "to look after, take charge of, protect",
+      "hindi_definition": "देखभाल करना, प्रभार लेना, रक्षा करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to look after, take charge of, protect", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "देखभाल करना, प्रभार लेना, रक्षा करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "āḍḍā ērnā",
+      "kurukh_word_ascii": "adda erna",
+      "english_definition": "to look out for an opportunity",
+      "hindi_definition": "अवसर की तलाश करना, मौका देखना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to look out for an opportunity", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अवसर की तलाश करना, मौका देखना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "beṇḍhrā ērnā",
+      "kurukh_word_ascii": "bendhra erna",
+      "english_definition": "to look around",
+      "hindi_definition": "चारों ओर देखना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to look around", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चारों ओर देखना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "caugurdā ērnā",
+      "kurukh_word_ascii": "caugurda erna",
+      "english_definition": "to look all around, in all directions",
+      "hindi_definition": "चारों तरफ देखना, सभी दिशाओं में देखना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to look all around, in all directions", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चारों तरफ देखना, सभी दिशाओं में देखना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "fuḍḍā ērnā",
+      "kurukh_word_ascii": "fudda erna",
+      "english_definition": "to make use of an opportunity",
+      "hindi_definition": "अवसर का लाभ उठाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to make use of an opportunity", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अवसर का लाभ उठाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "kārā ērnā",
+      "kurukh_word_ascii": "kara erna",
+      "english_definition": "to squint, envy",
+      "hindi_definition": "तिरछी नज़र से देखना, ईर्ष्या करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to squint, envy", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तिरछी नज़र से देखना, ईर्ष्या करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "khēkhēl ērnā",
+      "kurukh_word_ascii": "khekhel erna",
+      "english_definition": "to spy, to peep through",
+      "hindi_definition": "जासूसी करना, ताक-झांक करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to spy, to peep through", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जासूसी करना, ताक-झांक करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "kir ērnā",
+      "kurukh_word_ascii": "kir erna",
+      "english_definition": "to look round, turn round",
+      "hindi_definition": "पीछे मुड़कर देखना, मुड़ना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to look round, turn round", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पीछे मुड़कर देखना, मुड़ना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "mēn ērnā",
+      "kurukh_word_ascii": "men erna",
+      "english_definition": "to look up, to assume a proud air",
+      "hindi_definition": "ऊपर देखना, गर्व या घमंड दिखाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to look up, to assume a proud air", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ऊपर देखना, गर्व या घमंड दिखाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "pāhī ērnā",
+      "kurukh_word_ascii": "pahi erna",
+      "english_definition": "to attend to a guest, to be hospitable",
+      "hindi_definition": "अतिथि की सेवा करना, मेहमाननवाज़ी करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to attend to a guest, to be hospitable", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अतिथि की सेवा करना, मेहमाननवाज़ी करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "soggē ērnā",
+      "kurukh_word_ascii": "sogge erna",
+      "english_definition": "to sympathise, to have mercy",
+      "hindi_definition": "सहानुभूति रखना, दया करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to sympathise, to have mercy", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सहानुभूति रखना, दया करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    },
+    {
+      "kurukh_word": "taktaki ērnā",
+      "kurukh_word_ascii": "taktaki erna",
+      "english_definition": "to stare, gaze",
+      "hindi_definition": "टकटकी लगाकर देखना, एकटक देखना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": "Ērnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to stare, gaze", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "टकटकी लगाकर देखना, एकटक देखना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0056.jpg", "page_label": "52" }
+    }
+  ]
+}

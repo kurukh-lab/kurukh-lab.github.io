@@ -1,0 +1,655 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg",
+  "page_label": "50",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ēkā man khatrā ādin hōā",
+      "kurukh_word_ascii": "Eka man khatra adin hoa",
+      "english_definition": "relative pronoun example: the tree which fell take away",
+      "hindi_definition": "संबंधवाचक सर्वनाम उदाहरण: जो पेड़ गिर गया उसे ले जाओ",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "relative pronoun example: the tree which fell take away", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "संबंधवाचक सर्वनाम उदाहरण: जो पेड़ गिर गया उसे ले जाओ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkā cokkh",
+      "kurukh_word_ascii": "Eka cokkh",
+      "english_definition": "on which side?",
+      "hindi_definition": "किस ओर?, किस तरफ?",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "on which side?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "किस ओर?, किस तरफ?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkātarā",
+      "kurukh_word_ascii": "Ekatara",
+      "english_definition": "in which direction?",
+      "hindi_definition": "किस दिशा में?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "in which direction?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "किस दिशा में?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkā gē",
+      "kurukh_word_ascii": "Eka ge",
+      "english_definition": "when?",
+      "hindi_definition": "कब?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "when?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कब?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkā gūṭī",
+      "kurukh_word_ascii": "Eka guti",
+      "english_definition": "how far?",
+      "hindi_definition": "कितनी दूर?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how far?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितनी दूर?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkā gūṭī malā ā gūṭī",
+      "kurukh_word_ascii": "Eka guti mala a guti",
+      "english_definition": "if not — then",
+      "hindi_definition": "यदि नहीं — तो",
+      "part_of_speech": "conjunction",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "if not — then", "example_sentence_kurukh": "ēkā gūṭī maṇḍar malā ono'e, ā gūṭī kōṛē mal mano'e.", "example_sentence_translation": "If you do not take medicine, you can't recover." },
+        { "language": "hi", "definition": "यदि नहीं — तो", "example_sentence_kurukh": "ēkā gūṭī maṇḍar malā ono'e, ā gūṭī kōṛē mal mano'e.", "example_sentence_translation": "यदि आप दवा नहीं लेते हैं, तो आप ठीक नहीं हो सकते।" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkām je",
+      "kurukh_word_ascii": "Ekam je",
+      "english_definition": "whosoever",
+      "hindi_definition": "जो कोई भी",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "whosoever", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जो कोई भी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēka'm rakam",
+      "kurukh_word_ascii": "Eka'm rakam",
+      "english_definition": "in any way, somehow or other",
+      "hindi_definition": "किसी भी तरह से, जैसे-तैसे",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "in any way, somehow or other", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "किसी भी तरह से, जैसे-तैसे", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkayā",
+      "kurukh_word_ascii": "Ekaya",
+      "english_definition": "whither, to what place?",
+      "hindi_definition": "कहाँ, किस स्थान को?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "whither, to what place?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कहाँ, किस स्थान को?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkāstī",
+      "kurukh_word_ascii": "Ekasti",
+      "english_definition": "from whence, which place?",
+      "hindi_definition": "कहाँ से, किस स्थान से?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "from whence, which place?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कहाँ से, किस स्थान से?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkāsse",
+      "kurukh_word_ascii": "Ekasse",
+      "english_definition": "how, in what manner?",
+      "hindi_definition": "कैसे, किस प्रकार से?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "ēkāsem"
+      ],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how, in what manner?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कैसे, किस प्रकार से?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "ēkāsem",
+      "kurukh_word_ascii": "ekasem",
+      "english_definition": "how, in what manner?",
+      "hindi_definition": "कैसे, किस प्रकार से?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkāsse",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how, in what manner?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कैसे, किस प्रकार से?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkānū",
+      "kurukh_word_ascii": "Ekanu",
+      "english_definition": "how, in which way?",
+      "hindi_definition": "कैसे, किस तरह से?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how, in which way?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कैसे, किस तरह से?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkāttī",
+      "kurukh_word_ascii": "Ekatti",
+      "english_definition": "from which, i.e., that, for the purpose of",
+      "hindi_definition": "जिससे कि, ताक़ि, उस उद्देश्य के लिए",
+      "part_of_speech": "conjunction",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "ēkātī"
+      ],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "from which, i.e., that, for the purpose of", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जिससे कि, ताक़ि, उस उद्देश्य के लिए", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "ēkātī",
+      "kurukh_word_ascii": "ekati",
+      "english_definition": "from which, i.e., that, for the purpose of",
+      "hindi_definition": "जिससे कि, ताक़ि, उस उद्देश्य के लिए",
+      "part_of_speech": "conjunction",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkāttī",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "from which, i.e., that, for the purpose of", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जिससे कि, ताक़ि, उस उद्देश्य के लिए", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkaullā",
+      "kurukh_word_ascii": "Ekaulla",
+      "english_definition": "on what day?",
+      "hindi_definition": "किस दिन?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "on what day?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "किस दिन?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkāortas",
+      "kurukh_word_ascii": "Ekaortas",
+      "english_definition": "who? (masculine)",
+      "hindi_definition": "कौन? (पुल्लिंग)",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "who? (masculine)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कौन? (पुल्लिंग)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkāorti",
+      "kurukh_word_ascii": "Ekaorti",
+      "english_definition": "who? (feminine)",
+      "hindi_definition": "कौन? (स्त्रीलिंग)",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "who? (feminine)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कौन? (स्त्रीलिंग)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkām lekh'ā",
+      "kurukh_word_ascii": "Ekam lekh'a",
+      "english_definition": "what like?",
+      "hindi_definition": "कैसा, किस तरह का?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "what like?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कैसा, किस तरह का?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkānne",
+      "kurukh_word_ascii": "Ekanne",
+      "english_definition": "how in what way, by which means?",
+      "hindi_definition": "कैसे, किस प्रकार, किस साधन से?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "ēkānnem"
+      ],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how in what way, by which means?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कैसे, किस प्रकार, किस साधन से?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "ēkānnem",
+      "kurukh_word_ascii": "ekannem",
+      "english_definition": "how in what way, by which means?",
+      "hindi_definition": "कैसे, किस प्रकार, किस साधन से?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkānne",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how in what way, by which means?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कैसे, किस प्रकार, किस साधन से?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkānne nū",
+      "kurukh_word_ascii": "Ekanne nu",
+      "english_definition": "in any way, by any means",
+      "hindi_definition": "किसी भी तरह से, किसी भी साधन से",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkānne",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "in any way, by any means", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "किसी भी तरह से, किसी भी साधन से", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkānne nū manō",
+      "kurukh_word_ascii": "Ekanne nu mano",
+      "english_definition": "hole, if possible by all means let us, or if possible by any means then",
+      "hindi_definition": "यदि संभव हो तो हर हाल में, हर संभव प्रयास से",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkānne",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "hole, if possible by all means let us, or if possible by any means then", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "यदि संभव हो तो हर हाल में, हर संभव प्रयास से", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkānne nū hõ",
+      "kurukh_word_ascii": "Ekanne nu ho",
+      "english_definition": "by any means",
+      "hindi_definition": "हर हाल में, किसी भी तरह से",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkānne",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "by any means; Ēkānne cãkho'e ānnem khoyo'e: as you sow, so you will reap", "example_sentence_kurukh": "Ēkānne cãkho'e ānnem khoyo'e", "example_sentence_translation": "as you sow, so you will reap." },
+        { "language": "hi", "definition": "हर हाल में, किसी भी तरह से; एकान्ने चँखो'ए आन्नेम खोयो'ए (जैसा बोओगे वैसा काटोगे)", "example_sentence_kurukh": "Ēkānne cãkho'e ānnem khoyo'e", "example_sentence_translation": "जैसा बोओगे वैसा काटोगे।" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkēkā",
+      "kurukh_word_ascii": "Ekeka",
+      "english_definition": "suddenly",
+      "hindi_definition": "अचानक, एकाएक",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "suddenly", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अचानक, एकाएक", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēklā",
+      "kurukh_word_ascii": "Ekla",
+      "english_definition": "alone",
+      "hindi_definition": "अकेला",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "alone", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अकेला", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkdā",
+      "kurukh_word_ascii": "Ekda",
+      "english_definition": "which, what; referring to neutral subjects only",
+      "hindi_definition": "कौन सा, क्या (केवल नपुंसक लिंग/निर्जीव विषयों के लिए)",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "which, what (referring to neutral subjects only); ēkdā nū barckai: in which did you come? i.e., in what kind of vehicle", "example_sentence_kurukh": "ēkdā nū barckai", "example_sentence_translation": "in which did you come? i.e., in what kind of vehicle." },
+        { "language": "hi", "definition": "कौन सा, क्या (केवल नपुंसक लिंग/निर्जीव विषयों के लिए); ēkdā nū barckai: तुम किसमें आए? (यानी किस प्रकार के वाहन में)", "example_sentence_kurukh": "ēkdā nū barckai", "example_sentence_translation": "तुम किसमें आए? यानी किस प्रकार के वाहन में।" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkhō",
+      "kurukh_word_ascii": "Ekho",
+      "english_definition": "where?",
+      "hindi_definition": "कहाँ?",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "okhō"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "where?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कहाँ?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "okhō",
+      "kurukh_word_ascii": "okho",
+      "english_definition": "where?",
+      "hindi_definition": "कहाँ?",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkhō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "where?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कहाँ?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkh",
+      "kurukh_word_ascii": "Ekh",
+      "english_definition": "shade",
+      "hindi_definition": "छाया, छाँव",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "shade", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छाया, छाँव", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkh",
+      "kurukh_word_ascii": "Ekh",
+      "english_definition": "the shade-like body of a departed soul",
+      "hindi_definition": "मृतक आत्मा की छाया, परछाई",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "the shade-like body of a departed soul", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मृतक आत्मा की छाया, परछाई", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    },
+    {
+      "kurukh_word": "Ēkh",
+      "kurukh_word_ascii": "Ekh",
+      "english_definition": "mercy, compassion, favor",
+      "hindi_definition": "दया, करुणा, कृपा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 3,
+      "meanings": [
+        { "language": "en", "definition": "mercy, compassion, favor", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दया, करुणा, कृपा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0054.jpg", "page_label": "50" }
+    }
+  ]
+}

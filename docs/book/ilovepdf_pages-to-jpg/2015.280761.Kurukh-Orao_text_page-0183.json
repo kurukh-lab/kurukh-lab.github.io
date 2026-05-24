@@ -1,0 +1,264 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0183.jpg",
+  "page_label": "179",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ubkrnā",
+      "kurukh_word_ascii": "Ubkrna",
+      "english_definition": "to engrave, carve",
+      "hindi_definition": "नक्काशी करना, उकेरना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ubsnā",
+      "kurukh_word_ascii": "Ubsna",
+      "english_definition": "to fast",
+      "hindi_definition": "उपवास करना, व्रत रखना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ubstā'anā",
+      "kurukh_word_ascii": "Ubsta'ana",
+      "english_definition": "to cause to fast",
+      "hindi_definition": "उपवास कराना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ucukūnī",
+      "kurukh_word_ascii": "Ucukuni",
+      "english_definition": "a little bit",
+      "hindi_definition": "ज़रा सा, थोड़ा सा",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Uchchnā",
+      "kurukh_word_ascii": "Uchchna",
+      "english_definition": "to be satiated",
+      "hindi_definition": "तृप्त होना, अघाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Udgnā",
+      "kurukh_word_ascii": "Udgna",
+      "english_definition": "to prick, sting",
+      "hindi_definition": "चुभना, डंक मारना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Uddā",
+      "kurukh_word_ascii": "Udda",
+      "english_definition": "a walking stick",
+      "hindi_definition": "लाठी, बैसाखी, छड़ी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Uddā k̲h̲ārnā",
+      "kurukh_word_ascii": "Udda kharna",
+      "english_definition": "to be hurt accidentally by a walking stick or other support",
+      "hindi_definition": "छड़ी या अन्य सहारे से दुर्घटनावश चोटिल होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Uddū",
+      "kurukh_word_ascii": "Uddu",
+      "english_definition": "basket",
+      "hindi_definition": "टोकरी, चंगेरी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Uddū",
+      "kurukh_word_ascii": "Uddu",
+      "english_definition": "a measure equal to eighty pounds",
+      "hindi_definition": "अस्सी पाउंड के बराबर एक माप",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Udhārī kā'anā",
+      "kurukh_word_ascii": "Udhari ka'ana",
+      "english_definition": "to abscond, to elope with some person",
+      "hindi_definition": "भाग जाना, किसी के साथ भाग जाना (सह-पलायन)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Udhbrārnā",
+      "kurukh_word_ascii": "Udhbrarna",
+      "english_definition": "to get up, disperse (as a herd after midday rest)",
+      "hindi_definition": "उठना, तितर-बितर होना (जैसे दोपहर के आराम के बाद मवेशी)",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Udhrārnā",
+      "kurukh_word_ascii": "Udhrarna",
+      "english_definition": "to go home, to revert, apostatize",
+      "hindi_definition": "घर जाना, वापस जाना, धर्मत्याग करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Udhrā'anā",
+      "kurukh_word_ascii": "Udhra'ana",
+      "english_definition": "to cause to revert, apostatize",
+      "hindi_definition": "वापस लौटाना, धर्मत्याग कराना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Udhyārnā",
+      "kurukh_word_ascii": "Udhyarna",
+      "english_definition": "to evaporate",
+      "hindi_definition": "वाष्पीकृत होना, उड़ जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Udhyārnā",
+      "kurukh_word_ascii": "Udhyarna",
+      "english_definition": "to become stale, flat",
+      "hindi_definition": "बासी होना, बेस्वाद होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Udrnā",
+      "kurukh_word_ascii": "Udrna",
+      "english_definition": "to walk with the help of a stick or support",
+      "hindi_definition": "लाठी या सहारे के बल चलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Ufrārnā",
+      "kurukh_word_ascii": "Ufrarna",
+      "english_definition": "to roll about",
+      "hindi_definition": "लोटना, लुढ़कना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ugī",
+      "kurukh_word_ascii": "Ugi",
+      "english_definition": "the rope or net used for carrying loads",
+      "hindi_definition": "भार ढोने के लिए प्रयुक्त रस्सी या जाल, सीका",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ugī-pāṭā",
+      "kurukh_word_ascii": "Ugi-pata",
+      "english_definition": "the pole and ropes with which loads are carried",
+      "hindi_definition": "वह बहँगी और रस्सियाँ जिससे भार ले जाया जाता है",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Uguldubuk mannā",
+      "kurukh_word_ascii": "Uguldubuk manna",
+      "english_definition": "to be confounded, perplexed",
+      "hindi_definition": "भ्रमित होना, व्याकुल होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ugla'anā",
+      "kurukh_word_ascii": "Ugla'ana",
+      "english_definition": "to vomit up",
+      "hindi_definition": "उगलना, उल्टी करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ugtā",
+      "kurukh_word_ascii": "Ugta",
+      "english_definition": "plough",
+      "hindi_definition": "हल (खेती का)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ugtā-pagsī",
+      "kurukh_word_ascii": "Ugta-pagsi",
+      "english_definition": "plough yoke",
+      "hindi_definition": "हल का जुआ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ugtā-pagsī-bīṅkō",
+      "kurukh_word_ascii": "Ugta-pagsi-bingko",
+      "english_definition": "the Orion constellation",
+      "hindi_definition": "मृगशिरा नक्षत्र (ओरियन)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Uinā",
+      "kurukh_word_ascii": "Uina",
+      "english_definition": "to put down, to hold, keep",
+      "hindi_definition": "नीचे रखना, पकड़ना, रखना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Uinā darā uinā",
+      "kurukh_word_ascii": "Uina dara uina",
+      "english_definition": "to put down, to place firmly",
+      "hindi_definition": "दृढ़ता से रखना, स्थापित करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Uinā",
+      "kurukh_word_ascii": "Uina",
+      "english_definition": "to plough",
+      "hindi_definition": "हल चलाना, जोतना",
+      "part_of_speech": "verb",
+      "verb_class": "usskan-uss'an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Uirā'anā",
+      "kurukh_word_ascii": "Uira'ana",
+      "english_definition": "to put in order, to array",
+      "hindi_definition": "क्रम में रखना, व्यवस्थित करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Uirnā",
+      "kurukh_word_ascii": "Uirna",
+      "english_definition": "to be put down, kept (passive of uina)",
+      "hindi_definition": "रखा जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ujjī",
+      "kurukh_word_ascii": "Ujji",
+      "english_definition": "substitute",
+      "hindi_definition": "बदली, एवजी, विकल्प",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ujjī mannā",
+      "kurukh_word_ascii": "Ujji manna",
+      "english_definition": "to become a substitute",
+      "hindi_definition": "एवजी होना, विकल्प बनना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ujbak",
+      "kurukh_word_ascii": "Ujbak",
+      "english_definition": "owl",
+      "hindi_definition": "उल्लू (पक्षी)",
+      "part_of_speech": "noun"
+    }
+  ]
+}

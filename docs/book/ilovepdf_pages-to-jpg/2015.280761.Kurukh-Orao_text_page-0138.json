@@ -1,0 +1,257 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0138.jpg",
+  "page_label": "134",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Nichakii-mase",
+      "kurukh_word_ascii": "Nichakii-mase",
+      "english_definition": "same as Nichak (adv.)",
+      "hindi_definition": "उसी प्रकार, निचक की भाँति",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Nichakim",
+      "kurukh_word_ascii": "Nichakim",
+      "english_definition": "same as above",
+      "hindi_definition": "उसी प्रकार",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Nidī",
+      "kurukh_word_ascii": "Nidi",
+      "english_definition": "empty, mere, sheer, only, alone",
+      "hindi_definition": "खाली, केवल, अकेला, सिर्फ",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Nidī khekh'd",
+      "kurukh_word_ascii": "Nidi khekh'd",
+      "english_definition": "empty-handed",
+      "hindi_definition": "खाली हाथ",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nidī jhath va'",
+      "kurukh_word_ascii": "Nidi jhath va'",
+      "english_definition": "that's merely a lie",
+      "hindi_definition": "वह केवल झूठ है",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nid'im",
+      "kurukh_word_ascii": "Nid'im",
+      "english_definition": "useless, without profit, without purpose",
+      "hindi_definition": "बेकार, निरर्थक, बिना फायदे के",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Nidignā",
+      "kurukh_word_ascii": "Nidignā",
+      "english_definition": "to melt",
+      "hindi_definition": "पिघलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "transitivity": "intr"
+    },
+    {
+      "kurukh_word": "Nidignā",
+      "kurukh_word_ascii": "Nidignā",
+      "english_definition": "to fall off, as leaves from the tree",
+      "hindi_definition": "पत्तों का झड़ना",
+      "part_of_speech": "verb",
+      "transitivity": "intr",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Nid'im",
+      "kurukh_word_ascii": "Nid'im",
+      "english_definition": "someone, anyone",
+      "hindi_definition": "कोई, कोई भी",
+      "part_of_speech": "pron",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Nidim nidimgā",
+      "kurukh_word_ascii": "Nidim nidimga",
+      "english_definition": "someone or other",
+      "hindi_definition": "कोई न कोई",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nignigrā",
+      "kurukh_word_ascii": "Nignigra",
+      "english_definition": "to become devoid; as a tree, when devoid of leaves",
+      "hindi_definition": "पत्तों से रहित हो जाना (पेड़ का)",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Nignigrā",
+      "kurukh_word_ascii": "Nignigra",
+      "english_definition": "entirely",
+      "hindi_definition": "पूरी तरह से",
+      "part_of_speech": "adv",
+      "example_phrase": "nignigra cada — pluck out entirely",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Nijrnā",
+      "kurukh_word_ascii": "Nijrna",
+      "english_definition": "to regain consciousness after intoxication or sleep, to become sober, to awake",
+      "hindi_definition": "नशे या नींद के बाद होश में आना, सजग होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Nikhnikhrna",
+      "kurukh_word_ascii": "Nikhnikhrna",
+      "english_definition": "to extinguish entirely",
+      "hindi_definition": "पूरी तरह से बुझाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Nikhōarnā",
+      "kurukh_word_ascii": "Nikhoarna",
+      "english_definition": "to sob, to cry bitterly",
+      "hindi_definition": "सिसकना, जोर से रोना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Nikhēarnā",
+      "kurukh_word_ascii": "Nikhearna",
+      "english_definition": "to sigh, to draw a long breath",
+      "hindi_definition": "आह भरना, लंबी सांस लेना",
+      "part_of_speech": "verb"
+    },
+    {
+      "kurukh_word": "Nik'im",
+      "kurukh_word_ascii": "Nik'im",
+      "english_definition": "somebody, someone, anyone",
+      "hindi_definition": "कोई, कोई व्यक्ति",
+      "part_of_speech": "pron"
+    },
+    {
+      "kurukh_word": "Nik'im",
+      "kurukh_word_ascii": "Nik'im",
+      "english_definition": "whosoever, anyone",
+      "hindi_definition": "जो भी हो, कोई भी",
+      "part_of_speech": "pron",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Nik'im nik'imgā",
+      "kurukh_word_ascii": "Nik'im nik'imga",
+      "english_definition": "somebody, someone or other",
+      "hindi_definition": "कोई न कोई",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Niktahī",
+      "kurukh_word_ascii": "Niktahi",
+      "english_definition": "unkind woman, girl",
+      "hindi_definition": "निर्दयी स्त्री, लड़की",
+      "part_of_speech": "noun",
+      "gender": "f"
+    },
+    {
+      "kurukh_word": "Nikt'ā",
+      "kurukh_word_ascii": "Nikt'a",
+      "english_definition": "unkind man, boy",
+      "hindi_definition": "निर्दयी पुरुष, लड़का",
+      "part_of_speech": "noun",
+      "gender": "m"
+    },
+    {
+      "kurukh_word": "Nilbnā",
+      "kurukh_word_ascii": "Nilbna",
+      "english_definition": "to remove the grains from the ears of Indian-corn by rubbing them in the hands",
+      "hindi_definition": "मक्के की बालियों से दाने निकालना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Nilbnā",
+      "kurukh_word_ascii": "Nilbna",
+      "english_definition": "to remove the scales from fishes",
+      "hindi_definition": "मछली के शल्क निकालना",
+      "part_of_speech": "verb",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Nim",
+      "kurukh_word_ascii": "Nim",
+      "english_definition": "you",
+      "hindi_definition": "आप, तुम",
+      "part_of_speech": "pron"
+    },
+    {
+      "kurukh_word": "Nimhāī",
+      "kurukh_word_ascii": "Nimhai",
+      "english_definition": "of you; nimā, to you",
+      "hindi_definition": "आपका; आपको",
+      "part_of_speech": "pron"
+    },
+    {
+      "kurukh_word": "Nimbas",
+      "kurukh_word_ascii": "Nimbas",
+      "english_definition": "your father",
+      "hindi_definition": "आपके पिता",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Nimrārnā",
+      "kurukh_word_ascii": "Nimrarna",
+      "english_definition": "to improve, to mend one's ways",
+      "hindi_definition": "सुधरना, अपने आचरण को सुधारना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Nimra'ānā",
+      "kurukh_word_ascii": "Nimra'ana",
+      "english_definition": "to be out of stock, finished",
+      "hindi_definition": "स्टॉक खत्म होना, समाप्त होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-an"
+    },
+    {
+      "kurukh_word": "Nimtārnā",
+      "kurukh_word_ascii": "Nimtarna",
+      "english_definition": "to become sober",
+      "hindi_definition": "होश में आना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-an"
+    },
+    {
+      "kurukh_word": "Nin",
+      "kurukh_word_ascii": "Nin",
+      "english_definition": "thou",
+      "hindi_definition": "तू",
+      "part_of_speech": "pron"
+    },
+    {
+      "kurukh_word": "Ninghāī",
+      "kurukh_word_ascii": "Ninghai",
+      "english_definition": "of thee; ningā, to thee",
+      "hindi_definition": "तेरा; तुझे",
+      "part_of_speech": "pron"
+    },
+    {
+      "kurukh_word": "Ningyē",
+      "kurukh_word_ascii": "Ningye",
+      "english_definition": "your mother",
+      "hindi_definition": "तेरी माँ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ningris",
+      "kurukh_word_ascii": "Ningris",
+      "english_definition": "your brother",
+      "hindi_definition": "तेरा भाई",
+      "part_of_speech": "noun"
+    }
+  ]
+}

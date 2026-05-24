@@ -1,0 +1,278 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0099.jpg",
+  "page_label": "95",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kuttiallā",
+      "kurukh_word_ascii": "Kuttialla",
+      "english_definition": "a she dog.",
+      "hindi_definition": "मादा कुत्ता, कुतिया।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṭṭā",
+      "kurukh_word_ascii": "Kutta",
+      "english_definition": "chaff.",
+      "hindi_definition": "भूसा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kūṭī",
+      "kurukh_word_ascii": "Kuti",
+      "english_definition": "prep. also kūṭi kūṭī, aside, on the side of.",
+      "hindi_definition": "बगल में, एक तरफ।",
+      "part_of_speech": "preposition",
+      "notes": "Variant: kūṭi kūṭī"
+    },
+    {
+      "kurukh_word": "Kūṭī mannā",
+      "kurukh_word_ascii": "Kuti manna",
+      "english_definition": "to move aside.",
+      "hindi_definition": "एक तरफ हटना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Example in italic: Kūṭī mannā and kūṭi nannā"
+    },
+    {
+      "kurukh_word": "Kūṭi nannā",
+      "kurukh_word_ascii": "Kuti nanna",
+      "english_definition": "to move aside.",
+      "hindi_definition": "एक तरफ हटना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Variant of Kūṭī mannā"
+    },
+    {
+      "kurukh_word": "Kuṭi rājē",
+      "kurukh_word_ascii": "Kuti raje",
+      "english_definition": "a foreign country.",
+      "hindi_definition": "विदेश, परदेस।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kūṭī bāhārī",
+      "kurukh_word_ascii": "Kuti bahari",
+      "english_definition": "adv. all around.",
+      "hindi_definition": "चारों तरफ, चहुँ ओर।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Merkhā kūṭī",
+      "kurukh_word_ascii": "Merkha kuti",
+      "english_definition": "the horizon.",
+      "hindi_definition": "क्षितिज।",
+      "part_of_speech": "noun phrase",
+      "notes": "Compound with merkhā (sky/edge)"
+    },
+    {
+      "kurukh_word": "Kuṭnī",
+      "kurukh_word_ascii": "Kutni",
+      "english_definition": "an enticing, fascinating woman; a woman of bad character.",
+      "hindi_definition": "फुसलाने वाली, बुरे चरित्र वाली महिला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṭū",
+      "kurukh_word_ascii": "Kutu",
+      "english_definition": "a miser.",
+      "hindi_definition": "कंजूस।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṭṭhī",
+      "kurukh_word_ascii": "Kutthi",
+      "english_definition": "an earthen enclosure inside the house for storing up rice.",
+      "hindi_definition": "घर के अंदर चावल रखने का मिट्टी का घेरा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaclā",
+      "kurukh_word_ascii": "Khacla",
+      "english_definition": "basket of small size, used in the Haḍḍibōr festival.",
+      "hindi_definition": "छोटी टोकरी, हड्डीबोर उत्सव में प्रयुक्त।",
+      "part_of_speech": "noun",
+      "notes": "Used in Haḍḍibōr festival; Kh. section begins"
+    },
+    {
+      "kurukh_word": "Khacnā",
+      "kurukh_word_ascii": "Khacna",
+      "english_definition": "kan, yan, to press down, shake down, as corn in a measure.",
+      "hindi_definition": "नाप में अनाज को दबाना, हिलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khadrā khudrō",
+      "kurukh_word_ascii": "Khadra khudro",
+      "english_definition": "adj. rough, spotted as of small-pox.",
+      "hindi_definition": "खुरदुरा, चेचक के दाग जैसा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khādī",
+      "kurukh_word_ascii": "Khadi",
+      "english_definition": "wound.",
+      "hindi_definition": "घाव।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khādī mannā",
+      "kurukh_word_ascii": "Khadi manna",
+      "english_definition": "to be wounded.",
+      "hindi_definition": "घायल होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khadrkhudrā",
+      "kurukh_word_ascii": "Khadrkhudra",
+      "english_definition": "itches.",
+      "hindi_definition": "खुजली।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khadkhadrnā",
+      "kurukh_word_ascii": "Khadkhadrna",
+      "english_definition": "kan, an, to be excessive.",
+      "hindi_definition": "अत्यधिक होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khadkhadr alkhnā",
+      "kurukh_word_ascii": "Khadkhadr alkhna",
+      "english_definition": "to laugh excessively.",
+      "hindi_definition": "अत्यधिक हँसना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khadkhudrnā",
+      "kurukh_word_ascii": "Khadkhudrna",
+      "english_definition": "kan, an, to rumble.",
+      "hindi_definition": "गड़गड़ाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khagnā",
+      "kurukh_word_ascii": "Khagna",
+      "english_definition": "brackets.",
+      "hindi_definition": "ब्रैकेट।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khāhī",
+      "kurukh_word_ascii": "Khahi",
+      "english_definition": "dried corns of maize.",
+      "hindi_definition": "सूखे मक्के के दाने।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khai-khaiā",
+      "kurukh_word_ascii": "Khai-khaia",
+      "english_definition": "fox.",
+      "hindi_definition": "लोमड़ी।",
+      "part_of_speech": "noun",
+      "notes": "Reduplicated form"
+    },
+    {
+      "kurukh_word": "Khajnā",
+      "kurukh_word_ascii": "Khajna",
+      "english_definition": "kan, an, to clean the hair with clay.",
+      "hindi_definition": "मिट्टी से बाल साफ करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khakhar",
+      "kurukh_word_ascii": "Khakhar",
+      "english_definition": "phlegm.",
+      "hindi_definition": "कफ, बलगम।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khakar nannā",
+      "kurukh_word_ascii": "Khakar nanna",
+      "english_definition": "to force out the phlegm.",
+      "hindi_definition": "कफ बाहर निकालना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khakhrā-injō",
+      "kurukh_word_ascii": "Khakhra-injo",
+      "english_definition": "a kind of fish.",
+      "hindi_definition": "एक प्रकार की मछली।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khakhī",
+      "kurukh_word_ascii": "Khakhi",
+      "english_definition": "a greedy person.",
+      "hindi_definition": "लालची व्यक्ति।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khakhdārnā",
+      "kurukh_word_ascii": "Khakhdarna",
+      "english_definition": "ckan, c'an, to be very hungry.",
+      "hindi_definition": "बहुत भूखा होना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khakhrārkī onnā mokhnā",
+      "kurukh_word_ascii": "Khakhrarki onna mokhna",
+      "english_definition": "to eat greedily.",
+      "hindi_definition": "लालच से खाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khakhta'anā",
+      "kurukh_word_ascii": "Khakhta'ana",
+      "english_definition": "ckan, c'an, to threaten.",
+      "hindi_definition": "धमकाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaliya'anā",
+      "kurukh_word_ascii": "Khaliya'ana",
+      "english_definition": "ckan, c'an, to skin, flay.",
+      "hindi_definition": "खाल उतारना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khallī",
+      "kurukh_word_ascii": "Khalli",
+      "english_definition": "the threshing floor.",
+      "hindi_definition": "खलिहान।",
+      "part_of_speech": "noun",
+      "notes": ""
+    }
+  ]
+}

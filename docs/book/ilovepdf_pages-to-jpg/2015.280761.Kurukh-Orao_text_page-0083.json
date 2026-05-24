@@ -1,0 +1,295 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0083.jpg",
+  "page_label": "79",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Jharnārnā",
+      "kurukh_word_ascii": "Jharnarana",
+      "english_definition": "kan, an, to flow out as of a spring.",
+      "hindi_definition": "झरना, झरना के रूप में बहना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhaṭ",
+      "kurukh_word_ascii": "Jhat",
+      "english_definition": "H. adv. quickly.",
+      "hindi_definition": "झट, तुरंत।",
+      "part_of_speech": "adverb",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhaṭṭā",
+      "kurukh_word_ascii": "Jhatta",
+      "english_definition": "hedge.",
+      "hindi_definition": "बाड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhaṭīnā",
+      "kurukh_word_ascii": "Jhatina",
+      "english_definition": "ckan c'an, to rebuke.",
+      "hindi_definition": "डाँटना, फटकारना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhaṭīārnā",
+      "kurukh_word_ascii": "Jhatiarna",
+      "english_definition": "kan, an, to be rebuked.",
+      "hindi_definition": "डाँटा जाना, फटकारा जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Passive of Jhaṭīnā."
+    },
+    {
+      "kurukh_word": "Jhejhrā",
+      "kurukh_word_ascii": "Jhejhra",
+      "english_definition": "adj. torn, broken, dilapidated.",
+      "hindi_definition": "फटा हुआ, टूटा हुआ, जीर्ण-शीर्ण।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jheknā",
+      "kurukh_word_ascii": "Jhekna",
+      "english_definition": "ckan, c'an, H. to hinder, prevent.",
+      "hindi_definition": "रोकना, बाधा डालना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhēl mannā",
+      "kurukh_word_ascii": "Jhel manna",
+      "english_definition": "to be difficult.",
+      "hindi_definition": "कठिन होना, मुश्किल होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhelrā",
+      "kurukh_word_ascii": "Jhelra",
+      "english_definition": "adj. torn, rent as of cloth.",
+      "hindi_definition": "फटा हुआ, कपड़े की तरह चिरा हुआ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhibrā allā",
+      "kurukh_word_ascii": "Jhibra alla",
+      "english_definition": "adj. a long-haired dog.",
+      "hindi_definition": "लंबे बालों वाला कुत्ता।",
+      "part_of_speech": "adjective phrase",
+      "notes": "allā = dog"
+    },
+    {
+      "kurukh_word": "Jhibrā",
+      "kurukh_word_ascii": "Jhibra",
+      "english_definition": "adj. to spread out, to split.",
+      "hindi_definition": "फैला हुआ, विभाजित।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhikā",
+      "kurukh_word_ascii": "Jhika",
+      "english_definition": "earring.",
+      "hindi_definition": "कानबाली, कर्णफूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhikā tirā nannā",
+      "kurukh_word_ascii": "Jhika tira nanna",
+      "english_definition": "to seize, to force, compel.",
+      "hindi_definition": "पकड़ना, जबरदस्ती करना, मजबूर करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhilā injō",
+      "kurukh_word_ascii": "Jhila injo",
+      "english_definition": "a kind of fish.",
+      "hindi_definition": "एक प्रकार की मछली।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhilmilrnā",
+      "kurukh_word_ascii": "Jhilmilrna",
+      "english_definition": "kan, an, to shine, glitter.",
+      "hindi_definition": "चमकना, झिलमिलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhimpā-ghāsī",
+      "kurukh_word_ascii": "Jhimpa-ghasi",
+      "english_definition": "H. sawā, the long grass in rice-fields.",
+      "hindi_definition": "सावां, धान के खेतों की लंबी घास।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhimrī",
+      "kurukh_word_ascii": "Jhimri",
+      "english_definition": "a large basket for catching fish.",
+      "hindi_definition": "मछली पकड़ने की बड़ी टोकरी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhiṅgā",
+      "kurukh_word_ascii": "Jhinga",
+      "english_definition": "H. jhingī, a kind of cucumber.",
+      "hindi_definition": "झींगी, एक प्रकार की खीरा।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhinto",
+      "kurukh_word_ascii": "Jhinto",
+      "english_definition": "reed.",
+      "hindi_definition": "नरकट, सरकंडा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhitir jhitir po'ēnā",
+      "kurukh_word_ascii": "Jhitir jhitir po'ena",
+      "english_definition": "to rain moderately, but constantly.",
+      "hindi_definition": "हल्की किंतु लगातार बारिश होना।",
+      "part_of_speech": "verb phrase",
+      "notes": "Reduplicated form of jhitir."
+    },
+    {
+      "kurukh_word": "Jhoknā",
+      "kurukh_word_ascii": "Jhokna",
+      "english_definition": "ckan, c'an, to grasp, to take hold of.",
+      "hindi_definition": "पकड़ना, थामना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jholā",
+      "kurukh_word_ascii": "Jhola",
+      "english_definition": "soot.",
+      "hindi_definition": "कालिख, काजल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jholpolhem",
+      "kurukh_word_ascii": "Jholpolhem",
+      "english_definition": "early dawn.",
+      "hindi_definition": "ब्रह्ममुहूर्त, प्रातःकाल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jholnā",
+      "kurukh_word_ascii": "Jholna",
+      "english_definition": "ckan, c'an, to singe the feathers of a bird preparatory to roasting it.",
+      "hindi_definition": "भूनने से पहले पक्षी के पंख जलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jholiṅgī mannā",
+      "kurukh_word_ascii": "Jholingi manna",
+      "english_definition": "to be weak.",
+      "hindi_definition": "कमज़ोर होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jholrnā",
+      "kurukh_word_ascii": "Jholrna",
+      "english_definition": "kan, an, to singe.",
+      "hindi_definition": "झुलसाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhoṅghā",
+      "kurukh_word_ascii": "Jhongha",
+      "english_definition": "abyss.",
+      "hindi_definition": "खाई, गहरा गड्ढा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhopā",
+      "kurukh_word_ascii": "Jhopa",
+      "english_definition": "bunch.",
+      "hindi_definition": "गुच्छा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhor",
+      "kurukh_word_ascii": "Jhor",
+      "english_definition": "soup.",
+      "hindi_definition": "सूप, शोरबा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhublu",
+      "kurukh_word_ascii": "Jhublu",
+      "english_definition": "a person with long hair, worn down to the shoulders.",
+      "hindi_definition": "कंधों तक लंबे बाल वाला व्यक्ति।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhuknā",
+      "kurukh_word_ascii": "Jhukna",
+      "english_definition": "ckan, c'an, to shake a tree for obtaining its fruits.",
+      "hindi_definition": "फल पाने के लिए पेड़ को हिलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhukāba'anā",
+      "kurukh_word_ascii": "Jhukaba'ana",
+      "english_definition": "ckan, c'an, H. to bent.",
+      "hindi_definition": "झुकाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhulā",
+      "kurukh_word_ascii": "Jhula",
+      "english_definition": "jacket worn by women.",
+      "hindi_definition": "महिलाओं का जैकेट, ब्लाउज़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Jhulrnā",
+      "kurukh_word_ascii": "Jhulrna",
+      "english_definition": "kan, an, to swing.",
+      "hindi_definition": "झूलना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    }
+  ]
+}

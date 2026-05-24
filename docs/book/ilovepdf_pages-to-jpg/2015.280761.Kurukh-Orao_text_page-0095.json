@@ -1,0 +1,301 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0095.jpg",
+  "page_label": "91",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kōrnā",
+      "kurukh_word_ascii": "Korna",
+      "english_definition": "ckan, c'an, to enter, penetrate.",
+      "hindi_definition": "प्रवेश करना, अंदर घुसना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kōrnā",
+      "kurukh_word_ascii": "Korna",
+      "english_definition": "kūrkan kūryan, to castrate, as a bull or horse; also to beat.",
+      "hindi_definition": "बधिया करना, जैसे बैल या घोड़े को; पीटना।",
+      "part_of_speech": "verb",
+      "verb_class": "kurkan-kuryan",
+      "homograph_index": 2,
+      "notes": "Second sense of Kōrnā."
+    },
+    {
+      "kurukh_word": "Kōror mōkhnā",
+      "kurukh_word_ascii": "Koror mokhna",
+      "english_definition": "to suffer or endure or undergo beating.",
+      "hindi_definition": "पिटाई सहना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kosā",
+      "kurukh_word_ascii": "Kosa",
+      "english_definition": "the fleshy part of the jack fruit.",
+      "hindi_definition": "कटहल का गूदा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kosārī",
+      "kurukh_word_ascii": "Kosari",
+      "english_definition": "sugarcane.",
+      "hindi_definition": "गन्ना।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kossē aṅglī",
+      "kurukh_word_ascii": "Kosse angli",
+      "english_definition": "the little finger.",
+      "hindi_definition": "छोटी अंगुली।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kospōk",
+      "kurukh_word_ascii": "Kospok",
+      "english_definition": "small black ant.",
+      "hindi_definition": "छोटी काली चींटी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kotog'nā",
+      "kurukh_word_ascii": "Kotog'na",
+      "english_definition": "to peck, strike with the beak.",
+      "hindi_definition": "चोंच मारना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Koṭrē mannā",
+      "kurukh_word_ascii": "Kotre manna",
+      "english_definition": "to be mutilated.",
+      "hindi_definition": "अंगहीन होना, कटा-फटा होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Koṭrē-ōrā",
+      "kurukh_word_ascii": "Kotre-ora",
+      "english_definition": "a kind of bird.",
+      "hindi_definition": "एक प्रकार का पक्षी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Koṭrē mann",
+      "kurukh_word_ascii": "Kotre mann",
+      "english_definition": "a kind of plant.",
+      "hindi_definition": "एक प्रकार का पौधा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Koyā",
+      "kurukh_word_ascii": "Koya",
+      "english_definition": "wild dog.",
+      "hindi_definition": "जंगली कुत्ता।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Krūs-kaṅk",
+      "kurukh_word_ascii": "Krus-kank",
+      "english_definition": "the cross.",
+      "hindi_definition": "सलीब, क्रॉस।",
+      "part_of_speech": "noun",
+      "notes": "Christian cross; kaṅk = wood."
+    },
+    {
+      "kurukh_word": "Kubī",
+      "kurukh_word_ascii": "Kubi",
+      "english_definition": "H. well, spring.",
+      "hindi_definition": "कुआँ, झरना।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kūbiārkha",
+      "kurukh_word_ascii": "Kubiarkha",
+      "english_definition": "cabbage.",
+      "hindi_definition": "पत्तागोभी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kub ta'anā",
+      "kurukh_word_ascii": "Kub ta'ana",
+      "english_definition": "ckan, c'an, to overwork, overstrain.",
+      "hindi_definition": "अत्यधिक काम करना, ओवरस्ट्रेन करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kubtārnā",
+      "kurukh_word_ascii": "Kubtarna",
+      "english_definition": "kan, an, to be overworked, to be run down.",
+      "hindi_definition": "थका-माँदा होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kubs kubsrnā",
+      "kurukh_word_ascii": "Kubs kubsrna",
+      "english_definition": "kan, an, to walk stooped.",
+      "hindi_definition": "झुककर चलना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kubu'i",
+      "kurukh_word_ascii": "Kubu'i",
+      "english_definition": "adj. humpbacked, crooked.",
+      "hindi_definition": "कुबड़ा, टेढ़ा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kucī",
+      "kurukh_word_ascii": "Kuci",
+      "english_definition": "a bolt.",
+      "hindi_definition": "कुंडी, सिटकनी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kucar",
+      "kurukh_word_ascii": "Kucar",
+      "english_definition": "enmity.",
+      "hindi_definition": "शत्रुता, दुश्मनी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kucnā",
+      "kurukh_word_ascii": "Kucna",
+      "english_definition": "kan, an, to pound.",
+      "hindi_definition": "कूटना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kucrnā",
+      "kurukh_word_ascii": "Kucrna",
+      "english_definition": "kan, an, to bruise.",
+      "hindi_definition": "चोट लगाना, कुचलना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kucr'hā",
+      "kurukh_word_ascii": "Kucr'ha",
+      "english_definition": "adj. malevolent.",
+      "hindi_definition": "दुर्भावनापूर्ण।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kudarkhā",
+      "kurukh_word_ascii": "Kudarkha",
+      "english_definition": "a kind of vegetable.",
+      "hindi_definition": "एक प्रकार की सब्ज़ी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kudnā",
+      "kurukh_word_ascii": "Kudna",
+      "english_definition": "kan, an, to spear, pierce.",
+      "hindi_definition": "भाला मारना, छेदना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuddnā",
+      "kurukh_word_ascii": "Kuddna",
+      "english_definition": "kan, yan, to wander, travel, walk about.",
+      "hindi_definition": "घूमना, यात्रा करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kudkī kuddnā",
+      "kurukh_word_ascii": "Kudki kuddna",
+      "english_definition": "to stroll about.",
+      "hindi_definition": "इधर-उधर घूमना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuddnā nuṅgnā",
+      "kurukh_word_ascii": "Kuddna nungna",
+      "english_definition": "to go astray, to make exercises.",
+      "hindi_definition": "भटकना, व्यायाम करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kudhā",
+      "kurukh_word_ascii": "Kudha",
+      "english_definition": "heap.",
+      "hindi_definition": "ढेर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kudhā",
+      "kurukh_word_ascii": "Kudha",
+      "english_definition": "adv. much, exceedingly.",
+      "hindi_definition": "बहुत, अत्यधिक।",
+      "part_of_speech": "adverb",
+      "homograph_index": 2,
+      "notes": "Second sense of Kudhā."
+    },
+    {
+      "kurukh_word": "Kudur nāl",
+      "kurukh_word_ascii": "Kudur nal",
+      "english_definition": "wet or low fields.",
+      "hindi_definition": "गीले या नीचे के खेत।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kudnā",
+      "kurukh_word_ascii": "Kudna",
+      "english_definition": "kan, an, to plait, braid, twist.",
+      "hindi_definition": "बुनना, गूँथना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "homograph_index": 2,
+      "notes": "Second sense of Kudnā."
+    },
+    {
+      "kurukh_word": "Kuḍḍā",
+      "kurukh_word_ascii": "Kudda",
+      "english_definition": "navel.",
+      "hindi_definition": "नाभि।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuḍḍī",
+      "kurukh_word_ascii": "Kuddi",
+      "english_definition": "hoe, the Indian spade.",
+      "hindi_definition": "कुदाली, भारतीय फावड़ा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    }
+  ]
+}

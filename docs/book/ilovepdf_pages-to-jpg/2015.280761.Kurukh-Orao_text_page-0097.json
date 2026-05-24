@@ -1,0 +1,270 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0097.jpg",
+  "page_label": "93",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kulhū",
+      "kurukh_word_ascii": "Kulhu",
+      "english_definition": "H. oilpress.",
+      "hindi_definition": "कोल्हू, तेल पेरने की मशीन।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kullā",
+      "kurukh_word_ascii": "Kulla",
+      "english_definition": "umbrella.",
+      "hindi_definition": "छाता।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kullnā",
+      "kurukh_word_ascii": "Kullna",
+      "english_definition": "kan, yan, to cover, to catch by throwing a net.",
+      "hindi_definition": "ढकना, जाल डालकर पकड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kullrnā",
+      "kurukh_word_ascii": "Kullrna",
+      "english_definition": "kan, an, to be covered.",
+      "hindi_definition": "ढका जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kulkutrnā",
+      "kurukh_word_ascii": "Kulkutrna",
+      "english_definition": "kan, an, to have an acid taste in the mouth.",
+      "hindi_definition": "मुँह में खट्टा स्वाद होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kūm",
+      "kurukh_word_ascii": "Kum",
+      "english_definition": "bamboo net for catching fish.",
+      "hindi_definition": "मछली पकड़ने का बाँस का जाल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kumbā",
+      "kurukh_word_ascii": "Kumba",
+      "english_definition": "H. a hut in the fields.",
+      "hindi_definition": "खेत की झोपड़ी।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kumhī-pūmp",
+      "kurukh_word_ascii": "Kumhi-pump",
+      "english_definition": "a kind of flower.",
+      "hindi_definition": "एक प्रकार का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kumhrā",
+      "kurukh_word_ascii": "Kumhra",
+      "english_definition": "H. potter.",
+      "hindi_definition": "कुम्हार।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kumnā",
+      "kurukh_word_ascii": "Kumna",
+      "english_definition": "kan, yan, to carry on the head.",
+      "hindi_definition": "सिर पर उठाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kunā",
+      "kurukh_word_ascii": "Kuna",
+      "english_definition": "adv. like, same; e.g., tani kunā, a little like=very little.",
+      "hindi_definition": "की तरह, जैसे; उदा. तनि कुना = थोड़े जैसे = बहुत थोड़ा।",
+      "part_of_speech": "adverb",
+      "notes": "Example given in original."
+    },
+    {
+      "kurukh_word": "Kunī",
+      "kurukh_word_ascii": "Kuni",
+      "english_definition": "adv. the same. nagad kunā, nice-like=nicely, goodly.",
+      "hindi_definition": "वैसा ही; नगद कुना = अच्छे तरह से।",
+      "part_of_speech": "adverb",
+      "notes": "Example phrase given in original."
+    },
+    {
+      "kurukh_word": "Kuṇḍī",
+      "kurukh_word_ascii": "Kundi",
+      "english_definition": "pit; cic-kuṇḍī, hell.",
+      "hindi_definition": "गड्ढा; cic-kuṇḍī = नरक।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṇḍī",
+      "kurukh_word_ascii": "Kundi",
+      "english_definition": "ancestral burial place, the place or grave in which the remaining bones of the cremated body of the ancestor are deposited.",
+      "hindi_definition": "पूर्वजों की हड्डियाँ रखने का स्थान।",
+      "part_of_speech": "noun",
+      "homograph_index": 2,
+      "notes": "Oraon ancestral burial/ossuary site."
+    },
+    {
+      "kurukh_word": "Kundnā",
+      "kurukh_word_ascii": "Kundna",
+      "english_definition": "kan, yan, to germinate, to beget, to give birth, to grow or spring up.",
+      "hindi_definition": "अंकुरित होना, जन्म देना, उगना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kundrnā",
+      "kurukh_word_ascii": "Kundrna",
+      "english_definition": "kan, an, to be born, begotten.",
+      "hindi_definition": "जन्म लेना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kundr kirrnā",
+      "kurukh_word_ascii": "Kundr kirrna",
+      "english_definition": "to be reborn, regenerate.",
+      "hindi_definition": "पुनर्जन्म लेना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kundrkā",
+      "kurukh_word_ascii": "Kundrka",
+      "english_definition": "birth.",
+      "hindi_definition": "जन्म।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kundrnā aḍḍā",
+      "kurukh_word_ascii": "Kundrna adda",
+      "english_definition": "birth-place.",
+      "hindi_definition": "जन्म स्थान।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṇḍō",
+      "kurukh_word_ascii": "Kundao",
+      "english_definition": "fertile.",
+      "hindi_definition": "उपजाऊ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṇḍlō",
+      "kurukh_word_ascii": "Kundlo",
+      "english_definition": "beaver, otter.",
+      "hindi_definition": "ऊदबिलाव।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṇḍō",
+      "kurukh_word_ascii": "Kundo",
+      "english_definition": "powdered chaff of a rice.",
+      "hindi_definition": "चावल की भूसी का चूरा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṇḍō-pōk",
+      "kurukh_word_ascii": "Kundo-pok",
+      "english_definition": "a kind of ant.",
+      "hindi_definition": "एक प्रकार की चींटी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṇḍō cuṭṭi",
+      "kurukh_word_ascii": "Kundo cutti",
+      "english_definition": "the hairs on the neck.",
+      "hindi_definition": "गर्दन के बाल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kundrmundrnā",
+      "kurukh_word_ascii": "Kundrmundrna",
+      "english_definition": "kan, an, to murmur, protest.",
+      "hindi_definition": "बुड़बुड़ाना, विरोध करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kunhrārnā",
+      "kurukh_word_ascii": "Kunhrarna",
+      "english_definition": "ckan, c'an, to slap on the face.",
+      "hindi_definition": "थप्पड़ मारना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kunhra'anā",
+      "kurukh_word_ascii": "Kunhra'ana",
+      "english_definition": "ckan; c'an, to elbow.",
+      "hindi_definition": "कोहनी मारना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kunnā",
+      "kurukh_word_ascii": "Kunna",
+      "english_definition": "adj. dry, cooked, as rice.",
+      "hindi_definition": "सूखा, पका हुआ, जैसे चावल।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kunmunrnā",
+      "kurukh_word_ascii": "Kunmunrna",
+      "english_definition": "same as kundrmundrnā.",
+      "hindi_definition": "देखें kundrmundrnā।",
+      "part_of_speech": "verb",
+      "variant_of": "Kundrmundrnā",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kūikūirnā",
+      "kurukh_word_ascii": "Kuikuirna",
+      "english_definition": "kan, an, to howl.",
+      "hindi_definition": "रोना, हाउल करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kūikūiyu",
+      "kurukh_word_ascii": "Kuikuiyu",
+      "english_definition": "adj. fretful.",
+      "hindi_definition": "चिड़चिड़ा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    }
+  ]
+}

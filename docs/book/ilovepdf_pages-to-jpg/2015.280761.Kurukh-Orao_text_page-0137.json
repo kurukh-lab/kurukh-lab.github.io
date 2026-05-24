@@ -1,0 +1,264 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0137.jpg",
+  "page_label": "133",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Nēk'im",
+      "kurukh_word_ascii": "Nek'im",
+      "english_definition": "whosever, whoever.",
+      "hindi_definition": "जिसका भी (जो कोई)।",
+      "part_of_speech": "pronoun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nēkhā",
+      "kurukh_word_ascii": "Nekha",
+      "english_definition": "contraction of nē and akhkā (who knows, perhaps, may be!).",
+      "hindi_definition": "nē और akhkā का संकुचित रूप (कौन जाने, शायद, हो सकता है)।",
+      "part_of_speech": "adverb",
+      "notes": "Etymology: nē + akhkā"
+    },
+    {
+      "kurukh_word": "Nēkho'ē",
+      "kurukh_word_ascii": "Nekho'e",
+      "english_definition": "who knows, perhaps, may be (same as Nēkhā).",
+      "hindi_definition": "कौन जाने, शायद (Nēkhā के समान)।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nēla",
+      "kurukh_word_ascii": "Nela",
+      "english_definition": "to-morrow.",
+      "hindi_definition": "कल (आने वाला कल)।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nelbenjā",
+      "kurukh_word_ascii": "Nelbenja",
+      "english_definition": "the day after to-morrow.",
+      "hindi_definition": "परसों (आने वाला परसों)।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Innelā",
+      "kurukh_word_ascii": "Innela",
+      "english_definition": "now-a-days (contracted from innā, to-day, and nēla, to-morrow).",
+      "hindi_definition": "आजकल (innā = आज और nēla = कल का संकुचित रूप)।",
+      "part_of_speech": "adverb",
+      "notes": "Etymology: innā + nēla"
+    },
+    {
+      "kurukh_word": "Nemhā",
+      "kurukh_word_ascii": "Nemha",
+      "english_definition": "holy, pure, clean.",
+      "hindi_definition": "पवित्र, शुद्ध, स्वच्छ (हिंदी से लिया गया)।",
+      "part_of_speech": "adjective",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nemhā mannā",
+      "kurukh_word_ascii": "Nemha manna",
+      "english_definition": "to be or become holy, pure.",
+      "hindi_definition": "पवित्र होना, शुद्ध होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nemhā nannā",
+      "kurukh_word_ascii": "Nemha nanna",
+      "english_definition": "to make holy.",
+      "hindi_definition": "पवित्र करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nemhā khurtī",
+      "kurukh_word_ascii": "Nemha khurti",
+      "english_definition": "the holy supper (sacrament).",
+      "hindi_definition": "पवित्र भोजन (प्रभु भोज)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nemhā khurtī mokhnā",
+      "kurukh_word_ascii": "Nemha khurti mokhna",
+      "english_definition": "to partake of the holy supper.",
+      "hindi_definition": "प्रभु भोज में भाग लेना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ne'okhnā",
+      "kurukh_word_ascii": "Ne'okhna",
+      "english_definition": "kan, an, to bow the head, to make a bow in order to show respect.",
+      "hindi_definition": "आदर प्रकट करने के लिए सिर झुकाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ne'okhnā",
+      "kurukh_word_ascii": "Ne'okhna",
+      "english_definition": "kan, an, to bend, as a tree or reed.",
+      "hindi_definition": "झुकना, मुड़ना (जैसे पेड़ या सरकंडा)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "2nd homograph of Ne'okhnā"
+    },
+    {
+      "kurukh_word": "Ne'okhrnā",
+      "kurukh_word_ascii": "Ne'okhrna",
+      "english_definition": "kan, an, to be late in the afternoon, the declining of the day.",
+      "hindi_definition": "तीसरे पहर का होना, दिन ढलना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Neppnā",
+      "kurukh_word_ascii": "Neppna",
+      "english_definition": "nippkan, yan, to take as trophy, spoil.",
+      "hindi_definition": "लूट का माल लेना (ट्रॉफी के रूप में जीतना)।",
+      "part_of_speech": "verb",
+      "verb_class": "nippkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nērnā",
+      "kurukh_word_ascii": "Nerna",
+      "english_definition": "ckan, c'an (also nirkan, an), to dry up, as the ground after the rain.",
+      "hindi_definition": "सूखना (जैसे बारिश के बाद ज़मीन)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nerr",
+      "kurukh_word_ascii": "Nerr",
+      "english_definition": "snake, serpent.",
+      "hindi_definition": "साँप (सर्प)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nerrputtrā",
+      "kurukh_word_ascii": "Nerrputtra",
+      "english_definition": "snake-spittle or vomit, a cream-like substance sticking to plants in the rains.",
+      "hindi_definition": "साँप का थूक या वमन (बारिश में पौधों पर चिपका हुआ मलाईदार पदार्थ)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Netā",
+      "kurukh_word_ascii": "Neta",
+      "english_definition": "the fat of an animal.",
+      "hindi_definition": "पशु की चर्बी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nēt",
+      "kurukh_word_ascii": "Net",
+      "english_definition": "custom, ceremony (same as nēg).",
+      "hindi_definition": "नेग, रीति-रिवाज (nēg के समान, हिंदी nīti से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nētoār",
+      "kurukh_word_ascii": "Netoar",
+      "english_definition": "customary law, custom (same as nēg-cār).",
+      "hindi_definition": "रीति-रिवाज (nēg-cār के समान) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nēwan",
+      "kurukh_word_ascii": "Newan",
+      "english_definition": "first fruits.",
+      "hindi_definition": "नवान्न (नया अनाज, फसल का पहला फल) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nēwar-pūmp",
+      "kurukh_word_ascii": "Newar-pump",
+      "english_definition": "a kind of flower.",
+      "hindi_definition": "नेवारी का फूल (एक प्रकार का फूल) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Newrārnā",
+      "kurukh_word_ascii": "Newrarna",
+      "english_definition": "kan, an, to decline, to wean away.",
+      "hindi_definition": "ढलना, दूर जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ullā newrārnā",
+      "kurukh_word_ascii": "Ulla newrarna",
+      "english_definition": "the declining or passing away of the day.",
+      "hindi_definition": "दिन ढलना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nibhrnā",
+      "kurukh_word_ascii": "Nibhrna",
+      "english_definition": "kan, an, to be accustomed with or befriended with.",
+      "hindi_definition": "अभ्यस्त होना, पटरी बैठना (दोस्ती होना) (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nibhrta'anā",
+      "kurukh_word_ascii": "Nibhrta'ana",
+      "english_definition": "kan, an, to reconciliate.",
+      "hindi_definition": "सुलह कराना, सामंजस्य बिठाना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nicōṭ",
+      "kurukh_word_ascii": "Nicot",
+      "english_definition": "rest, quietude.",
+      "hindi_definition": "आराम, शांति (निश्चिंतता) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nicōṭ rā'anā",
+      "kurukh_word_ascii": "Nicot ra'ana",
+      "english_definition": "to be without care.",
+      "hindi_definition": "निश्चिंत होना, बिना किसी चिंता के रहना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb phrase",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nichak",
+      "kurukh_word_ascii": "Nichak",
+      "english_definition": "adv. very much, extraordinarily.",
+      "hindi_definition": "क्रियाविशेषण। बहुत अधिक, असाधारण रूप से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    }
+  ]
+}

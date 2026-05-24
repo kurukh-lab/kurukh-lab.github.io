@@ -1,0 +1,290 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0129.jpg",
+  "page_label": "125",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Mōsgrnā",
+      "kurukh_word_ascii": "Mosgrna",
+      "english_definition": "kan, an, to smoke, fumigate.",
+      "hindi_definition": "धुआँ लगना, धूनी देना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mōsgdānā",
+      "kurukh_word_ascii": "Mosgdana",
+      "english_definition": "ckan, o'an, to smoke out.",
+      "hindi_definition": "धुएँ से भगाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muchō",
+      "kurukh_word_ascii": "Mucho",
+      "english_definition": "a large bamboo basket for catching fish.",
+      "hindi_definition": "मछली पकड़ने का बड़ा बाँस का टोपा (टोकरा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mucnā",
+      "kurukh_word_ascii": "Mucna",
+      "english_definition": "kan, yan, to close, shut as a door; darīn mucc'ā, shut the door.",
+      "hindi_definition": "बंद करना (जैसे दरवाजा); darīn mucc'ā = दरवाजा बंद करो।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "Example: darīn mucc'ā = shut the door"
+    },
+    {
+      "kurukh_word": "Mucrī ghāsī",
+      "kurukh_word_ascii": "Mucri ghasi",
+      "english_definition": "a kind of vegetable growing in the moor (also called mucrī arkhā).",
+      "hindi_definition": "दलदल या मूर में उगने वाली एक प्रकार की सब्जी/साग।",
+      "part_of_speech": "noun",
+      "notes": "Variant: mucrī arkhā"
+    },
+    {
+      "kurukh_word": "Mucrnā",
+      "kurukh_word_ascii": "Mucrna",
+      "english_definition": "kan, an, to be closed, to close or shut, intr.",
+      "hindi_definition": "बंद होना (अकर्मक)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muddā",
+      "kurukh_word_ascii": "Mudda",
+      "english_definition": "pole, stick, handle.",
+      "hindi_definition": "डंडा, लाठी, मूठ (हत्था)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṛmā muddā",
+      "kurukh_word_ascii": "Karma mudda",
+      "english_definition": "backbone; also the plough handle.",
+      "hindi_definition": "रीढ़ की हड्डी; हल का हत्था भी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Gaddī muddā",
+      "kurukh_word_ascii": "Gaddi mudda",
+      "english_definition": "neck bone.",
+      "hindi_definition": "गर्दन की हड्डी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muddī",
+      "kurukh_word_ascii": "Muddi",
+      "english_definition": "finger ring.",
+      "hindi_definition": "अंगूठी (मुद्रिका) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mudnā",
+      "kurukh_word_ascii": "Mudna",
+      "english_definition": "kan, yan, to trip, tumble.",
+      "hindi_definition": "ठोकर खाना, गिरना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muddh",
+      "kurukh_word_ascii": "Muddh",
+      "english_definition": "adj. chief, first, great; muddh ālas, chief man.",
+      "hindi_definition": "विशेषण। मुख्य, प्रथम, महान; muddh ālas = मुख्य पुरुष (हिंदी से लिया गया)।",
+      "part_of_speech": "adjective",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muddhus",
+      "kurukh_word_ascii": "Muddhus",
+      "english_definition": "the chief.",
+      "hindi_definition": "मुखिया, प्रधान।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mubhrī",
+      "kurukh_word_ascii": "Mubhri",
+      "english_definition": "drain.",
+      "hindi_definition": "नाली।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mugrā",
+      "kurukh_word_ascii": "Mugra",
+      "english_definition": "club.",
+      "hindi_definition": "मुगदर, सोटा (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mugrā biṅkō",
+      "kurukh_word_ascii": "Mugra binko",
+      "english_definition": "a group of stars.",
+      "hindi_definition": "तारामंडल (तारा समूह)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muhī",
+      "kurukh_word_ascii": "Muhi",
+      "english_definition": "face; muhī carrnā, to be ashamed, blush.",
+      "hindi_definition": "चेहरा (मुँह); muhī carrnā = लज्जित होना, चेहरा तमतमाना।",
+      "part_of_speech": "noun",
+      "notes": "Example: muhī carrnā = to be ashamed, blush"
+    },
+    {
+      "kurukh_word": "Muī",
+      "kurukh_word_ascii": "Mui",
+      "english_definition": "nose.",
+      "hindi_definition": "नाक।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muī khiska'anā",
+      "kurukh_word_ascii": "Mui khiska'ana",
+      "english_definition": "to turn up one's nose, to despise, loathe.",
+      "hindi_definition": "नाक-भौं सिकोड़ना, तिरस्कार करना, घृणा करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muī pīk",
+      "kurukh_word_ascii": "Mui pik",
+      "english_definition": "mucus, slime of the nose.",
+      "hindi_definition": "नाक की गंदगी (शेंठ)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muī muīrnā",
+      "kurukh_word_ascii": "Mui muirna",
+      "english_definition": "to spring up, to grow.",
+      "hindi_definition": "उगना, अंकुरित होना, बढ़ना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muī tuṇḍhī",
+      "kurukh_word_ascii": "Mui tundhi",
+      "english_definition": "the bridge of the nose.",
+      "hindi_definition": "नाक का ऊपरी भाग (नथुने की हड्डी)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muī latā",
+      "kurukh_word_ascii": "Mui lata",
+      "english_definition": "nostrils.",
+      "hindi_definition": "नथुने (नाक के छिद्र)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mujhnā",
+      "kurukh_word_ascii": "Mujhna",
+      "english_definition": "kan, yan, to wash another's face.",
+      "hindi_definition": "दूसरे का मुँह धोना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mujhrnā",
+      "kurukh_word_ascii": "Mujhrna",
+      "english_definition": "kan, an, to wash one's face.",
+      "hindi_definition": "अपना मुँह धोना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mukā",
+      "kurukh_word_ascii": "Muka",
+      "english_definition": "elbow.",
+      "hindi_definition": "कोहनी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mukā",
+      "kurukh_word_ascii": "Muka",
+      "english_definition": "a measure, a cubit of which one is equal to one \"hath\" H.",
+      "hindi_definition": "हाथ (माप की इकाई) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": "2nd homograph of Mukā"
+    },
+    {
+      "kurukh_word": "Mūkā",
+      "kurukh_word_ascii": "Muka",
+      "english_definition": "knee (also mūkul).",
+      "hindi_definition": "घुटना (Mūkul भी)।",
+      "part_of_speech": "noun",
+      "notes": "Variant: mūkul"
+    },
+    {
+      "kurukh_word": "Mūkā ēdrnā",
+      "kurukh_word_ascii": "Muka edrna",
+      "english_definition": "to bow the knee, to kneel down.",
+      "hindi_definition": "घुटने टेकना (घुटने के बल बैठना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muklīdnā",
+      "kurukh_word_ascii": "Muklidna",
+      "english_definition": "to bow the knee.",
+      "hindi_definition": "घुटने टेकना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūkūṇḍī",
+      "kurukh_word_ascii": "Mukundi",
+      "english_definition": "kneedeep, up to the knee.",
+      "hindi_definition": "घुटने तक (घुटने तक गहरा)।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mukkhā",
+      "kurukh_word_ascii": "Mukkha",
+      "english_definition": "woman, wife.",
+      "hindi_definition": "महिला, पत्नी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mukkhā",
+      "kurukh_word_ascii": "Mukkha",
+      "english_definition": "edge, brink, margin.",
+      "hindi_definition": "किनारा, मुहाना।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of Mukkhā"
+    },
+    {
+      "kurukh_word": "Mukkhā",
+      "kurukh_word_ascii": "Mukkha",
+      "english_definition": "frog.",
+      "hindi_definition": "मेंढक।",
+      "part_of_speech": "noun",
+      "notes": "3rd homograph of Mukkhā"
+    }
+  ]
+}

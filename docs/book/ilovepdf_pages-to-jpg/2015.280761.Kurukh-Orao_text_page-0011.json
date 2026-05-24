@@ -1,0 +1,685 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg",
+  "page_label": "7",
+  "running_header": "Arjhārnā — Atkhā",
+  "status": "extracted",
+  "extracted_at": "2026-05-23",
+  "entries": [
+    {
+      "kurukh_word": "Arjhārnā",
+      "kurukh_word_ascii": "Arjharna",
+      "english_definition": "to get entangled",
+      "hindi_definition": "उलझ जाना, फँस जाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to get entangled", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उलझ जाना, फँस जाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Ari",
+      "kurukh_word_ascii": "Ari",
+      "english_definition": "earthen waterpot",
+      "hindi_definition": "मिट्टी का घड़ा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "earthen waterpot", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मिट्टी का घड़ा, पानी रखने का मटका", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arkhā",
+      "kurukh_word_ascii": "Arkha",
+      "english_definition": "herbs, vegetables, greens",
+      "hindi_definition": "जड़ी-बूटी, सब्ज़ी, साग",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "herbs, vegetables, greens", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जड़ी-बूटी, सब्ज़ियाँ, हरा साग", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arkhā cōkhel",
+      "kurukh_word_ascii": "Arkha cokhel",
+      "english_definition": "potherbs",
+      "hindi_definition": "खाने योग्य पत्तेदार सब्ज़ियाँ",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "potherbs (leafy vegetables cooked in a pot)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खाने योग्य पत्तेदार सब्ज़ियाँ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arkhā",
+      "kurukh_word_ascii": "Arkha",
+      "english_definition": "the spleen",
+      "hindi_definition": "तिल्ली, प्लीहा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "the spleen (organ)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तिल्ली, प्लीहा (शरीर का अंग)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arkhā nāri",
+      "kurukh_word_ascii": "Arkha nari",
+      "english_definition": "splenic fever",
+      "hindi_definition": "तिल्ली का बुख़ार, प्लीहा-ज्वर",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "splenic fever (illness associated with the spleen)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तिल्ली का बुख़ार, प्लीहा-ज्वर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arki",
+      "kurukh_word_ascii": "Arki",
+      "english_definition": "crossway",
+      "hindi_definition": "चौराहा, रास्ते का मोड़",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "crossway, crossroads", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चौराहा, रास्तों के मिलने का स्थान", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arkht",
+      "kurukh_word_ascii": "Arkht",
+      "english_definition": "spirits, liquor distilled from the mahuā flower",
+      "hindi_definition": "महुआ के फूल से बनी शराब",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "spirits; liquor distilled from the mahuā flower", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "महुआ के फूल से चुआई गई शराब, देशी मद्य", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arkhi-bōr'ē",
+      "kurukh_word_ascii": "Arkhi-bor'e",
+      "english_definition": "intoxicants",
+      "hindi_definition": "नशीले पदार्थ",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "intoxicants", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नशीले पदार्थ, मद्य", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arkhi-bōr'ē onnā",
+      "kurukh_word_ascii": "Arkhi-bor'e onna",
+      "english_definition": "to drink intoxicants, to be a drunkard",
+      "hindi_definition": "नशीले पदार्थ पीना, शराबी होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to drink intoxicants; to be a drunkard", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नशीले पदार्थ पीना, शराबी होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arkhrā",
+      "kurukh_word_ascii": "Arkhra",
+      "english_definition": "parched rice",
+      "hindi_definition": "लाई, भूना चावल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["alkhrā"],
+      "meanings": [
+        { "language": "en", "definition": "parched rice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "लाई, भूना हुआ चावल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "alkhrā",
+      "kurukh_word_ascii": "alkhra",
+      "english_definition": "parched rice (variant of Arkhrā)",
+      "hindi_definition": "लाई, भूना चावल (Arkhrā का रूप)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variant_of": "Arkhrā",
+      "meanings": [
+        { "language": "en", "definition": "parched rice; variant of Arkhrā", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "लाई, भूना चावल; Arkhrā का रूप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arrā lagnā",
+      "kurukh_word_ascii": "Arra lagna",
+      "english_definition": "to spread like fire",
+      "hindi_definition": "आग की तरह फैलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to spread like fire", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आग की तरह फैलना, तेज़ी से फैलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arnā",
+      "kurukh_word_ascii": "Arna",
+      "english_definition": "to cover, as with leather; to encase",
+      "hindi_definition": "ढकना, चमड़े आदि से ढकना; पिटारी में बंद करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to cover, as with leather; to encase", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ढकना (जैसे चमड़े से), आवरण चढ़ाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Arta'anā",
+      "kurukh_word_ascii": "Arta'ana",
+      "english_definition": "to spread out for drying",
+      "hindi_definition": "सूखने के लिए फैलाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to spread out for drying", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सूखने के लिए फैलाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Asag'larā",
+      "kurukh_word_ascii": "Asag'lara",
+      "english_definition": "a kind of caterpillar whose touch causes swelling",
+      "hindi_definition": "एक प्रकार की इल्ली जिसके स्पर्श से सूजन हो जाती है",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "a kind of caterpillar whose touch causes swelling", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार की इल्ली / झुलसा कीड़ा, जिसके स्पर्श से सूजन हो जाती है", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Asag'larā",
+      "kurukh_word_ascii": "Asag'lara",
+      "english_definition": "a shrub, the fruit of which is covered with hairs that also cause swelling",
+      "hindi_definition": "एक झाड़ी, जिसके फल पर ऐसे रोएं होते हैं जो सूजन पैदा करते हैं",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "a shrub whose fruit is covered with hairs that also cause swelling", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक झाड़ी, जिसके फल पर ऐसे रोएं होते हैं जो स्पर्श से सूजन उत्पन्न करते हैं", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Asag'larā",
+      "kurukh_word_ascii": "Asag'lara",
+      "english_definition": "the clotbur (Xanthium strumarium)",
+      "hindi_definition": "गोखरू, छेड़छेड़ (Xanthium strumarium)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "homograph_index": 3,
+      "meanings": [
+        { "language": "en", "definition": "the clotbur (Xanthium strumarium); a burr-bearing plant", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गोखरू / छेड़छेड़ का पौधा (Xanthium strumarium)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Asagnā",
+      "kurukh_word_ascii": "Asagna",
+      "english_definition": "to stick to, to adhere",
+      "hindi_definition": "चिपकना, लग जाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": ["asg'nā"],
+      "meanings": [
+        { "language": "en", "definition": "to stick to, to adhere", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चिपकना, लग जाना, सट जाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "asg'nā",
+      "kurukh_word_ascii": "asg'na",
+      "english_definition": "to stick to, to adhere (variant of Asagnā)",
+      "hindi_definition": "चिपकना, लग जाना (Asagnā का रूप)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variant_of": "Asagnā",
+      "meanings": [
+        { "language": "en", "definition": "to stick to, to adhere; variant of Asagnā", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चिपकना, लग जाना; Asagnā का रूप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Asagta'anā",
+      "kurukh_word_ascii": "Asagta'ana",
+      "english_definition": "to affix, to attach, to cause to adhere",
+      "hindi_definition": "चिपकाना, लगाना, सटाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": ["asg'tā'nā"],
+      "meanings": [
+        { "language": "en", "definition": "to affix, to attach, to cause to adhere", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चिपकाना, लगाना, सटाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "asg'tā'nā",
+      "kurukh_word_ascii": "asg'ta'na",
+      "english_definition": "to affix, to attach (variant of Asagta'anā)",
+      "hindi_definition": "चिपकाना, लगाना (Asagta'anā का रूप)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variant_of": "Asagta'anā",
+      "meanings": [
+        { "language": "en", "definition": "to affix, to attach, to cause to adhere; variant of Asagta'anā", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चिपकाना, लगाना, सटाना; Asagta'anā का रूप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Asan",
+      "kurukh_word_ascii": "Asan",
+      "english_definition": "there, in that place",
+      "hindi_definition": "वहाँ, उस स्थान पर",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "there, in that place", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वहाँ, उस स्थान पर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Asan ti",
+      "kurukh_word_ascii": "Asan ti",
+      "english_definition": "whence, from that place",
+      "hindi_definition": "वहाँ से",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["asan tim"],
+      "meanings": [
+        { "language": "en", "definition": "whence, from that place", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वहाँ से, उस स्थान से", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "asan tim",
+      "kurukh_word_ascii": "asan tim",
+      "english_definition": "whence, from that place (variant of Asan ti)",
+      "hindi_definition": "वहाँ से (Asan ti का रूप)",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variant_of": "Asan ti",
+      "meanings": [
+        { "language": "en", "definition": "whence, from that place; variant of Asan ti", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वहाँ से; Asan ti का रूप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Askatyārnā",
+      "kurukh_word_ascii": "Askatyarna",
+      "english_definition": "to be idle, to feel dull, to be disinclined to work",
+      "hindi_definition": "आलसी होना, सुस्ती लगना, काम से जी चुराना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to be idle, to feel dull, to be disinclined to work", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आलसी होना, सुस्ती महसूस होना, काम से जी चुराना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Asnā",
+      "kurukh_word_ascii": "Asna",
+      "english_definition": "bread",
+      "hindi_definition": "रोटी, ब्रेड",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "bread", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रोटी, ब्रेड", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "asnā mēnnā",
+      "kurukh_word_ascii": "asna menna",
+      "english_definition": "to bake bread",
+      "hindi_definition": "रोटी पकाना/सेकना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to bake bread", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रोटी पकाना, रोटी सेकना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "khess-asnā",
+      "kurukh_word_ascii": "khess-asna",
+      "english_definition": "rice-bread",
+      "hindi_definition": "चावल की रोटी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "rice-bread (bread made from rice)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चावल की रोटी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "kodai-asnā",
+      "kurukh_word_ascii": "kodai-asna",
+      "english_definition": "millet-bread",
+      "hindi_definition": "कोदो (बाजरा) की रोटी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "millet-bread", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कोदो / बाजरा की रोटी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "mēsi-asnā",
+      "kurukh_word_ascii": "mesi-asna",
+      "english_definition": "vetch-bread",
+      "hindi_definition": "मसूर/मटर की रोटी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "vetch-bread (bread made from vetch / pulse)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मसूर या मटर जैसी दाल से बनी रोटी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "gōlam-asnā",
+      "kurukh_word_ascii": "golam-asna",
+      "english_definition": "wheat-bread",
+      "hindi_definition": "गेहूँ की रोटी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "wheat-bread", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गेहूँ की रोटी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "bāt-asnā",
+      "kurukh_word_ascii": "bat-asna",
+      "english_definition": "gram-bread",
+      "hindi_definition": "चने की रोटी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "gram-bread (bread made from gram / chickpea)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चने की रोटी, बेसन की रोटी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Asnnā",
+      "kurukh_word_ascii": "Asnna",
+      "english_definition": "to play an instrument, to cause to vibrate",
+      "hindi_definition": "बाजा बजाना, स्पंदित करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to play an instrument; to cause to vibrate", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वाद्य यंत्र बजाना; स्पंदित करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Asrnā",
+      "kurukh_word_ascii": "Asrna",
+      "english_definition": "to tremble, quake, vibrate",
+      "hindi_definition": "काँपना, थरथराना, कंपन करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to tremble, to quake, to vibrate", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "काँपना, थरथराना, कंपन करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Astīle",
+      "kurukh_word_ascii": "Astile",
+      "english_definition": "from there; also hence",
+      "hindi_definition": "वहाँ से; इसलिए",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "from there; also hence", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वहाँ से; इसलिए, अतः", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Atga'anā",
+      "kurukh_word_ascii": "Atga'ana",
+      "english_definition": "to prevent, to throw obstacles in the way, to hinder, to discern",
+      "hindi_definition": "रोकना, बाधा डालना, अड़ंगा लगाना, परखना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an, H.",
+      "loanword_from": "hi",
+      "meanings": [
+        { "language": "en", "definition": "to prevent, to throw obstacles in the way, to hinder, to discern", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रोकना, बाधा डालना, अड़ंगा लगाना; परखना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Atgārnā",
+      "kurukh_word_ascii": "Atgarna",
+      "english_definition": "to be tried, to be attacked",
+      "hindi_definition": "परीक्षा में पड़ना, हमला होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to be tried, to be attacked", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "परीक्षा में पड़ना, हमला होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    },
+    {
+      "kurukh_word": "Atkhā",
+      "kurukh_word_ascii": "Atkha",
+      "english_definition": "leaf, blade",
+      "hindi_definition": "पत्ता, ब्लेड (तेज़ धार वाला)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "leaf; blade (of grass or knife)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पत्ता; घास या चाकू की धार", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0011.jpg", "page_label": "7" }
+    }
+  ]
+}

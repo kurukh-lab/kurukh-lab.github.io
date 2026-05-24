@@ -1,0 +1,254 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0166.jpg",
+  "page_label": "162",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Set’yē",
+      "kurukh_word_ascii": "Set'ye",
+      "english_definition": "abominable",
+      "hindi_definition": "घृणास्पद, घिनौना",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sēwnī",
+      "kurukh_word_ascii": "Sewni",
+      "english_definition": "to serve",
+      "hindi_definition": "सेवा करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sey",
+      "kurukh_word_ascii": "Sey",
+      "english_definition": "clever",
+      "hindi_definition": "चतुर, होशियार",
+      "part_of_speech": "adj",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sibā k̲h̲ērnā",
+      "kurukh_word_ascii": "Siba kherna",
+      "english_definition": "to covet, envy",
+      "hindi_definition": "ईर्ष्या करना, लालच करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Sijī-mann",
+      "kurukh_word_ascii": "Siji-mann",
+      "english_definition": "a thorny bush",
+      "hindi_definition": "कांटेदार झाड़ी, सिहुंड",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sikī",
+      "kurukh_word_ascii": "Siki",
+      "english_definition": "proudness",
+      "hindi_definition": "घमंड, गर्व",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sikī mannā",
+      "kurukh_word_ascii": "Siki manna",
+      "english_definition": "to be proud, to boast",
+      "hindi_definition": "घमंड करना, डींग मारना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sikrā-dṛā",
+      "kurukh_word_ascii": "Sikra-dra",
+      "english_definition": "falcon",
+      "hindi_definition": "बाज पक्षी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sikrī",
+      "kurukh_word_ascii": "Sikri",
+      "english_definition": "chain",
+      "hindi_definition": "शिकंजा, जंजीर",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Silōy-sopōyrā'ē",
+      "kurukh_word_ascii": "Siloy-sopoyra'e",
+      "english_definition": "joyfully",
+      "hindi_definition": "आनंदपूर्वक, प्रसन्नता से",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Simbalī-mann",
+      "kurukh_word_ascii": "Simbali-mann",
+      "english_definition": "the silk cotton tree",
+      "hindi_definition": "सेमल का पेड़",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Simbī",
+      "kurukh_word_ascii": "Simbi",
+      "english_definition": "a kind of bean",
+      "hindi_definition": "एक प्रकार की सेम (सब्जी)",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Simbī-ōṛā",
+      "kurukh_word_ascii": "Simbi-ora",
+      "english_definition": "a small green bird",
+      "hindi_definition": "एक छोटा हरा पक्षी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sindol bondol",
+      "kurukh_word_ascii": "Sindol bondol",
+      "english_definition": "corpulent",
+      "hindi_definition": "मोटा-ताजा, स्थूलकाय",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sindol bondol",
+      "kurukh_word_ascii": "Sindol bondol",
+      "english_definition": "perfectly",
+      "hindi_definition": "पूरी तरह से, बिल्कुल ठीक",
+      "part_of_speech": "adv",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Sindrī",
+      "kurukh_word_ascii": "Sindri",
+      "english_definition": "vermilion",
+      "hindi_definition": "सिंदूर",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sindrī pāb",
+      "kurukh_word_ascii": "Sindri pab",
+      "english_definition": "the line on the top of the head where the hair is parted",
+      "hindi_definition": "मांग (बालों की)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Siṅgrā'anā",
+      "kurukh_word_ascii": "Singra'ana",
+      "english_definition": "to decorate",
+      "hindi_definition": "सजाना, श्रृंगार करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Siṅghī-injō",
+      "kurukh_word_ascii": "Singhi-injo",
+      "english_definition": "the small fish, which has sharp, thorny fins",
+      "hindi_definition": "सिंघी मछली",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Siṅgdāṅg",
+      "kurukh_word_ascii": "Singdang",
+      "english_definition": "to dirt, spoil",
+      "hindi_definition": "गंदा करना, खराब करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Sirī",
+      "kurukh_word_ascii": "Siri",
+      "english_definition": "dirt, dirty water",
+      "hindi_definition": "गंदगी, गंदा पानी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sirē Sitē nal",
+      "kurukh_word_ascii": "Sire Site nal",
+      "english_definition": "the field where according to tradition the first man and woman, Sire and Sita, were found by Dharmes",
+      "hindi_definition": "वह खेत जहाँ परंपरा के अनुसार धर्मेश को पहले पुरुष और महिला, सिरे और सीता मिले थे",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sir",
+      "kurukh_word_ascii": "Sir",
+      "english_definition": "artery",
+      "hindi_definition": "धमनी, नस",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sirtī pāṇḍē",
+      "kurukh_word_ascii": "Sirti pande",
+      "english_definition": "a nickname for the fox or jackal",
+      "hindi_definition": "लोमड़ी या सियार का एक उपनाम",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Siriyā nannā",
+      "kurukh_word_ascii": "Siriya nanna",
+      "english_definition": "to fry in a pan",
+      "hindi_definition": "कढ़ाई में तलना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Siriyō-pūmp",
+      "kurukh_word_ascii": "Siriyo-pump",
+      "english_definition": "a small red flower",
+      "hindi_definition": "एक छोटा लाल फूल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sirā sir",
+      "kurukh_word_ascii": "Sira sir",
+      "english_definition": "all over",
+      "hindi_definition": "हर जगह, पूरे में",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sirsitā",
+      "kurukh_word_ascii": "Sirsita",
+      "english_definition": "slender",
+      "hindi_definition": "पतला, छरहरा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sirnyārnā",
+      "kurukh_word_ascii": "Sirnyarna",
+      "english_definition": "to be damp",
+      "hindi_definition": "नम होना, सीलन होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sirnī",
+      "kurukh_word_ascii": "Sirni",
+      "english_definition": "gift, offer",
+      "hindi_definition": "शीरिनी, प्रसाद, उपहार",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Siskārī tārnā",
+      "kurukh_word_ascii": "Siskari tarna",
+      "english_definition": "to whistle with the mouth",
+      "hindi_definition": "मुंह से सीटी बजाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sisōndī",
+      "kurukh_word_ascii": "Sisondi",
+      "english_definition": "barren, waste",
+      "hindi_definition": "बंजर, उजाड़",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sithābā'anā",
+      "kurukh_word_ascii": "Sithaba'ana",
+      "english_definition": "to disappoint",
+      "hindi_definition": "निराश करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    }
+  ]
+}

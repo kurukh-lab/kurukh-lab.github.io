@@ -1,0 +1,310 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0112.jpg",
+  "page_label": "108",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "K̲h̲ō̃snā",
+      "kurukh_word_ascii": "Khonsna",
+      "english_definition": "khūskan, an, to cut into pieces, to trample down.",
+      "hindi_definition": "टुकड़ों में काटना, कुचलना।",
+      "part_of_speech": "verb",
+      "verb_class": "khuskan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲opā",
+      "kurukh_word_ascii": "Khopa",
+      "english_definition": "bush, shrub.",
+      "hindi_definition": "झाड़ी, क्षुप।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲oppā",
+      "kurukh_word_ascii": "Khoppa",
+      "english_definition": "hair bush, chignon.",
+      "hindi_definition": "जूड़ा (बालों का जूड़ा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲oppnā",
+      "kurukh_word_ascii": "Khoppna",
+      "english_definition": "kan, yan, to heap up.",
+      "hindi_definition": "ढेर लगाना, इकट्ठा करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲opprnā",
+      "kurukh_word_ascii": "Khopprna",
+      "english_definition": "kan, an, to lay one on another, pile up.",
+      "hindi_definition": "एक के ऊपर एक रखना, ढेर लगाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲orkhō",
+      "kurukh_word_ascii": "Khorkho",
+      "english_definition": "bile.",
+      "hindi_definition": "पित्त।",
+      "part_of_speech": "noun",
+      "notes": "Variant of Kharkhō (p. 107)"
+    },
+    {
+      "kurukh_word": "K̲h̲ōr",
+      "kurukh_word_ascii": "Khor",
+      "english_definition": "the end or top of a plant or tree.",
+      "hindi_definition": "पौधे या पेड़ का सिरा या शीर्ष (फुुनगी)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ork̲h̲ā",
+      "kurukh_word_ascii": "Khorkha",
+      "english_definition": "same as khonk̲h̲ā, deep.",
+      "hindi_definition": "गहरा (khonk̲h̲ā के समान)।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōrnā",
+      "kurukh_word_ascii": "Khorna",
+      "english_definition": "khurkan, yan, to sprout.",
+      "hindi_definition": "अंकुरित होना, कोंपल निकलना।",
+      "part_of_speech": "verb",
+      "verb_class": "khurkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲orp",
+      "kurukh_word_ascii": "Khorp",
+      "english_definition": "pus, matter.",
+      "hindi_definition": "पीप, मवाद।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲orpnā",
+      "kurukh_word_ascii": "Khorpna",
+      "english_definition": "khurpkan, yan, to form pus, matter.",
+      "hindi_definition": "पीप बनना, मवाद पड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "khurpkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲osgā",
+      "kurukh_word_ascii": "Khosga",
+      "english_definition": "thigh.",
+      "hindi_definition": "जांघ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲osgā",
+      "kurukh_word_ascii": "Khosga",
+      "english_definition": "the lap.",
+      "hindi_definition": "गोद।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of K̲h̲osgā — lap vs. thigh"
+    },
+    {
+      "kurukh_word": "K̲h̲osnā",
+      "kurukh_word_ascii": "Khosna",
+      "english_definition": "khosskan, yan, to light, kindle (as fire) intr.",
+      "hindi_definition": "सुलगना, आग पकड़ना (अकर्मक)।",
+      "part_of_speech": "verb",
+      "verb_class": "khosskan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲osnā",
+      "kurukh_word_ascii": "Khosna",
+      "english_definition": "khuttkan, an, to cut with an axe, to dig with a spade.",
+      "hindi_definition": "कुल्हाड़ी से काटना, कुदाल से खोदना।",
+      "part_of_speech": "verb",
+      "verb_class": "khuttkan-an",
+      "notes": "2nd homograph of K̲h̲osnā — cut/dig vs. light fire"
+    },
+    {
+      "kurukh_word": "K̲h̲osguṇḍī",
+      "kurukh_word_ascii": "Khosgundi",
+      "english_definition": "up to the hips.",
+      "hindi_definition": "कूल्हे तक।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲osgāphūrī",
+      "kurukh_word_ascii": "Khosgaphuri",
+      "english_definition": "bubon, boil, carbuncle.",
+      "hindi_definition": "बद (जांघ का फोड़ा), फोड़ा, बालतोड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ossō",
+      "kurukh_word_ascii": "Khosso",
+      "english_definition": "the wood worm.",
+      "hindi_definition": "दीमक, लकड़ी का कीड़ा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲osta'anā",
+      "kurukh_word_ascii": "Khosta'ana",
+      "english_definition": "ckan, c'an, to cause to burn, to kindle.",
+      "hindi_definition": "जलाना, आग सुलगाना (सकर्मक)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲osrā",
+      "kurukh_word_ascii": "Khosra",
+      "english_definition": "a rivulet, streamlet.",
+      "hindi_definition": "छोटा नाला, छोटी नदी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲otor injō",
+      "kurukh_word_ascii": "Khotor injo",
+      "english_definition": "a kind of fish.",
+      "hindi_definition": "एक प्रकार की मछली।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲otor mūk̲h̲ā",
+      "kurukh_word_ascii": "Khotor mukha",
+      "english_definition": "the tree or weather frog.",
+      "hindi_definition": "पेड़ पर रहने वाला मेंढक।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōtrnā",
+      "kurukh_word_ascii": "Khotrna",
+      "english_definition": "kan, an, to be cut into pieces.",
+      "hindi_definition": "टुकड़े-टुकड़े होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲oṭṭā",
+      "kurukh_word_ascii": "Khotta",
+      "english_definition": "the bēl-fruit and tree.",
+      "hindi_definition": "बेल का फल और उसका पेड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲oṭṭnā",
+      "kurukh_word_ascii": "Khottna",
+      "english_definition": "khuṭṭkan, yan, to smash.",
+      "hindi_definition": "कुचलना, चूर-चूर करना।",
+      "part_of_speech": "verb",
+      "verb_class": "khuṭṭkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲oṭṭrnā",
+      "kurukh_word_ascii": "Khottrna",
+      "english_definition": "kan, an, to be broken or smashed.",
+      "hindi_definition": "टूटना, चूर-चूर होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲oṭnā",
+      "kurukh_word_ascii": "Khotna",
+      "english_definition": "to exchange money.",
+      "hindi_definition": "पैसे बदलना (खुले पैसे करना)।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲oṭnakrnā",
+      "kurukh_word_ascii": "Khotnakrna",
+      "english_definition": "to be cut in two.",
+      "hindi_definition": "दो भागों में कटना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲oynā",
+      "kurukh_word_ascii": "Khoyna",
+      "english_definition": "khosskan, an, to cut, reap with the sickle.",
+      "hindi_definition": "हँसिये से काटना/काटना (फसल काटना)।",
+      "part_of_speech": "verb",
+      "verb_class": "khosskan-an",
+      "notes": "Variant: k̲h̲o'enā"
+    },
+    {
+      "kurukh_word": "k̲h̲o'enā",
+      "kurukh_word_ascii": "kho'ena",
+      "english_definition": "to cut, reap with the sickle.",
+      "hindi_definition": "हँसिये से काटना/काटना।",
+      "part_of_speech": "verb",
+      "verb_class": "khosskan-an",
+      "notes": "Variant of K̲h̲oynā"
+    },
+    {
+      "kurukh_word": "K̲h̲ōynā",
+      "kurukh_word_ascii": "Khoyna",
+      "english_definition": "khojkan, an, to measure.",
+      "hindi_definition": "मापना, नापना।",
+      "part_of_speech": "verb",
+      "verb_class": "khojkan-an",
+      "notes": "Variant: k̲h̲ōenā; 2nd homograph of K̲h̲oynā (measure vs. reap)"
+    },
+    {
+      "kurukh_word": "k̲h̲ōenā",
+      "kurukh_word_ascii": "khoena",
+      "english_definition": "to measure.",
+      "hindi_definition": "मापना, नापना।",
+      "part_of_speech": "verb",
+      "verb_class": "khojkan-an",
+      "notes": "Variant of K̲h̲ōynā"
+    },
+    {
+      "kurukh_word": "K̲h̲urtī",
+      "kurukh_word_ascii": "Khurti",
+      "english_definition": "supper.",
+      "hindi_definition": "रात्रिकालीन भोजन (डिनर/सपर)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "k̲h̲urtī birī",
+      "kurukh_word_ascii": "khurti biri",
+      "english_definition": "supper time.",
+      "hindi_definition": "रात के भोजन का समय।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲urtī biṅkō",
+      "kurukh_word_ascii": "Khurti binko",
+      "english_definition": "the evening star.",
+      "hindi_definition": "सांँझ का तारा (शुक्र ग्रह)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲uṛtī onnā",
+      "kurukh_word_ascii": "Khurti onna",
+      "english_definition": "to eat the supper.",
+      "hindi_definition": "रात का भोजन करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    }
+  ]
+}

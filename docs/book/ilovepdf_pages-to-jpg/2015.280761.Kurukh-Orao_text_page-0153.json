@@ -1,0 +1,248 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0153.jpg",
+  "page_label": "149",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pēdkhnā",
+      "kurukh_word_ascii": "Pedkhna",
+      "english_definition": "to fly at one's throat, to strangle",
+      "hindi_definition": "गले पर झपटना, गला दबाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pēkhā",
+      "kurukh_word_ascii": "Pekha",
+      "english_definition": "waterfall",
+      "hindi_definition": "झरना",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēll",
+      "kurukh_word_ascii": "Pell",
+      "english_definition": "girl, maid servant",
+      "hindi_definition": "लड़की, दासी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēll ērpā",
+      "kurukh_word_ascii": "Pell erpa",
+      "english_definition": "the house in which the young folk passes the night",
+      "hindi_definition": "जिस घर में युवा रात गुजारते हैं",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēllā",
+      "kurukh_word_ascii": "Pella",
+      "english_definition": "maiden, young girl, female",
+      "hindi_definition": "कुँवारी लड़की, युवती",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēll beddnā",
+      "kurukh_word_ascii": "Pell beddna",
+      "english_definition": "to wed, to seek a wife",
+      "hindi_definition": "विवाह करना, पत्नी ढूंढना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pēnchō",
+      "kurukh_word_ascii": "Pencho",
+      "english_definition": "wing, also feather",
+      "hindi_definition": "पंख",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēndrē",
+      "kurukh_word_ascii": "Pendre",
+      "english_definition": "pipe",
+      "hindi_definition": "पाइप",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēndā",
+      "kurukh_word_ascii": "Penda",
+      "english_definition": "bottom of a vessel or pond",
+      "hindi_definition": "बर्तन या तालाब की तली",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēn",
+      "kurukh_word_ascii": "Pen",
+      "english_definition": "louse",
+      "hindi_definition": "जूँ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēn ērnā",
+      "kurukh_word_ascii": "Pen erna",
+      "english_definition": "to louse (remove lice)",
+      "hindi_definition": "जूँ निकालना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pēnghā / Pēnghī",
+      "kurukh_word_ascii": "Pengha / Penghi",
+      "english_definition": "the black maina bird",
+      "hindi_definition": "काली मैना चिड़िया",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēdē / Pēn",
+      "kurukh_word_ascii": "Pede / Pen",
+      "english_definition": "pipe, whistle, flute",
+      "hindi_definition": "पाइप, सीटी, बाँसुरी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pē'srī",
+      "kurukh_word_ascii": "Pe'sri",
+      "english_definition": "a knot of cotton",
+      "hindi_definition": "रुई की गाँठ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pē'ddānā",
+      "kurukh_word_ascii": "Pe'ddana",
+      "english_definition": "to plait cleaned cotton into thread-like knots",
+      "hindi_definition": "साफ रुई को धागेनुमा गाँठों में बटना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Pērkh pērkhnā",
+      "kurukh_word_ascii": "Perkh perkhna",
+      "english_definition": "to babble, prattle",
+      "hindi_definition": "बकबक करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pērwā",
+      "kurukh_word_ascii": "Perwa",
+      "english_definition": "pigeon",
+      "hindi_definition": "कबूतर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēskā",
+      "kurukh_word_ascii": "Peska",
+      "english_definition": "order, commandment",
+      "hindi_definition": "आदेश, आज्ञा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēsnā",
+      "kurukh_word_ascii": "Pesna",
+      "english_definition": "to order, command",
+      "hindi_definition": "आदेश देना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pēsend",
+      "kurukh_word_ascii": "Pesend",
+      "english_definition": "to weed out",
+      "hindi_definition": "निराई करना, खरपतवार निकालना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pēsnā",
+      "kurukh_word_ascii": "Pesna",
+      "english_definition": "to pick up; also to glean, as khess pēsnā = to glean paddy",
+      "hindi_definition": "उठाना; खेत में बचा धान इकट्ठा करना",
+      "part_of_speech": "verb",
+      "verb_class": "pettkan-an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pēth",
+      "kurukh_word_ascii": "Peth",
+      "english_definition": "market; also pith, pitta",
+      "hindi_definition": "बाजार",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pēth kā'ānā",
+      "kurukh_word_ascii": "Peth ka'ana",
+      "english_definition": "to visit a market",
+      "hindi_definition": "बाजार जाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pētī",
+      "kurukh_word_ascii": "Peti",
+      "english_definition": "armour",
+      "hindi_definition": "कवच, जिरह-बख्तर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pichrī",
+      "kurukh_word_ascii": "Pichri",
+      "english_definition": "caddar, the cloth worn by men over the shoulder",
+      "hindi_definition": "चादर, पुरुषों द्वारा कंधे पर ओढ़ा जाने वाला कपड़ा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pīk",
+      "kurukh_word_ascii": "Pik",
+      "english_definition": "excrements, excretions of the human body",
+      "hindi_definition": "मलमूत्र",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pīk-tirt",
+      "kurukh_word_ascii": "Pik-tirt",
+      "english_definition": "the dung-beetle",
+      "hindi_definition": "गोबर-बीटल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pīkhnā",
+      "kurukh_word_ascii": "Pikhna",
+      "english_definition": "to make oil, to press out oil",
+      "hindi_definition": "तेल निकालना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pīkhrnā",
+      "kurukh_word_ascii": "Pikhrna",
+      "english_definition": "to be squeezed",
+      "hindi_definition": "निचोड़ा जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pīndā",
+      "kurukh_word_ascii": "Pinda",
+      "english_definition": "altar, platform, terrace",
+      "hindi_definition": "वेदी, चबूतरा, सीढ़ीदार मंच",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pīndī",
+      "kurukh_word_ascii": "Pindi",
+      "english_definition": "an embankment",
+      "hindi_definition": "बाँध, मेड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pīnjnā",
+      "kurukh_word_ascii": "Pinjna",
+      "english_definition": "to name, to invoke; rāme pīnjnā = to give a name",
+      "hindi_definition": "नाम रखना, पुकारना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pīnn",
+      "kurukh_word_ascii": "Pinn",
+      "english_definition": "stick",
+      "hindi_definition": "छड़ी, लाठी",
+      "part_of_speech": "noun"
+    }
+  ]
+}

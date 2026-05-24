@@ -1,0 +1,245 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0187.jpg",
+  "page_label": "183",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Urī",
+      "kurukh_word_ascii": "Uri",
+      "english_definition": "only, merely",
+      "hindi_definition": "केवल, सिर्फ",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Urupuri",
+      "kurukh_word_ascii": "Urupuri",
+      "english_definition": "straightway",
+      "hindi_definition": "सीधे, तुरंत",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Urupuri mannā",
+      "kurukh_word_ascii": "Urupuri manna",
+      "english_definition": "to be straightforward",
+      "hindi_definition": "सीधे-सरल होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Uru-ṭhurū nannā",
+      "kurukh_word_ascii": "Uru-thuru nanna",
+      "english_definition": "to hasten",
+      "hindi_definition": "जल्दी करना, शीघ्रता करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Uruṅg",
+      "kurukh_word_ascii": "Urung",
+      "english_definition": "a little while",
+      "hindi_definition": "थोड़ी देर, क्षणभर",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Uruṅg ṭak nū",
+      "kurukh_word_ascii": "Urung tak nu",
+      "english_definition": "in a little time",
+      "hindi_definition": "थोड़े समय में",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Uruṅg num",
+      "kurukh_word_ascii": "Urung num",
+      "english_definition": "in a short time",
+      "hindi_definition": "शीघ्र ही, थोड़े समय में",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Uruthurū",
+      "kurukh_word_ascii": "Uruthuru",
+      "english_definition": "hastily, urgent",
+      "hindi_definition": "जल्दी से, अत्यावश्यक",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Uryā'anā",
+      "kurukh_word_ascii": "Urya'ana",
+      "english_definition": "to pack up",
+      "hindi_definition": "सामान बांधना, समेटना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Uryārnā",
+      "kurukh_word_ascii": "Uryarna",
+      "english_definition": "to be put in order",
+      "hindi_definition": "क्रम में होना, व्यवस्थित होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Uryārnā",
+      "kurukh_word_ascii": "Uryarna",
+      "english_definition": "to be unable to do anything easily",
+      "hindi_definition": "आसानी से कुछ न कर पाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Usānā",
+      "kurukh_word_ascii": "Usana",
+      "english_definition": "to shoot out in ears, to blossom",
+      "hindi_definition": "बाली निकलना (अनाज में), खिलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Usāṅgī",
+      "kurukh_word_ascii": "Usangi",
+      "english_definition": "ploughshare",
+      "hindi_definition": "हल का फाल (लोहे का मुख)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Usārnā",
+      "kurukh_word_ascii": "Usarna",
+      "english_definition": "to do quickly, to accomplish",
+      "hindi_definition": "शीघ्रता से करना, पूरा करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Usrārnā",
+      "kurukh_word_ascii": "Usrarna",
+      "english_definition": "to be relieved",
+      "hindi_definition": "राहत मिलना, आराम मिलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Usum nannā",
+      "kurukh_word_ascii": "Usum nanna",
+      "english_definition": "to slightly heaten",
+      "hindi_definition": "हल्का गर्म करना, गुनगुना करना",
+      "part_of_speech": "phrase",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Usurnā / ususrnā",
+      "kurukh_word_ascii": "Usurna / ususrna",
+      "english_definition": "to be agonized",
+      "hindi_definition": "अत्यधिक पीड़ा या संकट में होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Utaṅg k̲h̲atrnā",
+      "kurukh_word_ascii": "Utang khatrna",
+      "english_definition": "to fall on the back",
+      "hindi_definition": "पीठ के बल गिरना, चित गिरना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Utarbhantō",
+      "kurukh_word_ascii": "Utarbhanto",
+      "english_definition": "perforated, bored through",
+      "hindi_definition": "आर-पार छेद वाला, छिद्रित",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Utpurī",
+      "kurukh_word_ascii": "Utpuri",
+      "english_definition": "a kind of grass",
+      "hindi_definition": "एक प्रकार की घास",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Utnā",
+      "kurukh_word_ascii": "Utna",
+      "english_definition": "to cover, fill up, as a hole",
+      "hindi_definition": "भरना, ढकना (जैसे गड्ढे को)",
+      "part_of_speech": "verb",
+      "verb_class": "uttkan-uttan"
+    },
+    {
+      "kurukh_word": "Utnā",
+      "kurukh_word_ascii": "Utna",
+      "english_definition": "to tie up",
+      "hindi_definition": "बांधना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Utrnā",
+      "kurukh_word_ascii": "Utrna",
+      "english_definition": "to be tied up, shut up, closed up (passive of utna)",
+      "hindi_definition": "बंधना, बंद होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Utsnā",
+      "kurukh_word_ascii": "Utsna",
+      "english_definition": "to be averse",
+      "hindi_definition": "विमुख होना, अरुचि होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Jiā'an utsnā",
+      "kurukh_word_ascii": "Jia'an utsna",
+      "english_definition": "to be disattached, to lose interest",
+      "hindi_definition": "मन उचट जाना, अरुचि होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Uttar",
+      "kurukh_word_ascii": "Uttar",
+      "english_definition": "the spirit which leads departed souls into the other world",
+      "hindi_definition": "वह आत्मा जो मृत आत्माओं को परलोक ले जाती है",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ut'ū",
+      "kurukh_word_ascii": "Ut'u",
+      "english_definition": "a maggot, which lives in rice or wheat",
+      "hindi_definition": "चावल या गेहूं का कीड़ा, इल्ली",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ut'ū nannā",
+      "kurukh_word_ascii": "Ut'u nanna",
+      "english_definition": "to turn up the soil, as pigs do",
+      "hindi_definition": "मिट्टी खोदना (जैसे सुअर करते हैं)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Uturbandā",
+      "kurukh_word_ascii": "Uturbanda",
+      "english_definition": "husks, refuse of food",
+      "hindi_definition": "भूसी, भोजन का बचा हुआ अपशिष्ट",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Uturbandā-ghāsī",
+      "kurukh_word_ascii": "Uturbanda-ghasi",
+      "english_definition": "a kind of grass",
+      "hindi_definition": "एक प्रकार की घास",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Utur-pōk",
+      "kurukh_word_ascii": "Utur-pok",
+      "english_definition": "a kind of ant",
+      "hindi_definition": "एक प्रकार की चींटी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Uturnī",
+      "kurukh_word_ascii": "Uturni",
+      "english_definition": "east",
+      "hindi_definition": "पूर्व दिशा, उदयाचल",
+      "part_of_speech": "noun"
+    }
+  ]
+}

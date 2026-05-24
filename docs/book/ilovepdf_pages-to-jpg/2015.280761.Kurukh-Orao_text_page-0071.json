@@ -1,0 +1,687 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg",
+  "page_label": "67",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Hubgar",
+      "kurukh_word_ascii": "Hubgar",
+      "english_definition": "mighty",
+      "hindi_definition": "शक्तिशाली, बलवान, पराक्रमी",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "mighty", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शक्तिशाली, बलवान, पराक्रमी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hucka'anā",
+      "kurukh_word_ascii": "Hucka'ana",
+      "english_definition": "to induce, to persuade, excite",
+      "hindi_definition": "प्रेरित करना, फुसलाना, उत्तेजित करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": ["Huoka aná"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to induce, to persuade, excite", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्रेरित करना, फुसलाना, उत्तेजित करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hudā",
+      "kurukh_word_ascii": "Huda",
+      "english_definition": "there",
+      "hindi_definition": "वहाँ, उधर",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "there", "example_sentence_kurukh": "hudā jenu", "example_sentence_translation": "there it is" },
+        { "language": "hi", "definition": "वहाँ, उधर", "example_sentence_kurukh": "hudā jenu", "example_sentence_translation": "वहाँ वह है" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hudā endr ba'as?",
+      "kurukh_word_ascii": "Huda endr ba'as?",
+      "english_definition": "There what does he say?",
+      "hindi_definition": "वहाँ वह क्या कहता है?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Hudā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "There what does he say?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वहाँ वह क्या कहता है?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hudā endr tali?",
+      "kurukh_word_ascii": "Huda endr tali?",
+      "english_definition": "There what's that?",
+      "hindi_definition": "वहाँ वह क्या है?",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Hudā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "There what's that?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वहाँ वह क्या है?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hudā",
+      "kurukh_word_ascii": "Huda",
+      "english_definition": "name, fame",
+      "hindi_definition": "नाम, प्रसिद्धि, कीर्ति",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "name, fame", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नाम, प्रसिद्धि, कीर्ति", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hudā ba'anā",
+      "kurukh_word_ascii": "Huda ba'ana",
+      "english_definition": "to depose, to drown",
+      "hindi_definition": "अपदस्थ करना, डुबोना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to depose, to drown", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अपदस्थ करना, डुबोना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hudhuḍrnā",
+      "kurukh_word_ascii": "Hudhudrna",
+      "english_definition": "to imitate, follow an example",
+      "hindi_definition": "नकल करना, उदाहरण का अनुकरण करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to imitate, follow an example", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नकल करना, उदाहरण का अनुकरण करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hudrnā",
+      "kurukh_word_ascii": "Hudrna",
+      "english_definition": "to sink, sink down",
+      "hindi_definition": "डूबना, धंसना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to sink, sink down", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "डूबना, धंसना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hudrhudrnā",
+      "kurukh_word_ascii": "Hudrhudrna",
+      "english_definition": "the snapping noise made by the feet in dancing",
+      "hindi_definition": "नृत्य में पैरों से की जाने वाली चटख आवाज, पैर पटकना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the snapping noise made by the feet in dancing", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नृत्य में पैरों से की जाने वाली चटख आवाज, पैर पटकना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hūd",
+      "kurukh_word_ascii": "Hud",
+      "english_definition": "that, she, it",
+      "hindi_definition": "वह, यह (स्त्रीलिंग/नपुंसक लिंग)",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "that, she, it", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वह, यह (स्त्रीलिंग/नपुंसक लिंग)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Huhī cōdnā",
+      "kurukh_word_ascii": "Huhi codna",
+      "english_definition": "to promote fame, to seek honour",
+      "hindi_definition": "प्रसिद्धि बढ़ाना, सम्मान खोजना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to promote fame, to seek honour", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्रसिद्धि बढ़ाना, सम्मान खोजना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Huhī mannā",
+      "kurukh_word_ascii": "Huhi manna",
+      "english_definition": "to be famous",
+      "hindi_definition": "प्रसिद्ध होना, कीर्तिमान होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be famous", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्रसिद्ध होना, कीर्तिमान होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Huhī cō'ōnā",
+      "kurukh_word_ascii": "Huhi co'ona",
+      "english_definition": "to be renowned",
+      "hindi_definition": "प्रसिद्ध होना, विख्यात होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be renowned", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्रसिद्ध होना, विख्यात होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Huināl",
+      "kurukh_word_ascii": "Huinal",
+      "english_definition": "three days hence",
+      "hindi_definition": "आज से तीन दिन बाद (चतुर्थ दिवस)",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "three days hence", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आज से तीन दिन बाद (चतुर्थ दिवस)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Huknā",
+      "kurukh_word_ascii": "Hukna",
+      "english_definition": "to receive, adopt",
+      "hindi_definition": "प्राप्त करना, अपनाना, गोद लेना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to receive, adopt", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्राप्त करना, अपनाना, गोद लेना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hulhulli",
+      "kurukh_word_ascii": "Hulhulli",
+      "english_definition": "mutiny",
+      "hindi_definition": "विद्रोह, गदर, बलवा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "mutiny", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "विद्रोह, गदर, बलवा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hullo",
+      "kurukh_word_ascii": "Hullo",
+      "english_definition": "beginning",
+      "hindi_definition": "शुरुआत, आरम्भ",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "beginning", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शुरुआत, आरम्भ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hullon tī hullō gūṭī",
+      "kurukh_word_ascii": "Hullon ti hullo guti",
+      "english_definition": "from beginning to end, i.e., always, evermore",
+      "hindi_definition": "आदि से अंत तक, हमेशा, सदा-सर्वदा",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Hullo",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "from beginning to end, i.e., always, evermore", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आदि से अंत तक, हमेशा, सदा-सर्वदा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Humbkūṛiā mannā",
+      "kurukh_word_ascii": "Humbkuria manna",
+      "english_definition": "to fall on the face for prayer, to prostrate",
+      "hindi_definition": "प्रार्थना के लिए औंधे मुंह गिरना, दंडवत प्रणाम करना, साष्टांग प्रणाम करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to fall on the face for prayer, to prostrate", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्रार्थना के लिए औंधे मुंह गिरना, दंडवत प्रणाम करना, साष्टांग प्रणाम करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Humbu'u khatrnā",
+      "kurukh_word_ascii": "Humbu'u khatrna",
+      "english_definition": "to fall headlong",
+      "hindi_definition": "सिर के बल गिरना, औंधे मुंह गिरना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to fall headlong", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सिर के बल गिरना, औंधे मुंह गिरना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Humbu'ū mannā",
+      "kurukh_word_ascii": "Humbu'u manna",
+      "english_definition": "to fall on the face",
+      "hindi_definition": "औंधे मुंह गिरना, मुंह के बल गिरना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to fall on the face", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "औंधे मुंह गिरना, मुंह के बल गिरना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hunhunba'anā",
+      "kurukh_word_ascii": "Hunhunba'ana",
+      "english_definition": "to snuffle, to speak through the nose",
+      "hindi_definition": "गुनगुनाना, नाक से बोलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to snuffle, to speak through the nose", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गुनगुनाना, नाक से बोलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hunar",
+      "kurukh_word_ascii": "Hunar",
+      "english_definition": "learning, scholarship, wisdom",
+      "hindi_definition": "हुनर, कौशल, विद्या, बुद्धिमत्ता",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "learning, scholarship, wisdom", "example_sentence_kurukh": "hunar sambhra'ā", "example_sentence_translation": "take heed, be cautious" },
+        { "language": "hi", "definition": "हुनर, कौशल, विद्या, बुद्धिमत्ता", "example_sentence_kurukh": "hunar sambhra'ā", "example_sentence_translation": "ध्यान रखना, सतर्क रहना, सावधान रहना" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hunar sambhra'ā",
+      "kurukh_word_ascii": "Hunar sambhra'a",
+      "english_definition": "take heed, be cautious",
+      "hindi_definition": "ध्यान रखना, सतर्क रहना, सावधान रहना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": "Hunar",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "take heed, be cautious", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ध्यान रखना, सतर्क रहना, सावधान रहना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hunḍā",
+      "kurukh_word_ascii": "Hunda",
+      "english_definition": "portion, part",
+      "hindi_definition": "हिस्सा, भाग, खंड",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "portion, part", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हिस्सा, भाग, खंड", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hunḍrā",
+      "kurukh_word_ascii": "Hundra",
+      "english_definition": "wolf",
+      "hindi_definition": "भेड़िया (हुंडार)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "wolf", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "भेड़िया (हुंडार)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hunn",
+      "kurukh_word_ascii": "Hunn",
+      "english_definition": "yes, may be",
+      "hindi_definition": "हाँ, हो सकता है (स्वीकारात्मक अव्यय)",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "yes, may be", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हाँ, हो सकता है (स्वीकारात्मक अव्यय)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hūntā elenā",
+      "kurukh_word_ascii": "Hunta elena",
+      "english_definition": "to be sore afraid",
+      "hindi_definition": "अत्यंत भयभीत होना, बहुत डरना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be sore afraid", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अत्यंत भयभीत होना, बहुत डरना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hūr",
+      "kurukh_word_ascii": "Hur",
+      "english_definition": "those",
+      "hindi_definition": "वे (दूर के बहुवचन)",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "those", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वे (दूर के बहुवचन)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hurbirār mannā",
+      "kurukh_word_ascii": "Hurbirar manna",
+      "english_definition": "to be confounded, to be puzzled",
+      "hindi_definition": "हैरान होना, भ्रमित होना, चकित होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be confounded, to be puzzled", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हैरान होना, भ्रमित होना, चकित होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hurghurghrnā",
+      "kurukh_word_ascii": "Hurghurghrna",
+      "english_definition": "to grumble",
+      "hindi_definition": "बड़बड़ाना, शिकायत करना, गड़गड़ाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to grumble", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बड़बड़ाना, शिकायत करना, गड़गड़ाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Huruṅg buruṅg mannā",
+      "kurukh_word_ascii": "Hurung burung manna",
+      "english_definition": "to murmur",
+      "hindi_definition": "फुसफुसाना, भिनभिनाना, बड़बड़ाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to murmur", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फुसफुसाना, भिनभिनाना, बड़बड़ाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    },
+    {
+      "kurukh_word": "Hurnā",
+      "kurukh_word_ascii": "Hurna",
+      "english_definition": "to keep down with stick, to pierce, spear up",
+      "hindi_definition": "लाठी से दबाए रखना, छेदना, भाले से छेदना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to keep down with stick, to pierce, spear up", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "लाठी से दबाए रखना, छेदना, भाले से छेदना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0071.jpg", "page_label": "67" }
+    }
+  ]
+}

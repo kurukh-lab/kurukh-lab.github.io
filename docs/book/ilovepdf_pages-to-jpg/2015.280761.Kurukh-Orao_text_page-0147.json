@@ -1,0 +1,234 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0147.jpg",
+  "page_label": "143",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pāik bēōnā",
+      "kurukh_word_ascii": "Paik beona",
+      "english_definition": "to drill or be drilled",
+      "hindi_definition": "सैन्य अभ्यास करना, ड्रिल करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāik dēgnā",
+      "kurukh_word_ascii": "Paik degna",
+      "english_definition": "gymnastical exercises",
+      "hindi_definition": "व्यायाम, कसरत",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāiku dik'tī mannā",
+      "kurukh_word_ascii": "Paiku dik'ti manna",
+      "english_definition": "to withstand, to battle against",
+      "hindi_definition": "प्रतिरोध करना, मुकाबला करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pātyā",
+      "kurukh_word_ascii": "Patya",
+      "english_definition": "cold",
+      "hindi_definition": "ठंड",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pātyā lagnā",
+      "kurukh_word_ascii": "Patya lagna",
+      "english_definition": "to feel cold",
+      "hindi_definition": "ठंड लगना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pātyā sārnā",
+      "kurukh_word_ascii": "Patya sarna",
+      "english_definition": "to suffer from cold",
+      "hindi_definition": "ठंड से तकलीफ होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāirā",
+      "kurukh_word_ascii": "Paira",
+      "english_definition": "anklet",
+      "hindi_definition": "पायल, टखने का गहना",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāirā",
+      "kurukh_word_ascii": "Paira",
+      "english_definition": "same as pairā (anklet)",
+      "hindi_definition": "वही (पायल)",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pātrā hōpē",
+      "kurukh_word_ascii": "Patra hope",
+      "english_definition": "comfort, hope",
+      "hindi_definition": "सांत्वना, आशा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāirī",
+      "kurukh_word_ascii": "Pairi",
+      "english_definition": "waterlet",
+      "hindi_definition": "छोटा नाला",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāirī",
+      "kurukh_word_ascii": "Pairi",
+      "english_definition": "early, at daybreak",
+      "hindi_definition": "सवेरे, भोर में",
+      "part_of_speech": "adj",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pāirī birī",
+      "kurukh_word_ascii": "Pairi biri",
+      "english_definition": "morning time",
+      "hindi_definition": "सुबह का समय",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāj",
+      "kurukh_word_ascii": "Paj",
+      "english_definition": "hawk, falcon",
+      "hindi_definition": "बाज, शाहीन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pājhrā",
+      "kurukh_word_ascii": "Pajhra",
+      "english_definition": "spring",
+      "hindi_definition": "झरना, सोता",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pājhrā amm",
+      "kurukh_word_ascii": "Pajhra amm",
+      "english_definition": "spring water or living water",
+      "hindi_definition": "झरने का पानी, जीवित जल",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pājhrī",
+      "kurukh_word_ascii": "Pajhri",
+      "english_definition": "spring water",
+      "hindi_definition": "झरने का पानी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pākkā",
+      "kurukh_word_ascii": "Paka",
+      "english_definition": "H. pakka (ripe, cooked, permanent)",
+      "hindi_definition": "पक्का (पका हुआ, स्थायी)",
+      "part_of_speech": "adj",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pākkā dhārī",
+      "kurukh_word_ascii": "Paka dhari",
+      "english_definition": "with force",
+      "hindi_definition": "जबरदस्ती",
+      "part_of_speech": "adv",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pāk",
+      "kurukh_word_ascii": "Pak",
+      "english_definition": "to ripen as an abscess",
+      "hindi_definition": "फोड़े का पकना",
+      "part_of_speech": "verb",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pākār ārkhā",
+      "kurukh_word_ascii": "Pakar arkha",
+      "english_definition": "a vegetable, the leaves of the pakar-tree, a kind of fig-tree",
+      "hindi_definition": "पाकड़ का पत्ता, एक प्रकार का गूलर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāk dhārnā",
+      "kurukh_word_ascii": "Pak dharna",
+      "english_definition": "to form matter in an abscess",
+      "hindi_definition": "फोड़े में पीप पड़ना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pākhā",
+      "kurukh_word_ascii": "Pakha",
+      "english_definition": "niche",
+      "hindi_definition": "आला, आँच",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pākhē",
+      "kurukh_word_ascii": "Pakhe",
+      "english_definition": "side; ī pākhē, this side; ā pākhē, that side",
+      "hindi_definition": "तरफ; इस तरफ; उस तरफ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pākhnā",
+      "kurukh_word_ascii": "Pakhna",
+      "english_definition": "stone",
+      "hindi_definition": "पत्थर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pākhnā",
+      "kurukh_word_ascii": "Pakhna",
+      "english_definition": "to embrace",
+      "hindi_definition": "गले लगाना, आलिंगन करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pākhrā'ānā",
+      "kurukh_word_ascii": "Pakhra'ana",
+      "english_definition": "to tear, to beat as the Dhobi the cloth in washing it",
+      "hindi_definition": "फाड़ना, धोबी की तरह कपड़ा पटकना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Pākhrā khōcōl",
+      "kurukh_word_ascii": "Pakhra khocol",
+      "english_definition": "shoulder blade",
+      "hindi_definition": "कंधे की हड्डी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pākhūānā",
+      "kurukh_word_ascii": "Pakhuana",
+      "english_definition": "to feed, as a horse",
+      "hindi_definition": "खिलाना, जैसे घोड़े को",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Pākpākrā",
+      "kurukh_word_ascii": "Pakpakra",
+      "english_definition": "to take hold firmly",
+      "hindi_definition": "मजबूती से पकड़ना",
+      "part_of_speech": "verb"
+    },
+    {
+      "kurukh_word": "Pāknā",
+      "kurukh_word_ascii": "Pakna",
+      "english_definition": "to take into one's lap",
+      "hindi_definition": "गोद में लेना",
+      "part_of_speech": "verb",
+      "verb_class": "pakkan-yan"
+    },
+    {
+      "kurukh_word": "Khāḍḍ pāknā'ē",
+      "kurukh_word_ascii": "Khadd pakna'e",
+      "english_definition": "to give birth to a child",
+      "hindi_definition": "बच्चे को जन्म देना",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

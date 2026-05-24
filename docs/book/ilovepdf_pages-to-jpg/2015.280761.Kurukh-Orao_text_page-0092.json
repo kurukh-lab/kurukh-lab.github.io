@@ -1,0 +1,260 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0092.jpg",
+  "page_label": "88",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kirbirdr ērnā",
+      "kurukh_word_ascii": "Kirbirdr erna",
+      "english_definition": "to look round, to turn and look round.",
+      "hindi_definition": "चारों ओर देखना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kir ērnā",
+      "kurukh_word_ascii": "Kir erna",
+      "english_definition": "to look round, to turn round to see.",
+      "hindi_definition": "देखने के लिए मुड़ना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kirkirā-ōrā",
+      "kurukh_word_ascii": "Kirkira-ora",
+      "english_definition": "a kind of bird.",
+      "hindi_definition": "एक प्रकार का पक्षी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kīrō-mann",
+      "kurukh_word_ascii": "Kiro-mann",
+      "english_definition": "the marking nut plant (Semicarpus anacardium).",
+      "hindi_definition": "भेलवा (Semicarpus anacardium)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kirnā",
+      "kurukh_word_ascii": "Kirna",
+      "english_definition": "ckan, yan, to feel cold.",
+      "hindi_definition": "ठंड महसूस करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kirrnā",
+      "kurukh_word_ascii": "Kirrna",
+      "english_definition": "kan, yan, to return, intr.",
+      "hindi_definition": "लौटना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "Intransitive."
+    },
+    {
+      "kurukh_word": "Kirrārnā",
+      "kurukh_word_ascii": "Kirrarna",
+      "english_definition": "kan, an, to feel satisfied, happy, to rejoice.",
+      "hindi_definition": "संतुष्ट, प्रसन्न होना, आनंदित होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kirrim bēēnā",
+      "kurukh_word_ascii": "Kirrim beena",
+      "english_definition": "kirrim bickan, bicyan, to abandon or leave place and return to another, to leave for good.",
+      "hindi_definition": "जगह छोड़ना और दूसरी जगह जाना, हमेशा के लिए जाना।",
+      "part_of_speech": "verb phrase",
+      "verb_class": "bickan-bicyan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kirrim bē'on",
+      "kurukh_word_ascii": "Kirrim be'on",
+      "english_definition": "I will leave for good.",
+      "hindi_definition": "मैं हमेशा के लिए चला जाऊँगा।",
+      "part_of_speech": "verb phrase",
+      "notes": "Fixed phrase with first-person future."
+    },
+    {
+      "kurukh_word": "Kirta'anā",
+      "kurukh_word_ascii": "Kirta'ana",
+      "english_definition": "ckan, c'an, to turn over, to convert, return, trans. jian kirta'anā, to be converted.",
+      "hindi_definition": "पलटना, परिवर्तित करना; jian kirta'anā = धर्म परिवर्तन होना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": "Transitive; example phrase given."
+    },
+    {
+      "kurukh_word": "Kiryā",
+      "kurukh_word_ascii": "Kirya",
+      "english_definition": "oath, H.",
+      "hindi_definition": "क़सम, शपथ।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kiryā mōkhnā",
+      "kurukh_word_ascii": "Kirya mokhna",
+      "english_definition": "H. take an oath, to swear.",
+      "hindi_definition": "क़सम खाना।",
+      "part_of_speech": "verb phrase",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kis dhiṅkī",
+      "kurukh_word_ascii": "Kis dhinki",
+      "english_definition": "pig's trough.",
+      "hindi_definition": "सूअर का नाँद।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kisgō",
+      "kurukh_word_ascii": "Kisgo",
+      "english_definition": "a kind of yam-root.",
+      "hindi_definition": "एक प्रकार का रतालू।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kislā",
+      "kurukh_word_ascii": "Kisla",
+      "english_definition": "axe.",
+      "hindi_definition": "कुल्हाड़ी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kiss",
+      "kurukh_word_ascii": "Kiss",
+      "english_definition": "swine, pig.",
+      "hindi_definition": "सूअर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kisscūrū",
+      "kurukh_word_ascii": "Kisscuru",
+      "english_definition": "male hog.",
+      "hindi_definition": "नर सूअर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kisserṗā",
+      "kurukh_word_ascii": "Kisserpa",
+      "english_definition": "pig-sty.",
+      "hindi_definition": "सूअरबाड़ा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kiss khocol-mann",
+      "kurukh_word_ascii": "Kiss khocol-mann",
+      "english_definition": "pig's bone, name of a tree.",
+      "hindi_definition": "सूअर की हड्डी, एक पेड़ का नाम।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kisspottā",
+      "kurukh_word_ascii": "Kisspotta",
+      "english_definition": "entrails or stomach of a pig, totemistic name.",
+      "hindi_definition": "सूअर की आँतें या पेट; कुलनाम।",
+      "part_of_speech": "noun",
+      "notes": "Used as a totemistic clan name."
+    },
+    {
+      "kurukh_word": "Kisskaṭṭu",
+      "kurukh_word_ascii": "Kisskattu",
+      "english_definition": "the hog's manger.",
+      "hindi_definition": "सूअर का नाँद।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kissnā",
+      "kurukh_word_ascii": "Kissna",
+      "english_definition": "kan, yan, to take out a thorn from the flesh, to operate with a pointed instrument, to lance.",
+      "hindi_definition": "माँस से काँटा निकालना, नुकीले यंत्र से ऑपरेट करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kissrnā",
+      "kurukh_word_ascii": "Kissrna",
+      "english_definition": "kan, an, to be operated upon with a pointed instrument, as a lancet or stick.",
+      "hindi_definition": "नुकीले यंत्र से ऑपरेट किया जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Passive of Kissnā."
+    },
+    {
+      "kurukh_word": "Kissnā",
+      "kurukh_word_ascii": "Kissna",
+      "english_definition": "to punch a bullock.",
+      "hindi_definition": "बैल को मुक्का मारना।",
+      "part_of_speech": "verb",
+      "homograph_index": 2,
+      "notes": "Second sense of Kissnā."
+    },
+    {
+      "kurukh_word": "Kitā",
+      "kurukh_word_ascii": "Kita",
+      "english_definition": "adv. underneath.",
+      "hindi_definition": "नीचे।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kitnā",
+      "kurukh_word_ascii": "Kitna",
+      "english_definition": "kan, an, to throw into the fire, to kindle.",
+      "hindi_definition": "आग में फेंकना, जलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kittnā",
+      "kurukh_word_ascii": "Kittna",
+      "english_definition": "kan, yan, to rot.",
+      "hindi_definition": "सड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kitta'anā",
+      "kurukh_word_ascii": "Kitta'ana",
+      "english_definition": "ckan, c'an, to cause to rot as fibre plants being laid into the water.",
+      "hindi_definition": "रेशे वाले पौधों को पानी में डालकर सड़ाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": "Used for retting process."
+    },
+    {
+      "kurukh_word": "Kiṭṭi-mann",
+      "kurukh_word_ascii": "Kitti-mann",
+      "english_definition": "a kind of tree.",
+      "hindi_definition": "एक प्रकार का पेड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kiyā",
+      "kurukh_word_ascii": "Kiya",
+      "english_definition": "prep. low, below.",
+      "hindi_definition": "नीचे, तले।",
+      "part_of_speech": "preposition",
+      "notes": ""
+    }
+  ]
+}

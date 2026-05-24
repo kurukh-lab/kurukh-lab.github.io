@@ -1,0 +1,690 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg",
+  "page_label": "29",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Caurasī",
+      "kurukh_word_ascii": "Caurasi",
+      "english_definition": "a small bell which makes a jingling noise",
+      "hindi_definition": "छोटी घंटी (जो छन-छन की आवाज करती है), घुँघरू",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a small bell which makes a jingling noise", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छोटी घंटी (जो छन-छन की आवाज करती है), घुँघरू", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Caũrī",
+      "kurukh_word_ascii": "Cauri",
+      "english_definition": "false hair",
+      "hindi_definition": "चँवरी, नकली बाल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "false hair", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चँवरी, नकली बाल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Caũrī bhaũrī",
+      "kurukh_word_ascii": "Cauri bhauri",
+      "english_definition": "the cricket insect",
+      "hindi_definition": "झींगुर (कीड़ा)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Caũrī",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the cricket insect", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "झींगुर (कीड़ा)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēcelēṅgō",
+      "kurukh_word_ascii": "Cecelengo",
+      "english_definition": "a large, flat dish",
+      "hindi_definition": "बड़ी, चपटी थाली / परात",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a large, flat dish", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बड़ी, चपटी थाली / परात", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēdnā",
+      "kurukh_word_ascii": "Cedna",
+      "english_definition": "to carry on the shoulder",
+      "hindi_definition": "कंधे पर उठाना / ले जाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to carry on the shoulder", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कंधे पर उठाना / ले जाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēglā",
+      "kurukh_word_ascii": "Cegla",
+      "english_definition": "chips",
+      "hindi_definition": "चिप्स, छिलके, लकड़ी के टुकड़े",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "chips", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चिप्स, छिलके, लकड़ी के टुकड़े", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēhelembā'anā",
+      "kurukh_word_ascii": "Cehelemba'ana",
+      "english_definition": "to flood as the floor with water",
+      "hindi_definition": "फर्श पर पानी बहाना या जलमग्न करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to flood as the floor with water", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फर्श पर पानी बहाना या जलमग्न करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēhelcēhelam poēnā",
+      "kurukh_word_ascii": "Cehelcehelam poena",
+      "english_definition": "to rain vehemently",
+      "hindi_definition": "मूसलाधार बारिश होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to rain vehemently", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मूसलाधार बारिश होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Celarī osā",
+      "kurukh_word_ascii": "Celari osa",
+      "english_definition": "the eatable mushroom",
+      "hindi_definition": "खाने योग्य मशरूम / खुखड़ी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the eatable mushroom", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खाने योग्य मशरूम / खुखड़ी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēkhēl",
+      "kurukh_word_ascii": "Cekhel",
+      "english_definition": "greens",
+      "hindi_definition": "साग, हरी सब्जियां",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "greens", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "साग, हरी सब्जियां", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Celekcēlā",
+      "kurukh_word_ascii": "Celekcela",
+      "english_definition": "the swallow-bird",
+      "hindi_definition": "अबाबील पक्षी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the swallow-bird", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अबाबील पक्षी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Ceṇḍā",
+      "kurukh_word_ascii": "Cenda",
+      "english_definition": "young, small",
+      "hindi_definition": "युवा, छोटा, तरुण",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "young, small", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "युवा, छोटा, तरुण", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēnē mēnē",
+      "kurukh_word_ascii": "Cene mene",
+      "english_definition": "beautiful; singing",
+      "hindi_definition": "सुंदर, आकर्षक; गाना (सुंदर गीत)",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "beautiful; singing", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सुंदर, आकर्षक; गाना (सुंदर गीत)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Ceṅknā",
+      "kurukh_word_ascii": "Cenkna",
+      "english_definition": "to shoot off an arrow",
+      "hindi_definition": "तीर चलाना, तीर छोड़ना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to shoot off an arrow", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तीर चलाना, तीर छोड़ना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cenkhō",
+      "kurukh_word_ascii": "Cenkho",
+      "english_definition": "the kite",
+      "hindi_definition": "चील",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the kite", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चील", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Centā",
+      "kurukh_word_ascii": "Centa",
+      "english_definition": "clever, cunning",
+      "hindi_definition": "चतुर, चालाक",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "clever, cunning", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चतुर, चालाक", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēãta'anā",
+      "kurukh_word_ascii": "Ceanta'ana",
+      "english_definition": "to cut, strike with a sword",
+      "hindi_definition": "काटना, तलवार से वार करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to cut, strike with a sword", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "काटना, तलवार से वार करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēp",
+      "kurukh_word_ascii": "Cep",
+      "english_definition": "rain",
+      "hindi_definition": "बारिश, वर्षा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "rain", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बारिश, वर्षा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēp po'ēnā",
+      "kurukh_word_ascii": "Cep po'ena",
+      "english_definition": "to rain",
+      "hindi_definition": "बारिश होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "cēp khatrnā",
+        "cēp barnā"
+      ],
+      "variant_of": "Cēp",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to rain", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बारिश होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēp idrnā",
+      "kurukh_word_ascii": "Cep idrna",
+      "english_definition": "to cease raining",
+      "hindi_definition": "बारिश बंद होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cēp",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to cease raining", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बारिश बंद होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cēp po'ēta'anā",
+      "kurukh_word_ascii": "Cep po'eta'ana",
+      "english_definition": "to give rain, to cause to rain",
+      "hindi_definition": "वर्षा कराना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cēp",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to give rain, to cause to rain", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वर्षा कराना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cic cēp",
+      "kurukh_word_ascii": "Cic cep",
+      "english_definition": "deluge",
+      "hindi_definition": "प्रलय, भीषण बाढ़, जलप्रलय",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cēp",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "deluge", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्रलय, भीषण बाढ़, जलप्रलय", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cep'ē nannā",
+      "kurukh_word_ascii": "Cep'e nanna",
+      "english_definition": "to press or keep underneath the arm, in the armpit",
+      "hindi_definition": "बगल में दबाना या रखना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to press or keep underneath the arm, in the armpit", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बगल में दबाना या रखना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Ceptē",
+      "kurukh_word_ascii": "Cepte",
+      "english_definition": "peeled, quashed",
+      "hindi_definition": "छीला हुआ, कुचला हुआ",
+      "part_of_speech": "verbal adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "peeled, quashed", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छीला हुआ, कुचला हुआ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cērā",
+      "kurukh_word_ascii": "Cera",
+      "english_definition": "fleshy part of the jack fruit",
+      "hindi_definition": "कटहल का गूदेदार भाग (कोआ)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "fleshy part of the jack fruit", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कटहल का गूदेदार भाग (कोआ)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cerē-berē mannā",
+      "kurukh_word_ascii": "Cere-bere manna",
+      "english_definition": "to be noisy, tumultuous",
+      "hindi_definition": "शोरगुल होना, कोलाहल होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be noisy, tumultuous", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शोरगुल होना, कोलाहल होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cerē-berē nannā",
+      "kurukh_word_ascii": "Cere-bere nanna",
+      "english_definition": "to chirp",
+      "hindi_definition": "चहचहाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cerē-berē mannā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to chirp", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चहचहाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cērō",
+      "kurukh_word_ascii": "Cero",
+      "english_definition": "yesterday",
+      "hindi_definition": "कल (बीता हुआ कल)",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "yesterday", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कल (बीता हुआ कल)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Certā",
+      "kurukh_word_ascii": "Certa",
+      "english_definition": "of yesterday, yesterday's",
+      "hindi_definition": "कल का (बीते हुए कल का)",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cērō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "of yesterday, yesterday's", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कल का (बीते हुए कल का)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Certā-ullā",
+      "kurukh_word_ascii": "Certa-ulla",
+      "english_definition": "yesterday's date",
+      "hindi_definition": "कल की तारीख, बीता हुआ दिन",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cērō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "yesterday's date", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कल की तारीख, बीता हुआ दिन", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cerwādār",
+      "kurukh_word_ascii": "Cerwadar",
+      "english_definition": "horsegroom",
+      "hindi_definition": "सईस (घोड़े की देखभाल करने वाला)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "horsegroom", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सईस (घोड़े की देखभाल करने वाला)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cētrnā",
+      "kurukh_word_ascii": "Cetrna",
+      "english_definition": "to become conscious, to remember",
+      "hindi_definition": "चेतना, होश में आना; याद रखना / स्मरण करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to become conscious, to remember", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चेतना, होश में आना; याद रखना / स्मरण करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cētaba'anā",
+      "kurukh_word_ascii": "Cetaba'ana",
+      "english_definition": "to exhort, admonish, remind",
+      "hindi_definition": "चेताना, चेतावनी देना, स्मरण कराना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to exhort, admonish, remind", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चेताना, चेतावनी देना, स्मरण कराना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    },
+    {
+      "kurukh_word": "Cetgar",
+      "kurukh_word_ascii": "Cetgar",
+      "english_definition": "clever, prudent",
+      "hindi_definition": "चतुर, समझदार, विवेकशील",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "clever, prudent", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चतुर, समझदार, विवेकशील", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0033.jpg", "page_label": "29" }
+    }
+  ]
+}

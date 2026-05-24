@@ -1,0 +1,296 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0098.jpg",
+  "page_label": "94",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kuṅkī",
+      "kurukh_word_ascii": "Kunki",
+      "english_definition": "a stupid, foolish woman.",
+      "hindi_definition": "मूर्ख, बेवकूफ औरत।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurcū",
+      "kurukh_word_ascii": "Kurcu",
+      "english_definition": "adj. cruel.",
+      "hindi_definition": "क्रूर, निर्दयी।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurca'anā",
+      "kurukh_word_ascii": "Kurca'ana",
+      "english_definition": "ckan, c'an, to stammer, to speak like a child.",
+      "hindi_definition": "हकलाना, बच्चे की तरह बोलना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurcārnā",
+      "kurukh_word_ascii": "Kurcarna",
+      "english_definition": "kan, an, to moult.",
+      "hindi_definition": "पंख झड़ना, पर बदलना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurgnā",
+      "kurukh_word_ascii": "Kurgna",
+      "english_definition": "kan, an, to fence in.",
+      "hindi_definition": "बाड़ लगाना, घेरना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurkhi",
+      "kurukh_word_ascii": "Kurkhi",
+      "english_definition": "or kurgī, fence.",
+      "hindi_definition": "बाड़, बाड़ा।",
+      "part_of_speech": "noun",
+      "notes": "Variant: kurgī"
+    },
+    {
+      "kurukh_word": "Kūrnā",
+      "kurukh_word_ascii": "Kurna",
+      "english_definition": "kan, yan, to dress in a \"sārī.\"",
+      "hindi_definition": "साड़ी पहनना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kūrnā bācrna",
+      "kurukh_word_ascii": "Kurna bacrna",
+      "english_definition": "to dress, to wear.",
+      "hindi_definition": "पहनना, वस्त्र धारण करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kūriā",
+      "kurukh_word_ascii": "Kuria",
+      "english_definition": "hut.",
+      "hindi_definition": "झोपड़ी, कुटिया।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurnā",
+      "kurukh_word_ascii": "Kurna",
+      "english_definition": "kuttkan, an, to be hot.",
+      "hindi_definition": "गर्म होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kuttkan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurnā amm",
+      "kurukh_word_ascii": "Kurna amm",
+      "english_definition": "hot water. amm kūrī, the water is hot.",
+      "hindi_definition": "गर्म पानी। amm kūrī, पानी गर्म है।",
+      "part_of_speech": "noun phrase",
+      "notes": "Example: amm kūrī = the water is hot"
+    },
+    {
+      "kurukh_word": "Kurmurkhrnā",
+      "kurukh_word_ascii": "Kurmurkhurna",
+      "english_definition": "kan, an, to be shrouded, to cover the head.",
+      "hindi_definition": "ढकना, सिर ढकना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kūrnā",
+      "kurukh_word_ascii": "Kurna",
+      "english_definition": "kan, yan, to wear a woman's cloth.",
+      "hindi_definition": "स्त्री का वस्त्र पहनना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "2nd homograph of Kūrnā — different sense (women's cloth vs. sārī)"
+    },
+    {
+      "kurukh_word": "Kurra'anā",
+      "kurukh_word_ascii": "Kurra'ana",
+      "english_definition": "ckan, c'an, to level, as a field.",
+      "hindi_definition": "समतल करना, जैसे खेत।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kūrta'anā",
+      "kurukh_word_ascii": "Kurta'ana",
+      "english_definition": "ckan, c'an, to cloth, trans.",
+      "hindi_definition": "कपड़ा पहनाना, सकर्मक।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurū",
+      "kurukh_word_ascii": "Kuru",
+      "english_definition": "a Mohamedan, a Turk, an Arab.",
+      "hindi_definition": "मुसलमान, तुर्क, अरब।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurur",
+      "kurukh_word_ascii": "Kurur",
+      "english_definition": "the Turks, the Mohamedans.",
+      "hindi_definition": "तुर्क लोग, मुसलमान लोग।",
+      "part_of_speech": "noun",
+      "notes": "Plural/collective of Kurū"
+    },
+    {
+      "kurukh_word": "Kurukh Orāõ",
+      "kurukh_word_ascii": "Kurukh Orao",
+      "english_definition": "I am an Orāõ. ēn kurukhan, I am an Orāõ. Nin kurukhai? Are you an Orāõ.",
+      "hindi_definition": "मैं ओराँव हूँ। क्या आप ओराँव हैं?",
+      "part_of_speech": "noun phrase",
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "I am an Orāõ.",
+          "example_sentence_kurukh": "ēn kurukhan",
+          "example_sentence_translation": "I am an Orāõ."
+        },
+        {
+          "language": "en",
+          "definition": "Are you an Orāõ?",
+          "example_sentence_kurukh": "Nin kurukhai?",
+          "example_sentence_translation": "Are you an Orāõ?"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurukh kāthā",
+      "kurukh_word_ascii": "Kurukh katha",
+      "english_definition": "the Orāõ language.",
+      "hindi_definition": "ओराँव भाषा।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurukh daṇḍī",
+      "kurukh_word_ascii": "Kurukh dandi",
+      "english_definition": "Kurukh songs, hymns.",
+      "hindi_definition": "कुरुख गीत, भजन।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurukh khirī",
+      "kurukh_word_ascii": "Kurukh khiri",
+      "english_definition": "Kurukh folklore, tales.",
+      "hindi_definition": "कुरुख लोककथाएँ, कहानियाँ।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kurnā",
+      "kurukh_word_ascii": "Kurna",
+      "english_definition": "a large, earthen vessel for the keeping of oil.",
+      "hindi_definition": "तेल रखने का बड़ा मिट्टी का बर्तन।",
+      "part_of_speech": "noun",
+      "notes": "3rd homograph of Kurnā — noun (earthen vessel), distinct from verb senses above"
+    },
+    {
+      "kurukh_word": "Kusārī",
+      "kurukh_word_ascii": "Kusari",
+      "english_definition": "sugarcane.",
+      "hindi_definition": "गन्ना।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kusanc",
+      "kurukh_word_ascii": "Kusanc",
+      "english_definition": "distress.",
+      "hindi_definition": "कष्ट, संकट।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuslī",
+      "kurukh_word_ascii": "Kusli",
+      "english_definition": "henroost, poultry-yard.",
+      "hindi_definition": "मुर्गीखाना, कुक्कुट-बाड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kussnā",
+      "kurukh_word_ascii": "Kussna",
+      "english_definition": "kan, yan, to ram.",
+      "hindi_definition": "ठूंसना, भरना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kusmusa'anā",
+      "kurukh_word_ascii": "Kusmusa'ana",
+      "english_definition": "ckan, c'an, to whisper.",
+      "hindi_definition": "फुसफुसाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kustī",
+      "kurukh_word_ascii": "Kusti",
+      "english_definition": "or khēr-kustī cock fight.",
+      "hindi_definition": "मुर्गे की लड़ाई।",
+      "part_of_speech": "noun",
+      "notes": "Variant: khēr-kustī"
+    },
+    {
+      "kurukh_word": "Kustī nannā",
+      "kurukh_word_ascii": "Kusti nanna",
+      "english_definition": "to make cocks fight.",
+      "hindi_definition": "मुर्गे लड़वाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kusurain",
+      "kurukh_word_ascii": "Kusurain",
+      "english_definition": "midwife.",
+      "hindi_definition": "दाई, प्रसूति सहायिका।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṭāsī",
+      "kurukh_word_ascii": "Kutasi",
+      "english_definition": "hammer.",
+      "hindi_definition": "हथौड़ा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuṭī",
+      "kurukh_word_ascii": "Kuti",
+      "english_definition": "grogshop, distillation.",
+      "hindi_definition": "शराब की दुकान, आसवन।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kuttallā",
+      "kurukh_word_ascii": "Kuttalla",
+      "english_definition": "a he dog.",
+      "hindi_definition": "नर कुत्ता।",
+      "part_of_speech": "noun",
+      "notes": ""
+    }
+  ]
+}

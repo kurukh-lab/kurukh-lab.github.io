@@ -1,0 +1,597 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg",
+  "page_label": "33",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Conaiṭī",
+      "kurukh_word_ascii": "Conaiti",
+      "english_definition": "the small brass case in which the Orāõ carries the lime which he uses to mix with his tobacco-chew",
+      "hindi_definition": "चुनौती, पीतल की डिबिया (जिसमें उराँव तंबाकू खाने के लिए चूना रखते हैं)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the small brass case in which the Orāõ carries the lime which he uses to mix with his tobacco-chew", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चुनौती, पीतल की डिबिया (जिसमें उराँव तंबाकू खाने के लिए चूना रखते हैं)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Coṅgnā",
+      "kurukh_word_ascii": "Congna",
+      "english_definition": "to trod",
+      "hindi_definition": "रौंदना, कुचलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "cuṅgkan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to trod", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रौंदना, कुचलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Conhā",
+      "kurukh_word_ascii": "Conha",
+      "english_definition": "love affection",
+      "hindi_definition": "प्रेम, स्नेह",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "love affection", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्रेम, स्नेह", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Conhā nanjkā",
+      "kurukh_word_ascii": "Conha nanjka",
+      "english_definition": "beloved",
+      "hindi_definition": "प्यारा, प्रिय",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Conhā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "beloved", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्यारा, प्रिय", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Conhā nannā",
+      "kurukh_word_ascii": "Conha nanna",
+      "english_definition": "to love, befriend",
+      "hindi_definition": "प्रेम करना, मित्र बनाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Conhā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to love, befriend", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्रेम करना, मित्र बनाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Co'onā",
+      "kurukh_word_ascii": "Co'ona",
+      "english_definition": "to rise, stand up, to be over",
+      "hindi_definition": "उठना, खड़े होना, समाप्त होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to rise, stand up, to be over",
+          "example_sentence_kurukh": "pēṭ cocā",
+          "example_sentence_translation": "the market is over."
+        },
+        {
+          "language": "hi",
+          "definition": "उठना, खड़े होना, समाप्त होना",
+          "example_sentence_kurukh": "pēṭ cocā",
+          "example_sentence_translation": "बाज़ार समाप्त हो गया है।"
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Co'ōbirī",
+      "kurukh_word_ascii": "Co'obiri",
+      "english_definition": "rising time, early in the morning",
+      "hindi_definition": "सूर्योदय का समय, भोर, तड़के सुबह",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Co'onā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "rising time, early in the morning", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सूर्योदय का समय, भोर, तड़के सुबह", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Cōcōyō",
+      "kurukh_word_ascii": "Cocoyo",
+      "english_definition": "conical",
+      "hindi_definition": "शंक्वाकार, नुकीला",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "conical", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शंक्वाकार, नुकीला", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Cōyā",
+      "kurukh_word_ascii": "Coya",
+      "english_definition": "fishscales",
+      "hindi_definition": "मछली का शल्क / चोइटा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "fishscales", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मछली का शल्क / चोइटा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Cop'ē",
+      "kurukh_word_ascii": "Cop'e",
+      "english_definition": "the after, anus",
+      "hindi_definition": "गुदा (मलद्वार)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the after, anus", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गुदा (मलद्वार)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Copī",
+      "kurukh_word_ascii": "Copi",
+      "english_definition": "a cover for the head made of leaves",
+      "hindi_definition": "छतरी / टोपी (पत्तों से बनी छतरी नुमा टोपी, खुमरी)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a cover for the head made of leaves", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छतरी / टोपी (पत्तों से बनी छतरी नुमा टोपी, खुमरी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Copkārnā",
+      "kurukh_word_ascii": "Copkarna",
+      "english_definition": "to become accustomed, initiated",
+      "hindi_definition": "अभ्यस्त होना, आदी होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to become accustomed, initiated", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अभ्यस्त होना, आदी होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Coppā",
+      "kurukh_word_ascii": "Coppa",
+      "english_definition": "peel, of a fruit",
+      "hindi_definition": "फल का छिलका",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "peel, of a fruit", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फल का छिलका", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Coppō",
+      "kurukh_word_ascii": "Coppo",
+      "english_definition": "young frogs",
+      "hindi_definition": "मेंढक के बच्चे (टैडपोल)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "young frogs", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मेंढक के बच्चे (टैडपोल)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Coppō-injō",
+      "kurukh_word_ascii": "Coppo-injo",
+      "english_definition": "prawn fish",
+      "hindi_definition": "झींगा मछली",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Coppō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "prawn fish", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "झींगा मछली", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Coprō",
+      "kurukh_word_ascii": "Copro",
+      "english_definition": "wrinkle",
+      "hindi_definition": "झुर्री",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "wrinkle", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "झुर्री", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Coprō mannā",
+      "kurukh_word_ascii": "Copro manna",
+      "english_definition": "to be wrinkled, shrunk",
+      "hindi_definition": "झुर्रीदार होना, सिकुड़ना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Coprō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be wrinkled, shrunk", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "झुर्रीदार होना, सिकुड़ना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Cōrdēwā",
+      "kurukh_word_ascii": "Cordewa",
+      "english_definition": "A demon, which appears in the form of a cat, to steal new-born children, i.e., to kill them",
+      "hindi_definition": "चोरदेवा (एक पिशाच, जो बिल्ली के रूप में नवजात बच्चों को चुराने / मारने आता है)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "A demon, which appears in the form of a cat, to steal new-born children, i.e., to kill them ; see curil.", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चोरदेवा (एक पिशाच, जो बिल्ली के रूप में नवजात बच्चों को चुराने / मारने आता है; चुरैल देखें)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Corgnā",
+      "kurukh_word_ascii": "Corgna",
+      "english_definition": "to crawl on hand and feet, as a little child or a cripple",
+      "hindi_definition": "हाथों और पैरों के बल चलना, घुटनों के बल चलना (जैसे छोटा बच्चा या अपंग व्यक्ति)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "curgkan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to crawl on hand and feet, as a little child or a cripple", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हाथों और पैरों के बल चलना, घुटनों के बल चलना (जैसे छोटा बच्चा या अपंग व्यक्ति)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Corgnā",
+      "kurukh_word_ascii": "Corgna",
+      "english_definition": "to wash or clean the hinder part after easing",
+      "hindi_definition": "शौच के बाद सफाई करना (धोना)",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to wash or clean the hinder part after easing", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शौच के बाद सफाई करना (धोना)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Corgō",
+      "kurukh_word_ascii": "Corgo",
+      "english_definition": "leisurely, indifferent",
+      "hindi_definition": "आराम से, उदासीन, बेपरवाह",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "leisurely, indifferent", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आराम से, उदासीन, बेपरवाह", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Cōrnā",
+      "kurukh_word_ascii": "Corna",
+      "english_definition": "to crack as wood when burning or the finger joints when drawn",
+      "hindi_definition": "लकड़ी का जलते समय चटकना या उँगलियों के पोरों का चटकाना (चुटकी बजाना)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "curkan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to crack as wood when burning or the finger joints when drawn", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "लकड़ी का जलते समय चटकना या उँगलियों के पोरों का चटकाना (चुटकी बजाना)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Corō",
+      "kurukh_word_ascii": "Coro",
+      "english_definition": "sparrow",
+      "hindi_definition": "गोरैया पक्षी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "sparrow", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गोरैया पक्षी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Corokhcorokhrnā",
+      "kurukh_word_ascii": "Corokhcorokhrna",
+      "english_definition": "to suck",
+      "hindi_definition": "चूसना, चूसने की आवाज़ निकालना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to suck", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चूसना, चूसने की आवाज़ निकालना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Cothnā",
+      "kurukh_word_ascii": "Cothna",
+      "english_definition": "to pull, pinch",
+      "hindi_definition": "खींचना, चिकोटी काटना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to pull, pinch", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खींचना, चिकोटी काटना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Cotkhnā",
+      "kurukh_word_ascii": "Cotkhna",
+      "english_definition": "to melt",
+      "hindi_definition": "पिघलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "cutkhkan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to melt", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पिघलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Cotor",
+      "kurukh_word_ascii": "Cotor",
+      "english_definition": "mud, mire",
+      "hindi_definition": "कीचड़, दलदल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "mud, mire", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कीचड़, दलदल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Cotor-arkhā",
+      "kurukh_word_ascii": "Cotor-arkha",
+      "english_definition": "a vegetable growing in the moor",
+      "hindi_definition": "कीचड़ में उगने वाली साग",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cotor",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a vegetable growing in the moor", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कीचड़ में उगने वाली साग", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    },
+    {
+      "kurukh_word": "Cottā",
+      "kurukh_word_ascii": "Cotta",
+      "english_definition": "excrements of cattle, cowdung",
+      "hindi_definition": "गोबर, मवेशियों का मल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "excrements of cattle, cowdung", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गोबर, मवेशियों का मल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0037.jpg", "page_label": "33" }
+    }
+  ]
+}

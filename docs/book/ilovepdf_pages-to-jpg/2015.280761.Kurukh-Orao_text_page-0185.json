@@ -1,0 +1,252 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0185.jpg",
+  "page_label": "181",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Umblnā",
+      "kurukh_word_ascii": "Umblna",
+      "english_definition": "to make water, pass urine",
+      "hindi_definition": "पेशाब करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Umblā'anā",
+      "kurukh_word_ascii": "Umbla'ana",
+      "english_definition": "to pass urine (same as above)",
+      "hindi_definition": "पेशाब करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Umbulk̲h̲oṭṭā",
+      "kurukh_word_ascii": "Umbulkhotta",
+      "english_definition": "bladder (urinal bag)",
+      "hindi_definition": "मूत्राशय",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Umbulpak̲h̲nā",
+      "kurukh_word_ascii": "Umbulpakhna",
+      "english_definition": "bladder stone",
+      "hindi_definition": "पथरी (मूत्राशय की)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Umbu'ī",
+      "kurukh_word_ascii": "Umbu'i",
+      "english_definition": "front, inner side",
+      "hindi_definition": "सामने, भीतरी भाग",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Umbu'ī k̲h̲atrnā",
+      "kurukh_word_ascii": "Umbu'i khatrna",
+      "english_definition": "to fall headlong",
+      "hindi_definition": "सिर के बल गिरना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Umbu'ī mannā",
+      "kurukh_word_ascii": "Umbu'i manna",
+      "english_definition": "to bow down head touching the ground",
+      "hindi_definition": "दंडवत प्रणाम करना, सिर जमीन से सटाकर झुकना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Umbu'ā manōt darā nē'ōt",
+      "kurukh_word_ascii": "Umbu'a manot dara ne'ot",
+      "english_definition": "let's fall down and pray",
+      "hindi_definition": "चलो हम दंडवत होकर प्रार्थना करें",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Umdā",
+      "kurukh_word_ascii": "Umda",
+      "english_definition": "pride",
+      "hindi_definition": "घमंड, गर्व",
+      "part_of_speech": "noun",
+      "loanword_from": "ur"
+    },
+    {
+      "kurukh_word": "Umdā mannā",
+      "kurukh_word_ascii": "Umda manna",
+      "english_definition": "to be proud",
+      "hindi_definition": "घमंड करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Umdā uinā",
+      "kurukh_word_ascii": "Umda uina",
+      "english_definition": "to be proud",
+      "hindi_definition": "घमंड रखना, गर्व करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Umhē",
+      "kurukh_word_ascii": "Umhe",
+      "english_definition": "warmth, comfortableness, peace",
+      "hindi_definition": "गर्मी, आराम, शांति",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Umhē sārnā",
+      "kurukh_word_ascii": "Umhe sarna",
+      "english_definition": "to feel warm, to be comfortable, to have peace",
+      "hindi_definition": "गर्मी महसूस करना, आराम या शांति पाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Umhē sārarkī kalā",
+      "kurukh_word_ascii": "Umhe sararki kala",
+      "english_definition": "depart in peace",
+      "hindi_definition": "शांति से जाओ",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Umpnā",
+      "kurukh_word_ascii": "Umpna",
+      "english_definition": "to perforate, pierce through",
+      "hindi_definition": "छेद करना, आर-पार छेदना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Umprnā",
+      "kurukh_word_ascii": "Umprna",
+      "english_definition": "to be perforated, pierced through",
+      "hindi_definition": "छिद्रित होना, छेद होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Umsārnā",
+      "kurukh_word_ascii": "Umsarna",
+      "english_definition": "to be healthy, fresh, young (men and cattle)",
+      "hindi_definition": "स्वस्थ, तरोताजा या युवा होना (मनुष्य और मवेशी)",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Umṭarnā",
+      "kurukh_word_ascii": "Umtarna",
+      "english_definition": "to be mad, insane",
+      "hindi_definition": "पागल होना, विक्षिप्त होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Undrī-muṇḍrī",
+      "kurukh_word_ascii": "Undri-mundri",
+      "english_definition": "Lady, mistress",
+      "hindi_definition": "श्रीमती, मालकिन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Undul",
+      "kurukh_word_ascii": "Undul",
+      "english_definition": "some time, once, one day",
+      "hindi_definition": "कभी, एक दिन, एक समय",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Uṅglnā",
+      "kurukh_word_ascii": "Unglna",
+      "english_definition": "to pass urine",
+      "hindi_definition": "पेशाब करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Uṅgur",
+      "kurukh_word_ascii": "Ungur",
+      "english_definition": "for a short time",
+      "hindi_definition": "थोड़े समय के लिए, क्षणभर",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Uṅk",
+      "kurukh_word_ascii": "Unk",
+      "english_definition": "chaff of rice",
+      "hindi_definition": "धान की भूसी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Uṅk-ghāsī",
+      "kurukh_word_ascii": "Unk-ghasi",
+      "english_definition": "a kind of grass",
+      "hindi_definition": "एक प्रकार की घास",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Uṅknā",
+      "kurukh_word_ascii": "Unkna",
+      "english_definition": "to take away with a grasp",
+      "hindi_definition": "मुट्ठी में पकड़कर ले जाना, झपटना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Uṅk̲h̲nā",
+      "kurukh_word_ascii": "Unkhna",
+      "english_definition": "to be giddy, intoxicated, drunk",
+      "hindi_definition": "नशे में होना, मतवाला होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Uṅk̲h̲-arkhā",
+      "kurukh_word_ascii": "Unkh-arkha",
+      "english_definition": "a sleep-inducing vegetable given to restless children",
+      "hindi_definition": "नींद लाने वाली एक सब्जी जो अशांत बच्चों को दी जाती है",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Unus",
+      "kurukh_word_ascii": "Unus",
+      "english_definition": "eater",
+      "hindi_definition": "खाने वाला, भक्षक",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Uplārnā",
+      "kurukh_word_ascii": "Uplarna",
+      "english_definition": "to emerge",
+      "hindi_definition": "उभरना, प्रकट होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Uprē-caprē nannā",
+      "kurukh_word_ascii": "Upre-capre nanna",
+      "english_definition": "to hasten, hurry, spoil by hurry",
+      "hindi_definition": "जल्दबाजी करना, हड़बड़ी में बिगाड़ना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Uprārnā",
+      "kurukh_word_ascii": "Uprarna",
+      "english_definition": "to roll about, to be restless",
+      "hindi_definition": "छटपटाना, बेचैन होकर करवटें बदलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Uprar",
+      "kurukh_word_ascii": "Uprar",
+      "english_definition": "resistance, restlessness",
+      "hindi_definition": "प्रतिरोध, बेचैनी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Uprar nannā",
+      "kurukh_word_ascii": "Uprar nanna",
+      "english_definition": "to resist",
+      "hindi_definition": "प्रतिरोध करना, विरोध करना",
+      "part_of_speech": "phrase"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0085.jpg",
+  "page_label": "81",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kadrnā",
+      "kurukh_word_ascii": "Kadrna",
+      "english_definition": "kan, yan, to be terrified.",
+      "hindi_definition": "भयभीत होना, डरना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ka'eno",
+      "kurukh_word_ascii": "Ka'eno",
+      "english_definition": "adv. many, much.",
+      "hindi_definition": "बहुत, अधिक।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kāgat",
+      "kurukh_word_ascii": "Kagat",
+      "english_definition": "H. paper.",
+      "hindi_definition": "कागज़।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kahlan",
+      "kurukh_word_ascii": "Kahlan",
+      "english_definition": "order.",
+      "hindi_definition": "आदेश।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kahu",
+      "kurukh_word_ascii": "Kahu",
+      "english_definition": "the word by which crows are frightened away.",
+      "hindi_definition": "कौओं को भगाने वाला शब्द।",
+      "part_of_speech": "interjection",
+      "notes": "Onomatopoeic scare call."
+    },
+    {
+      "kurukh_word": "Kai",
+      "kurukh_word_ascii": "Kai",
+      "english_definition": "adv. H. several, some.",
+      "hindi_definition": "कई, कुछ।",
+      "part_of_speech": "adverb",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaikō",
+      "kurukh_word_ascii": "Kaiko",
+      "english_definition": "adv. several, some.",
+      "hindi_definition": "कई, कुछ।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaimī",
+      "kurukh_word_ascii": "Kaimi",
+      "english_definition": "many, much.",
+      "hindi_definition": "बहुत, अधिक।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kail",
+      "kurukh_word_ascii": "Kail",
+      "english_definition": "U. pain.",
+      "hindi_definition": "दर्द, पीड़ा।",
+      "part_of_speech": "noun",
+      "loanword_from": "Urdu",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kail mannā",
+      "kurukh_word_ascii": "Kail manna",
+      "english_definition": "to be pained.",
+      "hindi_definition": "दर्द होना, पीड़ित होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kail nannā",
+      "kurukh_word_ascii": "Kail nanna",
+      "english_definition": "to give pain.",
+      "hindi_definition": "दर्द देना, पीड़ा देना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kailā",
+      "kurukh_word_ascii": "Kaila",
+      "english_definition": "adj. yellow.",
+      "hindi_definition": "पीला।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaila'anā",
+      "kurukh_word_ascii": "Kaila'ana",
+      "english_definition": "ckan, c'an, to oppress.",
+      "hindi_definition": "अत्याचार करना, दबाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kainca'ana",
+      "kurukh_word_ascii": "Kainca'ana",
+      "english_definition": "ckan, c'an, to cut with scissors.",
+      "hindi_definition": "कैंची से काटना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kainō",
+      "kurukh_word_ascii": "Kaino",
+      "english_definition": "adj. many.",
+      "hindi_definition": "बहुत, अनेक।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaīyā",
+      "kurukh_word_ascii": "Kaiya",
+      "english_definition": "rust, moss.",
+      "hindi_definition": "जंग, काई।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kairārnā",
+      "kurukh_word_ascii": "Kairarna",
+      "english_definition": "kan, an, to be fretful.",
+      "hindi_definition": "चिड़चिड़ा होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaisaigō",
+      "kurukh_word_ascii": "Kaisaigo",
+      "english_definition": "a plant, creeper.",
+      "hindi_definition": "एक पौधा, लता।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kajnā",
+      "kurukh_word_ascii": "Kajna",
+      "english_definition": "kan, yan, to press down, crush.",
+      "hindi_definition": "दबाना, कुचलना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kajrnā",
+      "kurukh_word_ascii": "Kajrna",
+      "english_definition": "kan, an, to cover.",
+      "hindi_definition": "ढकना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kajrā",
+      "kurukh_word_ascii": "Kajra",
+      "english_definition": "lamp-black.",
+      "hindi_definition": "काजल, लैम्प की कालिख।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kajra'anā",
+      "kurukh_word_ascii": "Kajra'ana",
+      "english_definition": "ckan, c'an, to sharpen an instrument or weapon.",
+      "hindi_definition": "हथियार या औजार तेज़ करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaisūgō",
+      "kurukh_word_ascii": "Kaisugo",
+      "english_definition": "a plant used for medicine H. sitaur.",
+      "hindi_definition": "औषधीय पौधा, हिंदी में सितौर।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": "H. sitaur = medicinal plant."
+    },
+    {
+      "kurukh_word": "Kakā",
+      "kurukh_word_ascii": "Kaka",
+      "english_definition": "paternal uncle.",
+      "hindi_definition": "चाचा, पितृव्य।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kakī",
+      "kurukh_word_ascii": "Kaki",
+      "english_definition": "paternal aunt.",
+      "hindi_definition": "चाची।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kakrō",
+      "kurukh_word_ascii": "Kakro",
+      "english_definition": "crab.",
+      "hindi_definition": "केकड़ा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kakrō bichā",
+      "kurukh_word_ascii": "Kakro bicha",
+      "english_definition": "the large scorpion.",
+      "hindi_definition": "बड़ा बिच्छू।",
+      "part_of_speech": "noun",
+      "notes": "bichā = scorpion."
+    },
+    {
+      "kurukh_word": "Kaknā",
+      "kurukh_word_ascii": "Kakna",
+      "english_definition": "chains and garlands made of grass.",
+      "hindi_definition": "घास की माला या बेड़ी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kakta'anā",
+      "kurukh_word_ascii": "Kakta'ana",
+      "english_definition": "ckan, c'an, to threaten.",
+      "hindi_definition": "धमकी देना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kalā",
+      "kurukh_word_ascii": "Kala",
+      "english_definition": "imper. of ka'aná, go!",
+      "hindi_definition": "जाओ! (आदेशात्मक रूप)।",
+      "part_of_speech": "verb",
+      "notes": "Imperative of ka'aná."
+    },
+    {
+      "kurukh_word": "Kalē kalē",
+      "kurukh_word_ascii": "Kale kale",
+      "english_definition": "adv. slowly, step by step.",
+      "hindi_definition": "धीरे-धीरे, कदम दर कदम।",
+      "part_of_speech": "adverb",
+      "notes": "Reduplicated form."
+    },
+    {
+      "kurukh_word": "Kalab kalabrnā",
+      "kurukh_word_ascii": "Kalab kalabrna",
+      "english_definition": "kan, an, to be in difficulties, especially with regard to food.",
+      "hindi_definition": "तकलीफ में होना, विशेष रूप से भोजन के संबंध में।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Reduplicated compound."
+    }
+  ]
+}

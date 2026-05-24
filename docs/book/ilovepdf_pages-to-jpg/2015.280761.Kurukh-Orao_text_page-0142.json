@@ -1,0 +1,242 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0142.jpg",
+  "page_label": "138",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Olōt",
+      "kurukh_word_ascii": "Olot",
+      "english_definition": "same as ochōr (shelter, refuge)",
+      "hindi_definition": "आश्रय, शरण (ochōr के समान)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ombā'ā / Umbā'ā mannā",
+      "kurukh_word_ascii": "Omba'a / Umba'a manna",
+      "english_definition": "to bow down with face touching the ground",
+      "hindi_definition": "मुँह जमीन से लगाकर झुकना, साष्टांग प्रणाम करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ombā'ā khaṭrnā / Umbulī khaṭrnā",
+      "kurukh_word_ascii": "Omba'a khatrna / Umbuli khatrna",
+      "english_definition": "to fall headlong",
+      "hindi_definition": "औंधे मुँह गिरना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "On",
+      "kurukh_word_ascii": "On",
+      "english_definition": "one (thing or animal), used in counting",
+      "hindi_definition": "एक (वस्तु या पशु), गिनती में प्रयुक्त",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Onabā'ānā",
+      "kurukh_word_ascii": "Onaba'ana",
+      "english_definition": "to call for dinner",
+      "hindi_definition": "भोजन के लिए बुलाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Onār cī'inā",
+      "kurukh_word_ascii": "Onar ci'ina",
+      "english_definition": "to eat up",
+      "hindi_definition": "खा जाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ond",
+      "kurukh_word_ascii": "Ond",
+      "english_definition": "one (thing or animal)",
+      "hindi_definition": "एक (वस्तु या पशु)",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Ond ērnā",
+      "kurukh_word_ascii": "Ond erna",
+      "english_definition": "to taste as wine or medicine",
+      "hindi_definition": "शराब या दवा का स्वाद लेना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ond kūl rā'ānā",
+      "kurukh_word_ascii": "Ond kul ra'ana",
+      "english_definition": "to be blood relatives, born of one mother",
+      "hindi_definition": "एक ही माँ से जन्मे सगे रिश्तेदार होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ond kudhā",
+      "kurukh_word_ascii": "Ond kudha",
+      "english_definition": "very much (lit. a heap of)",
+      "hindi_definition": "बहुत अधिक (शाब्दिक: एक ढेर)",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ond tārā",
+      "kurukh_word_ascii": "Ond tara",
+      "english_definition": "one side",
+      "hindi_definition": "एक तरफ",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ondā",
+      "kurukh_word_ascii": "Onda",
+      "english_definition": "take! Here, take away!",
+      "hindi_definition": "लो! यह लो!",
+      "part_of_speech": "interj"
+    },
+    {
+      "kurukh_word": "Ondrnā",
+      "kurukh_word_ascii": "Ondrna",
+      "english_definition": "to bring, fetch",
+      "hindi_definition": "लाना, लेकर आना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ondim",
+      "kurukh_word_ascii": "Ondim",
+      "english_definition": "one, even one thing",
+      "hindi_definition": "एक, एक भी चीज",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Ondkā-pūmp",
+      "kurukh_word_ascii": "Ondka-pump",
+      "english_definition": "the flesh-eating flower, which closes upon any insect which entered into it",
+      "hindi_definition": "मांसभक्षी फूल जो अंदर आए कीड़े को बंद कर लेता है",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ondkā",
+      "kurukh_word_ascii": "Ondka",
+      "english_definition": "man-catcher",
+      "hindi_definition": "आदमी पकड़ने वाला",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ondullā",
+      "kurukh_word_ascii": "Ondulla",
+      "english_definition": "one day; or once at a time",
+      "hindi_definition": "एक दिन; या एक बार में",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ondul",
+      "kurukh_word_ascii": "Ondul",
+      "english_definition": "some day, or a certain day",
+      "hindi_definition": "किसी दिन, एक निश्चित दिन",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ondhornā",
+      "kurukh_word_ascii": "Ondhorna",
+      "english_definition": "same as ondrnā (to bring, fetch)",
+      "hindi_definition": "लाना (ondrnā के समान)",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Onghakem",
+      "kurukh_word_ascii": "Onghakem",
+      "english_definition": "seldom",
+      "hindi_definition": "कभी-कभी, विरले ही",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ōnghon",
+      "kurukh_word_ascii": "Oaghon",
+      "english_definition": "once, one time",
+      "hindi_definition": "एक बार",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Onghōnum",
+      "kurukh_word_ascii": "Onghonum",
+      "english_definition": "at once, at a sudden",
+      "hindi_definition": "एकदम से, अचानक",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ongnā",
+      "kurukh_word_ascii": "Ongna",
+      "english_definition": "to be able",
+      "hindi_definition": "सक्षम होना, कर सकना",
+      "part_of_speech": "verb",
+      "verb_class": "ungkan-uigyan",
+      "example_phrase": "onga hi poldas — he can by no means, is absolutely unable"
+    },
+    {
+      "kurukh_word": "Onkhnā'ē",
+      "kurukh_word_ascii": "Onkhna'e",
+      "english_definition": "to get drunk",
+      "hindi_definition": "नशे में होना",
+      "part_of_speech": "verb",
+      "verb_class": "unkhkan-yan"
+    },
+    {
+      "kurukh_word": "Onkhrnā",
+      "kurukh_word_ascii": "Onkhrna",
+      "english_definition": "to rot, to get overripe",
+      "hindi_definition": "सड़ना, अति-पका होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Onkhtā'ānā",
+      "kurukh_word_ascii": "Onkhta'ana",
+      "english_definition": "to put by fruits or bind them up to hasten their ripening",
+      "hindi_definition": "फलों को पकाने के लिए बाँधना या रखना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-'an"
+    },
+    {
+      "kurukh_word": "On'nā",
+      "kurukh_word_ascii": "On'na",
+      "english_definition": "to be sharp, to cut",
+      "hindi_definition": "धारदार होना, काटना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-can"
+    },
+    {
+      "kurukh_word": "Onnē tarrī",
+      "kurukh_word_ascii": "Onne tarri",
+      "english_definition": "sharp sword",
+      "hindi_definition": "तेज तलवार",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Onnē kantō",
+      "kurukh_word_ascii": "Onne kanto",
+      "english_definition": "sharp knife",
+      "hindi_definition": "तेज चाकू",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Onnī",
+      "kurukh_word_ascii": "Onni",
+      "english_definition": "to drink, to eat rice",
+      "hindi_definition": "पीना, चावल खाना",
+      "part_of_speech": "verb",
+      "verb_class": "ondkan-an"
+    },
+    {
+      "kurukh_word": "Ondnā",
+      "kurukh_word_ascii": "Ondna",
+      "english_definition": "to feed",
+      "hindi_definition": "खिलाना",
+      "part_of_speech": "verb"
+    },
+    {
+      "kurukh_word": "Orsnā",
+      "kurukh_word_ascii": "Orsna",
+      "english_definition": "to touch",
+      "hindi_definition": "छूना",
+      "part_of_speech": "verb",
+      "verb_class": "urskan-yan"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0106.jpg",
+  "page_label": "102",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "K̲h̲ajnā",
+      "kurukh_word_ascii": "Khajna",
+      "english_definition": "kan, yan, to tetter, bind by the feet.",
+      "hindi_definition": "पैरों को बांधना (पशुओं के पैरों में रस्सी बांधना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "2nd homograph of K̲h̲ajnā — different sense (to tetter, bind by the feet)"
+    },
+    {
+      "kurukh_word": "K̲h̲aj mokhnā",
+      "kurukh_word_ascii": "Khaj mokhna",
+      "english_definition": "to get sores on the feet, from standing long in the water.",
+      "hindi_definition": "लंबे समय तक पानी में खड़े रहने से पैरों में सड़न या घाव होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲āk̲h̲ā",
+      "kurukh_word_ascii": "Khakha",
+      "english_definition": "crow.",
+      "hindi_definition": "कौआ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲āk̲h̲ā arḳhā",
+      "kurukh_word_ascii": "Khakha arkha",
+      "english_definition": "the crowgreens.",
+      "hindi_definition": "कौए का साग (एक जंगली साग)।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲akhnā",
+      "kurukh_word_ascii": "Khakhna",
+      "english_definition": "kan, yan, to find, get, receive, obtain.",
+      "hindi_definition": "पाना, प्राप्त करना, मिलना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲akhrnā",
+      "kurukh_word_ascii": "Khakhrna",
+      "english_definition": "kan, an, to be obtained ; eṅgāgē k̲h̲akhrā, I have obtained, got.",
+      "hindi_definition": "प्राप्त होना, मिलना; eṅgāgē k̲h̲akhrā = मुझे मिला है।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Example: eṅgāgē k̲h̲akhrā = I have obtained, got"
+    },
+    {
+      "kurukh_word": "K̲h̲akhrnakrnā",
+      "kurukh_word_ascii": "Khakhrnakrna",
+      "english_definition": "kan, an, to meet, become acquainted.",
+      "hindi_definition": "परस्पर मिलना, परिचित होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲akhra'anā",
+      "kurukh_word_ascii": "Khakhra'ana",
+      "english_definition": "ckan, c'an, to lay down, decline.",
+      "hindi_definition": "लेटाना, नीचे झुकाना, अवनत करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲al",
+      "kurukh_word_ascii": "Khal",
+      "english_definition": "field, cultivated ground.",
+      "hindi_definition": "खेत, कृषि भूमि।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲al ukhrī nannā",
+      "kurukh_word_ascii": "Khal ukhri nanna",
+      "english_definition": "to cultivate, to do agricultural work.",
+      "hindi_definition": "खेती करना, कृषि कार्य करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲alakhnā",
+      "kurukh_word_ascii": "Khalakhna",
+      "english_definition": "kan, yan, to disturb, make muddy, as water.",
+      "hindi_definition": "पानी हिलाकर गंदा करना, मटमैला करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲alkhkā amm",
+      "kurukh_word_ascii": "Khalkhka amm",
+      "english_definition": "disturbed, muddy water.",
+      "hindi_definition": "गंदा या मटमैला पानी।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲allmulli",
+      "kurukh_word_ascii": "Khallmulli",
+      "english_definition": "wages for working in the field.",
+      "hindi_definition": "खेत में काम करने की मजदूरी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲alb",
+      "kurukh_word_ascii": "Khalb",
+      "english_definition": "thief, robber.",
+      "hindi_definition": "चोर, डाकू।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲alb khadnā",
+      "kurukh_word_ascii": "Khalb khadna",
+      "english_definition": "to steal, rob.",
+      "hindi_definition": "चोरी करना, लूटना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲albnā",
+      "kurukh_word_ascii": "Khalbna",
+      "english_definition": "kan, yan, to clean the rice for cooking.",
+      "hindi_definition": "पकाने के लिए चावल साफ करना (धोना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲alkhō",
+      "kurukh_word_ascii": "Khalkho",
+      "english_definition": "shad fish.",
+      "hindi_definition": "शेड मछली (हिल्सा परिवार की मछली)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲āmī",
+      "kurukh_word_ascii": "Khami",
+      "english_definition": "thatching grass.",
+      "hindi_definition": "छप्पर छाने की घास।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲anē",
+      "kurukh_word_ascii": "Khane",
+      "english_definition": "time, ā k̲h̲anē, that time.",
+      "hindi_definition": "समय; ā k̲h̲anē = उस समय।",
+      "part_of_speech": "noun",
+      "notes": "Example: ā k̲h̲anē = that time"
+    },
+    {
+      "kurukh_word": "K̲h̲anē",
+      "kurukh_word_ascii": "Khane",
+      "english_definition": "adv. then, thereupon.",
+      "hindi_definition": "तब, उसके बाद।",
+      "part_of_speech": "adverb",
+      "notes": "2nd homograph of K̲h̲anē"
+    },
+    {
+      "kurukh_word": "k̲h̲anem",
+      "kurukh_word_ascii": "khanem",
+      "english_definition": "adv. then, thereupon.",
+      "hindi_definition": "तब, उसके बाद।",
+      "part_of_speech": "adverb",
+      "notes": "Variant/derivative of K̲h̲anē (adv.)"
+    },
+    {
+      "kurukh_word": "K̲h̲anē",
+      "kurukh_word_ascii": "Khane",
+      "english_definition": "prep. after, then.",
+      "hindi_definition": "के बाद, तब।",
+      "part_of_speech": "preposition",
+      "notes": "3rd homograph of K̲h̲anē"
+    },
+    {
+      "kurukh_word": "K̲h̲anē",
+      "kurukh_word_ascii": "Khane",
+      "english_definition": "adverbial participle : ērā k̲h̲anē or k̲h̲anem, seeing, in the act of seeing.",
+      "hindi_definition": "क्रियाविशेषण कृदंत (देखते ही); ērā k̲h̲anē or k̲h̲anem = देखते ही।",
+      "part_of_speech": "adverb",
+      "notes": "4th homograph/use of K̲h̲anē; Example: ērā k̲h̲anē or k̲h̲anem = seeing, in the act of seeing"
+    },
+    {
+      "kurukh_word": "K̲h̲anem k̲h̲anem",
+      "kurukh_word_ascii": "Khanem khanem",
+      "english_definition": "adv. repeatedly, again and again, continually.",
+      "hindi_definition": "बार-बार, लगातार।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲anē duru",
+      "kurukh_word_ascii": "Khane duru",
+      "english_definition": "thereupon, consequently, after that.",
+      "hindi_definition": "उसके बाद, तदनुसार, फलस्वरूप।",
+      "part_of_speech": "adverb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲an",
+      "kurukh_word_ascii": "Khan",
+      "english_definition": "eye, tiru k̲h̲an, squint eye.",
+      "hindi_definition": "आँख; tiru k̲h̲an = भेंगा आँख।",
+      "part_of_speech": "noun",
+      "notes": "Example: tiru k̲h̲an = squint eye"
+    },
+    {
+      "kurukh_word": "K̲h̲an ēkhnā",
+      "kurukh_word_ascii": "Khan ekhna",
+      "english_definition": "to shade, close, the eyes, to slumber, also to rest, to sleep.",
+      "hindi_definition": "आँखें बंद करना, झपकी लेना, आराम करना, सोना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲anēk̲h̲uā ullā",
+      "kurukh_word_ascii": "Khanekhua ulla",
+      "english_definition": "the day of rest, the Sabbath day.",
+      "hindi_definition": "विश्राम का दिन, सब्त का दिन।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲aniek̲h̲nā",
+      "kurukh_word_ascii": "Khaniekhna",
+      "english_definition": "the same as above (the day of rest, the Sabbath day).",
+      "hindi_definition": "विश्राम का दिन, सब्त का दिन (उपरोक्त के समान)।",
+      "part_of_speech": "noun phrase",
+      "notes": "Variant of K̲h̲anēk̲h̲uā ullā"
+    },
+    {
+      "kurukh_word": "K̲h̲anĩek̲h̲nā ullā",
+      "kurukh_word_ascii": "Khaniekhna ulla",
+      "english_definition": "the same as above (the day of rest, the Sabbath day).",
+      "hindi_definition": "विश्राम का दिन, सब्त का दिन (उपरोक्त के समान)।",
+      "part_of_speech": "noun phrase",
+      "notes": "Variant of K̲h̲anēk̲h̲uā ullā"
+    },
+    {
+      "kurukh_word": "K̲h̲anēk̲h̲nā birī",
+      "kurukh_word_ascii": "Khanekhna biri",
+      "english_definition": "sleeping, resting time.",
+      "hindi_definition": "सोने या आराम करने का समय।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲an kōrā tī ērnā",
+      "kurukh_word_ascii": "Khan kora ti erna",
+      "english_definition": "to take notice of. Ās eṅgan k̲h̲an kōrā tī hõ malā ērdas, he takes no notice whatever of me.",
+      "hindi_definition": "ध्यान देना, संज्ञान लेना; Ās eṅgan k̲h̲an kōrā tī hõ malā ērdas = वह मुझ पर बिल्कुल भी ध्यान नहीं देता।",
+      "part_of_speech": "verb phrase",
+      "notes": "Example: Ās eṅgan k̲h̲an kōrā tī hõ malā ērdas = he takes no notice whatever of me"
+    },
+    {
+      "kurukh_word": "K̲h̲an lagnā",
+      "kurukh_word_ascii": "Khan lagna",
+      "english_definition": "to bewitch through an evil eye.",
+      "hindi_definition": "बुरी नज़र लगाना, नज़र लगना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲an nūjnā",
+      "kurukh_word_ascii": "Khan nujna",
+      "english_definition": "to have pains in the eyes.",
+      "hindi_definition": "आँखों में दर्द होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0149.jpg",
+  "page_label": "145",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pān-mann",
+      "kurukh_word_ascii": "Pan-mann",
+      "english_definition": "the woodapple",
+      "hindi_definition": "बेल फल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pānd-amm",
+      "kurukh_word_ascii": "Pand-amm",
+      "english_definition": "sherbet, spiced water",
+      "hindi_definition": "शर्बत, मसाले वाला पानी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pānāhī",
+      "kurukh_word_ascii": "Panahi",
+      "english_definition": "sandals, shoes",
+      "hindi_definition": "जूते, चप्पल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāice",
+      "kurukh_word_ascii": "Paice",
+      "english_definition": "five",
+      "hindi_definition": "पाँच",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Pāncārī",
+      "kurukh_word_ascii": "Pancari",
+      "english_definition": "the thin iron rod used for cleaning out the tobacco pipe",
+      "hindi_definition": "तंबाकू पाइप साफ करने की पतली लोहे की छड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāndī",
+      "kurukh_word_ascii": "Pandi",
+      "english_definition": "valise, bundle of cloth",
+      "hindi_definition": "बस्ता, कपड़े का गट्ठर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāndhē",
+      "kurukh_word_ascii": "Pandhe",
+      "english_definition": "wise, manner, way",
+      "hindi_definition": "बुद्धिमान, तरीका, रास्ता",
+      "part_of_speech": "adj",
+      "example_phrase": "ēh'am pāndhē bārkē — come by some means or other"
+    },
+    {
+      "kurukh_word": "Pāndkō",
+      "kurukh_word_ascii": "Pandko",
+      "english_definition": "half ripe",
+      "hindi_definition": "आधा पका",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pāndnā",
+      "kurukh_word_ascii": "Pandn",
+      "english_definition": "to twist a thread or rope; to make road by walking repeatedly across a field or meadow",
+      "hindi_definition": "धागा या रस्सी बटना; खेत में बार-बार चलकर रास्ता बनाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pāndōy",
+      "kurukh_word_ascii": "Pandoy",
+      "english_definition": "fifty",
+      "hindi_definition": "पचास",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Pāndrā",
+      "kurukh_word_ascii": "Pandra",
+      "english_definition": "discoloured",
+      "hindi_definition": "रंग फीका पड़ा हुआ",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pāndrī",
+      "kurukh_word_ascii": "Pandri",
+      "english_definition": "white, clean, as cloth",
+      "hindi_definition": "सफेद, साफ (कपड़ों की तरह)",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pāndūbī",
+      "kurukh_word_ascii": "Pandubi",
+      "english_definition": "the small black water hen",
+      "hindi_definition": "छोटी काली जलमुर्गी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pānerā-mann",
+      "kurukh_word_ascii": "Panera-mann",
+      "english_definition": "same as pān, or woodapple tree",
+      "hindi_definition": "बेल का पेड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāngē",
+      "kurukh_word_ascii": "Pange",
+      "english_definition": "clear",
+      "hindi_definition": "साफ, स्वच्छ",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pāngē mannā",
+      "kurukh_word_ascii": "Pange manna",
+      "english_definition": "to clear",
+      "hindi_definition": "साफ होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāngē nannā",
+      "kurukh_word_ascii": "Pange nanna",
+      "english_definition": "to clear away the jungle",
+      "hindi_definition": "जंगल साफ करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pānhā",
+      "kurukh_word_ascii": "Panha",
+      "english_definition": "broad",
+      "hindi_definition": "चौड़ा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pānhā",
+      "kurukh_word_ascii": "Panha",
+      "english_definition": "breadth",
+      "hindi_definition": "चौड़ाई",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pānjnā",
+      "kurukh_word_ascii": "Panjna",
+      "english_definition": "to seek, to track",
+      "hindi_definition": "खोजना, पीछा करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pānjnā",
+      "kurukh_word_ascii": "Panjna",
+      "english_definition": "to ripen",
+      "hindi_definition": "पकना",
+      "part_of_speech": "verb",
+      "verb_class": "panjidckan-an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pānjkā",
+      "kurukh_word_ascii": "Panjka",
+      "english_definition": "fruit",
+      "hindi_definition": "फल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pānnā",
+      "kurukh_word_ascii": "Panna",
+      "english_definition": "iron",
+      "hindi_definition": "लोहा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pānnā",
+      "kurukh_word_ascii": "Panna",
+      "english_definition": "to ripen",
+      "hindi_definition": "पकना",
+      "part_of_speech": "verb",
+      "verb_class": "panjkan-an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pāntā",
+      "kurukh_word_ascii": "Panta",
+      "english_definition": "the fifth",
+      "hindi_definition": "पाँचवाँ",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Pāpā",
+      "kurukh_word_ascii": "Papa",
+      "english_definition": "bread, cake (so called by little children)",
+      "hindi_definition": "रोटी, केक (बच्चों द्वारा बोला जाने वाला)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāppū mann",
+      "kurukh_word_ascii": "Pappu mann",
+      "english_definition": "to be finished, as a meal (used only by and in relation to the meal of little children)",
+      "hindi_definition": "भोजन समाप्त होना (केवल छोटे बच्चों के संदर्भ में)",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pāphā",
+      "kurukh_word_ascii": "Papha",
+      "english_definition": "sinner",
+      "hindi_definition": "पापी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāpyāī-mann",
+      "kurukh_word_ascii": "Papyai-mann",
+      "english_definition": "a fruit tree growing in the forest",
+      "hindi_definition": "जंगल में उगने वाला फलदार पेड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pāplā",
+      "kurukh_word_ascii": "Papla",
+      "english_definition": "the butterfly",
+      "hindi_definition": "तितली",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    }
+  ]
+}

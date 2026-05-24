@@ -1,0 +1,275 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0119.jpg",
+  "page_label": "115",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Letnā",
+      "kurukh_word_ascii": "Letna",
+      "english_definition": "kan, an, to take or pick up, to raise.",
+      "hindi_definition": "लेना, उठाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lether okknā",
+      "kurukh_word_ascii": "Lether okkna",
+      "english_definition": "to squat on the ground.",
+      "hindi_definition": "जमीन पर उकड़ू बैठना (पालथी मारना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lettē",
+      "kurukh_word_ascii": "Lette",
+      "english_definition": "mixed.",
+      "hindi_definition": "मिश्रित, मिला हुआ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Letrpetrnā",
+      "kurukh_word_ascii": "Letrpetrna",
+      "english_definition": "kan, an, not to adhere, not to be adhesive, to fall off.",
+      "hindi_definition": "न चिपकना, चिपचिपा न होना, गिर जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lētī",
+      "kurukh_word_ascii": "Leti",
+      "english_definition": "grass.",
+      "hindi_definition": "घास।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lēwā nannā",
+      "kurukh_word_ascii": "Lewa nanna",
+      "english_definition": "to prepare the ground for sowing.",
+      "hindi_definition": "बोने के लिए जमीन तैयार करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lēwā nannā",
+      "kurukh_word_ascii": "Lewa nanna",
+      "english_definition": "to sow rice in low rice lands.",
+      "hindi_definition": "नीची धान की भूमि में धान बोना।",
+      "part_of_speech": "verb phrase",
+      "notes": "2nd homograph/sense of Lēwā nannā"
+    },
+    {
+      "kurukh_word": "Liblibamba'anā",
+      "kurukh_word_ascii": "Liblibamba'ana",
+      "english_definition": "ckan, c'an, to throw out the tongue and move it to frighten.",
+      "hindi_definition": "डराने के लिए जीभ बाहर निकालना और उसे हिलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Librā",
+      "kurukh_word_ascii": "Libra",
+      "english_definition": "person with weak eyesight.",
+      "hindi_definition": "कमजोर नजर वाला व्यक्ति।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lici-lecā",
+      "kurukh_word_ascii": "Lici-leca",
+      "english_definition": "adj. lame.",
+      "hindi_definition": "विशेषण। लंगड़ा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lidrā",
+      "kurukh_word_ascii": "Lidra",
+      "english_definition": "the stomach.",
+      "hindi_definition": "पेट (आमाशय)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Liha! liha!",
+      "kurukh_word_ascii": "Liha! liha!",
+      "english_definition": "Sound for frightening off pigs.",
+      "hindi_definition": "सुअरों को भगाने की आवाज।",
+      "part_of_speech": "interjection",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lihnā",
+      "kurukh_word_ascii": "Lihna",
+      "english_definition": "ckan, c'an, to line, mark, to write.",
+      "hindi_definition": "रेखा खींचना, निशान लगाना, लिखना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Likhnā",
+      "kurukh_word_ascii": "Likhna",
+      "english_definition": "ckan, c'an, to write.",
+      "hindi_definition": "लिखना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Liknā",
+      "kurukh_word_ascii": "Likna",
+      "english_definition": "likckan, o'an, to draw lines.",
+      "hindi_definition": "रेखाएं खींचना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lī",
+      "kurukh_word_ascii": "Li",
+      "english_definition": "indigo.",
+      "hindi_definition": "नील।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Liliyānā",
+      "kurukh_word_ascii": "Liliyana",
+      "english_definition": "ckan, o'an, to chase, persecute, used especially of pigs and dogs.",
+      "hindi_definition": "पीछा करना, सताना (विशेष रूप से सुअर और कुत्तों के लिए)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Līlā bairakhī",
+      "kurukh_word_ascii": "Lila bairakhi",
+      "english_definition": "a banner made of clothes of different colors.",
+      "hindi_definition": "विभिन्न रंगों के कपड़ों से बना ध्वज (झंडा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lilyānā",
+      "kurukh_word_ascii": "Lilyana",
+      "english_definition": "ckan, c'an, to chase, drive off.",
+      "hindi_definition": "पीछा करना, खदेड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lindkā",
+      "kurukh_word_ascii": "Lindka",
+      "english_definition": "dough.",
+      "hindi_definition": "गुंथा हुआ आटा (लोई)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lindnā",
+      "kurukh_word_ascii": "Lindna",
+      "english_definition": "kan, yan, to knead, bake.",
+      "hindi_definition": "गूंथना, पकाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lindī",
+      "kurukh_word_ascii": "Lindi",
+      "english_definition": "the buttocks.",
+      "hindi_definition": "चूतड़ (नितंब)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lipī",
+      "kurukh_word_ascii": "Lipi",
+      "english_definition": "lark, see also litia.",
+      "hindi_definition": "भरत पक्षी (अबाबील/लार्क); litia भी देखें।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Liplipī",
+      "kurukh_word_ascii": "Liplipi",
+      "english_definition": "adj. soft cloth, light cloth like mulmul.",
+      "hindi_definition": "विशेषण। मलमल जैसा कोमल कपड़ा, हल्का कपड़ा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Liṛhī",
+      "kurukh_word_ascii": "Lirhi",
+      "english_definition": "lame, limping woman or cow.",
+      "hindi_definition": "लंगड़ाने वाली स्त्री या गाय।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Liṛsī",
+      "kurukh_word_ascii": "Lirsi",
+      "english_definition": "a woman with stiff feet.",
+      "hindi_definition": "अकड़े हुए पैरों वाली महिला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Litihirī",
+      "kurukh_word_ascii": "Litihiri",
+      "english_definition": "dwarf.",
+      "hindi_definition": "बौना।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Litiā-ōṛā",
+      "kurukh_word_ascii": "Litia-ora",
+      "english_definition": "the lark.",
+      "hindi_definition": "भरत पक्षी (लार्क)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Liutiwamba'anā",
+      "kurukh_word_ascii": "Liutiwamba'ana",
+      "english_definition": "ckan, c'an, to wag the tail.",
+      "hindi_definition": "पूंछ हिलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lodhmā",
+      "kurukh_word_ascii": "Lodhma",
+      "english_definition": "the forepart of the leg.",
+      "hindi_definition": "पैर का अग्र भाग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lohārā",
+      "kurukh_word_ascii": "Lohara",
+      "english_definition": "blacksmith.",
+      "hindi_definition": "लोहार (लोहा का काम करने वाला)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lohārī",
+      "kurukh_word_ascii": "Lohari",
+      "english_definition": "an iron pot or cooking pan.",
+      "hindi_definition": "लोहे का बर्तन या कड़ाही।",
+      "part_of_speech": "noun",
+      "notes": "Variant: luhārī"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0091.jpg",
+  "page_label": "87",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kēsārī",
+      "kurukh_word_ascii": "Kesari",
+      "english_definition": "an edible root.",
+      "hindi_definition": "एक खाने योग्य जड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kēṭēr",
+      "kurukh_word_ascii": "Keter",
+      "english_definition": "winnowing fan.",
+      "hindi_definition": "सूप, अनाज उड़ाने की छाज।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kēṭēr uinā",
+      "kurukh_word_ascii": "Keter uina",
+      "english_definition": "fan-keeping, equivalent for the acception of the functions of the priest, because the fan used at sacrifices is formally taken over and kept by the person who becomes village priest thereby.",
+      "hindi_definition": "सूप रखना; पुजारी के कार्यभार का प्रतीक जो गाँव का पुजारी बनने पर ग्रहण किया जाता है।",
+      "part_of_speech": "noun",
+      "notes": "Oraon religious practice; priestly succession ritual."
+    },
+    {
+      "kurukh_word": "Kēṭēr ambnā",
+      "kurukh_word_ascii": "Keter ambna",
+      "english_definition": "to resign the office of priest.",
+      "hindi_definition": "पुजारी का पद छोड़ना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kēōrā-pūmp",
+      "kurukh_word_ascii": "Keora-pump",
+      "english_definition": "the flower pandanus oratissimus.",
+      "hindi_definition": "केवड़े का फूल (Pandanus odoratissimus)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kibā",
+      "kurukh_word_ascii": "Kiba",
+      "english_definition": "frost, rime.",
+      "hindi_definition": "पाला, ओस।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kibā orknā",
+      "kurukh_word_ascii": "Kiba orkna",
+      "english_definition": "to wither by frost.",
+      "hindi_definition": "पाले से मुरझाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kicī",
+      "kurukh_word_ascii": "Kici",
+      "english_definition": "see Kicrī.",
+      "hindi_definition": "देखें Kicrī।",
+      "part_of_speech": "noun",
+      "variant_of": "Kicrī",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kickiornā",
+      "kurukh_word_ascii": "Kickiorna",
+      "english_definition": "kan, an, to be agitated, troubled.",
+      "hindi_definition": "व्याकुल, परेशान होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kicirnā",
+      "kurukh_word_ascii": "Kicirna",
+      "english_definition": "kan, an, to be broken, as bread.",
+      "hindi_definition": "टूटना, जैसे रोटी।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kionā",
+      "kurukh_word_ascii": "Kiona",
+      "english_definition": "kan, yan, to break, as bread or a potato.",
+      "hindi_definition": "तोड़ना, जैसे रोटी या आलू।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kichnā",
+      "kurukh_word_ascii": "Kichna",
+      "english_definition": "kan, yan, to break bread.",
+      "hindi_definition": "रोटी तोड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kicrī",
+      "kurukh_word_ascii": "Kicri",
+      "english_definition": "cloth, wearing apparel.",
+      "hindi_definition": "कपड़ा, पहनावा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kicrī aṭṭnā",
+      "kurukh_word_ascii": "Kicri attna",
+      "english_definition": "to wear, to put on cloth.",
+      "hindi_definition": "कपड़ा पहनना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kicrī ettnā",
+      "kurukh_word_ascii": "Kicri ettna",
+      "english_definition": "to undress, to put off the wearing apparel.",
+      "hindi_definition": "कपड़ा उतारना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kid'gnā",
+      "kurukh_word_ascii": "Kid'gna",
+      "english_definition": "kan, yan, to rain, spray.",
+      "hindi_definition": "बारिश करना, छिड़काव करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kīdnā",
+      "kurukh_word_ascii": "Kidna",
+      "english_definition": "kan, an, transit. to lay down, as a child for causing it to sleep, to put to bed.",
+      "hindi_definition": "लिटाना, जैसे बच्चे को सुलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Transitive."
+    },
+    {
+      "kurukh_word": "Kīdrnā",
+      "kurukh_word_ascii": "Kidrna",
+      "english_definition": "kan, an, to be made to sleep, to be put to bed.",
+      "hindi_definition": "सुलाया जाना, बिस्तर पर लिटाया जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Passive of Kīdnā."
+    },
+    {
+      "kurukh_word": "Kīmā-arkhā",
+      "kurukh_word_ascii": "Kima-arkha",
+      "english_definition": "the siluār leaves.",
+      "hindi_definition": "सिलुआर की पत्तियाँ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kindra'anā",
+      "kurukh_word_ascii": "Kindra'ana",
+      "english_definition": "ckan, c'an, trans; to turn round.",
+      "hindi_definition": "घुमाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": "Transitive."
+    },
+    {
+      "kurukh_word": "Kindrārnā",
+      "kurukh_word_ascii": "Kindrarna",
+      "english_definition": "kan, an, to turn round, intr. revolve.",
+      "hindi_definition": "घूमना, चक्कर लगाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Intransitive."
+    },
+    {
+      "kurukh_word": "Kīndā",
+      "kurukh_word_ascii": "Kinda",
+      "english_definition": "the wild palm, of the leaves of which mats are plaited.",
+      "hindi_definition": "जंगली ताड़, जिसकी पत्तियों से चटाई बुनी जाती है।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kindō injō",
+      "kurukh_word_ascii": "Kindo injo",
+      "english_definition": "carp fish.",
+      "hindi_definition": "रोहू मछली।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kindrī",
+      "kurukh_word_ascii": "Kindri",
+      "english_definition": "fainting.",
+      "hindi_definition": "बेहोशी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kindrī lagnā",
+      "kurukh_word_ascii": "Kindri lagna",
+      "english_definition": "to faint.",
+      "hindi_definition": "बेहोश होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kīrā",
+      "kurukh_word_ascii": "Kira",
+      "english_definition": "hunger, poverty, famine.",
+      "hindi_definition": "भूख, गरीबी, अकाल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kīrā sārnā",
+      "kurukh_word_ascii": "Kira sarna",
+      "english_definition": "to be famished, to suffer from poverty, to be hungry.",
+      "hindi_definition": "भूखा होना, गरीबी से पीड़ित होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kīrā lagnā",
+      "kurukh_word_ascii": "Kira lagna",
+      "english_definition": "to feel hungry, to be hungry.",
+      "hindi_definition": "भूख लगना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kīrā amm onkā lagnā",
+      "kurukh_word_ascii": "Kira amm onka lagna",
+      "english_definition": "to be hungry and thirsty.",
+      "hindi_definition": "भूखा-प्यासा होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kīrā ālar",
+      "kurukh_word_ascii": "Kira alar",
+      "english_definition": "poor people.",
+      "hindi_definition": "गरीब लोग।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kīrā mannā",
+      "kurukh_word_ascii": "Kira manna",
+      "english_definition": "to become poor.",
+      "hindi_definition": "गरीब होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kīrā rāanā",
+      "kurukh_word_ascii": "Kira raana",
+      "english_definition": "to be poor.",
+      "hindi_definition": "गरीब होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    }
+  ]
+}

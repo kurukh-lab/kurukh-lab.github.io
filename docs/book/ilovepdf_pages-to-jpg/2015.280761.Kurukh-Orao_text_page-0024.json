@@ -1,0 +1,667 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg",
+  "page_label": "20",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Biṅkō",
+      "kurukh_word_ascii": "Binkо",
+      "english_definition": "star",
+      "hindi_definition": "तारा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "star", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तारा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "bijō biṅkō",
+      "kurukh_word_ascii": "bijo binko",
+      "english_definition": "the morning star",
+      "hindi_definition": "भोर का तारा, सुबह का तारा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the morning star", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "भोर का तारा, सुबह का तारा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "khūrti biṅkō",
+      "kurukh_word_ascii": "khurti binko",
+      "english_definition": "the evening star",
+      "hindi_definition": "शाम का तारा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the evening star", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शाम का तारा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "optā pagcē biṅkō",
+      "kurukh_word_ascii": "opta pagce binko",
+      "english_definition": "the Orion",
+      "hindi_definition": "कालपुरुष नक्षत्र, ओरियन",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the Orion", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कालपुरुष नक्षत्र, ओरियन", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "guṇḍī or gā'e caur biṅkō",
+      "kurukh_word_ascii": "gundi or ga'e caur binko",
+      "english_definition": "the milky way",
+      "hindi_definition": "आकाशगंगा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["gā'e caur biṅkō"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the milky way", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आकाशगंगा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "capuā biṅkō",
+      "kurukh_word_ascii": "capua binko",
+      "english_definition": "the Pleiades",
+      "hindi_definition": "कृत्तिका नक्षत्र, प्लेयाडेस",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the Pleiades", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कृत्तिका नक्षत्र, प्लेयाडेस", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "jhal biṅkō",
+      "kurukh_word_ascii": "jhal binko",
+      "english_definition": "a comet",
+      "hindi_definition": "धूमकेतु, पुच्छल तारा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a comet", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धूमकेतु, पुच्छल तारा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Binnā",
+      "kurukh_word_ascii": "Binna",
+      "english_definition": "to milk",
+      "hindi_definition": "दूध दुहना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to milk", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दूध दुहना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birdnā",
+      "kurukh_word_ascii": "Birdna",
+      "english_definition": "to turn over, intr.",
+      "hindi_definition": "पलटना, उलटना (अकर्मक)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "okan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to turn over, intr.", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पलटना, उलटना (अकर्मक)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birda'anā",
+      "kurukh_word_ascii": "Birda'ana",
+      "english_definition": "to turn over, or.",
+      "hindi_definition": "पलटाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "okan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to turn over, or.", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पलटाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birdnā",
+      "kurukh_word_ascii": "Birdna",
+      "english_definition": "to penetrate",
+      "hindi_definition": "घुसना, भेदना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to penetrate", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घुसना, भेदना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birdrnā",
+      "kurukh_word_ascii": "Birdrna",
+      "english_definition": "to turn over, to be converted, relapse, apostatize",
+      "hindi_definition": "पलट जाना, धर्मांतरण करना, पतन होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to turn over, to be converted, relapse, apostatize", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पलट जाना, धर्मांतरण करना, पतन होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birdrnā khārdrnā",
+      "kurukh_word_ascii": "Birdrna khardrna",
+      "english_definition": "to tumble over, to put upside down",
+      "hindi_definition": "उलट-पलट करना, ऊपर-नीचे करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to tumble over, to put upside down", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उलट-पलट करना, ऊपर-नीचे करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birdō",
+      "kurukh_word_ascii": "Birdo",
+      "english_definition": "against, opposite",
+      "hindi_definition": "के विरुद्ध, विपरीत",
+      "part_of_speech": "preposition",
+      "grammatical_tag": "prep.",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "against, opposite", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "के विरुद्ध, विपरीत", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birdō ērnā",
+      "kurukh_word_ascii": "Birdo erna",
+      "english_definition": "to look aside, frowningly",
+      "hindi_definition": "तिरछी नजर से देखना, मुंह फेरकर देखना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to look aside, frowningly", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तिरछी नजर से देखना, मुंह फेरकर देखना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birdō nannā",
+      "kurukh_word_ascii": "Birdo nanna",
+      "english_definition": "to oppose",
+      "hindi_definition": "विरोध करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to oppose", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "विरोध करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birdō bā'anā",
+      "kurukh_word_ascii": "Birdo ba'ana",
+      "english_definition": "to gainsay, protest",
+      "hindi_definition": "इनकार करना, विरोध में बोलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to gainsay, protest", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इनकार करना, विरोध में बोलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birdō khedd",
+      "kurukh_word_ascii": "Birdo khedd",
+      "english_definition": "the demōn Curil; lit. the reverted footed",
+      "hindi_definition": "दानव कुरिल; शाब्दिक: उल्टे पैरों वाला",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the demōn Curil; lit. the reverted footed", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दानव कुरिल; शाब्दिक: उल्टे पैरों वाला", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Bir āmm",
+      "kurukh_word_ascii": "Bir amm",
+      "english_definition": "nectar, living water",
+      "hindi_definition": "अमृत, जीवन जल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "nectar, living water", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अमृत, जीवन जल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birhṇā",
+      "kurukh_word_ascii": "Birhna",
+      "english_definition": "to test, try",
+      "hindi_definition": "परखना, आजमाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "okan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to test, try", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "परखना, आजमाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birī",
+      "kurukh_word_ascii": "Biri",
+      "english_definition": "time, turn",
+      "hindi_definition": "समय, बारी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "time, turn", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "समय, बारी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "kālō-birī",
+      "kurukh_word_ascii": "kalo-biri",
+      "english_definition": "time of departure",
+      "hindi_definition": "प्रस्थान का समय",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "time of departure", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्रस्थान का समय", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "ōnō-birī",
+      "kurukh_word_ascii": "ono-biri",
+      "english_definition": "dinner time",
+      "hindi_definition": "भोजन का समय, दोपहर का खाना",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "dinner time", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "भोजन का समय, दोपहर का खाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "cō'ō-birī",
+      "kurukh_word_ascii": "co'o-biri",
+      "english_definition": "rising time",
+      "hindi_definition": "उठने का समय",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "rising time", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उठने का समय", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "calō-birī",
+      "kurukh_word_ascii": "calo-biri",
+      "english_definition": "time to go to bed",
+      "hindi_definition": "सोने जाने का समय",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "time to go to bed", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सोने जाने का समय", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birī",
+      "kurukh_word_ascii": "Biri",
+      "english_definition": "a tree, the bark when thrown into the water, is said to blind the fish",
+      "hindi_definition": "एक पेड़, जिसकी छाल पानी में डालने से मछलियां अंधी हो जाती हैं",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "a tree, the bark when thrown into the water, is said to blind the fish", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक पेड़, जिसकी छाल पानी में डालने से मछलियां अंधी हो जाती हैं", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birī",
+      "kurukh_word_ascii": "Biri",
+      "english_definition": "the sun",
+      "hindi_definition": "सूरज",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 3,
+      "meanings": [
+        { "language": "en", "definition": "the sun", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सूरज", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "artī-birī",
+      "kurukh_word_ascii": "arti-biri",
+      "english_definition": "the afternoon; lit. the waterpot-sun, the time for going to the well to fetch water for the evening-meal",
+      "hindi_definition": "दोपहर बाद; शाब्दिक: घड़े का सूरज, शाम के खाने के लिए पानी लाने का समय",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the afternoon; lit. the waterpot-sun, the time for going to the well to fetch water for the evening-meal", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दोपहर बाद; शाब्दिक: घड़े का सूरज, शाम के खाने के लिए पानी लाने का समय", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "ēlkhrōā-birī",
+      "kurukh_word_ascii": "elkhroa-biri",
+      "english_definition": "the late afternoon; lit. declining sun",
+      "hindi_definition": "देर दोपहर; शाब्दिक: ढलता सूरज",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the late afternoon; lit. declining sun", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "देर दोपहर; शाब्दिक: ढलता सूरज", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "birī-argṅā",
+      "kurukh_word_ascii": "biri-argnga",
+      "english_definition": "sunrise",
+      "hindi_definition": "सूर्योदय",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "sunrise", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सूर्योदय", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "birī-puttā",
+      "kurukh_word_ascii": "biri-putta",
+      "english_definition": "sunset",
+      "hindi_definition": "सूर्यास्त",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["mulkhṅā"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "sunset", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सूर्यास्त", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birputtā",
+      "kurukh_word_ascii": "Birputta",
+      "english_definition": "all the day long, from morning till evening",
+      "hindi_definition": "सुबह से शाम तक, पूरे दिन",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "all the day long, from morning till evening", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सुबह से शाम तक, पूरे दिन", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    },
+    {
+      "kurukh_word": "Birī pāmp",
+      "kurukh_word_ascii": "Biri pamp",
+      "english_definition": "the sun flower",
+      "hindi_definition": "सूरजमुखी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the sun flower", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सूरजमुखी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0024.jpg", "page_label": "20" }
+    }
+  ]
+}

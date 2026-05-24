@@ -1,0 +1,185 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0188.jpg",
+  "page_label": "184",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ū",
+      "kurukh_word_ascii": "U",
+      "english_definition": "long U, letter section heading",
+      "hindi_definition": "ऊ वर्ण अनुभाग",
+      "part_of_speech": "letter"
+    },
+    {
+      "kurukh_word": "Ūbī",
+      "kurukh_word_ascii": "Ubi",
+      "english_definition": "the river's bank",
+      "hindi_definition": "नदी का किनारा, तट",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ūdnā",
+      "kurukh_word_ascii": "Udna",
+      "english_definition": "to bolt a door from inside",
+      "hindi_definition": "अंदर से दरवाजा बंद करना, सिटकनी लगाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Ūdpūṇḍnā",
+      "kurukh_word_ascii": "Udpundna",
+      "english_definition": "to knit",
+      "hindi_definition": "बुनना (जैसे स्वेटर)",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ūjnā",
+      "kurukh_word_ascii": "Ujna",
+      "english_definition": "to collect, as money or tax",
+      "hindi_definition": "कर या धन इकट्ठा करना, वसूलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ūjrnā",
+      "kurukh_word_ascii": "Ujrna",
+      "english_definition": "to be collected",
+      "hindi_definition": "वसूल किया जाना, इकट्ठा होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ūjī",
+      "kurukh_word_ascii": "Uji",
+      "english_definition": "a collector of taxes",
+      "hindi_definition": "कर वसूलने वाला, कर संग्राहक",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ūk̲h̲ā",
+      "kurukh_word_ascii": "Ukha",
+      "english_definition": "darkness, night",
+      "hindi_definition": "अंधेरा, रात",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ūk̲h̲ā-mak̲h̲ā",
+      "kurukh_word_ascii": "Ukha-makha",
+      "english_definition": "the part of the month with no moonlight (dark fortnight)",
+      "hindi_definition": "कृष्ण पक्ष, अंधेरी रातें",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ūk̲h̲nā",
+      "kurukh_word_ascii": "Ukhna",
+      "english_definition": "to get dark, dusk, setting in of night",
+      "hindi_definition": "अंधेरा होना, शाम ढलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Ūk̲h̲r-ūk̲h̲r num",
+      "kurukh_word_ascii": "Ukhr-ukhr num",
+      "english_definition": "in the twilight, early morning/late evening",
+      "hindi_definition": "भोर या सांझ के झुरमुट उजाले में",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ūk̲h̲utrnā",
+      "kurukh_word_ascii": "Ukhutrna",
+      "english_definition": "dimly, darkish",
+      "hindi_definition": "धुंधला सा, अंधेरा सा",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Ūk̲h̲utrnā lekhē ērnā",
+      "kurukh_word_ascii": "Ukhutrna lekhe erna",
+      "english_definition": "to have a dim vision, bad eyesight",
+      "hindi_definition": "धुंधला दिखाई देना, कमजोर दृष्टि होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ūk̲h̲tā'anā",
+      "kurukh_word_ascii": "Ukhta'ana",
+      "english_definition": "to belate after sunset",
+      "hindi_definition": "सूर्यास्त के बाद देर करना, शाम ढलने तक रुकना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ūk̲h̲ mannā",
+      "kurukh_word_ascii": "Ukh manna",
+      "english_definition": "to be green, half ripe",
+      "hindi_definition": "अधपका होना, हरा होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ūk̲h̲ā'ī mannā",
+      "kurukh_word_ascii": "Ukha'i manna",
+      "english_definition": "to become dark",
+      "hindi_definition": "अंधेरा हो जाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ūṇḍī",
+      "kurukh_word_ascii": "Undi",
+      "english_definition": "particle/adverb meaning up to (e.g. chestdeep, kneedeep)",
+      "hindi_definition": "तक (जैसे छाती तक, घुटने तक)",
+      "part_of_speech": "prep"
+    },
+    {
+      "kurukh_word": "Ūh, ūh!",
+      "kurukh_word_ascii": "Uh, uh!",
+      "english_definition": "fie, no, no! God forbid",
+      "hindi_definition": "उह, उह! (नहीं, नहीं! ईश्वर न करे)",
+      "part_of_speech": "interj"
+    },
+    {
+      "kurukh_word": "Ūṅk",
+      "kurukh_word_ascii": "Unk",
+      "english_definition": "husk",
+      "hindi_definition": "भूसी, छिलका",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ūrī",
+      "kurukh_word_ascii": "Uri",
+      "english_definition": "a sheaf of corn",
+      "hindi_definition": "अनाज का गट्ठा, पूला",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ūrā",
+      "kurukh_word_ascii": "Ura",
+      "english_definition": "to blow, breathe",
+      "hindi_definition": "फूंकना, सांस लेना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ūrtā'anā",
+      "kurukh_word_ascii": "Urta'ana",
+      "english_definition": "to consult a charmer/sorcerer, to cure via breathing/sorcerer's fan",
+      "hindi_definition": "झाड़-फूंक कराना (ओझा से)",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ūrī",
+      "kurukh_word_ascii": "Uri",
+      "english_definition": "a trumpeter",
+      "hindi_definition": "तुरही बजाने वाला, बिगुलर",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Ūrī",
+      "kurukh_word_ascii": "Uri",
+      "english_definition": "a kind of cucumber",
+      "hindi_definition": "एक प्रकार का खीरा/ककड़ी",
+      "part_of_speech": "noun",
+      "homograph_index": 3
+    }
+  ]
+}

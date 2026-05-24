@@ -1,0 +1,287 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0089.jpg",
+  "page_label": "85",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Kasarnā",
+      "kurukh_word_ascii": "Kasarna",
+      "english_definition": "kan, an, to be squeezed, grinded.",
+      "hindi_definition": "निचोड़ा जाना, पीसा जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kasar",
+      "kurukh_word_ascii": "Kasar",
+      "english_definition": "rice sweetmeat.",
+      "hindi_definition": "चावल की मिठाई।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaskasrnā",
+      "kurukh_word_ascii": "Kaskasrna",
+      "english_definition": "kan, an, the sensation caused by a dirty skin.",
+      "hindi_definition": "गंदी त्वचा से होने वाली अनुभूति।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaskasrnā",
+      "kurukh_word_ascii": "Kaskasrna",
+      "english_definition": "to feel dull, sleepy, heavy.",
+      "hindi_definition": "सुस्ती, नींद, भारीपन महसूस करना।",
+      "part_of_speech": "verb",
+      "homograph_index": 2,
+      "notes": "Second sense of Kaskasrnā."
+    },
+    {
+      "kurukh_word": "Kasnā",
+      "kurukh_word_ascii": "Kasna",
+      "english_definition": "kan, an, to grind, pound.",
+      "hindi_definition": "पीसना, कूटना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭai arkhā",
+      "kurukh_word_ascii": "Katai arkha",
+      "english_definition": "a vegetable, the fresh leaves of the kaṭai tree.",
+      "hindi_definition": "एक सब्ज़ी, कटाई वृक्ष की ताज़ी पत्तियाँ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭai mann",
+      "kurukh_word_ascii": "Katai mann",
+      "english_definition": "a kind of tree.",
+      "hindi_definition": "एक प्रकार का पेड़।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭai-ghāsī",
+      "kurukh_word_ascii": "Katai-ghasi",
+      "english_definition": "a kind of thorny plant.",
+      "hindi_definition": "एक प्रकार का काँटेदार पौधा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭī",
+      "kurukh_word_ascii": "Kati",
+      "english_definition": "little.",
+      "hindi_definition": "थोड़ा।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭi kūnā",
+      "kurukh_word_ascii": "Kati kuna",
+      "english_definition": "very little.",
+      "hindi_definition": "बहुत थोड़ा।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭīṅgarī-mann",
+      "kurukh_word_ascii": "Katingari-mann",
+      "english_definition": "H. the tūn tree (cedrela toona).",
+      "hindi_definition": "तून का पेड़ (Cedrela toona)।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭṭi",
+      "kurukh_word_ascii": "Katti",
+      "english_definition": "the refuse of oil-pressing.",
+      "hindi_definition": "तेल पेरने का अवशेष, खली।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭ Kaṭrnā",
+      "kurukh_word_ascii": "Kat Katrna",
+      "english_definition": "kan, an, to be hardened.",
+      "hindi_definition": "कठोर होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Reduplicated compound."
+    },
+    {
+      "kurukh_word": "Kaṭrārnā",
+      "kurukh_word_ascii": "Katrarna",
+      "english_definition": "kan, an, to become, hardened, stiffened.",
+      "hindi_definition": "कठोर, अकड़ा हुआ होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭra'anā",
+      "kurukh_word_ascii": "Katra'ana",
+      "english_definition": "ckan, c'an, to tear off with the teeth.",
+      "hindi_definition": "दाँतों से फाड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭrā",
+      "kurukh_word_ascii": "Katra",
+      "english_definition": "slice.",
+      "hindi_definition": "टुकड़ा, कतला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭkō",
+      "kurukh_word_ascii": "Katko",
+      "english_definition": "a very little.",
+      "hindi_definition": "बहुत थोड़ा।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭkuṭrnā",
+      "kurukh_word_ascii": "Katkutrna",
+      "english_definition": "kan, an, to gnash the teeth.",
+      "hindi_definition": "दाँत किटकिटाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭrī",
+      "kurukh_word_ascii": "Katri",
+      "english_definition": "a young fowl.",
+      "hindi_definition": "मुर्गी का बच्चा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭhauṭī",
+      "kurukh_word_ascii": "Kathauti",
+      "english_definition": "H. wooden dish, basin.",
+      "hindi_definition": "लकड़ी की थाली, कटोरा।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭṭnā",
+      "kurukh_word_ascii": "Kattna",
+      "english_definition": "kan, an, to cross, penetrate, win, conquer.",
+      "hindi_definition": "पार करना, जीतना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭnā",
+      "kurukh_word_ascii": "Katna",
+      "english_definition": "to be contagious.",
+      "hindi_definition": "संक्रामक होना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭṭa'anā",
+      "kurukh_word_ascii": "Katta'ana",
+      "english_definition": "ckan, c'an, to take across.",
+      "hindi_definition": "पार ले जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭṭārnā",
+      "kurukh_word_ascii": "Kattarna",
+      "english_definition": "kan, an, to be unfordable, as, ī khār taṅgā ti malā kaṭṭarī, this river cannot be crossed by me.",
+      "hindi_definition": "अपार होना; उदा. यह नदी मुझसे पार नहीं हो सकती।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Example given in original text."
+    },
+    {
+      "kurukh_word": "Kaṭṭu",
+      "kurukh_word_ascii": "Kattu",
+      "english_definition": "cooking pot made of clay.",
+      "hindi_definition": "मिट्टी का खाना पकाने का बर्तन।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kathā",
+      "kurukh_word_ascii": "Katha",
+      "english_definition": "adj. apt to bite, as a horse.",
+      "hindi_definition": "काटने की आदत वाला, जैसे घोड़ा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kathā bita'anā",
+      "kurukh_word_ascii": "Katha bita'ana",
+      "english_definition": "to settle a matter.",
+      "hindi_definition": "मामला सुलझाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kathā",
+      "kurukh_word_ascii": "Katha",
+      "english_definition": "word, speech, H.",
+      "hindi_definition": "शब्द, भाषण।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "homograph_index": 2,
+      "notes": "Second sense of Kathā."
+    },
+    {
+      "kurukh_word": "Kathbillī",
+      "kurukh_word_ascii": "Kathbilli",
+      "english_definition": "vocabulary, dictionary.",
+      "hindi_definition": "शब्दकोश।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kathila",
+      "kurukh_word_ascii": "Kathila",
+      "english_definition": "adj. much.",
+      "hindi_definition": "बहुत।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭhlā",
+      "kurukh_word_ascii": "Kathla",
+      "english_definition": "a stool, bench.",
+      "hindi_definition": "मूढ़ा, बेंच।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kaṭhuārnā",
+      "kurukh_word_ascii": "Kathuarna",
+      "english_definition": "kan, an, to become stiff from cold; also to get afraid.",
+      "hindi_definition": "ठंड से अकड़ना; डरना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Two senses given."
+    },
+    {
+      "kurukh_word": "Katsā",
+      "kurukh_word_ascii": "Katsa",
+      "english_definition": "adj. hard, cruel.",
+      "hindi_definition": "कठोर, क्रूर।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    }
+  ]
+}

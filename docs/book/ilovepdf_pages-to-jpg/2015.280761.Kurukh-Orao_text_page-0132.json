@@ -1,0 +1,259 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0132.jpg",
+  "page_label": "128",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Murrnā",
+      "kurukh_word_ascii": "Murrna",
+      "english_definition": "kan, yan, to thunder; bādal murr'ālaggi, it thunders.",
+      "hindi_definition": "गरजना (बादल का); bādal murr'ālaggi = बादल गरज रहे हैं।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "Example: bādal murr'ālaggi = it thunders"
+    },
+    {
+      "kurukh_word": "Murrnā lakṛā",
+      "kurukh_word_ascii": "Murrna lakra",
+      "english_definition": "a roaring tiger.",
+      "hindi_definition": "दहाड़ता हुआ बाघ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murrnā cī'inā",
+      "kurukh_word_ascii": "Murrna ci'ina",
+      "english_definition": "to thunder vehemently.",
+      "hindi_definition": "बहुत जोर से गरजना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Murut",
+      "kurukh_word_ascii": "Murut",
+      "english_definition": "idol.",
+      "hindi_definition": "मूर्ति (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūsī",
+      "kurukh_word_ascii": "Musi",
+      "english_definition": "maternal aunt; engmūsī, my maternal aunt.",
+      "hindi_definition": "मौसी (मातृपक्ष की चाची); engmūsī = मेरी मौसी।",
+      "part_of_speech": "noun",
+      "notes": "Possessive form: engmūsī"
+    },
+    {
+      "kurukh_word": "Musgnā",
+      "kurukh_word_ascii": "Musgna",
+      "english_definition": "kan, yan, to pack up, to tie into a bundle.",
+      "hindi_definition": "गठरी बनाना, सामान बांधना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Musrā",
+      "kurukh_word_ascii": "Musra",
+      "english_definition": "a big root.",
+      "hindi_definition": "बड़ी जड़ (मुसला जड़)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mussō",
+      "kurukh_word_ascii": "Musso",
+      "english_definition": "snivel, water flowing from the nose.",
+      "hindi_definition": "नाक से बहने वाला पानी (शेंठ)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Musur kuṭā launā",
+      "kurukh_word_ascii": "Musur kuta launa",
+      "english_definition": "to give a sound thrashing.",
+      "hindi_definition": "जमकर धुनाई करना (खूब पीटना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muṭā",
+      "kurukh_word_ascii": "Muta",
+      "english_definition": "nickname for tiger.",
+      "hindi_definition": "बाघ का उपनाम।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mūthan",
+      "kurukh_word_ascii": "Muthan",
+      "english_definition": "form, shape, body.",
+      "hindi_definition": "रूप, आकार, देह।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muṭākana-ghāsī",
+      "kurukh_word_ascii": "Mutakana-ghasi",
+      "english_definition": "the tiger-ear grass.",
+      "hindi_definition": "एक प्रकार की घास (बाघ-कान घास)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mutī",
+      "kurukh_word_ascii": "Muti",
+      "english_definition": "pearl.",
+      "hindi_definition": "मोती (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mutkā",
+      "kurukh_word_ascii": "Mutka",
+      "english_definition": "fist.",
+      "hindi_definition": "मुक्का (घूंसा) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mutka'anā",
+      "kurukh_word_ascii": "Mutka'ana",
+      "english_definition": "ckan, o'an, to strike with the fist.",
+      "hindi_definition": "मुक्का मारना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muthnā",
+      "kurukh_word_ascii": "Muthna",
+      "english_definition": "kan, an, to take into the hand.",
+      "hindi_definition": "हाथ में लेना (मुट्ठी में पकड़ना) (हिंदी से लिया गया)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Muthā",
+      "kurukh_word_ascii": "Mutha",
+      "english_definition": "one with small ears.",
+      "hindi_definition": "छोटे कान वाला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nabnā",
+      "kurukh_word_ascii": "Nabna",
+      "english_definition": "kan, yan, to thrash rice, to winnow.",
+      "hindi_definition": "धान ओसाना, फटकना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nad",
+      "kurukh_word_ascii": "Nad",
+      "english_definition": "idol, image of a deity.",
+      "hindi_definition": "मूर्ति (देवता की छवि)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nad",
+      "kurukh_word_ascii": "Nad",
+      "english_definition": "an evil spirit, demon.",
+      "hindi_definition": "दुष्ट आत्मा (दानव)।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of Nad"
+    },
+    {
+      "kurukh_word": "Nadas",
+      "kurukh_word_ascii": "Nadas",
+      "english_definition": "the devil, satan.",
+      "hindi_definition": "शैतान।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nad erbnā",
+      "kurukh_word_ascii": "Nad erbna",
+      "english_definition": "the troubling of the devil, supposed to occur during dreams.",
+      "hindi_definition": "दुःस्वप्न में शैतान द्वारा परेशान किया जाना (दबाया जाना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nad lakka rā'anā",
+      "kurukh_word_ascii": "Nad lakka ra'ana",
+      "english_definition": "to be possessed of the devil.",
+      "hindi_definition": "भूत-प्रेत से ग्रस्त होना (शैतान का साया होना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nadnaur-pūmp",
+      "kurukh_word_ascii": "Nadnaur-pump",
+      "english_definition": "the flower of asparagus.",
+      "hindi_definition": "शतावरी (अस्पेरेगस) का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nadnā",
+      "kurukh_word_ascii": "Nadna",
+      "english_definition": "ckan, o'an, to begin, to introduce, to tune as for playing instruments.",
+      "hindi_definition": "शुरुआत करना, परिचय कराना, वाद्य यंत्र बजाने के लिए सुर मिलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nadhnā",
+      "kurukh_word_ascii": "Nadhna",
+      "english_definition": "ckan, o'an, to begin, to introduce, to tune as for playing instruments (same as Nadnā).",
+      "hindi_definition": "सुर मिलाना (Nadnā के समान)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nadnā",
+      "kurukh_word_ascii": "Nadna",
+      "english_definition": "kan, an, to ward off.",
+      "hindi_definition": "बचाना, दूर भगाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "2nd homograph of Nadnā"
+    },
+    {
+      "kurukh_word": "Nagad",
+      "kurukh_word_ascii": "Nagad",
+      "english_definition": "adj. nice, pretty, well.",
+      "hindi_definition": "विशेषण। अच्छा, सुंदर, ठीक।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nagadekān",
+      "kurukh_word_ascii": "Nagadekan",
+      "english_definition": "well, nicely.",
+      "hindi_definition": "अच्छी तरह से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nagadkūṛā",
+      "kurukh_word_ascii": "Nagadkura",
+      "english_definition": "comely, nicely.",
+      "hindi_definition": "सुंदर ढंग से, अच्छी तरह।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    }
+  ]
+}

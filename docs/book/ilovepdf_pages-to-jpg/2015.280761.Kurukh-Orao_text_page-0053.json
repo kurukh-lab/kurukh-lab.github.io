@@ -1,0 +1,629 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg",
+  "page_label": "49",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Erpā khoṭrnā",
+      "kurukh_word_ascii": "Erpa khotrna",
+      "english_definition": "the breaking up of the house: the loss of the wife through death",
+      "hindi_definition": "घर का टूटना: पत्नी की मृत्यु के कारण होने वाली घर की क्षति",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Erpā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the breaking up of the house: the loss of the wife through death", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घर का टूटना: पत्नी की मृत्यु के कारण होने वाली घर की क्षति", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Erpā pallī",
+      "kurukh_word_ascii": "Erpa palli",
+      "english_definition": "family and property, child and chattel",
+      "hindi_definition": "परिवार और संपत्ति, बच्चे और घरेलू सामान",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Erpā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "family and property, child and chattel", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "परिवार और संपत्ति, बच्चे और घरेलू सामान", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Erpambārī",
+      "kurukh_word_ascii": "Erpambari",
+      "english_definition": "the whole family, all the house",
+      "hindi_definition": "पूरा परिवार, सारा घर",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Erpā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the whole family, all the house", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पूरा परिवार, सारा घर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Errnā",
+      "kurukh_word_ascii": "Errna",
+      "english_definition": "to sweep",
+      "hindi_definition": "बुहारना, झाड़ू लगाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "irrkan, irryan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to sweep", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बुहारना, झाड़ू लगाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Errnā otthrnā",
+      "kurukh_word_ascii": "Errna otthrna",
+      "english_definition": "to sweep and throw away",
+      "hindi_definition": "झाड़ू लगाकर फेंक देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Errnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to sweep and throw away", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "झाड़ू लगाकर फेंक देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Esnā",
+      "kurukh_word_ascii": "Esna",
+      "english_definition": "to break",
+      "hindi_definition": "तोड़ना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to break", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तोड़ना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Esrnā",
+      "kurukh_word_ascii": "Esrna",
+      "english_definition": "to be broken",
+      "hindi_definition": "टूटना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Esnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be broken", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "टूटना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Esā khacnā",
+      "kurukh_word_ascii": "Esa khacna",
+      "english_definition": "to finish or complete breaking",
+      "hindi_definition": "पूरी तरह तोड़ डालना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Esnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to finish or complete breaking", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पूरी तरह तोड़ डालना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Esā capā!",
+      "kurukh_word_ascii": "Esa capa!",
+      "english_definition": "Break quickly",
+      "hindi_definition": "जल्दी तोड़ो!",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Esnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "Break quickly", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जल्दी तोड़ो!", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Esnā murcnā",
+      "kurukh_word_ascii": "Esna murcna",
+      "english_definition": "to break into",
+      "hindi_definition": "ज़बरदस्ती घुसना, तोड़कर घुसना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Esnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to break into", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ज़बरदस्ती घुसना, तोड़कर घुसना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Esrkā",
+      "kurukh_word_ascii": "Esrka",
+      "english_definition": "broken",
+      "hindi_definition": "टूटा हुआ",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Esnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "broken", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "टूटा हुआ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Essnā",
+      "kurukh_word_ascii": "Essna",
+      "english_definition": "to weave",
+      "hindi_definition": "बुनना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "isskan, issyan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to weave", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बुनना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Etgata'anā",
+      "kurukh_word_ascii": "Etgata'ana",
+      "english_definition": "to threaten, intimidate",
+      "hindi_definition": "धमकाना, डराना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to threaten, intimidate", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धमकाना, डराना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ettnā",
+      "kurukh_word_ascii": "Ettna",
+      "english_definition": "to descend",
+      "hindi_definition": "उतरना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ittkan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to descend", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उतरना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Etta'anā",
+      "kurukh_word_ascii": "Etta'ana",
+      "english_definition": "to cause to descend, to take down, to lower",
+      "hindi_definition": "उतारना, नीचे लाना, कम करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ettnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to cause to descend, to take down, to lower", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उतारना, नीचे लाना, कम करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Eth'ē reth'ē",
+      "kurukh_word_ascii": "Eth'e reth'e",
+      "english_definition": "crowded",
+      "hindi_definition": "भीड़भाड़ वाला, ठचाठच भरा",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "crowded", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "भीड़भाड़ वाला, ठचाठच भरा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ethrnā",
+      "kurukh_word_ascii": "Ethrna",
+      "english_definition": "to appear, to be visible",
+      "hindi_definition": "दिखाई देना, प्रकट होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "han, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to appear, to be visible", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दिखाई देना, प्रकट होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ethrnakrnā",
+      "kurukh_word_ascii": "Ethrnakrna",
+      "english_definition": "to appear to each other, i.e., to visit, meet each other",
+      "hindi_definition": "एक-दूसरे से मिलना, मुलाक़ात करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ethrnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to appear to each other, i.e., to visit, meet each other", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक-दूसरे से मिलना, मुलाक़ात करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Eṭnā",
+      "kurukh_word_ascii": "Etna",
+      "english_definition": "to rend (transitive)",
+      "hindi_definition": "फाड़ना (सकर्मक)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kar, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to rend (transitive)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फाड़ना (सकर्मक)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Eṭrnā",
+      "kurukh_word_ascii": "Etrna",
+      "english_definition": "to rend (intransitive/instrumental)",
+      "hindi_definition": "फटना (अकर्मक)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Eṭnā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to rend (intransitive/instrumental)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फटना (अकर्मक)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Etthā'e rebā'e",
+      "kurukh_word_ascii": "Ettha'e reba'e",
+      "english_definition": "difficulty",
+      "hindi_definition": "कठिनाई, मुश्किल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "difficulty", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कठिनाई, मुश्किल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ē",
+      "kurukh_word_ascii": "E",
+      "english_definition": "O!",
+      "hindi_definition": "ओ!; एहो: अरे सुनिए!, अरे तुम!",
+      "part_of_speech": "interjection",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "ēhō"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "O!", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ओ!; एहो: अरे सुनिए!, अरे तुम!", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ēbaggī",
+      "kurukh_word_ascii": "Ebaggi",
+      "english_definition": "how much, many?",
+      "hindi_definition": "कितना, कितने?",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how much, many?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कितना, कितने?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ēdnā",
+      "kurukh_word_ascii": "Edna",
+      "english_definition": "to show, point out, reveal",
+      "hindi_definition": "दिखाना, इंगित करना, प्रकट करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ēdkan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to show, point out, reveal", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दिखाना, इंगित करना, प्रकट करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ēdnā",
+      "kurukh_word_ascii": "Edna",
+      "english_definition": "to call, invite",
+      "hindi_definition": "पुकारना, बुलाना, आमंत्रित करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "eḍkan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to call, invite", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पुकारना, बुलाना, आमंत्रित करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ēḍer",
+      "kurukh_word_ascii": "Eder",
+      "english_definition": "green parrot",
+      "hindi_definition": "हरा तोता",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "green parrot", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हरा तोता", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ēgnā",
+      "kurukh_word_ascii": "Egna",
+      "english_definition": "to smear the floor with dissolved cowdung",
+      "hindi_definition": "गोबर से फर्श लीपना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to smear the floor with dissolved cowdung", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गोबर से फर्श लीपना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ēhõ",
+      "kurukh_word_ascii": "Eho",
+      "english_definition": "where?",
+      "hindi_definition": "कहाँ?",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "where?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कहाँ?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ēkā",
+      "kurukh_word_ascii": "Eka",
+      "english_definition": "who, what, which",
+      "hindi_definition": "कौन, क्या, जो",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "who, what, which", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कौन, क्या, जो", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ēk'ām ālas barcas",
+      "kurukh_word_ascii": "Ek'am alas barcas",
+      "english_definition": "what man came?",
+      "hindi_definition": "कौन सा आदमी आया?",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "what man came?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कौन सा आदमी आया?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    },
+    {
+      "kurukh_word": "Ēkā birī",
+      "kurukh_word_ascii": "Eka biri",
+      "english_definition": "at what time?",
+      "hindi_definition": "किस समय?, कब?",
+      "part_of_speech": "phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Ēkā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "at what time?", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "किस समय?, कब?", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0053.jpg", "page_label": "49" }
+    }
+  ]
+}

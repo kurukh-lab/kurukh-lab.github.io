@@ -1,0 +1,267 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0123.jpg",
+  "page_label": "119",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Mal'ā",
+      "kurukh_word_ascii": "Mal'a",
+      "english_definition": "not, no; ās cō'a mal cī'idas, he does not give at all; ās malā cī'inum cī'idas, he gives unwillingly.",
+      "hindi_definition": "नहीं, ना; ās cō'a mal cī'idas = वह बिल्कुल नहीं देता है; ās malā cī'inum cī'idas = वह बेमन से देता है।",
+      "part_of_speech": "adverb",
+      "notes": "Examples: ās cō'a mal cī'idas = he does not give at all; ās malā cī'inum cī'idas = he gives unwillingly"
+    },
+    {
+      "kurukh_word": "Maltā",
+      "kurukh_word_ascii": "Malta",
+      "english_definition": "or.",
+      "hindi_definition": "या, अथवा।",
+      "part_of_speech": "conjunction",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malkan",
+      "kurukh_word_ascii": "Malkan",
+      "english_definition": "I am not (here or there).",
+      "hindi_definition": "मैं नहीं हूँ (यहाँ या वहाँ - अनुपस्थिति)।",
+      "part_of_speech": "verb",
+      "notes": "First-person singular negative copula (existence)"
+    },
+    {
+      "kurukh_word": "Malyan",
+      "kurukh_word_ascii": "Malyan",
+      "english_definition": "I am not (this or that).",
+      "hindi_definition": "मैं नहीं हूँ (यह या वह - पहचान)।",
+      "part_of_speech": "verb",
+      "notes": "First-person singular negative copula (identity)"
+    },
+    {
+      "kurukh_word": "Malkas",
+      "kurukh_word_ascii": "Malkas",
+      "english_definition": "he is not.",
+      "hindi_definition": "वह नहीं है (पुल्लिंग रूप)।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malkā",
+      "kurukh_word_ascii": "Malka",
+      "english_definition": "she/it is not.",
+      "hindi_definition": "वह/यह नहीं है (स्त्रीलिंग/नपुंसकलिंग रूप)।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malkā",
+      "kurukh_word_ascii": "Malka",
+      "english_definition": "adjective/adverb suffix meaning without or -less; e.g., munjāmalkā, eternal (without end); khaddmalkā, childless (without child).",
+      "hindi_definition": "प्रत्यय (रहित या बिना के अर्थ में); जैसे munjāmalkā = अनंत/अविनाशी; khaddmalkā = निःसंतान।",
+      "part_of_speech": "adjective",
+      "notes": "2nd homograph of Malkā"
+    },
+    {
+      "kurukh_word": "Malkī",
+      "kurukh_word_ascii": "Malki",
+      "english_definition": "she, it is not.",
+      "hindi_definition": "वह/यह नहीं है।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malā-hōlē",
+      "kurukh_word_ascii": "Mala-hole",
+      "english_definition": "if not, then; malā kāō'ē hōlē ānōn, if you don't go, I will beat you.",
+      "hindi_definition": "यदि नहीं, तो; malā kāō'ē hōlē ānōn = यदि तुम नहीं जाओगे, तो मैं तुम्हें पीटूंगा।",
+      "part_of_speech": "conjunction",
+      "notes": "Example: malā kāō'ē hōlē ānōn = if you don't go, I will beat you"
+    },
+    {
+      "kurukh_word": "Malerkhnā",
+      "kurukh_word_ascii": "Malerkhna",
+      "english_definition": "constipation.",
+      "hindi_definition": "कब्ज (मलरोध)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malaṅg",
+      "kurukh_word_ascii": "Malang",
+      "english_definition": "business, bargain.",
+      "hindi_definition": "व्यापार, सौदा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mal'aṅg-ōṛkhā",
+      "kurukh_word_ascii": "Mal'ang-orkha",
+      "english_definition": "a kind of vegetable.",
+      "hindi_definition": "एक प्रकार की सब्जी/साग।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malkīrā",
+      "kurukh_word_ascii": "Malkira",
+      "english_definition": "indigestion, dyspepsia.",
+      "hindi_definition": "अपच, मंदाग्नि।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malkhīu",
+      "kurukh_word_ascii": "Malkhiu",
+      "english_definition": "adj. immortal.",
+      "hindi_definition": "विशेषण। अमर।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malmunjrnā",
+      "kurukh_word_ascii": "Malmunjrna",
+      "english_definition": "adj. imperishable, endless, eternal.",
+      "hindi_definition": "विशेषण। अविनाशी, शाश्वत।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malkōrē",
+      "kurukh_word_ascii": "Malkore",
+      "english_definition": "adj. sick, ill, unhealthy, diseased.",
+      "hindi_definition": "विशेषण। बीमार, अस्वस्थ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maldau",
+      "kurukh_word_ascii": "Maldau",
+      "english_definition": "adj. bad, evil.",
+      "hindi_definition": "विशेषण। बुरा, खराब।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maldau lagnā",
+      "kurukh_word_ascii": "Maldau lagna",
+      "english_definition": "to feel unwell.",
+      "hindi_definition": "तबीयत खराब लगना, अस्वस्थ महसूस करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malkhē'enā amm",
+      "kurukh_word_ascii": "Malkhe'ena amm",
+      "english_definition": "nectar.",
+      "hindi_definition": "अमृत।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mal",
+      "kurukh_word_ascii": "Mal",
+      "english_definition": "a giant, a hero.",
+      "hindi_definition": "मल्ल (पहलवान, वीर पुरुष, दैत्य) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Malar",
+      "kurukh_word_ascii": "Malar",
+      "english_definition": "the Paharias in the Rajmahal district.",
+      "hindi_definition": "मालर (राजमहल क्षेत्र के पहाड़िया लोग)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Māmus",
+      "kurukh_word_ascii": "Mamus",
+      "english_definition": "maternal uncle; engmāmus, my maternal uncle.",
+      "hindi_definition": "मामा (मातृपक्ष के चाचा); engmāmus = मेरे मामा।",
+      "part_of_speech": "noun",
+      "notes": "Possessive form: engmāmus"
+    },
+    {
+      "kurukh_word": "Mann-mas",
+      "kurukh_word_ascii": "Mann-mas",
+      "english_definition": "trees in general.",
+      "hindi_definition": "पेड़-पौधे, वृक्ष समूह।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Manē",
+      "kurukh_word_ascii": "Mane",
+      "english_definition": "desire, intent.",
+      "hindi_definition": "इच्छा, इरादा, मतलब।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Man hā'onā",
+      "kurukh_word_ascii": "Man ha'ona",
+      "english_definition": "to confess.",
+      "hindi_definition": "स्वीकार करना, इकबाल करना (हिंदी से लिया गया)।",
+      "part_of_speech": "verb phrase",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mañcī",
+      "kurukh_word_ascii": "Manci",
+      "english_definition": "small chair.",
+      "hindi_definition": "मंची (छोटी चौकी/पीढ़ी) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mandar",
+      "kurukh_word_ascii": "Mandar",
+      "english_definition": "medicine, physic.",
+      "hindi_definition": "दवा (औषधि)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mandar-cī'ū",
+      "kurukh_word_ascii": "Mandar-ciu",
+      "english_definition": "physician.",
+      "hindi_definition": "वैद्य, चिकित्सक।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maṇḍī",
+      "kurukh_word_ascii": "Mandi",
+      "english_definition": "cooked rice.",
+      "hindi_definition": "पका हुआ भात (चावल)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Maṇḍī",
+      "kurukh_word_ascii": "Mandi",
+      "english_definition": "food in general.",
+      "hindi_definition": "भोजन (खाना)।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of Maṇḍī"
+    },
+    {
+      "kurukh_word": "Maṇḍī onnā",
+      "kurukh_word_ascii": "Mandi onna",
+      "english_definition": "to have a meal, to take a meal.",
+      "hindi_definition": "भोजन करना (खाना खाना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mandnā",
+      "kurukh_word_ascii": "Mandna",
+      "english_definition": "kan, yan, to bury, to cover with earth.",
+      "hindi_definition": "दफनाना, मिट्टी से ढंकना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    }
+  ]
+}

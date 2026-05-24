@@ -1,0 +1,721 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg",
+  "page_label": "30",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Cī'ā!",
+      "kurukh_word_ascii": "Ci'a!",
+      "english_definition": "Give!",
+      "hindi_definition": "दो! (आदेशात्मक)",
+      "part_of_speech": "interjection",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "Give!",
+          "example_sentence_kurukh": "Cī'ā hō mal cī'idas",
+          "example_sentence_translation": "he hesitates giving, he does not give at all."
+        },
+        {
+          "language": "hi",
+          "definition": "दो! (आदेशात्मक)",
+          "example_sentence_kurukh": "Cī'ā hō mal cī'idas",
+          "example_sentence_translation": "वह देने में हिचकिचाता है, वह बिल्कुल नहीं देता है।"
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cī'am",
+      "kurukh_word_ascii": "Ci'am",
+      "english_definition": "chicken, the brood of the hen",
+      "hindi_definition": "चूजा, मुर्गी का बच्चा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "chicken, the brood of the hen", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चूजा, मुर्गी का बच्चा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cic",
+      "kurukh_word_ascii": "Cic",
+      "english_definition": "fire",
+      "hindi_definition": "आग, अग्नि",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "fire", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आग, अग्नि", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cic laghrnā",
+      "kurukh_word_ascii": "Cic laghrna",
+      "english_definition": "the burning of the fire",
+      "hindi_definition": "आग का जलना",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cic",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the burning of the fire", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आग का जलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cic tēbrnā",
+      "kurukh_word_ascii": "Cic tebrna",
+      "english_definition": "to extinguish (intransitive)",
+      "hindi_definition": "आग बुझना (अकर्मक)",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cic",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to extinguish (intransitive)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आग बुझना (अकर्मक)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cicambō",
+      "kurukh_word_ascii": "Cicambo",
+      "english_definition": "matches",
+      "hindi_definition": "दियासलाई, माचिस",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cic",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "matches", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दियासलाई, माचिस", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cic odnā",
+      "kurukh_word_ascii": "Cic odna",
+      "english_definition": "to light a fire",
+      "hindi_definition": "आग जलाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cic",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to light a fire", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आग जलाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cic cēp",
+      "kurukh_word_ascii": "Cic cep",
+      "english_definition": "fire-rain, the deluge",
+      "hindi_definition": "अग्नि-वर्षा, जलप्रलय",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cic",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "fire-rain, the deluge", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अग्नि-वर्षा, जलप्रलय", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cicnakrnā",
+      "kurukh_word_ascii": "Cicnakrna",
+      "english_definition": "to deal with one another ; to give to one another",
+      "hindi_definition": "एक दूसरे से व्यवहार करना; एक दूसरे को देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to deal with one another ; to give to one another", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक दूसरे से व्यवहार करना; एक दूसरे को देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cicyārnā",
+      "kurukh_word_ascii": "Cicyarna",
+      "english_definition": "to shout, cheer",
+      "hindi_definition": "चिल्लाना, जयजयकार करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to shout, cheer", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चिल्लाना, जयजयकार करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cicī lagnā",
+      "kurukh_word_ascii": "Cici lagna",
+      "english_definition": "to blossom, sprout",
+      "hindi_definition": "खिलना, अंकुरित होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to blossom, sprout", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खिलना, अंकुरित होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cicī mannā",
+      "kurukh_word_ascii": "Cici manna",
+      "english_definition": "to commence bearing fruit",
+      "hindi_definition": "फल लगना शुरू होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to commence bearing fruit", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फल लगना शुरू होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cickuṇḍī",
+      "kurukh_word_ascii": "Cickundi",
+      "english_definition": "hell ; lit. fire-well",
+      "hindi_definition": "नरक, जहन्नुम (शाब्दिक: अग्नि-कुआँ)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cic",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "hell ; lit. fire-well", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नरक, जहन्नुम (शाब्दिक: अग्नि-कुआँ)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cicī",
+      "kurukh_word_ascii": "Cici",
+      "english_definition": "teats of the udder",
+      "hindi_definition": "थन (गाय आदि पशुओं के)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "teats of the udder", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "थन (गाय आदि पशुओं के)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cīcōbōcō",
+      "kurukh_word_ascii": "Cicoboco",
+      "english_definition": "minute, very small",
+      "hindi_definition": "सूक्ष्म, अत्यंत छोटा",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "minute, very small", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सूक्ष्म, अत्यंत छोटा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cidrā",
+      "kurukh_word_ascii": "Cidra",
+      "english_definition": "the squirrel",
+      "hindi_definition": "गिलहरी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the squirrel", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गिलहरी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cigalō",
+      "kurukh_word_ascii": "Cigalo",
+      "english_definition": "the jackal",
+      "hindi_definition": "सियार, गीदड़",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "cighalō"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the jackal", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सियार, गीदड़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cī cī'inā",
+      "kurukh_word_ascii": "Ci ci'ina",
+      "english_definition": "to offer, make a present",
+      "hindi_definition": "भेंट करना, उपहार देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to offer, make a present", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "भेंट करना, उपहार देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cighalnā",
+      "kurukh_word_ascii": "Cighalna",
+      "english_definition": "to give away, to make a present",
+      "hindi_definition": "दान करना, उपहार देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to give away, to make a present", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दान करना, उपहार देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cigī",
+      "kurukh_word_ascii": "Cigi",
+      "english_definition": "sprout, blade",
+      "hindi_definition": "अंकुर, कोपल, घास की पत्ती",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "sprout, blade", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अंकुर, कोपल, घास की पत्ती", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cigrī",
+      "kurukh_word_ascii": "Cigri",
+      "english_definition": "the house purifying demon",
+      "hindi_definition": "घर को शुद्ध करने वाला प्रेत / देवता",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the house purifying demon", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घर को शुद्ध करने वाला प्रेत / देवता", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cigiyārnā",
+      "kurukh_word_ascii": "Cigiyarna",
+      "english_definition": "to sprout, bud",
+      "hindi_definition": "अंकुरित होना, कली खिलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cigī",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to sprout, bud", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अंकुरित होना, कली खिलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cig idrnā",
+      "kurukh_word_ascii": "Cig idrna",
+      "english_definition": "to stand on the head or walk on the hands",
+      "hindi_definition": "सिर के बल खड़ा होना या हाथों के बल चलना (शीर्षासन करना)",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [
+        "ciglidrnā"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to stand on the head or walk on the hands", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सिर के बल खड़ा होना या हाथों के बल चलना (शीर्षासन करना)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cihut ra'anā",
+      "kurukh_word_ascii": "Cihut ra'ana",
+      "english_definition": "to be cautious",
+      "hindi_definition": "सचेत रहना, सावधान रहना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be cautious", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सचेत रहना, सावधान रहना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cī'inā",
+      "kurukh_word_ascii": "Ci'ina",
+      "english_definition": "to give",
+      "hindi_definition": "देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to give", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cickā",
+      "kurukh_word_ascii": "Cicka",
+      "english_definition": "gift, present",
+      "hindi_definition": "उपहार, भेंट, दान",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cī'inā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "gift, present", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उपहार, भेंट, दान", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cīinā khaṭnā",
+      "kurukh_word_ascii": "Ciina khatna",
+      "english_definition": "to trade",
+      "hindi_definition": "व्यापार करना, लेन-देन करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to trade", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "व्यापार करना, लेन-देन करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cikcikambā'anā",
+      "kurukh_word_ascii": "Cikcikamba'ana",
+      "english_definition": "to dust, wipe off",
+      "hindi_definition": "धूल झाड़ना, पोंछना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to dust, wipe off", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धूल झाड़ना, पोंछना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cilgā",
+      "kurukh_word_ascii": "Cilga",
+      "english_definition": "prickly heat",
+      "hindi_definition": "घमौरियां",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "prickly heat", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घमौरियां", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cilgā pocgō",
+      "kurukh_word_ascii": "Cilga pocgo",
+      "english_definition": "caterpillar",
+      "hindi_definition": "इल्ली, कैटरपिलर",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cilgā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "caterpillar", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "इल्ली, कैटरपिलर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cilpī",
+      "kurukh_word_ascii": "Cilpi",
+      "english_definition": "ear-organment",
+      "hindi_definition": "कान का आभूषण, झुमका",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "ear-organment", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कान का आभूषण, झुमका", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cimbā",
+      "kurukh_word_ascii": "Cimba",
+      "english_definition": "crowd",
+      "hindi_definition": "भीड़, जनसमूह",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "crowd", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "भीड़, जनसमूह", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cimbā",
+      "kurukh_word_ascii": "Cimba",
+      "english_definition": "vehemently, furiously",
+      "hindi_definition": "क्रोधपूर्वक, उग्रता से, प्रचंडता से",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "vehemently, furiously", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "क्रोधपूर्वक, उग्रता से, प्रचंडता से", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cimbā launā",
+      "kurukh_word_ascii": "Cimba launa",
+      "english_definition": "to thrash furiously",
+      "hindi_definition": "निर्दयता से पीटना, बुरी तरह मारना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cimbā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to thrash furiously", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "निर्दयता से पीटना, बुरी तरह मारना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    },
+    {
+      "kurukh_word": "Cimbā kēbnā",
+      "kurukh_word_ascii": "Cimba kebna",
+      "english_definition": "to abuse vehemently",
+      "hindi_definition": "बुरी तरह गाली देना, उग्रता से दुर्व्यवहार करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cimbā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to abuse vehemently", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बुरी तरह गाली देना, उग्रता से दुर्व्यवहार करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0034.jpg", "page_label": "30" }
+    }
+  ]
+}

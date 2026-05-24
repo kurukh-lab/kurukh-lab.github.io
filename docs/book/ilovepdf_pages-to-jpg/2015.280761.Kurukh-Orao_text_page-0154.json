@@ -1,0 +1,253 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0154.jpg",
+  "page_label": "150",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pīpnī",
+      "kurukh_word_ascii": "Pipni",
+      "english_definition": "the eyelashes",
+      "hindi_definition": "पलकें",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Piryā'ē-mann",
+      "kurukh_word_ascii": "Piryae-mann",
+      "english_definition": "the tree on which the silkworm feeds",
+      "hindi_definition": "वह पेड़ जिस पर रेशमकीड़ा पलता है",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pīsā",
+      "kurukh_word_ascii": "Pisa",
+      "english_definition": "afterwards",
+      "hindi_definition": "बाद में",
+      "part_of_speech": "adv",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Pīstā",
+      "kurukh_word_ascii": "Pista",
+      "english_definition": "the one behind",
+      "hindi_definition": "पीछे वाला",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pīsnā",
+      "kurukh_word_ascii": "Pisna",
+      "english_definition": "the next year",
+      "hindi_definition": "अगले साल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pīsnā",
+      "kurukh_word_ascii": "Pisna",
+      "english_definition": "to pour off the water from boiled rice",
+      "hindi_definition": "पके चावल का पानी निकालना (माँड़ निकालना)",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pītār cī'inā",
+      "kurukh_word_ascii": "Pitar ci'ina",
+      "english_definition": "to kill outright",
+      "hindi_definition": "एकदम मार डालना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pīth",
+      "kurukh_word_ascii": "Pith",
+      "english_definition": "market, bazaar; also pitiā",
+      "hindi_definition": "बाजार; पिटिया भी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pītinpārā",
+      "kurukh_word_ascii": "Pitinpara",
+      "english_definition": "irregularly",
+      "hindi_definition": "अनियमित रूप से",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Pītnā",
+      "kurukh_word_ascii": "Pitna",
+      "english_definition": "to kill",
+      "hindi_definition": "मारना, हत्या करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pītnā",
+      "kurukh_word_ascii": "Pitna",
+      "english_definition": "to emit wind",
+      "hindi_definition": "अपान वायु निकालना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pītrī",
+      "kurukh_word_ascii": "Pitri",
+      "english_definition": "mat",
+      "hindi_definition": "चटाई",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pītrī ātūā",
+      "kurukh_word_ascii": "Pitri atua",
+      "english_definition": "to spread the mat",
+      "hindi_definition": "चटाई बिछाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pītrin termna",
+      "kurukh_word_ascii": "Pitrin termna",
+      "english_definition": "to roll up the mat",
+      "hindi_definition": "चटाई लपेटना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pītiṛī",
+      "kurukh_word_ascii": "Pitiri",
+      "english_definition": "cotton prepared for spinning",
+      "hindi_definition": "कताई के लिए तैयार रुई",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Piyō-ōrā / Bālkā ōrā",
+      "kurukh_word_ascii": "Piyo-ora / Balka ora",
+      "english_definition": "a small yellow bird",
+      "hindi_definition": "एक छोटी पीली चिड़िया",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōōgā",
+      "kurukh_word_ascii": "Pooga",
+      "english_definition": "worm",
+      "hindi_definition": "कृमि, कीड़ा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōchnā",
+      "kurukh_word_ascii": "Pochna",
+      "english_definition": "to perish, to become rotten",
+      "hindi_definition": "नष्ट होना, सड़ जाना",
+      "part_of_speech": "verb",
+      "verb_class": "puchkan-yan"
+    },
+    {
+      "kurukh_word": "Pōchrā'ānā",
+      "kurukh_word_ascii": "Pochra'ana",
+      "english_definition": "to clean rice or other grain of dust and straw; also to be displeased",
+      "hindi_definition": "चावल या अनाज की धूल-भूसी साफ करना; नाराज होना भी",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pōchrārnā",
+      "kurukh_word_ascii": "Pochrarna",
+      "english_definition": "cleaned from dust, etc.",
+      "hindi_definition": "धूल से साफ",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pōchānēkā!",
+      "kurukh_word_ascii": "Pochanek'a!",
+      "english_definition": "a curse: damned, perish! Become rotten!",
+      "hindi_definition": "एक गाली: नाश हो! सड़ जा!",
+      "part_of_speech": "interj"
+    },
+    {
+      "kurukh_word": "Pōgrō",
+      "kurukh_word_ascii": "Pogro",
+      "english_definition": "weak",
+      "hindi_definition": "कमजोर",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Pōjnā",
+      "kurukh_word_ascii": "Pojna",
+      "english_definition": "to bind",
+      "hindi_definition": "बाँधना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pōjjnā",
+      "kurukh_word_ascii": "Pojjna",
+      "english_definition": "same as pōjnā (to bind)",
+      "hindi_definition": "pōjnā के समान (बाँधना)",
+      "part_of_speech": "verb",
+      "verb_class": "pujjkan-yan"
+    },
+    {
+      "kurukh_word": "Pōjrnā",
+      "kurukh_word_ascii": "Pojrna",
+      "english_definition": "to wrap, to twist",
+      "hindi_definition": "लपेटना, मरोड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pōjtā'ānā",
+      "kurukh_word_ascii": "Pojta'ana",
+      "english_definition": "to cause to bind",
+      "hindi_definition": "बंधवाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pōjōy-mann",
+      "kurukh_word_ascii": "Pojoy-mann",
+      "english_definition": "a kind of tree",
+      "hindi_definition": "एक प्रकार का पेड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōk",
+      "kurukh_word_ascii": "Pok",
+      "english_definition": "ant",
+      "hindi_definition": "चींटी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōkārkha",
+      "kurukh_word_ascii": "Pokarkha",
+      "english_definition": "lit. ant vegetables, a small herb",
+      "hindi_definition": "चींटी की सब्जी (एक छोटी जड़ी-बूटी)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōkpōkrnā",
+      "kurukh_word_ascii": "Pokpokrna",
+      "english_definition": "to be discontent, despondent, downcast",
+      "hindi_definition": "असंतुष्ट होना, निराश होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pōkhārī",
+      "kurukh_word_ascii": "Pokhari",
+      "english_definition": "a lake",
+      "hindi_definition": "झील, तालाब",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōkhā",
+      "kurukh_word_ascii": "Pokha",
+      "english_definition": "the green pigeon",
+      "hindi_definition": "हरा कबूतर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pōkhtā",
+      "kurukh_word_ascii": "Pokhta",
+      "english_definition": "saliva, also foam, scum",
+      "hindi_definition": "लार; झाग, मैल भी",
+      "part_of_speech": "noun"
+    }
+  ]
+}

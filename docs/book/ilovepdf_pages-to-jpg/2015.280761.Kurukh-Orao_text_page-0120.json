@@ -1,0 +1,307 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0120.jpg",
+  "page_label": "116",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Lok'ā nannā",
+      "kurukh_word_ascii": "Lok'a nanna",
+      "english_definition": "to catch up, as a ball.",
+      "hindi_definition": "लपकना, गेंद आदि को पकड़ना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Loknā",
+      "kurukh_word_ascii": "Lokna",
+      "english_definition": "ckan, o'an, same as Lok'ā nannā (to catch up).",
+      "hindi_definition": "लपकना (Lok'ā nannā के समान)।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lolā",
+      "kurukh_word_ascii": "Lola",
+      "english_definition": "toys, playthings.",
+      "hindi_definition": "खिलौने।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lolā",
+      "kurukh_word_ascii": "Lola",
+      "english_definition": "love, attachment.",
+      "hindi_definition": "प्यार, लगाव।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of Lolā"
+    },
+    {
+      "kurukh_word": "Lolē mannā",
+      "kurukh_word_ascii": "Lole manna",
+      "english_definition": "to be attached, to be in love, to evince love.",
+      "hindi_definition": "लगाव होना, प्रेम होना, प्रेम प्रदर्शित करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Londrā",
+      "kurukh_word_ascii": "Londra",
+      "english_definition": "a large fishing basket.",
+      "hindi_definition": "मछली पकड़ने का बड़ा टोकरा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lor",
+      "kurukh_word_ascii": "Lor",
+      "english_definition": "adj. softened, soaked.",
+      "hindi_definition": "विशेषण। नरम, भीगा हुआ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lorpochā",
+      "kurukh_word_ascii": "Lorpocha",
+      "english_definition": "the last child born of a woman, nestling.",
+      "hindi_definition": "स्त्री की अंतिम संतान (सबसे छोटा बच्चा), नीड़-शावक (घोंसले का नवजात बच्चा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Loslosrnā",
+      "kurukh_word_ascii": "Loslosrna",
+      "english_definition": "kan, an, to grieve, to be annoyed.",
+      "hindi_definition": "शोक करना, तंग/परेशान होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lōṭrnā",
+      "kurukh_word_ascii": "Lotrna",
+      "english_definition": "kan, an, to roll about.",
+      "hindi_definition": "लोटना, करवटें बदलना (लोट-पोट होना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lothlothrnā",
+      "kurukh_word_ascii": "Lothlothrna",
+      "english_definition": "kan, an, to roll about.",
+      "hindi_definition": "लोट-पोट होना, लुढ़कना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lothō",
+      "kurukh_word_ascii": "Lotho",
+      "english_definition": "adv. slowly, by degrees, successively.",
+      "hindi_definition": "क्रियाविशेषण। धीरे-धीरे, धीरे-धीरे करके, क्रमबद्ध रूप से।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lothē",
+      "kurukh_word_ascii": "Lothe",
+      "english_definition": "Take care, slowly.",
+      "hindi_definition": "सावधान! धीरे से।",
+      "part_of_speech": "interjection",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lubhī",
+      "kurukh_word_ascii": "Lubhi",
+      "english_definition": "covetous.",
+      "hindi_definition": "लोभी, लालची।",
+      "part_of_speech": "adjective",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lubhianā",
+      "kurukh_word_ascii": "Lubhiana",
+      "english_definition": "ckan, c'an, to make covetous.",
+      "hindi_definition": "लोभ देना, ललचाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lucā",
+      "kurukh_word_ascii": "Luca",
+      "english_definition": "a vagabond, rake.",
+      "hindi_definition": "लुच्चा, आवारा।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luclucu",
+      "kurukh_word_ascii": "Luclucu",
+      "english_definition": "a villain, bad character.",
+      "hindi_definition": "दुष्ट, बुरा चरित्र।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Ludi'",
+      "kurukh_word_ascii": "Ludi'",
+      "english_definition": "adj. soft, gentle.",
+      "hindi_definition": "विशेषण। मुलायम, कोमल, सज्जन।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luhārī",
+      "kurukh_word_ascii": "Luhari",
+      "english_definition": "breakfast, midday meal, noon.",
+      "hindi_definition": "सुबह का नाश्ता, दोपहर का भोजन, दोपहर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luhārī bērā",
+      "kurukh_word_ascii": "Luhari bera",
+      "english_definition": "breakfast time.",
+      "hindi_definition": "नाश्ते का समय, दोपहर के भोजन का समय।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luhārī nannā",
+      "kurukh_word_ascii": "Luhari nanna",
+      "english_definition": "to prepare breakfast.",
+      "hindi_definition": "नाश्ता तैयार करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luhārī onnā",
+      "kurukh_word_ascii": "Luhari onna",
+      "english_definition": "to breakfast, eat the midday meal.",
+      "hindi_definition": "नाश्ता करना, दोपहर का भोजन करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luṇḍī luhārī onnā",
+      "kurukh_word_ascii": "Lundi luhari onna",
+      "english_definition": "to eat early breakfast.",
+      "hindi_definition": "सुबह का नाश्ता जल्दी करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luisrnā",
+      "kurukh_word_ascii": "Luisrna",
+      "english_definition": "kan, an, to be distorted, disfigured, to tremble.",
+      "hindi_definition": "विकृत होना, रूप बिगड़ना, कांपना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lujhur ēknā",
+      "kurukh_word_ascii": "Lujhur ekna",
+      "english_definition": "to trip, make short steps, as a man carrying a load.",
+      "hindi_definition": "छोटे-छोटे कदम उठाना, लड़खड़ाना (जैसे बोझ उठाने वाला व्यक्ति करता है)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lukhārī",
+      "kurukh_word_ascii": "Lukhari",
+      "english_definition": "spices.",
+      "hindi_definition": "मसाले।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lukui",
+      "kurukh_word_ascii": "Lukui",
+      "english_definition": "a kind of plant and its flower.",
+      "hindi_definition": "एक प्रकार का पौधा और उसका फूल।",
+      "part_of_speech": "noun",
+      "notes": "Also called lukui lurui pūmp"
+    },
+    {
+      "kurukh_word": "Lukui lurui pūmp",
+      "kurukh_word_ascii": "Lukui lurui pump",
+      "english_definition": "a kind of plant and its flower.",
+      "hindi_definition": "एक प्रकार का पौधा और उसका फूल।",
+      "part_of_speech": "noun",
+      "notes": "Full form/variant of Lukui"
+    },
+    {
+      "kurukh_word": "Lundābhaṇḍā",
+      "kurukh_word_ascii": "Lundabhanda",
+      "english_definition": "maiden, virgin, maid servant.",
+      "hindi_definition": "कुंवारी लड़की, कन्या, दासी (नौकरानी)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lundābhaṇḍē nannā",
+      "kurukh_word_ascii": "Lundabhande nanna",
+      "english_definition": "to attend, wash up dishes and plates.",
+      "hindi_definition": "सेवा करना, बर्तन धोना-साफ करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luṇḍī tārnā",
+      "kurukh_word_ascii": "Lundi tarna",
+      "english_definition": "to wind up thread or yarn.",
+      "hindi_definition": "धागा या सूत लपेटना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luṇḍī",
+      "kurukh_word_ascii": "Lundi",
+      "english_definition": "a clew of thread or yarn.",
+      "hindi_definition": "धागे या सूत की लच्छी (गोला)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lundlundrnā",
+      "kurukh_word_ascii": "Lundlundrna",
+      "english_definition": "kan, an, to open the eyes wide, to stare.",
+      "hindi_definition": "आंखें फाड़कर देखना, घूरना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lundlundrā ērnā",
+      "kurukh_word_ascii": "Lundlundra erna",
+      "english_definition": "to open the eyes wide, to stare.",
+      "hindi_definition": "आंखें फाड़कर देखना, घूरना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Luṇḍī",
+      "kurukh_word_ascii": "Lundi",
+      "english_definition": "large, huge; luṇḍī khan, large eyes.",
+      "hindi_definition": "बड़ा, विशाल; luṇḍī khan = बड़ी आंखें।",
+      "part_of_speech": "adjective",
+      "notes": "2nd homograph of Luṇḍī"
+    },
+    {
+      "kurukh_word": "Lupluprnā",
+      "kurukh_word_ascii": "Lupluprna",
+      "english_definition": "kan, an, to shake, tremble.",
+      "hindi_definition": "कांपना, थरथराना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    }
+  ]
+}

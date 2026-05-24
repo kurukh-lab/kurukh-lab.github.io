@@ -1,0 +1,275 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0118.jpg",
+  "page_label": "114",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Lekh'ā",
+      "kurukh_word_ascii": "Lekh'a",
+      "english_definition": "adv. khẽsō lekhā, reddish or rather redly.",
+      "hindi_definition": "क्रियाविशेषण। khẽsō lekhā = लालसा या लाल रंग का।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lekhnā",
+      "kurukh_word_ascii": "Lekhna",
+      "english_definition": "ckan, c'an, to compare, count.",
+      "hindi_definition": "तुलना करना, गिनना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lekho'ē nannā",
+      "kurukh_word_ascii": "Lekho'e nanna",
+      "english_definition": "to bow, to bent, tr.",
+      "hindi_definition": "झुकाना, मोड़ना (सकर्मक)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lekho'e mannā",
+      "kurukh_word_ascii": "Lekho'e manna",
+      "english_definition": "the same, intr.",
+      "hindi_definition": "झुकना, मुड़ना (अकर्मक)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lekkhā nannā",
+      "kurukh_word_ascii": "Lekkha nanna",
+      "english_definition": "to count.",
+      "hindi_definition": "गिनना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lekkhā cī'inā",
+      "kurukh_word_ascii": "Lekkha ci'ina",
+      "english_definition": "to answer, give account of.",
+      "hindi_definition": "जवाब देना, हिसाब देना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lekhrnā",
+      "kurukh_word_ascii": "Lekhrna",
+      "english_definition": "kan, an, to be accounted for.",
+      "hindi_definition": "हिसाब में आना, गिना जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lel'ē",
+      "kurukh_word_ascii": "Lel'e",
+      "english_definition": "adv. hazardously, frivolously, as lel'ē kacnakrdas, he talks frivolously ; lel'ē leõkhdas, he bets hazardously.",
+      "hindi_definition": "क्रियाविशेषण। लापरवाही से, ओछेपन से; जैसे lel'ē kacnakrdas = वह ओछी बातें करता है; lel'ē leõkhdas = वह लापरवाही से शर्त लगाता है।",
+      "part_of_speech": "adverb",
+      "notes": "Example: lel'ē kacnakrdas = he talks frivolously ; lel'ē leõkhdas = he bets hazardously"
+    },
+    {
+      "kurukh_word": "Lellē",
+      "kurukh_word_ascii": "Lelle",
+      "english_definition": "infant.",
+      "hindi_definition": "शिशु।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lellē khadd",
+      "kurukh_word_ascii": "Lelle khadd",
+      "english_definition": "a baby.",
+      "hindi_definition": "नवजात शिशु, बच्चा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lellē mannā",
+      "kurukh_word_ascii": "Lelle manna",
+      "english_definition": "to be an infant.",
+      "hindi_definition": "शिशु होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lellē bīrī",
+      "kurukh_word_ascii": "Lelle biri",
+      "english_definition": "early childhood.",
+      "hindi_definition": "प्रारंभिक बचपन।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leṇḍā",
+      "kurukh_word_ascii": "Lenda",
+      "english_definition": "the earth-worm.",
+      "hindi_definition": "केंचुआ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leṇḍā pūmp",
+      "kurukh_word_ascii": "Lenda pump",
+      "english_definition": "the cress plant.",
+      "hindi_definition": "चमसूर (जलकुंभी या क्रेस का पौधा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leṇḍpōeā",
+      "kurukh_word_ascii": "Lendpoea",
+      "english_definition": "weakness.",
+      "hindi_definition": "कमजोरी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leṇḍā",
+      "kurukh_word_ascii": "Lenda",
+      "english_definition": "worms in the belly.",
+      "hindi_definition": "पेट के कीड़े।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of Leṇḍā"
+    },
+    {
+      "kurukh_word": "Lē'ōkhnā",
+      "kurukh_word_ascii": "Le'okhna",
+      "english_definition": "ckan, an, to bent.",
+      "hindi_definition": "झुकाना, मोड़ना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lē'ōkhrnā",
+      "kurukh_word_ascii": "Le'okhrna",
+      "english_definition": "kan, an, to bow down, to stoop.",
+      "hindi_definition": "झुकना, झुककर प्रणाम करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lē'ōra'anā",
+      "kurukh_word_ascii": "Le'ora'ana",
+      "english_definition": "ckan, c'an, to smear the floor with cowdung.",
+      "hindi_definition": "फर्श को गोबर से लीपना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Liṅgayā",
+      "kurukh_word_ascii": "Lingaya",
+      "english_definition": "lefthanded.",
+      "hindi_definition": "बाएं हाथ से काम करने वाला (सव्यसाची)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lepā",
+      "kurukh_word_ascii": "Lepa",
+      "english_definition": "adj. weak, thin.",
+      "hindi_definition": "विशेषण। कमजोर, पतला।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lēplēpē",
+      "kurukh_word_ascii": "Leplepe",
+      "english_definition": "thin as cloth or paper.",
+      "hindi_definition": "कपड़े या कागज की तरह पतला।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lerbernā",
+      "kurukh_word_ascii": "Lerberna",
+      "english_definition": "kan, an, to stick, attach.",
+      "hindi_definition": "चिपकना, जुड़े रहना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leṛbheṛnā",
+      "kurukh_word_ascii": "Lerbherna",
+      "english_definition": "kan, an, to be behind, as in labor.",
+      "hindi_definition": "पीछे रह जाना (जैसे काम या प्रसव में)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leṛbheṛamba'anā",
+      "kurukh_word_ascii": "Lerbheramba'ana",
+      "english_definition": "ckan, o'an, to throw dirt or dust on somebody.",
+      "hindi_definition": "किसी पर मिट्टी या धूल फेंकना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leṛleṛnā",
+      "kurukh_word_ascii": "Lerlerna",
+      "english_definition": "kan, an, same as lerbernā.",
+      "hindi_definition": "चिपकना, जुड़े रहना (lerbernā के समान)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leṛnā",
+      "kurukh_word_ascii": "Lerna",
+      "english_definition": "ckan, c'an, to become dirty from standing in or walking through the mire.",
+      "hindi_definition": "कीचड़ में खड़े रहने या चलने से गंदा हो जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leṛpõ-yã mannā",
+      "kurukh_word_ascii": "Lerpo-ya manna",
+      "english_definition": "to be weak.",
+      "hindi_definition": "कमजोर होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Leṛsā",
+      "kurukh_word_ascii": "Lersa",
+      "english_definition": "a man with stiff feet.",
+      "hindi_definition": "अकड़े हुए पैरों वाला व्यक्ति।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lesnā",
+      "kurukh_word_ascii": "Lesna",
+      "english_definition": "leseckan, leseo'an, to knead.",
+      "hindi_definition": "गूंथना, मांडना।",
+      "part_of_speech": "verb",
+      "verb_class": "leseckan-leseo'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lesrnā",
+      "kurukh_word_ascii": "Lesrna",
+      "english_definition": "kan, an, to become dirty.",
+      "hindi_definition": "गंदा हो जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lessō",
+      "kurukh_word_ascii": "Lesso",
+      "english_definition": "a dirty person, a person with dirty habits.",
+      "hindi_definition": "गंदा व्यक्ति, गंदी आदतों वाला व्यक्ति।",
+      "part_of_speech": "noun",
+      "notes": ""
+    }
+  ]
+}

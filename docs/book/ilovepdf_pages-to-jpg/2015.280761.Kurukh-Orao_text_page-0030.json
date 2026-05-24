@@ -1,0 +1,627 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg",
+  "page_label": "26",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Cakar",
+      "kurukh_word_ascii": "Cakar",
+      "english_definition": "broad, wide",
+      "hindi_definition": "चौड़ा, विस्तृत",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "broad, wide", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चौड़ा, विस्तृत", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cakar",
+      "kurukh_word_ascii": "Cakar",
+      "english_definition": "breadth, width",
+      "hindi_definition": "चौड़ाई",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "breadth, width", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चौड़ाई", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cakar dālī",
+      "kurukh_word_ascii": "Cakar dali",
+      "english_definition": "crossbar, transverse beam",
+      "hindi_definition": "आड़ी लकड़ी, अनुप्रस्थ शहतीर",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cakar",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "crossbar, transverse beam", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आड़ी लकड़ी, अनुप्रस्थ शहतीर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cakhā",
+      "kurukh_word_ascii": "Cakha",
+      "english_definition": "keen, sharp",
+      "hindi_definition": "तीखा, तेज़",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "keen, sharp", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तीखा, तेज़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cakhṅā",
+      "kurukh_word_ascii": "Cakhnnga",
+      "english_definition": "to taste, to try the taste of",
+      "hindi_definition": "चखना, स्वाद लेना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to taste, to try the taste of", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चखना, स्वाद लेना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cakhnā",
+      "kurukh_word_ascii": "Cakhna",
+      "english_definition": "to look at, to see",
+      "hindi_definition": "देखना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to look at, to see", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "देखना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cakhrṅā",
+      "kurukh_word_ascii": "Cakhrnnga",
+      "english_definition": "to spin, to turn round",
+      "hindi_definition": "घुमाना, चक्कर खाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to spin, to turn round", "example_sentence_kurukh": "banna-cakhrṅā", "example_sentence_translation": "to spin thread" },
+        { "language": "hi", "definition": "घुमाना, चक्कर खाना", "example_sentence_kurukh": "banna-cakhrṅā", "example_sentence_translation": "धागा कातना" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Caknā",
+      "kurukh_word_ascii": "Cakna",
+      "english_definition": "to be able to, can",
+      "hindi_definition": "सकना, समर्थ होना",
+      "part_of_speech": "auxiliary verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be able to, can", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सकना, समर्थ होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cakta'anā",
+      "kurukh_word_ascii": "Cakta'ana",
+      "english_definition": "to be amazed, to be astonished",
+      "hindi_definition": "चकित होना, अचंभित होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be amazed, to be astonished", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चकित होना, अचंभित होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cakrī",
+      "kurukh_word_ascii": "Cakri",
+      "english_definition": "service, employment",
+      "hindi_definition": "नौकरी, सेवा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "service, employment", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नौकरी, सेवा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cakrā",
+      "kurukh_word_ascii": "Cakra",
+      "english_definition": "wheel, circle",
+      "hindi_definition": "चक्र, पहिया",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "wheel, circle", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चक्र, पहिया", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cakī",
+      "kurukh_word_ascii": "Caki",
+      "english_definition": "with, together with",
+      "hindi_definition": "के साथ",
+      "part_of_speech": "postposition",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "with, together with", "example_sentence_kurukh": "ās kieri cākī kērds", "example_sentence_translation": "he went with his clothes" },
+        { "language": "hi", "definition": "के साथ", "example_sentence_kurukh": "ās kieri cākī kērds", "example_sentence_translation": "वह अपने कपड़ों के साथ गया" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Caki ka'anā",
+      "kurukh_word_ascii": "Caki ka'ana",
+      "english_definition": "to bring along with oneself",
+      "hindi_definition": "अपने साथ लाना",
+      "part_of_speech": "verb phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cakī",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to bring along with oneself", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अपने साथ लाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Caki ra'anā",
+      "kurukh_word_ascii": "Caki ra'ana",
+      "english_definition": "to take along with oneself",
+      "hindi_definition": "अपने साथ ले जाना",
+      "part_of_speech": "verb phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cakī",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to take along with oneself", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अपने साथ ले जाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cajnī",
+      "kurukh_word_ascii": "Cajni",
+      "english_definition": "a small basket, a sieve",
+      "hindi_definition": "छोटी टोकरी, छलनी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a small basket, a sieve", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छोटी टोकरी, छलनी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cajrkā",
+      "kurukh_word_ascii": "Cajrka",
+      "english_definition": "lean, thin (verbal adjective)",
+      "hindi_definition": "दुबला-पतला",
+      "part_of_speech": "verbal adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "lean, thin (verbal adjective)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दुबला-पतला", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cal",
+      "kurukh_word_ascii": "Cal",
+      "english_definition": "movement, gait",
+      "hindi_definition": "चाल, गति",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "movement, gait", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चाल, गति", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cal mannā",
+      "kurukh_word_ascii": "Cal manna",
+      "english_definition": "to go, to move",
+      "hindi_definition": "जाना, चलना",
+      "part_of_speech": "verb phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to go, to move", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जाना, चलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cal mannā",
+      "kurukh_word_ascii": "Cal manna",
+      "english_definition": "to happen, to occur, to take place",
+      "hindi_definition": "होना, घटित होना",
+      "part_of_speech": "verb phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to happen, to occur, to take place", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "होना, घटित होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cal cī'nā",
+      "kurukh_word_ascii": "Cal ci'na",
+      "english_definition": "to depart, to go away",
+      "hindi_definition": "रवाना होना, चले जाना",
+      "part_of_speech": "verb phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cal mannā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to depart, to go away", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रवाना होना, चले जाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Calā pacō",
+      "kurukh_word_ascii": "Cala paco",
+      "english_definition": "go away! (imperative, dismissal)",
+      "hindi_definition": "चले जाओ! (आदेशात्मक)",
+      "part_of_speech": "interjection",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "go away! (imperative, dismissal)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चले जाओ! (आदेशात्मक)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cālī",
+      "kurukh_word_ascii": "Cali",
+      "english_definition": "a kind of grass",
+      "hindi_definition": "एक प्रकार की घास",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a kind of grass", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार की घास", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cālt-bālī",
+      "kurukh_word_ascii": "Calt-bali",
+      "english_definition": "custom, practice, usage",
+      "hindi_definition": "रीति-रिवाज, प्रथा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "custom, practice, usage", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रीति-रिवाज, प्रथा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cālt-bālī nannā",
+      "kurukh_word_ascii": "Calt-bali nanna",
+      "english_definition": "to maintain custom, to observe practice",
+      "hindi_definition": "रीति-रिवाज निभाना, प्रथा का पालन करना",
+      "part_of_speech": "verb phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cālt-bālī",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to maintain custom, to observe practice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रीति-रिवाज निभाना, प्रथा का पालन करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Calkhṅū",
+      "kurukh_word_ascii": "Calkhngu",
+      "english_definition": "a bird that runs quickly",
+      "hindi_definition": "तेज़ दौड़ने वाला पक्षी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a bird that runs quickly", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तेज़ दौड़ने वाला पक्षी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Calkhrnā",
+      "kurukh_word_ascii": "Calkhrna",
+      "english_definition": "to run quickly, to scamper",
+      "hindi_definition": "तेज़ दौड़ना, भागना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to run quickly, to scamper", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तेज़ दौड़ना, भागना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Calki",
+      "kurukh_word_ascii": "Calki",
+      "english_definition": "running, in motion",
+      "hindi_definition": "चलते हुए, गतिमान",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "running, in motion", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चलते हुए, गतिमान", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Calkur",
+      "kurukh_word_ascii": "Calkur",
+      "english_definition": "nimble, quick",
+      "hindi_definition": "फुर्तीला, चुस्त",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "nimble, quick", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फुर्तीला, चुस्त", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cals",
+      "kurukh_word_ascii": "Cals",
+      "english_definition": "movement, motion, going",
+      "hindi_definition": "चलन, गमन",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "movement, motion, going", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चलन, गमन", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cambī",
+      "kurukh_word_ascii": "Cambi",
+      "english_definition": "kiss",
+      "hindi_definition": "चुंबन, किस",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["camhī"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "kiss", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चुंबन, किस", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    },
+    {
+      "kurukh_word": "Cambī or camhī iknā",
+      "kurukh_word_ascii": "Cambi or camhi ikna",
+      "english_definition": "to kiss",
+      "hindi_definition": "चुंबन करना, किस करना",
+      "part_of_speech": "verb phrase",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cambī",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to kiss", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चुंबन करना, किस करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0030.jpg", "page_label": "26" }
+    }
+  ]
+}

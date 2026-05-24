@@ -1,0 +1,203 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0186.jpg",
+  "page_label": "182",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Uran mannā",
+      "kurukh_word_ascii": "Uran manna",
+      "english_definition": "to fledge, to be able to fly",
+      "hindi_definition": "पंख निकलना, उड़ने योग्य होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Uran-paran",
+      "kurukh_word_ascii": "Uran-paran",
+      "english_definition": "to waste money, property",
+      "hindi_definition": "पैसे या संपत्ति को उड़ाना/बर्बाद करना",
+      "part_of_speech": "phrase",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Urb",
+      "kurukh_word_ascii": "Urb",
+      "english_definition": "lord, master",
+      "hindi_definition": "स्वामी, मालिक, ईश्वर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Urbas",
+      "kurukh_word_ascii": "Urbas",
+      "english_definition": "the master, Lord (Urbay / Urbayo = O Lord)",
+      "hindi_definition": "मालिक, प्रभु (हे प्रभु)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Urb",
+      "kurukh_word_ascii": "Urb",
+      "english_definition": "rich",
+      "hindi_definition": "धनी, अमीर",
+      "part_of_speech": "adj",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Urb mannā",
+      "kurukh_word_ascii": "Urb manna",
+      "english_definition": "to become rich, to attain to authority",
+      "hindi_definition": "अमीर बनना, अधिकार प्राप्त करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Urbinī",
+      "kurukh_word_ascii": "Urbini",
+      "english_definition": "mistress, Lady",
+      "hindi_definition": "मालकिन, स्वामिनी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Urniṅgā",
+      "kurukh_word_ascii": "Urninga",
+      "english_definition": "to have had a full meal",
+      "hindi_definition": "भरपेट भोजन किया हुआ",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Urdnā",
+      "kurukh_word_ascii": "Urdna",
+      "english_definition": "to withstand, prevent",
+      "hindi_definition": "सामना करना, रोकना, बाधा डालना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Urhyārnā",
+      "kurukh_word_ascii": "Urhyarna",
+      "english_definition": "to fly",
+      "hindi_definition": "उड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Urī-k̲h̲udī",
+      "kurukh_word_ascii": "Uri-khudi",
+      "english_definition": "everything, details",
+      "hindi_definition": "सब कुछ, पूरा ब्योरा",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Urk̲h̲nā",
+      "kurukh_word_ascii": "Urkhna",
+      "english_definition": "to come out, to get out",
+      "hindi_definition": "बाहर निकलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Urk̲h̲nī",
+      "kurukh_word_ascii": "Urkhni",
+      "english_definition": "to turn out, to become",
+      "hindi_definition": "साबित होना, बन जाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Urmī",
+      "kurukh_word_ascii": "Urmi",
+      "english_definition": "all (neuter) (also hurmi)",
+      "hindi_definition": "सब, सभी (निर्जीव/नपुंसक के लिए)",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Urmī sawāṅg-ut",
+      "kurukh_word_ascii": "Urmi sawang-ut",
+      "english_definition": "almighty",
+      "hindi_definition": "सर्वशक्तिमान",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Urmī-nak̲h̲ī",
+      "kurukh_word_ascii": "Urmi-nakhi",
+      "english_definition": "omniscient",
+      "hindi_definition": "सर्वज्ञ",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Urmī-noṅgī",
+      "kurukh_word_ascii": "Urmi-nongi",
+      "english_definition": "almighty",
+      "hindi_definition": "सर्वशक्तिमान",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Urmī-ullā",
+      "kurukh_word_ascii": "Urmi-ulla",
+      "english_definition": "all days, for ever",
+      "hindi_definition": "हमेशा, सदैव",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Urnā",
+      "kurukh_word_ascii": "Urna",
+      "english_definition": "to be satiated",
+      "hindi_definition": "तृप्त होना, पेट भरना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Urta'anā",
+      "kurukh_word_ascii": "Urta'ana",
+      "english_definition": "to satiate",
+      "hindi_definition": "तृप्त करना, पेट भरना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Urnā",
+      "kurukh_word_ascii": "Urna",
+      "english_definition": "to strip off",
+      "hindi_definition": "निकालना, छीलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Urṇḍhā",
+      "kurukh_word_ascii": "Urndha",
+      "english_definition": "grass/earth thrown up by ploughing",
+      "hindi_definition": "हल चलाने से निकली घास, ठूंठ और मिट्टी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Urṇḍhā boṅgtā'anā",
+      "kurukh_word_ascii": "Urndha bongta'ana",
+      "english_definition": "unsteadiness of plough-bullocks",
+      "hindi_definition": "हल खींचने वाले बैलों की अस्थिरता या बेचैनी",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ursyā-pursyā",
+      "kurukh_word_ascii": "Ursya-pursya",
+      "english_definition": "neighbours",
+      "hindi_definition": "आस-पड़ोस के लोग, पड़ोसी",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Urirnā",
+      "kurukh_word_ascii": "Urirna",
+      "english_definition": "to boil",
+      "hindi_definition": "उबलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Urtrnā",
+      "kurukh_word_ascii": "Urtrna",
+      "english_definition": "to ferment",
+      "hindi_definition": "किण्वित होना, खमीर उठना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    }
+  ]
+}

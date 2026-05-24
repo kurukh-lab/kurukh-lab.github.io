@@ -1,0 +1,230 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0158.jpg",
+  "page_label": "154",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pithī",
+      "kurukh_word_ascii": "Pithi",
+      "english_definition": "a book",
+      "hindi_definition": "किताब",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Puttā",
+      "kurukh_word_ascii": "Putta",
+      "english_definition": "setting; bir puttā or put'ā — until sunset, i.e. the whole day",
+      "hindi_definition": "ढलना (सूर्य का); सूर्यास्त तक, पूरे दिन",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Puttā",
+      "kurukh_word_ascii": "Putta",
+      "english_definition": "anthill",
+      "hindi_definition": "दीमक का टीला, बाँबी",
+      "part_of_speech": "noun",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Putināŋ",
+      "kurukh_word_ascii": "Putina",
+      "english_definition": "to set (the setting of the sun), to grow dark",
+      "hindi_definition": "सूरज डूबना, अंधेरा होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Putrnā",
+      "kurukh_word_ascii": "Putrna",
+      "english_definition": "to vomit",
+      "hindi_definition": "उल्टी करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Put'",
+      "kurukh_word_ascii": "Put'",
+      "english_definition": "a worm found in rice",
+      "hindi_definition": "चावल में पाया जाने वाला कीड़ा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Puttum pōk",
+      "kurukh_word_ascii": "Puttum pok",
+      "english_definition": "yellow ant",
+      "hindi_definition": "पीली चींटी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Puwēā-āsmā",
+      "kurukh_word_ascii": "Puwea-asma",
+      "english_definition": "sponge cake",
+      "hindi_definition": "स्पंज केक",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "R",
+      "kurukh_word_ascii": "R",
+      "english_definition": "R (letter section heading)",
+      "hindi_definition": "र वर्ण अनुभाग",
+      "part_of_speech": "letter"
+    },
+    {
+      "kurukh_word": "Rā'ānā",
+      "kurukh_word_ascii": "Ra'ana",
+      "english_definition": "to remain",
+      "hindi_definition": "रहना",
+      "part_of_speech": "verb",
+      "verb_class": "ra'ackan-c'an"
+    },
+    {
+      "kurukh_word": "Rā'āckā rā'ānā",
+      "kurukh_word_ascii": "Ra'acka ra'ana",
+      "english_definition": "to abide",
+      "hindi_definition": "टिकना, रहना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rāc'ē nannā",
+      "kurukh_word_ascii": "Rac'e nanna",
+      "english_definition": "to snatch away",
+      "hindi_definition": "छीन लेना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Rāfnā",
+      "kurukh_word_ascii": "Rafna",
+      "english_definition": "to shine, glitter",
+      "hindi_definition": "चमकना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Rāgā bāg'",
+      "kurukh_word_ascii": "Raga bag'",
+      "english_definition": "colored",
+      "hindi_definition": "रंगीन",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Rāgbāgrnā",
+      "kurukh_word_ascii": "Ragbagrna",
+      "english_definition": "to appear bright in colour",
+      "hindi_definition": "चमकीले रंग में दिखना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rāggā",
+      "kurukh_word_ascii": "Ragga",
+      "english_definition": "rib",
+      "hindi_definition": "पसली",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāgdā'ānā",
+      "kurukh_word_ascii": "Ragda'ana",
+      "english_definition": "to rub",
+      "hindi_definition": "रगड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "c'kan-o'an"
+    },
+    {
+      "kurukh_word": "Rāgrnā",
+      "kurukh_word_ascii": "Ragrna",
+      "english_definition": "to be quick in motion",
+      "hindi_definition": "तेजी से हिलना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rāhrī",
+      "kurukh_word_ascii": "Rahri",
+      "english_definition": "a plant, a kind of pulse",
+      "hindi_definition": "एक पौधा, एक प्रकार की दाल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rāhurāmnā",
+      "kurukh_word_ascii": "Rahuramna",
+      "english_definition": "to fall down",
+      "hindi_definition": "गिर पड़ना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Rāhtā",
+      "kurukh_word_ascii": "Rahta",
+      "english_definition": "the primitive instrument with which the berries of raw cotton are squeezed out",
+      "hindi_definition": "वह आदिम यंत्र जिससे कच्चे कपास के बीज निकाले जाते हैं",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rā'ī",
+      "kurukh_word_ascii": "Ra'i",
+      "english_definition": "she, it is",
+      "hindi_definition": "वह है, यह है",
+      "part_of_speech": "pron"
+    },
+    {
+      "kurukh_word": "Rāīmānī",
+      "kurukh_word_ascii": "Raimani",
+      "english_definition": "mustard seed",
+      "hindi_definition": "सरसों का दाना",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rā'irā'ānāngā",
+      "kurukh_word_ascii": "Ra'ira'ananga",
+      "english_definition": "certainly, yes, there is",
+      "hindi_definition": "निश्चित रूप से, हाँ, है",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Rājī",
+      "kurukh_word_ascii": "Raji",
+      "english_definition": "kingdom, country",
+      "hindi_definition": "राज्य, देश",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Rājī nannā",
+      "kurukh_word_ascii": "Raji nanna",
+      "english_definition": "to govern",
+      "hindi_definition": "शासन करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Nannā rājī",
+      "kurukh_word_ascii": "Nanna raji",
+      "english_definition": "foreign country",
+      "hindi_definition": "विदेश, परदेश",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rājāutī / Rājōtī",
+      "kurukh_word_ascii": "Rajauti / Rajoti",
+      "english_definition": "darbar, committee",
+      "hindi_definition": "दरबार, समिति",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Rākam rākam",
+      "kurukh_word_ascii": "Rakam rakam",
+      "english_definition": "different, various",
+      "hindi_definition": "अलग-अलग, विभिन्न",
+      "part_of_speech": "adj",
+      "loanword_from": "ur"
+    },
+    {
+      "kurukh_word": "Rākrāk mā",
+      "kurukh_word_ascii": "Rakrak ma",
+      "english_definition": "to be brittle, dry",
+      "hindi_definition": "भुरभुरा, सूखा होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    }
+  ]
+}

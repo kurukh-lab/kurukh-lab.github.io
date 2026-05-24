@@ -1,0 +1,548 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg",
+  "page_label": "6",
+  "running_header": "Anūhō malā — Arjha'anā",
+  "status": "extracted",
+  "extracted_at": "2026-05-23",
+  "entries": [
+    {
+      "kurukh_word": "Anūhō malā",
+      "kurukh_word_ascii": "Anuho mala",
+      "english_definition": "nevertheless",
+      "hindi_definition": "फिर भी, तथापि",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "nevertheless", "example_sentence_kurukh": "anāhō mal manō", "example_sentence_translation": "that will never do" },
+        { "language": "hi", "definition": "फिर भी, तथापि, तो भी", "example_sentence_kurukh": "anāhō mal manō", "example_sentence_translation": "वह कभी नहीं चलेगा" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arsnā",
+      "kurukh_word_ascii": "Arsna",
+      "english_definition": "to arrive",
+      "hindi_definition": "पहुँचना, आना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to arrive", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पहुँचना, आना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arsta'anā",
+      "kurukh_word_ascii": "Arsta'ana",
+      "english_definition": "to forward, to deliver up",
+      "hindi_definition": "आगे भेजना, सुपुर्द करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to forward, to deliver up", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आगे भेजना, सुपुर्द करना, सौंपना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Anth",
+      "kurukh_word_ascii": "Anth",
+      "english_definition": "meaning, purport",
+      "hindi_definition": "अर्थ, आशय",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "meaning, purport", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अर्थ, आशय, मतलब", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Anthan",
+      "kurukh_word_ascii": "Anthan",
+      "english_definition": "exceedingly, exquisitely",
+      "hindi_definition": "अत्यंत, अत्यधिक, अत्युत्तम रूप से",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "exceedingly, exquisitely", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अत्यंत, अत्यधिक, अत्युत्तम रूप से", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Anthan dau",
+      "kurukh_word_ascii": "Anthan dau",
+      "english_definition": "exceedingly well, glad",
+      "hindi_definition": "बहुत बढ़िया, प्रसन्न",
+      "part_of_speech": "adjective",
+      "grammatical_tag": "adj.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "exceedingly well, glad", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बहुत बढ़िया, प्रसन्न, अति शुभ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Anthan dau kathā",
+      "kurukh_word_ascii": "Anthan dau katha",
+      "english_definition": "gospel, good news",
+      "hindi_definition": "सुसमाचार, शुभ समाचार",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "gospel; good news", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सुसमाचार, शुभ समाचार (Gospel)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Anti",
+      "kurukh_word_ascii": "Anti",
+      "english_definition": "and",
+      "hindi_definition": "और, तथा",
+      "part_of_speech": "conjunction",
+      "grammatical_tag": "conj.",
+      "loanword_from": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "and (conjunction)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "और, तथा (संयोजक)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Anti",
+      "kurukh_word_ascii": "Anti",
+      "english_definition": "Of course! No doubt! What else!",
+      "hindi_definition": "बेशक! ज़रूर! और क्या!",
+      "part_of_speech": "interjection",
+      "grammatical_tag": "interj.",
+      "loanword_from": null,
+      "variants": ["anti jō"],
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "Of course! No doubt! What else! Also as anti jō!", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बेशक! ज़रूर! और क्या! (anti jō भी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Apsān",
+      "kurukh_word_ascii": "Apsan",
+      "english_definition": "epilepsy",
+      "hindi_definition": "मिर्गी",
+      "part_of_speech": "noun",
+      "grammatical_tag": "U.",
+      "loanword_from": "ur",
+      "meanings": [
+        { "language": "en", "definition": "epilepsy", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मिर्गी, अपस्मार", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arā",
+      "kurukh_word_ascii": "Ara",
+      "english_definition": "and",
+      "hindi_definition": "और, तथा",
+      "part_of_speech": "conjunction",
+      "grammatical_tag": "conj.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "and (conjunction)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "और, तथा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arbarparbar",
+      "kurukh_word_ascii": "Arbarparbar",
+      "english_definition": "neighbours",
+      "hindi_definition": "पड़ोसी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "neighbours", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पड़ोसी, आस-पास के लोग", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arbnā",
+      "kurukh_word_ascii": "Arbna",
+      "english_definition": "to press down, to champoo (massage)",
+      "hindi_definition": "दबाना, मालिश करना (चंपी करना)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to press down; to champoo (give a massage)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दबाना, मालिश करना, चंपी करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arbnā",
+      "kurukh_word_ascii": "Arbna",
+      "english_definition": "to kill, to slaughter, as cattle",
+      "hindi_definition": "मारना, ज़बह करना (पशु आदि)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to kill, to slaughter (as cattle)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मारना, ज़बह करना (जैसे पशु)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arbū",
+      "kurukh_word_ascii": "Arbu",
+      "english_definition": "butcher",
+      "hindi_definition": "कसाई",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "butcher", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कसाई", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Ardā",
+      "kurukh_word_ascii": "Arda",
+      "english_definition": "once, sometimes, formerly",
+      "hindi_definition": "कभी, कभी-कभी, पहले",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "once; sometimes; formerly", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कभी, कभी-कभी, पहले, पूर्व में", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Argā",
+      "kurukh_word_ascii": "Arga",
+      "english_definition": "not yet",
+      "hindi_definition": "अभी तक नहीं",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "variants": ["argī"],
+      "meanings": [
+        { "language": "en", "definition": "not yet", "example_sentence_kurukh": "as argā onos; eṅghai argā barnā gātī", "example_sentence_translation": "he did not eat yet; until I come" },
+        { "language": "hi", "definition": "अभी तक नहीं, अब तक नहीं", "example_sentence_kurukh": "as argā onos; eṅghai argā barnā gātī", "example_sentence_translation": "उसने अभी तक नहीं खाया; जब तक मैं आऊँ" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "argī",
+      "kurukh_word_ascii": "argi",
+      "english_definition": "not yet (variant of Argā)",
+      "hindi_definition": "अभी तक नहीं (Argā का रूप)",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "variant_of": "Argā",
+      "meanings": [
+        { "language": "en", "definition": "not yet; variant of Argā", "example_sentence_kurukh": "ād argi barcā; eṅghai argi khē'enum", "example_sentence_translation": "she did not come yet; before I die" },
+        { "language": "hi", "definition": "अभी तक नहीं; Argā का रूप", "example_sentence_kurukh": "ād argi barcā; eṅghai argi khē'enum", "example_sentence_translation": "वह अभी तक नहीं आई; मरने से पहले" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Argnā",
+      "kurukh_word_ascii": "Argna",
+      "english_definition": "to climb, to rise, to ascend (intransitive)",
+      "hindi_definition": "चढ़ना, उठना, ऊपर जाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan, intr.",
+      "loanword_from": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to climb, to rise, to ascend (intransitive)", "example_sentence_kurukh": "biri argnā", "example_sentence_translation": "sunrise (lit. sun-rises)" },
+        { "language": "hi", "definition": "चढ़ना, उठना, ऊपर जाना (अकर्मक)", "example_sentence_kurukh": "biri argnā", "example_sentence_translation": "सूर्योदय (शब्दशः 'सूर्य उठना')" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Argnā",
+      "kurukh_word_ascii": "Argna",
+      "english_definition": "to offer a sacrifice (transitive)",
+      "hindi_definition": "बलि चढ़ाना, यज्ञ करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan, tr.",
+      "loanword_from": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to offer a sacrifice (transitive)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बलि चढ़ाना, यज्ञ करना (सकर्मक)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arghā",
+      "kurukh_word_ascii": "Argha",
+      "english_definition": "sacrifice, offering",
+      "hindi_definition": "बलि, यज्ञ, अर्ध्य",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["argkā"],
+      "meanings": [
+        { "language": "en", "definition": "sacrifice, offering", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बलि, यज्ञ, अर्ध्य (अर्पण)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "argkā",
+      "kurukh_word_ascii": "argka",
+      "english_definition": "sacrifice, offering (variant of Arghā)",
+      "hindi_definition": "बलि, यज्ञ (Arghā का रूप)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variant_of": "Arghā",
+      "meanings": [
+        { "language": "en", "definition": "sacrifice, offering; variant of Arghā", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बलि, यज्ञ; Arghā का रूप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arga'anā",
+      "kurukh_word_ascii": "Arga'ana",
+      "english_definition": "to lift, to haul up",
+      "hindi_definition": "उठाना, ऊपर खींचना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to lift, to haul up", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उठाना, ऊपर खींचना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Argta'anā",
+      "kurukh_word_ascii": "Argta'ana",
+      "english_definition": "to make to ascend, as a balloon",
+      "hindi_definition": "ऊपर चढ़ाना, जैसे गुब्बारा",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to make to ascend, as a balloon", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ऊपर चढ़ाना, जैसे गुब्बारा उड़ाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Argnā",
+      "kurukh_word_ascii": "Argna",
+      "english_definition": "to swell, get puffed up, as the stomach",
+      "hindi_definition": "फूलना, पेट का फूलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "homograph_index": 3,
+      "meanings": [
+        { "language": "en", "definition": "to swell, to get puffed up (as the stomach)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फूलना, पेट का फूल जाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arghārnā",
+      "kurukh_word_ascii": "Argharna",
+      "english_definition": "to glide down the throat, to be pleasant to the taste",
+      "hindi_definition": "गले से सहजता से उतरना, स्वादिष्ट लगना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to glide down the throat; to be pleasant to the taste", "example_sentence_kurukh": "malā arghīri", "example_sentence_translation": "it does not go down the throat, it is disgusting" },
+        { "language": "hi", "definition": "गले से सहजता से उतरना; स्वादिष्ट लगना", "example_sentence_kurukh": "malā arghīri", "example_sentence_translation": "यह गले के नीचे नहीं उतरता, यह अरुचिकर है" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Argini",
+      "kurukh_word_ascii": "Argini",
+      "english_definition": "the east, the orient",
+      "hindi_definition": "पूर्व दिशा, प्राची",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "the east; the orient", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पूर्व दिशा, प्राची", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Argō-biri",
+      "kurukh_word_ascii": "Argo-biri",
+      "english_definition": "at sunrise; at ascending",
+      "hindi_definition": "सूर्योदय के समय; ऊपर चढ़ते हुए",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "at sunrise; at ascending (lit. ascending-sun)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सूर्योदय के समय; ऊपर चढ़ते हुए (शब्दशः 'चढ़ता सूर्य')", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arja'anā",
+      "kurukh_word_ascii": "Arja'ana",
+      "english_definition": "to earn, to work for wages",
+      "hindi_definition": "कमाना, मज़दूरी करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to earn; to work for wages", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कमाना, मज़दूरी के लिए काम करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arjackā",
+      "kurukh_word_ascii": "Arjacka",
+      "english_definition": "earnings, merit, wages",
+      "hindi_definition": "कमाई, मेहनताना, पुण्य",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "earnings; merit; wages", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कमाई, मेहनताना, पुण्य", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    },
+    {
+      "kurukh_word": "Arjha'anā",
+      "kurukh_word_ascii": "Arjha'ana",
+      "english_definition": "to entangle",
+      "hindi_definition": "उलझाना, फँसाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to entangle", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उलझाना, फँसाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0010.jpg", "page_label": "6" }
+    }
+  ]
+}

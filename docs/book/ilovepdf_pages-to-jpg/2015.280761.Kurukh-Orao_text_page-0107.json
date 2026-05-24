@@ -1,0 +1,277 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0107.jpg",
+  "page_label": "103",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "K̲h̲an oṭṭā",
+      "kurukh_word_ascii": "Khan otta",
+      "english_definition": "eyebrow.",
+      "hindi_definition": "भौंह (आँख की भौंह)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲an beddnā",
+      "kurukh_word_ascii": "Khan beddna",
+      "english_definition": "to have pains in the eyes : eṅgan k̲h̲an biddyā, my eyes pained.",
+      "hindi_definition": "आँखों में दर्द होना; eṅgan k̲h̲an biddyā = मेरी आँखें दुख रही हैं/दर्द हुईं।",
+      "part_of_speech": "verb phrase",
+      "notes": "Example: eṅgan k̲h̲an biddyā = my eyes pained"
+    },
+    {
+      "kurukh_word": "K̲h̲anjalk̲h̲ō",
+      "kurukh_word_ascii": "Khanjalkho",
+      "english_definition": "tears.",
+      "hindi_definition": "आँसू।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲andrnā",
+      "kurukh_word_ascii": "Khandrna",
+      "english_definition": "kan, an, to sleep.",
+      "hindi_definition": "सोना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲andrnā tukkī",
+      "kurukh_word_ascii": "Khandrna tukki",
+      "english_definition": "to feel sleepy, drowsy.",
+      "hindi_definition": "नींद आना, झपकी आना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲andrā urkhnā",
+      "kurukh_word_ascii": "Khandra urkhna",
+      "english_definition": "to feel sleepy, to get sleep.",
+      "hindi_definition": "नींद आना, सो जाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ā̃drā",
+      "kurukh_word_ascii": "Khandra",
+      "english_definition": "kan, an, to despise.",
+      "hindi_definition": "घृणा करना, तिरस्कार करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲anmōkhtō-nerr",
+      "kurukh_word_ascii": "Khanmokhto-nerr",
+      "english_definition": "poisonous snake.",
+      "hindi_definition": "जहरीला साँप।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲añjkā",
+      "kurukh_word_ascii": "Khanjka",
+      "english_definition": "fruit, profit, result.",
+      "hindi_definition": "फल, लाभ, परिणाम।",
+      "part_of_speech": "noun",
+      "notes": "Variant: k̲h̲añjpā"
+    },
+    {
+      "kurukh_word": "k̲h̲añjpā",
+      "kurukh_word_ascii": "khanjpa",
+      "english_definition": "fruit, profit, result.",
+      "hindi_definition": "फल, लाभ, परिणाम।",
+      "part_of_speech": "noun",
+      "notes": "Variant of K̲h̲añjkā"
+    },
+    {
+      "kurukh_word": "K̲h̲añjnā",
+      "kurukh_word_ascii": "Khanjna",
+      "english_definition": "kan, an, to ripen, to bear fruit.",
+      "hindi_definition": "पकना, फलना (फल देना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲annā",
+      "kurukh_word_ascii": "Khanna",
+      "english_definition": "ekā, o'an, to appear, come out as color put on a wall.",
+      "hindi_definition": "उभरना, प्रकट होना (जैसे दीवार पर लगाया रंग निखरना)।",
+      "part_of_speech": "verb",
+      "verb_class": "eka-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ā̃snā",
+      "kurukh_word_ascii": "Khansna",
+      "english_definition": "kan, an, to scratch, brush.",
+      "hindi_definition": "खरोंचना, ब्रश करना, खुजलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ā̃srnā",
+      "kurukh_word_ascii": "Khansrna",
+      "english_definition": "to be brushed off.",
+      "hindi_definition": "झाड़ा जाना, ब्रश से साफ होना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲a'ol k̲h̲a'olrā",
+      "kurukh_word_ascii": "Kha'ol kha'olra",
+      "english_definition": "perfectly clean.",
+      "hindi_definition": "पूरी तरह से साफ, एकदम स्वच्छ।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲a'okhnā",
+      "kurukh_word_ascii": "Kha'okhna",
+      "english_definition": "kan, an, to break through, dismantle.",
+      "hindi_definition": "तोड़ना, नष्ट करना, दरार डालना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲apnā",
+      "kurukh_word_ascii": "Khapna",
+      "english_definition": "kan, an, to sip.",
+      "hindi_definition": "घूंट लेना, चुस्की लेना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲āpnā",
+      "kurukh_word_ascii": "Khapna",
+      "english_definition": "kan, yan, to guard, watch, look after, protect.",
+      "hindi_definition": "रखवाली करना, पहरा देना, देखभाल करना, रक्षा करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲āpū",
+      "kurukh_word_ascii": "Khapu",
+      "english_definition": "guardian, watchman, protector, caretaker.",
+      "hindi_definition": "अभिभावक, चौकीदार, रक्षक, देखभाल करने वाला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲appā",
+      "kurukh_word_ascii": "Khappa",
+      "english_definition": "leech.",
+      "hindi_definition": "जोंक।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Mankhā k̲h̲appā",
+      "kurukh_word_ascii": "Mankha khappa",
+      "english_definition": "the big leech.",
+      "hindi_definition": "बड़ी जोंक।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ār",
+      "kurukh_word_ascii": "Khar",
+      "english_definition": "river, watercourse.",
+      "hindi_definition": "नदी, जलमार्ग, नाला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲arbnā",
+      "kurukh_word_ascii": "Kharbna",
+      "english_definition": "kan, yan, to clean rice by pounding.",
+      "hindi_definition": "कूटकर चावल साफ करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲arda'anā",
+      "kurukh_word_ascii": "Kharda'ana",
+      "english_definition": "ckan, c'an, to make tired, to exhaust.",
+      "hindi_definition": "थकाना, थका देना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ardnā",
+      "kurukh_word_ascii": "Khardna",
+      "english_definition": "kan, yan, to be tired, wearied.",
+      "hindi_definition": "थकना, क्लांत होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲arkhā",
+      "kurukh_word_ascii": "Kharkha",
+      "english_definition": "bitter.",
+      "hindi_definition": "कड़वा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ārkhnā",
+      "kurukh_word_ascii": "Kharkhna",
+      "english_definition": "kan, yan, to become bitter, cold ; e.g., conhā k̲h̲ārkhā mañjā, love has become cold.",
+      "hindi_definition": "कड़वा होना, ठंडा पड़ना; जैसे conhā k̲h̲ārkhā mañjā = प्यार ठंडा पड़ गया है।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "Example: conhā k̲h̲ārkhā mañjā = love has become cold"
+    },
+    {
+      "kurukh_word": "K̲h̲arkhnā",
+      "kurukh_word_ascii": "Kharkhna",
+      "english_definition": "kan, yan, to sound, noisy, ghantā k̲h̲arkhī, the bell rings.",
+      "hindi_definition": "ध्वनि करना, बजना, शोर करना; ghantā k̲h̲arkhī = घंटी बजती है।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "2nd homograph of K̲h̲arkhnā — to sound/ring (vs. become bitter/cold); Example: ghantā k̲h̲arkhī = the bell rings"
+    },
+    {
+      "kurukh_word": "K̲h̲arkhta'anā",
+      "kurukh_word_ascii": "Kharkhta'ana",
+      "english_definition": "to make a sound; ghanṭan k̲h̲arkhta'ā! Ring the bell.",
+      "hindi_definition": "बजाना, ध्वनि निकालना; ghanṭan k̲h̲arkhta'ā! = घंटी बजाओ!",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": "Example: ghanṭan k̲h̲arkhta'ā! = Ring the bell"
+    },
+    {
+      "kurukh_word": "K̲h̲arar k̲h̲arar k̲h̲arkhnā",
+      "kurukh_word_ascii": "Kharar kharar kharkhna",
+      "english_definition": "to sound like the boom of a cannon or like the thunder or roaring of the sea.",
+      "hindi_definition": "तोप की गड़गड़ाहट, बादलों के गरजने या समुद्र की गर्जना जैसी आवाज करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲arkhō",
+      "kurukh_word_ascii": "Kharkho",
+      "english_definition": "bile.",
+      "hindi_definition": "पित्त।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲arkharsā",
+      "kurukh_word_ascii": "Kharkharsa",
+      "english_definition": "swept.",
+      "hindi_definition": "झाड़ा हुआ, साफ किया हुआ।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    }
+  ]
+}

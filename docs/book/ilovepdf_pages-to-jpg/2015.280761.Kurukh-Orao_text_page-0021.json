@@ -1,0 +1,687 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg",
+  "page_label": "17",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Bēl",
+      "kurukh_word_ascii": "Bel",
+      "english_definition": "the yolk of an egg",
+      "hindi_definition": "अंडे की जर्दी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "the yolk of an egg", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अंडे की जर्दी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēl",
+      "kurukh_word_ascii": "Bel",
+      "english_definition": "the pupilla of the eye; also the eyeball",
+      "hindi_definition": "आंख की पुतली; आंखों का गोला भी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "the pupilla of the eye; also the eyeball", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आंख की पुतली; आंखों का गोला भी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēl",
+      "kurukh_word_ascii": "Bel",
+      "english_definition": "king",
+      "hindi_definition": "राजा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["bēlas"],
+      "variant_of": null,
+      "homograph_index": 3,
+      "meanings": [
+        { "language": "en", "definition": "king", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "राजा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēl-erpā",
+      "kurukh_word_ascii": "Bel-erpa",
+      "english_definition": "the palace or residence of a king",
+      "hindi_definition": "राजमहल, राजा का निवास",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the palace or residence of a king", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "राजमहल, राजा का निवास", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēlpaddā",
+      "kurukh_word_ascii": "Belpadda",
+      "english_definition": "the royal capital",
+      "hindi_definition": "राजधानी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the royal capital", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "राजधानी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēlkaṇḍe",
+      "kurukh_word_ascii": "Belkande",
+      "english_definition": "the royal throne",
+      "hindi_definition": "राजसिंहासन",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the royal throne", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "राजसिंहासन", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēlkheddā",
+      "kurukh_word_ascii": "Belkhedda",
+      "english_definition": "a prince, royal child",
+      "hindi_definition": "राजकुमार, राजकीय बच्चा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a prince, royal child", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "राजकुमार, राजकीय बच्चा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Belklā",
+      "kurukh_word_ascii": "Belkla",
+      "english_definition": "kingdom",
+      "hindi_definition": "राज्य, साम्राज्य",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "kingdom", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "राज्य, साम्राज्य", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēl kamnā",
+      "kurukh_word_ascii": "Bel kamna",
+      "english_definition": "to enthrone",
+      "hindi_definition": "राज्याभिषेक करना, गद्दी पर बिठाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to enthrone", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "राज्याभिषेक करना, गद्दी पर बिठाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēl nannā",
+      "kurukh_word_ascii": "Bel nanna",
+      "english_definition": "to reign",
+      "hindi_definition": "राज्य करना, शासन करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to reign", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "राज्य करना, शासन करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēls gadḍī",
+      "kurukh_word_ascii": "Bels gaddi",
+      "english_definition": "the indentation on the nape of the neck",
+      "hindi_definition": "गर्दन के पीछे का गड्ढा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the indentation on the nape of the neck", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गर्दन के पीछे का गड्ढा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēls",
+      "kurukh_word_ascii": "Bels",
+      "english_definition": "queen of the whiteants",
+      "hindi_definition": "दीमक की रानी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "queen of the whiteants", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दीमक की रानी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bemnā",
+      "kurukh_word_ascii": "Bemna",
+      "english_definition": "to be constipated",
+      "hindi_definition": "कब्ज होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "okan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be constipated", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कब्ज होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēnā",
+      "kurukh_word_ascii": "Bena",
+      "english_definition": "fan",
+      "hindi_definition": "पंखा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "fan", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पंखा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bendnā",
+      "kurukh_word_ascii": "Bendna",
+      "english_definition": "to measure with the length of the hand",
+      "hindi_definition": "हाथ की लंबाई से नापना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "okan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to measure with the length of the hand", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हाथ की लंबाई से नापना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bōndnā",
+      "kurukh_word_ascii": "Bondna",
+      "english_definition": "to collect by degrees",
+      "hindi_definition": "धीरे-धीरे इकट्ठा करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to collect by degrees", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धीरे-धीरे इकट्ठा करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Beṇḍārnā",
+      "kurukh_word_ascii": "Bendarna",
+      "english_definition": "to go astray",
+      "hindi_definition": "भटक जाना, भटकना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to go astray", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "भटक जाना, भटकना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Beṇḍrnakrnā",
+      "kurukh_word_ascii": "Bendrnakrna",
+      "english_definition": "to equalize, as palki-bearers fit in their shoulders or as soldiers keep pace in the march",
+      "hindi_definition": "बराबर करना, जैसे पालकी उठाने वाले कंधे मिलाते हैं या सैनिक कदम मिलाते हैं",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to equalize, as palki-bearers fit in their shoulders or as soldiers keep pace in the march", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बराबर करना, जैसे पालकी उठाने वाले कंधे मिलाते हैं या सैनिक कदम मिलाते हैं", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēṅḍe",
+      "kurukh_word_ascii": "Bengde",
+      "english_definition": "a kind of cereal",
+      "hindi_definition": "एक प्रकार का अनाज",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a kind of cereal", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार का अनाज", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bōṅḍhrā",
+      "kurukh_word_ascii": "Bongdhra",
+      "english_definition": "on all sides, round about",
+      "hindi_definition": "चारों ओर, चारों तरफ",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "on all sides, round about", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चारों ओर, चारों तरफ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Beṅḍhrnā",
+      "kurukh_word_ascii": "Bengdharna",
+      "english_definition": "to turn, change, intr.",
+      "hindi_definition": "मुड़ना, बदलना (अकर्मक)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to turn, change, intr.", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मुड़ना, बदलना (अकर्मक)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Beṅḍhra'anā",
+      "kurukh_word_ascii": "Bengdhra'ana",
+      "english_definition": "to surround, besiege",
+      "hindi_definition": "घेरना, घेरा डालना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to surround, besiege", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घेरना, घेरा डालना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Beñjā",
+      "kurukh_word_ascii": "Benja",
+      "english_definition": "marriage, wedding",
+      "hindi_definition": "विवाह, शादी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "marriage, wedding", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "विवाह, शादी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Beñjnā",
+      "kurukh_word_ascii": "Benjna",
+      "english_definition": "to give in marriage",
+      "hindi_definition": "विवाह में देना, शादी कराना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "biñjkan, bindyan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to give in marriage", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "विवाह में देना, शादी कराना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Beñjrnā",
+      "kurukh_word_ascii": "Benjrna",
+      "english_definition": "to marry, to get married or be married",
+      "hindi_definition": "शादी करना, विवाह करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to marry, to get married or be married", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शादी करना, विवाह करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Beñknā",
+      "kurukh_word_ascii": "Benkna",
+      "english_definition": "to make crooked",
+      "hindi_definition": "टेढ़ा करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "biñkkan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to make crooked", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "टेढ़ा करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Beṅkō",
+      "kurukh_word_ascii": "Benko",
+      "english_definition": "crooked",
+      "hindi_definition": "टेढ़ा, वक्र",
+      "part_of_speech": "adjective",
+      "grammatical_tag": "B. adj.",
+      "loanword_from": "bn",
+      "variants": ["brūkō"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "crooked", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "टेढ़ा, वक्र", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "brūkō",
+      "kurukh_word_ascii": "bruko",
+      "english_definition": "crooked",
+      "hindi_definition": "टेढ़ा, वक्र",
+      "part_of_speech": "adjective",
+      "grammatical_tag": "B. adj.",
+      "loanword_from": "bn",
+      "variants": [],
+      "variant_of": "Beṅkō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "crooked", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "टेढ़ा, वक्र", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēnā",
+      "kurukh_word_ascii": "Bena",
+      "english_definition": "to thatch",
+      "hindi_definition": "फूस से छाना, छप्पर डालना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "hinkan, be'au",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to thatch", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फूस से छाना, छप्पर डालना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bērā",
+      "kurukh_word_ascii": "Bera",
+      "english_definition": "time, hour",
+      "hindi_definition": "समय, घड़ी, वक्त",
+      "part_of_speech": "noun",
+      "grammatical_tag": "U.",
+      "loanword_from": "ur",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "time, hour", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "समय, घड़ी, वक्त", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bērā bērā",
+      "kurukh_word_ascii": "Bera bera",
+      "english_definition": "precisely",
+      "hindi_definition": "ठीक-ठीक, बिल्कुल सही",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "precisely", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ठीक-ठीक, बिल्कुल सही", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bērāsirō",
+      "kurukh_word_ascii": "Berasiro",
+      "english_definition": "punctually, at the night time",
+      "hindi_definition": "समय पर, रात के समय",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "punctually, at the night time", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "समय पर, रात के समय", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēraṅg",
+      "kurukh_word_ascii": "Berang",
+      "english_definition": "much, very much",
+      "hindi_definition": "बहुत, अत्यधिक",
+      "part_of_speech": "adjective",
+      "grammatical_tag": "adj.",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "much, very much", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बहुत, अत्यधिक", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    },
+    {
+      "kurukh_word": "Bēreṅg bēreṅg",
+      "kurukh_word_ascii": "Bereng bereng",
+      "english_definition": "persistently, impertinently",
+      "hindi_definition": "लगातार, ढिठाई से",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "persistently, impertinently", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "लगातार, ढिठाई से", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0021.jpg", "page_label": "17" }
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg",
+  "page_label": "2",
+  "running_header": "Addiyas — Ajjī-leōrā",
+  "status": "extracted",
+  "extracted_at": "2026-05-23",
+  "entries": [
+    {
+      "kurukh_word": "Addiyas",
+      "kurukh_word_ascii": "Addiyas",
+      "english_definition": "a landed proprietor, a bhuihār",
+      "hindi_definition": "ज़मींदार, भुइँहार",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "a landed proprietor, a bhuihār (hereditary land-holder)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ज़मींदार, भुइँहार (वंशानुगत भूस्वामी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Adkā",
+      "kurukh_word_ascii": "Adka",
+      "english_definition": "more, over and above",
+      "hindi_definition": "अधिक, और भी",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "H. adv.",
+      "loanword_from": "hi",
+      "variants": ["adīkā"],
+      "meanings": [
+        { "language": "en", "definition": "more, over and above", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अधिक, और भी, इसके ऊपर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "adīkā",
+      "kurukh_word_ascii": "adika",
+      "english_definition": "more, over and above (variant of adkā)",
+      "hindi_definition": "अधिक, और भी (adkā का रूप)",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "H. adv.",
+      "loanword_from": "hi",
+      "variant_of": "Adkā",
+      "meanings": [
+        { "language": "en", "definition": "more, over and above; variant of adkā", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अधिक, और भी; adkā का रूप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍḍō",
+      "kurukh_word_ascii": "Addo",
+      "english_definition": "an ox",
+      "hindi_definition": "बैल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "an ox", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बैल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍḍō-mekhō",
+      "kurukh_word_ascii": "Addo-mekho",
+      "english_definition": "cattle",
+      "hindi_definition": "मवेशी, गाय-बैल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "cattle (oxen and cows)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मवेशी, गाय-बैल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍḍō-arkḫā",
+      "kurukh_word_ascii": "Addo-arkha",
+      "english_definition": "a kind of grass",
+      "hindi_definition": "एक प्रकार की घास",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "a kind of grass", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार की घास", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍḍō-pottā",
+      "kurukh_word_ascii": "Addo-potta",
+      "english_definition": "a creeper plant",
+      "hindi_definition": "एक बेल / लता",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "a creeper plant", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक बेल, लता", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍḍō-taikhā",
+      "kurukh_word_ascii": "Addo-taikha",
+      "english_definition": "a kind of vegetable",
+      "hindi_definition": "एक प्रकार की सब्ज़ी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "a kind of vegetable", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार की सब्ज़ी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Adhiyrnā",
+      "kurukh_word_ascii": "Adhiyrna",
+      "english_definition": "to decrease, to be wasted, to decrease by half",
+      "hindi_definition": "घटना, क्षीण होना, आधा होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to decrease, to be wasted, to decrease by half", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घटना, क्षीण होना, आधा होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Adkhi",
+      "kurukh_word_ascii": "Adkhi",
+      "english_definition": "ginger",
+      "hindi_definition": "अदरक",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "ginger", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अदरक", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Admaṇḍuā",
+      "kurukh_word_ascii": "Admandua",
+      "english_definition": "to select a residence, to put up with",
+      "hindi_definition": "निवास चुनना, बसना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to select a residence, to put up with", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "निवास चुनना, रहने के लिए जगह स्वीकार करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍuā",
+      "kurukh_word_ascii": "Adua",
+      "english_definition": "to cover with leather, as a drum",
+      "hindi_definition": "चमड़े से मढ़ना, जैसे ढोल",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to cover with leather, as a drum", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चमड़े से मढ़ना, जैसे ढोल पर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍrā lagnā",
+      "kurukh_word_ascii": "Adra lagna",
+      "english_definition": "to burn as straw or jangal-fire",
+      "hindi_definition": "पुआल या जंगल की आग की तरह जलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to burn as straw or jungle-fire", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पुआल या जंगल की आग की तरह जलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍrā ka'anā",
+      "kurukh_word_ascii": "Adra ka'ana",
+      "english_definition": "to spread like fire",
+      "hindi_definition": "आग की तरह फैलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to spread like fire", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आग की तरह फैलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍrā khāḍī",
+      "kurukh_word_ascii": "Adra khadi",
+      "english_definition": "a carbuncle, bubon",
+      "hindi_definition": "फोड़ा, गिल्टी (कार्बंकल)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "a carbuncle, bubo", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "फोड़ा, गिल्टी (कार्बंकल)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍrnā",
+      "kurukh_word_ascii": "Adrna",
+      "english_definition": "to bend the back",
+      "hindi_definition": "पीठ झुकाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to bend the back", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पीठ झुकाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aḍrnā",
+      "kurukh_word_ascii": "Adrna",
+      "english_definition": "to stop, remain at a place",
+      "hindi_definition": "रुकना, किसी स्थान पर बने रहना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to stop, to remain at a place", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रुकना, किसी स्थान पर बने रहना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Agar",
+      "kurukh_word_ascii": "Agar",
+      "english_definition": "perfect, excellent, ripened",
+      "hindi_definition": "उत्तम, श्रेष्ठ, पका हुआ",
+      "part_of_speech": "adjective",
+      "grammatical_tag": "adj.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "perfect, excellent, ripened", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उत्तम, श्रेष्ठ, पका हुआ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Ahrā",
+      "kurukh_word_ascii": "Ahra",
+      "english_definition": "small water reservoir",
+      "hindi_definition": "छोटा जलाशय",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "small water reservoir", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छोटा जलाशय, पोखर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Ahrā",
+      "kurukh_word_ascii": "Ahra",
+      "english_definition": "flesh, meat",
+      "hindi_definition": "मांस",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "flesh, meat", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मांस, गोश्त", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aikā'anā",
+      "kurukh_word_ascii": "Aika'ana",
+      "english_definition": "to suppose, guess (from akhnā, to know)",
+      "hindi_definition": "अनुमान लगाना, सोचना (akhnā से, जानना)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to suppose, guess; derived from akhnā, to know", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अनुमान लगाना, अंदाज़ा लगाना; akhnā (जानना) से व्युत्पन्न", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aikā'anā",
+      "kurukh_word_ascii": "Aika'ana",
+      "english_definition": "to sneer at",
+      "hindi_definition": "उपहास करना, मखौल उड़ाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to sneer at", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "उपहास करना, मखौल उड़ाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aiudā",
+      "kurukh_word_ascii": "Aiuda",
+      "english_definition": "unnecessarily, without purpose or reason",
+      "hindi_definition": "बेकार, बिना कारण",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "unnecessarily, without purpose or reason", "example_sentence_kurukh": "aiudā endrad barckai", "example_sentence_translation": "why did you come without reason?" },
+        { "language": "hi", "definition": "बेकार, बिना कारण, बेमतलब", "example_sentence_kurukh": "aiudā endrad barckai", "example_sentence_translation": "तुम बिना कारण क्यों आए?" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aiyā",
+      "kurukh_word_ascii": "Aiya",
+      "english_definition": "there, even there",
+      "hindi_definition": "वहाँ, वहीं",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "variants": ["ayā", "aiyam", "ayam"],
+      "meanings": [
+        { "language": "en", "definition": "there, even there", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वहाँ, वहीं पर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Aigar",
+      "kurukh_word_ascii": "Aigar",
+      "english_definition": "stupendous",
+      "hindi_definition": "विशाल, अद्भुत",
+      "part_of_speech": "adjective",
+      "grammatical_tag": "H. adj.",
+      "loanword_from": "hi",
+      "meanings": [
+        { "language": "en", "definition": "stupendous", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "विशाल, अद्भुत", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Ajgō",
+      "kurukh_word_ascii": "Ajgo",
+      "english_definition": "there, that way (from ā, that and uigo, straight)",
+      "hindi_definition": "वहाँ, उस ओर (ā = वह + uigo = सीधा)",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "there, that way; from ā (that) and uigo (straight)", "example_sentence_kurukh": "ujgō kāllā", "example_sentence_translation": "please go towards that place, in that direction" },
+        { "language": "hi", "definition": "वहाँ, उस दिशा में; ā (वह) और uigo (सीधा) से", "example_sentence_kurukh": "ujgō kāllā", "example_sentence_translation": "कृपया उस ओर, उस दिशा में जाइए" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Ajgut",
+      "kurukh_word_ascii": "Ajgut",
+      "english_definition": "surprising, wonderful",
+      "hindi_definition": "आश्चर्यजनक, अद्भुत",
+      "part_of_speech": "adjective",
+      "grammatical_tag": "adj.",
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "surprising, wonderful", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आश्चर्यजनक, अद्भुत", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Ajgut nalakh",
+      "kurukh_word_ascii": "Ajgut nalakh",
+      "english_definition": "a miracle",
+      "hindi_definition": "चमत्कार",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "a miracle", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चमत्कार", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Ajgut mannā",
+      "kurukh_word_ascii": "Ajgut manna",
+      "english_definition": "to wonder, to be astonished",
+      "hindi_definition": "आश्चर्यचकित होना, हैरान होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "to wonder, to be astonished", "example_sentence_kurukh": "id ajgut kathā", "example_sentence_translation": "this is wonderful news" },
+        { "language": "hi", "definition": "आश्चर्यचकित होना, हैरान होना", "example_sentence_kurukh": "id ajgut kathā", "example_sentence_translation": "यह अद्भुत समाचार है" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Ajji",
+      "kurukh_word_ascii": "Ajji",
+      "english_definition": "grandmother",
+      "hindi_definition": "दादी, नानी",
+      "part_of_speech": "noun",
+      "grammatical_tag": "H.",
+      "loanword_from": "hi",
+      "meanings": [
+        { "language": "en", "definition": "grandmother", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दादी, नानी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    },
+    {
+      "kurukh_word": "Ajjī-leōrā",
+      "kurukh_word_ascii": "Ajji-leora",
+      "english_definition": "cloth to be given by the bridegroom to her grandmother",
+      "hindi_definition": "वर द्वारा वधू की दादी / नानी को दिया जाने वाला कपड़ा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "meanings": [
+        { "language": "en", "definition": "cloth to be given by the bridegroom to the bride's grandmother (wedding custom)", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वर द्वारा वधू की दादी / नानी को दिया जाने वाला कपड़ा (विवाह प्रथा)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0006.jpg", "page_label": "2" }
+    }
+  ]
+}

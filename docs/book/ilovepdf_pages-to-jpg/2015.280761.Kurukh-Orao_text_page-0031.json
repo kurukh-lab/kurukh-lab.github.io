@@ -1,0 +1,740 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg",
+  "page_label": "27",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Camkainā",
+      "kurukh_word_ascii": "Camkaina",
+      "english_definition": "the dog-bug",
+      "hindi_definition": "कुत्ता-खटमल (एक प्रकार का कीड़ा)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the dog-bug", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कुत्ता-खटमल (एक प्रकार का कीड़ा)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Camkā",
+      "kurukh_word_ascii": "Camka",
+      "english_definition": "earthen lampholder",
+      "hindi_definition": "मिट्टी का दीपाधार, दीया",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "earthen lampholder", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मिट्टी का दीपाधार, दीया", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Canākōrā",
+      "kurukh_word_ascii": "Canakora",
+      "english_definition": "a flower",
+      "hindi_definition": "एक फूल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a flower", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक फूल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Canā mann",
+      "kurukh_word_ascii": "Cana mann",
+      "english_definition": "a forest tree",
+      "hindi_definition": "एक जंगली पेड़",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a forest tree", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक जंगली पेड़", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cannā bunnā",
+      "kurukh_word_ascii": "Canna bunna",
+      "english_definition": "coloured",
+      "hindi_definition": "रंगीन, रंगा हुआ",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "coloured", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "रंगीन, रंगा हुआ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cannā",
+      "kurukh_word_ascii": "Canna",
+      "english_definition": "to scrape off",
+      "hindi_definition": "खुरचना, छीलना, खुरच कर निकालना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to scrape off", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खुरचना, छीलना, खुरच कर निकालना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cã̃nā",
+      "kurukh_word_ascii": "Canna",
+      "english_definition": "to give out a bad smell",
+      "hindi_definition": "दुर्गंध देना, बदबू आना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "cã̃ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to give out a bad smell", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दुर्गंध देना, बदबू आना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cān",
+      "kurukh_word_ascii": "Can",
+      "english_definition": "year",
+      "hindi_definition": "वर्ष, साल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "year", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वर्ष, साल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cān cān",
+      "kurukh_word_ascii": "Can can",
+      "english_definition": "yearly",
+      "hindi_definition": "वार्षिक, हर साल",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "yearly", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वार्षिक, हर साल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cānēṇḍ",
+      "kurukh_word_ascii": "Canend",
+      "english_definition": "two years",
+      "hindi_definition": "दो वर्ष, दो साल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cān",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "two years", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दो वर्ष, दो साल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cānmūnd",
+      "kurukh_word_ascii": "Canmund",
+      "english_definition": "three years",
+      "hindi_definition": "तीन वर्ष, तीन साल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cān",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "three years", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तीन वर्ष, तीन साल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cān birdnā",
+      "kurukh_word_ascii": "Can birdna",
+      "english_definition": "the returning year",
+      "hindi_definition": "आगामी वर्ष, आने वाला साल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cān",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the returning year", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आगामी वर्ष, आने वाला साल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cān birdō",
+      "kurukh_word_ascii": "Can birdo",
+      "english_definition": "next year",
+      "hindi_definition": "अगले वर्ष, अगले साल",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cān birdnā",
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "next year",
+          "example_sentence_kurukh": "cān birdō holē kāon",
+          "example_sentence_translation": "next year I will go."
+        },
+        {
+          "language": "hi",
+          "definition": "अगले वर्ष, अगले साल",
+          "example_sentence_kurukh": "cān birdō holē kāon",
+          "example_sentence_translation": "अगले साल मैं जाऊँगा।"
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cān birdāgē",
+      "kurukh_word_ascii": "Can birdage",
+      "english_definition": "till next year",
+      "hindi_definition": "अगले वर्ष तक, अगले साल तक",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Cān birdnā",
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "till next year",
+          "example_sentence_kurukh": "cān birdāgē ra'on",
+          "example_sentence_translation": "I will remain till next year."
+        },
+        {
+          "language": "hi",
+          "definition": "अगले वर्ष तक, अगले साल तक",
+          "example_sentence_kurukh": "cān birdāgē ra'on",
+          "example_sentence_translation": "मैं अगले साल तक रहूँगा।"
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Candī",
+      "kurukh_word_ascii": "Candi",
+      "english_definition": "the goddess of hunting",
+      "hindi_definition": "चंडी (शिकार की देवी)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the goddess of hunting", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चंडी (शिकार की देवी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Candilā",
+      "kurukh_word_ascii": "Candila",
+      "english_definition": "hairless spots on the skin of animals",
+      "hindi_definition": "जानवरों की त्वचा पर बाल रहित धब्बे",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "hairless spots on the skin of animals", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जानवरों की त्वचा पर बाल रहित धब्बे", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Candilā",
+      "kurukh_word_ascii": "Candila",
+      "english_definition": "baldness",
+      "hindi_definition": "गंजापन",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "baldness", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गंजापन", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Candilā",
+      "kurukh_word_ascii": "Candila",
+      "english_definition": "bald",
+      "hindi_definition": "गंजा",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 3,
+      "meanings": [
+        { "language": "en", "definition": "bald", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गंजा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Caṇḍrī",
+      "kurukh_word_ascii": "Candri",
+      "english_definition": "the eel",
+      "hindi_definition": "बाम मछली, ईल मछली",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the eel", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बाम मछली, ईल मछली", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Candō",
+      "kurukh_word_ascii": "Cando",
+      "english_definition": "the moon",
+      "hindi_definition": "चाँद, चंद्रमा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "the moon", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चाँद, चंद्रमा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Candō-billī",
+      "kurukh_word_ascii": "Cando-billi",
+      "english_definition": "moonlight",
+      "hindi_definition": "चाँदनी, चन्द्रप्रकाश",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Candō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "moonlight", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चाँदनी, चन्द्रप्रकाश", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Punā candō",
+      "kurukh_word_ascii": "Puna cando",
+      "english_definition": "new moon",
+      "hindi_definition": "नया चाँद, बाल चन्द्र",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Candō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "new moon", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "नया चाँद, बाल चन्द्र", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Punai candō",
+      "kurukh_word_ascii": "Punai cando",
+      "english_definition": "full moon",
+      "hindi_definition": "पूर्णिमा का चाँद, पूर्ण चन्द्र",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Candō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "full moon", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पूर्णिमा का चाँद, पूर्ण चन्द्र", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Candō",
+      "kurukh_word_ascii": "Cando",
+      "english_definition": "a month",
+      "hindi_definition": "महीना, मास",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "a month", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "महीना, मास", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Sendrā candō",
+      "kurukh_word_ascii": "Sendra cando",
+      "english_definition": "the hunting month, February",
+      "hindi_definition": "शिकार का महीना, फरवरी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Candō",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the hunting month, February", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शिकार का महीना, फरवरी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Candkhopā",
+      "kurukh_word_ascii": "Candkhopa",
+      "english_definition": "moonshrub",
+      "hindi_definition": "चन्द्रलता (एक प्रकार की झाड़ी)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "moonshrub", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चन्द्रलता (एक प्रकार की झाड़ी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cā̃ḍē",
+      "kurukh_word_ascii": "Cande",
+      "english_definition": "quickly",
+      "hindi_definition": "जल्दी से, शीघ्रता से",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": "bn",
+      "variants": [
+        "cā̃ḍē cā̃ḍē",
+        "cā̃ḍem"
+      ],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "quickly", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जल्दी से, शीघ्रता से", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Caṅgrnā",
+      "kurukh_word_ascii": "Cangrna",
+      "english_definition": "to feel a burning sensation in the palm of the hands or on the footsoles",
+      "hindi_definition": "हथेली या तलवों में जलन महसूस होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to feel a burning sensation in the palm of the hands or on the footsoles", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हथेली या तलवों में जलन महसूस होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Caṅkarnā",
+      "kurukh_word_ascii": "Cankarna",
+      "english_definition": "to crack on account of the heat",
+      "hindi_definition": "गर्मी के कारण दरार पड़ना, चटकना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to crack on account of the heat", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गर्मी के कारण दरार पड़ना, चटकना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cankhī",
+      "kurukh_word_ascii": "Cankhi",
+      "english_definition": "drain, made from the rushing of rain water",
+      "hindi_definition": "बारिश के पानी के तेज बहाव से बनी नाली, नाला",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "drain, made from the rushing of rain water", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बारिश के पानी के तेज बहाव से बनी नाली, नाला", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cankhnā",
+      "kurukh_word_ascii": "Cankhna",
+      "english_definition": "to get spoiled, as remnants of meals when put by",
+      "hindi_definition": "बचे हुए भोजन का बासी होना या सड़ना (जब उसे रख दिया जाता है)",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to get spoiled, as remnants of meals when put by", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बचे हुए भोजन का बासी होना या सड़ना (जब उसे रख दिया जाता है)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cãyā-pōk",
+      "kurukh_word_ascii": "Caya-pok",
+      "english_definition": "a small ant",
+      "hindi_definition": "एक छोटी चींटी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a small ant", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक छोटी चींटी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Cãyā-nerr",
+      "kurukh_word_ascii": "Caya-nerr",
+      "english_definition": "the common green, harmless snake",
+      "hindi_definition": "सामान्य हरा, अहानिकर साँप",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the common green, harmless snake", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सामान्य हरा, अहानिकर साँप", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Capnā",
+      "kurukh_word_ascii": "Capna",
+      "english_definition": "to hasten, to be quick",
+      "hindi_definition": "जल्दी करना, शीघ्रता करना",
+      "part_of_speech": "auxiliary verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        {
+          "language": "en",
+          "definition": "to hasten, to be quick",
+          "example_sentence_kurukh": "kalā capā",
+          "example_sentence_translation": "go quickly"
+        },
+        {
+          "language": "hi",
+          "definition": "जल्दी करना, शीघ्रता करना",
+          "example_sentence_kurukh": "kalā capā",
+          "example_sentence_translation": "जल्दी जाओ"
+        }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    },
+    {
+      "kurukh_word": "Capal",
+      "kurukh_word_ascii": "Capal",
+      "english_definition": "aloof",
+      "hindi_definition": "अलग, पृथक, तटस्थ",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "aloof", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अलग, पृथक, तटस्थ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0031.jpg", "page_label": "27" }
+    }
+  ]
+}

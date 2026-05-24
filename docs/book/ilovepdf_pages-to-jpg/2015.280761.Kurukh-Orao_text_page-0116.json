@@ -1,0 +1,293 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0116.jpg",
+  "page_label": "112",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Laraṅg",
+      "kurukh_word_ascii": "Larang",
+      "english_definition": "H. creeper.",
+      "hindi_definition": "लता, बेल।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṛē taṛē mannā",
+      "kurukh_word_ascii": "Lare tare manna",
+      "english_definition": "to be in a moribund position (dying state).",
+      "hindi_definition": "मरणासन्न अवस्था में होना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṛlaṛī",
+      "kurukh_word_ascii": "Larlari",
+      "english_definition": "desire, longing.",
+      "hindi_definition": "तीव्र इच्छा, लालसा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṛō",
+      "kurukh_word_ascii": "Laro",
+      "english_definition": "double chin, lip; overlip, maitā laṛō ; underlip, kītā laṛō.",
+      "hindi_definition": "दोहरी ठुड्डी, होठ; ऊपरी होठ, maitā laṛō; निचला होठ, kītā laṛō।",
+      "part_of_speech": "noun",
+      "notes": "Sub-entries: maitā laṛō = overlip, kītā laṛō = underlip"
+    },
+    {
+      "kurukh_word": "maitā laṛō",
+      "kurukh_word_ascii": "maita laro",
+      "english_definition": "overlip.",
+      "hindi_definition": "ऊपरी होठ।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "kītā laṛō",
+      "kurukh_word_ascii": "kita laro",
+      "english_definition": "underlip.",
+      "hindi_definition": "निचला होठ।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṛkharnā",
+      "kurukh_word_ascii": "Larkharna",
+      "english_definition": "to stammer.",
+      "hindi_definition": "हकलाना, तुतलाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṛkharnā",
+      "kurukh_word_ascii": "Larkharna",
+      "english_definition": "to stumble over one's own feet.",
+      "hindi_definition": "लड़खड़ाना, अपने ही पैरों से ठोकर खाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "2nd homograph of Laṛkharnā — stumble vs. stammer"
+    },
+    {
+      "kurukh_word": "Larpārnā",
+      "kurukh_word_ascii": "Larparna",
+      "english_definition": "to be abundantly, as fruit on a tree.",
+      "hindi_definition": "प्रचुर मात्रा में होना (जैसे पेड़ पर फल लदना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Larṣā lirṣī mannā",
+      "kurukh_word_ascii": "Larsa lirsi manna",
+      "english_definition": "to walk rubbing the ankles together.",
+      "hindi_definition": "टखनों को आपस में रगड़ते हुए चलना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lassā",
+      "kurukh_word_ascii": "Lassa",
+      "english_definition": "work for which wages are earned ; ēn lassā ka'adan, I am going to earn.",
+      "hindi_definition": "मजदूरी का कार्य; ēn lassā ka'adan = मैं मजदूरी करने जा रहा हूँ।",
+      "part_of_speech": "noun",
+      "notes": "Example: ēn lassā ka'adan = I am going to earn"
+    },
+    {
+      "kurukh_word": "Lassā mullī",
+      "kurukh_word_ascii": "Lassa mulli",
+      "english_definition": "wages.",
+      "hindi_definition": "मजदूरी, मेहनताना।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lassī",
+      "kurukh_word_ascii": "Lassi",
+      "english_definition": "a day-laborer.",
+      "hindi_definition": "दिहाड़ी मजदूर।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lassī helaba'anā",
+      "kurukh_word_ascii": "Lassi helaba'ana",
+      "english_definition": "to employ coolies/laborers.",
+      "hindi_definition": "मजदूरों को काम पर लगाना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lassiyar",
+      "kurukh_word_ascii": "Lassiyar",
+      "english_definition": "day-laborers, people who work on daily wages.",
+      "hindi_definition": "दिहाड़ी मजदूर (बहुवचन)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lassnā",
+      "kurukh_word_ascii": "Lassna",
+      "english_definition": "to earn.",
+      "hindi_definition": "कमाना (मजदूरी करना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lātā",
+      "kurukh_word_ascii": "Lata",
+      "english_definition": "a hole.",
+      "hindi_definition": "बिल, गुफा, छेद (लाता)।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṭakhnā",
+      "kurukh_word_ascii": "Latakhna",
+      "english_definition": "to stick, intransitive.",
+      "hindi_definition": "चिपकना (अकर्मक)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṭrnā",
+      "kurukh_word_ascii": "Latrna",
+      "english_definition": "to become thin, lean.",
+      "hindi_definition": "दुबला होना, पतला होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṭpaṭrnā",
+      "kurukh_word_ascii": "Latpatrna",
+      "english_definition": "to wallow.",
+      "hindi_definition": "लोटना (जैसे कीचड़ में लोटना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lathnā",
+      "kurukh_word_ascii": "Lathna",
+      "english_definition": "to kick.",
+      "hindi_definition": "लात मारना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lathlathrā",
+      "kurukh_word_ascii": "Lathlathra",
+      "english_definition": "thick, pasty.",
+      "hindi_definition": "गाढ़ा, लेई जैसा।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṭṭē pūmp",
+      "kurukh_word_ascii": "Latte pump",
+      "english_definition": "a kind of flower.",
+      "hindi_definition": "एक प्रकार का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṭṭhā",
+      "kurukh_word_ascii": "Lattha",
+      "english_definition": "bread made of pulses.",
+      "hindi_definition": "दाल की बनी रोटी (लठ्ठा)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṭai",
+      "kurukh_word_ascii": "Latai",
+      "english_definition": "a roller on which cotton yarn is straightened (spool/latai).",
+      "hindi_definition": "लटाई (जिस पर सूत लपेटा जाता है)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laṭum",
+      "kurukh_word_ascii": "Latum",
+      "english_definition": "a slice of bread.",
+      "hindi_definition": "रोटी का टुकड़ा (कौर)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lauchrnā",
+      "kurukh_word_ascii": "Lauchrna",
+      "english_definition": "to give birth to a child.",
+      "hindi_definition": "बच्चे को जन्म देना, प्रसव होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lauchar mannā",
+      "kurukh_word_ascii": "Lauchar manna",
+      "english_definition": "to give birth to a child (same as above).",
+      "hindi_definition": "बच्चे को जन्म देना (उपरोक्त के समान)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laucnakrnā",
+      "kurukh_word_ascii": "Laucnakrna",
+      "english_definition": "to beat one another.",
+      "hindi_definition": "आपस में मारपीट करना।",
+      "part_of_speech": "verb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Lau ēp",
+      "kurukh_word_ascii": "Lau ep",
+      "english_definition": "string or ropes made of the bark of the sakhuā tree.",
+      "hindi_definition": "सखुआ (साल) के पेड़ की छाल से बनी रस्सी (चोप)।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laug",
+      "kurukh_word_ascii": "Laug",
+      "english_definition": "enmity.",
+      "hindi_definition": "शत्रुता, बैर (लाग)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laug uinā",
+      "kurukh_word_ascii": "Laug uina",
+      "english_definition": "to hate, bear enmity.",
+      "hindi_definition": "घृणा करना, बैर रखना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Laukā",
+      "kurukh_word_ascii": "Lauka",
+      "english_definition": "lightning ; laukā laukārī, the lightning flashes.",
+      "hindi_definition": "बिजली; laukā laukārī = बिजली चमकती है।",
+      "part_of_speech": "noun",
+      "notes": "Example: laukā laukārī = the lightning flashes"
+    },
+    {
+      "kurukh_word": "Laukārnā",
+      "kurukh_word_ascii": "Laukarna",
+      "english_definition": "lightning, to shine, glitter, flash.",
+      "hindi_definition": "बिजली चमकना, चमकना, कौंधना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    }
+  ]
+}

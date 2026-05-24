@@ -1,0 +1,283 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0100.jpg",
+  "page_label": "96",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Khambiā",
+      "kurukh_word_ascii": "Khambia",
+      "english_definition": "a necklace.",
+      "hindi_definition": "हार, गले का आभूषण।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṇḍā",
+      "kurukh_word_ascii": "Khanda",
+      "english_definition": "a two-edged sword.",
+      "hindi_definition": "दोधारी तलवार।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṇḍā",
+      "kurukh_word_ascii": "Khanda",
+      "english_definition": "H. piece. khaṇḍeṇḍ kierī two pieces of cloth.",
+      "hindi_definition": "टुकड़ा। khaṇḍeṇḍ kierī = दो टुकड़े कपड़े।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": "2nd homograph of Khaṇḍā — piece (loanword from Hindi), distinct from two-edged sword"
+    },
+    {
+      "kurukh_word": "Khaṇḍiā",
+      "kurukh_word_ascii": "Khandia",
+      "english_definition": "wrapper, woman's dress.",
+      "hindi_definition": "चादर, महिला का पहनावा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khandhar-pūmp",
+      "kurukh_word_ascii": "Khandhar-pump",
+      "english_definition": "a kind of flower.",
+      "hindi_definition": "एक प्रकार का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khankhanrā",
+      "kurukh_word_ascii": "Khankhanra",
+      "english_definition": "adv. bleached.",
+      "hindi_definition": "उजला, सफेद किया हुआ।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṇḍnā",
+      "kurukh_word_ascii": "Khandna",
+      "english_definition": "kan, yan, to cut in two.",
+      "hindi_definition": "दो टुकड़ों में काटना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṇḍrnā khaṇḍwā",
+      "kurukh_word_ascii": "Khandhrna khandwa",
+      "english_definition": "the hump on a bullock's neck caused by swelling on account of the yoke.",
+      "hindi_definition": "जूए के कारण बैल की गर्दन पर उभरी सूजन।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaṇḍnā cō'onā",
+      "kurukh_word_ascii": "Khandna co'ona",
+      "english_definition": "to get a swelling from carrying loads on the shoulder.",
+      "hindi_definition": "कंधे पर बोझ उठाने से सूजन आना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khanjar",
+      "kurukh_word_ascii": "Khanjar",
+      "english_definition": "adj. irritable.",
+      "hindi_definition": "चिड़चिड़ा, झुंझलाने वाला।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khañjnā",
+      "kurukh_word_ascii": "Khanjna",
+      "english_definition": "kan, an, to direct, appoint.",
+      "hindi_definition": "निर्देश देना, नियुक्त करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khañjrnā",
+      "kurukh_word_ascii": "Khanjrna",
+      "english_definition": "kan, an, to be appointed.",
+      "hindi_definition": "नियुक्त होना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": "Passive of Khañjnā"
+    },
+    {
+      "kurukh_word": "Khaṅkh",
+      "kurukh_word_ascii": "Khankh",
+      "english_definition": "desolation.",
+      "hindi_definition": "उजाड़, सुनसान।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaulānā",
+      "kurukh_word_ascii": "Khaulana",
+      "english_definition": "ckan, c'an, to rinse, wash.",
+      "hindi_definition": "धोना, कुल्ला करना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaulārnā",
+      "kurukh_word_ascii": "Khaularna",
+      "english_definition": "kan, an, to wash, rinse away.",
+      "hindi_definition": "धोकर बाहर करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khāp",
+      "kurukh_word_ascii": "Khap",
+      "english_definition": "sheath.",
+      "hindi_definition": "म्यान।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khap'ā",
+      "kurukh_word_ascii": "Khap'a",
+      "english_definition": "leech.",
+      "hindi_definition": "जोंक।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khapnā",
+      "kurukh_word_ascii": "Khapna",
+      "english_definition": "ckan, c'an, to fit in, intr.",
+      "hindi_definition": "फिट होना, अकर्मक।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": "Intransitive"
+    },
+    {
+      "kurukh_word": "Khappta'anā",
+      "kurukh_word_ascii": "Khappta'ana",
+      "english_definition": "ckan, c'an, to fit in; trans.",
+      "hindi_definition": "फिट करना, सकर्मक।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": "Transitive; causative of Khapnā"
+    },
+    {
+      "kurukh_word": "Khappa'anā",
+      "kurukh_word_ascii": "Khappa'ana",
+      "english_definition": "adv. of a sudden.",
+      "hindi_definition": "अचानक।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaprī",
+      "kurukh_word_ascii": "Khapri",
+      "english_definition": "H. skull.",
+      "hindi_definition": "खोपड़ी।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khaprō",
+      "kurukh_word_ascii": "Khapro",
+      "english_definition": "adj. fast.",
+      "hindi_definition": "तेज, तीव्र।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Khapkhapra",
+      "kurukh_word_ascii": "Khapkhapra",
+      "english_definition": "adv. fast, to as to stick fast, to hold fast.",
+      "hindi_definition": "तेज़ी से, चिपकने के लिए, मज़बूती से पकड़ने के लिए।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kharā",
+      "kurukh_word_ascii": "Khara",
+      "english_definition": "adv. very.",
+      "hindi_definition": "बहुत, अत्यंत।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kharārnā",
+      "kurukh_word_ascii": "Khararna",
+      "english_definition": "kan, an, to be overboiled, charred.",
+      "hindi_definition": "अत्यधिक उबलना, जल जाना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kharāba'anā",
+      "kurukh_word_ascii": "Kharaba'ana",
+      "english_definition": "kan, c'an, the same.",
+      "hindi_definition": "वही, समान।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-c'an",
+      "notes": "Variant of Kharārnā"
+    },
+    {
+      "kurukh_word": "Kharcī",
+      "kurukh_word_ascii": "Kharci",
+      "english_definition": "goods.",
+      "hindi_definition": "सामान, माल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kharkha'anā",
+      "kurukh_word_ascii": "Kharkha'ana",
+      "english_definition": "ckan, c'an, to roll off, remove.",
+      "hindi_definition": "लुढ़काना, हटाना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kharkārnā",
+      "kurukh_word_ascii": "Kharkarna",
+      "english_definition": "to be rolled off, removed.",
+      "hindi_definition": "लुढ़कना, हटना।",
+      "part_of_speech": "verb",
+      "notes": "Passive of Kharkha'anā"
+    },
+    {
+      "kurukh_word": "Kharkhurā",
+      "kurukh_word_ascii": "Kharkhura",
+      "english_definition": "adv. at once, immediately; also khasa'anā.",
+      "hindi_definition": "तुरंत, फ़ौरन। khasa'anā भी।",
+      "part_of_speech": "adverb",
+      "notes": "Variant: khasa'anā"
+    },
+    {
+      "kurukh_word": "Kharpatī-khocol",
+      "kurukh_word_ascii": "Kharpati-khocol",
+      "english_definition": "the hip bone.",
+      "hindi_definition": "कूल्हे की हड्डी।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kharrā aḍḍō",
+      "kurukh_word_ascii": "Kharra addo",
+      "english_definition": "pack-bullock.",
+      "hindi_definition": "बोझ ढोने वाला बैल।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Kharuā",
+      "kurukh_word_ascii": "Kharua",
+      "english_definition": "adj. deep red.",
+      "hindi_definition": "गहरा लाल।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    }
+  ]
+}

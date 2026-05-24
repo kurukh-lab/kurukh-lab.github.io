@@ -1,0 +1,767 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg",
+  "page_label": "12",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Bahilā",
+      "kurukh_word_ascii": "Bahila",
+      "english_definition": "barren, as a woman or cow",
+      "hindi_definition": "बाँझ (स्त्री या गाय के संदर्भ में)",
+      "part_of_speech": "adjective",
+      "grammatical_tag": "H. bahiākal, adj.",
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "barren, as a woman or cow", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बाँझ (स्त्री या गाय के संदर्भ में)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bahiri",
+      "kurukh_word_ascii": "Bahiri",
+      "english_definition": "outside",
+      "hindi_definition": "बाहर",
+      "part_of_speech": "preposition",
+      "grammatical_tag": "H. prep.",
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "outside", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बाहर", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bahiri ka'anā",
+      "kurukh_word_ascii": "Bahiri ka'ana",
+      "english_definition": "to go to the privy",
+      "hindi_definition": "शौच के लिए बाहर जाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to go to the privy", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शौच के लिए बाहर जाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bahiri urkhnā",
+      "kurukh_word_ascii": "Bahiri urkhna",
+      "english_definition": "to fall out for the purpose of easing oneself",
+      "hindi_definition": "शौच के लिए बाहर निकलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to fall out for the purpose of easing oneself", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शौच के लिए बाहर निकलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bāgrkā",
+      "kurukh_word_ascii": "Bagrka",
+      "english_definition": "comb",
+      "hindi_definition": "कंघी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "comb", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कंघी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bāgrnā",
+      "kurukh_word_ascii": "Bagrna",
+      "english_definition": "to comb the hair",
+      "hindi_definition": "बाल कंघी करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "to comb the hair", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बाल कंघी करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bāgrnā",
+      "kurukh_word_ascii": "Bagrna",
+      "english_definition": "to clean the hair with oil",
+      "hindi_definition": "तेल लगाकर बाल साफ करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "to clean the hair with oil", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तेल लगाकर बाल साफ करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "khāsrnā",
+      "kurukh_word_ascii": "khasrna",
+      "english_definition": "to clean the hair with oil",
+      "hindi_definition": "तेल लगाकर बाल साफ करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to clean the hair with oil", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तेल लगाकर बाल साफ करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bagnā",
+      "kurukh_word_ascii": "Bagna",
+      "english_definition": "to peel, pare",
+      "hindi_definition": "छीलना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to peel, pare", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "छीलना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bah",
+      "kurukh_word_ascii": "Bah",
+      "english_definition": "strength, audacity",
+      "hindi_definition": "शक्ति, साहस",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "strength, audacity", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "शक्ति, साहस", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bahoo",
+      "kurukh_word_ascii": "Bahoo",
+      "english_definition": "Oh father! used also in addressing a father in a familiar way; also bābaho's!",
+      "hindi_definition": "हे पिता! (परिचित तरीके से पिता को संबोधित करने में भी प्रयुक्त; bābaho's भी)",
+      "part_of_speech": "interjection",
+      "grammatical_tag": "interj.",
+      "loanword_from": null,
+      "variants": ["bābaho's"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "Oh father! used also in addressing a father in a familiar way; also bābaho's!", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हे पिता! (परिचित तरीके से पिता को संबोधित करने में भी प्रयुक्त; bābaho's भी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bai",
+      "kurukh_word_ascii": "Bai",
+      "english_definition": "the mouth, face",
+      "hindi_definition": "मुँह, चेहरा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "the mouth, face", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मुँह, चेहरा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bai",
+      "kurukh_word_ascii": "Bai",
+      "english_definition": "the opening or mouth of a vessel",
+      "hindi_definition": "बर्तन का मुँह या छेद",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "the opening or mouth of a vessel", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बर्तन का मुँह या छेद", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bai tuppā",
+      "kurukh_word_ascii": "Bai tuppa",
+      "english_definition": "filled to the brim",
+      "hindi_definition": "किनारे तक भरा हुआ",
+      "part_of_speech": "adverb",
+      "grammatical_tag": "adv.",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "filled to the brim", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "किनारे तक भरा हुआ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bai malā calkhrnā",
+      "kurukh_word_ascii": "Bai mala calkhna",
+      "english_definition": "to remain silent, to be unable to answer",
+      "hindi_definition": "चुप रहना, जवाब न दे पाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to remain silent, to be unable to answer", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चुप रहना, जवाब न दे पाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bai ūlā bā'anā",
+      "kurukh_word_ascii": "Bai ula ba'ana",
+      "english_definition": "to speak or sing with a low voice",
+      "hindi_definition": "धीमी आवाज़ में बोलना या गाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to speak or sing with a low voice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धीमी आवाज़ में बोलना या गाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bai ūlā pārnā",
+      "kurukh_word_ascii": "Bai ula parna",
+      "english_definition": "to speak or sing with a low voice",
+      "hindi_definition": "धीमी आवाज़ में बोलना या गाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to speak or sing with a low voice", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "धीमी आवाज़ में बोलना या गाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "kōhā bai nannā",
+      "kurukh_word_ascii": "koha bai nanna",
+      "english_definition": "to assume a proud air",
+      "hindi_definition": "घमंड का भाव दिखाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to assume a proud air", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "घमंड का भाव दिखाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "lās bai ro'anā",
+      "kurukh_word_ascii": "las bai ro'ana",
+      "english_definition": "to be with an empty stomach",
+      "hindi_definition": "खाली पेट होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be with an empty stomach", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "खाली पेट होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Baian munḍrnā",
+      "kurukh_word_ascii": "Baian mudrna",
+      "english_definition": "to hide the mouth or face",
+      "hindi_definition": "मुँह या चेहरा छिपाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to hide the mouth or face", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मुँह या चेहरा छिपाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bairakhī",
+      "kurukh_word_ascii": "Bairakhi",
+      "english_definition": "a banner, flag",
+      "hindi_definition": "झंडा, पताका",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a banner, flag", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "झंडा, पताका", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Beinī",
+      "kurukh_word_ascii": "Beini",
+      "english_definition": "sister",
+      "hindi_definition": "बहन",
+      "part_of_speech": "noun",
+      "grammatical_tag": "H.",
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "sister", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बहन", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "sangi",
+      "kurukh_word_ascii": "sangi",
+      "english_definition": "friend",
+      "hindi_definition": "साथी, मित्र",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["bainī"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "friend", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "साथी, मित्र", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "bainī",
+      "kurukh_word_ascii": "baini",
+      "english_definition": "friend",
+      "hindi_definition": "साथी, मित्र",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "sangi",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "friend", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "साथी, मित्र", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bajā khācā",
+      "kurukh_word_ascii": "Baja khaca",
+      "english_definition": "basket",
+      "hindi_definition": "टोकरी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "basket", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "टोकरी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bajhaba'anā",
+      "kurukh_word_ascii": "Bajhaba'ana",
+      "english_definition": "to catch, entangle",
+      "hindi_definition": "पकड़ना, उलझाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to catch, entangle", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पकड़ना, उलझाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bajhrnā",
+      "kurukh_word_ascii": "Bajhrna",
+      "english_definition": "to be caught",
+      "hindi_definition": "पकड़ा जाना, फँसना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be caught", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पकड़ा जाना, फँसना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Baksah",
+      "kurukh_word_ascii": "Baksah",
+      "english_definition": "a flower of the forest",
+      "hindi_definition": "जंगल का एक फूल",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a flower of the forest", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जंगल का एक फूल", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bakhrā",
+      "kurukh_word_ascii": "Bakhra",
+      "english_definition": "portion, share",
+      "hindi_definition": "हिस्सा, भाग",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "portion, share", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "हिस्सा, भाग", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bakhiā",
+      "kurukh_word_ascii": "Bakhia",
+      "english_definition": "tank weed",
+      "hindi_definition": "तालाब की खरपतवार",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "tank weed", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तालाब की खरपतवार", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bakkā",
+      "kurukh_word_ascii": "Bakka",
+      "english_definition": "forceps, shears",
+      "hindi_definition": "चिमटा, कैंची",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "forceps, shears", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "चिमटा, कैंची", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Bāknā",
+      "kurukh_word_ascii": "Bakna",
+      "english_definition": "to take up, as earth; also to wrap in",
+      "hindi_definition": "मिट्टी उठाना; लपेटना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, yan",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to take up, as earth; also to wrap in", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मिट्टी उठाना; लपेटना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Balā",
+      "kurukh_word_ascii": "Bala",
+      "english_definition": "wristlet",
+      "hindi_definition": "कलाई का कड़ा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["balābēnā"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "wristlet", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कलाई का कड़ा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "balābēnā",
+      "kurukh_word_ascii": "balabena",
+      "english_definition": "wristlet",
+      "hindi_definition": "कलाई का कड़ा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Balā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "wristlet", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कलाई का कड़ा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Balā khārnā",
+      "kurukh_word_ascii": "Bala kharna",
+      "english_definition": "to commit adultery",
+      "hindi_definition": "व्यभिचार करना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "ckan, c'an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to commit adultery", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "व्यभिचार करना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Balī",
+      "kurukh_word_ascii": "Bali",
+      "english_definition": "door or rather a screen made of bamboo-mats",
+      "hindi_definition": "दरवाज़ा या बाँस की चटाई से बना पर्दा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "door or rather a screen made of bamboo-mats", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दरवाज़ा या बाँस की चटाई से बना पर्दा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Balīn muc'ā",
+      "kurukh_word_ascii": "Balin muc'a",
+      "english_definition": "shut the door",
+      "hindi_definition": "दरवाज़ा बंद करो",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "shut the door", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दरवाज़ा बंद करो", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    },
+    {
+      "kurukh_word": "Balīn tieg'ā",
+      "kurukh_word_ascii": "Balin tieg'a",
+      "english_definition": "open the door [entry continues on next page]",
+      "hindi_definition": "दरवाज़ा खोलो [प्रविष्टि अगले पृष्ठ पर जारी]",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "open the door [entry continues on next page]", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दरवाज़ा खोलो [प्रविष्टि अगले पृष्ठ पर जारी]", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0016.jpg", "page_label": "12" }
+    }
+  ]
+}

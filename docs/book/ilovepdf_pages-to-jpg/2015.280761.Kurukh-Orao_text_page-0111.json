@@ -1,0 +1,295 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0111.jpg",
+  "page_label": "107",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "K̲h̲odor",
+      "kurukh_word_ascii": "Khodor",
+      "english_definition": "the hollow part of a trunk.",
+      "hindi_definition": "पेड़ के तने का खोखला भाग (कोटर)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōjnā",
+      "kurukh_word_ascii": "Khojna",
+      "english_definition": "kan, yan, to gather, to put in order, or in a line; ērā khōjnā, to stare, to look out sharp; pāhī khōjnā, to be hospitable.",
+      "hindi_definition": "इकट्ठा करना, व्यवस्थित करना, पंक्तिबद्ध करना; ērā khōjnā = घूरना, ध्यान से देखना; pāhī khōjnā = मेहमाननवाज़ी करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": "Sub-entries: ērā khōjnā = to stare, pāhī khōjnā = to be hospitable"
+    },
+    {
+      "kurukh_word": "ērā k̲h̲ōjnā",
+      "kurukh_word_ascii": "era khojna",
+      "english_definition": "to stare, to look out sharp.",
+      "hindi_definition": "घूरना, टकटकी लगाकर देखना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "pāhī k̲h̲ōjnā",
+      "kurukh_word_ascii": "pahi khojna",
+      "english_definition": "to be hospitable.",
+      "hindi_definition": "अतिथि सत्कार करना, मेहमाननवाज़ी करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōk̲h̲ā",
+      "kurukh_word_ascii": "Khokha",
+      "english_definition": "prep. after, afterwards, for either time and space, the back.",
+      "hindi_definition": "के बाद, बाद में (समय या स्थान के लिए), पीछे, पीठ।",
+      "part_of_speech": "preposition",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōk̲h̲ā nannā",
+      "kurukh_word_ascii": "Khokha nanna",
+      "english_definition": "to turn the back.",
+      "hindi_definition": "पीठ दिखाना, पीछे मुड़ना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōk̲h̲ā nāṛī",
+      "kurukh_word_ascii": "Khokha nari",
+      "english_definition": "milk fever in confinement.",
+      "hindi_definition": "प्रसव के बाद का बुखार (दूध का बुखार)।",
+      "part_of_speech": "noun",
+      "notes": "Variant: kōk̲h̲ nāṛī"
+    },
+    {
+      "kurukh_word": "kōk̲h̲ nāṛī",
+      "kurukh_word_ascii": "kokh nari",
+      "english_definition": "milk fever in confinement.",
+      "hindi_definition": "प्रसव के बाद का बुखार (दूध का बुखार)।",
+      "part_of_speech": "noun",
+      "notes": "Variant of K̲h̲ōk̲h̲ā nāṛī"
+    },
+    {
+      "kurukh_word": "K̲h̲ōk̲h̲ā k̲h̲ok̲h̲ā",
+      "kurukh_word_ascii": "Khokha khokha",
+      "english_definition": "right after.",
+      "hindi_definition": "ठीक बाद में, तुरंत पीछे।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōk̲h̲ā nū",
+      "kurukh_word_ascii": "Khokha nu",
+      "english_definition": "on the back, in the back ground, after, behind.",
+      "hindi_definition": "पीठ पर, पृष्ठभूमि में, बाद में, पीछे।",
+      "part_of_speech": "adverb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōk̲h̲an launā",
+      "kurukh_word_ascii": "Khokhan launa",
+      "english_definition": "to beat on the back; ās gahī khōkhan lauā, beat him on the back.",
+      "hindi_definition": "पीठ पर मारना; ās gahī khōkhan lauā = उसकी पीठ पर मारो।",
+      "part_of_speech": "verb phrase",
+      "notes": "Example: ās gahī khōkhan lauā = beat him on the back"
+    },
+    {
+      "kurukh_word": "K̲h̲ōk̲h̲antā ālar",
+      "kurukh_word_ascii": "Khokhanta alar",
+      "english_definition": "the men behind.",
+      "hindi_definition": "पीछे के लोग।",
+      "part_of_speech": "noun phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōk̲h̲ā mannā",
+      "kurukh_word_ascii": "Khokha manna",
+      "english_definition": "to walk after.",
+      "hindi_definition": "पीछे चलना, अनुसरण करना।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲okhnā",
+      "kurukh_word_ascii": "Khokhna",
+      "english_definition": "ckan, c'an, to wait.",
+      "hindi_definition": "प्रतीक्षा करना, ठहरना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲okhā k̲h̲okhā",
+      "kurukh_word_ascii": "Khokha khokha",
+      "english_definition": "wait, wait !",
+      "hindi_definition": "ठहरो, ठहरो! / रुको, रुको!",
+      "part_of_speech": "interjection",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲okhsrō",
+      "kurukh_word_ascii": "Khokhsro",
+      "english_definition": "bag, sack.",
+      "hindi_definition": "थैला, बोरा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲okhṛō",
+      "kurukh_word_ascii": "Khokhro",
+      "english_definition": "a plant used for making hedges, Hindi: Sindurī.",
+      "hindi_definition": "बाड़ बनाने के लिए इस्तेमाल होने वाला एक पौधा, हिंदी: सिंदूरी।",
+      "part_of_speech": "noun",
+      "loanword_from": "Hindi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōl",
+      "kurukh_word_ascii": "Khol",
+      "english_definition": "bunch of straw, sheaf of corn.",
+      "hindi_definition": "पुआल का गट्ठर, अनाज का पूला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōl",
+      "kurukh_word_ascii": "Khol",
+      "english_definition": "the sheaf of corn given to reapers as wages.",
+      "hindi_definition": "मजदूरी के रूप में फसल काटने वालों को दिया जाने वाला अनाज का पूला।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of K̲h̲ōl — wages sheaf"
+    },
+    {
+      "kurukh_word": "K̲h̲ōl hē'enā",
+      "kurukh_word_ascii": "Khol he'ena",
+      "english_definition": "to bind sheaves.",
+      "hindi_definition": "पूला बाँधना (गट्ठर बाँधना)।",
+      "part_of_speech": "verb phrase",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ollnā",
+      "kurukh_word_ascii": "Khollna",
+      "english_definition": "kan, yan, to take out with a spoon.",
+      "hindi_definition": "चम्मच से बाहर निकालना (परोसना या निकालना)।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ollā",
+      "kurukh_word_ascii": "Kholla",
+      "english_definition": "a razor.",
+      "hindi_definition": "उस्तरा।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲olā",
+      "kurukh_word_ascii": "Khola",
+      "english_definition": "tail.",
+      "hindi_definition": "पूंछ।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲olkha'anā",
+      "kurukh_word_ascii": "Kholkha'ana",
+      "english_definition": "ckan, c'an, to bow down, to take on the back.",
+      "hindi_definition": "झुकना, पीठ पर लादना/लेना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲olkhornā",
+      "kurukh_word_ascii": "Kholkhorna",
+      "english_definition": "kan, an, to bend, bow, stoop down.",
+      "hindi_definition": "झुकना, नमन करना, नीचे झुकना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ō̃",
+      "kurukh_word_ascii": "Khon",
+      "english_definition": "previous, at that time.",
+      "hindi_definition": "पिछला, उस समय का।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ō̃ḍ",
+      "kurukh_word_ascii": "Khond",
+      "english_definition": "only.",
+      "hindi_definition": "केवल, सिर्फ।",
+      "part_of_speech": "adverb",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲onḍnā",
+      "kurukh_word_ascii": "Khondna",
+      "english_definition": "kan, an, to gather together, to add, put together, to collect.",
+      "hindi_definition": "इकट्ठा करना, जोड़ना, एक साथ रखना, संग्रह करना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲onḍ'hā",
+      "kurukh_word_ascii": "Khond'ha",
+      "english_definition": "gathering, collection, assembly, also gohonḍā.",
+      "hindi_definition": "सभा, जमावड़ा, संग्रह, विधानसभा; gohonḍā भी।",
+      "part_of_speech": "noun",
+      "notes": "Variant: gohonḍā"
+    },
+    {
+      "kurukh_word": "gohonḍā",
+      "kurukh_word_ascii": "gohonda",
+      "english_definition": "gathering, collection, assembly.",
+      "hindi_definition": "सभा, जमावड़ा, संग्रह।",
+      "part_of_speech": "noun",
+      "notes": "Variant of K̲h̲onḍ'hā"
+    },
+    {
+      "kurukh_word": "K̲h̲onḍrnā",
+      "kurukh_word_ascii": "Khondrna",
+      "english_definition": "kan, an, to assemble, to come together.",
+      "hindi_definition": "एकत्र होना, इकट्ठा होना, एक साथ आना।",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲ōṭr",
+      "kurukh_word_ascii": "Khotr",
+      "english_definition": "the mahuā flower.",
+      "hindi_definition": "महुआ का फूल।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "K̲h̲onk̲h̲ā",
+      "kurukh_word_ascii": "Khonkha",
+      "english_definition": "deep.",
+      "hindi_definition": "गहरा।",
+      "part_of_speech": "adjective",
+      "notes": "Variant: k̲h̲onḍk̲h̲ā"
+    },
+    {
+      "kurukh_word": "k̲h̲onḍk̲h̲ā",
+      "kurukh_word_ascii": "khondkha",
+      "english_definition": "deep.",
+      "hindi_definition": "गहरा।",
+      "part_of_speech": "adjective",
+      "notes": "Variant of K̲h̲onk̲h̲ā"
+    },
+    {
+      "kurukh_word": "K̲h̲onk̲h̲ā",
+      "kurukh_word_ascii": "Khonkha",
+      "english_definition": "the deep, depth, abyss.",
+      "hindi_definition": "गहराई, अगाध स्थान, रसातल।",
+      "part_of_speech": "noun",
+      "notes": "2nd homograph of K̲h̲onk̲h̲ā — noun (depth) vs. adj (deep)"
+    }
+  ]
+}

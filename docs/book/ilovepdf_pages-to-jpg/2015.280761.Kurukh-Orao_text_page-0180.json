@@ -1,0 +1,248 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0180.jpg",
+  "page_label": "176",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Ṭempā",
+      "kurukh_word_ascii": "Tempa",
+      "english_definition": "stick",
+      "hindi_definition": "लाठी, डंडा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭeṅgrā-injō",
+      "kurukh_word_ascii": "Tengra-injo",
+      "english_definition": "a kind of fish",
+      "hindi_definition": "टेंगरा मछली",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭēṇḍnā",
+      "kurukh_word_ascii": "Tendna",
+      "english_definition": "to be prevented, hindered",
+      "hindi_definition": "बाधित होना, रोका जाना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-an"
+    },
+    {
+      "kurukh_word": "Ṭēpṭēprnā",
+      "kurukh_word_ascii": "Tepteprna",
+      "english_definition": "to flap the wings, flutter",
+      "hindi_definition": "पंख फड़फड़ाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭēf nannā",
+      "kurukh_word_ascii": "Tef nanna",
+      "english_definition": "to repel, recoil",
+      "hindi_definition": "पीछे हटाना, पीछे धकेलना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭēṭeṅgā",
+      "kurukh_word_ascii": "Tetenga",
+      "english_definition": "lizard",
+      "hindi_definition": "छिपकली, गिरगिट",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭēṭnā",
+      "kurukh_word_ascii": "Tetna",
+      "english_definition": "to be persistent, also selfwilled, quarrelsome",
+      "hindi_definition": "हठी होना, जिद्दी या झगड़ालू होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ṭiḍnā",
+      "kurukh_word_ascii": "Tidna",
+      "english_definition": "to throw down, to bring forth young (said of cattle)",
+      "hindi_definition": "नीचे गिराना, बछड़ा देना (पशुओं के लिए)",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Ṭiḍar cī'inā",
+      "kurukh_word_ascii": "Tidar ci'ina",
+      "english_definition": "to throw down",
+      "hindi_definition": "नीचे गिरा देना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭihrā nannā",
+      "kurukh_word_ascii": "Tihra nanna",
+      "english_definition": "to show, initiate, to teach how to do a work",
+      "hindi_definition": "दिखाना, मार्गदर्शन करना, काम सिखाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭihrā nanū",
+      "kurukh_word_ascii": "Tihra nanu",
+      "english_definition": "foreman",
+      "hindi_definition": "फोरमैन, कार्यनायक",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭikla'anā",
+      "kurukh_word_ascii": "Tikla'ana",
+      "english_definition": "to stand on tiptoe",
+      "hindi_definition": "पंजों के बल खड़ा होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Ṭiklī-pūmp",
+      "kurukh_word_ascii": "Tikli-pump",
+      "english_definition": "a kind of flower",
+      "hindi_definition": "टिकली फूल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭikrā",
+      "kurukh_word_ascii": "Tikra",
+      "english_definition": "gravel, stony ground",
+      "hindi_definition": "कंकड़, पथरीली भूमि",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭip cī'inā",
+      "kurukh_word_ascii": "Tip ci'ina",
+      "english_definition": "to give a sign, a mark or token",
+      "hindi_definition": "संकेत देना, निशान या टोकन देना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭipī-ōṛā",
+      "kurukh_word_ascii": "Tipi-ora",
+      "english_definition": "a kind of bird",
+      "hindi_definition": "एक प्रकार का पक्षी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭippā",
+      "kurukh_word_ascii": "Tippa",
+      "english_definition": "dot, mark",
+      "hindi_definition": "बिंदु, निशान",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭippā nannā",
+      "kurukh_word_ascii": "Tippa nanna",
+      "english_definition": "to dot, mark",
+      "hindi_definition": "बिंदु लगाना, निशान लगाना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Ṭipnā",
+      "kurukh_word_ascii": "Tipna",
+      "english_definition": "to wrap in, bind up",
+      "hindi_definition": "लपेटना, बांधना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Ṭiṛṭiraṅgō-ōṛā",
+      "kurukh_word_ascii": "Tirtirango-ora",
+      "english_definition": "a small green bird",
+      "hindi_definition": "एक छोटा हरा पक्षी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭiṭhī-ōṛā",
+      "kurukh_word_ascii": "Tithi-ora",
+      "english_definition": "a kind of fowl",
+      "hindi_definition": "एक प्रकार का जंगली मुर्गा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭiṭhī",
+      "kurukh_word_ascii": "Tithi",
+      "english_definition": "quarrelsome fellow",
+      "hindi_definition": "झगड़ालू व्यक्ति",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭōkē",
+      "kurukh_word_ascii": "Toke",
+      "english_definition": "tumor",
+      "hindi_definition": "ट्यूमर, रसोली, गिल्टी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭōksnā",
+      "kurukh_word_ascii": "Toksna",
+      "english_definition": "to jump, leap",
+      "hindi_definition": "कूदना, छलांग लगाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Ṭōlā-pārā",
+      "kurukh_word_ascii": "Tola-para",
+      "english_definition": "vicinity, neighborhood",
+      "hindi_definition": "आस-पड़ोस, टोला-मोहल्ला",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭōlā-pārā nū",
+      "kurukh_word_ascii": "Tola-para nu",
+      "english_definition": "adjacent to",
+      "hindi_definition": "के निकट, सटा हुआ",
+      "part_of_speech": "prep"
+    },
+    {
+      "kurukh_word": "Ṭoṅg'ē",
+      "kurukh_word_ascii": "Tong'e",
+      "english_definition": "axe",
+      "hindi_definition": "कुल्हाड़ी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭōnā",
+      "kurukh_word_ascii": "Tona",
+      "english_definition": "a measure (approx two finger-joints)",
+      "hindi_definition": "एक माप (लगभग दो उंगली के जोड़ के बराबर)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭoṅkā",
+      "kurukh_word_ascii": "Tonka",
+      "english_definition": "dry, high land",
+      "hindi_definition": "सूखी और ऊँची भूमि, टांड़",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭoṅkī",
+      "kurukh_word_ascii": "Tonki",
+      "english_definition": "a measure equal to five pounds",
+      "hindi_definition": "पाँच पाउंड के बराबर एक माप",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭōpā",
+      "kurukh_word_ascii": "Topa",
+      "english_definition": "drop",
+      "hindi_definition": "बूंद",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Ṭōp",
+      "kurukh_word_ascii": "Top",
+      "english_definition": "a crown of cloth used in dancing",
+      "hindi_definition": "नाच में प्रयुक्त कपड़े का मुकुट या टोपी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Ṭōppā-ōṛā",
+      "kurukh_word_ascii": "Toppa-ora",
+      "english_definition": "woodpecker",
+      "hindi_definition": "कटफोड़वा (पक्षी)",
+      "part_of_speech": "noun"
+    }
+  ]
+}

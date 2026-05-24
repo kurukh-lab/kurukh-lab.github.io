@@ -1,0 +1,242 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0157.jpg",
+  "page_label": "153",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Pūnā cīn",
+      "kurukh_word_ascii": "Puna cin",
+      "english_definition": "new year",
+      "hindi_definition": "नया साल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Punnā ōnnā",
+      "kurukh_word_ascii": "Punna onna",
+      "english_definition": "feast of first fruits",
+      "hindi_definition": "नई फसल का उत्सव",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pūnāī",
+      "kurukh_word_ascii": "Punai",
+      "english_definition": "new moon",
+      "hindi_definition": "अमावस्या, नया चाँद",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pūnāī mannā",
+      "kurukh_word_ascii": "Punai manna",
+      "english_definition": "appearance of the new moon",
+      "hindi_definition": "नए चाँद का दिखना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Pundnā",
+      "kurukh_word_ascii": "Pundna",
+      "english_definition": "to become hoary, grey in hair",
+      "hindi_definition": "सफेद बाल होना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an"
+    },
+    {
+      "kurukh_word": "Pundnā",
+      "kurukh_word_ascii": "Pundna",
+      "english_definition": "to yoke the oxen; gōhōlā pundnā birt — after sunrise",
+      "hindi_definition": "बैलों को जोतना; सूर्योदय के बाद",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Pungnā",
+      "kurukh_word_ascii": "Pungna",
+      "english_definition": "to win in a game, to win in a match",
+      "hindi_definition": "खेल या मुकाबले में जीतना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Pundrī",
+      "kurukh_word_ascii": "Pundri",
+      "english_definition": "woollen blanket",
+      "hindi_definition": "ऊनी कंबल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pundrī-pūmp",
+      "kurukh_word_ascii": "Pundri-pump",
+      "english_definition": "the lotus flower",
+      "hindi_definition": "कमल का फूल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Punjī",
+      "kurukh_word_ascii": "Punji",
+      "english_definition": "capital",
+      "hindi_definition": "पूँजी",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Punjī pāttī",
+      "kurukh_word_ascii": "Punji patti",
+      "english_definition": "capital, property",
+      "hindi_definition": "पूँजी, संपत्ति",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Punrī",
+      "kurukh_word_ascii": "Punri",
+      "english_definition": "same as pundrī, lotus flower",
+      "hindi_definition": "कमल का फूल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pūp / Pūmp",
+      "kurukh_word_ascii": "Pup / Pump",
+      "english_definition": "flower",
+      "hindi_definition": "फूल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Purmnā",
+      "kurukh_word_ascii": "Purmna",
+      "english_definition": "to mix rice and dal together",
+      "hindi_definition": "चावल और दाल मिलाना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pūrnā",
+      "kurukh_word_ascii": "Purna",
+      "english_definition": "to mimic, sham",
+      "hindi_definition": "नकल करना, ढोंग करना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-yan"
+    },
+    {
+      "kurukh_word": "Pūrnā",
+      "kurukh_word_ascii": "Purna",
+      "english_definition": "to suffice",
+      "hindi_definition": "पर्याप्त होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an",
+      "homograph_index": 2
+    },
+    {
+      "kurukh_word": "Purāinī-pūmp",
+      "kurukh_word_ascii": "Puraini-pump",
+      "english_definition": "a flower of the forest",
+      "hindi_definition": "जंगल का एक फूल",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Purānī",
+      "kurukh_word_ascii": "Purani",
+      "english_definition": "a plant",
+      "hindi_definition": "एक पौधा",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pūrī",
+      "kurukh_word_ascii": "Puri",
+      "english_definition": "an insane person, a crank",
+      "hindi_definition": "पागल, सनकी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Purrā",
+      "kurukh_word_ascii": "Purra",
+      "english_definition": "dove",
+      "hindi_definition": "कपोत, फाख्ता",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Purrī",
+      "kurukh_word_ascii": "Purri",
+      "english_definition": "the water lily",
+      "hindi_definition": "कमल (जल पर उगने वाला)",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Purtī",
+      "kurukh_word_ascii": "Purti",
+      "english_definition": "sufficiently (adv.); ōnnā purtī ā'dō — take as much as you can eat",
+      "hindi_definition": "पर्याप्त रूप से; जितना खा सको उतना लो",
+      "part_of_speech": "adv",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Purūkhār",
+      "kurukh_word_ascii": "Purukhar",
+      "english_definition": "ancestry",
+      "hindi_definition": "वंश, पूर्वज",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Puskānjī-ghāsī",
+      "kurukh_word_ascii": "Puskanji-ghasi",
+      "english_definition": "a kind of soft grass",
+      "hindi_definition": "एक मुलायम घास",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pusrā'ē-mann",
+      "kurukh_word_ascii": "Pusrae-mann",
+      "english_definition": "the kusm tree, on which the lac worm feeds",
+      "hindi_definition": "कुसुम का पेड़, जिस पर लाखकीड़ा पलता है",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Pust / Pustān",
+      "kurukh_word_ascii": "Pust / Pustan",
+      "english_definition": "generation after generation",
+      "hindi_definition": "पीढ़ी दर पीढ़ी",
+      "part_of_speech": "adv",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Putbērā",
+      "kurukh_word_ascii": "Putbera",
+      "english_definition": "evening time",
+      "hindi_definition": "शाम का समय",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Putbirī",
+      "kurukh_word_ascii": "Putbiri",
+      "english_definition": "evening time",
+      "hindi_definition": "शाम का समय",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Putbēlā",
+      "kurukh_word_ascii": "Putbela",
+      "english_definition": "ant-queen",
+      "hindi_definition": "रानी चींटी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Putgī",
+      "kurukh_word_ascii": "Putgi",
+      "english_definition": "sand fly",
+      "hindi_definition": "रेत की मक्खी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Putingī / Puturigī",
+      "kurukh_word_ascii": "Putingi / Puturigi",
+      "english_definition": "the sand fly",
+      "hindi_definition": "रेत की मक्खी",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Puthī injē",
+      "kurukh_word_ascii": "Puthi inje",
+      "english_definition": "small kind of fish found in the water of paddyfields",
+      "hindi_definition": "धान के खेत के पानी में पाई जाने वाली छोटी मछली",
+      "part_of_speech": "noun"
+    }
+  ]
+}

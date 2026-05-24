@@ -1,0 +1,218 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0136.jpg",
+  "page_label": "132",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Naurī",
+      "kurukh_word_ascii": "Nauri",
+      "english_definition": "boat.",
+      "hindi_definition": "नाव (नौका) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nautirē",
+      "kurukh_word_ascii": "Nautire",
+      "english_definition": "weasel.",
+      "hindi_definition": "नेवला।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Naw",
+      "kurukh_word_ascii": "Naw",
+      "english_definition": "an insect of a green colour.",
+      "hindi_definition": "हरे रंग का एक कीट।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Naugadī",
+      "kurukh_word_ascii": "Naugadi",
+      "english_definition": "famous (see also Naujadī).",
+      "hindi_definition": "प्रसिद्ध, नामी (Naujadī भी देखें)।",
+      "part_of_speech": "adjective",
+      "loanword_from": "ur",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nayē",
+      "kurukh_word_ascii": "Naye",
+      "english_definition": "nine.",
+      "hindi_definition": "नौ (हिंदी से लिया गया)।",
+      "part_of_speech": "numeral",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nayēdōyē",
+      "kurukh_word_ascii": "Nayedoye",
+      "english_definition": "ninety.",
+      "hindi_definition": "नंबे (हिंदी से लिया गया)।",
+      "part_of_speech": "numeral",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nē",
+      "kurukh_word_ascii": "Ne",
+      "english_definition": "who, which.",
+      "hindi_definition": "सर्वनाम। कौन, जो।",
+      "part_of_speech": "pronoun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nē nē",
+      "kurukh_word_ascii": "Ne ne",
+      "english_definition": "whosoever.",
+      "hindi_definition": "जो कोई भी।",
+      "part_of_speech": "pronoun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nēkhai",
+      "kurukh_word_ascii": "Nekhai",
+      "english_definition": "genitive of nē, of whom, whose.",
+      "hindi_definition": "किसका (जिसका)।",
+      "part_of_speech": "pronoun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nēkā",
+      "kurukh_word_ascii": "Neka",
+      "english_definition": "dative of nē, to whom.",
+      "hindi_definition": "किसको (जिसको)।",
+      "part_of_speech": "pronoun",
+      "notes": "Variant: nēkāgē"
+    },
+    {
+      "kurukh_word": "Nēkan",
+      "kurukh_word_ascii": "Nekan",
+      "english_definition": "accusative of nē, whom.",
+      "hindi_definition": "किसको (जिसको)।",
+      "part_of_speech": "pronoun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nēk",
+      "kurukh_word_ascii": "Nek",
+      "english_definition": "whose (used in combination with words denoting relation, as nē taṅgdai, whose son are you?).",
+      "hindi_definition": "किसका (सम्बन्धसूचक शब्दों के साथ प्रयुक्त, जैसे nē taṅgdai = तुम किसके बेटे हो?)।",
+      "part_of_speech": "pronoun",
+      "notes": "Example: nē taṅgdai = whose son are you?"
+    },
+    {
+      "kurukh_word": "Nebbā",
+      "kurukh_word_ascii": "Nebba",
+      "english_definition": "light, easy to bear, carry.",
+      "hindi_definition": "हल्का, ले जाने में आसान।",
+      "part_of_speech": "adjective",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nebbnā",
+      "kurukh_word_ascii": "Nebbna",
+      "english_definition": "nibbkan, yan, to give birth to a child (literally to ease, to be delivered); ēkaullā nibbiyā, when was she confined?",
+      "hindi_definition": "बच्चे को जन्म देना (प्रसव होना); ēkaullā nibbiyā = उसका प्रसव कब हुआ था?",
+      "part_of_speech": "verb",
+      "verb_class": "nibbkan-yan",
+      "notes": "Example: ēkaullā nibbiyā = when was she confined?"
+    },
+    {
+      "kurukh_word": "Nebta'anā",
+      "kurukh_word_ascii": "Nebta'ana",
+      "english_definition": "ckan, o'an, to give leave, to deliver, discharge.",
+      "hindi_definition": "छुट्टी देना, मुक्त करना, प्रसव कराना।",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nedda",
+      "kurukh_word_ascii": "Nedda",
+      "english_definition": "appointment, occasion, opportunity; nedda khakkhan, I have got an opportunity.",
+      "hindi_definition": "नियुक्ति, अवसर, मौका; nedda khakkhan = मुझे एक अवसर मिला है।",
+      "part_of_speech": "noun",
+      "notes": "Example: nedda khakkhan = I have got an opportunity"
+    },
+    {
+      "kurukh_word": "Nedda",
+      "kurukh_word_ascii": "Nedda",
+      "english_definition": "adj. precise; nedda bīrīm barckan, I came punctually; nedda ullā, the appointed day.",
+      "hindi_definition": "विशेषण। सटीक, नियत; nedda bīrīm barckan = मैं ठीक समय पर आया; nedda ullā = नियत दिन।",
+      "part_of_speech": "adjective",
+      "notes": "2nd homograph of Nedda"
+    },
+    {
+      "kurukh_word": "Neddō",
+      "kurukh_word_ascii": "Neddo",
+      "english_definition": "brain (variant of Meddī).",
+      "hindi_definition": "मस्तिष्क (दिमाग, Meddī का रूप)।",
+      "part_of_speech": "noun",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nedg'nā",
+      "kurukh_word_ascii": "Nedg'na",
+      "english_definition": "nidigkan, yan, to fall off (said of leaves or fruits falling from a tree).",
+      "hindi_definition": "झड़ना (पत्ते या फल का पेड़ से गिरना)।",
+      "part_of_speech": "verb",
+      "verb_class": "nidigkan-yan",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nē'ēna",
+      "kurukh_word_ascii": "Ne'ena",
+      "english_definition": "c'kan, c'an, to ask, pray, request, demand; nam nē'ōt, let us pray.",
+      "hindi_definition": "मांगना, प्रार्थना करना, अनुरोध करना; nam nē'ōt = आइए हम प्रार्थना करें।",
+      "part_of_speech": "verb",
+      "verb_class": "c'kan-c'an",
+      "notes": "Example: nam nē'ōt = let us pray"
+    },
+    {
+      "kurukh_word": "Nēg",
+      "kurukh_word_ascii": "Neg",
+      "english_definition": "ceremony, rule, precept, custom.",
+      "hindi_definition": "नेग (रस्म, नियम, प्रथा, दस्तूर) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nēg-cār",
+      "kurukh_word_ascii": "Neg-car",
+      "english_definition": "customary law, custom.",
+      "hindi_definition": "रीति-रिवाज (प्रथागत कानून) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nehalī",
+      "kurukh_word_ascii": "Nehali",
+      "english_definition": "horseshoe.",
+      "hindi_definition": "नाल (घोड़े की नाल) (हिंदी से लिया गया)।",
+      "part_of_speech": "noun",
+      "loanword_from": "hi",
+      "notes": ""
+    },
+    {
+      "kurukh_word": "Nek'a",
+      "kurukh_word_ascii": "Nek'a",
+      "english_definition": "the affix by which the subjunctive is formed: kādasnek'a, may he or let him go.",
+      "hindi_definition": "प्रत्यय (संभावक क्रिया बनाने के लिए); जैसे kādasnek'a = वह जा सके / उसे जाने दो।",
+      "part_of_speech": "affix",
+      "notes": "Example: kādasnek'a = may he or let him go"
+    },
+    {
+      "kurukh_word": "Nēk'am",
+      "kurukh_word_ascii": "Nek'am",
+      "english_definition": "indefinite pronoun. anyone, someone.",
+      "hindi_definition": "अनिश्चयवाचक सर्वनाम। कोई भी, कोई।",
+      "part_of_speech": "pronoun",
+      "notes": ""
+    }
+  ]
+}

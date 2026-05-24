@@ -1,0 +1,727 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg",
+  "page_label": "73",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Jātim",
+      "kurukh_word_ascii": "Jatim",
+      "english_definition": "not even once, never",
+      "hindi_definition": "एक बार भी नहीं, कभी नहीं",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Jati",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "not even once, never", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक बार भी नहीं, कभी नहीं", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jātilō",
+      "kurukh_word_ascii": "Jatilo",
+      "english_definition": "thing, article",
+      "hindi_definition": "वस्तु, चीज, सामान",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "thing, article", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वस्तु, चीज, सामान", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jātrā",
+      "kurukh_word_ascii": "Jatra",
+      "english_definition": "dancing fair",
+      "hindi_definition": "जात्रा (नृत्य उत्सव, मेला)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "dancing fair", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जात्रा (नृत्य उत्सव, मेला)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jaṭṭā",
+      "kurukh_word_ascii": "Jatta",
+      "english_definition": "tuft, plaited hair",
+      "hindi_definition": "जटा, बालों की चोटी",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "tuft, plaited hair", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जटा, बालों की चोटी", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jaṭṭamāsī",
+      "kurukh_word_ascii": "Jattamasi",
+      "english_definition": "spikenard",
+      "hindi_definition": "जटामासी (एक औषधीय जड़ी-बूटी)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "spikenard", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जटामासी (एक औषधीय जड़ी-बूटी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jau",
+      "kurukh_word_ascii": "Jau",
+      "english_definition": "barley",
+      "hindi_definition": "जौ",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "barley", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जौ", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jāwā",
+      "kurukh_word_ascii": "Jawa",
+      "english_definition": "twins",
+      "hindi_definition": "जुड़वां",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": ["Jawa khoppnā"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "twins", "example_sentence_kurukh": "Jawa khoppnā", "example_sentence_translation": "to rear barley in a flowerpot" },
+        { "language": "hi", "definition": "जुड़वां", "example_sentence_kurukh": "Jawa khoppnā", "example_sentence_translation": "गमले में जौ उगाना (करमा त्योहार की रस्म)" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jawa khoppnā",
+      "kurukh_word_ascii": "Jawa khoppna",
+      "english_definition": "to rear barley in a flowerpot",
+      "hindi_definition": "गमले में जौ उगाना (करमा त्योहार की रस्म)",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Jāwā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to rear barley in a flowerpot", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "गमले में जौ उगाना (करमा त्योहार की रस्म)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jaunō-nerr",
+      "kurukh_word_ascii": "Jauno-nerr",
+      "english_definition": "a large harmless kind of snake",
+      "hindi_definition": "एक प्रकार का बड़ा हानिहीन साँप (जौनो साँप)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "a large harmless kind of snake", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "एक प्रकार का बड़ा हानिहीन साँप (जौनो साँप)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jauṅkhaddir",
+      "kurukh_word_ascii": "Jaunkhaddir",
+      "english_definition": "son-in-law",
+      "hindi_definition": "दामाद",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "son-in-law", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दामाद", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jauṅkhaddi",
+      "kurukh_word_ascii": "Jaunkhaddi",
+      "english_definition": "daughter-in-law",
+      "hindi_definition": "बहू (पुत्रवधू)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "daughter-in-law", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बहू (पुत्रवधू)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jawal",
+      "kurukh_word_ascii": "Jawal",
+      "english_definition": "trouble, difficulty",
+      "hindi_definition": "कष्ट, कठिनाई, मुसीबत",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "trouble, difficulty", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कष्ट, कठिनाई, मुसीबत", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jaypui",
+      "kurukh_word_ascii": "Jaypui",
+      "english_definition": "descendants",
+      "hindi_definition": "वंशज, संतान",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "descendants", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "वंशज, संतान", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jējētā",
+      "kurukh_word_ascii": "Jejeta",
+      "english_definition": "whatsoever",
+      "hindi_definition": "जो कुछ भी",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": ["jējētkā"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "whatsoever", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जो कुछ भी (चीज़ें)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "jējētkā",
+      "kurukh_word_ascii": "jejetka",
+      "english_definition": "whatsoever",
+      "hindi_definition": "जो कुछ भी",
+      "part_of_speech": "pronoun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": "Jējētā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "whatsoever", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जो कुछ भी (चीज़ें)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jenū",
+      "kurukh_word_ascii": "Jenu",
+      "english_definition": "that, for the purpose of, the Bengālī jeno",
+      "hindi_definition": "ताकि, इसलिए कि (बंगाली 'जेनो' के समान)",
+      "part_of_speech": "conjunction",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "that, for the purpose of, the Bengālī jeno", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "ताकि, इसलिए कि (बंगाली 'जेनो' के समान)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jēn",
+      "kurukh_word_ascii": "Jen",
+      "english_definition": "person",
+      "hindi_definition": "जन, व्यक्ति, लोग",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": ["jhan"],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "person", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जन, व्यक्ति, लोग", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "jhan",
+      "kurukh_word_ascii": "jhan",
+      "english_definition": "person",
+      "hindi_definition": "जन, व्यक्ति, लोग",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": "Jēn",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "person", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जन, व्यक्ति, लोग", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jeṅjeṅgernā",
+      "kurukh_word_ascii": "Jenjegerna",
+      "english_definition": "to look very red, purplelike",
+      "hindi_definition": "बहुत लाल या बैंगनी रंग का दिखना, लाल सुर्ख होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to look very red, purplelike", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बहुत लाल या बैंगनी रंग का दिखना, लाल सुर्ख होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jepjeprā okknā",
+      "kurukh_word_ascii": "Jepjepra okkna",
+      "english_definition": "to sit lazily",
+      "hindi_definition": "आलस्य से बैठना, पसरे रहना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to sit lazily", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "आलस्य से बैठना, पसरे रहना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jerē",
+      "kurukh_word_ascii": "Jere",
+      "english_definition": "gum arabic",
+      "hindi_definition": "बबूल का गोंद (गोंद अरबी)",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "gum arabic", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "बबूल का गोंद (गोंद अरबी)", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jeṛem keṛem",
+      "kurukh_word_ascii": "Jerem kerem",
+      "english_definition": "debility, weakness",
+      "hindi_definition": "कमजोरी, दुर्बलता",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 1,
+      "meanings": [
+        { "language": "en", "definition": "debility, weakness", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "कमजोरी, दुर्बलता", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jeṛem keṛem",
+      "kurukh_word_ascii": "Jerem kerem",
+      "english_definition": "as far or as well as could be",
+      "hindi_definition": "जहाँ तक हो सके, जितना हो सके",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": 2,
+      "meanings": [
+        { "language": "en", "definition": "as far or as well as could be", "example_sentence_kurukh": "jeṛem keṛem cã̃khkan", "example_sentence_translation": "I sowed as much as I could, i.e., as my stock of seed-grain lasted." },
+        { "language": "hi", "definition": "जहाँ तक हो सके, जितना हो सके", "example_sentence_kurukh": "jeṛem keṛem cã̃khkan", "example_sentence_translation": "मैंने जितना हो सके बोया, यानी जब तक बीज बचा रहा।" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jerjernā",
+      "kurukh_word_ascii": "Jerjerna",
+      "english_definition": "to have only few leaves, said of trees",
+      "hindi_definition": "पेड़ के पत्तों का बहुत कम होना, पतझड़ जैसा होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to have only few leaves, said of trees", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पेड़ के पत्तों का बहुत कम होना, पतझड़ जैसा होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jerjerē",
+      "kurukh_word_ascii": "Jerjere",
+      "english_definition": "dried, thin, emaciated, famished",
+      "hindi_definition": "सूखा हुआ, पतला, दुर्बल, भूखा-प्यासा",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "dried, thin, emaciated, famished", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सूखा हुआ, पतला, दुर्बल, भूखा-प्यासा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jeṛkā",
+      "kurukh_word_ascii": "Jerka",
+      "english_definition": "double fingered",
+      "hindi_definition": "दोहरी उंगलियों वाला",
+      "part_of_speech": "adjective",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "double fingered", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "दोहरी उंगलियों वाला", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jētnā",
+      "kurukh_word_ascii": "Jetna",
+      "english_definition": "to be sticky, like gum",
+      "hindi_definition": "लसदार होना, गोंद जैसा चिपचिपा होना",
+      "part_of_speech": "verb",
+      "grammatical_tag": "kan, an",
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to be sticky, like gum", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "लसदार होना, गोंद जैसा चिपचिपा होना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jētkā",
+      "kurukh_word_ascii": "Jetka",
+      "english_definition": "how much so ever",
+      "hindi_definition": "जितना भी अधिक हो सके",
+      "part_of_speech": "adverb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "how much so ever", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जितना भी अधिक हो सके", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jethe khaddas",
+      "kurukh_word_ascii": "Jethe khaddas",
+      "english_definition": "the eldest child, son",
+      "hindi_definition": "सबसे बड़ा बच्चा, जेठा बेटा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "the eldest child, son", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "सबसे बड़ा बच्चा, जेठा बेटा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jian beṛhā nannā",
+      "kurukh_word_ascii": "Jian berha nanna",
+      "english_definition": "to harden oneself",
+      "hindi_definition": "अपने दिल को कठोर करना, धीरज धरना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to harden oneself", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "अपने दिल को कठोर करना, धीरज धरना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jiā nū ondrā",
+      "kurukh_word_ascii": "Jia nu ondra",
+      "english_definition": "to apply to oneself, to pay attention",
+      "hindi_definition": "मन लगाना, ध्यान देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": ["Jiā nū uiyā"],
+      "variant_of": "Jiā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to apply to oneself, to pay attention", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मन लगाना, ध्यान देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jiā nū uiyā",
+      "kurukh_word_ascii": "Jia nu uiya",
+      "english_definition": "to apply to oneself, to pay attention",
+      "hindi_definition": "मन लगाना, ध्यान देना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Jiā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to apply to oneself, to pay attention", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "मन लगाना, ध्यान देना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jiā",
+      "kurukh_word_ascii": "Jia",
+      "english_definition": "soul, H.",
+      "hindi_definition": "जी, आत्मा, प्राण",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": null,
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "soul, H.", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "जी, आत्मा, प्राण", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jiā kirta'anā",
+      "kurukh_word_ascii": "Jia kirta'ana",
+      "english_definition": "to repent, to become converted",
+      "hindi_definition": "पश्चाताप करना, धर्मपरिवर्तन करना, मन फिराना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Jiā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to repent, to become converted", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "पश्चाताप करना, धर्मपरिवर्तन करना, मन फिराना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jiā cī'inā",
+      "kurukh_word_ascii": "Jia ci'ina",
+      "english_definition": "to encourage",
+      "hindi_definition": "प्रोत्साहित करना, ढाढस बंधाना",
+      "part_of_speech": "verb",
+      "grammatical_tag": null,
+      "loanword_from": null,
+      "variants": [],
+      "variant_of": "Jiā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "to encourage", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "प्रोत्साहित करना, ढाढस बंधाना", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    },
+    {
+      "kurukh_word": "Jiā-kāyā",
+      "kurukh_word_ascii": "Jia-kaya",
+      "english_definition": "body and soul",
+      "hindi_definition": "तन-मन, शरीर और आत्मा",
+      "part_of_speech": "noun",
+      "grammatical_tag": null,
+      "loanword_from": "hi",
+      "variants": [],
+      "variant_of": "Jiā",
+      "homograph_index": null,
+      "meanings": [
+        { "language": "en", "definition": "body and soul", "example_sentence_kurukh": "", "example_sentence_translation": "" },
+        { "language": "hi", "definition": "तन-मन, शरीर और आत्मा", "example_sentence_kurukh": "", "example_sentence_translation": "" }
+      ],
+      "status": "pending_review",
+      "contributor_id": "hahn-1903",
+      "hindi_source": "model-translated",
+      "source": { "book": "Hahn 1903 Kurukh-Oraon English Dictionary", "page_image": "2015.280761.Kurukh-Orao_text_page-0077.jpg", "page_label": "73" }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "page_image": "2015.280761.Kurukh-Orao_text_page-0165.jpg",
+  "page_label": "161",
+  "status": "extracted",
+  "entries": [
+    {
+      "kurukh_word": "Sarudā",
+      "kurukh_word_ascii": "Saruda",
+      "english_definition": "thin, lean",
+      "hindi_definition": "पतला, दुबला",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Saryānā",
+      "kurukh_word_ascii": "Saryana",
+      "english_definition": "to put in order, to set aright",
+      "hindi_definition": "व्यवस्थित करना, ठीक करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sastī",
+      "kurukh_word_ascii": "Sasti",
+      "english_definition": "distress, affliction",
+      "hindi_definition": "कष्ट, संकट, दुख",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sastī cōḍnā",
+      "kurukh_word_ascii": "Sasti codna",
+      "english_definition": "to suffer affliction, to be afflicted",
+      "hindi_definition": "कष्ट भोगना, पीड़ित होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sātā mannā",
+      "kurukh_word_ascii": "Sata manna",
+      "english_definition": "to be finished, completed",
+      "hindi_definition": "समाप्त होना, पूरा होना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāuṇḍā'anā",
+      "kurukh_word_ascii": "Saunda'ana",
+      "english_definition": "to mix up, permeate",
+      "hindi_definition": "मिलाना, व्याप्त होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sāuṇḍnā",
+      "kurukh_word_ascii": "Saundna",
+      "english_definition": "to mix up, permeate (same as above)",
+      "hindi_definition": "मिलाना, व्याप्त होना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sauṅgīā",
+      "kurukh_word_ascii": "Saungia",
+      "english_definition": "strong, mighty",
+      "hindi_definition": "मजबूत, शक्तिशाली",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Satisē",
+      "kurukh_word_ascii": "Satise",
+      "english_definition": "complete",
+      "hindi_definition": "पूर्ण, पूरा",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sausaurē",
+      "kurukh_word_ascii": "Sausaure",
+      "english_definition": "suddenly",
+      "hindi_definition": "अचानक, एकाएक",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sawā-ghāsī",
+      "kurukh_word_ascii": "Sawa-ghasi",
+      "english_definition": "kind of grass in appearance like gundli",
+      "hindi_definition": "गुंडली जैसा दिखने वाला एक प्रकार का घास",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sawāṅg",
+      "kurukh_word_ascii": "Sawang",
+      "english_definition": "power, authority",
+      "hindi_definition": "शक्ति, अधिकार",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Sawāsin",
+      "kurukh_word_ascii": "Sawasin",
+      "english_definition": "parent's house, home",
+      "hindi_definition": "मायका, माता-पिता का घर",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sausaurē khae'nā",
+      "kurukh_word_ascii": "Sausaure khae'na",
+      "english_definition": "to dry quickly",
+      "hindi_definition": "तेजी से सूखना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sāyā",
+      "kurukh_word_ascii": "Saya",
+      "english_definition": "Lord, Sir",
+      "hindi_definition": "स्वामी, महोदय",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Saydoy",
+      "kurukh_word_ascii": "Saydoy",
+      "english_definition": "seventy",
+      "hindi_definition": "सत्तर",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Sayyē",
+      "kurukh_word_ascii": "Sayye",
+      "english_definition": "seven",
+      "hindi_definition": "सात",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Sayādoyē",
+      "kurukh_word_ascii": "Sayadoye",
+      "english_definition": "seventy",
+      "hindi_definition": "सत्तर",
+      "part_of_speech": "num"
+    },
+    {
+      "kurukh_word": "Saytā",
+      "kurukh_word_ascii": "Sayta",
+      "english_definition": "the seventh",
+      "hindi_definition": "सातवाँ",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sē lekhē",
+      "kurukh_word_ascii": "Se lekhe",
+      "english_definition": "then",
+      "hindi_definition": "तब, उस प्रकार",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sebr'am",
+      "kurukh_word_ascii": "Sebr'am",
+      "english_definition": "easily",
+      "hindi_definition": "आसानी से, सुगमता से",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sebbē",
+      "kurukh_word_ascii": "Sebbe",
+      "english_definition": "light, light to do (same as nebhba)",
+      "hindi_definition": "हल्का, करने में आसान",
+      "part_of_speech": "adj"
+    },
+    {
+      "kurukh_word": "Sekrā nannā",
+      "kurukh_word_ascii": "Sekra nanna",
+      "english_definition": "to count, number",
+      "hindi_definition": "गिनना, संख्या करना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sekra'anā",
+      "kurukh_word_ascii": "Sekra'ana",
+      "english_definition": "to embarrass, to straighten from either side, to gather together with both hands",
+      "hindi_definition": "परेशान करना, दोनों ओर से घेरना, दोनों हाथों से इकट्ठा करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Seksekrā",
+      "kurukh_word_ascii": "Seksekra",
+      "english_definition": "closely",
+      "hindi_definition": "निकटता से, घनिष्ठता से",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Seknā",
+      "kurukh_word_ascii": "Sekna",
+      "english_definition": "to foment, to apply fomentation",
+      "hindi_definition": "सेंकना, सिकाई करना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-o'an"
+    },
+    {
+      "kurukh_word": "Sekrnā",
+      "kurukh_word_ascii": "Sekrna",
+      "english_definition": "to warm one's self",
+      "hindi_definition": "स्वयं को सेंकना, धूप या आग सेंकना",
+      "part_of_speech": "verb",
+      "verb_class": "kan-an",
+      "loanword_from": "hi"
+    },
+    {
+      "kurukh_word": "Selnā",
+      "kurukh_word_ascii": "Selna",
+      "english_definition": "throw",
+      "hindi_definition": "फेंकना",
+      "part_of_speech": "verb",
+      "verb_class": "ckan-c'an"
+    },
+    {
+      "kurukh_word": "Sendrā",
+      "kurukh_word_ascii": "Sendra",
+      "english_definition": "hunting, sport",
+      "hindi_definition": "शिकार, आखेट",
+      "part_of_speech": "noun"
+    },
+    {
+      "kurukh_word": "Sendrā bēcnā",
+      "kurukh_word_ascii": "Sendra becna",
+      "english_definition": "to hunt, chase",
+      "hindi_definition": "शिकार खेलना",
+      "part_of_speech": "phrase"
+    },
+    {
+      "kurukh_word": "Sēyam",
+      "kurukh_word_ascii": "Seyam",
+      "english_definition": "gratis, without price",
+      "hindi_definition": "मुफ़्त, बिना मूल्य के",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Serī",
+      "kurukh_word_ascii": "Seri",
+      "english_definition": "at once, quickly",
+      "hindi_definition": "तुरंत, शीघ्र",
+      "part_of_speech": "adv"
+    },
+    {
+      "kurukh_word": "Sertā",
+      "kurukh_word_ascii": "Serta",
+      "english_definition": "wick",
+      "hindi_definition": "बत्ती, दीये की बाती",
+      "part_of_speech": "noun",
+      "loanword_from": "hi"
+    }
+  ]
+}
