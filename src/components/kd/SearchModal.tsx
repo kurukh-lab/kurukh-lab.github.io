@@ -64,17 +64,12 @@ const SearchModal = () => {
     return () => window.clearTimeout(focusTimer);
   }, [open]);
 
-  // Debounced live search: rerun whenever the input or filters change while
-  // the modal is open. Skipped when there's no query so we don't fire empty
-  // searches against the backend.
+  // Live search — debounce is handled inside useSearch (350 ms).
   useEffect(() => {
     if (!open) return;
     if (!searchTerm.trim()) return;
-    const id = window.setTimeout(() => {
-      void handleSearch();
-    }, 220);
-    return () => window.clearTimeout(id);
-    // handleSearch closes over searchTerm/filters; depending on those is enough.
+    handleSearch();
+    // handleSearch closes over searchTerm/filters; the hook debounces internally.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, searchTerm, filters.language, filters.partOfSpeech]);
 
@@ -163,9 +158,8 @@ const SearchModal = () => {
     [sortedResults, selectedId],
   );
 
-  const handleSubmit = async (e: FormEvent) => {
-    e.preventDefault();
-    await handleSearch(e);
+  const handleSubmit = (e: FormEvent) => {
+    handleSearch(e);
   };
 
   const handleClear = () => {
@@ -191,7 +185,7 @@ const SearchModal = () => {
       aria-modal="true"
       aria-label={t('search.modal.eyebrow') as string}
       onClick={handleOverlayClick}
-      className="fixed inset-0 z-[80] flex items-start justify-center px-4 sm:px-8 py-6 sm:py-10 overflow-y-auto"
+      className="fixed inset-0 z-[80] flex items-start justify-center p-10 sm:px-8 sm:py-10 overflow-y-auto"
       style={{
         background: 'color-mix(in srgb, var(--kd-ink) 55%, transparent)',
         backdropFilter: 'blur(6px)',
@@ -200,12 +194,12 @@ const SearchModal = () => {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="w-full max-w-[1100px] rounded-2xl flex flex-col overflow-hidden"
+        className="w-full h-full rounded-2xl flex flex-col overflow-hidden"
         style={{
           background: 'var(--kd-bg)',
           border: '1px solid var(--kd-line)',
           boxShadow: 'var(--kd-shadow-elev)',
-          maxHeight: 'calc(100vh - 48px)',
+          maxHeight: 'calc(100vh - 60px)',
         }}
       >
         {/* Search input row */}
