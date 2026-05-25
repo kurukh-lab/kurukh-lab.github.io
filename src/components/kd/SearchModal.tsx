@@ -18,6 +18,7 @@ import {
   IconShare,
   IconArrow,
 } from './icons';
+import StatusBadge from './StatusBadge';
 import { useSearchUI, type SearchSort } from '../../contexts/SearchContext';
 import { highlightMatch } from '../../utils/highlightUtils';
 import type { Word } from '../../types';
@@ -537,14 +538,7 @@ const ResultsList = ({
                   >
                     {highlightMatch(word.kurukh_word, searchTerm)}
                   </span>
-                  {word.pronunciation && (
-                    <span
-                      className="kd-font-mono"
-                      style={{ fontSize: 11, color: 'var(--kd-ink-mute)' }}
-                    >
-                      /{word.pronunciation}/
-                    </span>
-                  )}
+                  {word.status && <StatusBadge status={word.status} />}
                 </div>
                 <div className="mt-1 flex items-baseline gap-2">
                   {pos && (
@@ -673,30 +667,11 @@ const DetailPane = ({
             {word.part_of_speech}
           </span>
         )}
-        {word.status === 'approved' && (
-          <span
-            className="kd-font-sans uppercase inline-flex items-center gap-1.5"
-            style={{
-              padding: '4px 10px',
-              borderRadius: 999,
-              fontSize: 10,
-              fontWeight: 600,
-              letterSpacing: '0.08em',
-              background: 'color-mix(in srgb, var(--kd-sage) 15%, transparent)',
-              color: 'var(--kd-sage)',
-            }}
-          >
-            <span
-              aria-hidden
-              style={{
-                width: 5,
-                height: 5,
-                borderRadius: '50%',
-                background: 'var(--kd-sage)',
-              }}
-            />
-            {t('word.verified')}
-          </span>
+        {word.status && (
+          <StatusBadge
+            status={word.status}
+            showDot={word.status === 'approved'}
+          />
         )}
       </div>
 

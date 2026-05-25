@@ -73,15 +73,16 @@ service cloud.firestore {
 
     // ─── /words ─────────────────────────────────────────────────────────
     //
-    // Read: approved words are public; everything else needs auth.
+    // Read: any non-rejected word is public (supports transparent status
+    //       display); rejected/community-rejected words require auth.
     // Create: must be authored by the caller and start in community_review.
     // Update: admin can do anything; non-admins can only LIKE, VOTE, or bump
     //         commentsCount — and never on their own contribution for votes.
     // Delete: admin only.
     match /words/{wordId} {
 
-      function isApprovedWord() {
-        return resource.data.status == 'approved';
+      function isPublicWord() {
+        return !(resource.data.status in ['rejected', 'community_rejected']);
       }
 
       // CREATE: the document must declare the caller as contributor and
@@ -151,7 +152,7 @@ service cloud.firestore {
                changedKeys().hasOnly(['commentsCount', 'updatedAt']);
       }
 
-      allow read:   if isApprovedWord() || isRegistered() || isAdmin();
+      allow read:   if isPublicWord() || isRegistered() || isAdmin();
       allow create: if isValidWordCreate();
       allow update: if isAdmin() ||
                        isLikeOnlyUpdate() ||

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "emulators": "firebase emulators:start --only auth,functions,firestore,storage,hosting",
-    "dev:firebase": "concurrently \"npm run emulators\" \"npm run dev\" \"sleep 60 && npm run init-db\"",
+    "dev:firebase": "concurrently \"npm run emulators\" \"npm run dev\" \"sleep 60\"",
     "build": "vite build",
     "build:clean": "rm -rf dist && vite build",
     "lint": "eslint .",
@@ -14,6 +14,8 @@
     "deploy": "npm run build:clean && firebase deploy",
     "deploy:functions": "firebase deploy --only functions",
     "init-db": "node scripts/initializeDatabase.js",
+    "seed:emulator": "node scripts/seedDictionary.js",
+    "seed:production": "node scripts/seedDictionary.js --production",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",

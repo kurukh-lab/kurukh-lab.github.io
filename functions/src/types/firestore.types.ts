@@ -17,30 +17,68 @@ export interface Meaning {
   example_sentence_kurukh?: string;
   example_sentence_translation?: string;
   audio_url?: string;
-  audio?: string;
   dialect?: string;
   region?: string;
 }
 
+export interface WordLinguistics {
+  grammatical_tag?: string;
+  verb_class?: string;
+  transitivity?: 'tr' | 'intr';
+  gender?: 'm' | 'f';
+  loanword_from?: string;
+}
+
+export interface WordBookSource {
+  book: string;
+  page_image?: string;
+  page_label?: string;
+  hindi_source?: string;
+}
+
 export interface Word {
+  // Identity
   id: string;
   kurukh_word: string;
-  meanings: Meaning[];
+  kurukh_word_ascii: string;
+  homograph_index?: number;
+
+  // Linguistic structure
   part_of_speech?: string;
+  linguistics?: WordLinguistics;
+
+  // Core content
+  meanings: Meaning[];
+  notes?: string;
+  example_phrase?: string;
+
+  // Word relationships
+  variant_of?: string;
+  variants?: string[];
+
+  // Audio & pronunciation
   pronunciation_guide?: string;
-  tags?: string[];
-  contributor_id?: string;
-  status: WordStatus;
-  community_votes_for: number;
-  community_votes_against: number;
-  likedBy?: string[];
-  likesCount: number;
-  commentsCount?: number;
-  rejection_reason?: string | null;
   audio_url?: string;
-  pronunciation_audio_url?: string;
+
+  // Dialect & region
   dialect?: string;
   region?: string;
+
+  // Community & workflow
+  status: WordStatus;
+  contributor_id: string;
+  community_votes_for: number;
+  community_votes_against: number;
+  likedBy: string[];
+  likesCount: number;
+  commentsCount: number;
+  rejection_reason?: string | null;
+  tags?: string[];
+
+  // Provenance
+  book_source?: WordBookSource;
+
+  // Timestamps
   createdAt: Timestamp;
   updatedAt: Timestamp;
 }

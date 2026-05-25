@@ -12,16 +12,14 @@ import WordFlowDiagram from '../components/kd/WordFlowDiagram';
 import { useAuth } from '../contexts/AuthContext';
 import SectionLabel from '../components/kd/SectionLabel';
 import AudioPlayer, { type AudioTrack } from '../components/kd/AudioPlayer';
+import StatusBadge from '../components/kd/StatusBadge';
 import { IconBack, IconBookmark } from '../components/kd/icons';
 import type { Word } from '../types';
 
 type WordWithExtras = Word & {
   pronunciation?: string;
   created_by?: string;
-  etymology?: string;
-  tags?: string[];
   audio_tracks?: AudioTrack[];
-  pronunciation_audio_url?: string;
 };
 
 const WordDetails = () => {
@@ -153,23 +151,11 @@ const WordDetails = () => {
                   {word.part_of_speech}
                 </span>
               )}
-              {word.status === 'approved' && (
-                <span
-                  className="kd-font-sans inline-flex items-center gap-1.5"
-                  style={{ fontSize: 13, color: 'var(--kd-ink-mute)' }}
-                >
-                  <span
-                    aria-hidden="true"
-                    style={{
-                      width: 6,
-                      height: 6,
-                      borderRadius: '50%',
-                      background: 'var(--kd-sage)',
-                      display: 'inline-block',
-                    }}
-                  />
-                  {t('word.verified')}
-                </span>
+              {word.status && (
+                <StatusBadge
+                  status={word.status}
+                  showDot={word.status === 'approved'}
+                />
               )}
             </div>
           </div>
@@ -203,7 +189,7 @@ const WordDetails = () => {
         <div className="mt-8">
           <AudioPlayer
             tracks={word.audio_tracks}
-            src={word.pronunciation_audio_url}
+            src={word.audio_url}
             ariaLabel={`Pronunciation of ${word.kurukh_word}`}
           />
         </div>
@@ -387,18 +373,101 @@ const WordDetails = () => {
         </div>
 
         <aside className="flex flex-col gap-5">
-          {word.etymology && (
-            <SidebarCard title={t('word.relatedEyebrow') as string}>
+          {word.linguistics && Object.values(word.linguistics).some(Boolean) && (
+            <SidebarCard title="Grammar">
+              <dl className="flex flex-col gap-2.5">
+                {word.linguistics.grammatical_tag && (
+                  <MetaRow label="Tag" value={word.linguistics.grammatical_tag} />
+                )}
+                {word.linguistics.verb_class && (
+                  <MetaRow label="Verb class" value={word.linguistics.verb_class} />
+                )}
+                {word.linguistics.transitivity && (
+                  <MetaRow
+                    label="Transitivity"
+                    value={word.linguistics.transitivity === 'tr' ? 'Transitive' : 'Intransitive'}
+                  />
+                )}
+                {word.linguistics.gender && (
+                  <MetaRow
+                    label="Gender"
+                    value={word.linguistics.gender === 'm' ? 'Masculine' : 'Feminine'}
+                  />
+                )}
+                {word.linguistics.loanword_from && (
+                  <MetaRow label="Borrowed from" value={word.linguistics.loanword_from} />
+                )}
+              </dl>
+            </SidebarCard>
+          )}
+
+          {(word.variant_of || (word.variants && word.variants.length > 0)) && (
+            <SidebarCard title="Variants">
+              {word.variant_of && (
+                <div className="mb-3">
+                  <div className="kd-eyebrow mb-1.5" style={{ color: 'var(--kd-ink-mute)' }}>
+                    Canonical form
+                  </div>
+                  <span
+                    className="kd-font-serif"
+                    style={{ fontSize: 17, color: 'var(--kd-ink)' }}
+                  >
+                    {word.variant_of}
+                  </span>
+                </div>
+              )}
+              {word.variants && word.variants.length > 0 && (
+                <div>
+                  <div className="kd-eyebrow mb-2" style={{ color: 'var(--kd-ink-mute)' }}>
+                    Also written as
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {word.variants.map((v) => (
+                      <span
+                        key={v}
+                        className="kd-font-serif"
+                        style={{
+                          padding: '4px 11px',
+                          borderRadius: 999,
+                          fontSize: 14,
+                          color: 'var(--kd-ink)',
+                          background: 'var(--kd-surface-alt)',
+                          border: '1px solid var(--kd-line)',
+                        }}
+                      >
+                        {v}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </SidebarCard>
+          )}
+
+          {word.notes && (
+            <SidebarCard title="Notes">
               <p
-                className="kd-font-serif"
-                style={{ fontSize: 16, lineHeight: 1.6, color: 'var(--kd-ink)', margin: 0 }}
+                className="kd-font-sans"
+                style={{ fontSize: 14, lineHeight: 1.65, color: 'var(--kd-ink-soft)', margin: 0 }}
               >
-                {word.etymology}
+                {word.notes}
               </p>
             </SidebarCard>
           )}
+
+          {word.example_phrase && (
+            <SidebarCard title="Example phrase">
+              <p
+                className="kd-font-serif italic"
+                style={{ fontSize: 15, lineHeight: 1.55, color: 'var(--kd-ink)', margin: 0 }}
+              >
+                {word.example_phrase}
+              </p>
+            </SidebarCard>
+          )}
+
           {Array.isArray(word.tags) && word.tags.length > 0 && (
-            <SidebarCard title={t('word.relatedEyebrow') as string}>
+            <SidebarCard title="Tags">
               <div className="flex flex-wrap gap-2">
                 {word.tags.map((tag) => (
                   <span
@@ -417,6 +486,27 @@ const WordDetails = () => {
                   </span>
                 ))}
               </div>
+            </SidebarCard>
+          )}
+
+          {word.book_source && (
+            <SidebarCard title="Source">
+              <dl className="flex flex-col gap-2">
+                <MetaRow label="Book" value={word.book_source.book} />
+                {word.book_source.page_label && (
+                  <MetaRow label="Page" value={word.book_source.page_label} />
+                )}
+                {word.book_source.hindi_source && (
+                  <MetaRow
+                    label="Hindi"
+                    value={
+                      word.book_source.hindi_source === 'model-translated'
+                        ? 'AI-translated'
+                        : word.book_source.hindi_source
+                    }
+                  />
+                )}
+              </dl>
             </SidebarCard>
           )}
         </aside>
@@ -450,6 +540,20 @@ const SidebarCard = ({ title, children }: { title: string; children: ReactNode }
   >
     <div className="kd-eyebrow mb-4">{title}</div>
     {children}
+  </div>
+);
+
+const MetaRow = ({ label, value }: { label: string; value: string }) => (
+  <div className="flex gap-3 items-baseline">
+    <dt
+      className="kd-font-mono shrink-0"
+      style={{ fontSize: 10, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--kd-ink-mute)', width: 80 }}
+    >
+      {label}
+    </dt>
+    <dd className="kd-font-sans m-0" style={{ fontSize: 13, color: 'var(--kd-ink)', lineHeight: 1.5 }}>
+      {value}
+    </dd>
   </div>
 );
 

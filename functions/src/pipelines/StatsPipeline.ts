@@ -57,10 +57,8 @@ export class StatsPipeline implements IPipeline {
 
   private static countAudio(words: Word[]): number {
     return words.filter((d) => {
-      if (d.audio_url || d.pronunciation_audio_url) return true;
-      return (d.meanings ?? []).some(
-        (m: Meaning) => m && (m.audio_url || m.audio)
-      );
+      if (d.audio_url) return true;
+      return (d.meanings ?? []).some((m: Meaning) => m && m.audio_url);
     }).length;
   }
 

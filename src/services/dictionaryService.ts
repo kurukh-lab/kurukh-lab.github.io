@@ -130,14 +130,15 @@ export const searchWords = async (
 ): Promise<Word[]> => {
   try {
     const processedTerm = term.toLowerCase().trim();
-    const baseQuery = query(wordsCollection, where('status', '==', 'approved'));
+    const baseQuery = query(wordsCollection, where('status', 'not-in', ['rejected', 'community_rejected']));
     const querySnapshot = await getDocs(baseQuery);
     let words: Word[] = [];
 
     querySnapshot.forEach((d) => {
       const wordData = { id: d.id, ...d.data() } as Word;
       const kurukhWord = wordData.kurukh_word?.toLowerCase() || '';
-      if (kurukhWord.includes(processedTerm)) {
+      const kurukhAscii = wordData.kurukh_word_ascii?.toLowerCase() || '';
+      if (kurukhWord.includes(processedTerm) || kurukhAscii.includes(processedTerm)) {
         words.push(wordData);
       }
     });
@@ -218,6 +219,7 @@ export const addWord = async (
       reviewed_by: [],
       likedBy: [],
       likesCount: 0,
+      commentsCount: 0,
       createdAt: serverTimestamp(),
       updatedAt: serverTimestamp(),
     };

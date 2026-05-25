@@ -47,6 +47,24 @@ export interface Meaning {
   definition: string;
   example_sentence_kurukh?: string;
   example_sentence_translation?: string;
+  audio_url?: string;
+  dialect?: string;
+  region?: string;
+}
+
+export interface WordLinguistics {
+  grammatical_tag?: string;
+  verb_class?: string;
+  transitivity?: 'tr' | 'intr';
+  gender?: 'm' | 'f';
+  loanword_from?: string;
+}
+
+export interface WordBookSource {
+  book: string;
+  page_image?: string;
+  page_label?: string;
+  hindi_source?: string;
 }
 
 export interface WordVoteRecord {
@@ -59,9 +77,19 @@ export interface WordVoteRecord {
 export interface Word {
   id: string;
   kurukh_word: string;
+  kurukh_word_ascii?: string;
+  homograph_index?: number;
   meanings: Meaning[];
   part_of_speech?: string;
+  linguistics?: WordLinguistics;
+  notes?: string;
+  example_phrase?: string;
+  variant_of?: string;
+  variants?: string[];
   pronunciation_guide?: string;
+  audio_url?: string;
+  dialect?: string;
+  region?: string;
   contributor_id: string;
   status: WordStatus;
   community_votes_for: number;
@@ -69,8 +97,10 @@ export interface Word {
   reviewed_by: WordVoteRecord[];
   likedBy: string[];
   likesCount: number;
-  commentsCount?: number;
+  commentsCount: number;
   rejection_reason?: string;
+  tags?: string[];
+  book_source?: WordBookSource;
   last_correction_applied?: {
     correction_id: string;
     applied_at: FirestoreDateLike;

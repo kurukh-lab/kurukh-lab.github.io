@@ -18,6 +18,8 @@
   --kd-accent-tint:  rgba(199, 82, 42, 0.10);
   --kd-sage:         #5A7A5F;
   --kd-sage-soft:    #8FA690;
+  --kd-amber:        #8B6510;
+  --kd-rose:         #9B2020;
 
   --kd-shadow-card:  0 1px 0 rgba(28, 24, 20, 0.06), 0 12px 40px -20px rgba(28, 24, 20, 0.18);
   --kd-shadow-elev:  0 30px 80px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(28, 24, 20, 0.10);
@@ -40,6 +42,8 @@
   --kd-accent-tint:  rgba(199, 82, 42, 0.18);
   --kd-sage:         #5A7A5F;
   --kd-sage-soft:    #8FA690;
+  --kd-amber:        #C4920E;
+  --kd-rose:         #D94040;
 
   --kd-shadow-card:  0 1px 0 rgba(0, 0, 0, 0.4), 0 12px 40px -20px rgba(0, 0, 0, 0.6);
   --kd-shadow-elev:  0 30px 80px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(242, 235, 220, 0.08);
