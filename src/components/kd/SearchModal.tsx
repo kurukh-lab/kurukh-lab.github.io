@@ -119,6 +119,7 @@ const SearchModal = () => {
     if (!needle) return list;
     return list.filter((word) => {
       if (word.kurukh_word?.toLowerCase().includes(needle)) return true;
+      if (word.kurukh_word_ascii?.toLowerCase().includes(needle)) return true;
       return (word.meanings || []).some((m) =>
         m.definition?.toLowerCase().includes(needle),
       );
