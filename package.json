@@ -16,6 +16,10 @@
     "init-db": "node scripts/initializeDatabase.js",
     "seed:emulator": "node scripts/seedDictionary.js",
     "seed:production": "node scripts/seedDictionary.js --production",
+    "typesense:up": "docker compose up -d typesense",
+    "typesense:down": "docker compose down typesense",
+    "typesense:index": "node scripts/indexTypesense.js",
+    "typesense:index:production": "node scripts/indexTypesense.js --production",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
@@ -45,6 +49,7 @@
     "react-i18next": "^17.0.8",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.0",
+    "typesense": "^3.0.6",
     "xstate": "^5.19.3"
   },
   "devDependencies": {

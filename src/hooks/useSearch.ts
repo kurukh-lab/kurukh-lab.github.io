@@ -1,5 +1,6 @@
 import { useState, type FormEvent } from 'react';
-import { searchWords } from '../services/dictionaryService';
+import { searchWordsTypesense } from '../services/typesenseService';
+import { searchWords as searchWordsFirestore } from '../services/dictionaryService';
 import type { SearchOptions, Word } from '../types';
 
 export interface UseSearchReturn {
@@ -35,10 +36,19 @@ export const useSearch = (): UseSearchReturn => {
     setLoading(true);
     setError(null);
     try {
-      const results = await searchWords(searchTerm.trim(), {
+      const searchOptions: SearchOptions = {
         language: filters.language || undefined,
         partOfSpeech: filters.partOfSpeech || undefined,
-      });
+      };
+
+      let results: Word[];
+      try {
+        results = await searchWordsTypesense(searchTerm.trim(), searchOptions);
+      } catch {
+        // Typesense unavailable — fall back to Firestore
+        results = await searchWordsFirestore(searchTerm.trim(), searchOptions);
+      }
+
       setSearchResults(results);
       if (results.length === 0) {
         setError('No words found matching your search criteria.');
