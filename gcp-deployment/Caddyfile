@@ -1,0 +1,3 @@
+34.9.2.35.nip.io {
+    reverse_proxy typesense:8108
+}

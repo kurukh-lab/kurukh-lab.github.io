@@ -1,0 +1,28 @@
+services:
+  typesense:
+    image: typesense/typesense:27.1
+    restart: on-failure
+    command: >
+      --data-dir /data
+      --api-key=${TYPESENSE_API_KEY}
+      --enable-cors
+    volumes:
+      - typesense-data:/data
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - typesense
+
+volumes:
+  typesense-data:
+  caddy-data:
+  caddy-config:
