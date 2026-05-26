@@ -52,7 +52,7 @@ const WordRow = ({ word, isFirst = false }: WordRowProps) => {
         </div>
         {gloss && (
           <div
-            className="kd-font-serif italic mt-0.5"
+            className={`${word.meanings?.[0]?.language === 'hi' ? 'kd-font-deva' : 'kd-font-serif'} italic mt-0.5`}
             style={{ fontSize: 16, color: 'var(--kd-ink-soft)' }}
           >
             {gloss}

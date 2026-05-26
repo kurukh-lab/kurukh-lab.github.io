@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const KURUKH_LETTERS = [
@@ -11,10 +12,24 @@ const HINDI_LETTERS = [
   'प', 'फ', 'ब', 'भ', 'म', 'य', 'र', 'ल', 'व', 'श', 'स', 'ह',
 ];
 
-const AlphabetRibbon = () => {
+interface AlphabetRibbonProps {
+  activeLetter?: string;
+  onLetterClick?: (letter: string) => void;
+}
+
+const AlphabetRibbon = ({ activeLetter, onLetterClick }: AlphabetRibbonProps) => {
   const { i18n } = useTranslation();
+  const navigate = useNavigate();
   const letters = i18n.language?.startsWith('hi') ? HINDI_LETTERS : KURUKH_LETTERS;
-  const active = i18n.language?.startsWith('hi') ? 'क' : 'B';
+  const active = activeLetter || '';
+
+  const handleClick = (letter: string) => {
+    if (onLetterClick) {
+      onLetterClick(letter);
+    } else {
+      navigate(`/lexicon/${encodeURIComponent(letter)}`);
+    }
+  };
 
   return (
     <div
@@ -26,12 +41,13 @@ const AlphabetRibbon = () => {
       }}
     >
       {letters.map((letter) => {
-        const isActive = letter === active;
+        const isActive = letter.toLowerCase() === active.toLowerCase();
         return (
           <button
             key={letter}
             type="button"
-            className="kd-font-serif transition-colors"
+            className="kd-font-serif transition-all hover:scale-105 active:scale-95"
+            onClick={() => handleClick(letter)}
             style={{
               minWidth: 48,
               height: 48,
@@ -43,6 +59,7 @@ const AlphabetRibbon = () => {
               flex: '1 0 48px',
               border: 'none',
               cursor: 'pointer',
+              boxShadow: isActive ? '0 4px 12px var(--kd-accent-tint)' : 'none',
             }}
           >
             {letter}

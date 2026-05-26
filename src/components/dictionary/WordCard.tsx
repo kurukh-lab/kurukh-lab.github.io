@@ -29,7 +29,7 @@ const WordCard = ({ word, compact = false, searchTerm = '' }: WordCardProps) => 
                 : word.kurukh_word}
             </h3>
             {word.meanings && word.meanings.length > 0 && (
-              <p className="text-neutral-content text-sm mt-1 line-clamp-1">
+              <p className={`text-neutral-content text-sm mt-1 line-clamp-1 ${word.meanings[0].language === 'hi' ? 'kd-font-deva' : ''}`}>
                 {searchTerm
                   ? highlightText(word.meanings[0].definition, searchTerm)
                   : word.meanings[0].definition}
@@ -82,7 +82,7 @@ const WordCard = ({ word, compact = false, searchTerm = '' }: WordCardProps) => 
                 <span className="font-medium text-secondary-content">
                   {meaning.language === 'en' ? 'English' : 'Hindi'}:
                 </span>
-                <span className="ml-1 text-neutral-content">
+                <span className={`ml-1 text-neutral-content ${meaning.language === 'hi' ? 'kd-font-deva' : ''}`}>
                   {searchTerm
                     ? highlightText(meaning.definition, searchTerm)
                     : meaning.definition}

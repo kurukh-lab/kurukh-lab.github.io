@@ -18,12 +18,12 @@ describe('Word Reporting', () => {
     });
     fireEvent.change(
       screen.getByPlaceholderText(
-        'Please provide any additional information about the issue',
+        'Anything else admins should know about this issue?',
       ),
       { target: { value: 'The definition is incorrect.' } },
     );
-    fireEvent.click(screen.getByText('Submit Report'));
+    fireEvent.click(screen.getByText('Submit report'));
 
-    expect(screen.getByText('Submitting...')).toBeInTheDocument();
+    expect(screen.getByText('Submitting…')).toBeInTheDocument();
   });
 });

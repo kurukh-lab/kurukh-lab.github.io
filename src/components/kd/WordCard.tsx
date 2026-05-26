@@ -312,7 +312,7 @@ const RowLayout = ({
         </div>
         {gloss && (
           <div
-            className="kd-font-serif italic mt-0.5"
+            className={`${word.meanings?.[0]?.language === 'hi' ? 'kd-font-deva' : 'kd-font-serif'} italic mt-0.5`}
             style={{ fontSize: cfg.glossSize, color: 'var(--kd-ink-soft)' }}
           >
             {highlightTerm ? highlightText(gloss, highlightTerm) : gloss}
@@ -466,7 +466,7 @@ const MeaningBlock = ({
       {languageLabel(meaning.language)}
     </div>
     <p
-      className="kd-font-serif"
+      className={meaning.language === 'hi' ? 'kd-font-deva' : 'kd-font-serif'}
       style={{
         fontSize: definitionSize,
         color: 'var(--kd-ink)',

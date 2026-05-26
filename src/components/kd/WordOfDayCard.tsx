@@ -99,7 +99,7 @@ const WordOfDayCard = ({ word }: WordOfDayCardProps) => {
           </>
         ) : (
           <p
-            className="kd-font-serif"
+            className={primaryMeaning?.language === 'hi' ? 'kd-font-deva' : 'kd-font-serif'}
             style={{
               fontSize: 22,
               lineHeight: 1.5,

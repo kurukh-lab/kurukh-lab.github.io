@@ -90,6 +90,8 @@ html, body {
 .kd-font-serif  { font-family: var(--kd-font-serif); }
 .kd-font-sans   { font-family: var(--kd-font-sans); }
 .kd-font-mono   { font-family: var(--kd-font-mono); }
+.kd-font-deva   { font-family: var(--kd-font-deva); }
+.kd-font-hindi  { font-family: var(--kd-font-deva); }
 
 .kd-eyebrow {
   font-family: var(--kd-font-mono);

@@ -25,6 +25,7 @@ const LikeTestPage = lazy(() => import("./pages/LikeTestPage"));
 const HighlightTestPage = lazy(() => import("./pages/HighlightTestPage"));
 const WordReviewDemo = lazy(() => import("./pages/WordReviewDemo"));
 const KurukhEditor = lazy(() => import("./pages/KurukhEditor"));
+const Lexicon = lazy(() => import("./pages/Lexicon"));
 
 const Spinner = (
   <div className="flex justify-center p-10">
@@ -49,6 +50,14 @@ function App() {
                 element={
                   <Lazy>
                     <WordDetails />
+                  </Lazy>
+                }
+              />
+              <Route
+                path="/lexicon/:letter"
+                element={
+                  <Lazy>
+                    <Lexicon />
                   </Lazy>
                 }
               />

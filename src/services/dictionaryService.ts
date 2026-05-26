@@ -811,3 +811,54 @@ export const getHomePageData = async (): Promise<HomePageData> => {
     date: today,
   };
 };
+
+export const getWordsByLetter = async (letter: string): Promise<Word[]> => {
+  try {
+    const processedLetter = letter.trim().toLowerCase();
+    const baseQuery = query(
+      wordsCollection,
+      where('status', '==', 'approved'),
+    );
+    const querySnapshot = await getDocs(baseQuery);
+    const words: Word[] = [];
+
+    querySnapshot.forEach((d) => {
+      const wordData = { id: d.id, ...d.data() } as Word;
+      
+      // Check if letter is Hindi (Devanagari)
+      const isHindiLetter = /[\u0900-\u097F]/.test(processedLetter);
+      
+      if (isHindiLetter) {
+        // For Hindi letter, we search if any of the Hindi meanings/definitions start with this letter
+        const matchesHindi = wordData.meanings?.some((m) => {
+          if (m.language !== 'hi') return false;
+          const def = m.definition?.trim() || '';
+          return def.toLowerCase().startsWith(processedLetter);
+        });
+        if (matchesHindi) {
+          words.push(wordData);
+        }
+      } else {
+        // For Kurukh (Latin) letter, we check starting letter of kurukh_word or kurukh_word_ascii
+        const wordValue = wordData.kurukh_word?.trim().toLowerCase() || '';
+        const asciiValue = wordData.kurukh_word_ascii?.trim().toLowerCase() || '';
+        
+        if (wordValue.startsWith(processedLetter) || asciiValue.startsWith(processedLetter)) {
+          words.push(wordData);
+        }
+      }
+    });
+
+    // Sort alphabetically
+    words.sort((a, b) => {
+      const aWord = a.kurukh_word?.toLowerCase() || '';
+      const bWord = b.kurukh_word?.toLowerCase() || '';
+      return aWord.localeCompare(bWord);
+    });
+
+    return words;
+  } catch (error) {
+    console.error('Error fetching words by letter:', error);
+    throw error;
+  }
+};

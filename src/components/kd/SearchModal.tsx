@@ -550,7 +550,7 @@ const ResultsList = ({
                   )}
                   {gloss && (
                     <span
-                      className="kd-font-serif italic line-clamp-1"
+                      className={`${word.meanings?.[0]?.language === 'hi' ? 'kd-font-deva' : 'kd-font-serif'} italic line-clamp-1`}
                       style={{ fontSize: 13, color: 'var(--kd-ink-soft)' }}
                     >
                       {highlightMatch(gloss, searchTerm)}
@@ -686,7 +686,7 @@ const DetailPane = ({
 
       {hindiMeaning?.definition && (
         <p
-          className="kd-font-serif mt-2 mb-0"
+          className="kd-font-deva mt-2 mb-0"
           style={{
             fontSize: 'clamp(18px, 1.8vw, 22px)',
             color: 'var(--kd-ink-soft)',

@@ -921,7 +921,7 @@ const FocusedPendingReview = ({
                                         </div>
                                         <div>
                                             <div
-                                                className="kd-font-serif"
+                                                className={meaning.language === 'hi' ? 'kd-font-deva' : 'kd-font-serif'}
                                                 style={{
                                                     fontSize: 22,
                                                     lineHeight: 1.35,

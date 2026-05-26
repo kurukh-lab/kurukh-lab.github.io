@@ -453,5 +453,14 @@
       "generic": "Failed to log in. Please check your credentials and try again.",
       "google": "Failed to log in with Google. Please try again."
     }
+  },
+  "lexicon": {
+    "title": "Browse Lexicon: {{letter}}",
+    "subtitle": "Explore all vocabulary entries starting with this letter.",
+    "breadcrumb": "Browse",
+    "noWords": "No words start with this letter yet.",
+    "backHome": "Back to Home",
+    "totalCount_one": "{{count}} entry matching this letter",
+    "totalCount_other": "{{count}} entries matching this letter"
   }
 }

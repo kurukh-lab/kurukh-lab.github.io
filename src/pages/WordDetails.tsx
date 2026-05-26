@@ -230,7 +230,7 @@ const WordDetails = () => {
                     {meaning.language === 'hi' ? t('word.hindi') : t('word.english')}
                   </div>
                   <p
-                    className="kd-font-serif"
+                    className={meaning.language === 'hi' ? 'kd-font-deva' : 'kd-font-serif'}
                     style={{
                       fontSize: 22,
                       color: 'var(--kd-ink)',
